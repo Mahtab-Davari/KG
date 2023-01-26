@@ -1,0 +1,1599 @@
+sustainability
+Article
+
+Approaches to Social Innovation in Positive Energy Districts
+(PEDs)—A Comparison of Norwegian Projects
+Daniela Baer 1, *, Bradley Loewen 2 , Caroline Cheng 1 , Judith Thomsen 1 , Annemie Wyckmans 3 ,
+Alenka Temeljotov-Salaj 4 and Dirk Ahlers 3
+1
+
+2
+
+3
+
+4
+
+*
+
+
+
+Citation: Baer, D.; Loewen, B.;
+Cheng, C.; Thomsen, J.; Wyckmans,
+A.; Temeljotov-Salaj, A.; Ahlers, D.
+Approaches to Social Innovation in
+Positive Energy Districts (PEDs)—A
+Comparison of Norwegian Projects.
+Sustainability 2021, 13, 7362.
+https://doi.org/10.3390/su13137362
+Academic Editor: Kristian Fabbri
+
+SINTEF Community, NO-7034 Trondheim, Norway; caroline.cheng@sintef.no (C.C.);
+judith.thomsen@sintef.no (J.T.)
+Department of Interdisciplinary Studies of Culture, NTNU—Norwegian University of Science and
+Technology, NO-7491 Trondheim, Norway; bradley.loewen@ntnu.no
+Department of Architecture and Planning, NTNU—Norwegian University of Science and Technology,
+NO-7491 Trondheim, Norway; annemie.wyckmans@ntnu.no (A.W.); dirk.ahlers@ntnu.no (D.A.)
+Department of Civil and Environmental Engineering, NTNU—Norwegian University of Science and
+Technology, NO-7491 Trondheim, Norway; alenka.temeljotov-salaj@ntnu.no
+Correspondence: daniela.baer@sintef.no
+
+Abstract: The Positive Energy District (PED) concept is a localized city and district level response to
+the challenges of greenhouse gas emission reduction and energy transition. With the Strategic Energy
+Transition (SET) Plan aiming to establish 100 PEDs by 2025 in Europe, a number of PED projects
+are emerging in the EU member states. While the energy transition is mainly focusing on technical
+innovations, social innovation is crucial to guarantee the uptake and deployment of PEDs in the built
+environment. We set the spotlight on Norway, which, to date, has three PED projects encompassing
+12 PED demo sites in planning and early implementation stages, from which we extract approaches
+for social innovations and discuss how these learnings can contribute to further PED planning and
+implementation. We describe the respective approaches and learnings for social innovation of the
+three PED projects, ZEN, +CityxChange and syn.ikia, in a multiple case study approach. Through the
+comparison of these projects, we start to identify social innovation approaches with different scopes
+regarding citizen involvement, stakeholder interaction and capacity building. These insights are
+also expected to contribute to further planning and design of PED projects within local and regional
+networks (PEDs in Nordic countries) and contribute to international PED concept development.
+Keywords: social innovation; positive energy districts; PED; energy transition; smart cities; zero
+emission neighborhoods; sustainable positive energy neighborhoods; positive energy blocks; Norway
+
+Received: 19 May 2021
+Accepted: 23 June 2021
+Published: 30 June 2021
+
+1. Introduction
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Reaching the climate gas reduction goals of the Paris Agreement is a challenge for
+stakeholders on all geographical and governance levels, from nations, regions, cities and
+districts. Cities and, especially, the district level, are pointed out as one of the important
+areas for change because cities consume approximately 80% of the total energy and are
+accountable for approximately 75% of global greenhouse gas (GHG) emissions [1]. Significant energy savings, emission reduction, the realization of economies of scale and increased
+energy security can be realized by considering holistic solutions on the district level. From
+a governance perspective, districts offer the appropriate arena for collaboration between
+different sectors and stakeholders in order to enable a holistic and inter-sectoral approach
+to energy planning as an integrative part of sustainable urban development [2,3]. The
+Positive Energy District (PED) concept is a localized response on the district level to the
+challenges of emission reduction and the European energy transition. It integrates local
+energy generation, plus-buildings and infrastructure with wider strategic and stakeholder
+approaches to anchor energy efficiency and renewable energy sources at the district level.
+
+Sustainability 2021, 13, 7362. https://doi.org/10.3390/su13137362
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2021, 13, 7362
+
+2 of 21
+
+The PED approach is formulated on the European level through European initiatives,
+such as the Strategic Energy Transition (SET) Plan and is mainly based on technological
+innovations in the field of energy efficiency, renewable energy production and energy
+flexibility. However, we turn attention to the role of the social dimension, in particular
+the generation of social innovation in the planning, implementation and achievement of
+PEDs at the local level. A social innovation is defined as a new idea that aims at meeting
+social goals [4]. Thus, the role of social innovation within PED development is to enable
+the improvement of well-being for citizens and civil society in general.
+Sustainability transition studies argue for a prominent role of citizens in the achievement of successful transitions, namely giving them a prominent role within the quadruple
+helix model (industry, government, academia and civil society) and emphasizing the
+citizen-oriented innovation approach [5–7]. The role of citizens is especially relevant in
+the Nordic model of sustainable development, which focuses heavily on social inclusion
+to promote the energy transition amongst other sustainability-related practices and behaviors [8,9]. The involvement of citizens in the development of PEDs can be seen as one
+means to foster social innovation in PED development.
+As the PED concept, and the development of the first PED projects in Europe, is at an
+early stage, we examine the practical approach towards social innovation in Norwegian
+projects. We ask: What is the variety of social innovation approaches in planning and early
+implementation of PED projects in Norway and what are the learnings to guide future PED
+developments in social innovations? To answer these questions, we focus on the early planning
+and implementation stage of PEDs, according to the status of Norwegian PED projects.
+The objective of this paper is to give practitioners and researchers guidance on the future
+planning and design of PED projects regarding social innovation activities. Thus, the value
+of the research is to identify and map social innovation approaches in Norwegian PED
+projects and synthesize practical guidance for future PED projects.
+This paper proceeds to introduce the PED concept and definition under development,
+as well as the concept of social innovation within the PED approach in Section 2. Section 3
+will introduce the methodology applied to investigate the social innovation approaches and
+the context of PED development in Norway. We will introduce the three case studies and
+present the identified approaches in Section 4, discuss implications for social innovation in
+Section 5 and conclude with how these findings can contribute to the further development
+of the PED concept.
+2. Background: PED Concept and Social Innovation
+2.1. PED Definitions
+We take, as a point of departure, the body of work generated by European initiatives to
+define PEDs and shape frameworks and strategies for PED development and future implementation. PED concept development has been acknowledged as a work-in-progress [10],
+while the primary sources for definitions indicate a general consensus on its basic elements.
+The European Commission defines Positive Energy Blocks/Districts as “several buildings
+[ . . . ] that actively manage their energy consumption and the energy flow between them
+and the wider energy system”. They have “an annual positive energy balance”, “are
+designed to be an integral part of the district/city energy system” and are “intrinsically
+scalable and [ . . . ] well embedded in the spatial, economic, technical, environmental and
+social context of the project site” [1]. Similarly, the Joint Programming Initiative on Urban
+Europe (JPI UE) defines PEDs as “energy-efficient and energy-flexible urban areas or groups
+of connected buildings which produce net zero greenhouse gas emissions and actively
+manage an annual local or regional surplus production of renewable energy. They require
+integration of different systems and infrastructures and interaction between buildings, the
+users and the regional energy, mobility and ICT systems, while securing the energy supply
+and a good life for all in line with social, economic and environmental sustainability” [10].
+An operational definition of PEDs is evolving based on input from the eighth European framework program for Research and Innovation Horizon 2020 (H2020) Light-
+
+Sustainability 2021, 13, 7362
+
+3 of 21
+
+house projects, the calls for which were designed to be in accordance with the SET
+Plan. The operational definition highlights the transitional aspects of PEDs and defines pathways of multiple ambition levels, ranging from importing clean energy from
+outside, up to fully self-sufficient and autonomous operation. Initial results of these
+PED definition workshops are summarized in [11], including the transitional approach
+identifying several possibilities for PED configuration. This underlines the ambition of
+PEDs as a process of growth and transition. Recent work has also initially analyzed
+overall PED implementation approaches in Europe and discusses their operational focus areas [12]. Technical definitions are also made available by related projects (e.g.,
+https://cityxchange.eu/knowledge-base/positive-energy-districts-ped/) (accessed on 19
+May 2021).
+2.2. SET Plan Approach
+The SET Plan aims to establish 100 PEDs by 2025 under Action 3.2 [13]. The delicate
+balance between technological and societal dimensions of PEDs is reflected in the set of
+eight challenges and requirements of the plan. On the one hand, integrated technological
+innovations play a key role. They do so by tackling the innovation need across building,
+energy, mobility and ICT sectors, including integrated urban energy system operation
+and planning and the digital planning of cities. They also maximize the use of renewable
+energy resources and designing flexibility options across different building types within
+the district in interaction with the wider energy system of the surrounding neighborhood.
+Technological innovations, supported by regulatory mechanisms to enable these processes,
+are indispensable to realize PEDs. On the other hand, social innovations are also imperative
+for transition. The eventual aim is to ensure that PEDs will be affordable for the majority of
+citizens and to generate wide public acceptance. Therefore, eventual realization calls for
+consumer-driven innovation in new energy markets. In particular, the transition from the
+passive consumer to the active prosumer role needs to be supported. In addition, a plethora
+of actors from technical experts to public administration and regulatory authorities will
+need to be activated and trained to establish the knowledge base for and supporting the
+whole process of developing and deploying PEDs. Urban authorities will have to take on a
+strong leadership and facilitator role to ensure that citizens and businesses as well as the
+wider community know, understand and participate in PED development.
+2.3. Social Innovation Approaches
+In the early 1960s, a theoretical differentiation between technical and social innovations was already described [14], but the concept of technological innovation gained
+stronger attention than social innovation in the literature [15]. In recent decades, however,
+social innovation has risen in prominence in the policy sphere, including on the EU level,
+as there developed a shared expectation towards the empowering potentials of social
+innovations and as the process of innovation is understood as a social action that mobilizes
+civic creativity and problem-solving capacity [16]. Social innovation is often seen from a
+perspective of empowerment, as a means for realizing development with citizens and other
+stakeholders as self-reliant actors who take change and development into their own hands,
+especially under pressing social, economic and environmental challenges [17]. Focusing on
+social innovation in PED development aids in orienting the technical innovation aspect
+towards the improved quality of life of citizens and civil society [18].
+Referring again to the eight key challenges and requirements for PED development
+identified in the SET Plan, three relate to the domain of social innovation: stakeholder
+interaction, citizen participation and capacity building [13]. Stakeholder interaction is one
+crucial element for enabling social innovation within the quadruple helix model of cooperation involving stakeholders from the public and private sectors, academia and civil
+society [19]. A strong emphasis is placed on citizens and their needs, introducing an element of democratization in the innovation process. One of the current arguments around
+sustainable development is that it should be attained within the framework drawn up by
+
+Sustainability 2021, 13, 7362
+
+4 of 21
+
+a democratic society [20]. The challenges of PEDs address the difference between sociotechnical disciplines and segregation of their strategies, interests and perspectives, and
+challenges of governance in which citizens can contribute to the co-creation of solutions
+within this context. This calls for an intermediary which encompasses both perspectives,
+to create a counterbalance and engender consensus over important decisions [21,22]. The
+public sector represents an intermediary of social innovation in the urban environment [23].
+Broad stakeholder interaction is supported for PED implementation in the view of the
+EU Smart Cities Information System (SCIS) and ongoing Horizon 2020 PED Lighthouse
+projects [24].
+The closely related field of smart cities applies social innovation to socio-technical
+systems with citizens as end-users [25], directing attention to citizen participation in technical innovation processes. In recent years, smart city initiatives have fallen short of their
+objectives to meet user needs due to a lack of participation and public value creation [26].
+According to Hollands (2008), smart cities should begin with people and human capital, and technical systems should support their vision of the city [27]. This indicates a
+bottom-up approach that, in relation to grand societal challenges, must meet top-down
+initiatives related to the decarbonization of cities. Building on Arnstein’s (1963) ladder
+of participation [28], Cardullo and Kitchin (2019) developed the scaffold of smart citizen
+participation, showing levels of power to influence the outcome of participation processes
+from ‘non-participation’—e.g., in a way to convince the end-user to apply technology in
+a desired way—to ‘inclusive’, with citizens as co-creators in innovation processes and
+outcomes [29]. While research on citizen participation methods remains relatively scant,
+a recent review specifies roles of citizens as democratic participants, co-creators and ICT
+users in a multi-stakeholder ecosystem comprised of public servants, political representatives and ICT managers [30]. Expanding these lists for PEDs, we can also consider the
+roles of citizens as energy producers and consumers, adding representatives from energy,
+engineering and utility companies, the real estate, building and construction sector, and
+financial intermediaries to the multi-stakeholder ecosystem. Attempts to open smart city
+solutions to citizen participation can be seen in the Nordic context, for example, through
+sustainable refurbishments [31].
+To enable social innovation, the ability of stakeholders to co-create is crucial. One
+aspect of that can be described by the term capacity building. Capacity building is defined
+as activities that strengthen the abilities, knowledge, skills and behavior of individuals
+(individual capacity building) or organizations (organizational capacity building) [32,33].
+Capacity building is thereby understood as both a process for improving the capacities of
+individuals and, at the same time, as an outcome of that process [34]. In relation to citizen
+participation, capacity building can be understood as local actors (including government
+institutions) aiming to enable citizens to participate or to build up human capital in the
+form of skills, experiences and knowledge [35,36].
+For the PED concept to be realized in a sustainable way, the PED community of
+practitioners and researchers not only faces a multitude of technological requirements and
+challenges, but also has to address a host of social innovation aspects with regard to the
+planning and early implementation of PEDs. Yet social aspects are the least researched
+amongst the topics addressed in the PED literature [37]. From this review and based on the
+SET Plan framework [13], we select the most described and case-relevant approaches to
+enabling social innovation within PED deployment as: citizen involvement, stakeholder
+interaction and capacity building (see Figure 1).
+Given the diverse social, economic and political contexts of localities implementing
+PEDs, there will probably be no simultaneous universal and detailed strategy that can be
+applied to achieve low-carbon urban development through PED approaches. Rather, those
+involved in urban development are challenged to identify and adapt suitable strategies
+within their geographical city, operational towards PED implementation [38]. Sustainable
+transition of the built environment and successful implementation of the PEDs within the
+
+Sustainability 2021, 13, 7362
+
+5 of 21
+
+respective urban districts therefore asks for a balanced approach towards innovation that
+is combining technological and social dimensions [39].
+
+Figure 1. Social innovation approaches relevant for PED development, own figure based on [13].
+
+In the remainder of the paper, we set the spotlight to Norway to analyze existing
+approaches towards social innovation as a complementary part to technological innovations
+in PED development and to take into consideration its diverse local contexts. Norway
+currently has one of the largest numbers of PED projects in development [37,40,41]. The
+aim is to extract learnings from a multitude of approaches towards social innovation in
+diverse localities that will contribute to PED concept development and help other PED
+projects in planning and designing their approaches. We therefore ask: What is the variety
+of social innovation approaches in planning and early implementation of PED projects in Norway
+and what are the learnings to guide future PED developments in social innovations?
+3. Methodology
+3.1. Research Approach
+This research adopted a qualitative comparative case study method, which is useful for
+highlighting similarities and differences between cases through the study of phenomena in
+various contexts [42]. We paid particular attention to conceptual and procedural differences
+in PED projects to enable a dialogue between theory and evidence [43]. The comparative
+method is used in the social sciences where laboratory conditions are often not possible.
+With a small number of cases, we used the ‘found experiment’ cases for within- and
+cross-case analysis of PEDs in different real-world contexts. The cases were limited to
+Norway, providing for a common political-institutional, social and economic environment
+and allowing us to focus on the planning, process, and technical differences between the
+cases through a ‘method of difference’ approach for concept development and early-stage
+implementation. A qualitative approach was also chosen due to limited data availability of
+quantitative indicators from the projects at their early stage of development.
+The approach enabled a comparison of three PED projects in Norway—ZEN, +CityxChange and syn.ikia—from which we drew insights on the challenges from the early stages
+and relevant dimensions for enriching the PED concept. More specifically, the analysis
+provided an understanding of the different foundations of PED projects in Norway, the
+different approaches to social innovation within the PED concept and characteristics of
+specific projects, and learnings from early-stage PED planning and implementation. This
+comparison was done in 2020.
+3.2. Context of Developing PEDs in Norway
+Before expanding upon the potential for social innovation in PEDs, it is relevant to
+set the particular context of sustainable development in Nordic countries and Norway.
+Norway is in a unique position regarding PED developments to investigate early-stage
+implementation of PEDs. Not only is Norway’s power system based on renewable energy
+with the electricity production based mainly on hydropower, but the initiative for PED
+
+Sustainability 2021, 13, 7362
+
+6 of 21
+
+development and the PED concept is supported and fits within Norway’s high-level energy
+strategies and policies, thereby positioning Norway in a prominent role towards decarbonization of the electricity system. The initiative for PED development, with the focus on
+local energy generation, is supported and fits within high-level strategies and national policies. Norway aligns with the Nordic approach to sustainable development, which includes
+a common strategy for implementing Agenda 2030 and the Sustainable Development Goals
+(SDGs) [44] and has the tendency to preference social aspects of sustainability [8,9]. Thus,
+the Nordic setting presents favorable conditions for exploiting highly technical solutions
+for energy transition such as PEDs, in a way that emphasizes social dimensions. Social
+innovation within the Nordic model relates to activities that are social in both needs and
+ends, such as collaborations between multiple stakeholders in a community that initiate
+and drive developments to meet new challenges of the future [45,46].
+In 2008, the Norwegian Parliament had decided that Norway should become carbon
+neutral by 2050 and, recently, Norway enhanced its nationally determined contribution
+under the Paris Agreement to reduce emissions by at least 50%, and towards 55% compared
+to 1990 levels, by 2030 [47]. While there is no specific regulation for PEDs, the policy
+framework consists of different laws and regulations, guiding principles, white papers
+and standards which influence the implementation of PEDs. Prominent amongst these are
+EU directives with relevance to the EEA (including Norway): The Energy Performance
+of Buildings Directive (EPBD) and Energy Efficiency Directive (EED). Through these,
+which have yet to be completely transposed and adopted in Norway, progressively stricter
+efficiency requirements are being put into force. For the energy sector, the national energy
+laws (Act on the production, transformation, transfer, turnover, distribution and use of
+energy, Energy Act, (Norwegian: Energiloven; LOV-1990-06-29-50 (https://lovdata.no/
+dokument/NL/lov/1990-06-29-50)) (accessed on 19 May 2021), require the development
+of energy and climate plans on the municipal level. Furthermore, in the Norwegian
+context, energy efficient solutions should become the preferred choice for consumers in
+the future [48]. The National Water and Energy Directorate (NVE) introduced the pluscustomer arrangement to enable the rise of prosumers in Norway. The country’s clean and
+renewable energy resources for national demands, technological readiness and orientation
+of sustainable development towards social objectives encourages the deeper analysis of the
+social dimension in PED development.
+Citizen involvement in urban development is guaranteed by the Planning and Building Act (LOV-2008-06-27-71 (https://lovdata.no/dokument/NL/lov/2008-06-27-71) (accessed on 19 May 2021), which has the aim of promoting sustainable development in the
+best interests of individuals, society and future generations. According to the Act, planning
+should facilitate coherence between multiple sectors, functions and interests of society.
+Public participation is the responsibility of municipalities and regional authorities. According to a study of 16 Norwegian municipalities, the number of participation measures does
+not affect the level of citizen participation but does affect citizens’ perceptions of being
+heard [49]. The actual approaches and quality of citizen participation are described as varied. We can see that early participation more often leads to long-term citizen engagement,
+while late participation has advantages and disadvantages for the citizen. On the one hand,
+the issues at stake become more specific and concrete, but on the other, the citizens’ real
+influence on the decision becomes more limited.
+4. Results
+4.1. Case Analysis
+Case 1: ZEN Centre. The Research Centre on Zero Emission Neighbourhoods in
+Smart Cities (ZEN Centre) (https://fmezen.no/) (accessed on 19 May 2021) will last eight
+years (2017–2024), and the budget is approximately 48 million EUR, funded by the RCN,
+the research partners NTNU and SINTEF, and the user partners from the private and
+public sector in Norway. NTNU is the host and leads the Centre together with SINTEF.
+The goal is to develop solutions for future buildings and neighborhoods with zero life-
+
+Sustainability 2021, 13, 7362
+
+7 of 21
+
+cycle greenhouse gas emissions and thereby contribute to a low carbon society. The ZEN
+approach is building primarily on reduction of embodied emissions and energy demand
+and is aligned with compensation of emissions by renewable energy production [50]. The
+ZEN Centre, as a follow-up center to the Centre for Zero Emission Buildings, has 11
+public partners, including Trondheim municipality, 21 industry partners and 2 research
+partners (NTNU and SINTEF). The partners of FME ZEN cover the entire value chain of
+built environment development on a neighborhood scale in the framework of smart cities
+and include representatives from municipal and regional governments, property owners,
+developers, consultants and architects, contractors, energy companies, manufacturers of
+materials and products, and governmental organizations.
+The ZEN Centre will contribute to and manage a series of neighborhood-scale demo
+sites, which will act as innovation hubs and as testing grounds for the solutions developed in the ZEN Centre [51]. They are geographically limited, primarily urban areas in
+Norway, in which the Centre’s researchers, together with the user partners, test the ZEN
+indicators under development and new solutions for the construction, operation and use
+of neighborhoods. This is in order to study how to reduce the greenhouse gas emissions on
+a neighborhood scale towards zero.
+Case 2: +CityxChange. The aim of +CityxChange (https://cityxchange.eu/) (accessed on 19 May 2021) is to develop and deploy Positive Energy Blocks (PEBs) and
+Districts (PEDs) to achieve sustainable urban ecosystems that generate a surplus of local
+renewable energy by co-producing more energy than is consumed, integrating eMobility and energy trading, connecting energy and urban planning, involving citizens and
+stakeholders, improving quality of life and exchanging experiences with other cities across
+Europe. Co-creation of positive energy blocks and districts (PEB/PED) will be fulfilled
+through strategic alignment with city ambitions, citizen and stakeholder engagement and
+involvement, integrated planning, common energy markets, the use of digital services
+in an ICT ecosystem framework [31], regulatory sandboxes, integrated eMobility and
+sustainable business models. The expected outcomes include operational and scalable PED
+prototypes, an increase of local renewables and self-consumption, GHG emission reduction,
+meaningful stakeholder engagement and recommendations for policy intervention, market
+(de)regulation and business models that deliver positive energy communities. The project
+is structured around 11 topical and domain-specific demonstration projects that together
+form a holistic approach to PED development. These are developed in its two Lighthouse
+Cities and will be replicated in its five Follower Cities and beyond. +CityxChange is an EU
+H2020 Innovation Action project from the Smart City and Communities program and one
+of, to date, 18 high-level Lighthouse projects working on secure, affordable and clean energy in European Smart Cities (https://smartcities-infosystem.eu/scc-lighthouse-projects)
+(accessed on 19 May 2021). Direct funding is 20 million EUR, with an overall volume
+around 35 million EUR, running from 2018 to 2023. The consortium for +CityxChange
+consists of 32 partners: the 7 involved municipalities, 2 universities, 9 large enterprises,
+2 distribution network operators, 9 SMEs, and 3 non-profit organizations. The Norwegian
+University of Science and Technology (NTNU) is coordinating the project with the two
+Lighthouse Cities of Trondheim, Norway and Limerick, Ireland, and five Follower Cities of
+Alba Iulia, Písek, Sestao, Smolyan, and Võru.
+Case 3: Syn.ikia. Syn.ikia (https://synikia.eu/) (accessed on 19 May 2021) is an EU
+H2020 Innovation Action project that started in 2020 and will run until 2024. Syn.ikia puts
+forth the concept of SPEN (Sustainable Plus Energy Neighbourhood) where the geographical boundary is expanded from the building level to the entire site of the neighborhood
+development, including local storage units and energy supply units [52]. The mission
+in syn.ikia is to increase the proportion of SPENs with surplus renewable energy in different contexts, climates and markets in Europe. The project aims to achieve more than
+100% energy savings, 90% renewable energy generation triggered, 100% GHG emission
+reduction, and 10% life-cycle costs reduction, all compared to the 2020 nearly zero energy
+buildings. Syn.ikia will actively speed up the development of technologies for energy
+
+Sustainability 2021, 13, 7362
+
+8 of 21
+
+efficiency, renewable energy sources, storage, flexibility, and exploitation (replication, market upscale, risk reduction) to all relevant market actors via four real-life demonstration
+cases in four climatic zones. One of the demonstration cases will be in Oslo, representing a
+sub-arctic climate.
+An overview of the three cases is presented in Table 1.
+Table 1. Overview of the cases.
+Category
+
+ZEN
+
++CityxChange
+
+syn.ikia
+
+A. Program and Call Information
+Timeframe
+
+8 years (2017–2024)
+
+5 years (2018–2023)
+
+Project Context
+
+Follower project of FME ZEB on
+Zero Emission Buildings
+
+Project based on NTNU Smart
+Cities and Communities
+approaches and city ambitions
+
+Main Funding Agency
+
+Research Council of Norway
+
+Project Type
+
+Research Centre
+
+European Commission-Horizon
+2020
+Innovation Action
+
+Program
+
+FME—Research Centre for
+Environmentally Friendly
+Energy
+
+H2020-EU 3.3.1.3.—Foster
+European Smart cities and
+Communities
+
+Topic of Call
+
+N/A
+
+Budget
+
+48 million Euro
+
+EU H2020-LC-SC3-1-2018-20192020: Smart Cities and
+Communities
+35 million Euro
+
+4.5 years (2020–2024)
+Internationalization of FME
+ZEN to participate in
+international fora to exchange
+knowledge and experience
+European Commission-Horizon
+2020
+Innovation Action
+H2020-EU
+2.1.5.2.—Technologies enabling
+energy-efficient systems and
+energy-efficient buildings with
+low environmental impact
+EU H2020-LC-EEB-03-2019:
+New developments in
+plus-energy houses
+6.9 million Euro
+
+B. Management and Partners
+Coordinator
+
+NTNU: research institute; with
+SINTEF as main research
+partner
+
+NTNU: research institute; cities
+for city demo site coordination
+
+NTNU: research institute with
+SINTEF as part of consortium
+
+Partners
+
+32 Norwegian partners
+
+11 Norwegian and 21
+international partners
+
+Background of Partners
+
+Partners from whole value
+chain within construction sector,
+plus-energy sector and
+municipalities, research
+
+Research, public sector, energy,
+digital technology, engagement
+and outreach, planning, real
+estate, mobility
+
+3 Norwegian and 10
+international partners
+Property developers, urban
+design consultancies, energy
+forecasting and optimization
+solutions, real estate/facility
+management, research
+
+Role of Partners
+
+Active; but partners are not
+obligated to fulfil activities;
+Steering Committee led by
+partners
+
+Active; partners are jointly
+working on specific tasks for
+project objectives
+
+Active; partners are jointly
+working on specific tasks for
+project objectives
+
+C. Project Goals and Approach
+Project Goal
+
+Framework and methodology
+for Zero Emission
+Neighbourhoods
+
+Focus
+
+Emission reduction in the built
+environment, energy systems
+and energy flexibility,
+introduction of new technology
+solutions to marked
+
+Greenhouse Gas (GHG)
+Emissions
+
+Assessed in all life-cycle phases
+
+Design, deployment, testing,
+replication of PEBs/PEDs and
+PEB-enabling innovations
+Urban transitions, emission
+reduction, energy transition,
+local energy systems, Open
+Innovation, co-creation,
+sustainable business models,
+regulatory mechanisms
+Assessed in operational phase
+of the demo sites
+
+Replication and upscaling of
+SPENS; 10% market uptake of
+plus energy houses by 2030
+Development of new designs,
+tools, methods, and processes
+which will enable large
+deployment of sustainable plus
+energy buildings and
+neighborhoods
+Total GHG is part of its
+environmental performance
+indicators in the overall SPEN
+evaluation framework
+
+Sustainability 2021, 13, 7362
+
+9 of 21
+
+Table 1. Cont.
+Category
+
+ZEN
+
++CityxChange
+
+syn.ikia
+
+D. Implementation
+Demo Sites
+
+9 demo sites in 8 Norwegian
+Cities
+
+Coordinator of Demo
+Sites
+
+(Mainly) public steered demo
+sites
+
+2 PEB demo sites in Trondheim,
+Norway; 6 international demo
+sites
+Public and private steered demo
+sites
+
+1 demo site in Oslo, Norway
+and 3 international demo sites
+Private steered demo site
+
+Presentation of the Demo Sites for PED Implementation in Norway
+The three cases include twelve demo sites in Norway (Figure 2). Each demo site
+constitutes a unit of analysis and is presented in detail in Table 2 below.
+
+Figure 2. Units of analysis: 12 PED sites in Norway (source: authors’ own, with open map files
+from Kartverket).
+
+While all PED projects in the respective demo sites are aiming to become positive
+energy, either on an annual basis or over their lifetime, for each of the demo sites, an individual approach towards the PED concept, in general, and the energy system, specifically,
+is chosen, building on, e.g., reducing energy demand, energy flexibility and renewable
+energy production [53]. As the majority of demo sites are in the planning and construction
+phase, and several have been interrupted or altered since the beginning of the COVID-19
+pandemic, it is not possible to report actual or estimates of energy consumption for all
+demo sites in a meaningful way for comparison.
+As an initial estimate, the two +CityxChange demo sites are expected to have around
+a 3.2 GWh per year consumption that should be covered by renewables. Detailed numbers
+will be published in future Deliverables. Within ZEN, the yearly energy consumption is
+estimated for Ydalir with around 8 GWh, Fornebu with 4 GWh.
+
+Sustainability 2021, 13, 7362
+
+10 of 21
+
+Table 2. Overview of the 12 Norwegian PED demo sites across the 3 cases (ZEN, +CityxChange and syn.ikia).
+
+Demo Site
+
+Project
+
+Type of Area
+before PED
+Development
+
+Area Size (m2 )
+
+Project Owner
+
+Ydalir, Elverum
+
+ZEN
+
+Brownfield
+
+430,000
+
+Public
+
+Furuset, Oslo
+
+ZEN
+
+Mixed-use
+neighborhood with
+local center
+
+870,000
+
+Public
+
+Zero Village
+Bergen (ZVB),
+Bergen
+
+ZEN
+
+Greenfield
+
+378,000
+
+Private
+
+NTNU Campus,
+Trondheim
+
+ZEN
+
+University
+Campus
+
+339,031
+
+Public
+
+Sluppen,
+Trondheim
+
+ZEN,
++CxC
+
+Mixed use area,
+mainly commercial
+
+275,000
+
+Private (+CxC),
+Public (ZEN)
+
+Brattøra,
+Trondheim
+
++CxC
+
+Former harbor,
+mainly commercial
+and offices
+
+450,000
+
+Private (for site)/
+Public (for
+neighborhood
+level)
+
+Evenstad Campus
+
+ZEN
+
+University
+Campus
+
+61,000
+
+Public
+
+New City-New
+Airport, Bodø
+
+ZEN
+
+Former airport
+
+3,400,000
+
+Public
+
+Fornebu, Bærum
+
+ZEN
+
+Former airport
+
+3,400,000
+
+Public
+
+Mære, Steinkjer
+
+ZEN
+
+Agricultural school
+
+18,000 (Gross
+building area)
+
+Public
+
+Oen, Oslo
+
+syn.ikia
+
+Residential
+building
+
+12,750 (Gross
+building area)
+
+Private
+
+Planned Construction
+Residential area with a
+school and kindergarten
+Retrofitting/upgrading
+and new construction:
+1700–2300 dwellings and
+2000–3400 workplaces
+(up to 160,000 m2 )
+Residential area with
+720 dwellings
+(92,000 m2 ), a
+kindergarten and
+additional service
+functions
+Retrofitting and new
+construction (ca.
+136,000 m2 )
+Multifunctional local
+center with a mobility
+hub, residential area,
+offices, warehouses; incl.
+retrofitting and new
+construction
+Powerhouse office
+building completed,
+further (re) development
+upcoming, mobility hub
+with future e-ferries
+Optimization of energy
+system
+Multifunctional city
+quarter with residential
+and business areas; 2800
+dwellings in first
+construction stage
+Multifunctional city
+quarter, ca. 265,000 m2
+existing building stock,
+ca. 3700 new dwellings
+Optimization of energy
+system and control
+New residential
+building with 146
+housing units with
+sharing of community
+spaces, RES, local energy
+storage, peak shaving,
+flexibility and
+self-consumption
+
+To summarize the review of demo sites (Table 2), great variation was found between
+the types of projects, size and planned construction covering both existing areas and
+new buildings with multiple functions. The areas for PED development range from
+12,750 square meters of a residential site to 3,400,000 square meters of multi-functional
+city quarters. Moreover, approximately two-thirds of the projects, primarily from ZEN,
+are owned by public sector partners, and one-third, including +CityxChange and syn.ikia,
+
+Sustainability 2021, 13, 7362
+
+11 of 21
+
+by the private sector. The demos are highly shaped by project aims and their respective
+funding programs from 2017 to 2024 (Table 1), giving opportunity to learn from early
+experiences and deepen approaches to social innovation.
+4.2. Approaches towards Social Innovation
+The social innovation and participation dimensions concern the integration of citizens
+in innovation and urban transformation processes spurring PED development. The approaches to such integration differed across the three projects in their orientations to citizen
+involvement, stakeholder interaction and capacity building, education and learning. These
+three areas were selected based on the results in Section 2. We present the findings of our
+multiple case study on social innovation in this section. The key results of the comparison
+between the three PED approaches on social innovation are highlighted in Table 3 and are
+described in detail in the subsections that follow.
+Table 3. Social innovation approaches within the three cases of PEDs in Norway.
+Dimension
+
+ZEN
+
++CityxChange
+
+Citizen Involvement
+
+Focus on technical innovation,
+bottom-up approach for social
+innovation in demo sites,
+citizen participation facilitated
+by project partners
+
+Focus on technical and social
+innovation, citizen
+participation facilitated
+through the project
+
+Stakeholder Interaction
+
+Open innovation driven by
+consortium partners and local
+stakeholders related to each
+demo site. Prominent role of
+public sector as main demo
+site project owner (8 of 9 demo
+sites are public owned)
+
+Open innovation activities are
+driven by multiple
+stakeholders (public, research,
+private incl. SMEs, people)
+
+Professional capacity building
+
+Community capacity building,
+professional capacity building
+through intra-project
+exchanges, education through
+universities
+
+Capacity Building,
+Education and Learning
+
+syn.ikia
+Focus on demonstrating
+innovations and savings going
+from a building level to a
+neighborhood scale to
+encourage a new level of
+citizens’ participation and
+awareness via neighborhood
+scale user engagement systems,
+user journey assessments
+and surveys
+Open innovation driven by
+consortium partners, local
+stakeholders related to each
+demo site and the development
+of a wider online stakeholder
+community to engage partners
+in different parts of the
+value chain
+Capacity building is directed
+towards, not just end users, but
+actors in the combined value
+chain, hence extending to a
+diverse audience of experts,
+professionals and policy makers,
+such as investors, developers,
+municipalities, grid operators
+and utilities, and
+building owners
+
+4.2.1. Citizen Involvement
+The ZEN Centre is oriented to assisting partners in overcoming the traditional problems of citizen involvement. Social innovation is facilitated in living labs for experimentation with end-users and citizens [54]. There is, in general, a strong focus on technical
+innovation (e.g., across sectors) rather than social innovation. Nevertheless, the variety of
+ZEN demo sites across Norway present opportunities for social innovation, as they give
+insights on transformation processes and different stakeholder configurations in various
+regional contexts.
+An example for realizing social innovation across sectors of energy and urban planning
+was given by the demo site of Ydalir. The construction of the subsurface pipe system for
+district heating in the neighborhood was combined with the construction of a walking
+
+Sustainability 2021, 13, 7362
+
+12 of 21
+
+pathway above surface, connecting the demo site to the nearby city center in a shorter and
+more attractive way. This was an example for effective and early stakeholder collaboration
+between energy and urban planning actors. The collaboration was achieved through
+the facilitation of a series of workshops at the beginning of the planning phase of the
+project [55].
+In +CityxChange, social innovation and citizen participation have taken a central place
+in the design of the project. PEDs are co-created with stakeholders and are intended to be
+open to social innovations that may shape their development, to the extent possible within
+the framework of a H2020 program. There is a dedicated work package on co-creation and
+community participation, which develops frameworks and tools for community-oriented
+activities. Amongst others, learning frameworks, playbooks, innovation playgrounds
+and living labs are included [56,57]. The participating cities use these to adapt and test
+new approaches.
+In syn.ikia, the citizens are more occupants, residents and end-users. End-user involvement is planned in the development of a neighborhood scale user engagement system
+to facilitate the utilization of ‘energy plus’ systems from the building level to the neighborhood level focusing on the end-users in the value chain (i.e., households). This is
+anticipated to encourage a new level of citizens’ participation and awareness. In addition,
+a planned initiative is to conduct a post occupancy evaluation at the neighborhood scale,
+and a user journey assessment will also be prioritized to enhance user involvement and
+satisfaction. Surveys will be undertaken targeting the demo case residents to get insights
+on all aspects relating to energy and their behavior, feelings and actions in making the
+transition from a consumer to a prosumer.
+4.2.2. Stakeholder Interaction
+This dimension looks at co-creation and open innovation, particularly from the public
+sector perspective. The SET Plan foresees a need for a structured, integrated and innovative
+approach embedded in the city’s overall vision, which depends on the involvement of all
+relevant stakeholders. Public authorities are typically the gatekeepers and coordinators
+of the approach, due to their legal powers over land use, planning and infrastructure.
+Recognizing a need for open innovation pipelines to support PEDs from research to market
+and society, leadership in the public sector is essential. This can be achieved through cocreation and participatory processes, public sector innovation and procurement practices
+that encourage stakeholder participation and innovation. We compared the approaches to
+innovation and role of the public sector across the three projects.
+The ZEN Centre is characterized by open innovation driven by mainly the public
+sector within the demo sites and following an experimental approach to PED deployment.
+Besides the demo sites, the project uses living labs as an additional method for involving
+stakeholders. Eight of nine demo sites are publicly owned and coordinated by public
+sector at this early stage of development. Being the earliest of the three PED projects, this
+has led to early learnings for stakeholder involvement and co-creation in the Norwegian
+context. Following these early processes, it was observed that integration between different
+governmental levels and its stakeholders, e.g., municipal and regional public bodies, is crucial. For example, a missing awareness of existing governance structures and the need for
+collaboration between different hierarchical policy structures held the Zero Village Bergen
+project on hold for many years [22]. In the specific local contexts of the demos, the roles and
+responsibilities of coordinating actors were not always clear to all involved stakeholders,
+and it was necessary to ‘muddle through’ to find the right cross-sectoral and administrative
+points for cooperation. A variety of approaches towards coordination of PED projects
+in the demo sites was found, such as the local land development agency in Ydalir, and
+the creation of a municipal inter-departmental working group for PED development in
+the demo site in Bodø. Different background, experiences and responsibilities of project
+coordinators led to diverse approaches towards stakeholder involvement in the PED project
+development. A specific challenge was identified in multi-owned demo sites, where a
+
+Sustainability 2021, 13, 7362
+
+13 of 21
+
+multitude of stakeholders are involved and need to be orchestrated towards successful PED
+development. The ZEN Centre focuses on technical aspects of PEDs and dedicates some
+resources to the development and deployment of co-creation methodologies. Specifically,
+the definition for ZEN under development is incorporating more aspects towards process
+design and stakeholder involvement, including citizen participation.
++CityxChange demonstrates open innovation driven by multiple stakeholders [58,59]
+including co-creation with the public and private sector (e.g., energy providers, industry
+partners, SMEs) and strong citizen engagement. Innovation is deliberate in as much as
+the impacts of a H2020 project must be foreseen, but it is also left open via the strategy of
+co-creation adopted by the project. The project adopts a Bold City Vision (BCV) strategic
+alignment approach that integrates PED related principles and energy goals into the city’s
+urban development plans and processes and vice versa. For example, through the BCV
+implementation, the municipality of Trondheim aims to link and scale learnings up to city
+processes [59].
+Co-creation also entails significant citizen engagement and education to increase
+awareness and acceptance of PEDs, which is deemed necessary for replication. Living
+Labs are deployed as sites for community interaction and urban prototyping to foster open
+innovation. In Trondheim, four City Labs make the urban living lab approach tangible,
+under the concept of city-wide innovation playgrounds, open to the public and managed
+by the municipality and private partners. +CityxChange PEDs are developed in existing
+areas, requiring stakeholder constellations of cooperation. Co-creation is adopted as a
+strategy to support the process.
+As a H2020 Innovation Action project, syn.ikia operates on an open innovation principle. Stakeholders are identified on different levels such as consortium level, local demo
+site level and a wider online stakeholder community (SPEN community) level. On a
+consortium level, the stakeholder interaction is addressed via a dedicated work package
+on innovation management and exploitation to track key exploitable results generated
+by consortium partners systematically. On a local demo site level, the Norwegian demo
+site, like syn.ikia’s other three demo sites in Spain, Netherlands and Austria, serves as a
+co-creation hub for developing and testing of novel systems, technologies and processes
+for achieving sustainable plus energy houses at the neighborhood scale in the sub-arctic
+climatic type in Europe. This involves the local value chain actors in which the demo site is
+embedded. As for the wider online stakeholder community level that will comprise PED
+experts and practitioners, it is envisaged that the SPEN community will be instrumental in
+providing exposure and promoting the innovations coming from syn.ikia.
+4.2.3. Capacity Building, Education and Training
+While the three cases try to reach out to enhance capacities through knowledge transfer,
+experience, education, and training among a broad number of stakeholders, we identified a
+main target group within the three specific projects where most of the efforts were allocated.
+The ZEN Centre focuses on capacity building among professional stakeholders, both
+individual and organizational, in Norway along the construction value chain, including
+relevant sectors of energy. Through partner meetings and both academic and popularscience presentations at professional meetings, e.g., the Norwegian annual meeting of
+building physics or the two-annual ZEN conference, knowledge from the ZEN Centre is
+spread to its partners and abroad. Some partners involved are associations, such as the
+Norwegian District and Heating Association, who represents a broad number of industry
+partners within district heating, and who use their respective information channel to
+inform and build up competencies. In addition, knowledge is published through relevant
+publication channels, such as SINTEF Building Research Design Guides, to reach out
+to a broad number of construction companies including SMEs. Some publications and
+meetings are dedicated to ZEN partners and are not open to the public. Experiences from
+early-stage implementation have shown that despite the broad channels to communicate
+and educate on ZEN, project partners in the demo sites report missing capacities and skills
+
+Sustainability 2021, 13, 7362
+
+14 of 21
+
+to implement PED ambitions and technologies [51,60]. In the pilot project of Ydalir, this
+challenge was addressed by a guiding booklet for the implementation of district heating
+system technologies and technical installations in the buildings. At the time of writing, the
+booklet was still under development by the utility company and project partners.
+Activities of the ZEN Centre itself are not primarily aiming at citizen or end-user
+capacity building. Experiences from the former demo site of Steinkjer, the kindergarten
+of Lø, show that a missing understanding of the ZEN concept, and knowledge from that,
+can put a project, or at least its higher ambitions towards climate neutrality, on hold [61].
+In Steinkjer, two kindergartens should be relocated in an existing building, which should
+be retrofitted following the ambitions for climate neutrality within the ZEN Centre. The
+future users of the kindergarten, employees and parents perceived the ZEN ambition as
+an extra burden with regard to time and resources and intervened towards the political
+steering of Steinkjer, which put the project on hold. In the end, the relocation of the two
+kindergartens will take place in a new building without ZEN ambitions, and, due to that
+occurrence, this project is no longer part of the ZEN Centre.
+In some cases, the ZEN Centre also provides training to respective users of tools
+developed within it. Training of a Geographic Information System (GIS)-based tool to
+evaluate spatial qualities was provided to employees of the urban planning departments
+in the municipalities of Bodø and Trondheim.
+Living labs are facilitated as non-permanent (urban) experiments within demo sites,
+exploring end-user and citizen perspectives in relation to diverse ZEN aspects (future
+living, energy saving technology acceptance). Living labs are, therefore, designed to
+inform, consult, involve and educate end-users and other relevant stakeholders in ZEN. As
+the ZEN Centre is hosted by NTNU, and a broad number of teaching staff is part of the
+ZEN Centre, several student courses are dedicated to specific ZEN aspects, for instance,
+life-cycle assessment (LCA) or sustainability design with low emissions and using ZEN
+demo sites as case studies during courses and master theses across different fields.
+The focus of ZEN on the planning and design phase reflects the status of several of
+the demo sites, which are covering planning and design for PEDs, as well as early-stage
+implementation, both in building and infrastructure areas. This broad range of demo sites
+in different phases of development as well as different contexts, from urban to rural or
+project size, offers the possibility for a broad comparison and learning between different
+PED developments. Experience sharing and knowledge transfer between demo sites is
+facilitated through annual meetings of the demo sites partners.
++CityxChange is reaching out to foster community competencies and to educate the
+next generation of smart citizens, with learning activities targeted to elemental and higher
+education. Information and engagement of citizens is facilitated through engagement and
+participation tools, such as the citizen engagement playbooks, innovation playgrounds and
+labs, next generation of smart citizens activities and learning frameworks. Four physical
+City Labs are established in different neighborhoods of Trondheim for connecting the
+municipality (and other stakeholders) with the community, to include local innovation
+ecosystems and to make the City-as-a-living-lab approach tangible. +CityxChange furthermore organizes regular learning sessions for its partners, as well as storytelling workshops
+with external stakeholders and decision makers. These serve as a form of capacity building
+and exchange of experiences between partners, and some are also open to the wider public,
+especially to related H2020 projects. Topics of +CityxChange and the project as a case study
+are also part of education activities of the participating universities. +CityxChange will
+also become a pilot for better integration between innovation, research and education on
+the UN Sustainable Development Goal 11 (Sustainable cities and communities) in a new
+Erasmus+-funded project ENHANCE (https://enhanceuniversity.eu/) (accessed on 19
+May 2021).
+In syn.ikia, capacity building is planned for at least two target groups: occupants and
+end-users, as well as actors in the combined value chain of the built environment and that
+of the residential energy. It is planned to implement training for occupants and end-users so
+
+Sustainability 2021, 13, 7362
+
+15 of 21
+
+that they are able to use the new technologies efficiently. Furthermore, there will be regular
+monitoring of usage patterns and user comfort in the in-use phase. Beyond end-users,
+syn.ikia will disseminate SPEN concepts, technologies and solutions to the actors in the
+combined value chain via the demo site and via the online SPEN community. In this way,
+capacity building is directed towards a diverse audience of experts, professionals and
+policy makers, such as, investors, developers, municipalities, grid operators and utilities
+and building owners.
+5. Discussion
+In order to explore social innovation in PED projects and learning from the Norwegian
+experiences, we discuss the findings in terms of the two research questions.
+What is the variety of social innovation approaches in planning and early implementation of
+PED projects in Norway?
+All three projects are driving social innovations, albeit with different scope and extent.
+Comparison showed that +CityxChange, as a smart cities project, has a wide scope for
+urban transformation and societal transition incorporating social innovation. This leaves
+room for significant co-creation activities with citizens amongst other stakeholder groups.
+As the main focus of the ZEN Centre lays on technical innovations within the whole value
+chain of the construction industry in alignment with the energy sector, social innovation
+and involvement of citizens and users is mainly facilitated by the project partners in the
+demo sites.
+Syn.ikia balances technological innovation with social innovation by focusing on
+occupants, residents and end-users (using tools such as co-design, neighborhood scale user
+engagement system, post occupancy evaluation at the neighborhood scale, user journey
+assessment and surveys) and by combining the perspectives of existing and emerging
+actors in the combined value chain of the built environment and that of residential energy.
+It operates open innovation at three levels to maximize impact—demo site, consortium
+and beyond-consortium level—and aims to stimulate stakeholder interaction at these three
+levels. Its approach to capacity building and promoting social inclusion centers, not only
+on end-users, but also on involving a diversity of actors, core and peripheral, via an online
+SPEN community to embark on the energy transition.
+Social innovation occurs through both external activities to the projects (i.e., indirectly)
+and internalized ones embedded in project structures (i.e., directly). This raises awareness
+about where to locate responsibilities and practices for social innovation according to the
+project context.
+The public sector plays a necessary role in the demo sites of +CityxChange, ZEN Centre
+and syn.ikia in integrating PEDs into urban development planning, policy and processes
+on multiple governmental levels. The provisions under the Planning and Building Act
+can pose significant challenges for private developers. Thereby, we identified that for
+many of the demo sites for PED deployment, there is a public project owner for the whole
+development or coordination, though sometimes one or multiple building owners take
+that role, for example, in Zero Village Bergen or in +CityxChange. The scope and degree of
+stakeholder engagement and sharing the initiative for PED uptake, nevertheless, varies
+widely. Looking at the differences between the three projects, we identified variation
+within the ZEN Centre alone, as multiple demo sites were shown to vary based on the
+local contexts, shaping different stakeholder constellations and ways of ‘getting things
+done’. The comparison of all projects shows the local adaptation of approaches, even as
+they follow similar concepts, which is in line with the stated importance of local context
+for PED development [24,41,51]. Furthermore, we identified the importance of innovative
+approaches within stakeholder engagement across sectors and stakeholder groups to
+appropriately address the complexity of PED projects. Additionally, the scope and focus
+group for capacity building varied between the three projects.
+While this study focused on projects in the Norwegian context, there are other projects
+with Nordic or European sites, building upon the policy framework already presented
+
+Sustainability 2021, 13, 7362
+
+16 of 21
+
+in Section 2. Newly published studies do compare PED projects without taking social
+innovation approaches into consideration but, at the same time, highlight the importance of
+stakeholder involvement, citizen participation and capacity building as important elements
+for PED deployment [24,37,40,41]. An international comparison would contribute to a
+deeper understanding of social innovation’s role in PED development, but is outside the
+scope of this paper.
+The variety of social innovation approaches in PED development in the Norwegian
+projects analyzed in this paper could also be seen under a broader light of a Nordic model,
+much akin to the developments on the city scale. Further research could analyze the
+commonalities and differences with other regional PED projects. Here, the insights and
+experiences of both +CityxChange and syn.ikia, which include other European demo
+sites, would add richness to the ongoing work in developing a PED database, to which
+researchers in PED international forums, such as COST Action Positive Energy Districts
+European Network and IEA EBC Annex 83 Positive Energy Districts, are contributing.
+What are the learnings to guide future PED developments in social innovations?
+The three types of projects reviewed here show strong similarity in making social
+innovation issues a priority in their work. Within that, they demonstrate variations which
+can partly be traced to the calls and funding schemes establishing the scopes of projects,
+and partly seem to be due to varying approaches, site selections and local contexts. Comparing these projects at an early stage gives us the possibility to reflect on the applied
+and envisioned approaches towards social innovation as a complementary effort to their
+technical innovation in the PEDs and derive some learning and practical guidance. As a
+limitation, given the early stages, we cannot yet draw on actual evaluation and, thus, base
+this part on the selected and used methods in the projects so far.
+Taken together, planning and early implementation of PEDs in our cases demonstrated
+a plethora of potential social innovation activities that can be realized in specific local
+contexts and stakeholder configurations, using a variety of methods from living labs,
+workshops and innovation playgrounds. The analysis has shown that social innovation
+builds on the three pillars of stakeholder involvement, citizen participation and capacity
+building in a more dynamic way, as presented in Figure 1. The experiences from Norwegian
+demo sites identified dynamic interactions between these pillars, that evolves over time.
+We have learned that to enable a successful deployment of PEDs, capacity building, education and training should include all relevant stakeholders, professional and
+citizens/end-users of buildings and infrastructure, and especially key personnel responsible for citizen involvement and capacity building, in the respective demo sites. Stakeholders, and especially key personnel, developing knowledge, skills and experiences with
+respect to stakeholder engagement, citizen participation and capacity building will enable
+them to orchestrate social innovation in a more directed and efficient way over time. Raising knowledge about the local context of PED development and its specific needs, drivers
+and challenges will contribute to better capacities towards social innovation. Through
+evolving capacities on orchestrating capacity building, stakeholder involvement and citizen
+participation, social innovation’s role will change over time to be an enabler for exploration
+and deployment of PEDs in alignment with technological innovation (see Figure 3).
+With regard to stakeholder involvement, we see a strong interaction with citizen
+participation, as learnings from the Norwegian demo sites have shown citizen participation
+to be an integrative part of stakeholder involvement that should be guaranteed and facilitated both in early phases of PED development, and in later deployment and operation
+phases. Widening the scope of stakeholder interaction and enabling continuous co-creation
+processes that include citizens will contribute to adaptive cycles of PED exploration and
+deployment. Additionally, this touches a major challenge in society nowadays, as the
+integrative PED concept relates to different sectors and stakeholders involved, such as
+policy makers, PED developers, operators and civil society, whose presence and influence
+vary over time. The PED concept, therefore, asks for a governance model that steers and
+
+Sustainability 2021, 13, 7362
+
+17 of 21
+
+manages social innovation activities over time, from early planning to operation, in a
+holistic way.
+
+Figure 3. Model of transformative change in PED socio-technical system through social innovation (source: authors’ own,
+based on [62,63]).
+
+The responsibilities for stakeholder interaction towards all relevant stakeholders and
+the enabling for social innovation should be identified and communicated, especially with
+regard to the early involvement of citizens as future users. We consider that responsibility
+can be taken by different groups according to local contexts and legal requirements and
+can shift throughout the life of the project according to stage of PED development and
+the evolving needs of stakeholders and citizens, specifically. At the same time, there is a
+need for a structured process and common understanding of social innovation activities
+incorporated in a holistic governance model over the lifetime of the PED project.
+To elaborate on social innovation, methods including living labs, workshops and
+innovation playgrounds are used in the three PED projects reaching out to include different stakeholder groups at different phases of PED development. The learnings of which
+methods and tools are suitable, to foster social innovation for what specific context of
+PEDs and the respective phase of development, are evolving. Experiences of social innovation activities from diverse PED projects can help to build an understanding of the
+suitability of methods and tools in specific PED contexts and with regard to goals of social
+innovation activities.
+Building on our findings, we draw the picture of a more dynamic role of social
+innovation in the socio-technological system of PEDs (Figure 3). Taking inspiration from
+the theory of transformative agency in socio-ecological systems [62,64], each PED project
+represents an adaptive cycle [63] of exploring and testing social innovation. Each iteration
+of an adaptive cycle creates knowledge from successes and failures to be carried to the
+next. As PED projects and their adaptive cycles progress through early experimentation to
+learning and widening, and market demonstration phases, the role of social innovation
+becomes more deeply embedded in project structures and the aspects of social innovation
+(i.e., citizen involvement, stakeholder interaction and capacity building) mature. Social
+innovation can thereby be seen as a transformative element in socio-technical systems,
+“tipping towards sustainability” [64], by supporting energy transition aims indicated in the
+SET Plan and other policies and programs.
+6. Conclusions
+This paper has analyzed the prevailing approaches towards social innovation in the
+planning and early implementation of PEDs in the Norwegian context. We investigated
+three projects with twelve PED demo sites in Norway in a comparative case study, capturing
+the variety of approaches for social innovation so far. The results show that each of the
+
+Sustainability 2021, 13, 7362
+
+18 of 21
+
+PED projects balanced technological solutions as well as social innovations, but in a
+varied approach and scope with regard to citizen involvement, stakeholder interaction
+and capacity building. Due to the early stages of the projects and demo sites, we cannot
+yet evaluate specific results of these social innovation processes, but the set-up of how the
+three projects address social innovation allows us to extract an overview of the variety of
+practical approaches and the way context drives them.
+From this broad variety of local contexts and approaches, we derive three open
+questions that can be helpful in guiding future PED projects towards social innovation:
+
+•
+•
+
+•
+
+Who is responsible for social innovation activities over the lifetime of the PED project?
+How can the responsible persons and organizations for citizen and stakeholder involvement ensure they have the capacity (abilities, knowledge, skills) to facilitate
+social innovation activities within PED development and to involve, educate and train
+on the new concept of PED and its practical implications?
+How could the respective stakeholders, including citizens, be appropriately involved
+in the PED development to enable social innovation processes?
+
+We conclude that within the PED projects studied, no single specific approach served
+or is used in all, thus there are multiple roads to PEDs. This is in line with reported
+experiences from the wider European landscape of PED projects [46,47]. Nevertheless,
+we see value in the variety of approaches towards PEDs in general and, accordingly,
+in the variety of approaches to social innovation as specifically presented in this paper.
+To accommodate variety, we developed a dynamic and evolutionary understanding of
+social innovation in PEDs based on the knowledge gained in each iteration that enables
+a deepening role of various social innovation aspects in PED projects. From our specific
+cases, this study guides the reader towards possible approaches and solutions based on
+project context and the maturity of social innovation in the local system.
+To enable a successful energy transition towards climate neutral and socially inclusive
+cities, the PED concept and its definition, as well as the practical deployment of PED
+projects, asks for a balanced approach incorporating technical and social innovation simultaneously, in order to enable broad citizen and stakeholder involvement activities through
+the whole lifetime of the project. Stakeholders involved in future planning of PED projects
+within Norway and internationally can plan around these three questions to consider a
+multitude of options for addressing social innovation processes and outcomes when setting
+up a PED project, drawing inspiration from the reviewed Norwegian projects.
+The approaches to social innovation, in part, fulfil programmatic requirements at
+national and international levels, while being founded in theory to differing degrees. Since
+the PED projects run as experiments for social and technical innovation, they also allow
+deeper analysis of the results of these approaches. The theoretical basis for social innovation particular to Norwegian PED development, can be strengthened through continued
+analysis during each project’s progression. Further work should follow the implementation
+approaches on the demo site level to evaluate the strengths and weaknesses of social innovation approaches. This would offer further comprehensive insights and capture learnings
+from these PED projects for robust cross-country comparisons and foster further dialogue
+in the evolution of the PED concept and its European and international development.
+Author Contributions: Conceptualization, D.B., B.L., C.C., J.T., D.A.; methodology, B.L., C.C., D.B.;
+analysis, D.B., B.L., C.C., J.T., D.A.; writing—original draft preparation, D.B., B.L., C.C., J.T., D.A.,
+A.T.-S., A.W.; writing—review and editing, D.B., B.L., C.C., D.A.; visualization, B.L., D.B, C.C.;
+supervision, D.B. All authors have read and agreed to the published version of the manuscript.
+Funding: The research leading to these results has been partly performed in the Research Centre
+on Zero Emission Neighbourhoods in Smart Cities (FME ZEN), funded by the Research Council of
+Norway [Norges forskningsrådet] under Grant Agreement No. 257660 and partners. The APC was
+funded by Research Council of Norway [Norges forskningsrådet] under Grant Agreement No. 257660.
+Part of this work has been performed within the +CityxChange (Positive City ExChange) project
+under the Smart Cities and Communities topic that has received funding from the European Union’s
+
+Sustainability 2021, 13, 7362
+
+19 of 21
+
+Horizon 2020 research and innovation program under Grant Agreement No. 824260; and within
+the syn.ikia project that received funding from the European Union’s Horizon 2020 research and
+innovation program under Grant Agreement No. 841850.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Acknowledgments: We gratefully acknowledge the partners through the Research Centre on Zero
+Emission Neighbourhoods in Smart Cities (FME ZEN), the partners of the +CityxChange (Positive
+City ExChange) project, and the partners of the syn.ikia project.
+Conflicts of Interest: The authors are partly working in or with the projects discussed here, have
+received funding through these projects, and partly hold leadership positions or are technical
+contributors to activities within these projects.
+
+Abbreviations
+EU
+FME
+GHG
+GIS
+H2020
+JPI UE
+NTNU
+PEB
+PED
+RCN
+SET
+SPEN
+ZEN
+
+European Union
+Research Centres for Environmentally Friendly Energy [Forskningssenter for Miljøvennlig
+Energi]
+Greenhouse Gas
+Geographic Information System
+Horizon 2020—the eighth European framework programme for Research and Innovation
+Joint Programming Initiative Urban Europe
+Norwegian University of Science and Technology
+Positive Energy Block
+Positive Energy District
+Research Council of Norway
+Strategic Energy Transition
+Sustainable Positive Energy Neighbourhood
+Zero Emission Neighbourhood
+
+References
+1.
+2.
+3.
+4.
+5.
+
+6.
+7.
+8.
+9.
+10.
+
+11.
+
+12.
+13.
+
+European Commission. Smart Cities and Communities. Available online: https://ec.europa.eu/info/funding-tenders/
+opportunities/portal/screen/opportunities/topic-details/lc-sc3-scc-1-2018-2019-2020 (accessed on 1 April 2021).
+Jank, R. Annex 51: Case studies and guidelines for energy efficient communities. Energy Build. 2017, 154, 529–537. [CrossRef]
+Bhowmik, A.K.; McCaffrey, M.S.; Ruskey, A.M.; Frischmann, C.; Gaffney, O. Powers of 10: Seeking ‘sweet spots’ for rapid climate
+and sustainability actions between individual and global scales. Environ. Res. Lett. 2020, 15. [CrossRef]
+Hellström, T. Innovation as social action. Organization 2004, 11, 631–649. [CrossRef]
+Arnkil, R.; Järvensivu, A.; Koski, P.; Piirainen, T. Exploring Quadruple Helix. Outlining User-Oriented Innovation Models. University
+of Tampere Working Papers 85/20120; University of Tampere: Tampere, Finland, 2018. Available online: https://trepo.tuni.fi/
+bitstream/handle/10024/65758/978-951-44-8209-0.pdf (accessed on 15 February 2021).
+Kriz, A.; Bankins, S.; Molloy, C. Readying a Region: Temporally Exploring the Development of an Australian Regional Quadruple
+Helix. R D Manag. 2018, 48, 25–43. [CrossRef]
+Diepenmaat, H.; Kemp, R.; Velter, M. Why sustainable development requires societal innovation and cannot be achieved without
+this. Sustainability 2020, 12, 1270. [CrossRef]
+Halonen, M.; Persson, Å.; Sepponen, S. Sustainable Development Action–the Nordic Way: Implementation of the Global 2030 Agenda for
+Sustainable Development in Nordic Cooperation; Nordic Council of Ministers: Copenhagen, Denmark, 2017.
+Nordic Council of Ministers. A Good Life in a Sustainable Nordic Region: Nordic Strategy for Sustainable Development 2013–2025;
+Nordic Council of Ministers: Copenhagen, Denmark, 2019.
+JPI Urban Europe/ SET Plan Action 3.2. White Paper on Reference Framework for Positive Energy Districts and Neighbourhoods.
+Key Lessons from National Consultations. Available online: https://jpi-urbaneurope.eu/app/uploads/2020/04/White-PaperPED-Framework-Definition-2020323-final.pdf (accessed on 13 February 2021).
+Wyckmans, A.; Karatzoudi, K.; Brigg, D.; Ahlers, D. D9.5: Report on Attendance at Events Held by Other SCC-01 Co-Ordinators 2.
++CityxChange Project Deliverable D9.5. 2019. Available online: https://cityxchange.eu/knowledge-base/report-on-attendanceat-events-held-by-other-scc-01-co-ordinators-2/ (accessed on 13 February 2021).
+Lindholm, O.; Rehman, H.; Reda, F. Positioning Positive Energy Districts in European cities. Buildings 2021, 11, 19. [CrossRef]
+SET Plan Action 3.2. Implementation Plan related to Positive Energy Districts (PED). Available online: https://setis.ec.europa.
+eu/actions-towards-implementing-integrated-set-plan/implementation-plans (accessed on 5 March 2021).
+
+Sustainability 2021, 13, 7362
+
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+25.
+
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+
+42.
+43.
+
+20 of 21
+
+Ogburn, W.F.; Meyer, F.N. Sociology, 4th ed.; Riverside Press: Cambridge, MA, USA, 1964.
+Cajaiba-Santana, G. Social innovation: Moving the field forward: A conceptual framework. Technol. Forecast. Soc. Chang. 2014, 82,
+42–50. [CrossRef]
+Angelidou, M.; Psaltoglou, A. An empirical investigation of social innovation initiatives for sustainable urban development.
+Sustain. Cities Soc. 2017, 33, 113–125. [CrossRef]
+Manzini, E. Making things happen: Social innovation and design. Des. Issues 2014, 30, 57–66. [CrossRef]
+Clemente, C.; Civiero, P.; Cellurale, M. Positive Energy Districts (PEDs) for inclusive and sustainable urban development. Sustain.
+Mediterr. Constr. 2020, 12, 112–119.
+Carayannis, E.G.; Campell, D.F.J. Mode 30 and ‘quadruple Helix’: Toward a 21st century fractal innovation ecosystem. Int. J.
+Technol. Manag. 2009, 46, 201–234. [CrossRef]
+Gohari, S. Governance in the Planning and Decision-Making Process. The Co-Location Case of University Campuses in Trondheim.
+Ph.D. Thesis, Norwegian University of Science and Technology, Trondheim, Norway, 2019.
+Lindkvist, C.M.; Juhasz-Nagy, E.; Nielsen, B.F.; Neumann, H.-M.; Lobaccaro, G.; Wyckmans, A. Intermediaries for knowledge
+transfer in integrated energy planning of urban districts. Technol. Forecast. Soc. Chang. 2018, 142, 354–363. [CrossRef]
+Gohari, S.; Larssæther, S. Sustainable energy planning as a co-creative governance challenge. Lessons from the Zero Village
+Bergen. Int. J. Sustain. Energy Plan. Manag. 2019, 24, 147–154.
+Gustafsson, S.; Mignon, I. Municipalities as intermediaries for the design and local implementation of climate visions. Eur. Plan.
+Stud. 2020, 28, 1161–1182. [CrossRef]
+Ahlers, D.; Alpagut, B.; Cerna, V.; Cimini, V.; Haxhija, S.; Hukkalainen, M.; Kuzmic, M.; Livik, K.; Padilla, M. SCIS EU Smart
+Cities Information System. EU Smart Cities Information System. Positive Energy Districts Solution Booklet; Vandevyvere, H., Ed.; 2020.
+Available online: https://smartcity-atelier.eu/app/uploads/Solution-Booklet-Positive-Energy-Districts.pdf (accessed on 27 May
+2021).
+Simonofski, A.; Serral Asensio, E.; Wautelet, Y. Citizen participation in the design of smart cities: Methods and management
+framework. In Smart Cities: Issues and Challenges: Mapping Political Social and Economic Risks and Threats; Visvizi, A., Lytras, M.D.,
+Eds.; Elsevier: Amsterdam, The Netherlands, 2019.
+Dameri, R.P.; Rosenthal-Sabroux, C. Smart city and value creation. In Smart City: How to Create Public and Economic Value with
+High Technology in Urban Space; Dameri, R., Rosenthal-Sabroux, C., Eds.; Springer: Cham, Switzerland, 2014; pp. 1–12.
+Hollands, R.G. Will the real smart city please stand up? City 2008, 12, 303–320. [CrossRef]
+Arnstein, S.R.A. Ladder of citizen participation. AIP J. 1969, 35, 216–224. [CrossRef]
+Cardullo, P.; Kitchin, R. Being a ‘citizen’ in the smart city: Up and down the scaffold of smart citizen participation in Dublin,
+Ireland. GeoJournal 2019, 84, 1–13. [CrossRef]
+Simonofski, A.; Serral Asensio, E.; De Smedt, J.; Snoeck, M. Hearing the voice of citizens in smart city design: The citivoice
+framework. Bus. Inf. Syst. Eng. 2019, 61, 665–678. [CrossRef]
+Temeljotov Salaj, A.; Gohari, S.; Senior, C.; Xue, Y.; Lindkvist, C.M. An interactive tool for citizens’ involvement in the sustainable
+regeneration. Facilities 2020, 38, 859–870. [CrossRef]
+Ku, H.B.; Yuen-Tsang, A.W.K. Capacity building. In The Sage Handbook of Governance; Bevir, M., Ed.; SAGE: Thousand Oaks, USA,
+2013; pp. 469–843. [CrossRef]
+Farazmand, A. Innovation in strategic human resource management: Building capacity in the age of globalization. Public Organ.
+Rev. 2004, 4, 3–24. [CrossRef]
+Jensen, J.B.; Krogstrup, H.K. Capacity Building in the Public Sector; Aalborg University: Aalborg, Denmark, 2017.
+Pretty, J. Assets-based agriculture: A new model for sustainability thinking and practice. In International Symposium on Society and
+Natural Resources; University of Queensland: Brisbane, Australia, 1999; pp. 7–10.
+Jackson, L. Contemporary public involvement: Toward a strategic approach. Local Environ. 2001, 62, 135–147. [CrossRef]
+Brozovsky, J.; Gustavsen, A.; Gaitani, N. Zero Emission Neighbourhoods and Positive Energy Districts–A State-of-the-Art Review.
+Sustain. Cities Soc. 2021, 72, 103013. [CrossRef]
+Mohareb, E.A.; Kennedy, C.A. Scenarios of technology adoption towards low carbon cities. Energy Policy 2014, 66, 685–693.
+[CrossRef]
+Hoppe, T.; De Vries, G. Social innovation and the energy transition. Sustainability 2019, 11, 141. [CrossRef]
+Bossi, S.; Gollner, C.; Theierling, S. Towards 100 Positive Energy Districts in Europe: Preliminary Data Analysis of 61 European
+Cases. Energies 2020, 13, 6083. [CrossRef]
+JPI Urban Europe. Europe towards Positive Energy Districts. A Compilation of Projects towards Sustainable Urbanization and
+the Energy Transition. 2020. Available online: https://jpi-urbaneurope.eu/wp-content/uploads/2020/06/PED-Booklet-UpdateFeb-2020_2.pdf (accessed on 25 May 2021).
+Mahoney, J.; Rueschemeyer, D. Comparative Historical Analysis: Achievements and agendas. In Comparative Historical Analysis in
+the Social Sciences; Mahoney, J., Rueschemeyer, D., Eds.; Cambridge University Press: New York, NY, USA, 2003.
+Hopkin, J. The comparative method. In Theory and Methods in Political Science, 3rd ed.; Marsh, D., Stoker, G., Eds.; Palgrave
+Macmillan: Houndmills, Basingstoke, United Kingdom, 2010.
+
+Sustainability 2021, 13, 7362
+
+44.
+
+45.
+46.
+47.
+
+48.
+
+49.
+
+50.
+
+51.
+52.
+
+53.
+54.
+55.
+56.
+57.
+
+58.
+
+59.
+
+60.
+
+61.
+62.
+63.
+64.
+
+21 of 21
+
+Norwegian Ministries. Norway: Initial Steps towards the Implementation of the 2030 Agenda: Voluntary National Review Presented
+at the High-Level Political Forum on Sustainable Development (HLPF); United Nations: New York, NY, USA, 2016. Available
+online: https://www.regjeringen.no/globalassets/departementene/ud/vedlegg/utvikling/sdg_rapport_ny2.pdf (accessed
+on 21 February 2021).
+Copus, A.; Perjo, L.; Berlina, A.; Jungsberg, L.; Randall, L.; Sigurjónsdóttir, H. Social Innovation in Local Development: Lessons from
+the Nordic Countries and Scotland; Nordregio Work. Pap. 2; Nordregio: Stockholm, Sweden, 2017.
+Ahlers, D.; Driscoll, P.; Löfström, E.; Krogstie, J.; Wyckmans, A. Understanding smart cities as social machines. In Proceedings of
+the 25th International Conference Companion on World Wide Web, Montréal, Québec, Canada, 11–15 April 2016. [CrossRef]
+Royal Norwegian Ministry of Petroleum and Energy. Consultation on the review of Directive 2012/27/EU on Energy Efficiency.
+2016. Available online: https://www.regjeringen.no/contentassets/ca446f4845bf473ea3ae82d1bb63454d/consultation-on-thereview-of-energy-efficiency-directive.pdf (accessed on 13 August 2020).
+Norwegian Government. Update of Norway’s Nationally Determined Contribution under the Paris Agreement. 2020. Available
+online: https://www4.unfccc.int/sites/ndcstaging/PublishedDocuments/Norway%20First/Norway_updatedNDC_2020%20
+(accessed on 23 May 2021).
+Klausen, J.E.; Arnesen, S.; Christensen, D.A.; Folkestad, B.; Hanssen, G.S.; Winsvold, M.; Aars, J. Medvirkning Med Virkning?
+Innbyggermedvirkning i den Kommunale Beslutningsprosessen. Samarbeidsrapport NIBR/Uni Rokkansenteret; Norsk institutt for by- og
+regionforskning: Oslo, Norway, 2013.
+Wiik, M.R.K.; Fufa, S.M.; Baer, D.; Sartori, I.; Andresen, I. The ZEN Definition–A Guideline for the ZEN Pilot Areas; Version 1.0. ZEN
+Rep. No. 11; SINTEF Academic Press: Oslo, Norway, 2018. Available online: https://sintef.brage.unit.no/sintef-xmlui/handle/
+11250/2588765 (accessed on 2 February 2021).
+Baer, D.; Andresen, I. ZEN Pilot Projects. Mapping of the Pilot Projects within the Research Centre on Zero Emissions Neighbourhoods in
+Smart Cities; ZEN Rep. No. 10; SINTEF Academic Press: Oslo, Norway, 2018.
+Salom, J.; Tamm, M. Methodology Framework for Plus Energy Buildings and Neighbourhoods. 2020. Available online:
+https://www.synikia.eu/wp-content/uploads/2020/12/D3.1_Methodology-framework-for-Plus-Energy-Buildings-andNeighbourhoods.pdf (accessed on 23 May 2021).
+Sørensen, Å.L.; Fredriksen, E.; Walnum, H.T.; Skeie, K.S.; Andresen, I. ZEN Pilot Survey–Initial Plans for Thermal and Electrical Use,
+Generation, Distribution, and Storage. ZEN Memo 3; SINTEF Academic Press: Oslo, Norway, 2018.
+Woods, R.; Berker, T. Living labs in a zero emission neighbourhood context. IOP Conf. Ser. Earth Environ. Sci. 2019, 352, 012004.
+[CrossRef]
+Baer, D. Tools for Stakeholder Engagement in ZEN Developments; ZEN Rep. No. 13; SINTEF Academic Press: Oslo, Norway, 2019.
+Ahlers, D.; Driscoll, P.; Wibe, H.; Wyckmans, A. Co-Creation of positive energy blocks. IOP Conf. Ser. Earth Environ. Sci. 2019, 352.
+[CrossRef]
+Burón García, J.; Sánchez Mora, M. +CityxChange D3.2: Delivery of the Citizen Participation Playbook. 2020. Available online:
+https://cityxchange.eu/wp-content/uploads/2020/02/D3.2-Delivery-of-the-citizen-participation-playbook.pdf (accessed on 1
+May 2021).
+Wyckmans, A.; Vandevyvere, H.; Gohari, S.; Nielsen, B.; Driscoll, P.; Ahlers, D. Framework for Intra-Project Collaboration,
++CityxChange Deliverable D9.1. 2019. Available online: https://cityxchange.eu/knowledge-base/framework-for-intra-projectcollaboration/ (accessed on 27 May 2021).
+Tanum, Ø.; Mjøen, K.; Berthelsen, B.O.; Reeves, K.; Næss, K.S. Framework for Bold City Vision, Guidelines, and Incentive
+Schemes, SDG City Transition Framework. 2020. Available online: https://cityxchange.eu/knowledge-base/framework-forbold-city-vision-guidelines-and-incentive-schemes/ (accessed on 1 May 2021).
+Baer, D.; Nielsen, B.F. Challenges and Best Practices for the planning of Zero Emission Neighborhoods and Smart Energy
+Communities–the case of seven Norwegian cities. In Proceedings of the 54th ISOCARP Congress, Bodø, Norway, 1–5 October
+2018; Cool Planning:Changing Climate & Our Urban Future.
+Woods, R.; Andresen, I.; Skaar, C.; Berker, T. Utvikling av Pilotprosjekt i Steinkjer Kommune: Historier om «Det Gamle NRK Bygget på
+Lø» og Evaluering av Prosessen. ZEN Rep. No. 16; SINTEF Academic Press: Oslo, Norway, 2019.
+Westley, F.R.; Tjornbo, O.; Schultz, L.; Olsson, P.; Folke, C.; Crona, B.; Bodin, Ö. A theory of transformative agency in linked
+social-ecological systems. Ecol. Soc. 2013, 18. [CrossRef]
+Holling, C. Resilience of ecosystems: Local surprise and global change. In Global Change; Roederer, J.G., Malone, T.F., Eds.;
+Cambridge University Press: Cambridge, United Kingdom, 1985; pp. 228–269, ISBN 978-0521306706.
+Westley, F.; Olsson, P.; Folke, C.; Homer-Dixon, T.; Vredenburg, H.; Loorbach, D.; Thompson, J.; Nilsson, M.; Lambin, E.; Sendzimir,
+J. Tipping toward sustainability: Emerging pathways of transformation. AMBIO 2011, 40. [CrossRef]
+
+

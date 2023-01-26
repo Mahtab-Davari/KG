@@ -1,0 +1,3323 @@
+sustainability
+Article
+
+A Comprehensive PED-Database for Mapping and Comparing
+Positive Energy Districts Experiences at European Level
+Giulia Turci 1, *, Beril Alpagut 2 , Paolo Civiero 3 , Michal Kuzmic 4 , Serena Pagliula 1 , Gilda Massa 5 ,
+Vicky Albert-Seifried 6 , Oscar Seco 7 and Silvia Soutullo 7
+1
+2
+3
+4
+
+5
+
+6
+
+7
+
+*
+
+
+
+Citation: Turci, G.; Alpagut, B.;
+Civiero, P.; Kuzmic, M.; Pagliula, S.;
+Massa, G.; Albert-Seifried, V.; Seco,
+O.; Soutullo, S. A Comprehensive
+PED-Database for Mapping and
+Comparing Positive Energy Districts
+Experiences at European Level.
+Sustainability 2022, 14, 427. https://
+doi.org/10.3390/su14010427
+Academic Editors: Manuela Almeida
+and Jørgen Rose
+Received: 16 November 2021
+Accepted: 23 December 2021
+Published: 31 December 2021
+
+Architecture Department, University of Bologna, 40136 Bologna, Italy; serena.pagliula2@unibo.it
+Smart Cities Department, Demir Energy, 34718 Istanbul, Turkey; balpagut@demirenerji.com
+IREC—Catalonia Institute for Energy Research, 08930 Sant Adrià del Besos, Spain; pciviero@irec.cat
+University Centre for Energy Efficient Buildings, Czech Technical University,
+27343 Buštěhrad, Czech Republic; michal.kuzmic@cvut.cz
+Cross Technologies for Industrial and Urban Districts Lab—Smart Energy Division-ENEA-Italian National
+Agency for New Technologies, Energy and Sustainable Economic Development, 80055 Portici, Italy;
+gilda.massa@enea.it
+Fraunhofer Institute for Solar Energy Systems, 79110 Freiburg, Germany;
+vicky.bo.ki.albert-seifried@ise.fraunhofer.de
+Department of Energy, Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT),
+28040 Madrid, Spain; oscar.seco@ciemat.es (O.S.); silvia.soutullo@ciemat.es (S.S.)
+Correspondence: giulia.turci3@unibo.com; Tel.: +39-3207045212
+
+Abstract: Positive Energy Districts (PEDs) are considered as one of the pioneer strategies to guide
+cities in their energy planning process towards climate neutrality in an attractive, innovative and
+human-centered way. The concept of PED is the result of a long co-creation process and integrates
+several multidimensional features, aiming to promote the sustainable development of urban areas
+and the transition of cities towards a climate neutral energy system. The paper provides an overview
+of the first outcomes of WG1 “PED Mapping, Characterization and Learning”, in the research COST
+Action CA19126 “Positive Energy Districts European Network” (PED-EU-NET). This study describes
+activities that focus on creating a comprehensive PED-Database by mapping existing concepts,
+strategies, projects, technological and non-technological solutions related to PEDs in Europe. The
+main objective of the Database is to support municipalities through the decision-making process
+by providing strategies for building and running a successful PED that can provide alternatives to
+consider, and is powered by an interactive web-based map. The design of the Database framework
+is supported by a step-by-step methodology adopted in the framework of the CA19126 in order to
+develop the PED-Database as an interactive, updatable and user-friendly tool.
+Keywords: Positive Energy District; climate neutrality; integrated energy planning; PED-Database;
+PED case study; PED-Laboratories
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affil-
+
+1. Introduction
+
+iations.
+
+The European Strategic Energy Technologies Plan, SET-Plan ACTION no. 3.2 Implementation Plan [1], is the technological pillar of European energy and climate policy, and
+represents the main reference point for the promotion and spread of the Positive Energy
+District (PED) strategy among EU Member States [2]. PEDs are considered as one of the
+valuable strategies guiding cities in their integrated energy planning process towards
+climate neutrality and to fulfill the European Green Deal goals [3,4] in collaboration with
+citizens, a pillar that is promoted in the mission 100 Climate-Neutral Cities by 2030—by and
+for the Citizens [5]. Therefore, the concept of PEDs integrates both the main paradigms of
+smart and sustainable cities and will be incrementally introduced in the integrated energy
+planning of many cities and communities in the coming years [6,7] as has been suggested
+by the Renovation Wave [8].
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Sustainability 2022, 14, 427. https://doi.org/10.3390/su14010427
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2022, 14, 427
+
+2 of 24
+
+This pioneering concept considers efforts among EU countries through the following
+initiatives and projects:
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+The past Framework Programs (FP5–FP6–FP7), Horizon 2020 Program, the last Horizon Europe Program and European research and innovation missions (e.g., European
+Green Deal), which foster international cooperation among European countries in the
+field of Research and Innovation and support policy implementation while tackling
+global challenges such as climate change and energy transition [9].
+The Joint Programming Initiative Urban Europe (JPI UE) and the EERA Joint Programme on Smart Cities (EERA JPSC) support the planning, deployment and replication of 100 PEDs with the objective sustainable urbanization by 2025 [10].
+The “100 climate-neutral cities by 2030-by and for the citizens”, identifies the mission
+for supporting, promoting and showcasing 100 European cities in their systemic
+transition towards climate neutrality by 2030 and for the transformation of these cities
+into experimental and innovative hubs for other cities [5,11].
+The European partnership Driving Urban Transition (DUT) aims for a sustainable
+future as an integral part of Horizon Europe’s strategic planning process, contributing
+to strengthening the efforts towards viable urban development that translates multiple
+Sustainable Development Goals (SDGs) into local action [12].
+The Smart Cities Marketplace (SCM) platform that was created by merging the two
+former Commission projects “Marketplace of the European Innovation Partnership
+on Smart Cities and Communities” (EIP-SCC) and the “Smart Cities Information
+System” (SCIS), aims to bring cities, industries, SMEs, investors, researchers and other
+smart-city actors together [13].
+The European Regions Research and Innovation Network (ERRIN) [14] and the Eurocities [15] support the design of guidelines and the mobilization, replication and
+mainstreaming of best practices in several cities.
+The Covenant of Mayors and the Mayors Adapt, i.e., umbrella organisations for
+Sustainable Energy Action Plans (SEAPs) or Sustainable Energy and Climate Action
+Plans (SECAPs), [16–18] and the Green City Accord [19] are Europe-wide initiatives
+working in the local context in order to promote the integration of energy and environmental issues in urban planning, towards the achievement of a sustainable and
+carbon-free society.
+The COST Action CA19126 “Positive Energy Districts European Network (PED-EUNET)” [20,21] and the International Energy Agency’s Energy in Buildings and Communities (IEA-EBC) Annex 83 “PEDs” [22,23] are international initiatives focused
+on developing an in-depth definition of PEDs, collecting the adopted technologies,
+providing the planning tools and analyzing the decision-making processes related
+to PEDs.
+
+Even though different studies and practical experiences of PEDs focus on new development districts, in order to achieve Greenhouse Gasses (GHG) emissions reduction
+goals by 2050 [24–26], it is necessary and urgent to undertake an ambitious transformation
+process of the existing districts in a sustainable and climate-neutral direction [27–30]. Today,
+75% of buildings in Europe are inefficient from the energy perspective, and their annual
+retrofitting rate is estimated to be around 1% [8]. It is therefore necessary to intervene by
+promoting a series of policy measures and funding schemes that enact changes to the built
+environment with a systematic and integrated approach, some of which include:
+
+•
+
+•
+
+at European level, action is being taken with regard to the revision of energy efficiency
+policies, e.g., recasting the Renewable Energy Directive-RED II [31], and the promotion
+of funding for energy transition and environmental sustainability, e.g., funds allocated
+from the Next Generation EU Programme [32] and Fit for 55 package [33];
+at the National level, individual countries are required to draw up National Energy
+and Climate Plans (NECPs), specifying the ways in which they intend to foster energy
+efficiency in different sectors, to promote the use of renewable sources and to reduce
+greenhouse gas emissions [34]. Simultaneously, some countries have established
+
+Sustainability 2022, 14, 427
+
+3 of 24
+
+•
+
+conspicuous funds to support the retrofitting and the efficiency of the existing built
+environment, e.g., Italy 110% incentives [35];
+at the local level, municipalities are working to overcome a planning system divided
+into sectoral silos and to improve their interaction with the public sector, thereby becoming able to invest in and implement strategies tailored at local context. In this sense,
+business and governance models that support the concrete implementation of renewal
+interventions are promoted, e.g., realization of One-Stop-Shop, promotion of Turnkeys
+and Cornerstone and diffusion of the Public-Private Partnership model [36,37]. These
+models must be based on the improvement of services, technologies, quality of life
+and comfort of the inhabitants, policies or on urban management between the public
+and private sectors; these requirements necessitate different capabilities to those in
+traditional governments [21].
+
+Within the SET-Plan no.3.2, an open-ended and broad definition of the PED concept is
+introduced: ‘PED is seen as a district with annual net zero energy import, and net zero CO2
+emission working towards an annual local surplus production of renewable energy’ [1]
+(p.5). According to this definition, PEDs can integrate several multidimensional features
+aiming to boost urban areas’ sustainable development, and to support cities transition
+towards a climate neutral energy system. The key features within the definition of PED,
+developed by the EERA JPSC and JPI Urban Europe [2], include and extend to the wide
+vision of the precursor PED projects from previous Framework Programs (FP5–FP6–FP7),
+and more recently, Horizon 2020 on Smart Cities and Communities (SCC) Lighthouse
+projects [38–45].
+Hence, most of the studies and PEDs are available on the EU SCM platform [13] and
+the JPI UE “Booklet of Positive Energy Districts in Europe” [46], which are, in general,
+referred to the multidimensional perspective of PEDs, mainly based on the technologies and
+lessons learnt from these experiences at the European level. Even if these works are very
+relevant for mapping PED and for the creation of a structured repository of information,
+they do not fully address the complex set of urban challenges and the objective to support
+decision making, the implementation and replication of PEDs in municipalities, nor the
+creation of capacity and community building to drive urban transformations.
+Despite the above-mentioned efforts, PED concept has yet to be standardized, and
+reference for PED archetypes need to be consolidated [47]. Indeed, as it can be seen in
+Table 1 below, four categories of PEDs have been established until now (Autonomous-PED,
+Dynamic-PED, Virtual-PED and Candidate-PED) [48,49], focusing on two main aspects:
+
+•
+•
+
+the boundaries of the PED in order to reach a net positive yearly energy balance;
+the energy exchanges (import/export) in order to compensate energy balance for
+surpluses and shortages between the buildings or the wider grid outside.
+
+Besides, some of the main gaps still under discussion are related to PED boundary
+definition, in order to quantify the energy exchanged in real applications and ecosystems.
+At the same time, the type of Key Performance Indicators (KPIs) need to be assessed, since
+they are tackled in different ways by ongoing projects and programs across Europe [50–54].
+The CA19126 “PED-EU-NET” aims to drive the deployment of Positive Energy Districts (PEDs) in Europe by harmonising, sharing, and disseminating knowledge and breakthroughs on PEDs across different stakeholders, domains (technological, environmental,
+social, economic, financial, legal and regulatory) and sectors (energy, transport, buildings,
+industry). It will support cities and empower communities to achieve the city-wide positive
+energy transition with pioneering ideas, methods and solutions. This Action is divided
+into four interlinked Working Groups (WGs) structured as follows: WG1 “PED Mapping,
+Characterization and Learning”, WG2 “PED Guides and Tools”, WG3 “PED Laboratories,
+Monitoring and Replication” and WG4 “Dissemination, Outreach and Exploitation”.
+
+Sustainability 2022, 14, 427
+
+4 of 24
+
+Table 1. PED categories and related definitions.
+PED-Categories
+
+Definitions
+
+Source
+
+Autonomous-PED
+
+the PED has a positive power balance within its geographic
+boundaries and is designed to be self-managing (regardless
+of power from the periphery) or can even help
+manage/balance the external grid.
+
+[48,49]
+
+Dynamic-PED
+
+the PED has a positive energy balance within its geographic
+limits, exchanging energy with the periphery to compensate
+for energy excesses and deficits.
+
+[48,49]
+
+Virtual-PED
+
+the PED has a positive energy balance within its virtual
+limits, exchanging energy with the periphery to compensate
+for energy excesses and deficits.
+
+[48,49]
+
+Candidate-PED
+
+the PED has no positive energy balance within its
+geographic boundaries, but energy balance is achieved by
+importing certified green energy (i.e., demarcating a zero
+emissions district).
+
+[49]
+
+Specifically, the WG1, as argued in this paper, aims to create a consolidated knowledge
+pool on the state-of-the-art development in PEDs and, based on the existing information,
+it devises methods to characterize PEDs and to recommend best practices for their implementation. Within WG1, the activities related to task 1.1 focus on creating a comprehensive
+PED-Database for use as an interactive, updatable and user-friendly tool by mapping
+existing concepts, strategies, projects, laboratories, and technological and non-technological
+innovations related to PEDs in Europe. To develop a common Database that includes both
+PED cases and PED initiatives as well as PED Labs, a collaborative study has been carried
+out between the WG1 and WG3.
+The paper is structured as follows: Section 2, “Objective”, outlines the main PEDDatabase’s aims, clarifying that the Database is conceived as an operative tool targeted
+mainly towards municipalities, but also for researchers and professionals who want to
+explore and deepen the concept of PEDs. In Section 3, dedicated to “Methodology”,
+the PED-Database realization process is presented. Section 4, “Results”, highlights the
+realization of the PED-Database framework and introduces its online implementation in
+the form of an interoperable web platform. In Section 5, the “Discussions and Future
+developments” are provided, and in Section 6, the “Conclusions” are presented.
+2. Objectives
+As already mentioned above, the activities of Task 1.1 focus on the implementation of a
+well-structured and operative tool that map, analyse and compare PED-relevant experiences
+and concepts in the European context, considering that a PED-Database does not yet exist.
+The database is developed for non-commercial purposes and will be open source.
+The PED-Database’s design pursues the following objectives:
+
+•
+
+•
+
+•
+
+•
+
+Co-creation of a PED innovation eco-system that, moving from the agreed definition, will uncover information and indicators (both expected and/or assessed performances), and facilitate the implementation of PEDs around Europe.
+Systematization of the information in order to address specific needs and targets from
+an inclusive set of stakeholders engaged in each phase of the PED implementation
+process.
+Supporting the creation of capacity building, based on broader knowledge derived
+from innovation and lessons learnt to overcome barriers and take advantage of opportunities derived from the advanced mapping of solutions and performance, obtained
+in previous or ongoing experiences on PEDs.
+Envisioning the needs (demand aggregation) and expected strategies to adopt (scenarios of intervention) a more effective energy planning process and decision-making,
+
+Sustainability 2022, 14, 427
+
+5 of 24
+
+•
+
+which are able to promote and facilitate the achievement of large-scale sustainability
+conscious urban areas.
+Supporting municipalities and researchers in the PED-implementation process, considering both the renewal of existing areas and the realization of new, sustainable, energy
+efficient and net-zero GHG emissions urban development.
+
+The PED-Database is configured as a multidisciplinary and open tool, that starts
+from the aggregation and systematization of the gathered information, then returns a
+set of multiple features related to the PED concept, including both technological and
+non-technological innovations. Therefore, the designed framework is systematized in a
+way in which the information collected provides an overall picture of case studies and
+implemented projects.
+The paper presents and discusses the step-by-step methodology to guide PED Database
+realization. Until now, PED-Database structure and the main parameters to be collected
+were identified and agreed on among a core group of experts on the topic. The next working step will lead to concrete Database implementation through data collection and the
+characterizing of best practices relevant to PED (case study, project, initiatives, strategies,
+technological and non-technological solutions, etc).
+3. Methodology
+The PED-Database was conceived of as a cross disciplinary contribution among the
+CA19126 Working Groups (WG2, WG3 and WG4) and foresaw the alignment with both IEAEBC Annex83 and JPI UE-other international initiatives focused on PEDs implementationusing a collaborative approach (Table 2).
+Table 2. Joint activities and interactions (within the COST Action and outside the Cost Action).
+Within the CA
+
+Joint Activities and Interactions
+
+Working Group 2
+Working Group 3
+Working Group 4
+
+Alignment on technological and non-technological tools
+PED Lab characteristics, input form layout
+Facilitating PED stakeholder interaction
+
+Outside the CA
+
+Joint activities and interactions
+
+IEA-EBC Annex 83
+JPI UE
+SCM
+EERA JPSC
+
+In-depth alignment on PED parameters to be collected
+Initial scoping, pilot testing
+Partner for greater outreach outside of PED-EU-NET
+Enabling platform for the PED-EU-NET partnership, coordination efforts
+
+According to Figure 1, Database realization can be summarised using two main
+working phases. The first aimed at defining PED Database general framework and at
+mapping PED-relevant projects and initiatives among all CA19126 partners. While the
+second phase, using the developed framework, focused on the realization of the web
+platform that will host the PED-Database and on its implementation, starting with the
+mapped PED-relevant projects and initiatives.
+3.1. Phase 1
+As a first step, in order to define the PED-Database scope from specific target groups
+and its main requirements, a workshop comprising WG1 members was held in order to
+collect ideas, expectations and directions for Database development. Task.1.1, moving from
+this list, performed a comparative analysis of different relevant databases and platforms
+to understand the kind of structure and content a PED-Database should have, so as to
+meet key stakeholder needs and expectations. Table 3 provides the key parameters and
+questions investigated.
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+Sustainability 2022, 14, 427
+
+6 of 25
+6 of 24
+
+Figure 1. PED-Database working phases.
+Table 3. Key investigated parameters and questions.
+
+3.1. Phase 1
+
+Key Investigated
+Parameters
+As a first step, in order to define
+the PED-Database
+scope from specific target groups
+and its main requirements, a workshop
+comprising
+WG1
+Title of database/platform members was held in order to
+collectBasic
+ideas,
+expectations
+and
+directions
+for Database
+development.
+Task.1.1,
+moving
+info: year of realization, financing programme,
+format
+and main users
+targeted
+Main
+scope
+from this list, performed a comparative analysis of different relevant databases and platMainand
+contents
+forms to understand the kind of structure
+content a PED-Database should have, so as
+Sources (Publications, link to the website)
+to meet key stakeholder needs and expectations. Table 3 provides the key parameters and
+Key Investigated Questions
+questions investigated.
+What are the main purposes of databases and platforms?
+Table 3. Key investigated What
+parameters
+questions.and platforms have?
+formatand
+do databases
+What information do they collect?
+Keysearch
+Investigated
+What
+options Parameters
+do they offer?
+Title
+of
+database/platform
+To whom are the platforms and databases addressed?
+info:
+year of
+financing
+programme,
+format tabs,
+and main
+targeted
+What Basic
+are the
+options
+forrealization,
+extrapolating
+information
+(paper sheets,
+maps,users
+charts,
+diagrams)?
+Main scope
+Main contents
+As can be seen from the table in Appendix A summarising the performed analysis, an
+Sources (Publications, link to the website)
+interactive database on PEDs was not identified until now, the only provisions of this sort
+Key Investigated Questions
+that did exist is the PED Booklet by JPI UE, which collects PED-related and similar PEDs
+What are the main purposes of databases and platforms?
+case studies in paper format [46]. The other analysed databases do not specifically focus on
+What format do databases and platforms have?
+PEDs; however, they collect strategies, case studies, projects, solutions and technologies
+What information do they collect?
+related to PED-relevant issues,What
+suchsearch
+as sustainability,
+energy efficiency and urban resilience.
+options do they offer?
+This analysis, combined
+with
+workshops
+COST Action partners,
+To whom are
+the different
+platforms and
+databasesamong
+addressed?
+meetings
+with
+different
+WGs
+and
+alignment
+with
+JPI
+UE
+and
+IEA-EBC
+initiative,
+What are the options for extrapolating information (paper sheets, tabs, maps,Annex
+charts,83
+diagrams)?
+
+was a fundamental step in order to define the general structure of the PED Database.
+TheseAs
+first
+in fact,
+totable
+the definition
+of PED-Database
+schematic
+structure,
+which
+cansteps,
+be seen
+fromled
+the
+in Appendix
+A summarising
+the performed
+analysis,
+facilitated
+the
+discussion
+on
+new
+inputs
+received
+and
+on
+implementing
+other
+categories
+an interactive database on PEDs was not identified until now, the only provisions of this
+and data.
+sort that did exist is the PED Booklet by JPI UE, which collects PED-related and similar
+In parallel, COST members were asked to collect PED relevant projects and initiatives
+PEDs case studies in paper format [46]. The other analysed databases do not specifically
+in which they are involved or in which they collaborated. For the purpose of mapping,
+PED-relevant projects and initiatives were described as follows: district-level experiences
+
+Sustainability 2022, 14, 427
+
+7 of 24
+
+with high aspiration in terms of energy efficiency, energy flexibility and energy production.
+The PED discussed (its demo sites/case studies) does not necessarily have to meet an
+annual energy positive balance, if it meets at least several other major aspects of PED
+Framework definition ‘Positive Energy Districts are energy-efficient and energy-flexible urban
+areas or groups of connected buildings which produce net zero greenhouse gas emissions and actively
+manage an annual local or regional surplus production of renewable energy. They require integration
+of different systems and infrastructures and interaction between buildings, the users and the regional
+energy, mobility and ICT systems, while securing the energy supply and a good life for all in line
+with social, economic and environmental sustainability’ [2] (p. 7).
+According to the definition, PED-relevant projects and initiatives were collected among
+COST partners and a systematic analysis and screening were performed, identifying the
+following two main categories:
+
+•
+•
+
+PED-focused: projects/initiatives directly focused on Positive Energy Districts implementation. They are in line with the PED Framework Definition.
+PED-supporting: projects/initiatives not directly focused on Positive Energy Districts.
+However, they collect experiences assimilable to the PED concept, such as energy
+communities, smart districts, local energy districts, sustainable and resilient neighbourhood. They do not cover all the aspects mentioned in PED Framework Definition.
+
+Appendix B lists PED-focused and PED-supporting projects and initiatives collected in
+COST Consortium and, for each of them, it reports the following key information: acronym,
+title, period, scale, number of case studies and sources.
+3.2. Phase 2
+The second phase, as shown in Figure 1, involved two parallel processes: (1) an
+individual questionnaire and parameter development for data collection and (2) IT solution
+development of the PED-Database online platform.
+Specific questionnaires for sections A, B, C and D have been compiled and individual
+parameters are defined in a supplementing glossary in four rounds. In the first round, the
+WG1 collected contributions from its members. Secondly, the list of parameters was exchanged with WG2 and WG3 and PED Lab parameters developed by WG3 were integrated
+as a specific sub-set to the questionnaire. Furthermore, Task 3.1 of WG3 also provided
+information obtained in its workshops related to drivers and barriers to feed the common
+sections of the questionnaire. In the third step, a task group established among COST
+Action and Annex 83 (Subtask D) was created to manage the alignment of the PED-EU-NET
+Database parameter list with another list of parameters corroborated by Annex 83 team.
+Fourth, a pilot testing of the questionnaire took place to gather additional inputs from WG1
+members and JPI UE. This piloting brought feedback and partial inputs to both parameter
+definitions and questionnaire structure and user friendliness. Further alignment of the
+questionnaires and parameter lists with other partners such as JPI UE is also foreseen as
+the Database evolves.
+In parallel to questionnaire and parameter list development, an IT solution for the
+PED-Database online platform was formulated, comprising the following three components: input forms (i.e., online representation of the questionnaires), database frontend
+(i.e., user interface for online data visualization) and database backend for PED-Database
+administration. The input form component builds on the adapted structure using the letter
+identifiers (A–D) introduced by WG3 online questionnaire and programmed by Centro
+de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT) Information
+Technology Department [55]. After the CIEMAT structure and online form were assessed,
+the input form was newly programmed and adjusted to become an embedded sub-section
+of the PED-EU-NET website. The other two components (presentation frontend and administration backend) were developed in multiple iterations by an external provider according
+to the requirements list compiled by WG1.
+
+Sustainability 2022, 14, 427
+
+ter identifiers (A–D) introduced by WG3 online questionnaire and programmed by Centro
+de Investigaciones Energéticas, Medioambientales y Tecnológicas (CIEMAT) Information
+Technology Department [55]. After the CIEMAT structure and online form were assessed,
+the input form was newly programmed and adjusted to become an embedded sub-section
+of the PED-EU-NET website. The other two components (presentation frontend and adof 24
+ministration backend) were developed in multiple iterations by an external provider8 according to the requirements list compiled by WG1.
+Results
+4.4.Results
+4.1.
+PED-Database Framework
+Framework
+4.1. PED-Database
+PED-Databaseisisconsidered
+consideredtotobebeananonline
+online
+disruptive
+platform
+tool
+that
+allows
+AAPED-Database
+disruptive
+platform
+tool
+that
+allows
+the
+the
+end-user
+to
+map,
+visualize,
+search,
+filter
+and
+compare
+results.
+As
+already
+explained,
+end-user to map, visualize, search, filter and compare results. As already explained, the
+the Database
+collects
+information
+from ongoing
+PED relevant
+experiences,
+the
+Database
+collects
+information
+from ongoing
+PED relevant
+experiences,
+fosters fosters
+the sharing
+sharing
+of competences,
+investigates
+barriers,
+and challenges
+and highlights
+solutions
+of
+competences,
+investigates
+barriers,
+and challenges
+and highlights
+solutions
+thatthat
+are
+are
+viable,
+feasible,
+realistic
+and
+replicable
+in
+order
+to
+devise
+methods
+to
+characterize
+PEDs
+viable, feasible, realistic and replicable in order to devise methods to characterize PEDs and
+and
+to recommend
+concepts,
+solutions,
+strategies
+and practices
+best practices
+for PED
+implementa-in
+to
+recommend
+concepts,
+solutions,
+strategies
+and best
+for PED
+implementation
+tion
+in
+different
+contexts.
+different contexts.
+As aa result
+that
+were
+heldheld
+while
+designing
+and formatting
+the PEDAs
+resultof
+ofthe
+thediscussions
+discussions
+that
+were
+while
+designing
+and formatting
+the
+Database,
+the
+generated
+“big
+picture”
+to
+visualize
+and
+structure
+the
+index
+is
+shown
+PED-Database, the generated “big picture” to visualize and structure the index is showninin
+Figure2.2.
+Figure
+
+Figure2.2.PED-Database
+PED-Database framework.
+framework.
+Figure
+
+Through the
+the PED-Database
+PED-Database homepage,
+homepage, aa list
+Through
+list of
+of geo-referenced
+geo-referenced PED-relevant
+PED-relevantcase
+case
+studiesand
+andlaboratories
+laboratoriesare
+arevisualized.
+visualized.-.-.Each
+Eachcase
+casestudy
+studyand
+andlaboratory
+laboratorythat
+thatisisreferred
+referredto
+studies
+to across
+the European
+is indicated
+a symbol.
+a symbol
+is clicked
+on, a
+across
+the European
+mapmap
+is indicated
+with with
+a symbol.
+WhenWhen
+a symbol
+is clicked
+on, a section
+called ‘PED-relevant Case Studies and PED Labs’ appears on the screen for visualizing
+detailed information (Questionnaire 1-in orange). From this questionnaire, it is possible to
+access both to a more general level of information collecting ‘General Project or initiatives’
+and ‘National policies or strategies’ (Questionnaire 2-in pink) or to a more specific and
+detailed level of information collecting ‘Technological and Non-technological solutions and
+innovations’ (Questionnaire 2-in yellow).
+
+4.2. PED-Database Data Collection
+The selection of the main parameters (i.e., assessed information and KPIs) is based on
+a holistic and exhaustive methodology which highlights the multiple dimensions related
+to PEDs, for which definitions and characterization are quite broad in the context of the
+on-going international debate [48]. This is managed by identifying the main categories
+that address its multidimensionality nature and the specific insights from each project
+and initiative according to an inclusive adherence to the PED approach definition in the
+EU countries.
+
+•
+
+Questionnaire 2-Section D ‘General Project or initiatives’, Section E ‘National policies
+or strategies’, Section F ‘Technological and Non-technological solutions and innovaSustainability 2022, 14, x FOR PEER REVIEW
+9 of 25
+tions’ (Figure 4).
+Sustainability 2022, 14, 427
+
+9 of 24
+
+section called ‘PED-relevant Case Studies and PED Labs’ appears on the screen for visualizing detailed information (Questionnaire 1-in orange). From this questionnaire, it is
+possible to access both to a more general level of information collecting ‘General Project
+Therefore,
+PEDs
+developers
+canor
+adopt
+this targeted
+information
+drive
+or initiatives’
+and
+‘National
+policies
+strategies’
+(Questionnaire
+2-into
+pink)
+orthe
+to adesign
+more
+according
+to
+the
+roughness
+of
+boundary
+conditions,
+needs
+and
+criticalities
+that
+characterize
+specific and detailed level of information collecting ‘Technological and Non-technological
+their
+ownand
+process.
+Moving(Questionnaire
+from the district
+needs,
+they can find the best solutions and
+solutions
+innovations’
+2-in
+yellow).
+practices to be improved in their projects, and that can help to overcome challenges.
+PED-Database
+data
+collection will make use of the PED-EU-NET web-embedded
+4.2. PED-Database
+Data
+Collection
+online platform as an open tool for questionnaire administration [20]. Data collection will
+The selection
+of thetomain
+parameters
+(i.e., assessed
+information
+and KPIs) is based
+be performed
+according
+the structure
+identified
+in PED-Database
+framework:
+on a holistic and exhaustive methodology which highlights the multiple dimensions reQuestionnaire 1-Sections A + B + C ‘PED-relevant Case Studies and PED Labs’ (Figure 4).
+•
+lated to PEDs, for which definitions and characterization are quite broad in the context of
+•
+Questionnaire 2-Section D ‘General Project or initiatives’, Section E ‘National policies or
+the on-going international debate [48]. This is managed by identifying the main categories
+strategies’, Section F ‘Technological and Non-technological solutions and innovations’
+that address its multidimensionality nature and the specific insights from each project and
+Figure
+3. PED-Database-Sections
+A + B + C ‘PED-relevant Case Studies and PED Labs’.
+(Figure
+3).
+initiative according to an inclusive adherence to the PED approach definition in the EU
+countries.
+Therefore, PEDs developers can adopt this targeted information to drive the design
+according to the roughness of boundary conditions, needs and criticalities that characterize their own process. Moving from the district needs, they can find the best solutions and
+practices to be improved in their projects, and that can help to overcome challenges.
+PED-Database data collection will make use of the PED-EU-NET web-embedded
+online platform as an open tool for questionnaire administration [20]. Data collection will
+be performed according to the structure identified in PED-Database framework:
+•
+
+Questionnaire 1-Sections A + B + C ‘PED-relevant Case Studies and PED Labs’ (Figure
+3).
+•
+Questionnaire 2-Section D ‘General Project or initiatives’, Section E ‘National policies
+Figure
+PED-Database-Section
+D ‘General Project
+initiatives’, Sectionsolutions
+E ‘National
+policies
+or
+or3.strategies’,
+Section F ‘Technological
+and or
+Non-technological
+and
+innovastrategies’,
+Section
+F
+‘Technological
+and
+Non-technological
+solutions
+and
+innovations’.
+tions’ (Figure 4).
+
+Figure 3. PED-Database-Sections A + B + C ‘PED-relevant Case Studies and PED Labs’.
+Figure 4. PED-Database-Sections A + B + C ‘PED-relevant Case Studies and PED Labs’.
+
+The tables below list the selected parameters to be collected for PED-Database implementation. In particular, Table 4 reports Questionnaire 1 parameters corresponding
+to Sections A + B + C, while Table 5 reports Questionnaire 2, only as far as it concerns
+Section D ‘General Project or initiatives’. Section E ‘National policies or strategies’ and Section
+F ‘Technological and Non-technological solutions and innovations’ will be developed in the
+following months.
+
+Sustainability 2022, 14, 427
+
+10 of 24
+
+Table 4. PED Database parameters. Questionnaire 1-Sections A + B + C.
+Section
+
+Question Title
+
+Obligatory Question
+Yes
+
+A_1
+A_2
+A_3
+A_4
+A_5
+A_6
+A_7
+A_8
+A_9
+A_10
+A_11
+A_12
+A_13
+A_14
+A_15
+A_16
+A_17
+A_18
+A_19
+A_20
+A_21
+A_22
+A_23
+A_24
+A_25
+A_26
+A_27
+A_28
+A_29
+A_30
+A_31
+A_32
+B1_1
+B1_2
+
+Case study title
+Photo(s)
+What is the definition of the
+PED site?
+Project Phase of case
+study/PED Lab
+General project/initiative
+(link to section D)
+Geographic coordinates
+Country
+Climate zone
+(Köppen–Geiger classification)
+Total land area occupied by
+your case study/PED Lab (m2 )
+District boundary
+Project targets of the PED case
+study/PED Lab
+Ownership of the case
+study/PED Lab
+Number of buildings in PED
+Contact person (name and
+e-mail)
+Sources
+(publication, link to website,
+deliverable)
+Fields of Application
+Renewable Generation on-site
+(GWh/annum)
+Non-renewable resources
+(GWh/annum)
+Annual energy demand in
+buildings (GWh/annum)
+Annual energy demand for
+e-mobility (GWh/annum)
+Annual energy use
+(GWh/annum)
+Annual energy delivered
+(GWh/annum)
+Energy Generation technologies
+Energy Flexibility technologies
+Energy Efficiency technologies
+Municipal policy/strategy
+National and regional
+policy/strategy
+Economic strategies
+Social models
+Planning models
+Climate change mitigation and
+adaptation measures
+Legal/Regulatory aspects
+PED concept definition
+Motivation behind PED
+development
+
+No
+
+x
+
+Type of Question
+Open
+
+Closed
+
+Defined in the Glossary
+Yes
+
+x
+
+x
+x
+
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+x
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+x
+
+x
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+No
+
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+x
+x
+
+x
+x
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+
+Sustainability 2022, 14, 427
+
+11 of 24
+
+Table 4. Cont.
+Section
+
+Question Title
+
+Obligatory Question
+Yes
+
+B2_20
+B2_21
+
+District population (ab.) before
+intervention
+District population (ab.) after
+intervention
+Conditioned Area (closed
+building area)
+Population density (inh./m2 )
+before intervention
+Population density (inh./m2 )
+after intervention
+Building and Land Use
+Project context
+Type of intervention
+Installation life time
+Scale
+Boundary conditions for the
+operation of your laboratory
+Replication framework
+Lifecycle process
+Policy framework of PED Lab
+Motivation for developing the
+PED Lab
+Incentive for the definition,
+implementation/operation of
+the PED Lab
+Lean and collaborative Partners
+Synergies between the activities
+Available facilities to test urban
+configurations
+Incubation capacities
+Availability to the facilities for
+external people
+Monitoring measures
+Key Performance indicators
+measured
+Execution of operations
+Capacities needed
+Relations with stakeholders
+Standardization or certification
+process
+Tools available
+External accessibility
+
+C_1
+C_2
+C_3
+C_4
+C_5
+C_6
+C_7
+C_8
+C_9
+C_10
+C_11
+C_12
+
+Endogenous Unlocking Factors
+Exogenous Driving Factors
+Administrative Barriers
+Policy
+Legal and Regulatory
+Technical
+Environmental
+Social and Cultural
+Information and Awareness
+Economical and Financial
+Market
+Stakeholders Involved
+
+B1_3
+B1_4
+B1_5
+B1_6
+B1_7
+B1_8
+B1_9
+B1_10
+B2_1
+B2_2
+B2_3
+B2_4
+B2_5
+B2_6
+B2_7
+B2_8
+B2_9
+B2_10
+B2_11
+B2_12
+B2_13
+B2_14
+B2_15
+B2_16
+B2_17
+B2_18
+B2_19
+
+Type of Question
+
+No
+
+Open
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+x
+x
+x
+
+x
+x
+x
+x
+
+x
+x
+x
+x
+
+Closed
+
+Defined in the Glossary
+
+x
+x
+
+x
+
+x
+
+x
+
+x
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+
+x
+
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+
+x
+x
+
+x
+
+No
+
+x
+x
+
+x
+
+x
+x
+
+x
+
+Yes
+
+x
+
+x
+x
+x
+
+x
+x
+x
+
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+x
+
+Sustainability 2022, 14, 427
+
+12 of 24
+
+Table 5. PED Database parameters. Questionnaire 2-Sections D.
+Section
+
+Question Title
+
+Obligatory Question
+Yes
+
+D_1
+D_2
+D_3
+D_4
+D_5
+D_6
+D_7
+D_8
+D_9
+
+Project/initiative Code assigned
+Name of your project/initiative
+Project/initiative period
+Funding programme/financing
+model
+Description of
+projects/initiative objectives
+and concepts
+Upscaling strategies and
+potential
+Related case studies
+(link to Section A)
+Expected impact
+Sources
+(publication, link to website,
+deliverable)
+
+Type of Question
+
+No
+
+Open
+
+x
+x
+x
+
+x
+x
+x
+
+x
+
+Closed
+
+Defined in the Glossary
+Yes
+
+No
+
+x
+x
+x
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+The questionnaires for PED-Database data collection are supplemented by a detailed
+Glossary providing definitions related to each parameter and the related KPIs. The Glossary’s main purpose is to provide definitions and references to enable better consistency of
+the data and information collected for the PED Database. The Glossary will be provided to
+the respondents during the information-collection process in the form of explanatory text,
+in order to avoid confusion during the self-filling of the online questionnaire.
+4.3. PED-Database Online Platform
+All of the efforts that have been conducted under PED-Database creation will lead
+to the release of an online platform accessible from the PED-EU-NET website. The full
+release is planned for 2022. This platform will act as a unified database for identifying
+PEDs and PED Labs in the EU. Once the database is implemented, another research paper
+will be developed to present the quantitative and qualitative data derived from the PED
+case studies and PED Labs included in the database.
+In this section, the format of the PED-Database online platform will be presented.
+The platform, as already mentioned, has been developed in three components: (1) online
+input form, (2) database frontend (i.e., user interface for online data visualization) and
+(3) database backend for PED-Database administration.
+4.3.1. Online Input Form
+Structured in line with the questionnaires described in Section 4.1. The form will be
+accessible to database respondents based on a link provided by the Database editor. An
+additional advantage to the standard online forms, e.g., an EU Survey [56], is the embeddedness and seamless connection with the frontend and backend for data visualization.
+It is complemented by the following additional features: navigation key plan, summary
+overview of input values before submission.
+4.3.2. Database Frontend for Data Visualization
+In the release-candidate version, the PED case studies, and PED Labs are accessible
+using map view, based on OpenStreet Map and table view (see Figure 5).
+
+Sustainability
+Sustainability2022,
+2022,14,
+14,427
+x FOR PEER REVIEW
+
+Sustainability 2022, 14, x FOR PEER REVIEW
+
+13 13
+ofof2524
+
+13 of 25
+
+Figure5.5. PED
+PED Database
+Database front
+front end
+end mockups:
+mockups: map
+Figure
+map view.
+view.
+
+The user is able to switch between the view modes, to access/browse individual
+database tables, to customize the data shown based on multiple parameters and to apply
+advanced filter of selected parameters next to the map. In the comparison section, case
+studies can be selected, compared and a customized combination of case studies can be
+exported
+(see
+Figurefront
+6). The
+map view
+will
+be based on OpenStreet Map.
+Figure 5. PED
+Database
+end mockups:
+map
+view.
+
+Figure 6. PED Database front end mockups: filters and table view.
+
+4.3.3. Database Backend for Administration
+The system foresees the role of a Database editor (PED-EU-NET authorized user) and
+Figure 6. PED Database front end mockups: filters and table view. for registration). The editor’s
+Figure
+PED Database
+front end
+mockups:
+filters and table
+view. need
+input6.from
+editors (any
+database
+contributor
+without
+
+4.3.3. Database Backend for Administration
+The system foresees the role of a Database editor (PED-EU-NET authorized user) and
+input from editors (any database contributor without need for registration). The editor’s
+
+Sustainability 2022, 14, 427
+
+14 of 24
+
+4.3.3. Database Backend for Administration
+The system foresees the role of a Database editor (PED-EU-NET authorized user) and
+input from editors (any database contributor without need for registration). The editor’s
+task is to invite input form editors and review the submitted input forms before publication
+in the Database frontend. Since all the information and data provided by the contributors
+(input form editors) are intended to be publicly available to anyone, this process serves as a
+minimum for quality assurance.
+5. Discussion and Future Developments
+This research supports Municipalities in passing from an integrated energy planning
+stage to the implementation of strategies towards the climate neutrality target, by using
+an attractive, innovative and human-centered approach. This approach facilitates the
+decision-making process by providing information on the available district resources, the
+solutions and innovations adopted, urban directives, implementation processes, expected
+and measured metrics, or associated drivers and barriers. The transition process needs to
+consider contextual and regional factors in order to achieve favorable PED implementations
+with low resource investments and utilization of local resources.
+The designed PED-Database introduces definitions and insights that will guide cities’
+stakeholders in the creation of capacity at different levels as well as by defining core
+capabilities. The developed framework provides an understanding of the state of play and
+PED concept directions, views, values and functionality to create a learning environment
+for capacity building and, at the same time, to establish a vision for tomorrow.
+PED concepts must be highly structured, based on local resources, with the high
+involvement of urban stakeholders and should be strongly linked to global governance
+models for which no factor can be left out.
+Indeed, in this PED scenario, several stakeholders are required to cooperate in a
+strategical PED vision, where technological and non–technological solutions are tightly
+connected. It is necessary to consider citizens’ needs and challenges, through the process of
+authorization and the realization of both public and private buildings intervention, with
+the involvement of the relative municipal officers. Local citizens’ associations play a role in
+enhancing opportunities and synergies in the social field that can arise in a PED context.
+Alongside the non-technological elements, there is also a link to the choices of efficiency,
+energy flexibility, RES-production, storage, reducing CO2 emissions and any other element
+as recorded in the associated technological aspects and innovations section of the PED
+Database. These PED scenarios can be contextualized within the creation of an energy
+citizenship community, as well.
+The PED-Database provides a balanced overview of the technological and non–
+technological solutions that require the cooperative involvement of several stakeholders,
+and those that collect the key resources, making sure that such resources are effectively
+integrated. The capacity building process encourages participation by all those involved.
+Through the capacity building process, each stakeholder can learn to develop an element of
+the PED in close connection with all partners. This is why a PED needs a strategical shared
+vision among all the actors of the process.
+A well-structured form of data collection is the starting point to reach this goal. This
+task requires external assistance from PED developers who are in charge and responsible
+for the gathered information (e.g., researchers, energy vendors, DSO, TSO, aggregate, technology providers, etc.), auditors (e.g., technical architect in charge, energy audit company,
+consulting expert) or any other actors within a public–private partnership who are actively
+involved in the projects.
+Aligned with this target, COST Action ‘PED-EU-NET’ has developed pioneer initiatives in conducting research on PEDs and aligning the identified parameters with their
+expertise and their ongoing research on the generation of PED Databases. Since there
+are overlaps and gaps in their research, an alignment process is essential to balance the
+work load for experts (developers of the Databases) and city authorities (who are trying
+
+Sustainability 2022, 14, 427
+
+15 of 24
+
+to answer questions of the parameters and indicators). On the other hand, knowledge
+and experience sharing are necessary in order to maximize the benefit to target groups in
+terms of advancing the scientific, technological and social awareness as well as to realise
+the added value generated by networking at a pan-European level and beyond.
+With this intent, the first urban stakeholders workshop held by the PED-EU-NET in
+Rome in early October 2021 proved to be an example of an efficient platform for exchange
+and a stimulus for cooperation among different types of stakeholders.
+The PED-Database is intended for release in 2022. The collaboration among the PEDEU-NET WGs the Database is expected to grow further, in two respects. First, the data
+collection will be initiated with PED-relevant case studies and widened over time. Second,
+new sections will be added to the database in the coming years, based on the framework
+(especially the sections E and F) of national level and technological and non-technological
+solutions and tools.
+This Action will run until the end of 2024, and the leadership has been assessing the
+options of maintaining the database after that. The COST Action website needs to be kept
+open and the data should remain available for two years after the end of COST Action.
+After the end of COST Action, it might be possible to transfer the Database to another host,
+e.g., European Energy Research Alliance or other European initiatives that the COST works
+closely with.
+6. Conclusions
+The methodology developed for the generation of a PED Database, and its structural
+format have been developed under CA 19126 by WG1 leaders and T1.1 leaders. Moreover,
+the WG3 team contributed to the parameters regarding the PED LABs. The main advantage
+of the PED-Database is its use as an operative tool, targeted mainly for use in municipalities,
+but also for researchers and professionals who want to explore configure PED concepts.
+The framework of the PED-Database comprises the implementation process, starting with
+the identification of the definition scope, the main requirements, a development of the
+parameters that characterize PEDs and generates the glossary for defining each parameter.
+The PED projects/initiatives are listed by the COST partners, resources as to identify
+the resources that are available that would feed the Database. At the implementation
+stage, questionnaires are generated regarding global characteristics, technological and nontechnological aspects, PEDs/PED-LABs detailing, Main Barriers, Enablers and Stakeholders
+and General Projects.
+The results will be highlighted for the realization of the PED-Database framework
+and its online implementation in the form of a web interoperable platform. The platform
+is still under construction and will be finalized soon after the data collection phase. The
+Database Editors will review the gather data and transform them into an understandable,
+common language that will be displayed in the platform. The sustainability of the Database
+is critical in terms of contributions and research, and, for this reason, we have planned to
+maintain the Database after the Action lifetime, as it will be adopted by another host that
+works closely with Action group.
+This intensive research on defining a framework for characterizing PEDs by definition,
+concept boundary, strategies and technological and non-technological innovations utilized
+facilitates a cross disciplinary working environment within the CA19126 WG1 team. The
+alignment efforts with the pioneer initiatives (IEA-EBC Annex 83 and JPI UE) will result
+in an overarching approach within the PED environment, since there are still overlaps
+or conflicts on the concept of PEDs. A unified database for mapping, filtering, sorting,
+comparing and benchmarking PED planning or implementations will help decision makers
+or experts in realizing the main concept.
+Once the PED case studies and PED LABs are implemented in the Database, the
+CA19126 WG1 team plans to develop another publication on the collected data and results.
+Author Contributions: Conceptualization, G.T., B.A., P.C. and M.K.; methodology, G.T., B.A., P.C.
+and M.K.; software, G.T, B.A., M.K., P.C., O.S. and S.S.; validation, G.T., B.A., P.C., M.K. and V.A.-S.;
+
+Sustainability 2022, 14, 427
+
+16 of 24
+
+investigation, G.T., B.A., S.P., P.C., M.K. and V.A.-S.; resources, G.T., B.A. and S.P.; data curation, B.A.,
+G.T., M.K., P.C., O.S. and S.S.; writing—original draft preparation, G.T., B.A., P.C., M.K., S.P. and
+G.M.; writing—review and editing, G.M., O.S., S.S. and V.A.-S.; visualization, G.T. and B.A.; project
+administration, M.K., P.C., B.A., G.T. and V.A.-S.; funding acquisition, V.A.-S. All authors have read
+and agreed to the published version of the manuscript.
+Funding: The Article Processing Charges (APC) was funded by COST (European Cooperation
+in Science and Technology) under the Action 19126 Positive Energy Districts European Network
+(PED-EU-NET).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Acknowledgments: This article is based upon work from COST Action 19126 Positive Energy
+Districts European Network PED-EU-NET (https://pedeu.net/ Accessed on 16 November 2021),
+supported by COST (European Cooperation in Science and Technology, www.cost.eu Accessed on
+16 November 2021). The authors acknowledge COST Action 19126 WGs and other international
+initiatives-in particular IEA Annex 83, JPI Urban Europe, Smart Cities Marketplace and EERA
+Joint Programme on Smart Cities-for the fruitful and continuous collaboration in PED-Database
+development. Paolo Civiero acknowledges the funding received from the European Union’s Horizon
+2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No
+712949 (TECNIOspring PLUS) and the Agency for Business Competitiveness of the Government of
+Catalonia. Michal Kuzmic acknowledges the funding received from the European Union’s Horizon
+2020 research and innovation programme under the SPARCS grant agreement No 864242. Beril
+Alpagut acknowledges the funding received from the European Union’s Horizon 2020 research and
+innovation programme under the MAKING-CITY project agreement No 824418. Giulia Turci and
+Serena Pagliula acknowledge TRACE research team from University of Bologna and the funding
+received from the European Union’s Horizon 2020 research and innovation programme under the
+GRETA project agreement No 101022317.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Nomenclature
+CIEMAT
+CO2
+COST
+DUT
+EERA JPSC
+EIP-SCC
+ERRIN
+EU
+GHG
+IEA-EBC
+IT
+JPI UE
+KPIs
+NECPs
+PED
+PED-EU-NET
+SCIS
+SCM
+SDGs
+SEAPs
+SECAPs
+SET
+SMEs
+WGs
+
+Centro de Investigaciones Energéticas, Medioambientales y Tecnológicas
+Carbon dioxide
+European Cooperation in Science and Technology
+Driving Urban Transition
+European Energy Research Alliance RA Joint Programme on Smart Cities
+European Innovation Partnership on Smart Cities and Communities
+European Regions Research and Innovation Network
+European
+Greenhouse Gasses
+International Energy Agency’s Energy in Buildings and Communities
+Information Technology
+Joint Programming Initiative Urban Europe
+Key Performance Indicators
+National Energy and Climate Plans
+Positive Energy District
+Positive Energy Districts European Network
+Smart Cities Information System
+Smart Cities Marketplace
+Sustainable Development Goals
+Sustainable Energy Action Plans
+Sustainable Energy and Climate Action Plans
+Strategic Energy Technology
+Small and Medium Enterprises
+Working Groups
+
+Sustainability 2022, 14, 427
+
+17 of 24
+
+Appendix A
+Table A1. Comparative analysis of different existing relevant databases and platforms.
+Title
+
+Basic Info
+
+PEDs BOOKLET
+
+Year
+2020
+Programme
+JPI UE
+Format
+Paper (tables)
+Targeted users
+Municipalities
+Source
+[46]
+
+OPPLA:
+Repository of NBS
+
+Year
+2016–2020
+Programme
+European Commission FP7
+Format
+Digital platform
+Targeted users
+Public, private and voluntary sectors; large and small
+organisations, as well as individuals
+Source
+[57]
+
+Scope
+
+Main Contents
+
+The Booklet collects 59 pilot case studies at the district scale
+aimed at activating sustainable urbanization processes in a
+logic of maximum energy efficiency. It is structured in two
+sections: (1) PEDs projects, (2) Towards PEDs. Each section
+is divided into the following: Projects in Operation, Projects
+in Implementation Stage and Projects in Planning Stage.
+
+Structure:
+- General information (City, project name, project status, project
+start-end, contact, project website, size of project area, building
+structure, land use, financing);
+- Overview description of the project;
+- Strategies (goals/ambition, indicators/expected impact, overall
+city strategies, factors included in implementation strategies,
+innovative stakeholder involvement strategies, typology of energy
+supply);
+- Success factors;
+- Challenge/barriers.
+
+OPPLA provides:
+- Knowledge Marketplace, where the latest thinking on
+natural capital, ecosystem services and nature-based
+solutions is presented;
+- Ask Oppla, a crowd-sourced enquiry service;
+- Oppla Community, a system for networking with other
+members from around the world.
+- Case study repository, an integrable platform containing
+example of NBS application
+
+Year
+2017–2021
+
+URBAN NATURE
+ATLAS
+
+Programme
+European Commission H2020
+Format
+Digital platform
+Targeted users
+N/A
+Source
+[58]
+
+C40 CASE STUDIES
+
+Year
+/
+Programme
+C40 Cities Climate Leadership Group
+Format
+Digital platform
+Targeted users
+N/A
+Source
+[59]
+
+CASE STUDIES:
+stories from the
+Neighbourhood
+
+Year
+/
+Programme
+ECODISTRICTS
+certification
+standard
+Format
+Digital platform + Paper (tables, images)
+Targeted users
+N/A
+Source
+[60]
+
+NEIGHBOURHOOD
+planning + design
+Learning from best
+practices
+
+Year
+2017
+Programme
+UBC Stadium Neighbourhood
+Format
+Paper (tables)
+Targeted users
+Community and designers who take part in the participatory
+design process
+Source
+[61]
+
+URBAN NATURE ATLAS provides 1000 examples of
+Nature-Based Solutions from across 100 European cities.
+
+Research options:
+- Scale
+- Type
+Structure:
+- Objective;
+- Actions;
+- Lessons learned;
+- Financing;
+- Challenges:
+- Benefits;
+- Stakeholder
+- Participatory Planning;
+- Success and Limiting Factors;
+- Monitoring and evaluation;
+- Contacts;
+- Further information.
+
+Research options:
+- Quick Search by icons;
+- Advanced Search
+Structure:
+- Brief description (location, city population, project duration,
+project cost, financing source(s))
+- Overview (urban setting, key challenges, main beneficiaries,
+project objectives, implementation activities);
+- Governance (type of organizations, management set-up,
+community involvement)
+- Monitoring (expected impacts, presence of monitoring system,
+presence of indicators, presence of evaluation reports);
+- References
+
+C40 CASE STUDIES describes pilot projects developed in
+cities that are taking bold climate action, leading the way
+towards a healthier and more sustainable future.
+
+Research options:
+- location;
+- topics;
+- benefits.
+Structure:
+- Title (brief description, image)
+- Benefits (social, environmental, economic)
+- Details (key impact, project start date);
+- Next steps
+
+The Platform browses case studies on Ecodistricts from
+around the world, capturing how neighborhood-scale
+innovation can drive the development of neighborhoods for
+all.
+
+Structure:
+- Title;
+- Date;
+- Snapshot (Project type, site size, demographics, economy,
+anticipated outcomes, key stakeholders);
+- Neighborhood overview;
+- Project governance;
+- Early wins (place, health and wellbeing, connectivity, living
+infrastructure, resource regeneration)
+- Lesson learned + challenges;
+- Next steps
+
+NEIGHBOUR-HOOD
+planning + design shows examples of best-practice to help
+unearthing new ideas and assessing potential policy and
+design possibilities for the Stadium Road Neighbourhood,
+Vancouver (USA).
+
+Structure:
+- Title;
+- Site area dimension;
+- n. dwelling units;
+- Construction period;
+- Project overview;
+- Lessons learned
+- Adopted solutions/strategies (resources + natural systems, place
++ experience, convenent connection, social cohesion + community)
+- Photos;
+- Maps;
+- Comparative capacity (density, building type)
+
+Sustainability 2022, 14, 427
+
+18 of 24
+
+Table A1. Cont.
+Title
+
+Basic Info
+
+Scope
+
+SMART SCALE:
+cities to watch
+
+Year
+2020
+Programme
+World Economic Forum-Community Paper
+Format
+Paper (tables)
+Targeted users
+N/A
+Source
+[62]
+
+Smart Cities
+Marketplace
+Platform -SCMP
+
+Year
+2020
+Programme
+European Commission H2020
+Format
+Digital platform + Paper (tables, images)
+Targeted users
+project developers, municipalities, research institutions, industry,
+experts and citizens
+Source
+[13]
+
+Main Contents
+
+SMART SCALE shows examples of successful smart city
+solutions to leverage critical success factors and to move
+forward smart, sustainable and innovative initiatives and
+projects.
+
+SCMP is a knowledge platform to exchange data, experience
+and know-how and to collaborate on the creation of smart
+cities, providing a high quality of life for its citizens in a
+clean, energy efficient and climate friendly urban
+environment.
+
+Structure:
+- governance and policy;
+- society;
+- infrastructure and services;
+- environment;
+- business and economy.
+Case studies sheets’ structure:
+- what
+- why
+- how
+- scale (implementation in another context)
+
+Research options:
+- Filter by Project type
+- Filter by Energy
+- Filter by Mobility and transport
+- Filter by ICT
+- Filter by Country/City
+- Filter by Funding Programme
+Structure:
+- Facts and figures (geographical area, area dimension, population,
+total investment, funding from EU, Final energy savings, primary
+energy savings, CO2 emission reduction);
+- Energy efficiency in buildings;
+- Key impact;
+- Type of technologies;
+- Lesson learned.
+
+Appendix B
+Table A2. PED-focused initiatives and projects collected among COST Action partners (1–16).
+PED-Focused Initiatives
+
+01
+
+02
+
+03
+
+04
+
+Acronym
+
+Title
+
+Period
+
+COST PED-EU-NET
+
+COST Action on
+Positive Energy
+Districts European
+Network
+
+2020
+2024
+
+IEA EBC Annex 83
+
+International Energy
+Agency, Programme
+on Annex 83 Positive
+Energy Districts
+
+2020
+2024
+
+JPI-UE
+
+Positive Energy
+Districts and
+Neighbourhoods for
+Sustainable Urban
+Development
+
+2018
+-
+
+EERA JPSC
+
+European Energy
+Research Alliance
+Joint Programme
+Smart Cities
+
+2016
+2021
+
+x
+
+x
+
+x
+
+x
+
+National
+
+N◦
+
+International
+
+Scale
+
+Source
+
+N/A
+
+https://pedeu.net/
+Accessed on 16
+November 2021
+
+N/A
+
+https:
+//annex83.iea-ebc.org/
+Accessed on 16
+November 2021
+
+N/A
+
+https:
+//jpi-urbaneurope.eu/
+calls/ped-call/
+Accessed on 16
+November 2021
+
+N/A
+
+https:
+//www.eera-sc.eu
+Accessed on 16
+November 2021
+
+Sustainability 2022, 14, 427
+
+19 of 24
+
+Table A2. Cont.
+PED-Focused Projects
+
+Acronym
+
+Title
+
+Period
+
+National
+
+N◦
+
+International
+
+Scale
+N◦ Case
+Studies
+
+Source
+
+4
+
+https://synikia.eu/
+Accessed on 16
+November 2021
+
+Syn.ikia
+
+Sustainable Plus
+Energy
+Neighbourhoods
+
+2020
+2024
+
+06
+
+SPARCS
+
+Sustainable energy
+Positive & zero
+cARbon
+CommunitieS
+
+2019
+2024
+
+x
+
+7
+
+https:
+//www.sparcs.info/
+Accessed on 16
+November 2021
+
+07
+
++CityxChange
+
+Positive City
+ExChange
+
+2018
+2023
+
+x
+
+7
+
+https://cityxchange.eu/
+Accessed on 16
+November 2021
+
+MAKINGCITY
+
+Energy efficient
+pathway for the city
+transformation:
+enabling a positive
+future
+
+2018
+2023
+
+x
+
+8
+
+http://makingcity.eu/
+the-project/ Accessed
+on 16 November 2021
+
+POCITYF
+
+A POsitive Energy
+CITY
+Transformation
+Framework
+
+2019
+2024
+
+x
+
+8
+
+https://pocityf.eu/
+Accessed on 16
+November 2021
+
+Atelier
+
+AmsTErdam BiLbao
+cItizen drivEn smaRt
+cities
+
+2019
+2024
+
+8
+
+https:
+//smartcity-atelier.eu/
+Accessed on 16
+November 2021
+
+RESPONSE
+
+integRatEd Solutions
+for POsitive eNergy
+and reSilient CitiEs
+
+2020
+2025
+
+8
+
+https:
+//h2020response.eu/
+Accessed on 16
+November 2021
+
+EXCESS
+
+FleXible
+user-CEntric Energy
+poSitive houseS
+
+2019
+2023
+
+4
+
+https://positiveenergy-buildings.eu/
+Accessed on 16
+November 2021
+
+QEP
+
+Smart Capital
+Region programmeQuartier à Energie
+Positive
+
+2016
+-
+
+5
+
+https://www.papillonkoeniz.ch/ Accessed on
+16 November 2021
+
+ZEN
+
+Research Centre on
+Zero Emission
+Neighbourhoods in
+Smart Cities
+
+2017
+2024
+
+9
+
+https://fmezen.no/
+category/pilot-projects/
+Accessed on 16
+November 2021
+
+x
+
+1
+
+https://smartcityweb.
+net/smartcities/parma
+Accessed on 16
+November 2021
+
+x
+
+1
+
+https://www.comune.
+trento.it Accessed on 16
+November 2021
+
+05
+
+08
+
+09
+
+10
+
+11
+
+14
+
+12
+
+13
+
+15
+
+/
+
+Parma Smart City
+
+2017
+-
+
+16
+
+/
+
+Santa Chiara District
+
+2017
+-
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Sustainability 2022, 14, 427
+
+20 of 24
+
+Table A3. PED-supporting initiatives and projects collected among COST Action partners (17–40).
+PED-Supporting Initiatives
+
+17
+
+18
+
+19
+
+Acronym
+
+Title
+
+Period
+
+ETIP SNET
+
+European
+Technology &
+Innovation
+Platforms (ETIPs)
+
+SCIS-SCM
+
+Smart Cities
+Information
+System-Marketplace
+
+-
+
+Local Energy District
+
+Tecnologie per la
+penetrazione
+efficiente del vettore
+elettrico negli usi
+finali
+
+2019
+2021
+
+2020
+2030
+
+National
+
+N◦
+
+International
+
+Scale
+
+x
+
+x
+
+x
+
+N◦ Case
+Studies
+
+Source
+
+N/A
+
+https:
+//www.etip-snet.eu/
+Accessed on 16
+November 2021
+
+N/A
+
+https://smart-citiesmarketplace.ec.europa.
+eu/ Accessed on 16
+November 2021
+
+N/A
+
+https://www.enea.it/
+it/Ricerca_sviluppo/
+lenergia/ Accessed on
+16 November 2021
+
+N◦ Case
+Studies
+
+Source
+
+PED-Supporting Projects
+
+Acronym
+
+Title
+
+Period
+
+2016
+2021
+
+x
+
+5
+
+https://smartencity.eu/
+Accessed on 16
+November 2021
+
+2021
+2024
+
+x
+
+5
+
+N/A
+
+20
+
+SmartEnCity
+
+SmartEnCity project:
+Towards Smart Zero
+CO2 Cities across
+Europe
+
+21
+
+GRETA
+
+GReen Energy
+Transition Actions
+
+22
+
+23
+
+24
+
+National
+
+N◦
+
+International
+
+Scale
+
+SUSHI
+
+SUStainable HIstoric
+city districts
+
+2018
+2021
+
+Sharing Cities
+
+Building smart cities
+together
+Common solutions
+for shared challenges
+
+2016
+2021
+
+CENTS
+
+Co-operative Energy
+Trading System
+
+2019
+2022
+
+x
+
+x
+
+x
+
+6
+
+https://
+sustainablehistoriccitydistricts.
+wordpress.com/
+Accessed on 16
+November 2021
+
+6
+
+http://www.
+sharingcities.eu/
+Accessed on 16
+November 2021
+
+3
+
+http:
+//www.centsproject.ie/
+Accessed on 16
+November 2021
+
+Sustainability 2022, 14, 427
+
+21 of 24
+
+Table A3. Cont.
+PED-Supporting Projects
+
+Triangulum
+
+Demonstrate,
+Disseminate,
+Replicate
+
+2015
+2020
+
+x
+
+6
+
+https://www.buildup.
+eu/en/explore/links/
+triangulum-project
+Accessed on 16
+November 2021
+
+REPLICATE
+
+REnaissance of
+PLaces with
+Innovative
+Citizenship
+Additionally,
+TEchnologies
+
+2016
+2021
+
+x
+
+6
+
+www.replicate-project.
+eu Accessed on 16
+November 2021
+
+Sinfonia
+
+Smart INitiative of
+cities Fully
+cOmmitted to iNvest
+In Advanced
+large-scaled energy
+solutions
+
+2014
+2019
+
+x
+
+7
+
+http://www.sinfoniasmartcities.eu/en/
+project Accessed on 16
+November 2021
+
+STREAMER
+
+Geo and Building
+Information
+Modelling for
+Energy-efficient
+Buildings Integrated
+in Mixed-use
+Healthcare Districts
+
+2013
+2017
+
+x
+
+4
+
+http://www.streamerproject.eu/ Accessed on
+16 November 2021
+
+PROFICIENT
+
+Collective
+self-organised
+processes in the
+construction and
+retrofit of energy
+efficient residential
+districts
+
+2012
+2016
+
+4
+
+https://www.
+proficient-project.eu/
+Accessed on 16
+November 2021
+
+GECO
+
+Green Energy
+COmmunity
+
+2019
+2021
+
+1
+
+https://www.
+gecocommunity.it/
+Accessed on 16
+November 2021
+
+31
+
+SusCity
+
+Urban data driven
+models for creative
+and resourceful
+energy transition
+
+2015
+2017
+
+x
+
+1
+
+https:
+//www.inesctec.pt/en/
+projects/suscity#news
+Accessed on 16
+November 2021
+
+32
+
+FIRST
+
+Mapping flexibility
+of urban energy
+systems
+
+2017
+2020
+
+x
+
+1
+
+http://in3.dem.ist.utl.
+pt/first/#first Accessed
+on 16 November 2021
+
+/
+
+EnStadt:Pfaff
+
+2017
+2022
+
+x
+
+1
+
+https:
+//pfaff-reallabor.de/
+Accessed on 16
+November 2021
+
+VISORE
+
+Psychological
+Factors of Effective
+Visual Public Service
+Announcements
+
+2017
+2019
+
+x
+
+1
+
+http://visore.mruni.eu/
+Accessed on 16
+November 2021
+
+25
+
+26
+
+27
+
+28
+
+29
+
+30
+
+33
+
+34
+
+x
+
+x
+
+Sustainability 2022, 14, 427
+
+22 of 24
+
+Table A3. Cont.
+PED-Supporting Projects
+
+35
+
+36
+
+37
+
+2000-Watt-Sites
+
+/
+
+Kosovo Energy
+Efficiency Project
+
+Kosovo Energy
+Efficiency
+Project-Training of
+Energy Auditors in
+Kosovo
+
+PAW
+
+PAW Programma
+Aardgasvrije Wijken
+(Gas Free Districts
+Programme)
+
+2006
+-
+
+2017
+2021
+
+2019
+2024
+
+x
+
+x
+
+x
+
+4
+
+https://www.2000watt.
+swiss/en/2000-wattareale-finden.html
+Accessed on 16
+November 2021
+
+5
+
+https:
+//www.giz.de/en/
+worldwide/81190.html
+Accessed on 16
+November 2021
+
+46
+
+https:
+//aardgasvrijewijken.
+nl/default.aspx
+Accessed on 16
+November 2021
+
+1
+
+https:
+//www.uia-initiative.
+eu/en/uia-cities/prato
+Accessed on 16
+November 2021
+
+PUJ
+
+Prato Urban Jungle
+
+2020
+2022
+
+39
+
+MilanoSesto
+
+MilanoSesto: an
+evolving city
+
+2020
+2025
+
+x
+
+1
+
+https://www.
+milanosesto.it/en/
+Accessed on 16
+November 2021
+
+40
+
+LIC
+
+Lugaggia Innovation
+Community
+
+2019
+2024
+
+x
+
+1
+
+https://lic.energy/
+Accessed on 16
+November 2021
+
+38
+
+x
+
+References
+1.
+
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+
+12.
+
+SET-Plan Working Group 3.2. Europe to Become a Global Role Model in Integrated, Innovative Solutions for the Planning,
+Deployment, and Replication of Positive Energy Districts. 2018. Available online: https://jpi-urbaneurope.eu/wp-content/
+uploads/2021/10/setplan_smartcities_implementationplan-2.pdf (accessed on 11 October 2021).
+White Paper on PED Reference Framework for Positive Energy Districts and Neighbourhoods; JPI Urban Europe and SET Plan Action 3.2;
+JPIUrban Europe: Vienna, Austria, 2020.
+European Commission. The European Green Deal; European Commission: Brussels, Belgium, 2019.
+Maya-Drysdale, D.; Jensen, L.K.; Mathiesen, B.V. Energy vision strategies for the EU green new deal: A case study of European
+cities. Energies 2020, 13, 2194. [CrossRef]
+European Commission. 100 Climate-Neutral Cities by 2030-by and for the Citizens; European Commission: Brussels, Belgium, 2020;
+ISBN 978-92-76-19920.
+Papajak, U.; Britton, J. Local Government Innovation in the Energy Sector. 2020. Available online: https://fsr.eui.eu/localgovernment-innovation-in-the-energy-sector/ (accessed on 11 October 2021).
+Urrutia-Azcona, K.; Tatar, M.; Molina-Costa, P.; Flores-Abascal, I. Cities4ZERO: Overcoming carbon lock-in in municipalities
+through smart urban transformation processes. Sustainaibility 2020, 12, 3590. [CrossRef]
+European Commission. A Renovation Wave for Europe; European Commission: Brussels, Belgium, 2020.
+European Commission. Horizon Europe Work Programme 2021–2022. Climate, Energy and Mobility towards Climate Neutrality;
+European Commission: Brussels, Belgium, 2021.
+JPI Urban Europe. Positive Energy Districts (PED). Available online: https://jpi-urbaneurope.eu/ped/ (accessed on 11 October 2021).
+Clerici Maestosi, P.; Andreucci, M.B.; Civiero, P. Sustainable urban areas for 2030 in a Post-COVID-19 scenario: Focus on
+innovative research and funding frameworks to boost transition towards 100 positive energy districts and 100 climate-neutral
+cities. Energies 2021, 14, 216. [CrossRef]
+Bylund, J.; Gollner, C.; Jäger, M.; Riegler, J.; Noll, M.; Klaming, G. Driving Urban Transitions Roadmap. 2020. Available
+online: https://ec.europa.eu/info/sites/default/files/research_and_innovation/funding/documents/ec_rtd_he-partnershipsdriving-urban-transitions.pdf (accessed on 16 November 2021).
+
+Sustainability 2022, 14, 427
+
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+
+32.
+33.
+34.
+
+35.
+36.
+
+37.
+38.
+
+39.
+40.
+41.
+42.
+43.
+
+23 of 24
+
+Smart Cities Marketplace Platform (SCMP). Available online: https://smart-cities-marketplace.ec.europa.eu/ (accessed on 14
+October 2021).
+European Regions Research and Innovation Network (ERRIN). Available online: https://errin.eu/ (accessed on 29 September
+2021).
+Eurocities. Available online: https://eurocities.eu (accessed on 11 October 2021).
+Mayors Adapt Initiatives. Available online: https://www.eumayors.eu/ (accessed on 29 September 2021).
+Kona, A.; Bertoldi, P.; Monforti-Ferrario, F.; Rivas, S.; Dallemand, J.F. Covenant of mayors signatories leading the way towards
+1.5 degree global warming pathway. Sustain. Cities Soc. 2018, 41, 568–575. [CrossRef]
+Delponte, I.; Pittaluga, I.; Schenone, C. Monitoring and evaluation of sustainable energy action plan: Practice and perspective.
+Energy Policy 2017, 100, 9–17. [CrossRef]
+Green City Accord. Available online: https://ec.europa.eu/environment/green-city-accord_en (accessed on 29 September 2021).
+COST Action ‘Positive Energy Districts European Network’ (PED-EU-NET). Available online: https://pedeu.net/ (accessed on
+11 October 2021).
+Krangsås, S.G.; Steemers, K.; Konstantinou, T.; Soutullo, S.; Liu, M.; Giancola, E.; Prebreza, B.; Ashrafian, T.; Murauskaitė, L.;
+Maas, N. Positive energy districts: Identifying challenges and interdependencies. Sustainability 2021, 13, 10551. [CrossRef]
+International Energy Agency Energy in Buildings and Community (IEA-EBC). Annex 83 Positive Energy Districts. Available
+online: https://annex83.iea-ebc.org/ (accessed on 11 October 2021).
+Hedman, Å.; Rehman, H.U.; Gabaldón, A.; Bisello, A.; Albert-Seifried, V.; Zhang, X.; Guarino, F.; Grynning, S.; Eicker, U.;
+Neumann, H.M.; et al. IEA EBC Annex83 positive energy districts. Buildings 2021, 11, 130. [CrossRef]
+European Commission. 2050 Long-Term Strategy; European Commission: Brussels, Belgium, 2018.
+International Energy Agency (IEA), Net Zero by 2050: A Roadmap for the Global Energy Sector. 2021. Available online:
+https://www.iea.org/reports/net-zero-by-2050 (accessed on 29 September 2021).
+European Commission. Clean Energy for All Europeans; European Commission: Brussels, Belgium, 2019.
+Gouveia, J.P.; Seixas, J.; Palma, P.; Duarte, H.; Luz, H.; Cavadini, G.B. Positive energy district: A model for historic districts to
+address energy poverty. Front. Sustain. Cities 2021, 3, 1–18. [CrossRef]
+Hearn, A.X.; Castaño-Rosa, R. Towards a Just Energy Transition, Barriers and Opportunities for Positive Energy District Creation
+in Spain. Sustainability 2021, 13, 8698. [CrossRef]
+J˛edrzejuk, H.; Chwieduk, D. Possibilities of upgrading Warsaw existing residential area to status of positive energy districts.
+Energies 2021, 14, 5984. [CrossRef]
+Boeri, A.; Boulanger, S.O.M.; Turci, G.; Pagliula, S. Enabling strategies for mixed-used PEDs: Energy efficiency between smart
+cities and Industry 4.0. TECHNE J. Technol. Archit. Environ. 2021, 22, 170–180. [CrossRef]
+European Commission. Directive of the European Parliament and of the Council Amending Directive (EU) 2018/2001 of
+the European Parliament Regards the Promotion of Energy from Renewable Sources. EUR-Lex. Available online: https:
+//eur-lex.europa.eu/legal-content/EN/LSU/?uri=uriserv:OJ.L_.2018.328.01.0082.01.ENG (accessed on 14 October 2021).
+European Commission. Next Generation EU.; European Commission: Brussels, Belgium, 2021.
+European Commission. Fit for 55—Delivering the EU’s 2030 Climate Target on the Way to Climate Neutrality; European Commission:
+Brussels, Belgium, 2021.
+European Commission. National Energy and Climate Plans (NECPs). Available online: https://ec.europa.eu/info/energyclimate-change-environment/implementation-eu-countries/energy-and-climate-governance-and-reporting/national-energyand-climate-plans_en (accessed on 11 October 2021).
+Governo Italiano, Superbonus 110%. Available online: https://www.governo.it/it/superbonus (accessed on 14 October 2021).
+Salom, J.; Pascual, J. Residential Retrofits at District Scale. Business Models under Public Private Partnership; InnoEnergy: Eindhoven,
+The Netherlands, 2018; Available online: https://www.buildup.eu/en/node/57005 (accessed on 3 December 2021)ISBN 978-8409-07914-8.
+Krosse, L.; Monclus, M.; Nijrolder, A. Building Refurbishment Initiatives and Business Models. A Global Benchmark; InnoEnergy:
+Eindhoven, The Netherlands, 2021.
+European Commission. LC-SC3-SCC-1-2018-2019-2020: Smart Cities and Communities. Available online: https://ec.europa.eu/
+info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/lc-sc3-scc-1-2018-2019-2020 (accessed on 29
+September 2021).
+Maestosi, P.C.; Civiero, P.; Massa, G. European union funding research development and innovation projects on smart cities: The
+state of the art in 2019. Int. J. Sustain. Energy Plan. Manag. 2019, 24, 7–20. [CrossRef]
+MAKING CITY Energy Efficient Pathway for the City Transformation: Enabling a Positive Future. Available online: https:
+//makingcity.eu/ (accessed on 16 November 2021).
++CITYXCHANGE. Positive City ExChange. Available online: https://cityxchange.eu/ (accessed on 29 September 2021).
+POCITYF. A POsitive Energy CITY Transformation Framework. Available online: https://pocityf.eu/ (accessed on 29 September
+2021).
+ATELIER. AmsTErdam BiLbao cItizen drivEn smaRt cities. Available online: https://smartcity-atelier.eu/ (accessed on 29
+September 2021).
+
+Sustainability 2022, 14, 427
+
+44.
+45.
+46.
+
+47.
+48.
+49.
+
+50.
+51.
+52.
+53.
+
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+61.
+62.
+
+24 of 24
+
+SPARCS. Sustainable energy Positive & zero cARbon CommunitieS. Available online: https://www.sparcs.info/ (accessed on 29
+September 2021).
+RESPONSE. integRatEd Solutions for POsitive eNergy and reSilient CitiEs. Available online: https://h2020response.eu/ (accessed
+on 29 September 2021).
+Gollner, C.; Hinterberger, R.; Bossi, S.; Theierling, S.; Noll, M.; Meyer, S.; Schwarz, H.G. Europe towards Positive Energy
+Districts: A Compilation of Projects towards Sustainable Urbanization and the Energy Transition. 2020. Available online:
+https://jpi-urbaneurope.eu/wp-content/uploads/2020/06/PED-Booklet-Update-Feb-2020_2.pdf (accessed on 14 October 2021).
+Zhang, X.; Penaka, S.R.; Giriraj, S.; Sánchez, M.N.; Civiero, P.; Vandevyvere, H. Characterizing positive energy district (PED)
+through a preliminary review of 60 existing projects in europe. Buildings 2021, 11, 1–24. [CrossRef]
+Lindholm, O.; Rehman, H.U.; Reda, F. Positioning positive energy districts in European cities. Buildings 2021, 11, 1–31. [CrossRef]
+Civiero, P.; Sanmartí, M.; García, R.; Gabaldón, A.; Adrés Chicote, M.; Ferrer, J.A.; Ricart, J.E.; Franca, P.; Escobar, G.J. Distritos de
+Energía Positiva. 2019, pp. 1–57. Available online: https://static.pte-ee.org/media/files/documentacion/itp-01-2019-distritosde-energia-positiva-peds-ghz.pdf (accessed on 3 December 2021).
+Lien, S.K.; Sørnes, K.; Walnum, H.T.; Hauge, Å.L.; Lindberg, K.B. Selection of key performance indicators (KPIs) in the transition
+towards low-carbon urban communities. Eceee Summer Study Proc. 2019, 2019, 907–915.
+Angelakoglou, K.; Nikolopoulos, N.; Giourka, P.; Svensson, I.-L.; Tsarchopoulos, P.; Tryferidis, A.; Tzovaras, D. A Methodological
+framework for the selection of key performance indicators to assess smart city solutions. Smart Cities 2019, 2, 269–306. [CrossRef]
+Alpagut, B.; Akyürek, Ö.; Mitre, E.M. Positive energy districts methodology and its replication potential. Proceedings 2019, 20, 8.
+[CrossRef]
+Salom, J.; Tamm, M.; Andresen, I.; Cali, D.; Magyari, Á.; Bukovszki, V.; Balázs, R.; Dorizas, P.V.; Toth, Z.; Mafé, C.; et al. An
+evaluation framework for sustainable plus energy neighbourhoods: Moving beyond the traditional building energy assessment.
+Energies 2021, 14, 1–25. [CrossRef]
+Civiero, P.; Pascual, J.; Arcas Abella, J.; Bilbao Figuero, A.; Salom, J. PEDRERA. Positive energy district renovation model for large
+scale actions. Energies 2021, 14, 2833. [CrossRef]
+CIEMAT Information Technology Department. PED Database Online Questionnaire. Available online: http://encuestas.ciemat.
+es/index.php/862321 (accessed on 14 October 2021).
+European Commission ISA2 Programme. EU Survey. Available online: https://ec.europa.eu/eusurvey/home/welcome
+(accessed on 14 October 2021).
+Oppla: Repository of Nature-Based Solutions. Available online: https://oppla.eu/case-study-finder (accessed on 11 October
+2021).
+Urban Nature Atlas. Available online: https://naturvation.eu/atlas (accessed on 29 September 2021).
+C40 Case Studies. Available online: https://www.c40.org/case_studies (accessed on 29 September 2021).
+Case Studies: Stories from the Neighbourhood. Available online: https://ecodistricts.org/case-studies-stories-from-theneighborhood/ (accessed on 11 October 2021).
+Neighbourhood planning+design: Learning from Best Practices. Available online: https://static1.squarespace.com/static/5b914
+e3150a54fa3b80cc160/t/5b92c1a8898583685e7f9b23/1536344503815/Case+Studies.pdf (accessed on 11 October 2021).
+Smart Scale: Cities to Watch. Available online: http://www3.weforum.org/docs/WEF_Smart_at_Scale_Cities_to_Watch_25
+_Case_Studies_2020.pdf (accessed on 29 September 2021).
+
+

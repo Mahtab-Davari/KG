@@ -1,0 +1,852 @@
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019 07–20
+
+OPENING
+
+European Union funding Research Development and Innovation
+projects on Smart Cities: the state of the art in 2019
+Paola Clerici Maestosia*, Paolo Civierob and Gilda Massac
+a
+
+ NEA Italian National Agency for New Technologies, Energy and Sustainable Economic Development – Energy Technolgies
+E
+Department, Via Martiri di Monte Sole, 4, 40129 Bologna, Italy
+b IREC Catalonia Institute for Energy Research, Jardins de les Dones de Negre, 1, 08930 Sant Adrià de Besòs, Barcelona, Spain
+c ENEA Italian National Agency for New Technologies, Energy and Sustainable Economic Development – Energy Technologies
+Department, Piazzale Enrico Fermi, 1, 80055 Portici NA, Italy
+ABSTRACT
+
+Keywords:
+
+European cities currently host 72% of the European population, which probably will rise to 80%
+by 2050.
+
+Cities in EU policy;
+Budget for smart cities;
+Demonstration projects;
+Positive Energy Districts;
+
+European Union, Member States, National and Regions Authorities and different type of
+stakeholders have worked – and keep on doing – together to promote a sustainable urban
+development and to adapt policies to the needs of cities, thus make visible improvements to the
+daily lives of people.
+
+URL: http://doi.org/10.5278/ijsepm.3493
+
+According to this approach, many Member States decided to pool resources at european level,
+achieving more than by acting alone. It is thanks to the coordinated approach of European Union
+and Member State that Research Development & Innovation boost smart cities and smart
+specialization strategies as two novelties that have been adopted by policymakers.
+
+1. The Smart City concept
+Cities and urban areas have been a key issue in EU/
+Member State policies and programs, in the light of the
+fact that over two thirds of the European population live
+in urban areas and that cities were and will be places
+where both problems emerge and solutions are found,
+places which are fertile ground for growth of science
+and technology, to stimulate culture and innovation, to
+support individual and collective creativity and where,
+more than elsewhere, climate change mitigation can be
+more easily understand. Cities play a crucial role as
+engines of the economy, places of connectivity, creativity and innovation, as well as centers of services for the
+surrounding areas. Therefore, cities represent a high
+
+priority for the effective implementation of Europe
+itself.
+Although European cities play a key role in the life of
+Europeans, it seems almost incongruent and senseless
+that there is no common definition for “urban” or even
+for “city”, and that the European Union has no explicit
+jurisdiction in urban development, as urban planning per
+se is not a European policy competence even if economic, social and territorial cohesion all have a strong
+urban dimension. Therefore, even if the “European
+model of the city” is a fascinating issue, it is clear that
+there is no need to adopt a single definition. However, it
+is possible to move towards a shared European vision of
+urban development, as noted by the paper “Cities of
+Tomorrow” (DG Regional Policy, 2011) which consider
+
+*Corresponding author e-mail: paola.clerici@enea.it
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+7
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+Acronyms and Abbreviations
+DG: Directorate General
+EIP: European Industrial Partnership
+ERDF: European Regional Development Fund
+ESIF: European Structural and Investment Funds
+EU: European Union;
+H2020 Framework: Horizon 2020 Framework
+KPIs: Key Performance Indicators
+ICT: information and Communication Technologies
+
+PED/PEN: Positive Energy Districts/Positive Energy
+Neighborhoods
+RD&I: research, Development & Innovation
+SCC: Smart Cities and Communities
+SDGs: Sustainable Development Goals
+SME: Small and medium Enterprise
+SUD: Smart Urban Districts
+
+that “there is not a single vision of the European city
+model but there might be as many visions as there are
+Europeans. These visions are diverse as they build on
+different realities, different strengths, weaknesses,
+opportunities and threats as well as different values”.
+This means that Europe can play a role in defining
+and setting up of the framework and providing guiding
+principles for the growth of a shared vision of European
+cities, in which the dimension of a sustainable urban
+development is taken into account in an integrated way.
+In general terms, this is what took place with European
+funding in RD&I: even if EC has no explicit competence
+in urban development and policies Research Development
+& Innovation programs have undoubtedly contributed to
+promote and support a shared European vision for smart
+cities.
+Many of these programs have become EU trademarks
+and trade names, making the EU visible and recognizable in the daily lives of its citizens.
+The idea behind this shared vision is that European
+cities aspire to be places of green, ecological and environmental regeneration as well as places of advanced
+social progress, platforms for democracy, cultural dialogue and diversity.
+Since 2007 discussions, workshops, white papers,
+DoW (documents of Work) have been written, created and
+developed about the future of cities, both at national and
+European level, as well as glossaries have been p­ repared
+according to the idea that in the transition
+from industrial to knowledge-based societies, the cities
+in the world are changing their shapes. As a result,
+new ­
+definitions were created such as: healthy citiesi,
+
+slow citiesii, slum citiesiii, community citiesiv, shrinking
+citiesv,
+second
+citiesvi,
+historical
+citiesvii,
+
+i
+
+ ities that, according to WHO, are continually creating and improving
+C
+physical and social environments and expanding community resources.
+These efforts enable citizens to mutually support each other in performing
+all functions of life and developing to their maximum potential. For an
+increasing number of cities, the healthy city model is seen as particularly
+valuable because it attracts resourceful citizens; Huset Mandag Morgen,
+special edition on Futures of cities, may 2007, DK
+
+8
+
+ii
+
+Cities that respond to the high pulse of the modern metropolis by launching
+concepts that slow down the pace. These will typically be cities whose
+layout and amenities support a lifestyle that prioritises recreational activity,
+the possibility of relaxing and enjoying life. A number of these cities have
+joined the “Slow City Movement” inaugurated in 1999 in the Italian city of
+Orvieto. The original incentive for this movement was “slow food”, the
+wish to increase the knowledge about and demand for this type of cuisine;
+Huset Mandag Morgen, special edition on Futures of cities, may 2007, DK
+iii Cities that are affected by great poverty. Such cities will typically have
+districts where the poorest citizens live in miserable conditions with no
+access to adequate health services, medical and social help, education,
+work, etc. These harsh conditions often make these districts appear as a
+threat to their surroundings: the environing communities typically react by
+sealing themselves off from the slum district, Huset Mandag Morgen,
+special edition on Futures of cities, may 2007, DK
+iv Cities where citizens experience a special community feeling and interact
+closely with other people in their neighborhood. These cities create and
+maintain local values and ensure a sense of security for the individual
+citizen. They are characterized by strong cohesion that is defined by the
+citizens’ shared values and local attachment rather than by the functions
+the city is expected to fulfil; Huset Mandag Morgen, special edition on
+Futures of cities, may 2007, DK
+v Cities that are getting smaller in size, thus contradicting global urbanization
+trends. The decrease in size is often a consequence of a drop in birth rates
+and/or the closing of larger industrial workplaces that have contributed
+significantly to the growth of the cities. Many shrinking cities make
+dedicated efforts to adjust to the demands of the knowledge society, in
+which the ability to generate growth does not necessarily depends on size;
+Huset Mandag Morgen, special edition on Futures of cities, may 2007, DK
+vi Cities that stand in the shadow of the most important city in a given
+country or region. The definition “second city” is increasingly used about
+cities that have defied their status as “provincial” in recent years, and have
+managed to assert themselves in the competition for resources and growth,
+in some regions and countries, the strong first cities feel overtaken and
+intimidated because the combination of smaller size and independence
+make second cities move faster than their larger counterparts; Huset
+Mandag Morgen, special edition on Futures of cities, may 2007, DK
+vii Cities that have made significant historic contributions to urban
+development. This definition is typically used for cities listed on the UN’s
+World Heritage List. It is also used to define cities that have historic sites,
+buildings, landmarks, etc. that have contributed to significant events in the
+world history, hereby profiling the city to the outside world. The primary
+challenge for cities in this category is to retain their historic distinction
+while still meeting the needs of modern citizens; Huset Mandag Morgen,
+special edition on Futures of cities, may 2007, DK
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+and then green ­citiesviii, and - last but not least - ­qualityof-life citiesix.
+Besides all these one has started to prevail: the Smart
+City paradigm. Maybe because as a huge amount of
+funding - national, international and EC - has been dedicated to this topic, due to the large number of stakeholders that could be catalyzed in the design, scaling up and
+replicability of the smart city itself.
+It is matter of fact that the definitions of Smart
+Cities have changed over the years based on aims and
+goals of different proponents, stakeholders and supporters but, the last definition that have been proposed
+by EIP in Smart Cities and Communities – Strategic
+and Implementation Plan, is probably the one which
+is better to mention here: “Smart cities should be
+regarded as systems of people interacting with and
+using flows of energy, materials, services and financing to catalyze sustainable economic development,
+resilience and high quality of life; these flows and
+interactions become smart through making strategic
+use of information and communication infrastructure
+and services in a process of transparent urban planning and management that is responsive to the social
+and economic needs of society”.
+2. Smart Cities and Smart Cities related topic:
+state of the art in 2019
+2.1. Numbers within the Smart Cities and Smart
+Cities related projects
+Today Europe capitalize on over 30 years of investment
+in transnational Research and Innovation programmes
+on sustainable urban development. European Union
+budget has - indeed - contributed to deploy solutions on
+the “things that matter” for Europeans such as urban
+areas, which have been a key issue in European
+Community funding programmes.
+viii Cities
+
+that are based on a mindset of sustainability and energy-efficient
+solutions with a view to reducing CO2 emission and bringing down the
+consumption of energy resources. This is seen in different ways, for instance
+by having a well-functioning public infrastructure that ensures minimal use
+of cars in the city, and dense building with defined standards for building
+materials, design, etc. that are as environmentally friendly as possible; Huset
+Mandag Morgen, special edition on Futures of cities, may 2007, DK
+ix Cities whose primary purpose is to ensure a high quality of life for their
+citizens. Their efforts range from high health standards to local initiatives
+that ensure a dignified life for all citizens. The latter is achieved by
+providing sufficient opportunities for education and work. It requires a
+balance between public and individual needs. Through their organization
+and physical layout, these cities wish to guarantee safety and security
+while ensuring that the individual citizen feels free and content as a
+member of a larger community; Huset Mandag Morgen, special edition on
+Futures of cities, may 2007, DK
+
+In the last five years the EC promoted Research
+Development & Innovation on urban issues providing
+support through a wide range of funding programs ­covering different funding opportunities according to
+main pillars in H2020 Framework, namely Excellence in
+Science, Industrial Leadership and Societal Challenges
+with following distribution [Figure 1]:
+• 16 projects under program H2020-EU.3.3.1.3. Foster European Smart cities and Communities;
+• 2 project under program H2020-EU3.3 Societal
+Challenges - Secure, clean and efficient energy;
+• 9 projects under program H2020-EU.2.1.1
+Industrial Leadership - leadership in enabling and
+industrial technologies - Information and
+Communication technologies (ICT)
+• 2 projects under program H2020-EU.2.1.1.7. –
+ECSEL
+• 1 project under the Program H2020-EU.3.4.8.1.
+- Innovation Program 1 (IP1): Cost-efficient and
+reliable trains
+• 2 project under program H2020-EU.3.4.8.3. Innovation Program 3: Cost Efficient and Reliable
+High Capacity Infrastructure
+• 1 project under Program H2020-EU.3.4.8.4. Innovation Programme 4: IT Solutions for
+attractive railway services
+• 1 project under Program H2020-EU.3.3.4. - A
+single, smart European electricity grid
+• 1 project under Program H2020-EU.1.2.2. - FET
+Proactive
+• 2 project under Program H2020-EU.3.3.7. Market uptake of energy innovation - building on
+Intelligent Energy Europe
+The overall budget related to H2020-EU.3.3.1.3. Foster European Smart cities and Communities has been
+357,675,069.34 with EU contribution for 302,892,122.37,
+while the overall budget related to the other cited programs has been €133.854.886,79 with EU contribution
+for €114.112.165,98 [Figure 2]. This data clearly states
+that if we refer to Smart Cities we automatically refers
+to H2020 – Foster European Smart Cities and
+Communities but, even if the amount of additional
+funded projects related to Smart Cities in different calls
+is less than the ones in H2020-EU.3.3.1.3., have been
+funded the same quantity of projects, which means the
+appealing of smart cities related topics.
+Then, if we refer to the type of funded projects it is
+easy to see that:
+37 projects funded cover all the projects type spectrum, as we have 59% of Innovation Actions; 19% of
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+9
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+Figure 1: Smart Cities/Smart Cities related topics: project funded in H2020 (image elaborated by authors on a set of data source period
+2014–2018 (end) [1,2,3])
+
+Figure 2: Smart Cities/Smart Cities related topics: overall budget funded in H2020 (image elaborated by authors on a set of data source
+period 2014–2018 (end) [1,2,3])
+
+10
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+Research and Innovation Actions; 16% of Coordination
+and support action;2% of Feasibility studies
+Looking at project dimension the Innovation actions
+have received a funding of €380.081.613,52, the Research
+and Innovation stands at €30.218.711,83, whilst
+Coordination and Support Actions together with feasibility studies request an amount of €6.801.051,25 [Figure 3].
+This is a clear indicator of the high Technology
+Redness Level of these project and how near they are to
+the market uptake.
+It is also important to stress the fact that in the period
+2014-2020 the urban dimension has been put at the very
+heart of EC Cohesion Policy, too.
+Thanks to European Regional Development Fund
+(ERDF) and European Structural and Investment Funds
+(ESIF) Member States funded thematic objectives programmes with a strong focus on 4 key priority areas
+(Research and Innovation, Digital Economy, SME
+Competitiveness and Low Carbon Economy took place);
+so overall budget estimated for the period 2014-2020 has
+been € 278,942,793,261.00 with an investment on topic
+related to sustainable urban development such as ICT,
+renewable energy and energy efficiency of
+€ 2,388,082,326.00. [3]
+Thus European Union stimulated, in various and different ways, cities to be actors of Open Innovation in
+responding to the present environmental, social and
+economic challenges.
+European Union, Member States, National and
+Regions Authorities and different type of stakeholders
+have worked - and keep on doing - together to promote
+a sustainable urban development and to adapt policies to
+
+the needs of cities, thus make visible improvements to
+the daily lives of people.
+As highlighted in EERA JPSC special issue 1|2018
+Towards and European vision for the Smart Cities to
+come “According to this approach, many Member States
+pooled resources at European level, achieving more than
+by acting alone. Therefore, together with national budgets and a wide range of legislative and regulatory
+instruments, the EU budget has allowed to support
+shared objectives and tackle common challenges including CO2 reduction in urban areas and a carbon-neutral
+economy thorough initiatives aimed at implementing the
+so-called ‘smart cities’. It is thanks to the coordinated
+EU/Member State approach that RD&I boost smart
+cities and smart specialization strategies as two novelties that have been quickly adopted by policymakers,
+then translated into specific policies and initiatives that
+were mainstreamed into regional policies.”
+The EU Research and Innovation policy has been
+supported - and still it is - by Horizon 2020 Framework
+Programme, the main instrument in which new research
+and innovation on sustainable urban development has
+been designed. The main policy goals have been to spur
+novel solutions and partnerships to urban challenges and
+to create an open community of practice.
+Thus, Horizon 2020 supported different solution-­
+oriented initiatives to respond to the complexity of
+Societal Challenges related to cities and urban areas,
+indeed.
+Multiple large scale demonstration projects were
+launched in the framework of the cross-cutting Focus
+Area on ‘Smart and Sustainable Cities’, which called for
+
+Figure 3: Smart Cities/Smart Cities related topics: type of actions funded in H2020 (image elaborated by authors on a set of data source
+period 2014–2018 (end) [1,2,3])
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+11
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+a systemic approach to stimulate sustainable urban
+development, in which cities act as living labs to create
+an open innovation ecosystem. “Frontrunner” cities
+develop and test innovative solutions. These solutions
+are deployed at a wider scale through peer-learning with
+dedicated “Follower” cities.
+The most of these multiple large scale demonstration
+projects – supported by H2020 lighthouse call (SCC2014/2018) are still ongoing (data referred to end 2018)
+while just CITYKEYS and ESPRESSO have been completed.
+Nerveless, some interesting considerations follows:
+• 38 cities have been or still are working as
+Lighthouse SCC pilot cities (Antalya, Bristol,
+Dresden, Eindhoven, Firenze, Glasgow,
+Goteborg, Groningen, Hamburg, Helsinki, Leeds,
+Limerick, Lisbon, London, Lyon, Manchester,
+
+•
+
+Milano, Munich, Nantes, Nice, Nottingham,
+Oulu, Pamplona, Rotterdam, San Sebastian,
+Sondeborg, Stavanger, Tampere, Tartu, Tepebasi/
+Eskisehir, Trento, Trondheim, Umea, Utrecht,
+Valencia, Valladolid, Vienna, Vitoria/Gasteiz),
+while 30 as Lighthouse SCC follower cities
+(Asenovgrad, Bordeaux, Brno, Burgas,
+Bydgoszcz, Cluj-Napoca, Derry, Essen, Gdansk,
+Herzliya, Kerava, Kozani, Lousanne, Lecce,
+Leipzig, Litomerice, Miskolc, Nilufer, Ostend,
+Palencia, Parma, Prague, Rijeka, Sabadell,
+Santiago de Compostela, Seraing, Skopje, Sofia,
+Venezia, Warsaw) [Figure 4];
+Project leader in Lighthouse SCC are located in
+Spain (7), Netherlands and UK (2), Finland,
+France, Germany, Norway and Sweden (1)
+[Figure 5];
+
+Figure 4: Pilot Cities/Follower Cities in Lighthouse SCC H2020 (image elaborated by authors on a set of data source period 2014–2018
+(end) [1,2,3])
+
+12
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+Figure 5: Project leader distribution in Lighthouse SCC H2020 (image elaborated by authors on a set of data source period 2014–2018
+(end) [1,2,3])
+
+•
+
+•
+
+countries participation per projects in Lighthouse
+SCC is subdivided in Spain (14), Germany and
+Italy (11), Belgium (8), France Netherlands and
+UK (7), Bulgaria and Finland (6), Austria,
+Czech, Poland, Romania, Turkey (4), Denmark,
+Estonia, Greece, Sweden (3), Croatia, Hungary,
+Ireland, Norway, Portugal, Switzerland (2),
+North Macedonia, Israel, Malta, Slovakia (1)
+[Figure 6];
+participants stakeholders within the country
+ranks: Spain (88), Germany (48), UK (44), Italy
+(43), Netherlands (39), France (31), Sweden (29),
+Finland (28), Norway (16), Turkey (15), Austria
+(12), Estonia (11), Ireland and Denmark (10),
+Portugal, Bulgaria and Belgium (9), Poland (7),
+Romani (6), Greece and Czech (5), Switzerland,
+Slovakia, Hungary, Croatia (2), Malta, North
+Macedonia and Israel (1) [Figure 7].
+
+If we consider that is highly desirable, for testing the
+coverage of Smart Cities concepts in Member State,
+the participation of Municipalities not only as
+Lighthouse Cities but also as Follower Cities, we discover that only few Member States (Finland, France,
+Germany, Italy, Spain, Turkey and United Kingdom)
+are well positioned; thus this could be indicative of a
+sort of implicit national roadmap supporting the experimentation and replication of Smart Cities concept.
+Another surprising data refers to the fact that there is
+not a direct correspondence among being a Lighthouse
+Cities and promoting the involvement of may stakeholders. If we refer to the Italian situation we will see
+that even if there are not Italian lighthouse cities, the
+number of stakeholders participating in lighthouse
+projects is significantly high. This again demonstrate
+how much pervasive the Smart Cities concept has been
+at a national level.
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+13
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+Figure 6: Countries participation in H2020 (image elaborated by authors on a set of data source period 2014–2018 (end) [1,2,3])
+
+Then if we refer to Smart Cities related topics projects we highlight that we have 367 european partner
+while the biggest project SinchroniCity involves partners even from Mexico, South Corea and Switzerland
+with, as clear, no EU contribution.
+Looking at data collected we can see that:
+• Project leader are located in Spain (4), Germany,
+UK, Belgium, (2), Austria, Greece, Eire, Italy,
+Portugal, Denmark, Slovenia (1) [Figure 8];
+• countries participation is Spain (71), Germany
+(49), Italy (36), France (28), Austria (24) UK
+(22), Greece (16), Belgium and Portugal (14),
+Switzerland (10), Ireland (8), Norway, Sweden
+and Slovenia (6), Czechia (5), Denmark and
+Mexico (4), Luxemburg, South Korea and Serbia
+(3), Turkey, Israele, Croazia, Bosnia and
+Herzegovina (2), Poland, Slovakia and Lituania
+(1) [Figure 9];
+
+14
+
+According to the data exposed we can express following consideration:
+• Smart Cities related topics projects have involved
+36 States: 2 extra Europe (Mexico and South
+Korea) and Switzerland, plus 33 among Member
+States and Observers.
+• top five counties per participation in Smart Cities
+related project are Spain 19%, Germany 11%,
+Italy 9%, UK 8% and France 7% [Figure 10]
+2.2. Topics within the Smart Cities and Smart Cities
+related projects
+Smart Cities and Smart Cities related projects funded by
+H2020 lighthouse call (SCC-2014/2018) are focused on
+specific topics such as:
+• Energy Efficiency in Buildings – among which the
+most successful topics has been Building Integrated
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+Figure 7: Participants stakeholders per Countries participation in H2020 (image elaborated by authors on a set of data source period
+2014–2018 (end) [1,2,3])
+
+•
+
+•
+
+•
+
+•
+
+Renewable Energy Sources and additionally
+Building Envelop retrofitting [Figure 11a];
+Mobility and Transport – among which the most
+successful topics has been Electric, Hybrid and
+Clean Vehicles and additionally Clean Fuels and
+Fueling Infrastructure[Figure 11b];
+ICT - among which the most successful topics has
+been Building Energy Management System and
+additionally ICT as Planning Support [Figure
+11c];
+Energy System Integration – among which the
+most successful topics has been Electrical Energy
+Storage and additionally District heating and
+Cooling[Figure 11d];
+Others– among which the most successful topics
+has been Smart Cities and Communities and
+
+additionally Demonstration Projects, and
+Integration of Energy Systems, ICT and transport
+in Cities [Figure 11e].
+3. 2020 and beyond
+The White Paper on the future of Europe and the previous reflection papers showed that the EU27 has faced
+and still will face a wide range of challenges in the
+period up to 2025 and beyond. Among these there are
+current trends that will last relevant for decades to come,
+such as demographic change e social cohesion, economic convergence, digital revolution, globalization and
+climate change.
+Sustainable development has - for a long time - been
+a central and core topic of the European project. Today
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+15
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+Figure 8: Project Leaders participating in Smart Cities related topics projects in H2020 (image elaborated by authors on a set of data source
+period 2014–2018 (end) [1,2,3])
+
+European Member State face many challenges related to
+sustainability: youth unemployment, ageing population,
+climate change, pollution, sustainable energy and migration. The 2030 United Nation Agenda for Sustainable
+Development and the sustainable development goals
+(SDGs) represent a priority for EU policy, both internally and externally. The economic, social and environmental dimension, which are at the heart of SDGs, have
+been incorporated in several EU budget and spending
+programs. They have been central into the Europe 2020
+strategy to boost education and innovation (smart), low
+carbon emissions, climate resilience and environmental
+protection (sustainable), job creation and poverty reduction (inclusive).
+Many of the programs promoted by EU are now a
+sort of trademarks in the daily livfe of European citizens. Indeed, there is still room to further improve
+
+16
+
+their performance and increase their impact, avoiding
+overlap and stimulating combination of instruments
+thus promoting alignment. The current generation of
+programs have promoted major reforms providing
+more funding on key Europeans priorities such as
+employment, social inclusion, research and innovation skills, energy resource and efficiency. On the
+other side on the other side policies to manage have
+become increasingly complex, hampering on-ground
+implementation and creating delays: layers of controls and bureaucratic complexity make it difficult for
+beneficiaries to access these funds and deliver projects quickly.
+Indeed, urban planning activities have changed thanks
+to technological development promoted also by Research
+Development & Innovation programs. The budget constraints and the complexity of urban investments needed
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+Figure 9: Stakeholders participation per countries in Smart Cities related topics projects in H2020 period 2014–2018 (end) (image elaborated
+by authors on a set of data source [1,2,3])
+20%
+18%
+16%
+14%
+12%
+10%
+8%
+6%
+4%
+2%
+
+LT
+
+MK
+
+BA
+
+MT
+
+SZ
+
+HU
+
+RS
+
+KOR
+
+IL
+
+LU
+
+SK
+
+MEX
+
+SI
+
+HR
+
+PL
+
+RO
+
+CH
+
+BG
+
+EF
+
+CZ
+
+DK
+
+IE
+
+TR
+
+EL
+
+PT
+
+NO
+
+SE
+
+BE
+
+FI
+
+AT
+
+FR
+
+NL
+
+IT
+
+UK
+
+ES
+
+DE
+
+0%
+
+Figure 10: Counties per participation in Smart Cities related project (image elaborated by authors on a set of data source [1,2,3])
+
+for Smart Cities and Communities solutions led city
+administrations to require the involvement of private
+players thus adapting the governance of cities in order to
+
+attract them. Therefore, Smart Cities can evolve thanks
+new modes of value creation through the intermediation
+of public-private partnerships, cross-sectorial collabora-
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+17
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+Figure 11: Keywords for specific topics: (a) Energy Efficiency in Buildings, (b) Mobility and Transport, (c) ICT, (d) Energy System
+Integration, (e) Others. (image elaborated by authors on a set of data source [1,2,3])
+
+tions, city-led “open innovation marketplaces” and other
+forms of governance.
+We assume that there is not a unique way or a single
+approach to stimulate transitions of a city into a smart
+city; cities in Europe have adopted different solutions,
+each of them reflecting specific circumstances.
+
+18
+
+4. Conclusion
+According to above consideration, it appears that three
+basic elements could best describe the European vision
+about Smart Cities. The first is that there is not a single
+vision for the European Smart City, but there have been
+as many visions as there are Europeans, as social
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Paola Clerici Maestosi, Paolo Civiero and Gilda Massa
+
+r­ealities within Europe differ greatly, depending on
+where people live and work. Then the second is that
+cities in Europe are and want to be places of advanced
+social progress, platforms for democracy, cultural dialogue and diversity as well as places of green, ecological and environmental regeneration. Last but not least
+that Smart cities should be regarded as systems able to
+catalyze sustainable economic development, resilience
+and high quality of life making a strategic use of information and communication infrastructure and/or
+­services in a process of transparent urban planning and
+management.
+Therefore if we refer to the European way to promote
+transition towards Smart Cities we could say that it has
+been in the last decade that cities started to become
+smart, not only because of automatic routine functions
+(serving end-users, traffic system and transport, buildings and/or energy providers) already in place, but moreover because data - deriving from ICT applications - have
+been used to understand, analyze and, recently, plan the
+city to improve efficiency, equity and quality of life for
+citizens.
+According to this we believe that the transition process which will pave pathways towards smart cities to
+come will be mainly focus on setting up, deployment,
+roll out and scalability on a set of already existing smart
+solutions
+Applying smart cities solutions to limited-scale contexts has certainly enabled the testing of SCC technologies, governance models and citizen involvement;
+however, what is needed now, in the next future, is to
+promote scalability and replicability of solutions, bearing in mind that “there is no single element that represents more than others an obstacle or an enabler to the
+roll-out of SCC solutions”.x
+For the near future, we need to focus on similarities in
+smart cities Research Development & Innovation projects (i.e. paradigmatic or technological enabling factors
+on which various solutions are based, ways to integrate
+single specific technology in a whole ecosystem of
+interoperable solutions,...). If we consider each SCC
+solution as a brick of Lego, we understand that while
+each brick has been made as a separate object, it needs
+to be assembled and integrated in a more structured
+system like the one which Smart City paradigm offers.
+In next future Smart Cities are approaching a critical
+phase: behind many theoretical discussions, it is now
+x
+
+ nalysing the potential for wide scale roll-out of integrated SCC solution
+A
+– Final Report, 2016
+
+necessary to create a realistic pathway of SCC applications/solutions.
+This is really the most challenging step of the pathway: it must be more pragmatic, as there will be select
+only those SCC solutions which have been experimented
+in the conceptual expansion phase. That’s why, in the
+near future, urban projects requirements will evolve and
+specifications will be more compelling, allowing no
+more single, isolated interventions as highly technological islands, but interconnected ones. According to this,
+pilot RD&I projects will shortly change: not only a
+demonstration of technological effectiveness in achieving the desired performance or KPIs, but competitive
+business models with a high level of replicability and
+scalability, widely accepted by the largest group of
+stakeholders such as RD&I networks, government, real
+estate, process management, urban services, design and
+construction, e-commerce, analyst, ICT and Big data,
+financial/funding, social/civil society,...).
+It is a fact that today we still do not have a smart city,
+or rather we have a limited-scale smart city context, and
+we have several SCC (Smart Cities and Communities)
+solutions where the use of ICT infrastructure promotes a
+better understanding of success factors for their deployment and roll-out.
+Therefore, the next step to move towards a wider
+European idea of Smart Cities pass through the idea of
+positive energy district for a sustainable urbanization
+thanks SCC solutions - already experimented on a limited-scale context; this appears to be the most reliable
+opportunity.
+Highlights about next European Research
+Development & Implementation programme on Smart
+Cities and Communities are described in the
+Implementation Plan SET-Plan Action 3.2 which focus
+on “Europe to become a global role model in integrated,
+innovative solutions for the planning, deployment and
+replication of Positive Energy District”; the aim is to
+support the 100 Positive Energy District by 2025 for a
+sustainable urbanization.
+The approach to PED will require an open innovation
+model for planning, deployment and replication, different
+from the one adopted by the Smart Cities paradigm
+where tools, technologies and platform have been mainly – designed among several stakeholders
+(Governmental, Research and Innovation, Design/
+Construction, Real Estate, urban Services, Analyst, IT
+project and Big data, Social/Civil Society, Municipality ).
+In next future Cities and Municipalities will be the stakeholders who need to take a leading role in the integrated
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+19
+
+European Union funding Research Development and Innovation projects on Smart Cities: the state of the art in 2019
+
+and holistic planning of PEDs, aligning it with their longterm urban strategies, while all the others stakeholders
+(mentioned above) will play the vital role as solutions
+providers as well as Citizens will take a new role as prosumers with active participation.
+Acknowledgement
+
+References
+
+20
+
+[3]
+
+[4]
+
+This article is a part of the EERA Joint Programme on
+Smart Cities’ Special issue on Tools, technologies and
+systems integration for the Smart and Sustainable Cities
+to come [5].
+
+[1]
+
+[2]
+
+[5]
+
+3D’H2020’)%20AND%20lighthouse’)&p=1&num=10&
+srt=contentUpdateDate:decreasing
+SCIS, EU https://smartcities-infosystem.eu/scc-lighthouseprojects
+European structural and investment funds, EU https://
+cohesiondata.ec.europa.eu/2014-2020/ESIF-2014-2020FINANCES-PLANNED-DETAILS/e4v6-qrrq
+The making of Smart Cities: best practice across Europe, EU
+Smart Cities Information System, Empowering Smart Solutions
+for better cities, DG Energy, 2017
+Østergaard PA, Maestosi PC. Tools, technologies and systems
+integration for the Smart and Sustainable Cities to come. Int J
+Sustain Energy Plan Manag 2019;24 2019. http://dx.doi.
+org/10.5278/ijsepm.3450
+
+Cordis, EU https://cordis.europa.eu/search/en?q=contenttype%
+3D’project’%20AND%20(programme%2Fcode%
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+

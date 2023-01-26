@@ -1,0 +1,5110 @@
+energies
+Article
+
+Electric Vehicle Aggregate Power Flow Prediction and
+Smart Charging System for Distributed Renewable
+Energy Self-Consumption Optimization
+Francesco Lo Franco , Mattia Ricco * , Riccardo Mandrioli
+
+and Gabriele Grandi
+
+Department of Electrical, Electronic, and Information Engineering, University of Bologna, 40136 Bologna, Italy;
+francesco.lofranco2@unibo.it (F.L.F.); riccardo.mandrioli4@unibo.it (R.M.); gabriele.grandi@unibo.it (G.G.)
+* Correspondence: mattia.ricco@unibo.it
+Received: 31 July 2020; Accepted: 18 September 2020; Published: 23 September 2020
+
+
+
+
+Abstract: In the context of electric vehicle (EV) development and positive energy districts with the
+growing penetration of non-programmable sources, this paper provides a method to predict and
+manage the aggregate power flows of charging stations to optimize the self-consumption and load
+profiles. The prediction method analyzes each charging event belonging to the EV population, and it
+considers the main factors that influence a charging process, namely the EV’s characteristics, charging
+ratings, and driver behavior. EV’s characteristics and charging ratings are obtained from the EV
+model’s and charging stations’ specifications, respectively. The statistical analysis of driver behavior
+is performed to calculate the daily consumptions and the charging energy request. Then, a model to
+estimate the parking time of each vehicle is extrapolated from the real collected data of the arrival
+and departure times in parking lots. A case study was carried out to evaluate the proposed method.
+This consisted of an industrial area with renewable sources and electrical loads. The obtained results
+show how EV charging can negatively impact system power flows, causing load peaks and high
+energy demand. Therefore, a charging management system (CMS) able to operate in the smart
+charging mode was introduced. Finally, it was demonstrated that the proposed method provides
+better EV integration and improved performance.
+Keywords: electric vehicles; electric vehicle charging; smart charging; energy districts; renewable
+energy sources; self-consumption; forecasting; peak shaving; load shifting; photovoltaics
+
+1. Introduction
+Energy systems are experiencing an evolution towards new planning and management paradigms,
+among which the integration into energy networks (electrical grid, heat, gas, and transportation
+networks) will play a key role in guaranteeing an energy future and sustainable urbanization from an
+economic, environmental, and social point of view. This transformation process concerns an increase
+in the overall energy conversion efficiency and a simultaneous reduction in pollutants (CO2 , SO2 ,
+NOx, particulates, etc.). An essential role in the global energy transition is attributed to the so-called
+positive energy districts (PEDs). From the reference framework [1], the definition for PED is as
+follows: “PEDs are energy-efficient and energy-flexible urban areas or groups of connected buildings
+which produce net-zero greenhouse gas emissions and actively manage an annual local or regional
+surplus production of renewable energy”. According to the strategic energy technology (SET)-plan [2],
+European strategies aim to support the planning, deployment, and replication of 100 PEDs by 2025 for
+sustainable urbanization.
+In this context, electric vehicles (EVs) play an important role in PED development and growth.
+With the transition from internal combustion engine (ICE) to electric drive, a large amount of energy
+
+Energies 2020, 13, 5003; doi:10.3390/en13195003
+
+www.mdpi.com/journal/energies
+
+Energies 2020, 13, 5003
+
+2 of 25
+
+destined for the mobility of people and goods, which was previously generally obtained from fossil
+fuels, can now be produced from renewable energy sources (RES) such as solar, wind and hydropower
+plants. In addition to the possibility of being supplied by a primary renewable source, EVs do not
+produce all those pollutants caused by internal combustion. Furthermore, the energy for the Electric
+(E)-mobility could also be generated within the district through distributed power plants, such as
+photovoltaic (PV) systems, limiting the energy import from external sources and increasing the PED’s
+self-consumption. For these reasons, unlike ICE vehicles, EVs will be able to contribute positively to the
+district’s energy balance and its decarbonization, especially in urban contexts. However, EV integration
+with PED’s energy sources might not be straightforward. Indeed, the share of the electric fleet is
+quickly growing [3,4], and together with it, the energy required to cover the EVs’ daily consumption is
+increasing. Based on the percentage of EV penetration, the electric system and energy districts must be
+able to manage the increase in energy and power demand required by the EVs charging, avoiding
+detrimental effects on the system performance, internal power balances, and power quality [5–7].
+These concerns are even stressed considering the mismatch between the EV load profile and
+non-programmable internal power sources (e.g., PV generation). Indeed, EVs charging may take place
+in the evening [7–9]; meanwhile, PV generation occurs during daytime hours. Therefore, the district’s
+loads must be supplied by the electric grid (external power sources) at the expense of self-consumption.
+A possibility of solving the previous challenge is to adopt programmable power sources (cogeneration
+systems and thermal power plants) within the district. This solution improves self-consumption when
+needed; however, it increases pollution (in contrast with the PED aims [1]).
+Then, to overcome these issues, energy storage systems (ESSs) can be adopted in order to provide
+a buffer between non-programmable power sources and electrical loads. They help the system’s power
+balance at both the PED and grid level, acquiring an important role in RES and PED development.
+Indeed, the higher the share of the system’s generation based on distributed RES becomes, the higher
+the cost, and the effort made by the transmission system operators (TSOs) to keep the grid stability
+should be [10]. The ESS aims to modulate the output RES power by absorbing or supplying energy
+following better the load demand profile [11]. Thanks to ESS’s integration, a renewable power plant can
+modulate its power for a limited period, which depends on the storage capacity. As a result, the RES
+could provide ancillary services such as frequency control [12,13], and participate in the dispatching
+services market [14,15].
+Since full electric vehicles consist of highly specific capacity batteries parked for most of their
+lifetime, EVs can be considered as a distributed battery ESS (BESS). If properly controlled, the aggregate
+clusters of EVs could operate as a centralized and “quasi-stationary” ESS. Therefore, both distributed
+RES plants and EVs’ batteries can be considered as virtual power plants (VPPs) and virtual storage
+systems that can provide all services which are generally reserved for traditional power plants
+(e.g., thermoelectric systems) [16–18].
+Finally, it is an indisputable fact that EVs, storage systems, and distributed RES should be
+coordinated intelligently with the rest of the grid in order to maximize the use of renewable sources [19]
+and provide flexibility to the whole electrical system. In recent years, research interest in these topics,
+as well as the deployment of pilot projects, have increased [20–24]. Regarding the integration of EVs
+into electric systems, the reference literature, apart from the classical charging mode, the so-called
+grid-to-vehicle (G2V), distinguishes two principal operating modes. The first one is known as
+smart charging (SC) and it happens when the charging station is capable of monitoring, managing,
+and restricting the use of charging devices to optimize the energy consumption and charging cost [25,26].
+Therefore, the SC may result in EVs’ load shifting and shaving [27,28]. The second one is the so-called
+vehicle-to-grid (V2G), in which the aggregate of the EV’s battery is managed to provide ancillary
+services based on TSO’s dispatching orders and the grid’s requirements. This mode may present or
+not a bi-directionality of power flows, V2G or vehicle-one-grid (V1G), respectively [29–32].
+In order to implement algorithms capable of managing the EVs’ charging power and operate
+in smart charging mode, it is necessary to predict the EVs power demand. In the literature, such
+
+Energies 2020, 13, 5003
+
+3 of 25
+
+as in [20], the EVs’ charging is modeled as a constant power load, but the variation of the charging
+load over time is not considered. Other works, such as the method proposed in [27], consider the
+variation of the charging power as a function of the charging time. However, the dependence of
+the charging profile on the charging rate (C-rate) is not considered. The reference [33] shows the
+implementation of the smart charging in an aggregate residential building, which aims to improve
+the self-consumption by the integration of photovoltaic and EVs. On the other hand, [34] presents
+an optimization strategy of power flows among the PV system, the grid, and EVs in a workplace.
+However, these works do not consider a large aggregate population of EVs, to which different models
+with different specifications and characteristics belong (such as vehicle battery sizes, maximum AC
+and DC charging ratings, and specific consumptions). Finally, to the best of the authors’ knowledge,
+no article presents an EV’s load forecasting algorithm capable of taking into account parameters like
+the variegated vehicle (different EV models) multitude, the actual parking time pattern, the charging
+facility power availability, and the power profile dependence from both the EVs’ state of charge (SOC)
+and the actual C-rate. Moreover, in order to handle the PED’s power flows, the proposed smart
+charging algorithm considers the internal RES and the load variability of a real case study, which
+presents the possibility to forecast the EV drivers’ behavior of a large EVs population.
+This paper aimed to evaluate the impact of EV charging in PED’s power flows and energy balances.
+The charging energy depends on several different conditions, such as the users’ behavior, the charging
+infrastructure, and the EV model. For these reasons, this work provides an accurate prediction method
+to calculate the daily EV charging power, which extrapolates the users’ behavior from actual collected
+data. Although this article is based on workplace parking lots, the algorithm can be extended to any
+other type of scenario by modifying the input data. Furthermore, by extrapolating statistical functions,
+it is possible to extend the model to populations with a different penetration and number of EVs.
+Subsequently, a charging management system (CMS), which aims to optimize the self-consumption
+by operating in smart charging mode, is presented. Finally, the prediction method and the CMS are
+applied to a real case study. Obtained results are discussed and a comparative analysis with and
+without the smart charging is performed.
+The paper is structured as follow: Section 2 shows the method to predict an EV’s aggregate power
+flow; Section 3 explains the CMS, its target, and logic; Section 4 describes the case study and shows the
+impacts of aggregate EVs charging on the system power flows; Section 5 presents the smart charging
+results on power flows and system’s consumptions; finally, Section 6 concludes the paper.
+2. EVs Power Flows Forecasting Methods
+To better understand the PED’s structure, Figure 1 shows its schematic model. Referring only to
+the electrical aspect, a PED or, in general, an energy district (ED) might be composed of a cluster made
+out of [35,36]:
+•
+•
+•
+
+•
+
+Electrical loads, for example, householder consumers, buildings, offices, and industries that absorb
+the power PL from either the grid or the power sources inside the PED;
+Internal power sources, which generate the power PG from a non-programmable source such as
+wind and sun, or controllable plants such as cogeneration, biogas, and hydropower plants;
+Energy storage systems (ESS), such as battery ESS (BESS) which can consist of a centralized system
+or many decentralized power storage units. Storage units exchange power PS with loads and
+the grid;
+One or more points of grid connection, through which it is possible to absorb/inject the power
+PPCC from/to the grid.
+
+Energies 2020, 13, 5003
+
+Energies 2020, 13, x FOR PEER REVIEW
+
+4 of 25
+
+4 of 24
+
+Figure
+district with
+withthe
+thecharging
+charging
+management
+system
+(CMS)
+imple‐
+Figure1.1.Scheme
+Schemeof
+of an
+an energy district
+management
+system
+(CMS)
+thatthat
+cancan
+implement
+ment
+the
+electric
+vehicles’
+(EVs)
+charging
+control.
+All
+elements
+of
+the
+energy
+district
+(ED)
+are
+coupled
+the electric vehicles’ (EVs) charging control. All elements of the energy district (ED) are coupled to the
+togrid
+thethrough
+grid through
+the point
+of common
+coupling
+the point
+of common
+coupling
+(PCC).(PCC).
+
+If the EVs(1)
+charging
+not managed,
+electricshows
+vehicles
+as non-controlled
+loads
+forpower
+the district.
+Equation
+of the isED’s
+power balance
+thebehave
+relationship
+between the
+total
+ex‐
+For transforming
+EVs into
+elements
+forpower,
+the district’s
+energy
+balance,
+is necessary
+to manage
+changed
+with the grid,
+𝑃 active
+and the
+total EVs’
+𝑃 . By
+managing
+𝑃 it, the
+CMS could
+control
+thepower
+EVs’ charging
+power. The
+purpose
+paper
+is to introduce a charging management system
+the
+flows exchanged
+between
+theof
+EDthis
+and
+the grid.
+that is capable of controlling the power flows of the distributed charging stations in a centralized way.
+(1)
+𝑃
+𝑃
+𝑃
+𝑃 𝑃
+Figure 1 shows the PED’s power flow’s exchanges among the grid, the loads, the internal generation,
+storage power
+canstorage.
+be both positive
+(discharging)
+(charging)
+on the
+and The
+the stationary
+energy
+The figure
+also showsand
+the negative
+possibility
+of using based
+both AC
+andbat‐
+DC
+tery
+charging
+or discharging.
+In the same
+way,and
+thedistributed
+DC chargers
+couldstorage.
+be capable of supplying power
+chargers
+for treating
+EVs as controlled
+loads
+battery
+from the
+EVs’ battery
+toED’s
+the grid
+and
+loads.shows
+This mode
+of operation
+is generally
+called
+V2G
+and ve‐
+Equation
+(1) of the
+power
+balance
+the relationship
+between
+the total
+power
+exchanged
+hicle‐to‐X
+(V2X)
+[29],
+and
+it
+considers
+the
+bi‐directional
+power
+flows
+of
+the
+charger.
+However,
+the AC
+with the grid, PPCC and the total EVs’ power, PEVs . By managing PEVs , the CMS could control
+the
+charger,
+which
+can only absorb
+power
+from
+the
+grid
+and internal power sources, might be capable of
+power flows
+exchanged
+between
+the ED
+and
+the
+grid.
+modulating absorption to help the grid and the district for power balancing and other services. This
+PPCC
+= PL − PG ± power
+PS ± PEVs
+(1)
+mode of operation, which considers the
+unidirectional
+flow of the charger, concerns both the
+V1G [31,32] and the SC mode [26]. The CMS could manage the EVs’ power flows for achieving opti‐
+The goals
+storage
+power
+mization
+such
+as: can be both positive (discharging) and negative (charging) based on the battery
+charging or discharging. In the same way, the DC chargers could be capable of supplying power
+fromOptimizing
+self‐consumption
+minimize
+and maximize
+the charging
+from and
+in‐
+the EVs’ battery
+to the gridtoand
+loads. the
+Thischarging
+mode ofcost
+operation
+is generally
+called V2G
+ternal RES
+(SC);
+vehicle-to-X
+(V2X)
+[29], and it considers the bi-directional power flows of the charger. However, the AC
+charger,
+EV owners
+and only
+TSO absorb
+(V1G and
+V2G)from
+could
+ancillary
+services
+to the
+which can
+power
+themaximize
+grid and profits
+internalproviding
+power sources,
+might
+be capable
+grid.
+of modulating absorption to help the grid and the district for power balancing and other services.
+ThisThe
+mode
+of operation,
+the unidirectional
+powerinflow
+of the
+charger,
+concerns
+both
+CMS’s
+logics forwhich
+smart considers
+charging mode
+is better described
+Section
+3. CMS
+control
+for being
+the
+V1G
+[31,32]
+and
+the
+SC
+mode
+[26].
+The
+CMS
+could
+manage
+the
+EVs’
+power
+flows
+for
+achieving
+implemented needs both load and production power measurements. Furthermore, to implement grid
+optimization goals
+such of
+as:the power that the ED exchange with the grid are required as well. The
+power‐sharing,
+the data
+
+load and the generation of daily power flows are extracted from annual data measurements. A similar
+•
+Optimizing self-consumption to minimize the charging cost and maximize the charging from
+procedure is done for the point of common coupling (PCC) power profile. On the other hand, EVs’
+internal RES (SC);
+daily power flows are more challenging to be extrapolated because of the difficulties in finding data
+•
+EV owners and TSO (V1G and V2G) could maximize profits providing ancillary services to
+and the statistically weak number of electric vehicles. However, EV penetration is quickly growing
+the grid.
+[4], and the current data are expected to strongly increase in the next years. For these reasons, current
+measurement data are not sufficient to extrapolate the EV charging power profile. As shown in Equa‐
+tion (2), instant by instant, the EV charging power is given by the aggregation of N charging power
+of each 𝐸𝑉 within the ED (𝑃 ):
+
+Energies 2020, 13, 5003
+
+5 of 25
+
+The CMS’s logics for smart charging mode is better described in Section 3. CMS control for being
+implemented needs both load and production power measurements. Furthermore, to implement
+grid power-sharing, the data of the power that the ED exchange with the grid are required as well.
+The load and the generation of daily power flows are extracted from annual data measurements.
+A similar procedure is done for the point of common coupling (PCC) power profile. On the other
+hand, EVs’ daily power flows are more challenging to be extrapolated because of the difficulties in
+finding data and the statistically weak number of electric vehicles. However, EV penetration is quickly
+growing [4], and the current data are expected to strongly increase in the next years. For these reasons,
+current measurement data are not sufficient to extrapolate the EV charging power profile. As shown
+in Equation (2), instant by instant, the EV charging power is given by the aggregation of N charging
+power of each EVi within the ED (PEVi ):
+PEVs (t) =
+
+N
+X
+
+PEVi (t)
+
+(2)
+
+i=1
+
+where N is the total number of EVs within the ED, and EVi is a generic electric vehicle belonging to the
+district. To evaluate the PEVi (t) for each vehicle, it is necessary to analyze all the factors that affect
+the EV’s charging power. The daily charging power profile of an electric vehicle may depend on the
+following variables [37]:
+1.
+2.
+3.
+4.
+5.
+
+The maximum available power which is provided by the charging station (CS) PCS [kW];
+The maximum power that the vehicle batteries can absorb Pmax [kW]. This power depends on the
+constant current–constant voltage (CC–CV) stage and can change during the charging process;
+The maximum energy that the vehicle’s battery can store. It is the maximum available capacity of
+the battery Cmax [kWh];
+The initial state of charge (SOC0 ), i.e., the SOC value that corresponds to the start of the
+charging moment;
+The time of arrival (tarr ) and departure (tdep ) of the vehicle at/from the parking lot. Utilizing tarri
+and tdepi of the i-th vehicle, one could obtain daily parking time (Tpi ) as in Equation (3):
+Tpi = tdepi − tarri
+
+(3)
+
+All these variables could be different for each vehicle, resulting in a multitude of various charging
+events. Aiming to fetch variables from an aggregate population of EVs, this paper proposes different
+analyses on the basis of the Italian EV fleet, drivers’ behavior, charging infrastructure, and on the
+parking and charging times.
+2.1. Charging Infrastructure Analysis
+This Section investigates the maximum available power of EV charging stations within the energy
+district. From the European alternative fuels observatory (EAFO) data [3], the number of public CSs
+in Italy is quickly increasing. In 2019, the newly installed stations were about +170% compared to
+the previous year. As Figure 2 shows, the number of “normal” CSs (PCS ≤ 22 kW) is much higher
+than the “fast” CSs (PCS > 22 kW). Furthermore, it seems that the trend of the infrastructure service
+providers is, in this phase, to increase the number of AC stations with “normal” power. In fact, the total
+number of “normal” CSs is increased by almost 200% compared to the 2018 data. Meanwhile, “fast”
+CSs only increased by 50% from 2018 to 2019. Referring to the CS’s population of 2019, 90% of the
+public charging points are AC stations, and 88% provides a maximum power that is equal or less than
+22 kW. However, most of the new public installations have a 3-phase connection, with the Type-2
+connector and a 22 kW rating. On the other hand, the DC “fast” CSs are 10% of the total CS population.
+Many of these have the combined charging system (CCS) “combo 2” and “ChaDeMo” connectors and
+
+providers is, in this phase, to increase the number of AC stations with “normal” power. In fact, the
+total number of “normal” CSs is increased by almost 200% compared to the 2018 data. Meanwhile,
+“fast” CSs only increased by 50% from 2018 to 2019. Referring to the CS’s population of 2019, 90% of
+the public charging points are AC stations, and 88% provides a maximum power that is equal or less
+than
+222020,
+kW.13,
+However,
+most of the new public installations have a 3‐phase connection, with the Type‐
+Energies
+5003
+6 of 25
+2 connector and a 22 kW rating. On the other hand, the DC “fast” CSs are 10% of the total CS popu‐
+lation. Many of these have the combined charging system (CCS) “combo 2” and “ChaDeMo” con‐
+provideand
+a maximum
+of almost
+100
+Meanwhile,
+Tesla SuperChargers
+are also widespread,
+nectors
+provide apower
+maximum
+power
+ofkW.
+almost
+100 kW. Meanwhile,
+Tesla SuperChargers
+are also
+which
+provide
+a
+maximum
+power
+of
+up
+to
+150
+kW.
+widespread, which provide a maximum power of up to 150 kW.
+
+(a)
+
+(b)
+
+Figure
+Figure 2.
+2. Charging
+Chargingstation
+station(CS)
+(CS)data,
+data,Italian
+Italianpopulation:
+population:(a)
+(a)number
+numberand
+andpercentage
+percentageof
+of“normal”
+“normal”and
+and
+“fast” CSs in 2018 and 2019; (b) the total number of CSs in 2018 and 2019.
+
+2.2. Electric Car Fleet Analysis
+In order to evaluate the charging power, the batteries’ capacity and the daily consumption for
+each vehicle belonging to a wide EV population, the Italian electric fleet has been considered and
+analyzed. Table 1 shows the EV data, referring to the vehicles registered in 2019 [38]. The table shows
+the battery capacity, the estimated consumption (referred to the world harmonized light-duty vehicles
+test procedure—WLTP) declared by manufacturers [39], and the max AC and DC charging power for
+each vehicle model. Some of these models have different options for battery capacity and engine size
+(such as Zoe ZE40 and Zoe ZE50, which have batteries of 44 kWh and 55 kWh). To simplify the analysis
+in this paper, the characteristics of the most popular models for each brand are only considered.
+Table 1. Data of the EVs registered in Italy in 2019, source Italian association of foreign carmakers
+(UNRAE) [38], and the vehicles’ manufacturers [39].
+Car Model
+
+N◦
+Registered
+
+% of the
+Total EVs
+
+Battery
+Capacity [kWh]
+
+Consumptions
+[kWh/100km]
+
+Max AC
+Charging [kW]
+
+Max DC
+Charging [kW]
+
+Smart Fortwo
+Renault ZOE
+Tesla Model 3
+Nissan Leaf
+Smart Forfour
+BMW i3
+Hyundai Kona
+Tesla Model S
+Tesla Model X
+Jaguar I-Pace
+
+2359
+2180
+1942
+1266
+613
+483
+470
+258
+249
+211
+
+23.51
+21.73
+19.35
+12.62
+6.11
+4.81
+4.68
+2.57
+2.48
+2.10
+
+17.6
+44.1
+50
+40
+17.6
+42.2
+39
+100
+100
+90
+
+16.1
+17.5
+14.9
+17.1
+16.5
+14.6
+15
+19
+22.6
+27.5
+
+4.6
+22
+11
+6.6
+4.6
+11
+11
+16.5
+16.5
+7
+
+46
+170
+50
+50
+50
+200
+200
+100
+
+Figure 3 shows an elaboration of the table’s data. From the data in Table 1, the weighted average
+capacity of the EV batteries is 40.31 kWh. Figure 3a shows that the majority of EVs (63.2%) have a
+battery capacity between 40 kWh and 50 kWh. Only 7.1% of EVs have a capacity greater than 90 kWh.
+However, a good part of EVs have a capacity of about 20 kWh, which refers to the high number of
+Smart cars (29.6%) registered in Italy in 2019. Figure 3b shows the EVs specific consumptions in the
+WLTP driving cycle compared to the percentage of registered models.
+
+Figure 3 shows an elaboration of the table’s data. From the data in Table 1, the weighted average
+capacity of the EV batteries is 40.31 kWh. Figure 3a shows that the majority of EVs (63.2%) have a
+battery capacity between 40 kWh and 50 kWh. Only 7.1% of EVs have a capacity greater than 90 kWh.
+However, a good part of EVs have a capacity of about 20 kWh, which refers to the high number of
+Smart cars (29.6%) registered in Italy in 2019. Figure 3b shows the EVs specific consumptions in the
+Energies 2020, 13, 5003
+7 of 25
+WLTP driving cycle compared to the percentage of registered models.
+
+(a)
+
+(b)
+
+Figure3.3. Data
+Data of
+of EV batteries and
+Italy
+in in
+2019:
+(a)
+Figure
+and consumption
+consumptionreferred
+referredtotothe
+thevehicles
+vehiclesregistered
+registeredinin
+Italy
+2019:
+thethe
+percentage
+of of
+thethe
+batteries’
+capacity;
+andand
+(b) (b)
+the the
+specific
+consumption
+for each
+EV model
+com‐
+(a)
+percentage
+batteries’
+capacity;
+specific
+consumption
+for each
+EV model
+compared
+to the
+percentage
+of registered
+models.
+pared to the
+percentage
+of registered
+models.
+
+Table
+power 𝑃PmaxACofofeach
+eachEV
+EVmodel,
+model,which
+which
+depends
+Table11shows
+showsthe
+the maximum
+maximum AC charging power
+depends
+on
+on
+onboard
+converter.
+weighted
+average
+of the
+maximum
+charging
+power
+is 11.13
+thethe
+onboard
+converter.
+TheThe
+weighted
+average
+of the
+maximum
+ACAC
+charging
+power
+is 11.13
+kW.kW.
+The
+The
+charging
+power
+depends
+on both
+the onboard
+charger
+the charging
+AC charging
+stations,
+it is
+charging
+power
+depends
+on both
+the onboard
+charger
+and and
+the AC
+stations,
+and itand
+is equal
+equal
+the minimum
+power
+between
+because
+of onboard
+the onboard
+converter’s
+to thetominimum
+power
+between
+the 𝑃the PCSmax
+and and
+𝑃 PmaxAC
+(e.g.,(e.g.,
+because
+of the
+converter’s
+size
+size
+limit,
+max
+charging
+power
+theNissan
+NissanLeaf
+Leafisis6.6
+6.6kW
+kWeven
+even ifif it
+it charges through
+limit,
+thethe
+max
+ACAC
+charging
+power
+ofof
+the
+through aa22
+22kW
+kW
+station). By analyzing the data, only 21.73% of EVs (Renault ZOE) can exploit all the maximum
+available power from the 22 kW AC stations, 55.62% of EVs for the 11 kW AC stations and 57.72% for
+the 7 kW stations. However, almost all EVs (70.34%) can exploit all the available power from the 5 kW
+AC stations.
+The daily charging power’s profile of each EVi depends, as well as on the onboard converter and
+charging stations, on the CC–CV charging algorithms, then on the SOC’s value during charging:
+PEVi = f (PCSmax i , Pmaxi , SOCi )
+
+(4)
+
+The standard charging protocol consists of two phases. During the CC phase, the battery is charged
+by a constant current and a quasi-constant power. As a result, the SOC linearly increases, and the power
+assumes a constant profile in the plot “charging power [kW]” versus “SOC (%)”, whose value depends
+on both PCSmax i and Pmaxi . When the battery voltage reaches the cut-off value, the voltage is kept
+constant and the current consequently decreases (CV phase). As a result, the power decreases following
+the current profile, and the SOC increases slowly. Considering the same battery, the SOC’s value that
+coincides with the start of the CV phase depends on the charging rate, and therefore on the charging
+power. Different charging powers provide different profiles as a function of the SOC. Figure 4 shows
+the characteristics of a 40 kWh battery during charging through three levels of power: 50, 22 and 7 kW
+that correspond to a C-rate of about 1.25 C, 0.55 C, and 0.18 C, respectively. The data were extrapolated
+by battery characteristics and the charging behavior of the Nissan Leaf [39]. Figure 4a shows that the
+charging of 7 kW (<0.2 C) is less affected by the CV phase limitation. However, as the charging power
+increases, the CV phase is more pronounced. This paper analyzes this kind of dependence for each EV
+models’ battery.
+
+of the SOC. Figure 4 shows the characteristics of a 40 kWh battery during charging through three
+levels of power: 50, 22 and 7 kW that correspond to a C‐rate of about 1.25 C, 0.55 C, and 0.18 C,
+respectively. The data were extrapolated by battery characteristics and the charging behavior of the
+Nissan Leaf [39]. Figure 4a shows that the charging of 7 kW (<0.2 C) is less affected by the CV phase
+limitation. However, as the charging power increases, the CV phase is more pronounced. This paper
+Energies 2020, 13, 5003
+8 of 25
+analyzes this kind of dependence for each EV models’ battery.
+
+(a)
+
+(b)
+
+4. Charging of an EV battery of 40 kWh capacity by using three levels
+levels of
+of power:
+power: 50, 22, and 7
+Figure 4.
+kW. The
+The charging
+chargingprocess
+processstarts
+startsat
+atstate
+stateof
+ofcharge
+charge(SOC)
+(SOC)==20%
+20%and
+andstops
+stopswhen
+whenSOC
+SOC== 95%:
+95%: (a) shows
+kW.
+value;
+shows
+power
+profile
+(top)
+relationbetween
+betweenthe
+thecharging
+chargingpower
+powerand
+andthe
+the
+SOC
+the relation
+SOC
+value;
+(b)(b)
+shows
+thethe
+power
+profile
+(top)
+andand
+the
+SOC
+value
+(bottom)
+as a as
+function
+of time.
+the SOC
+value
+(bottom)
+a function
+of time.
+
+2.3.
+Analysis of
+of Drivers’
+Drivers’ Behavior
+2.3. Analysis
+Behavior and
+and Consumptions
+Consumptions
+For
+For evaluating
+evaluating the
+the charging
+charging time
+time for
+for each
+each EV,
+EV, itit is
+is necessary
+necessary to
+to know
+know the
+the vehicle’s
+vehicle’s SOC
+SOC value
+value at
+at
+the
+beginning
+of
+the
+charging
+process
+(SOC
+).
+For
+this
+reason,
+this
+Section
+analyzes
+the
+daily
+energy
+0i
+the beginning of the charging process (𝑆𝑂𝐶 ). For this reason, this Section analyzes the daily energy
+consumption
+energy
+consumed
+during
+thethe
+k-thk‐th
+dayday
+(dk )(𝑑
+by)the
+consumptionof
+ofthe
+theaggregated
+aggregatedEV
+EVpopulation.
+population.The
+The
+energy
+consumed
+during
+by i-th
+the
+(
+)[
+]
+(
+)
+[
+vehicle
+EV
+is
+called
+Ec
+d
+kWh
+.
+Ec
+d
+depends
+on
+the
+specific
+consumption
+Csp
+kWh/100
+km]
+i k𝐸𝑐 𝑑
+i . k 𝐸𝑐 𝑑
+i
+kWh
+i‐th vehiclei 𝐸𝑉 is called
+depends on the specific consumption
+𝐶𝑠𝑝 kWh/
+and
+daily
+travailed
+distance D
+i (dk ) [km
+100 on
+kmthe
+and
+on the
+daily travailed
+distance
+𝐷 ]:𝑑 km :
+
+𝐶𝑠𝑝
+Cspi
+𝐷 𝑑
+𝐸𝑐 𝑑
+(5)
+)
+Eci (dk ) = Di (dk100
+(5)
+100
+The specific consumption of each EV (in WLTP rating) is shown in Table 1. Figure 3b shows the
+The
+specific
+consumption
+of each
+EVpercentage
+(in WLTP rating)
+is shown inmodel.
+Table 1.
+Figure
+3b shows
+the
+𝐶𝑠𝑝 for each
+EV model
+compared
+to the
+of the registered
+The
+weighted
+average
+Csp
+for
+each
+EV
+model
+compared
+to
+the
+percentage
+of
+the
+registered
+model.
+The
+weighted
+average
+𝐶𝑠𝑝 for the EV population under investigation is 16.67 kWh/100 km. To extract the data of the daily
+Csp
+for the
+EV population
+underto
+investigation
+is 16.67
+kWh/100
+km. To extract the data of the daily
+distance
+traveled,
+it is necessary
+investigate the
+driver’s
+behavior.
+distance traveled, it is necessary to investigate the driver’s behavior.
+From the statistics in the report [40], the average distance traveled by a vehicle in a year is
+12,240 km. Therefore, the average distance traveled per day is about 33 km. The statistics in the
+document [41] report an overview of the mobility and drivers’ behavior in terms of the number
+and length of daily travels. From the extrapolation of the report’s data, Table 2 shows, with good
+approximation, the percentage of daily distance traveled, categorized by length groups: close distance,
+short distance, medium distance, and long distance.
+Table 2. Daily distance traveled. Percentage of drivers’ population categorized by distance groups.
+Distance Group
+
+Distance [km]
+
+% of Drivers’ Population
+
+Close
+Short
+Medium
+Long
+
+0–8
+8–40
+40–180
+>180
+
+10
+60
+27
+3
+
+Through analyzing Table 1, and according to [42], the probabilistic distribution that better estimates
+the daily distance travel of vehicles is the Weibull function. Figure 5a shows the Weibull distribution
+with λ = 37.5 and k = 1.7. This distribution provides a reasonable estimation of the drivers’ behavior,
+especially for close and short distances, which represent 70% of total travel. It can be seen in the
+cumulative curve (at the bottom of Figure 5a) that 10% of vehicles travel below 8 km per day, 60% of
+them between 8 and 40 km, and the remaining 30% travels more than 40 km per day. Figure 5b shows
+
+Through analyzing Table 1, and according to [42], the probabilistic distribution that better esti‐
+mates the daily distance travel of vehicles is the Weibull function. Figure 5a shows the Weibull dis‐
+tribution with λ = 37.5 and k = 1.7. This distribution provides a reasonable estimation of the drivers’
+behavior, especially for close and short distances, which represent 70% of total travel. It can be9seen
+Energies 2020, 13, 5003
+of 25
+in the cumulative curve (at the bottom of Figure 5a) that 10% of vehicles travel below 8 km per day,
+60% of them between 8 and 40 km, and the remaining 30% travels more than 40 km per day. Figure
+theshows
+daily distance
+each driver
+belonging
+to a population
+of 100 vehicles,
+during
+the
+5b
+the dailyDdistance
+𝐷 𝑑 bytraveled
+by each
+driver belonging
+to a population
+of 100
+vehicles,
+i (dk ) traveled
+k-th
+day.
+The
+data
+were
+obtained
+by
+applying
+the
+Weibull
+function.
+It
+can
+be
+seen
+in
+Figure
+5b
+that
+the
+during the k‐th day. The data were obtained by applying the Weibull function. It can be seen in Figure
+average
+traveled
+distance
+is about
+33 is
+km
+per day.
+5b
+that the
+average
+traveled
+distance
+about
+33 km per day.
+
+(a)
+
+(b)
+
+Figure
+of of
+thethe
+daily
+traveled
+distance:
+(a) the
+the Weibull
+distri‐
+Figure 5.
+5. Probabilistic
+Probabilisticdistribution
+distribution
+daily
+traveled
+distance:
+(a)top
+theplot
+topisplot
+is the Weibull
+bution,
+and
+the
+bottom
+plot
+is
+its
+cumulated
+function;
+and
+(b)
+the
+daily
+distances
+traveled
+by
+distribution, and the bottom plot is its cumulated function; and (b) the daily distances traveled by each
+vehicle belonging to a car fleet of 100 elements and
+and their
+their average
+average (red
+(red line).
+line).
+
+thespecific
+specificconsumption
+consumption
+and
+daily
+distance
+traveled
+by vehicle,
+each vehicle,
+using
+Knowing the
+and
+thethe
+daily
+distance
+traveled
+by each
+using Equa‐
+Equation
+it is possible
+to calculate
+theconsumed
+energy consumed
+the i-th
+vehicle
+in the
+k-th day.
+tion
+(5) it is(5)possible
+to calculate
+the energy
+by the i‐thby
+vehicle
+in the
+k‐th day.
+To calculate
+To
+SOCwhich
+which
+is the
+initial
+SOC
+of EV
+the i-th
+EV k‐th
+at the
+k-ththis
+day,paper
+this paper
+proposes
+thecalculate
+𝑆𝑂𝐶 𝑑 the
+) (%),
+is the
+initial
+SOC
+of the
+i‐th
+at the
+day,
+proposes
+the
+0i (dk ) (%),
+the following
+hypotheses:
+d0 the
+is the
+day
+the
+EVhas
+thelast
+lasttotal
+totalcharging,
+charging, in
+in which SOC
+SOCmax,,
+following
+hypotheses:
+𝑑 is
+day
+the
+𝐸𝑉
+the
+𝑆𝑂𝐶 0i (𝑑d0 )== 𝑆𝑂𝐶
+i has
+SOC0i (𝑑dk ) is given by Equation (6):
+then the 𝑆𝑂𝐶
+
+𝐸𝑐 𝑑  
+k−1 Ec d
+𝑆𝑂𝐶 𝑑
+𝑆𝑂𝐶 𝑑
+100 X
+i j
+(6)
+SOC0i (dk ) = SOC0i (d0 ) − 100 𝐶
+(6)
+Cmaxi
+j=0
+where ∑
+𝐸𝑐 𝑑 is the energy consumption referred to the days before the day 𝑑 . For example,
+considers
+
+the 𝑆𝑂𝐶k−1
+𝑑
+the consumption of the previous three days, 𝐸𝑐 𝑑 , 𝐸𝑐 𝑑 , and 𝐸𝑐 𝑑 ),
+P
+where
+is
+the
+energy
+consumption
+referred
+to the days
+before
+day
+dk . Forthe
+example,
+Ec
+d
+i
+j
+startingj=from
+the initial SOC’s value
+of the last
+full charging
+day (𝑑
+). Forthe
+each
+vehicle,
+energy
+0
+consumed
+in
+𝑑
+depends
+on
+the
+distance
+𝐷
+𝑑
+.
+This
+distance
+could
+be
+or
+not
+the
+same
+each
+day.
+the SOC (d ) considers the consumption of the previous three days, Ec (d ), Ec (d ), and Ec (For
+d ),
+0i
+
+3
+
+i
+
+0
+
+i
+
+1
+
+i
+
+2
+
+starting from the initial SOC’s value of the last
+  full charging day (d0 ). For each vehicle, the energy
+consumed in d j depends on the distance D d j . This distance could be or not the same each day.
+For instance, the distances traveled by EVi during three days could be Di (d0 ) = 20 km, Di (d1 ) = 24 km
+and Di (d2 ) = 8 km. However, every day, the average value (33 km per day) and distribution (Weibull)
+of the traveled distances must be the same for the total vehicles’ population, according to Table 2
+and Figure 5. These concepts will be better explained in Section 4 using data from a real vehicle
+population’s scenario.
+2.4. Parking Time Analysis
+To evaluate the charging time, it is necessary to know the time that each vehicle spends plugged
+to the charging station absorbing power. For each vehicle EVi , this paper considers the daily charging
+time (referred to the day dk ) as the period between the initial time of charging tch0i (dk ) that is the instant
+in which EVi is plugged in, and the final time of charging tch f i (dk ) :
+Tchi (dk ) = tch f i (dk ) − tch0i (dk )
+
+(7)
+
+where Tchi (dk ) is the charging time of EVi referring to dk . The tch f i (dk ) is the instant where EVi ceases
+to absorb power from the CS and it may depend on two conditions:
+
+Energies 2020, 13, 5003
+
+10 of 25
+
+1.
+
+The vehicle is plugged, but the SOC reaches the maximum value, the charging stops,
+
+
+and SOCi tch f =SOCmax ;
+
+2.
+
+The vehicle is unplugged because the users left the parking lot even if the charging is incomplete,
+
+
+SOCi tch f < SOCmax .
+
+The hypothesis introduced is that the instant of arrival in the parking lot coincides with the
+beginning of the charging, as shown in Equation (8). On the other hand, the final charging instant
+could coincide or not with the departure time of the vehicle from the parking lot, as in Equation (9):
+tch0 = tarr ,
+
+
+
+ tch f < tdep ,
+
+
+tch f = tdep ,
+
+SOC(tch0 ) = SOC0
+
+(8)
+
+
+
+SOC tch f = SOCmax
+
+
+SOC tch f < SOCmax
+
+(9)
+
+The arrival and departure times of each vehicle and all of them together with the parking time
+were obtained by monitoring the users’ access to the parking lots. The data were collected considering
+private and public parking lots. Data refer to several typologies of parking scenarios: mall, station,
+airport, city center, municipal parking, office building, working place, and companies’ parking lots.
+The distribution and numbers of data can be very different for each scenario, as well as the parking
+times. By analyzing each vehicle’s access (in and out), it is possible to extrapolate the users’ behavior
+and the parking time distribution for each different scenario. This paper focuses on the working place
+parking scenario (companies, office building, etc.), as extensively shown below.
+The scenario under consideration concerns a population of 160 vehicles, and the input data are
+tarr and tdep . The arrival and departure times were subsequently sampled every 15 min. Figure 6a
+shows the input data; for each vehicle (y axis), the arrival and departure times (x axis) are registered.
+By processing these input data, it is possible to extrapolate Figure 6b, which shows the number of
+arrivals (top-frame) and departures (bottom-frame) within each 15 min interval of the day. It can be
+seen in the figure that the vehicle arrivals can be divided into two major sub-groups: first arrivals,
+which are the events within the time interval [00:00–12:00] and concern about 80% of users; and the
+second arrivals, that refer to the time interval [12:00–24:00] covering the remaining 20% of vehicles.
+In the same way, departure events can be divided into two sub-groups: first departures that cover
+30% of users and are registered before 14:00; and second departures, which belong to the interval
+[14:00–24:00] and concern 70% of vehicles. For each group, the probabilistic distribution that better
+simulates the users’ behavior is extrapolated. In this way, it will be possible to extend this kind of
+behavior as well for a population of a larger or smaller number of vehicles. Table 3 shows in detail the
+probabilistic distribution obtained for each sub-group of events. The total distribution of arrivals and
+departures is given by the sum of its two respective sub-groups. As shown in Figure 6b and Table 3,
+the distribution of the total arrival is provided by the sum of two normal functions (NFs). On the
+other hand, the overall departures distribution consists of two Weibull functions (WFs) with different
+parameters. By using these data, the number of vehicles that are present in the parking lot in each
+15 min interval is calculated.
+Figure 6c shows the number of presences in the parking lot. It can be seen that the probabilistic
+function of presences (blue line), which is obtained by using the parameters in Table 3, matches well
+with the real data curve (red line). Figure 6d shows the parking times of each vehicle, which are
+calculated by Equation (3). The average parking time, referring to real data, is about 5 h (4 h and
+57 min); on the other hand, the average parking time obtained by the probabilistic distribution is 5 h
+and 3 min. Besides, the figure shows the parking time error for each vehicle, which is obtained by the
+difference between the probabilistic and actual data. The average error is 7 min which corresponds to
+less than 3% of the average value of the real data, while the root mean square error (RMSE) is 7%. As can
+be seen in the figure, since the actual and probabilistic data are sampled in 15 min intervals, the error
+has been quantized every 15 min as well. The maximum error value is 45 min, which corresponds to a
+
+Energies 2020, 13, 5003
+
+11 of 25
+
+Energies 2020, 13, x FOR PEER REVIEW
+
+10 of 24
+
+15% error and concerns only 8% of the population. Most of the population has an error that is less than
+15 min (5% error
+referred
+the average),
+andof30%
+of thethat
+population
+hasin
+0%the
+error.
+These
+parameters.
+By using
+thesetodata,
+the number
+vehicles
+are present
+parking
+lotparameters
+in each 15
+further
+confirm
+the good overlay between the real and the stochastic behavior.
+min
+interval
+is calculated.
+
+(a)
+
+(c)
+
+(b)
+
+(d)
+Figure
+Figure 6.
+6. Arrival
+Arrival and
+and departure
+departure data
+data referring
+referring to
+to aa working
+working place parking
+parking scenario:
+scenario: (a)
+(a) arrival
+arrival and
+and
+departure
+departure times
+times for
+for each
+each vehicle;
+vehicle; (b)
+(b) top‐frame,
+top-frame, number
+number of
+of arrivals
+arrivals versus
+versus time
+time and
+and its
+its probabilistic
+probabilistic
+function,
+the number
+number of
+ofdepartures
+departuresversus
+versustime
+timeand
+anditsitsprobabilistic
+probabilisticfunction;
+function;
+num‐
+function, bottom‐frame,
+bottom-frame, the
+(c)(c)
+number
+ber
+of total
+parked
+vehicles
+(presences)
+each
+mintime
+timeintervals.
+intervals.Real
+Real data
+data delineate the
+of total
+parked
+vehicles
+(presences)
+in in
+each
+1515min
+the red
+red plot,
+plot,
+and
+the
+blue
+plot
+is
+the
+probabilistic
+functions;
+and
+(d)
+actual
+and
+probabilistic
+data
+of
+each
+vehicle
+and the blue plot is the probabilistic functions; and (d) actual and probabilistic data of each vehicle
+parking
+factor.
+parking time
+time and
+and the
+the resulting
+resulting error (red data on the top) depicted using the same scale factor.
+Table 3. Arrivals and departures: data and distribution parameters.
+1st Group
+
+2nd Group
+
+Total Population
+
+Arrivals events
+Time interval
+Vehicle number
+% of total population
+Distr. function
+Distr. parameters
+Time interval
+Vehicle number
+% of total population
+Distr. function
+
+𝜇
+
+[00:00–12:00]
+12:00–24:00]
+126
+34
+79%
+21%
+NF1
+NF2
+1 h 30′
+𝜇 14:45 𝜎
+1 h 15′
+09:15 𝜎
+Departures events
+00:00–14:00
+[14:00–24:00]
+51
+109
+32%
+68%
+WF1
+WF2
+
+[00:00–24:00]
+160
+100%
+NF1 + NF2
+
+[00:00–24:00]
+160
+100%
+WF1 + WF2
+
+Energies 2020, 13, 5003
+
+12 of 25
+
+Table 3. Arrivals and departures: data and distribution parameters.
+1st Group
+
+2nd Group
+
+Total Population
+
+[12:00–24:00]
+34
+21%
+NF2
+µ = 14:45 σ2 = 1 h
+150
+
+[00:00–24:00]
+160
+100%
+NF1 + NF2
+
+Arrivals events
+Time interval
+Vehicle number
+% of total population
+Distr. function
+Distr. parameters
+
+[00:00–12:00]
+126
+79%
+NF1
+µ = 09:15 σ2 = 1 h
+300
+
+Departures events
+Time interval
+Vehicle number
+% of total population
+Distr. function
+Distr. parameters
+
+[00:00–14:00]
+51
+32%
+WF1
+λ = 12:15 k = 2 h 450
+
+[14:00–24:00]
+109
+68%
+WF2
+λ = 17:45 k = 3 h 150
+
+[00:00–24:00]
+160
+100%
+WF1 + WF2
+
+2.5. EVs’ Power Flow Calculation Algorithms
+This Section explains the logic and methods that allow calculating the daily EV power flows for
+different scenarios and populations. Once the population’s number of vehicles, their characteristics,
+and the parking lot scenario are all identified, this algorithm is capable of forecasting and calculating
+the power that each EV requires for charging in each time interval of the day. Furthermore, it can
+forecast the total EVs’ charging power, which could be related to the aggregate group of vehicles that
+belongs to the single parking lot or the entire energy district. According to Section 2.4, the sample
+time of the algorithm is set to 15 min, then the generic day dk consists of 96 intervals of 15 min each.
+The algorithm’s input data are obtained by the previous analyses done in Section 2.1, Section 2.2,
+Section 2.3, and Section 2.4.
+As mentioned above, the scenario under investigation is the working place parking lot, where
+N is the number of total EVs that used the parking during the day. Through the Section 2.2 analysis,
+it is possible to define an N-sized array, named ID. The ID array contains information about the EVs’
+model and is made using the percentages of registered EVs that are reported in Table 1. For example,
+if N = 100, the ID vector would consist of 100 elements of which 22 correspond to Renault ZOE, 19 to
+Tesla Model 3, 13 to Nissan Leaf, and so on. In the same way, from Table 1 it is possible to define the
+N-size array of the batteries’ capacities (Cmax [kWh]), of the max on-board charger powers (Pmax [kW]),
+and the specific consumptions (Csp [kWh/100km]). By the 0analysis in Section 2.3, the N-size array
+of the distances traveled in dk is defined and named D(dk ) (km). Finally, the array of the maximum
+powers that are available on the charging stations (Pcs [kW]) is defined. The elements of each vectors’
+row refer to the vehicle which is present in the corresponding row of the ID array. For example,
+Equation (10) shows that the i-th vehicle (n◦ ID = i) is a Tesla Model 3 that traveled 70 km during dk
+(Di = 70). The i-row of all other vectors refers to the Tesla Mod. 3’s parameters. The PCS array depends
+on the charging infrastructure, however, the i-row of PCS refers to the charging station plugged into
+the i-th vehicle (in this case, by Tesla M.3).
+Model
+Smart
+Leaf
+ZOE
+[ ...
+]
+Tes.M3
+...
+ZOE
+
+ID = Cmax =
+1
+17.6
+2
+40
+3
+44.1
+[ ... ] [ ... ]
+i
+50
+...
+...
+N
+44.1
+
+Pmax =
+4.6
+6.6
+22
+[ ... ]
+11
+...
+22
+
+Csp = D(dk ) =
+16.1
+11
+17.1
+23
+17.5
+40
+[ ... ] [ ... ]
+14.9
+70
+...
+...
+17.5
+8
+
+PCS =
+22
+22
+22
+[ ... ]
+22
+...
+22
+
+(10)
+
+Energies 2020, 13, 5003
+
+13 of 25
+
+By Section 2.4 analysis, it is possible to define the matrix of the vehicle presences in the parking lot
+(PK), which contains information about the arrivals, departures, and parking times of each EV in the
+day dk . The matrix is shown in Equation (11) and is calculated using the arrival (blue) and departure
+Energies
+2020,
+x FOR
+PEER REVIEW
+(red)
+times
+for13,
+each
+vehicle.
+The time range within tarr and tdep represents the parking time (Tp ). 12 of 24
+
+𝐏𝐊
+
+⎡
+⎢
+⎢
+⎢
+⎢
+⎢
+⎣
+
+0
+0
+⋮
+0
+⋮
+0
+0
+1
+
+0
+0
+⋮
+0
+⋮
+0
+0
+2
+
+1
+0
+⋮
+1
+⋮
+0
+1
+3
+
+1
+1
+⋮
+1
+⋮
+1
+1
+4
+
+…
+1
+…
+1
+…
+1
+… 𝑃𝐾 𝑗, 𝑖
+…
+1
+…
+1
+…
+1
+… 𝑃𝐾𝑗 , 𝑖
+
+… 1 0 0 0 1
+… 1 1 0 0⎤ 2
+⎥
+… ⋮ ⋮ ⋮ ⋮⎥ ⋮
+… 1 0 0 0⎥ 𝑖
+… ⋮ ⋮ ⋮ ⋮⎥ ⋮
+… 1 0 0 0⎥𝑁 1
+… 1 1 0 0⎦ 𝑁
+… 93 94 95 96
+
+(11)
+
+(11)
+PK is calculated at each time interval Δ𝑡, and since Δ𝑡 = 15 min, considering a population of N
+at each
+and
+∆t = 15Generally,
+min, considering
+a population
+of N is
+PK is calculated
+vehicles
+and a period
+of 24time
+h, PKinterval
+results ∆t,
+in an
+𝑁 since
+96 matrix.
+if the time
+step resolution
+vehicles
+period
+24 number
+h, PK results
+an N ×columns
+96 matrix.
+Generally,
+theFollowing
+time step the
+resolution
+matrix’s
+is higher
+thanif96.
+order ofisthe
+higherand
+(Δ𝑡 a< 15
+min),ofthe
+of thein
+higher
+(∆t
+<
+15
+min),
+the
+number
+of
+the
+matrix’s
+columns
+is
+higher
+than
+96.
+Following
+the
+orderofof𝑑 .
+ID array, each row corresponds to a vehicle, while each column corresponds to a time interval
+theAs
+IDshown
+array, in
+each
+row corresponds
+to aof
+vehicle,
+while
+each column
+corresponds
+to aistime
+interval
+Equation
+(11), the value
+the matrix
+elements
+is 1 only
+if the vehicle
+parked;
+other‐
+of wise,
+dk . Asitshown
+in
+Equation
+(11),
+the
+value
+of
+the
+matrix
+elements
+is
+1
+only
+if
+the
+vehicle
+is
+parked;
+is 0. For each interval Δ𝑡 (which refers to time 𝑗 1 ⋅ Δ𝑡 to time 𝑗 ⋅ Δ𝑡 ) and each 𝐸𝑉 , the
+otherwise,
+it conditions
+is 0. For each
+interval ∆t j (which refers to time [( j − 1) · ∆t] to time [ j · ∆t]) and each EVi ,
+following
+apply:
+the following conditions apply:
+𝟏,
+𝒕𝒂𝒓𝒓 𝒊 𝜟𝒕𝒋 𝒕𝒅𝒆𝒑 𝒊
+𝑷𝑲 𝒋, 𝒊
+(12)
+𝜟𝒕𝒋 𝒕𝒅𝒆𝒑 𝒊 ⋁ 𝜟𝒕𝒋 𝒕𝒂𝒓𝒓 𝒊
+( 𝟎,
+1, tarr i ≤ ∆tj < tdep i
+W
+PK[j, i] =
+(12)
+where j is the PK column, and i is the PK
+Equation
+0, row.
+∆tj ≥By
+tdep
+∆tj(12),
+< tarrfor
+i
+i each PK row, the first non‐zero
+element corresponds to the arrival times. On the other hand, the last non‐zero element corresponds
+where
+j istime
+the PK
+column,
+and i isthe
+the departure
+PK row. By
+Equation
+(12),
+each PK
+row, the
+non-zeroare
+thefor
+elements
+within
+thisfirst
+time‐range
+to the
+interval
+preceding
+time,
+and all
+element
+corresponds
+to
+the
+arrival
+times.
+On
+the
+other
+hand,
+the
+last
+non-zero
+element
+corresponds
+equal to one. If 𝑁 = 160, the sum of the row‐elements for each column ( ∑ 𝑷𝑲 𝑗, 𝑖 ) provides the to
+plot
+theintime
+interval
+preceding
+the
+departure
+time,
+and
+all
+the
+elements
+within
+this
+time-range
+are
+equal
+Figure 6c, as well as the sum of the elements only relating to 𝑡 P
+and 𝑡 , which provides the plots
+to in
+one.
+If N6b.
+= 160, the sum of the row-elements for each column ( PK[ j, i] ) provides the plot in
+Figure
+i
+Foras
+describing
+thesum
+forecasting
+algorithm,
+this
+Section
+the daily
+Figure 6c,
+well as the
+of the elements
+only
+relating
+tofocuses
+tarr andon
+tdepcalculating
+, which provides
+thepower
+plots flow
+in
+referring
+𝑡 . The algorithm’s output must be an 𝑁 96 matrix which contains the
+Figure
+6b. to a single 𝐸𝑉, 𝑃
+charging
+power value
+[kW] of each
+vehicle for
+timefocuses
+interval,
+output matrix
+is called
+For describing
+the forecasting
+algorithm,
+thiseach
+Section
+onthis
+calculating
+the daily
+power𝐏flow
+𝐄𝐕 and
+𝑷𝑬𝑽 𝑗, 𝑖to∈a𝐏single
+(2), the total
+parking
+power,
+for each
+time
+interval
+referring
+EV, from
+PEVi (Equation
+t). The algorithm’s
+output
+mustcharging
+be an N ×
+96 matrix
+which
+contains
+theΔ𝑡
+𝐄𝐕 . Then,
+is a row‐vector
+(96‐sized)
+named
+𝐏𝐄𝐕𝐬 and
+given
+byinterval, this output matrix is called PEV and
+charging
+power value
+[kW] of
+each vehicle
+for is
+each
+time
+𝑵
+PEV [ j, i] ∈ PEV . Then, from Equation (2), the total parking charging power, for each time interval ∆t j is
+𝑷𝑬𝑽𝒔
+𝒋
+(13)
+a row-vector (96-sized) named PEVs and
+is given
+by 𝑷𝑬𝑽 𝒋, 𝒊
+𝒊 𝟏
+
+N
+X
+The forecasting logics are shown in the flow
+chart in Figure 7.The model starts calculating at the
+PEVs[j]= PEV [j,i]
+(13)
+beginning of 𝑑 , considering the first‐time interval (j = 1, which time belongs to [00:00–00:15]). As
+i=1
+long as 𝑷𝑲 𝑗, 𝑖 remains equal to zero, the output 𝑷𝑬𝑽 𝑗, 𝑖 is zero because the vehicle is not in the
+parking
+lot and cannot
+plugged
+the flow
+charging
+As7.soon
+the vehicle
+arrives in the
+park‐
+The forecasting
+logicsbe
+are
+shown on
+in the
+chartstation.
+in Figure
+Theas
+model
+starts calculating
+at the
+ing lot, 𝑷𝑲
+switches tothe
+one
+and keeps
+this value
+vehicle
+is parked.
+By Equation
+beginning
+of dk𝑗,, 𝑖considering
+first-time
+interval
+(j = 1,while
+whichthe
+time
+belongs
+to [00:00–00:15]).
+As (8),
+longthe
+starts atequal
+the arrival
+and the
+initial
+charging
+powerthe
+𝑷𝑬𝑽vehicle
+𝑡 , 𝑖 isisnot
+set in
+to the
+the parking
+minimum
+[ j, i] is
+as charging
+PK[ j, i] remains
+to zero,times,
+the output
+PEV
+zero because
+between
+𝑷𝒎𝒂𝒙
+𝑖 . After that,
+the As
+initial
+value
+of vehicle
+the power
+is multiplied
+by a scale‐
+lotvalue
+and cannot
+be 𝑷
+plugged
+on
+the charging
+station.
+soon
+as the
+arrives
+in the parking
+lot,
+𝑪𝑺 𝑖 and
+𝑘 . The to
+scale
+considers
+the variation
+poweris during
+which
+on the
+[ j, i] switches
+PKfactor
+onefactor
+and keeps
+this value
+while theof
+vehicle
+parked.charging
+By Equation
+(8),depends
+the charging
+CC–CV
+phases.
+Therefore,
+as shown
+by Equation
+and Figure
+4a,
+power
+could
+decreasevalue
+during
+starts
+at the
+arrival
+times, and
+the initial
+charging(4)
+power
+PEV [tch0
+, i]the
+is set
+to the
+minimum
+the charging
+process
+on the
+lookup
+whichbydepends
+on each
+[i]. After that,
+between
+PCS [i] and
+Pmaxdepending
+the SOC
+initialvalue.
+valueUsing
+of theapower
+is table,
+multiplied
+a scale-factor
+capacity, 𝑘theisvariation
+calculated
+a function
+the SOCwhich
+and the
+initialon
+charging
+power
+kc . vehicle’s
+The scalebattery
+factor considers
+of as
+power
+duringofcharging
+depends
+the CC–CV
+value
+for
+each
+time
+interval
+Δ𝑡
+.
+In
+fact,
+𝑘
+represents
+the
+value
+of
+the
+charging
+power
+in
+per‐units
+phases. Therefore, as shown by Equation (4) and Figure 4a, the power could decrease during the
+(p.u.), which
+reported toonthe
+the CC
+phase.table,
+Therefore,
+scale factor
+is vehicle’s
+about 𝑘 =1
+charging
+processisdepending
+therated
+SOCpower
+value. in
+Using
+a lookup
+which the
+depends
+on each
+during
+the CCkphase
+and
+decreases
+during
+the
+CV
+phase
+to
+reach
+zero
+as
+soon
+as
+the
+charging
+ends,
+battery
+capacity,
+is
+calculated
+as
+a
+function
+of
+the
+SOC
+and
+the
+initial
+charging
+power
+value
+for each
+c
+𝑘 𝑡 , = 0.
+From Figure 7, the algorithm’s input (black input arrows) and output data (green output arrow)
+can be observed. On the other hand, the red signals consider the logics of start and stop charging. As
+previously explained in Equations (8) and (9), the charging can end (𝑷𝑬𝑽 𝑗, 𝑖
+0 if the vehicle leaves
+the parking (PK switches from 1 to 0) or if the battery reaches the maximum SOC value (𝑘 reaches
+zero). Therefore, the scale factor (blue signal) is used for both calculating the end charging instant,
+
+Energies 2020,
+2020,13,
+13,5003
+x FOR PEER REVIEW
+Energies
+
+13 of
+of 25
+24
+14
+
+(14)
+𝑷𝑬𝑽 𝒋, 𝒊
+𝑷𝑬𝑽 𝒕𝒄𝒉𝟎 , 𝒊 ⋅ 𝒌𝒄 𝒋, 𝒊 ⋅ 𝑷𝑲 𝒋, 𝒊
+time interval ∆t j . In fact, kc represents the value of the charging power in per-units (p.u.), which is
+Finally, according to the objective of calculating the daily charging power of the single‐day 𝑑 ,
+reported to the rated power in the CC phase. Therefore, the scale factor is about kc =1 during
+ the CC
+the forecasting process ends when j = 96 (time step [23:45–24:00]). Once the matrix P is determined,
+phase and decreases during the CV phase to reach zero as soon as the charging ends, kc tch f , = 0.
+Equation (13) calculates the total daily power profile of the parking lot (PEVs).
+
+Figure 7.
+7. EV
+EV charging
+charging power
+power flows
+flows algorithm.
+algorithm. The
+The flow
+flow chart
+chart shows
+shows the
+the logics
+logics that
+that allow
+allow forecasting
+forecasting
+Figure
+the
+daily
+power
+required
+by
+an
+EV,
+which
+is
+a
+user
+of
+the
+parking.
+the daily power required by an EV, which is a user of the parking.
+
+3. The
+Charging
+System:
+and
+Aims
+From
+Figure Management
+7, the algorithm’s
+inputLogic
+(black
+input
+arrows) and output data (green output arrow)
+can be
+observed.
+theCMS
+otherishand,
+the red
+consider
+the logics
+and
+stop
+charging.
+The
+objectiveOn
+of the
+to manage
+thesignals
+EV charging
+power
+flows of
+to start
+follow
+and
+to reach
+spe‐
+[
+]
+As
+previously
+explained
+in
+Equations
+(8)
+and
+(9),
+the
+charging
+can
+end
+(P
+j,
+i
+=
+0
+)
+if
+the
+vehicle
+EV
+cific optimizations targets. The targets are set according to environmental policies
+(such as decarbon‐
+leaves
+parking
+(PK switches
+from 1 to 0) orofifPED
+the [2,36]),
+batterybut
+reaches
+the maximum
+SOC
+(kc
+izationthe
+in urban
+contexts
+and the development
+especially
+to minimize
+thevalue
+charging
+reaches
+zero).
+Therefore,
+the
+scale
+factor
+(blue
+signal)
+is
+used
+for
+both
+calculating
+the
+end
+charging
+cost. According to Figure 1, the CMS has the role of managing the 𝑃 (consequently, it can also
+instant,
+the the
+EV charging
+power
+in each
+time interval
+Equation
+modify and
+the 𝑃to calculate
+) following
+specific logics
+and
+operating
+criteria. through
+The incoming
+data(14):
+of this man‐
+
+agement system can come either from the generation sources and electrical loads that are inside the
+P [j,i]=PEV [tch0 ,i]·kc [j,i]·PK[j,i]
+(14)
+energy district or from the externalEV
+grid as well. For example, the aggregated system of EVs can par‐
+ticipate
+in the
+dispatching
+services
+market
+[16,20,32], the
+by modulating
+thepower
+charging
+power
+according
+Finally,
+according
+to the
+objective
+of calculating
+daily charging
+of the
+single-day
+dk ,
+to
+the
+TSO’s
+requests.
+Furthermore,
+the
+PEDs
+or
+micro‐grids,
+which
+have
+non‐controllable
+loads and
+the forecasting process ends when j = 96 (time step [23:45–24:00]). Once the matrix PEV is determined,
+a relevant(13)
+penetration
+non‐programmable
+generation
+sources,
+may
+use the EV batteries to modu‐
+Equation
+calculatesofthe
+total daily power profile
+of the
+parking
+lot (PEVs).
+late the 𝑃
+profile [14] following the dispatching orders. This would not be possible without the
+storage
+system behaving
+as a buffer
+between
+and load (as in Equation (1)). Moreover,
+3.
+The Charging
+Management
+System:
+Logicthe
+andgeneration
+Aims
+in return, the dispatching users (in this case, the EVs’ owners or the charging infrastructure provid‐
+The objective of the CMS is to manage the EV charging power flows to follow and to reach specific
+ers) receive financial compensation for their services. This practice, generally called V1G/V2G [29–
+optimizations targets. The targets are set according to environmental policies (such as decarbonization
+32] can ultimately result in a decrease in the charging cost. Moreover, since the price of energy de‐
+in urban contexts and the development of PED [2,36]), but especially to minimize the charging cost.
+pends on the energy market and can vary during the day, the CMS can shift charging when absorbing
+According to Figure 1, the CMS has the role of managing the PEVs (consequently, it can also modify
+energy from the grid is more convenient following the same optimization target [10,43–45]. However,
+the PPCC ) following the specific logics and operating criteria. The incoming data of this management
+these logics, which receive external input such as dispatching orders and energy prices, are not
+system can come either from the generation sources and electrical loads that are inside the energy
+treated in the current article.
+district or from the external grid as well. For example, the aggregated system of EVs can participate
+This paper focuses on a CMS that aimed to optimize the charging cost by the maximization of
+in the dispatching services market [16,20,32], by modulating the charging power according to the
+the PED’s self‐consumption. Since the inputs of this control system only come from measurements
+TSO’s requests. Furthermore, the PEDs or micro-grids, which have non-controllable loads and a
+inside the district, this control topology can be called stand‐alone CMS (SA‐CMS). By introducing an
+relevant penetration of non-programmable generation sources, may use the EV batteries to modulate
+SA‐CMS in PED it is possible to operate in Smart Charging mode, i.e., the aggregate charging power,
+the PPCC profile [14] following the dispatching orders. This would not be possible without the
+which is given by Equation (2), is controlled to follow the daily power profile of the internal genera‐
+storage system behaving as a buffer between the generation and load (as in Equation (1)). Moreover,
+tion sources. This can result in an EV’s load shifting during the hours of more internal generation or
+in return, the dispatching users (in this case, the EVs’ owners or the charging infrastructure providers)
+may involve a decrease in each EV’s charging power to smooth the EV’s load profile during peak
+receive financial compensation for their services. This practice, generally called V1G/V2G [29–32] can
+hours [24–27]. Of course, this operating mode aims to minimize the power that the system absorbs
+ultimately result in a decrease in the charging cost. Moreover, since the price of energy depends on the
+from the grid, by prioritizing the internal and non‐programmable RESs, which present a lower energy
+price. Thus, the improvement of self‐consumption results in a reduction in charging costs.
+
+Energies 2020, 13, 5003
+
+15 of 25
+
+energy market and can vary during the day, the CMS can shift charging when absorbing energy from
+the grid is more convenient following the same optimization target [10,43–45]. However, these logics,
+which receive external input such as dispatching orders and energy prices, are not treated in the
+current article.
+This paper focuses on a CMS that aimed to optimize the charging cost by the maximization of
+the PED’s self-consumption. Since the inputs of this control system only come from measurements
+inside the district, this control topology can be called stand-alone CMS (SA-CMS). By introducing an
+SA-CMS in PED it is possible to operate in Smart Charging mode, i.e., the aggregate charging power,
+which is given by Equation (2), is controlled to follow the daily power profile of the internal generation
+sources. This can result in an EV’s load shifting during the hours of more internal generation or
+may involve a decrease in each EV’s charging power to smooth the EV’s load profile during peak
+hours [24–27]. Of course, this operating mode aims to minimize the power that the system absorbs
+from the grid, by prioritizing the internal and non-programmable RESs, which present a lower energy
+price. Thus, the improvement of self-consumption results in a reduction in charging costs.
+The CMS consists of hardware (HW) and software (SW) systems. The HW system collects all
+the elements necessary to implement the power flows that are managed by the SW central system.
+In detail, HW consists of power electronics converters, measurement sensors, and other elements that
+are necessary for communicating and receiving signals from the central control system. In the case of
+DC-charging (off-board charger), it is the CS that directly manages the charging power following the
+power reference from the control system (within the vehicle’s battery limits). On the other hand, in the
+case of AC-charging (on-board charger), it is the on-board charger that provides power to the batteries.
+The AC–CS operation consists in communicating to the vehicle the maximum current (and therefore
+the maximum power) that the charging station can provide in that instant. For the CMS with AC–CS,
+it is necessary to have a communication system between the charging station and the on-board charger.
+For example, it could be provided by the Type-2 connector that communicates with the vehicle through
+a PWM signal (control pilot “CP” in [46]). In particular, by managing the duty cycle of this PMW
+voltage signal, it is possible to control the maximum current (and the power as well) that the vehicle
+can absorb from the CS so that it can follow the reference signal. The SW system receives in input the
+data shown in Table 4 and returns as output the reference charging power (P∗EVi ) for each CSi on which
+is plugged the EVi with a reference time resolution (such as 15 min). The effects and how the CMS
+operates on power flows will be better shown in Section 5.
+Table 4. The input of the CMS and data structure.
+Bundle
+
+Parameter
+
+Unit
+
+Resolution
+
+Data Type
+
+Example
+
+EV CS
+
+Identification code
+Charging mode
+Connector topology
+Max rating
+Power
+N◦ of plugged EVs
+Total CMS–CS
+
+kW
+kW
+-
+
+1–15 min
+1–15 min
+-
+
+String
+String
+String
+Float
+Float
+Integer
+Integer
+
+xx21
+AC
+Type 2
+22
+12/05/2019, 10:45, 16.5
+12/05/2019, 10:45, 45
+100
+
+Power Source
+
+Topology
+Name
+Power
+
+kW
+
+1–15 min
+
+String
+String
+Float
+
+Non-programmable
+PV plant
+12/05/2019, 10:45, 247.7
+
+PCC Load
+
+POD code
+Power
+
+kW
+
+1–15 min
+
+String
+Float
+
+xxx3
+12/05/2019, 10:45, 341.8
+
+4. Reference Scenario and Results of the EVs Power Flows’ Calculation Method
+In order to test the EVs’ power demand prediction method and to evaluate the CMS’s effect on these
+power flows, this Section takes into account the reference scenario shown in Figure 8. The reference
+
+Energies 2020, 13, 5003
+
+16 of 25
+
+scenario consists of a metalworking company with two main parking areas, each having a capacity of
+100 stands. The company also has a PV plant of 500 kWp. Figure 8a shows the main building of the
+company and the nearby PV plant. The hypothesis is that the parking lot n◦ 2 provides a charging
+point for each vehicle. The charging infrastructure consists of 50 AC-CSs having two 22 kW charging
+ports each. The parking users are the company employees, and their behavior, in terms of arrival and
+departure times, belongs to the scenario that is analyzed in Section 2 (the working place parking lots).
+Figure 8b shows the daily profile of the electrical load and PV generation of the company. The
+data
+Energies 2020, 13, x FOR PEER REVIEW
+15 of 24
+refer to the daily measurements across the year 2019.
+
+Energies 2020, 13, x FOR PEER REVIEW
+
+(a)
+
+15 of 24
+
+(b)
+
+Figure 8. Reference
+Reference scenario:
+scenario: (a)
+(a) the
+the layout
+layout of
+of the building,
+building, parking
+parking area, and the PV plant. The red
+marker refers to an EV parking place; (b) the daily power flows of the electrical load (brown) and the
+PV plant (yellow), and their annual average (dark blue and red, respectively).
+
+The following figures show the results of the forecasting method and the algorithm that are
+reported in Section 2. Input data are adapted to the reference scenario. Figure 9a shows the SOC0
+values of each EV, which are calculated and analyzed in Section 2.3 concerning the consumptions of
+dk = [1;3;7]. Therefore, dk also allows evaluating the EVs’ charging load based on the users’ behavior.
+For example, dk = 3 means
+(a)that the charging takes place once every three days.
+(b) Consequently, the initial
+value of the SOC, together with the total power flows and the entire energy, changes depending on
+Figure 8. Reference scenario: (a) the layout of the building, parking area, and the PV plant. The red
+dk . Figure 9b shows the total power flows (PEVs ) of the reference EVs’ population for more dk values.
+marker refers to an EV parking place; (b) the daily power flows of the electrical load (brown) and the
+From the figure, the peak value of PEVS can drastically change and under the worst conditions, might
+PV plant (yellow), and their annual average (dark blue and red, respectively).
+even double the electrical load request of the plant for a few hours.
+
+(a)
+
+(b)
+
+Figure 9. Results of the forecasting method: (a) the input value of 𝑆𝑂𝐶 referred to 𝑑 = [1; 3; 7] for
+each vehicle and their average value; (b) the total EVs’ power flows referred to 𝑑 = [1÷7] and their
+peak value.
+
+For evaluating CMS performances, the self‐consumption parameter (𝜂 ) is introduced by Equa‐
+tion (15). The 𝜂 is 100% if the internal generation (in this case the PV plant) manages to supply all
+the energy required by the charging; on the other hand, 𝜂 is 0% if the charging energy is entirely
+provided by the grid (external power source):
+(a)
+(b)
+min 𝑃 , 𝑃 𝑑𝑡
+(15)
+𝜂
+Figure 9. Results of the forecasting
+forecasting method:
+method: (a) the
+of SOC
+𝑆𝑂𝐶 0 referred
+= [1;
+referred to
+to 𝑑dk =
+[1; 3; 7] for
+𝑑𝑡 value of
+𝑃 input
+each vehicle and their average value; (b) the total EVs’ power flows referred to 𝑑 = [1÷7] and their
+
+each vehicle and their average value; (b) the total EVs’ power flows referred to dk = [1÷7] and their
+Since
+the PV power, as shown in Figure 8b, has variable profiles (depending on the daily and
+peak value.
+seasonal irradiation), to evaluate the 𝜂 , three different PV profiles are taken into account to simulate
+threeFor
+operating
+conditions:
+the “worst condition”
+refers to a low‐production
+winter
+the “mean‐
+evaluating
+CMSperformances,
+performances,
+self-consumption
+parameter
+) isday;
+introduced
+by
+For evaluating
+CMS
+thethe
+self‐consumption
+parameter
+(𝜂 )(η
+isSC
+introduced
+by Equa‐
+condition”
+is
+the
+power
+profile
+which
+refers
+to
+the
+equivalent
+sun
+hours
+(ESH)
+energy
+of
+the
+plant,
+Equation
+the internal
+generation
+(in this
+the plant)
+PV plant)
+manages
+to supply
+SC is 100%
+tion (15). (15).
+The 𝜂Theisη100%
+if theifinternal
+generation
+(in this
+casecase
+the PV
+manages
+to supply
+all
+and it is obtained by the annual average of daily production (red signal in Figure 8b); the “best con‐
+the energy required by the charging; on the other hand, 𝜂 is 0% if the charging energy is entirely
+dition” refers to a high production spring day. Figure 10 compares the self‐consumption energy (col‐
+provided by the grid (external power source):
+ored area) considering the 𝑃 of 𝑑 = [1; 3; 7] under the three aforementioned PV conditions: worst
+min 𝑃The, 𝑃𝜂 𝑑𝑡
+(left), mean (center), and best (right), respectively.
+values are shown on the top‐right of each
+(15)
+𝜂
+𝑃 𝑑𝑡
+plot.
+
+Energies 2020, 13, 5003
+
+17 of 25
+
+all the energy required by the charging; on the other hand, ηSC is 0% if the charging energy is entirely
+provided by the grid (external power source):
+R
+ηSC =
+
+dk
+
+min(PEVs , PG )dt
+R
+PEVs dt
+d
+
+(15)
+
+k
+
+Since the PV power, as shown in Figure 8b, has variable profiles (depending on the daily
+and seasonal irradiation), to evaluate the ηSC , three different PV profiles are taken into account to
+simulate
+three operating conditions: the “worst condition” refers to a low-production winter
+day;
+Energies 2020, 13, x FOR PEER REVIEW
+16 of 24
+the “mean-condition” is the power profile which refers to the equivalent sun hours (ESH) energy of the
+plant,
+it is obtained
+by thecharging.
+annual average
+of daily above,
+production
+(red signal
+in Figure
+8b);
+the “best
+profileand
+considering
+the EVs’
+As mentioned
+the power
+required
+by the
+system
+de‐
+condition”
+refers
+to a high production
+spring
+day. Figure
+10 compares
+self-consumption
+energy
+pends on the
+PV generation
+and the EVs
+charging
+rate, therefore,
+it canthe
+drastically
+change based
+on
+(colored
+considering
+the Pavailability,
+7] under
+the three behavior.
+aforementioned
+PV conditions:
+EVs of dk = [1;
+the dailyarea)
+request,
+seasonal RES
+and3;the
+users’ charging
+The figure
+reports the
+worst
+(left), value
+mean of
+(center),
+andload
+best(Δ𝑃
+(right),%])
+respectively.
+shown
+on the
+top-right
+of
+SC values are
+percentage
+the peak
+referred toThe
+theηmaximum
+value
+without
+EVs
+charging
+each
+plot. for the different conditions.
+(red line)
+
+Figure
+Comparison of
+of the
+the self‐consumptions:
+self-consumptions: the
+the red
+red curves
+curves are
+are the
+the PV
+PV power,
+power, the
+Figure 10.
+10. Comparison
+the blue
+blue curves
+curves are
+are
+the
+percentage
+value
+in the
+shows
+the ηSC
+in:𝜂 worst
+condition
+(blue
+the P𝑃EVs with
+with d𝑑k ==[1;3;7],
+[1;3;7],and
+andthe
+the
+percentage
+value
+in legend
+the legend
+shows
+the
+in: worst
+condition
+areas,
+left plot);
+(green (green
+areas, center
+plot); best
+condition
+(orange(orange
+areas, right
+(blue areas,
+left mean
+plot); condition
+mean condition
+areas, center
+plot);
+best condition
+areas,plot).
+right
+
+plot).
+
+Below, for evaluating the EVs’ effect on the absorbed power from the grid, utilizing Equation (1),
+the PCC power is calculated and shown in Figure 11. The red curve is the PPCC without EVs charging
+and is obtained considering the average load profile (dark blue signal in Figure 8b) and the three PV
+generation conditions (worst, mean, best). On the other hand, the blue curves show the PCC load
+profile considering the EVs’ charging. As mentioned above, the power required by the system depends
+on the PV generation and the EVs charging rate, therefore, it can drastically change based on the daily
+request, seasonal RES availability, and the users’ charging behavior. The figure reports the percentage
+value of the peak load (∆PPCC [%]) referred to the maximum value without EVs charging (red line) for
+the different conditions.
+In worse cases, the PPCC profile might assume relevant peak values and high ramp-rates, causing
+breaches in the operative limits, increasing losses, congestion, simultaneous loads issues, failure
+probability, and negative impact on the power quality [5]. Finally, to compare the charging performances,
+The PCC power
+profiles calculated
+EVs (red)
+and of
+with
+charging (blue) that
+ac‐ can
+TableFigure
+5 was 11.
+introduced.
+The parameter
+ηSCmax is without
+the maximum
+value
+theEVs
+self-consumption
+cording to the different values of the initial SOC. The PV generation changes according to the worst
+be reached through the available PV energy, while Ech is the daily energy required for charging and
+condition (left), the mean condition (center), and the best condition (right), as well as the Δ𝑃
+val‐
+EPV is the daily PV energy, both expressed in (kWh per day).
+ues.
+
+In worse cases, the 𝑃
+profile might assume relevant peak values and high ramp‐rates, causing
+breaches in the operative limits, increasing losses, congestion, simultaneous loads issues, failure
+probability, and negative impact on the power quality [5]. Finally, to compare the charging perfor‐
+mances, Table 5 was introduced. The parameter 𝜂
+is the maximum value of the self‐consump‐
+tion that can be reached through the available PV energy, while 𝐸 is the daily energy required for
+charging and 𝐸 is the daily PV energy, both expressed in (kWh per day).
+Table 5. Performance parameters (No CMS).
+PV Cond.
+
+Worst
+
+Mean
+
+Best
+
+Figure 10. Comparison of the self‐consumptions: the red curves are the PV power, the blue curves are
+the 𝑃 with 𝑑 = [1;3;7], and the percentage value in the legend shows the 𝜂 in: worst condition
+(blue
+left plot); mean condition (green areas, center plot); best condition (orange areas, right
+Energies
+2020,areas,
+13, 5003
+18 of 25
+plot).
+
+Figure 11.
+11. The
+ThePCC
+PCCpower
+powerprofiles
+profiles
+calculated
+without
+EVs
+(red)
+with
+charging
+(blue)
+Figure
+calculated
+without
+EVs
+(red)
+andand
+with
+EVsEVs
+charging
+(blue)
+ac‐
+according
+to
+the
+different
+values
+of
+the
+initial
+SOC.
+The
+PV
+generation
+changes
+according
+to
+the
+worst
+cording to the different values of the initial SOC. The PV generation changes according to the worst
+condition (left),
+the
+best
+condition
+(right),
+as well
+as the
+∆PPCC
+condition
+(left), the
+themean
+meancondition
+condition(center),
+(center),and
+and
+the
+best
+condition
+(right),
+as well
+as the
+Δ𝑃 values.
+val‐
+ues.
+Table 5. Performance parameters (No CMS).
+Cond.
+Worst might assume relevant
+Mean
+Best
+InPV
+worse
+cases, the 𝑃
+profile
+peak values and high ramp‐rates,
+causing
+EPVin
+[kWh]
+590 increasing losses, congestion,
+2090
+breaches
+the operative limits,
+simultaneous loads3527
+issues, failure
+dk
+probability,
+and negative
+on the
+quality
+[5].
+Finally,
+compare
+perfor‐
+Ech [kWh]
+ηSC impact
+ηSCmax
+∆Ppower
+ηSC
+ηSCmax
+∆Pto
+ηSC the ηcharging
+∆P
+PCC
+PCC
+SCmax
+PCC
+mances,
+Table
+introduced.
+𝜂
+is100%
+the maximum
+self‐consump‐
+1
+375 5 was 60%
+100%The parameter
++7%
+100%
++1% value
+100%of the
+100%
++0%
+3 that can
+1510be reached
+32%through
+39%the available
++30%
+77%
+100%
+94% energy
+100%required
++17%for
+tion
+PV
+energy,
+while 𝐸+23%
+is the daily
+7
+2855
+22%
+22%
++56%
+62%
+79%
++47%
+78%
+100%
++37%
+charging and 𝐸 is the daily PV energy, both expressed in (kWh per day).
+
+Table
+5. Performance
+parameters
+CMS).
+As shown in Table 5, in worse
+conditions
+with low
+EPV and(No
+high
+Ech (red cells), the self-consumption
+coincides with itsPVmaximum
+valueWorst
+and it is not possible Mean
+to increase it by load shifting
+(although it may
+Cond.
+Best
+be possible to act
+PPCC by peak590
+shaving). On the other
+days with higher PV
+[kWh]
+𝑬𝑷𝑽on
+2090 hand, on favorable
+3527
+𝒅𝒌
+𝜼𝑺𝑪𝒎𝒂𝒙
+𝚫𝑷𝑷𝑪𝑪
+𝚫𝑷𝑷𝑪𝑪
+𝜼𝑺𝑪
+𝜼𝑺𝑪𝒎𝒂𝒙
+𝚫𝑷without
+𝑬𝒄𝒉 EV
+kWh]
+energy and lower
+load𝜼request
+(green
+cells),𝜼the
+η𝜼SC𝑺𝑪𝒎𝒂𝒙
+reaches
+its maximum
+value
+smart
+𝑺𝑪
+𝑺𝑪
+𝑷𝑪𝑪
+1
+375
+60%
+100%
++7%
+100%
+100%
++1%
+100%
+100%
++0%
+charging. However, under the average conditions (fuzzy color) of production and consumption, it
+3
+1510
+32%
+39%
++30%
+77%
+100%
++23%
+94%
+100%
++17%
+may be necessary
+to
+manage
+the EVs’
+power
+flow62%
+to optimize
+ηSC
+and ∆P
+. To quantify
+the share of
+7
+2855
+22%
+22%
++56%
+79%
++47%
+78%PCC 100%
++37%
+the highly favorable days, unfavorable days, and middle days, this analysis is extended to the data
+belonging to a period of one year. Thus, Figure 12 is introduced. The figure shows the values of
+ηSC and ∆PPCC . Figure 12a depicts the self-consumption parameters (blue markers) and their respective
+maximum values (black markers) that can be reached in each day. The EVs’ power is maintained the
+same and refers to dk = 3, while the PV production changes based on the daily irradiance availability.
+The same figure also shows the maximum increment that ηSC could reach in case of self-consumption
+optimization, which is given by the difference between ηSCmax and ηSC . According to the color-scale
+in Table 5, the histogram shows the max performance improvements that could be obtained starting
+on unfavorable days (ηSC < 30%), highly favorable days (ηSC > 90%), and the intermediate values
+(ηSC ∈ [30–90%]). The figure shows that in the great majority of the days it is possible to increase the
+self-consumption reaching ηSC = 100%. The average improvement that could be obtained through
+flows optimization, is of about 20% in spring, summer, and autumn, while dips to 12% in winter.
+However, it is shown that extreme PV conditions, such “worst condition” and “best condition.”, when it
+is not possible to employ self-consumption consistently, involve very few days of the year (red and
+dark green columns).
+
+mediate values (𝜂 ∈ [30–90%]). The figure shows that in the great majority of the days it is possible
+to increase the self‐consumption reaching 𝜂 = 100%. The average improvement that could be ob‐
+tained through flows optimization, is of about 20% in spring, summer, and autumn, while dips to
+12% in winter. However, it is shown that extreme PV conditions, such “worst condition” and “best
+condition.”,
+when
+Energies
+2020, 13,
+5003 it is not possible to employ self‐consumption consistently, involve very few19days
+of 25
+of the year (red and dark green columns).
+
+(a)
+
+(b)
+
+Figure 12. The
+The 𝜂ηSC and
+andΔ𝑃
+∆PPCCcomparison
+comparisonconsidering
+consideringone
+oneyear
+yearOF
+OFdata
+dataof
+ofthe
+theload
+loadand
+andPV
+PVgeneration:
+generation:
+𝜂SC values referred to dk
+(a) η
+dk == 3; and (b) percentage peak value (columns) as a function of seasonality
+(dot lines)
+lines) as
+as aa function
+function of
+of working
+working days
+days (top
+(top xx axis).
+axis).
+(bottom x axis) and in ascending order (dot
+
+considering the
+the load,
+load, and
+and the
+the PV
+PV power
+power of each
+On the other hand,
+hand, Figure
+Figure 12b
+12b shows
+shows ∆P
+Δ𝑃PCC considering
+working
+day
+(288
+days).
+Unlike
+Figure
+12a,
+∆P
+is
+calculated
+basing
+on
+the
+different
+values
+of SOC
+working day (288 days).
+Figure 12a, Δ𝑃PCC is calculated basing on the different
+𝑆𝑂𝐶 0,,
+with reference to 𝑑
+dk =
+3; 7].
+7]. Concerning
+Concerningto
+to𝑑dk ==1,1,ititisisshown
+shownthat
+thatthe
+themaximum
+maximumvalue
+valueofofΔ𝑃
+∆PPCC
+= [1; 3;
+is
+is about
++ 20%
+of days
+the days
+are affected
+not affected
+by PCC
+increments.
+However,
+thecould
+peak
+about
++ 20%
+andand
+halfhalf
+of the
+are not
+by PCC
+peak peak
+increments.
+However,
+the peak
+could even
+reach+even
+100%
+(din
+7) in
+the worst
+conditions,
+of which
+theofhalf
+the
+reach
+40% +(𝑑40%
+= 3)(dand
++ and
+100%+ (𝑑
+= 7)
+worst
+conditions,
+of which
+the half
+theofdays
+k = 3)
+k =the
+days have
+> with
++ 20%
+dk = Δ𝑃
+3, and>∆P
++ 40%
+dk next
+= 7. The
+nextshows
+Section
+the
+have
+a Δ𝑃 a ∆P
+> +PCC
+20%
+𝑑 with
+= 3, and
++ 40%
+with
+𝑑 =with
+7. The
+Section
+theshows
+possibil‐
+PCC >
+possibility
+to
+improve
+performances
+by
+introducing
+the
+smart
+charging
+mode.
+ity to improve performances by introducing the smart charging mode.
+5. CMS
+CMS Effects
+Effects on
+on Power
+Power Flow:
+Smart Charging
+Charging Mode
+Mode
+5.
+Flow: Smart
+The SA‐CMS,
+SA-CMS, which
+which manages
+manages the
+the reference
+reference scenario’s
+scenario’s power
+power flows,
+flows, measures
+measures the
+PV power
+power and
+and
+The
+the PV
+collects
+information
+about
+the
+N
+=
+100
+vehicles
+during
+charging
+(from
+the
+CSs).
+The
+CMS
+makes
+collects information about the N = 100 vehicles during charging (from the CSs). The CMS makes sure
+sure the
+thattotal
+the EVs’
+total power
+EVs’ power
+remains
+PV generation
+by modulating
+the of
+charge
+of each
+that
+remains
+below below
+the PVthe
+generation
+by modulating
+the charge
+each vehicle.
+vehicle.
+The
+system
+detects
+the
+number
+of
+EVs
+(N
+)
+that
+are
+charging
+within
+each
+time
+interval
+and
+ch charging within each time interval and modu‐
+The system detects the number of EVs (𝑁 ) that are
+modulates
+(decreases)
+the maximum
+reference
+power
+vehicles
+absorb
+fromthe
+thecharging
+chargingstation,
+station,
+lates
+(decreases)
+the maximum
+reference
+power
+thatthat
+vehicles
+cancan
+absorb
+from
+Energies 2020, 13, x FOR PEER REVIEW
+18 of 24
+according
+to
+the
+PV
+power
+and
+N
+.
+Since
+the
+EV
+may
+be
+connected
+to
+the
+CS
+without
+absorbing
+power
+ch
+according to the PV power and 𝑁 . Since the EV may be connected to the CS without absorbing
+(see Section 2.4), Nch could be different from the number of plugged vehicles. The higher the Nch is,
+power (see Section 2.4), 𝑁 could be different
+from the number of plugged vehicles. The higher the
+the lower the P
+is during charging (P∗EVi ∝ PV/N
+ch ). On the other hand, if the PV power increases,
+𝑁 is, the lowerEVi
+the 𝑃 is during charging
+𝑃∗ ∝ 𝑃𝑉/𝑁
+. On the other hand, if the PV power in‐
+the CMS increases the charging power of each vehicle. Figure 13a shows as an example of the values of
+creases, the CMS increases the charging power of each vehicle. Figure∗ 13a shows as an example of
+Nch with dk = 3 and with a PV mean condition. The reference profile PCS for each charging
+station is
+the
+values of 𝑁 with 𝑑 = 3 and with a PV mean condition. The reference profile 𝑃∗ for each charg‐
+shown in Figure 13b. It can be seen how the CMS reference power (black) departs from the standard
+ing station is shown in Figure 13b. It can be seen how the CMS reference power (black) departs from
+value (No-CMS, red dotted-line) to follow the PV profile.
+the standard value (No‐CMS, red dotted‐line) to follow the PV profile.
+
+(a)
+
+(b)
+
+Figure
+output
+CMS
+(SA)
+parameters:
+(a) the
+measurement
+(red) and
+num‐
+Figure 13.
+13.Input
+Inputand
+and
+output
+CMS
+(SA)
+parameters:
+(a) PV
+thepower
+PV power
+measurement
+(red)the
+and
+the
+ber
+of EVs
+(blue);
+(b) the
+reference
+power
+for each
+charging
+station.
+number
+of charging
+EVs charging
+(blue);
+(b)output
+the output
+reference
+power
+for each
+charging
+station.
+
+Each EVs’ charging power also depends on the on‐board charger rating and battery SOC (see
+Equation (4) and Figure 7), however, the CMS is able to control 𝑃 utilizing the reference signal
+𝑃∗ within the on‐board charger limits). Figure 14a shows the charging power of each EV considering
+no smart charging action. On the other hand, Figure 14b shows the charging power of the vehicles
+
+(a)
+
+(b)
+
+Energies
+2020, 13,
+20 of 25
+Figure
+13.5003
+Input and output CMS (SA) parameters: (a) the PV power measurement (red) and the num‐
+
+ber of EVs charging (blue); (b) the output reference power for each charging station.
+
+Each
+EVs’ charging
+charging power
+poweralso
+alsodepends
+dependsonon
+on-board
+charger
+rating
+battery
+Each EVs’
+thethe
+on‐board
+charger
+rating
+andand
+battery
+SOCSOC
+(see
+(see
+Equation
+(4)
+and
+Figure
+7),
+however,
+the
+CMS
+is
+able
+to
+control
+P
+utilizing
+the
+reference
+EVi
+Equation (4) and Figure 7), however, the CMS is able to control 𝑃 utilizing
+the reference signal
+signal
+P∗CS (the
+within
+the on-board
+chargerFigure
+limits).
+thepower
+charging
+power
+of each EV
+𝑃∗ within
+on‐board
+charger limits).
+14aFigure
+shows14a
+theshows
+charging
+of each
+EV considering
+considering
+no
+smart
+charging
+action.
+On
+the
+other
+hand,
+Figure
+14b
+shows
+the
+charging
+of
+no smart charging action. On the other hand, Figure 14b shows the charging power of thepower
+vehicles
+the
+vehicles
+under
+CMS
+control
+allowing
+smart
+charging.
+Different
+values
+of
+P
+can
+be
+seen
+in
+the
+EVi in the plot. They
+under CMS control allowing smart charging. Different values of 𝑃 can be seen
+plot.
+They
+depend
+on
+the
+maximum
+on-board
+charger
+rating,
+on
+the
+battery
+capacity
+and
+onvariation
+the SOC
+depend on the maximum on‐board charger rating, on the battery capacity and on the
+SOC
+variation
+during
+the
+charging
+process.
+As
+a
+result,
+the
+CMS
+allows
+the
+load
+shaving
+during
+peak
+hours
+during the charging process. As a result, the CMS allows the load shaving during peak hours
+and
+and
+energy
+shifting
+towards
+hours
+of
+more
+significant
+internal
+generation.
+energy shifting towards hours of more significant internal generation.
+
+(a)
+
+(b)
+
+Figure 14. Charging
+vehicle
+which
+belongs
+to the
+reference
+scenario:
+(a) standard
+(No‐
+Figure
+Chargingpowers
+powersofofeach
+each
+vehicle
+which
+belongs
+to the
+reference
+scenario:
+(a) standard
+CMS) charging;
+and and
+(b) stand‐alone
+CMSCMS
+(SA‐CMS)
+charging.
+(No-CMS)
+charging;
+(b) stand-alone
+(SA-CMS)
+charging.
+
+To
+thethe
+total
+power
+flows,
+thethe
+aggregated
+EVs’EVs’
+loadload
+was was
+calculated
+and
+Toevaluate
+evaluatethe
+theCMS
+CMSeffect
+effectonon
+total
+power
+flows,
+aggregated
+calculated
+compared
+with with
+the results
+that were
+previously
+obtained
+in Section
+4. Figure
+15 shows
+the total
+EVs’
+and compared
+the results
+that were
+previously
+obtained
+in Section
+4. Figure
+15 shows
+the total
+load
+the same
+initialinitial
+and boundary
+conditions:
+dk = [1;
+7] and
+conditions
+EVs’ under
+load under
+the same
+and boundary
+conditions:
+𝑑 3;
+= [1;
+3; 7] the
+andPV
+thegeneration
+PV generation
+condi‐
+(worst,
+mean, mean,
+and best
+condition).
+The figure
+thethat
+smart
+allows the
+load the
+shifting
+tions (worst,
+and
+best condition).
+The shows
+figure that
+shows
+thecharging
+smart charging
+allows
+load
+following
+the PV profile.
+EVs’ The
+power
+remains
+the below
+PV profile,
+thus
+leading
+to an
+increase
+in
+shifting following
+the PVThe
+profile.
+EVs’
+powerbelow
+remains
+the PV
+profile,
+thus
+leading
+to an
+the
+system’s
+self-consumption.
+As before, colored
+areas in
+the figure
+show
+thefigure
+self-consumption
+energy.
+increase
+in the
+system’s self‐consumption.
+As before,
+colored
+areas
+in the
+show the self‐con‐
+In
+all simulated
+scenarios,
+the entire scenarios,
+EV charging
+provided
+byenergy
+internalissources,
+consequently,
+sumption
+In
+all REVIEW
+simulated
+theenergy
+entire isEV
+charging
+provided
+by internal
+Energies
+2020,energy.
+13, x FOR
+PEER
+19 of 24
+the
+ηSC reaches
+100%. Of
+course,
+this kind
+of control
+decreases
+theofdaily
+energy
+provided
+for charging
+sources,
+consequently,
+the
+𝜂 reaches
+100%.
+Of course,
+this kind
+control
+decreases
+the daily
+energy
+services on
+the
+base of PV
+availability
+in Equation
+(15)). For this
+the(15)).
+ηSC may
+provided
+for
+charging
+services
+on the (the
+basedenominator
+of PV availability
+(the denominator
+in reason,
+Equation
+For
+result
+in 100%
+in the
+negative
+conditions
+(where
+it previously
+maximum
+value).
+this
+reason,
+the even
+𝜂 may
+result
+in 100%
+even in the
+negative
+conditionsexceeded
+(where it its
+previously
+exceeded
+Thus,
+to evaluate
+the effectiveness
+of the the
+CMS
+on the management
+of power
+it is also necessary
+its
+maximum
+value).
+Thus, to evaluate
+effectiveness
+of the CMS
+on theflows,
+management
+of power
+to
+measure
+the
+variation
+of
+the
+daily
+charge
+energy.
+flows, it is also necessary to measure the variation of the daily charge energy.
+
+Figure 15.
+15. Comparison
+Comparisonofofthe
+thetotal
+total
+power
+flows
+with
+SA-CMS.
+curves
+the power,
+PV power,
+Figure
+power
+flows
+with
+SA‐CMS.
+TheThe
+redred
+curves
+are are
+the PV
+the
+the
+blue
+curves
+are
+P
+with
+d
+=
+[1;3;7],
+while
+the
+dotted
+blue
+curves
+are
+the
+standard
+(No-CMS)
+EV
+blue curves are 𝑃 EVs
+with 𝑑 = k[1;3;7], while the dotted blue curves are the standard (No‐CMS) EV
+load
+profiles.
+The
+colorized
+areas
+show
+the
+self-consumption
+energy
+according
+to
+the
+PV
+generation
+load profiles. The colorized areas show the self‐consumption energy according to the PV generation
+conditions: worst
+worst condition
+condition (left),
+(left), the
+the mean
+mean condition
+condition (center),
+(center), and
+and the
+the best
+best condition
+condition (right)
+(right).
+conditions:
+
+Figure 16 shows the CMS effect on PCC power flows. It is readily clear from the picture that the
+system’s load is much more balanced. The CMS acts on the load peak that previously occurred during
+the morning hours (around 10:00 a.m.). Moreover, as well as the peak shaving, this shifts the load
+energy towards the middle of the day and evening hours. The results show that the peak values do
+
+Figure 15. Comparison of the total power flows with SA‐CMS. The red curves are the PV power, the
+blue curves are 𝑃 with 𝑑 = [1;3;7], while the dotted blue curves are the standard (No‐CMS) EV
+load
+profiles.
+Energies
+2020,
+13, 5003The colorized areas show the self‐consumption energy according to the PV generation
+21 of 25
+conditions: worst condition (left), the mean condition (center), and the best condition (right)
+
+Figure
+16 shows
+shows the
+theCMS
+CMSeffect
+effecton
+onPCC
+PCCpower
+powerflows.
+flows.
+It readily
+is readily
+clear
+from
+picture
+Figure 16
+It is
+clear
+from
+thethe
+picture
+thatthat
+the
+the
+system’s
+load
+is
+much
+more
+balanced.
+The
+CMS
+acts
+on
+the
+load
+peak
+that
+previously
+occurred
+system’s load is much more balanced. The CMS acts on the load peak that previously occurred during
+during
+the morning
+hours (around
+10:00Moreover,
+a.m.). Moreover,
+asthe
+well
+as the
+peak shaving,
+the morning
+hours (around
+10:00 a.m.).
+as well as
+peak
+shaving,
+this shiftsthis
+theshifts
+load
+the
+load
+energy
+towards
+the
+middle
+of
+the
+day
+and
+evening
+hours.
+The
+results
+show
+that
+the
+peak
+energy towards the middle of the day and evening hours. The results show that the peak values do
+values
+do not
+exceed
++10%
+than in scenarios
+without
+EVs.charging
+Smart charging
+allows reaching
+peak
+not exceed
++10%
+more
+thanmore
+in scenarios
+without EVs.
+Smart
+allows reaching
+peak reduc‐
+reductions,
+even
+to −50%
+compared
+to no-CMS
+results
+(see Figure
+11). However,
+it is essential
+to
+tions, even up
+to up
+−50%
+compared
+to no‐CMS
+results
+(see Figure
+11). However,
+it is essential
+to note
+note
+that,
+even
+in
+worst
+peak
+case
+∆P
+=
+10%,
+the
+PCC
+power
+remains
+within
+the
+power
+limits
+of
+that, even in worst peak case Δ𝑃
+=PCC
+10%, the PCC power remains within the power limits of the
+the
+plant’s
+electrical
+load,
+at most,
+if the
+energyisistotally
+totallyused
+usedfor
+forvehicle
+vehicle charging,
+charging, the
+the PCC
+plant’s
+electrical
+load,
+andand
+at most,
+if the
+PVPV
+energy
+PCC
+power
+coincides
+with
+the
+load
+power
+(P
+=
+P
+)
+shown
+in
+Figure
+8b.
+This
+means
+that
+the
+system
+L
+PCC
+power coincides with the load power (𝑃
+𝑃 ) shown in Figure 8b. This means that the system
+should
+should already
+already be
+be correctly
+correctly dimensioned
+dimensioned and
+and also
+also designed
+designed to
+to provide
+provide aggregate
+aggregateEVs
+EVscharging.
+charging.
+
+Figure 16. PCC
+PCC power
+power profiles
+profiles calculated without EVs (red) and with EVs charging (blue) in SA‐CMS
+SA-CMS
+initial SOC. The PV
+PV generation
+generation changes according to
+mode, according to the different values of the initial
+the worst conditions (left), the mean conditions (center), and the best conditions (right), as well as the
+Δ𝑃 PCCvalues.
+∆P
+values.
+
+6.
+Discussion
+6. Discussion
+The
+The proposed
+proposed CMS
+CMS aims
+aims to
+to maximize
+maximize the
+the EVs’
+EVs’ charging
+charging self-consumption
+self‐consumption by
+by modulating
+modulating each
+each
+EV’s
+power
+during
+the
+charging
+process
+and
+operates
+in
+smart
+charging
+mode.
+The
+EV’s power during the charging process and operates in smart charging mode. The logic
+logic is
+is to
+to make
+make
+the
+EVs charging
+charging load
+controllable in
+provide the
+the greatest
+greatest overlap
+overlap between
+between the
+the daily
+daily demand
+demand
+the EVs
+load controllable
+in order
+order to
+to provide
+curve
+However, the
+the PV
+PV power,
+power, which
+curve and
+and the
+the RES
+RES generation
+generation profile
+profile (in
+(in this
+this case,
+case, aa PV
+PV source).
+source). However,
+which is
+is
+non-programmable,
+depends
+on
+the
+solar
+daily
+and
+the
+seasonal
+availability.
+Meanwhile,
+the
+charging
+non‐programmable, depends on the solar daily and the seasonal availability. Meanwhile, the charg‐
+energy demand depends on the users’ behavior and EV characteristics, such as the battery capacity and
+the specific consumption (as Section 2 shows). For these reasons, the power flows could be strongly
+different based both on the PV generation and the energy request. For providing the possible cases’
+overview, three different conditions for both the daily PV power and EVs’ charging power, have been
+considered. Consequently, the proposed conditions are given by the combination of the “worst”,
+the “mean”, and the “best” PV conditions with the “high demand” (dk = 7), the “medium demand” (dk
+= 3), and the “low demand” (dk = 1) of the EVs’ daily load. For each condition, the simulation results
+have been collected considering the operation in the standard mode (no-CMS) and smart charging
+mode (CMS). To evaluate the effects of the smart charging on the self-consumptions and power flows,
+Table 6 and Equations (16)–(18) are introduced. Table 6 shows the CMS effects on the performance
+parameters through a comparison with their values in the case of a no-smart charging mode (no-CMS):
+noCMS
+∆ηSC = ηCMS
+SC − ηSC
+
+(16)
+
+noCMS
+∆Ppeak = ∆PCMS
+PCC − ∆PPCC
+
+(17)
+
+∆Ech =
+
+(ECMS
+− EnoCMS
+)
+ch
+ch
+EnoCMS
+ch
+
+(18)
+
+Energies 2020, 13, 5003
+
+22 of 25
+
+where ∆ηSC compares the self-consumption, ∆Ppeak compares the PCC peak load and ∆Ech evaluates
+the difference in the charge energy between the CMS and no-CMS mode. Based on the initial conditions,
+the parameters show scenarios in which the self-consumption presents a relevant improvement (up to
++ 70%) and the PCC load peak a drastic reduction (about −50%), as shown in green cells in Table 6, at
+the expense of the daily energy provided to the vehicles (up to about 80% less). On the other hand,
+the results also show conditions in which the CMS does not improve charging performances, such as
+the cell (dk = 1, best condition), red cells in Table 6.
+Table 6. Performance parameters’ comparison between the CMS and standard charging.
+PV
+dk
+
+Worst
+
+Mean
+∆ηSC
+
+Best
+
+Worst
+
+Mean
+∆Ppeak
+
+Best
+
+Worst
+
+Mean
+∆Ech
+
+Best
+
+1
+
++41%
+
+0%
+
+0%
+
+−4%
+
+−1%
+
+0%
+
+−11%
+
+0%
+
+0%
+
+3
+
++68%
+
++24%
+
++6%
+
+−24%
+
+−14%
+
+−10%
+
+−61%
+
+−9%
+
+−4%
+
+7
+
++70%
+
++38%
+
++23%
+
+−52%
+
+−37%
+
+−27%
+
+−78%
+
+−27%
+
+−11%
+
+However, under average conditions, Table 6, in reference to the yellow and fuzzy color cells,
+the growth of the self-consumption can reach a reasonable compromise with the reduction of Ech and
+with the peak shaving values. Considering the PV mean condition and the SOC0 (dk = 3), where the
+average of the initial EVs’ SOC is about 50 %, the self-consumption reaches 100% (∆ηSC = +24%),
+and the PCC peak power is only about + 10% (∆Ppeak = −14%). Furthermore, the CMS decreases the
+EV charging energy by only 9%. Moreover, as shown in Figure 12a, this type of scenario (average
+conditions) occurs in the vast majority of the days of the year. Therefore, the results just presented
+(∆ηSC ≈ +24%, ∆Ppeak ≈ −14%, ∆Ech ≈ 9%), in terms of performance improvement, might be the most
+relevant results.
+7. Conclusions
+This paper provides a methodology to predict aggregate power flows of EVs charging in positive
+energy districts and a smart charging system to optimize the self-consumption from distributed
+renewable energy sources. The forecasting method takes into account the main factors and parameters
+that influence the charging process. Both the characteristics of EVs and CS infrastructures were
+considered to evaluate the daily power flow of an EV’s population. In addition to the CSs and EVs
+chargers’ power rating, each charging event was calculated by also considering the power variation
+due to the vehicles’ battery characteristics, which depend on the SOC and C-rate. In this respect,
+the initial values of SOC for each vehicle were obtained by a statistical analysis of daily consumptions.
+The charging duration and the initial and final time of each charging event depend on the drivers’
+behavior. For these reasons, in this work, the data on arrivals and departures time in working place
+parking lots were collected and processed. Then, it was possible to extrapolate a probabilistic function
+that emulates the users’ behavior in terms of parking times. Through that, it is possible to extend this
+behavior to any population with a different number of vehicles. Thus, the prediction algorithm has
+been tested on a population of 100 EVs.
+The reference scenario, on which the simulations were run, consisted of an industrial area having
+one charging point for every parking place. The case study presented a non-programmable generation
+source (PV plant) and a non-modulable electrical load that absorbs energy from the grid. Aggregated
+EV load and its impact on the daily plant power profile were evaluated considering several conditions
+of PV profile and EV drivers’ behavior.
+Then, performance parameters such as the charging self-consumption and the peak percentage
+value were introduced. Initial conditions greatly influence the results obtained. However, considering
+the average conditions, the results have shown that the charge self-consumption does not reach its
+maximum value, remaining less than 80%. On the other hand, for most of the analyzed days, peaks
+increase by more than 20%.
+
+Energies 2020, 13, 5003
+
+23 of 25
+
+To improve these performance parameters, a charging management system was then introduced.
+The CMS regulates the power that each CS provides to the vehicle intending to operate in smart charging
+mode. The results show the smart charging effects on power flows: the CMS shifts the EVs’ energy
+request towards hours when internal sources are more available. Therefore, it is demonstrated that
+smart charging applies the peak shaving and shifting of the EV’s load that results in improved system
+charging performance. The self-consumption was increased by about 20% ÷ 40% (reaching 100%) in
+comparison with the case without the CMS, and the peak load value reduced by 10% ÷ 30%. Therefore,
+the proposed CMS can be considered for enhancing performances in positive energy districts.
+Future works could investigate the aggregate EV power flow of other parking scenarios, such
+as malls, municipal parking, stations, airports, and city center parking lots. Moreover, a CMS able
+to operate in V1G/V2G mode (following the TSO’s dispatching orders) or capable of following the
+price of the energy during the charging (energy–price tracking) may be implemented in the future.
+Finally, by processing the parking time and drivers’ behavior data, it may be possible to identify the
+best scenario for all operating modes (SC, V1G/V2G, and energy-price tracking mode) and/or the best
+mode for each scenario.
+Author Contributions: Conceptualization, F.L.F. and M.R.; methodology, F.L.F.; software, F.L.F. and M.R.;
+validation, F.L.F., M.R. and G.G.; formal analysis, R.M. and M.R.; investigation, F.L.F.; resources, F.L.F.; data
+curation, F.L.F., M.R. and R.M.; writing—original draft preparation, F.L.F., M.R. and R.M.; writing—review and
+editing, M.R., R.M. and G.G.; supervision, M.R. and G.G. All authors have read and agreed to the published
+version of the manuscript.
+Funding: This work was supported by the project ENERGYNIUS (ENERGY Networks Integration for Urban
+Systems) funded by POR-FESR Region Emilia-Romagna (Italy) 2014–2020.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+
+2.
+
+3.
+4.
+5.
+6.
+
+7.
+8.
+
+9.
+10.
+
+Hinterberger, R.; Gollner, C.; Noll, M.; Meyer, S.; Schwarz, H.-G. White Paper on PED Reference Framework White
+Paper on Reference Framework for Positive Energy Districts and Neighbourhoods; Austrian Research Promotion
+Agency: Vienna, Austria, 2020.
+SET-Plan ACTION n◦ 3.2 Implementation Plan Europe to Become a Global Role Model in Integrated,
+Innovative Solutions for the Planning, Deployment, and Replication of Positive Energy Districts. Available
+online: https://setis.ec.europa.eu/system/files/setplan_smartcities_implementationplan.pdf (accessed on
+6 July 2020).
+European Alternative Fuel Observatory-EAFO. Available online: https://www.eafo.eu/ (accessed on
+6 July 2020).
+Energy Technology Policy (ETP) Division. Global EV Outlook 2020; International Energy Agency (IEA):
+Paris, France, 2020.
+Gomez, J.C.; Morcos, M.M. Impact of EV battery chargers on the power quality of distribution systems.
+IEEE Trans. Power Deliv. 2003, 18, 975–981. [CrossRef]
+Zhang, P.; Qian, K.; Zhou, C.; Stewart, B.G.; Hepburn, D.M. A Methodology for Optimization of Power
+Systems Demand Due to Electric Vehicle Charging Load. IEEE Trans. Power Syst. 2012, 27, 1628–1636.
+[CrossRef]
+Lopes, J.A.P.; Soares, F.J.; Almeida, P.M.R. Integration of Electric Vehicles in the Electric Power System.
+Proc. IEEE 2011, 99, 168–183. [CrossRef]
+Dogan, A.; Kuzlu, M.; Pipattanasomporn, M.; Rahman, S.; Yalcinoz, T. Impact of EV charging strategies
+on peak demand reduction and load factor improvement. In Proceedings of the 2015 9th International
+Conference on Electrical and Electronics Engineering (ELECO), Bursa, Turkey, 26–28 November 2015;
+pp. 374–378.
+Qian, K.; Zhou, C.; Allan, M.; Yuan, Y. Modeling of Load Demand Due to EV Battery Charging in Distribution
+Systems. IEEE Trans. Power Syst. 2011, 26, 802–810. [CrossRef]
+Zipf, M.; Most, D. Cooperation of TSO and DSO to provide ancillary services. In Proceedings of the 2016 13th
+International Conference on the European Energy Market (EEM), Porto, Portugal, 6–9 June 2016; pp. 1–6.
+
+Energies 2020, 13, 5003
+
+11.
+12.
+13.
+
+14.
+
+15.
+16.
+
+17.
+18.
+19.
+
+20.
+
+21.
+22.
+
+23.
+24.
+
+25.
+26.
+
+27.
+
+28.
+29.
+30.
+31.
+
+24 of 25
+
+Kim, H.T.; Jin, Y.G.; Yoon, Y.T. An Economic Analysis of Load Leveling with Battery Energy Storage Systems
+(BESS) in an Electricity Market Environment: The Korean Case. Energies 2019, 12, 1608. [CrossRef]
+Miller, N.; Manz, D.; Roedel, J.; Marken, P.; Kronbeck, E. Utility scale Battery Energy Storage Systems.
+In Proceedings of the IEEE PES General Meeting, Providence, RI, USA, 25–29 June 2010; pp. 1–7.
+Doenges, K.; Egido, I.; Sigrist, L.; Lobato Miguelez, E.; Rouco, L. Improving AGC Performance in Power
+Systems With Regulation Response Accuracy Margins Using Battery Energy Storage System (BESS).
+IEEE Trans. Power Syst. 2020, 35, 2816–2825. [CrossRef]
+Janecek, P.; Zapotocka, A.; Strelec, M. A method for assessment of impact of RES integration onto ancillary
+services. In Proceedings of the 2014 15th International Scientific Conference on Electric Power Engineering
+(EPE), Brno, Czech Republic, 12–14 May 2014; pp. 179–181.
+Rakhshani, E.; Rouzbehi, K.; J. Sánchez, A.; Tobar, A.C.; Pouresmaeil, E. Integration of Large Scale PV-Based
+Generation into Power Systems: A Survey. Energies 2019, 12, 1425. [CrossRef]
+Hasan, E.; Sharma, S.; Brenna, M. Virtual energy storage system using aggregated electric vehicles for
+ancillary services in distribution grid. In Proceedings of the 2019 AEIT International Conference of Electrical
+and Electronic Technologies for Automotive, (AEIT AUTOMOTIVE), Torino, Italy, 2–4 July 2019.
+Aldik, A.; Khatib, T. EV Aggregators and Energy Storage Units Scheduling into Ancillary Services Markets:
+The Concept and Recommended Practice. World Electr. Veh. J. 2019, 11, 8. [CrossRef]
+Shi, Y.; Xu, B.; Wang, D.; Zhang, B. Using Battery Storage for Peak Shaving and Frequency Regulation: Joint
+Optimization for Superlinear Gains. IEEE Trans. Power Syst. 2018, 33, 2882–2894. [CrossRef]
+Fouladi, E.; Baghaee, H.R.; Bagheri, M.; Gharehpetian, G. Power Management of Microgrids including
+PHEVs based on Maximum Employment of Renewable Energy Resources. IEEE Trans. Ind. Appl. 2020,
+5299–5307. [CrossRef]
+Rocha Almeida, P.M.; Iria, J.P.; Soares, F.J.; Lopes, J.A.P. Electric vehicles in automatic generation control
+for systems with large integration of renewables. In Proceedings of the 2017 IEEE Power & Energy Society
+General Meeting, Chicago, IL, USA, 16–20 July 2017; pp. 1–5.
+Li, H.; Eseye, A.T.; Zhang, J.; Zheng, D. Optimal energy management for industrial microgrids with
+high-penetration renewables. Prot. Control Mod. Power Syst. 2017, 2, 12. [CrossRef]
+Noori, M.; Zhao, Y.; Onat, N.C.; Gardner, S.; Tatari, O. Light-duty electric vehicles to improve the integrity
+of the electricity grid through Vehicle-to-Grid technology: Analysis of regional net revenue and emissions
+savings. Appl. Energy 2016, 168, 146–158. [CrossRef]
+Li, X.; Tan, Y.; Liu, X.; Liao, Q.; Sun, B.; Cao, G.; Li, C.; Yang, X.; Wang, Z. A cost-benefit analysis of V2G
+electric vehicles supporting peak shaving in Shanghai. Electr. Power Syst. Res. 2020, 179, 106058. [CrossRef]
+Ioakimidis, C.S.; Thomas, D.; Rycerski, P.; Genikomsakis, K.N. Peak shaving and valley filling of power
+consumption profile in non-residential buildings using an electric vehicle parking lot. Energy 2018, 148,
+148–158. [CrossRef]
+Bons, P.C.; Buatois, A.; Ligthart, G.; Geerts, F.; Piersma, N.; van den Hoed, R. Impact of Smart Charging for
+Consumers in a Real World Pilot. World Electr. Veh. J. 2020, 11, 21. [CrossRef]
+Fachrizal, R.; Shepero, M.; van der Meer, D.; Munkhammar, J.; Widén, J. Smart charging of electric vehicles
+considering photovoltaic power production and electricity consumption: A review. eTransportation 2020, 4,
+100056. [CrossRef]
+Qian, K.; Zhou, C.; Allan, M.; Yuan, Y. Load model for prediction of electric vehicle charging demand.
+In Proceedings of the 2010 International Conference on Power System Technology, Hangzhou, China, 24–28
+October 2010; pp. 1–6.
+Crozier, C.; Morstyn, T.; McCulloch, M. The opportunity for smart charging to mitigate the impact of electric
+vehicles on transmission and distribution systems. Appl. Energy 2020, 268, 114973. [CrossRef]
+Thompson, A.W.; Perez, Y. Vehicle-to-Everything (V2X) energy services, value streams, and regulatory policy
+implications. Energy Policy 2020, 137, 111136. [CrossRef]
+Monteiro, V.; Pinto, J.G.; Afonso, J.L. Operation Modes for the Electric Vehicle in Smart Grids and Smart
+Homes: Present and Proposed Modes. IEEE Trans. Veh. Technol. 2016, 65, 1007–1020. [CrossRef]
+Zhang, C.; Greenblatt, J.B.; MacDougall, P.; Saxena, S.; Jayam Prabhakar, A. Quantifying the benefits of
+electric vehicles on the future electricity grid in the midwestern United States. Appl. Energy 2020, 270, 115174.
+[CrossRef]
+
+Energies 2020, 13, 5003
+
+32.
+
+33.
+34.
+
+35.
+
+36.
+
+37.
+38.
+
+39.
+40.
+41.
+42.
+43.
+44.
+
+45.
+
+46.
+
+25 of 25
+
+Canevese, S.; Cirio, D.; Gallanti, M.; Gatti, A. EV Flexibility Supply via Participation in Balancing Services:
+Possible Profitability for Italian End Users. In Proceedings of the 2019 AEIT International Annual Conference
+(AEIT), Florence, Italy, 18–20 September 2019; pp. 1–6.
+Fachrizal, R.; Munkhammar, J. Improved Photovoltaic Self-Consumption in Residential Buildings with
+Distributed and Centralized Smart Charging of Electric Vehicles. Energies 2020, 13, 1153. [CrossRef]
+van der Meer, D.; Chandra Mouli, G.R.; Morales-Espana Mouli, G.; Elizondo, L.R.; Bauer, P. Energy
+Management System With PV Power Forecast to Optimally Charge EVs at the Workplace. IEEE Trans.
+Ind. Inform. 2018, 14, 311–320. [CrossRef]
+Nzengue, Y.; du Boishamon, A.; Laffont-Eloire, K.; Partenay, V.; Abdelouadoud, Y.; Zambelli, P.; D’Alonzo, V.;
+Vaccaro, R. Planning city refurbishment: An exploratory study at district scale how to move towards positive
+energy districts—Approach of the SINFONIA project. In Proceedings of the 2017 International Conference
+on Engineering, Technology and Innovation (ICE/ITMC), Funchal, Portugal, 27–29 June 2017; pp. 1394–1400.
+Good, N.; Martínez Ceseña, E.A.; Mancarella, P. Energy Positivity and Flexibility in Districts. In Energy
+Positive Neighborhoods and Smart Energy Districts; Monti, A., Pesch, D., Ellis, K.A., Mancarella, P., Eds.; Elsevier:
+Amsterdam, The Netherlands, 2017; pp. 7–30. ISBN 978-0-12-809951-3.
+Guner, S.; Ozdemir, A. Stochastic energy storage capacity model of EV parking lots. IET Gener. Transm. Distrib.
+2017, 11, 1754–1761. [CrossRef]
+Immatricolazioni in Italia di Autovetture e Fuoristrada Top Ten per Alimentazione. Available online:
+http://www.unrae.it/dati-statistici/immatricolazioni/4831/top-10-per-alimentazione-dicembre-2019 (accessed
+on 8 July 2020).
+EV Database. Available online: https://ev-database.org/ (accessed on 8 July 2020).
+A Driving Habits Nationwide Snapshot. Available online: http://www.unipolsai.com/en/innovation/
+unipolsai-observatory (accessed on 6 July 2020).
+16◦ Rapporto Sulla Mobilità Degli Italiani. Available online: https://www.isfort.it/wp-content/uploads/2019/
+11/191127_Presentazione_16-Rapporto_Mobilit%C3%A0_Def.pdf (accessed on 7 July 2020).
+Plötz, P.; Jakobsson, N.; Sprei, F. On the distribution of individual daily driving distances. Transp. Res. Part
+B Methodol. 2017, 101, 213–227. [CrossRef]
+Zhang, L.; Li, Y. Optimal Management for Parking-Lot Electric Vehicle Charging by Two-Stage Approximate
+Dynamic Programming. IEEE Trans. Smart Grid 2017, 8, 1722–1730. [CrossRef]
+Fan, H.; Chen, S.; Guo, Z.; You, P.; Yang, Z. Coordinated Scheduling Strategy of Charging Station Considering
+Cost and Efficiency. In Proceedings of the 2019 IEEE 15th International Conference on Control and Automation
+(ICCA), Edinburgh, UK, 16–19 July 2019; pp. 465–470.
+Wang, L.; Cao, C.; Chen, B. Model-based micro-grid modeling and optimal PEV charging control.
+In Proceedings of the 2016 12th IEEE/ASME International Conference on Mechatronic and Embedded
+Systems and Applications (MESA), Auckland, New Zealand, 29–31 August 2016; pp. 1–6.
+IEC Technical Committee 69 IEC 61851-1:2017 Electric Vehicle Conductive Charging System-Part 1: General
+Requirements 2017. Available online: https://webstore.iec.ch/publication/33644 (accessed on 8 July 2020).
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

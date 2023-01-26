@@ -1,0 +1,3359 @@
+smart cities
+Article
+
+An Investigation on the Feasibility of Near-Zero and
+Positive Energy Communities in the Greek Context
+Vasileios Sougkakis 1 , Konstantinos Lymperopoulos 2 , Nikos Nikolopoulos 1, *,
+Nikolaos Margaritis 1 , Paraskevi Giourka 1 and Komninos Angelakoglou 1
+1
+
+2
+
+*
+
+Chemical Process and Energy Resources Institute, Center for Research and Technology Hellas, Thermi,
+GR-57001 Thessaloniki, Greece; sougakis@certh.gr (V.S.); margaritis@lignite.gr (N.M.);
+giourka@certh.gr (P.G.); angelakoglou@certh.gr (K.A.)
+Autonomous Office of Energy & Natural Resources, Municipality of Alexandroupolis,
+GR-68131 Alexandroupolis, Greece; klympero@kriton-energy.com
+Correspondence: n.nikolopoulos@certh.gr
+
+Received: 7 April 2020; Accepted: 5 May 2020; Published: 9 May 2020
+
+
+
+
+Abstract: Near Zero Energy and Positive Energy communities are expected to play a significant part
+in EU’s strategy to cut greenhouse gas emissions by 2050. Within this context, the work presented
+in this paper aims to investigate the feasibility of: (a) a new-built positive energy neighborhood;
+and (b) the retrofit of an existing neighborhood to near zero energy performance in the city of
+Alexandroupolis, Greece. Proposed measures involve the rollout at the community scale of renewable
+energy technologies (PV, geothermal heat pump), energy efficiency (fabric insulation, district heating
+and cooling networks) and storage systems (batteries). A parametric analysis is conducted to identify
+the optimum combination of technologies through suitable technical and financial criteria. Results
+indicate that zero and near zero emissions targets are met with various combinations that impose
+insulation levels, according to building regulations or slightly higher, and consider renewable energy
+production with an autonomy of half or, more commonly, one day. In addition, the advantages of
+performing nearly zero energy retrofit at the district, rather than the building level, are highlighted,
+in an attempt to stimulate interest in community energy schemes.
+Keywords: NZE communities; positive energy communities; renewable energy; energy storage;
+district heating and cooling
+
+1. Introduction
+The EU has set the ambitious target of achieving net-zero greenhouse gas emissions by 2050.
+Its long-term climate strategy also includes intermediate targets as set in the 2030 climate and energy
+framework. The key targets for 2030 are: achieving at least 40% reduction in greenhouse gas emissions
+compared to the 1990 levels, a minimum 32% share of renewable energy in the final energy consumption,
+and a minimum 32.5% increase in energy efficiency [1]. The building sector is one of the main energy
+consumers responsible for about 36% of greenhouse gas emissions (GHG), and therefore it has been the
+focus of regulatory reform, as part of the strategy towards reducing emissions over the past years [2].
+The main use of energy by households in the EU in 2017 was for heating their homes (64.1% of final
+energy consumption in the residential sector) with Renewable Energy Sources (RES), accounting for
+almost a quarter of EU households space heating consumption. Heating and domestic hot water alone
+accounted for 78.9% of total final energy use of EU households in 2017 [3]. Provisions in increasing
+the energy efficiency of buildings are included in Directive 2010/31/EU on the Energy Performance of
+Buildings (recast) (EPBD). In this context, the EPBD (recast) requires that all new buildings should
+be nearly-zero energy buildings from 31st December 2020 onwards, while all new public buildings
+Smart Cities 2020, 3, 362–384; doi:10.3390/smartcities3020019
+
+www.mdpi.com/journal/smartcities
+
+Smart Cities 2020, 3
+
+363
+
+should be nearly-zero energy as from the 31st December 2018 [4]. Furthermore, Directive 2012/27/EU
+on Energy Efficiency requires a 3% renovation of the total floor area of public buildings on an annual
+basis [5].
+Whilst there is continuing focus on improving the energy efficiency of the construction sector at
+the building level, there is also emerging interest in improving the energy performance at community
+scale. The EU’s urban population is ever growing; cities accounted for approximately 75% of the EU
+population in 2015, while this percentage is expected to reach 80% by 2050 [6]. It is estimated that urban
+areas account for 70% of GHG emissions and two thirds of energy consumption in the EU [7]. Therefore,
+Net Zero Energy (NZE) settlements where the zero energy principles are considered at the district
+scale are expected to play a significant part in achieving the emissions reduction targets. Apart from
+their decarbonisation potential, these are seen as places that will stimulate environmental awareness,
+innovation, economic growth and social progress; however, it is acknowledged that achieving net zero
+performance at the community level has its own challenges and opportunities [8].
+Many studies up to now have been conducted regarding the evaluation of Near Zero Energy
+Districts (NZED). Robinson et al. (2011) [9] focused on simulation approaches for sustainability in the
+urban environment with emphasis to building energy modelling. Pol and Robinson (2011) focused on
+the impact of the urban morphology on the energy performance of buildings [10]. Whilst there is a
+wide range of established tools for the analysis of building energy demand with high levels of accuracy,
+energy modeling at the district scale is more challenging and computationally intense; district scale
+modeling considers and integrates at the minimum a group of buildings, a source of energy and an
+energy distribution network. This often leads to the use of simplified models with somewhat reduced
+accuracy [11]. Jebaraj and Inivan (2006) reviewed 252 works focusing on the use of integrated energy
+models [12], while Vreenegoor et al. (2003) evaluated various simulation tools and certifications (i.e.,
+LEED etc.) applicable at the district level analysis; the focus of that study was the residential building
+stock in Germany [13]. Alegrini et al. (2015) reviewed models and tools for the energy modeling
+of district systems, renewable energy production and the effect of urban microclimate to the district
+energy demands [14]. District heating networks are a core component in many energy communities.
+Haghighat et al. (2019) provides a review of case studies with district heating networks and the relevant
+source of thermal energy in [11]; CHP, geothermal, solar energy, waste to energy technologies and
+industrial excess heat were considered as well as the simulation tools used in the analysis.
+In the work of Synnefa et al. (2017) [8] the evaluation of four NZE settlements across the EU
+(Cyprus, France, Italy and the UK) in terms of energy, environmental and cost performance was
+presented. The analysis conducted at both the building and the settlement level and it was found
+that that the targets of (i) annual net-regulated energy use less than or equal to 20 kWh/m2 and
+(ii) annual renewable energy production greater than or equal to 50 kWh/m2 were met in the four
+settlements investigated. The projects were also considered cost-effective as reduction of at least
+16%, compared with current NZEB costs, was also reported. Hachem (2016) investigated the effect of
+design parameters on the performance of solar community incorporating roof-mounted PV in terms of
+GHG emissions reduction and the balance between electricity consumption and generation; design
+parameters included the building insulation levels, neighborhood density and type, as well as the
+design of streets and distance to commercial center. It was found that the energy upgrade of the
+community resulted up to 75% reduction in GHG emissions from the buildings, while transport was
+found to still have a significant environmental impact [15]. Hachem-Vermette et al. (2019) investigated
+the performance of a neighborhood in Canada towards achieving net-zero energy performance by
+means of solar thermal, coupled with borehole energy storage and PV [16]. Energy production up to
+20% higher than the energy consumption of the neighborhood was achieved.
+Several studies also focused on the cost aspects of NZE settlements. Isaac et al. (2020) studied
+the cost of Net Zero Energy communities, considering various scales and densities. A model was
+developed for identifying the optimum configuration of RES technologies for an NZE settlement in a
+cost-effective manner [17]. It was found that increasing the scale of the community up to a certain
+
+Smart Cities 2020, 3
+
+364
+
+point reduced the associated energy cost, while urban density was found to have a more complex
+impact on costs.
+Paduos and Corrado (2017) investigated the effectiveness of retrofit packages of measures for
+buildings to achieve nearly zero energy performance [18]. The analysis considered thirty reference
+buildings and several different packages of retrofit measures. Following a cost-optimal evaluation
+approach, the measure packages that met the nearly zero-energy target and were cost-effective were
+defined. It was shown that in most cases NZEB retrofit was technically feasible, with a high reduction
+of the non-renewable primary energy consumption. Nevertheless, it was found that the costs of
+retrofitting to such degree were still too high to be considered as attractive investments.
+Planning district level energy systems often requires an iterative calculation process and the use of
+optimization techniques. Evins (2013) highlighted the need for tools that are able to conduct parametric
+analysis at the district scale and integrate them to optimization processes [19]. Allegrini et al. (2015)
+considered the provision of simple tools that can support decision makers at the early stages of project
+design of significant importance to district energy modeling [14]. Ala-Juusela et al. (2016) used a
+decision support tool, called AtLas, designed to inform the long term planning of neighborhood energy
+solutions, in order to evaluate the energy positivity level of a Finnish residential neighborhood, and
+part of a French university campus [20]. Positive energy neighborhoods were defined as those with
+annual energy consumption lower than the annual locally produced renewable energy. The energy
+positivity level of an area was estimated with calculating energy matching indicators: on-site energy
+ratio, annual mismatch ratio and other mismatch indicators. Rehman et al. (2015) investigated the
+development of positive energy community for the Nordic climate, considering the use of a district
+heating system combined with wind turbines and PV for electricity production, as well as electrical
+storage and electric vehicles [21]. Multi-objective optimization was performed to minimize the lifecycle
+cost and the imported electricity.
+Despite the increased challenges of the districts, considering the near zero performance at the wider
+scale offers the flexibility of utilizing different levels of energy performance and energy production
+capacity and aggregating resources, costs and requirements [22]. In the 2050 Vision of the European
+Technology and Innovation Platform on Renewable Heating and Cooling, energy communities are
+considered to have the potential to shift to a new Renewable Heating and Cooling business model
+where citizens, rather than the operators, own the assets [23].
+Cities and communities, therefore, will have an important role in EU’s transition towards a
+carbon-neutral economy as they are ‘a locus for innovation, they provide great opportunities for
+learning and networks, and they offer the possibility of achieving whole system change at local
+scales’ [24] (pp. 81–82). The European Strategic Energy Technology Plan highlighted the importance of
+smart cities, and supported the roll-out of positive energy blocks and districts within cities that take
+advantage of the synergies and energy flows between buildings to deliver energy efficient heating,
+cooling and lighting [25].
+Within this context, the European project ‘Integrated and Replicable Solutions for Co-Creation in
+Sustainable Cities’ (IRIS), funded under the Horizon 2020 Program, aims to support the development,
+demonstration and replication of near zero and positive energy districts and neighborhoods. This is
+done as part of the transition of three Lighthouse (LH) and four Follower cities (FC) towards becoming
+smart cities [26]. Lighthouse are the cities with the technical capacity to implement district-wide
+projects integrating and demonstrating novel technologies; LHs act as exemplars for the FCs. Follower
+Cities do not have the full competency to implement such wide scale projects; they aim at replicating
+the most appropriate solutions demonstrated by the LHs adapted to the local conditions. The IRIS
+Lighthouse Cities are Gothenburg (Sweden), Nice Cote d’Azur (France) and Utrecht (Netherlands);
+the Follower Cities include Alexandroupolis (Greece), Focsani (Romania), Santa Cruz de Tenerife
+(Spain) and Vaasa (Finland). The IRIS smart city transition takes place through increasing the share
+of renewable energy and energy management, e-mobility services and citizen engagement, while
+
+Smart Cities 2020, 3
+
+365
+
+beneficiating from available multi-type available storage systems and is organized around the following
+five Transition Tracks (TT):
+•
+•
+•
+•
+•
+
+TT#1—Smart renewables and closed-loop energy positive districts;
+TT#2—Smart Energy Management and Storage for Grid Flexibility;
+TT#3—Smart e-mobility sector;
+TT#4—City Innovation Platform;
+TT#5—Citizen engagement and co-creation.
+
+Each Transition Track comprises several Integrated Solutions (IS). Planning and development of
+near-zero energy and positive energy blocks and districts is the main focus of TT #1; more specifically,
+IS1.1-Positive Energy Buildings and IS1.2-Near Zero Energy Districts of TT#1 examine the use of various
+energy efficient and renewable technologies in buildings, as well as the integration of smart-grids and
+thermal networks.
+The work presented in this paper focuses on the replication activities to develop near and net zero
+communities in the Follower City of Alexandroupolis, Greece. The aim of the work is to evaluate the
+feasibility of such energy communities in Greece by selecting and replicating technologies and activities
+that are currently being demonstrated in the Lighthouse Cities, making them fit within the local
+context of Alexandroupolis. The most suitable technologies and combinations of these technologies
+that meet the technical requirements for nearly-zero or positive energy performance in a financially
+viable manner are identified. Various integrations of these technologies are evaluated with the use
+of suitable technical and financial Key Performance Indicators (KPIs), thus ensuring that proposed
+integrated solutions are also financially viable investments. KPIs are indicators designed to measure
+the degree that specific objectives of a project have been achieved and their selection is critical for
+measuring and communicating the level of the project’s success [27].
+It is envisaged that the study may act as a roadmap for the uptake and development of positive
+energy and near-zero energy communities in Greek Cities, similar to Alexandroupolis. In addition,
+it can be used as a decision support tool for policy makers when assessing alternative options towards
+the path to the decarbonization of the EU economy by 2050. This is in line with the recommendation
+made in [14].
+2. Methodology
+The technologies considered, as well as the various integration configurations, are assessed against
+selected technical and financial criteria, to ensure that proposed measures are both technically feasible
+and financially viable investments. First, the technical analysis is conducted using appropriate software
+to determine the energy flows at the building and district level. Suitable KPIs are then identified
+to evaluate the results obtained. In the following paragraphs, the selection process of the suitable
+assessment criteria used and the appropriate software are presented.
+2.1. Assessment Criteria
+Performance of the various technology integrations considered in this work is evaluated against
+suitable Key Performance Indicators. Several studies have dealt with the development and classification
+of KPIs in the context of smart city solutions [27–30]. A holistic framework for determining KPIs for
+smart city solutions has been developed as part of the IRIS project [27]. Indicators have been identified
+and classified in this study, based on domain (technical, environmental, economic, social, information
+and communications technologies (ICT) and legal), relevant stakeholders and level of evaluation
+(building, system, neighborhood etc.). Suitable indicators for this work were extracted from [27],
+considering the specific requirements of this study, namely: (i) the smart city domains addressed
+(energy and environmental); (ii) the level of evaluation (neighborhood); (iii) the nature of the study
+(simulation based); (iv) relevance of the KPIs to the project objectives; (v) data availability and ability
+to provide quantified results; and (vi) ability to be easily understood by the various stakeholders.
+
+Smart Cities 2020, 3
+
+366
+
+Based on these requirements the following KPIs were identified for this analysis:
+1.
+
+Degree of Energetic Self-supply by RES. This is defined as the ‘ratio of locally produced energy
+from RES and the energy consumption over a period of time (e.g., month, year). DE is separately
+determined for thermal (heating or cooling) energy and electricity’ [31] (p. 60)
+DET =
+
+LPET
+TEC
+
+(1a)
+
+DEE =
+
+LPEE
+EEC
+
+(1b)
+
+where,
+DET , DEE = degree of thermal and electrical energy self-supply based on RES respectively
+LPET , LPEE = locally produced thermal and electrical energy (kWh/month or kWh/year)
+TEC , EEC = thermal and electrical energy consumption respectively (kWh/month or kWh/year)
+2.
+3.
+
+Emissions reduction. This is defined as the amount of CO2 emitted after the measures are
+considered less the CO2 emitted in the base case.
+Payback period. This is the time required for an investment to offset the capital cost required.
+In this case, two types of payback period are considered; static and dynamic. The static payback
+period is defined as:
+ERI
+EPP =
+(2)
+m
+
+The dynamic payback period accounts for change in energy prices in years following the investment,
+as well as the future value of money (via the use of a discount rate). It is defined as [31] (p. 79):
+EPP =
+
+ln(m·(1 + i))− ln(ERI ·(1 + p)−ERI·(1 + i)+(1 + p)· m)
+−1
+ln(1 + i)− ln(1 + p)
+
+(3)
+
+where,
+ERI = energy related investment (€)
+m = TACafter − TACbefore (€/year)
+TACafter = total annual costs (or revenues) after the energy related investment (€/year).
+TACbefore = total annual costs before the energy related investment (€/year).
+i = discount rate (%)
+p = energy price increase rate (%)
+Furthermore, the Net Present Value (NPV) and the Internal Rate of Return (IRR) have been used
+for the financial evaluation of the proposed measures. These are well established and commonly used
+financial indicators for the economic evaluation of potential investments; they have also been used
+extensively for the feasibility assessment of investment proposals under the Greek Development Law.
+For this reason, they were found suitable for use in the Greek context. The NPV is the present value
+of future cash flows (cash inflows–outflows) considering an appropriate discount rate (Equation (4)).
+The IRR is that discount rate that results in zero NPV. A positive NPV and an IRR value higher than a
+set value, commonly 5%, suggests the viability of an investment.
+NPV = (
+
+n
+X
+Net Cash Flow
+t=1
+
+where,
+i = the discount rate (%)
+t = time period (years)
+
+(1 + i)
+
+t
+
+t
+
+) − Initial Investment
+
+(4)
+
+Smart Cities 2020, 3
+
+367
+
+2.2. Software Selection
+In order to conduct the performance analysis of the measures considered, it is also necessary
+to identify suitable software to perform the energy modeling. The analysis follows a bottom up
+approach [32], where firstly, the energy consumption is determined at the building level, and then
+results are aggregated to the level of the community, in order to determine the energy balance at the
+district level. Due to the nature of this work, as the replication study is relying solely on simulations,
+the analysis is performed with law driven white box models [33]. The same approach is followed for
+both the new-built and the retrofit cases examined. The selection of appropriate software for both
+levels of the analysis (building and district scale) is based on the following criteria:
+•
+
+•
+
+•
+•
+•
+•
+
+Technical capacity to model the multi-type technologies considered. A range of technologies
+are examined and, therefore, it is required that the software selected should be able to model
+their performance;
+Levels of cost-effectiveness and user friendliness. This work is conducted on a feasibility analysis
+level and it is considered that several stakeholders (e.g., Municipalities Energy Offices, Investors)
+may be involved at this stage on a real-life scenario. Some of these stakeholders may not
+have required technical knowledge and therefore software user friendliness is considered of
+high importance;
+Ability to provide quick results in order to facilitate the iterative nature of the analysis when
+evaluating several replication measures;
+Ability to conduct the analysis at the scale required, i.e., building and district;
+Ability of the software to provide results using simplified and easy to obtain input data, since
+detailed information is not usually available at the preliminary stage of such projects;
+Ability to provide results in a suitable format that allows the evaluation of the different scenarios
+based on the selected indicators.
+
+In order to determine software that can fit the above-mentioned criteria, a range of alternative
+software available in the market was examined. A review of the main model capabilities of the various
+alternatives was conducted, focusing on available attributes offered by each of them, such as: (a) range
+and type of technologies able to be considered (including power production, storage); (b) scale of
+the analysis (building envelope, building systems or both and district scale) that can be performed;
+(c) availability of multiple energy vectors (e.g., electricity, heating and cooling) and their integration
+potential; and (d) complexity of simulations and associated cost. Results of the review are presented
+in Table 1. Based on the above criteria, RETScreen Expert and EnergyPLAN were found suitable for
+conducting the replication analysis, for the case of Alexandroupolis.
+RETScreen Expert is a Clean Energy Management software used for the feasibility analysis of
+renewable energy and energy efficiency projects [34]. The software may be used for conducting energy
+modeling, estimating greenhouse gas emissions, as well as performing financial analysis and risk
+assessment of potential investments. RETScreen includes databases for a range of renewable energy
+and energy efficient technologies, as well as databases from weather stations worldwide. The cost of
+the software is relatively low, or even free on viewer mode, which makes it a cost-effective solution
+for projects where many stakeholders are involved. RETScreen is used in this study for evaluating
+the energy consumption and the renewable energy production at the building level. Results are then
+aggregated and used as input in EnergyPLAN for the macro-scale analysis.
+
+Smart Cities 2020, 3
+
+368
+
+Table 1. Review of available software.
+Building
+Analysis
+
+System
+Analysis
+
+District/Grid
+Analysis
+
+Heat
+
+Electricity
+
+Transport
+
+Storage
+
+Simulation Level
+Detailed generic simulations of transient systems
+Advanced simulation for assessing power plant and grid
+performance
+Advanced simulation for assessing PV system performance
+Advanced simulation for assessing solar thermal system
+performance
+Advanced simulation for assessing PV system
+performance and electric vehicles
+Advanced simulation for assessing heat pump and solar
+thermal system integration
+Detailed building performance simulation software
+Detailed building performance simulation software.
+Detailed building performance simulation software
+Detailed building performance simulation software
+Detailed generic building performance simulation engine
+Preliminary analysis software of various renewable energy
+and energy efficiency measures
+Advanced simulation of complex energy systems at
+regional and national level
+Advanced simulation of complex energy systems at
+system/regional level
+
+TRNSYS
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+HOMER Pro
+
+-
+
+X
+
+X
+
+X
+
+X
+
+-
+
+X
+
+PV syst
+
+-
+
+X
+
+-
+
+-
+
+X
+
+-
+
+X
+
+T*sol
+
+-
+
+X
+
+-
+
+X
+
+-
+
+-
+
+X
+
+PV*sol
+
+-
+
+X
+
+-
+
+-
+
+X
+
+X
+
+X
+
+Geo T*sol
+
+-
+
+X
+
+-
+
+X
+
+X
+
+-
+
+X
+
+IDA ICE
+ESP-r
+EDSL Tas
+Design Builder
+Energy Plus
+
+X
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+
+-
+
+X
+X
+X
+X
+X
+
+X
+X
+X
+X
+X
+
+-
+
+X
+X
+
+RETScreen
+
+X
+
+X
+
+X
+
+X
+
+X
+
+-
+
+X
+
+EnergyPLAN
+
+-
+
+-
+
+X
+
+X
+
+X
+
+X
+
+X
+
+Energy Pro
+
+-
+
+X
+
+X
+
+X
+
+X
+
+-
+
+X
+
+Access
+Commercial
+Commercial
+Commercial
+Commercial
+Commercial
+Commercial
+Commercial
+Free
+Commercial
+Commercial
+Free
+Commercial
+Free
+Commercial
+
+Smart Cities 2020, 3
+
+369
+
+EnergyPLAN [35] was developed for the energy modelling of national or regional energy systems,
+including all the main sectors of an energy system (heating, cooling, electricity, industry and transport).
+The software calculates the system’s energy balance on an hourly basis, taking into account all the main
+renewable energy and storage technologies. It is deterministic in nature, and is structured as a simple
+input and output model, where the user enters the energy demands, as well as the capacities and fuels
+of power stations and renewable energy plants. The model then calculates the energy production,
+the energy balance, electricity imports and exports and the resulting emissions from an energy system.
+The general simulation procedure for calculating the energy balances at the district scale is as
+follows. At first, the energy requirements at the building level are determined using RETScreen.
+Information regarding building geometry, thermal properties of building elements, occupancy patterns
+and internal conditions are used as inputs; the output of the simulation are the heating, cooling and
+electricity demands for each building. The energy demands of all buildings are then summed to
+determine the respective energy requirements at the district scale. The aggregated heating, cooling
+and electricity demands are then used as inputs in EnergyPLAN, in order to determine the energy
+balance of the whole district. The analysis considered post-processing of the hourly energy balance
+obtained as output from the software. Despite the fact that EnergyPLAN was developed to simulate
+much larger and complicated systems, it is found useful for conducting the technical analysis at a
+smaller scale, where the district is treated as an independent energy system and the resulting energy
+flows (electricity imports, exports) are determined. To achieve that, necessary restructuring of the
+underlying simulation settings has been made, highlighting those of: (a) considering that renewable
+energy has a high grid-stabilization share; and (b) the power flow from the national grid to feed the
+district is as minimum as possible. It is thereby ensured that renewable energy and stored electricity
+are given priority over electricity imports in covering the energy requirements of the district. Such
+assumptions would not stand true when simulating a national energy system, however, they were
+found acceptable on the much smaller scale of a district that was part of national grid.
+3. Near Zero and Positive Energy Settlements in Alexandroupolis
+The city of Alexandroupolis has a population of 72,959 people (2011 census) [36], and is the
+administrative center of the Regional Unit of Evros, Region of Eastern Macedonia and Thrace. It is
+situated near the border between Greece and Turkey. The strategic location of Alexandroupolis
+highlights its potential to become a hub for energy security and diversity of Europe. The city is also a
+member of the Covenant of Mayors, having a validated Sustainability Energy Action Plan (SEAP),
+and a being founding member of the Greek Green Cities Network. For this reason, it is considered
+as an ideal candidate for investigating the feasibility of Near-Zero and Positive Energy Settlements.
+Alexandroupolis has on average 1815 heating degree-days annually [37], and its baseline (2011) final
+energy consumption and CO2 emissions have been estimated at approximately 930 GWh and 440 kt,
+respectively [38]. As part of the continuous efforts of reducing its carbon footprint, the feasibility
+of two energy community projects is investigated; i.e., the planning of a new-built positive energy
+neighborhood and the retrofit of an existing housing estate to a near zero energy level. A description
+of the two settlements and the proposed measures is presented in the following paragraphs.
+3.1. New-Built Positive Energy Settlement
+The selected site for the new-built positive energy neighborhood is located within a larger
+4500-hectare site in the area of ‘Kallithea-N. Chilli’ of Alexandroupolis. It comprises three separate
+plots with a total area of approximately 42,000 square meters, as shown in Figure 1.
+According to the town planning for the area of N.Chilli, the maximum coverage area is 40% of
+total plot area and the maximum building height is 8 m, which can be extended by 1.5 m in the case of
+buildings with inclined roofs. Effectively, this leads to buildings with maximum of two floors. Based
+on these restrictions, the proposed development comprises 100 two-floor detached houses, and is
+based on the fundamental principles of environmental design. Each house has a footprint of 60 m2
+
+Smart Cities 2020, 3 FOR PEER REVIEW
+
+2
+
+neighborhood and the retrofit of an existing housing estate to a near zero energy level. A description
+Smart Cities 2020, 3
+370
+of the two settlements and the proposed measures is presented in the following paragraphs.
+3.1.
+New-Built
+Positive
+Energy Settlement
+(6 m
+· 10 m) and
+comprises
+120 m2 total heated floor area. All houses have south orientation (i.e.,
+the main
+axis liessite
+on for
+thethe
+East–West
+axis)
+and large
+south
+facing glazing
+for maximizing
+solar 4500gains.
+The selected
+new-built
+positive
+energy
+neighborhood
+is located
+within a larger
+In addition,
+betweenChilli’
+rows of
+of Alexandroupolis.
+houses is considered,
+to minimize
+shadowing
+from
+hectare
+site inadequate
+the area distance
+of ‘Kallithea-N.
+It comprises
+three
+separate plots
+neighboring
+properties.
+with a total area of approximately 42,000 square meters, as shown in Figure 1.
+
+Figure 1. Close up view of the three available plots for the new-built positive energy district.
+Figure 1. Close up view of the three available plots for the new-built positive energy district.
+
+According
+to the
+town planning
+for the area
+of N.Chilli,
+the maximum
+coverage area is 40% of
+The following
+measures
+are considered
+for achieving
+positive
+energy performance:
+total plot area and the maximum building height is 8 m, which can be extended by 1.5 m in the case
+Increased
+fabric
+energy
+efficiency.
+Different
+levels
+of insulation
+examined,
+in order
+to
+• buildings
+of
+with
+inclined
+roofs.
+Effectively,
+this leads
+to buildings
+withare
+maximum
+of two
+floors.
+evaluate
+the
+suitability
+of
+current
+building
+regulations,
+as
+well
+as
+to
+assess
+the
+performance
+Based on these restrictions, the proposed development comprises 100 two-floor detached houses, and
+of increased
+insulationprinciples
+when considering
+positive-energy
+targets.
+Three
+are examined:
+is based
+on the fundamental
+of environmental
+design. Each
+house
+has cases
+a footprint
+of 60 m2
+(i)
+Case
+A
+considers
+the
+insulation
+levels
+required
+by
+current
+building
+regulations
+for
+the the
+city
+2
+(6 m × 10 m) and comprises 120 m total heated floor area. All houses have south orientation (i.e.,
+of
+Alexandroupolis
+(Climatic
+Zone
+C)
+[39];
+(ii)
+Case
+B
+considers
+the
+use
+of
+slightly
+increased
+main axis lies on the East–West axis) and large south facing glazing for maximizing solar gains. In
+insulation
+on the
+walls, roof
+and the
+floor;
+C considers
+the use ofshadowing
+further increased
+addition,
+adequate
+distance
+between
+rows
+of while
+houses(iii)
+is Case
+considered,
+to minimize
+from
+insulation
+on
+the
+walls,
+roof
+and
+floor,
+as
+well
+as
+the
+use
+of
+even
+more
+efficient
+windows
+(triple
+neighboring properties.
+glazed
+windows
+instead
+double glazed
+ones considered
+in Cases
+A and B). The thermal
+The
+following
+measures
+areofconsidered
+for achieving
+positive energy
+performance:
+transmittance
+of
+building
+elements
+and
+the
+resulting
+neighborhood
+energy
+consumption
+for the
+• Increased fabric energy efficiency. Different levels of insulation are examined,
+in order
+to
+three
+cases
+examined
+are
+presented
+in
+Table
+2.
+As
+mentioned
+previously,
+the
+analysis
+is
+conducted
+evaluate the suitability of current building regulations, as well as to assess the performance
+at the
+building level
+with the
+useconsidering
+of RETScreen.
+Results from targets.
+the building
+analysis
+are then
+of increased
+insulation
+when
+positive-energy
+Threelevel
+cases
+are examined:
+aggregated
+at
+the
+district
+level,
+and
+used
+as
+input
+in
+EnergyPLAN
+for
+the
+district
+level
+analysis.
+i) Case A considers the insulation levels required by current building regulations for the city
+Low
+Temperature district
+heating
+district
+cooling
+(DHC) the
+network
+the increased
+supply of
+•
+of Alexandroupolis
+(Climatic
+Zoneand
+C) [39];
+ii) Case
+B considers
+use of for
+slightly
+thermal
+energy.
+insulation
+on the walls, roof and the floor; while iii) Case C considers the use of further
+•
+Geothermal
+Pumpsonforthe
+providing
+heating
+and cooling
+the
+DHC
+increased Heat
+insulation
+walls, roof
+and floor,
+as wellinas
+the
+use network.
+of even more efficient
+(triple
+glazed
+windows
+instead ofalong
+double
+glazed
+onesstorage.
+considered
+in conducting
+Cases A anda
+PVwindows
+panels for
+on-site
+electricity
+generation
+with
+battery
+After
+•
+B). The thermal
+transmittance
+of building
+resulting
+neighborhood
+energy
+preliminary
+analysis,
+it is deduced
+that the elements
+minimumand
+PVthe
+capacity
+required
+for meeting
+the
+consumption
+for the
+three
+cases examined
+presented
+in Table
+As mentioned
+previously,
+electricity
+demand
+of the
+neighborhood
+is are
+around
+500 kW
+parametric
+analysis
+is then
+p . A 2.
+the analysis
+is conducted
+at thePV
+building
+level with
+the useare
+of examined,
+RETScreen.i.e.,
+Results
+the
+conducted
+during
+which various
+and battery
+capacities
+threefrom
+different
+level
+are 500,
+then 525
+aggregated
+district
+and clear
+used roof
+as input
+PVbuilding
+capacities
+are analysis
+considered:
+and 550 at
+kWthe
+anlevel,
+available
+space in
+of
+p . With
+2 for
+EnergyPLAN37for
+district
+level analysis.
+approximately
+mthe
+each building
+and an average size of 1.65 m2 for a 250 Wp crystalline
+• panel
+Low(average
+Temperature
+heatingofand
+district
+(DHC) network
+foritthe
+supply of
+value district
+from a range
+panels
+fromcooling
+the RETScreen
+database),
+is considered
+thermal
+energy.
+that
+5.5 kW
+p for each house is approaching the maximum capacity. Therefore, 550 kWp is
+• potentially
+Geothermal
+forthe
+providing
+heating Furthermore,
+and cooling infour
+the different
+DHC network.
+the Heat
+upperPumps
+limit for
+neighborhood.
+electricity storage
+capacities are evaluated, according to the desired degree of autonomy, i.e., 750 kWh ensuring
+approximately half-day autonomy for the neighborhood, 1500 kWh—corresponding to a day’s
+autonomy, 2250 kWh for a day and a half and 3000 kWh for 2 days autonomy.
+
+Smart Cities 2020, 3
+
+371
+
+Table 2. Thermal transmittance of building elements and energy consumption for the three
+cases examined.
+U-Value (W/m2 K)
+Case A
+0.40
+0.35
+0.65
+1.20
+
+Walls
+Roof
+Floor
+Windows
+
+Case B
+0.35
+0.30
+0.60
+1.20
+
+Case C
+0.30
+0.25
+0.55
+0.80
+
+Resulting Loads (kWh)
+Case A
+987,500
+673,900
+271,500
+
+Heating
+Cooling
+Electricity
+
+Case B
+943,100
+669,600
+271,500
+
+Case C
+859,500
+661,000
+271,500
+
+In summary, the following scenarios are examined with varying: (a) levels of insulation levels,
+(b) PV capacity and (c) battery storage capacity (Table 3). The performance of each configuration is
+assessed against that of a Business-as-Usual (BaU) scenario, i.e., buildings constructed according to
+current building regulations (i.e., insulation levels equal to Case A). No electricity generation and
+storage is considered for the BaU scenario. Heating and cooling are provided by heating oil boilers
+and air-conditioning (A/C) units, respectively.
+Table 3. Summary of scenarios examined and the BaU scenario for the positive energy neighborhood.
+Case A
+
+BaU
+Conf. 1
+Conf. 2
+Conf. 3
+Conf. 4
+Conf. 5
+Conf. 6
+Conf. 7
+Conf. 8
+Conf. 9
+Conf. 10
+Conf. 11
+Conf. 12
+
+Case B
+
+Case C
+
+PV
+(kW)
+
+Batteries
+(kWh)
+
+Heating/
+Cooling
+
+PV
+(kW)
+
+Batteries
+(kWh)
+
+Heating/
+Cooling
+
+PV
+(kW)
+
+Batteries
+(kWh)
+
+Heating/
+Cooling
+
+0
+500
+500
+500
+500
+525
+525
+525
+525
+550
+550
+550
+550
+
+0
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+
+Boiler+A/C
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+
+0
+500
+500
+500
+500
+525
+525
+525
+525
+550
+550
+550
+550
+
+0
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+
+Boiler+A/C
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+
+0
+500
+500
+500
+500
+525
+525
+525
+525
+550
+550
+550
+550
+
+0
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+750
+1500
+2250
+3000
+
+Boiler+A/C
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+DHC
+
+3.2. Near-Zero Energy Neighbourhood
+The proposed near-zero energy district is located in the western side of the city of Alexandroupolis.
+The district comprises 95 terrace and mid-terrace houses grouped together in several blocks within a
+total area of approximately 22,500 m2 . The houses are 2-floor buildings (each with a ground floor and
+a first floor) with a total heated floor area of about 73 m2 . The settlement was built in the 1970s as
+social housing and houses are now privately owned by the residents.
+As the first regulation for the insulation of buildings came into effect in 1979, there was no
+provision for insulating the properties at the design stage. The construction of these dwellings is
+typical for that period, characterized by solid uninsulated walls with an uninsulated concrete frame,
+uninsulated concrete slab floors, a concrete slab roof and single glazed windows with metal frame. It is
+estimated that a number of houses have since been refurbished to a smaller or larger extent, while
+others have remained in their original condition. Therefore, it is considered that the houses of the
+
+built in the 1970s as social housing and houses are now privately owned by the residents.
+As the first regulation for the insulation of buildings came into effect in 1979, there was no
+provision for insulating the properties at the design stage. The construction of these dwellings is
+typical for that period, characterized by solid uninsulated walls with an uninsulated concrete frame,
+uninsulated concrete slab floors, a concrete slab roof and single glazed windows with metal frame.
+It
+Smart Cities 2020, 3
+372
+is estimated that a number of houses have since been refurbished to a smaller or larger extent, while
+others have remained in their original condition. Therefore, it is considered that the houses of the
+district
+fallfall
+within
+oneone
+of the
+following
+categories
+according
+to their
+levellevel
+of insulation:
+(a) uninsulated
+district
+within
+of the
+following
+categories
+according
+to their
+of insulation:
+a) uninsulated
+dwellings;
+(b)
+dwellings,
+in
+which
+minor
+interventions
+had
+taken
+place
+(i.e.,
+buildings
+with
+single
+dwellings; b) dwellings, in which minor interventions had taken place (i.e., buildings with
+single
+glazed
+windows
+that that
+were were
+replaced
+by double
+glazed windows
+with aluminum
+frame without
+thermal
+glazed
+windows
+replaced
+by double
+glazed windows
+with aluminum
+frame
+without
+break);
+and break);
+(c) dwellings
+which major
+retrofit
+interventions
+had been carried
+insulating
+thermal
+and c)indwellings
+in which
+major
+retrofit interventions
+had out
+been(i.e.,
+carried
+out (i.e.,
+theinsulating
+external walls
+and
+the
+roof
+to
+the
+current
+building
+regulations
+standard
+and
+replacing
+the
+single
+the external walls and the roof to the current building regulations standard and replacing
+glazed
+windows
+withwindows
+new efficient
+glazed double
+ones). The
+layout
+of the
+differentand
+the single
+glazed
+withdouble
+new efficient
+glazed
+ones).
+Thebuildings
+layout ofand
+thethe
+buildings
+insulation
+categories
+are presented
+2 while
+a summary
+U-values
+for U-values
+the building
+the different
+insulation
+categoriesin
+areFigure
+presented
+in Figure
+2 whileofa the
+summary
+of the
+for the
+elements
+based
+on thebased
+three on
+levels
+insulation
+considered
+shown in Table
+4. in Table 4.
+building
+elements
+the of
+three
+levels of
+insulationisconsidered
+is shown
+
+Uninsulated (48 units)
+Minor interventions (33 units)
+Major interventions (14 units)
+Figure
+2. Arrangement
+of houses
+according
+to the
+insulation
+levels.
+Figure
+2. Arrangement
+of houses
+according
+to the
+insulation
+levels.
+Thermal transmittance of the main building elements for the three levels of
+Table 4.
+insulation considered.
+Uninsulated
+(No Interventions)
+
+Minor Interventions
+
+Major Interventions
+
+U-Value (W/m2 K)
+External walls
+Windows
+Doors
+Roof
+Floor (contact with air)
+Floor (contact with ground)
+
+2.38
+4.6
+3.5
+4.7
+2.75
+3.10
+
+2.38
+3.3
+3.5
+4.7
+2.75
+3.10
+
+0.40
+1.40
+1.40
+0.35
+0.35
+3.10
+
+Planning of the near-zero energy district follows the same approach as the positive energy district.
+The energy requirements for each block (Figure 2) are determined in RETScreen and the sum of all
+the blocks is used as input in EnergyPLAN for the district level analysis. Increased insulation levels,
+grid-connected roof-mounted PV with storage for a certain degree of autonomy and ground-source
+heat pump supplying thermal energy through a district heating and cooling network are the measures
+considered. In order to establish a minimum level of insulation, the definition of near zero energy
+building is considered. There is currently no quantitative metric or definition; according to Article
+2(2) of the EPBD, a NZEB ‘means a building that has a very high energy performance . . . The nearly
+zero or very low amount of energy required should be covered to a very significant extent by energy
+from renewable sources, including energy from renewable sources produced on-site or nearby’ [40]
+(p. 3). In Greece, it is considered that buildings with energy rating of A+ are very close to the NZEB
+target [41]. For this reason, a model for a representative building of the district has been developed
+using the energy rating software provided by the Technical Chamber of Greece for conducting Energy
+Performance Certificate assessments. Subsequently, a study is conducted to identify those insulation
+levels, and the necessary size of PV system required that can lead to an A+ rating. It is determined that
+a PV system of at least 2.2 kWp installed on the roof is required for achieving an A+ energy rating.
+The required insulation levels are shown in Table 5.
+
+Smart Cities 2020, 3
+
+373
+
+Table 5. Insulation levels for achieving A+ rating.
+Building Element
+
+U-Value (W/m2 K)
+
+Walls
+
+0.35
+
+Roof
+
+0.30
+
+Floor
+
+0.65
+
+Windows
+
+1.20
+
+A parametric analysis is conducted in order to identify optimum combinations of technologies to
+achieve NZEB neighborhood in a cost-effective manner, during which, the capacity of the PV system
+and the size of the battery are the free variables. In summary, the combinations of technologies
+examined are presented in Table 6. In this case, as there is no restriction for achieving the target of
+100% electricity self-supply, a configuration with no battery is also examined. A Business-as-Usual
+(BaU) retrofit scenario is also considered, in order to determine potential benefits arising from the
+implementation of additional measures towards achieving near-zero performance.
+Table 6. Summary of scenarios examined and the Business-as-Usual (BaU) scenario for the NZEB district.
+PV (kW)
+
+Batteries (kWh)
+
+Heating/Cooling
+
+0
+
+0
+
+Boiler + A/C
+
+Configuration 1
+
+350
+
+0
+
+DHC + GSHP
+
+Configuration 2
+
+350
+
+550
+
+DHC + GSHP
+
+Configuration 3
+
+350
+
+1100
+
+DHC + GSHP
+
+Configuration 4
+
+350
+
+1650
+
+DHC + GSHP
+
+Configuration 5
+
+350
+
+2200
+
+DHC + GSHP
+
+Configuration 6
+
+300
+
+0
+
+DHC + GSHP
+
+Configuration 7
+
+300
+
+550
+
+DHC + GSHP
+
+Configuration 8
+
+300
+
+1100
+
+DHC + GSHP
+
+Configuration 9
+
+300
+
+1650
+
+DHC + GSHP
+
+Configuration 10
+
+300
+
+2200
+
+DHC + GSHP
+
+Configuration 11
+
+250
+
+0
+
+DHC + GSHP
+
+Configuration 12
+
+250
+
+550
+
+DHC + GSHP
+
+Configuration 13
+
+250
+
+1100
+
+DHC + GSHP
+
+Configuration 14
+
+250
+
+1650
+
+DHC + GSHP
+
+Configuration 15
+
+250
+
+2200
+
+DHC + GSHP
+
+BaU configuration
+
+4. Analysis
+The basic steps of the analysis from the simulation process and the results processing for the KPI
+calculation for the technical and financial assessment are presented in this section.
+4.1. Simulation
+The simulation steps were described in the Methodology section. The main assumptions for
+determining the energy flows at the building and district level are presented below:
+-
+
+Thermostat settings. Indoor temperature was set to 20 ◦ C and 26 ◦ C for the heating and
+cooling period, respectively, following the recommendations of the relevant technical directive
+(20701-1/2010) for Energy Performance Certificate assessments [42];
+
+Smart Cities 2020, 3
+
+-
+
+-
+
+-
+
+-
+
+-
+
+374
+
+Occupancy schedule. It was considered that the average household comprises three people.
+A total of 18 hours of occupancy were considered as per the guidelines of the Technical Directive
+20701-1/2010 [42];
+Thermal transmittance of the building elements. For Case A of the parametric analysis, these
+were based on the requirements of the Building Regulation on the energy efficiency in buildings
+for the city of Alexandroupolis (climate zone C) [39]. For Cases B and C, the U-values of the
+building elements were adjusted accordingly;
+Lighting gains. These were set to 4.5 W/m2 based on the recommendations of Technical Directive
+20701-1/2010 [42];
+Hot water requirements. These were calculated based on the recommendations of Technical
+Directive 20701-1/2010 to 50 l/person/day considering 45 °C target water temperature [42];
+Electricity consumption from electrical appliances. Reasonable assumptions were made on the use
+of electrical equipment based on values from the RETScreen database, and from market products
+considering the use of energy efficient equipment. The daily use of a television, kettle, laptop,
+refrigerator, vacuum cleaner etc. was considered for determining the electrical appliances gains;
+Mechanical ventilation. It was considered that mechanical ventilation was providing fresh air to
+each house to meet the minimum requirements on air quality, 0.75 l/m3 /h [42];
+The Coefficient of Performance (COP) and the Seasonal Energy Efficiency Ratio of the GSHP
+providing the thermal energy to the district network was considered to be 4.5 and 5, respectively.
+This was based on the results from a monitoring study of a thermal network in the city of Xanthi,
+which is in close to Alexandroupolis [43];
+The DHC network losses were considered to be 2%, taking into account the size of the positive
+energy and nearly-zero energy districts that are being investigated, and based on the results of the
+maturity study for the development of a thermal network in the wider area of Alexandroupolis [44].
+
+The use of hourly distribution profiles is also required by EnergyPLAN for the energy demands and
+supply sources. With regard to the heating and cooling demand the distribution profile was developed
+with the use of a Typical Meteorological Year (TMY) file [45] developed from 15 years of readings
+(2003–2017) from the weather station of the Alexandroupolis International Airport. The hourly heating
+and cooling demand profiles were derived considering a base temperature of 18 ◦ C for heating, which is
+commonly used as the base temperature for heating, and 24 ◦ C for cooling, which is considered suitable for
+the Greek context [46]. The hourly distribution profile for the PV production was developed considering
+the global solar radiation data from TMY file and the panel temperature considering the RETScreen
+methodology [47] and data from the relevant Greek Technical Directive on the climatic conditions [37].
+4.2. Technical Assessment
+The KPIs used in the technical analysis are the electrical self-supply, the thermal self-supply and
+the emissions reduction. The technical evaluation is made upon the overall energy balance, including
+electrical and thermal energy vectors. The calculation of the degree of electrical self-supply is as follows:
+electricity produced from the PV system is either used by the consumers or stored in the battery for
+later use, or even exported to the grid (prosumers). The former two components are collectively
+referred to as ‘electricity own-use’. In cases when demand in electrical energy surpasses the amount of
+electricity produced by the PV system and the battery, if 100% discharged (State of Charge, SoC = 0%),
+electricity is imported from the grid. The degree of electricity self-supply is then determined with
+the use of Equations (1a) and (1b) considering the above energy balance (self-production, exports
+and imports) in terms of primary energy; primary energy from the electricity self-production and
+exports are determined with a conversion factor of 1, while a factor of 2.9 is used for the electricity
+imports, based on the country’s energy mix [42]. Nevertheless, it should be mentioned that in real-life
+microgrids operations, the SoC of the battery is around to 80% (or 20%, when discussing discharge)
+
+Smart Cities 2020, 3
+
+375
+
+and not 100%, as the current study has assumed. For reasons of grid stability, and to overcome this
+limitation of the current model, one can oversize the battery used by 20% in terms of capacity (kWh).
+With regards to thermal energy consumption, heating and cooling of the houses is provided
+by the GSHP district heating and cooling network in all cases examined. Therefore, the degree of
+thermal energy self-supply is 100% in all cases. Finally, the calculation of the emissions reduction is
+done considering the primary energy of each configuration and the BaU scenario and the respective
+CO2 emissions factors for each energy source (0.861 kgCO2 /kWh for electricity imports [38] and
+0.264 kgCO2 /kWh for the heating oil [42] used in the BaU scenario)
+4.3. Financial Assessment
+Financial evaluation of the proposed scenarios is conducted considering typical costs for the
+various technologies and fuels for Greece. These are presented in Table 7. The commonly used
+thresholds for assessing financial viability are used in this case as well, i.e., a positive Net Present Value
+and Internal Rate of Return greater than 5%. As this is a preliminary feasibility study, the viability of
+the investment at this stage is examined based on simplified assumptions. For the calculation of NPV
+and IRR, a 2% annual increase in energy prices is considered. Furthermore, an annual reduction in
+performance of the PV panels of 0.5% is also taken into account [48].
+Table 7. Capital cost of equipment and energy prices.
+Capital Costs
+-
+
+Geothermal Heat Pump: €1500/kW
+DHC Network: €1,000,000
+PV system (panels, inverters, etc): €1000/kW
+Battery storage: €400/kWh
+Heating oil boilers: €1500/house
+A/C units: €1500/house
+
+-
+
+Additional insulation costs: €3/m2 per 0.05 W/m2 K reduction in the U-value
+
+-
+
+Cost of triple over double glazing: €100/m2
+
+Operational Costs
+
+-
+
+Selling Price of electricity: €0.065/kWh
+Cost of electricity purchase:
+€0.10/kWh
+Heating oil costs: €1.10/L
+
+4.4. Limitations
+The analysis of the integrated measures presented in the previous paragraphs was subject to
+limitations, mainly due to the nature of the study, i.e., a simulation study being conducted at the
+feasibility stage of an investment. The main limitations identified are discussed here. Firstly, the choice
+of software was based on the criteria discussed in the ‘Methodology’ section, and the tools selected are
+considered appropriate for conducting the analysis at this preliminary stage. RETScreen uses simplified
+methods for estimating energy consumption and renewable energy production. The limitation of
+EnergyPLAN in considering the battery SoC in the energy balance was also discussed previously. It is
+acknowledged that the use of dynamic building simulation software, as well as specialized software for
+each technology investigated, would increase the accuracy and confidence of the results. Furthermore,
+dynamic building simulation software would also allow the analysis to consider the indoor conditions
+and the thermal comfort of the residents, which is not possible to do with RETScreen. However,
+RETScreen and EnergyPLAN were found very useful in conducting the analysis fast, satisfying the need
+for tools that are able to conduct parametric analysis on the district scale, as highlighted in [19]. The use
+of specialized software would require significant resources, and would limit the ability to conduct the
+parametric analysis, due to the added complexity of integrating the inputs of the different software.
+Secondly, the fact that the study is based solely on simulations contributed to increased uncertainty
+in the results. Despite that fact that every care is taken for the simulation inputs to be based on reliable
+sources (mainly complying to the relevant technical directives and building regulations), there were
+some cases where reasonable assumptions have been made (such as in the case of electrical appliance
+usage). Including the monitoring of electricity and fuel consumption in some or even all of the existing
+
+Smart Cities 2020, 3
+
+376
+
+buildings in the methodology would make it possible to identify energy consumption profiles and
+increase the reliability of the results. It would also be useful for calibrating and fine-tuning the models.
+Findings from such analysis of monitoring data could be applicable to the new-built neighborhood
+simulation as well, and increase robustness of the analysis.
+5. Results and Discussion
+Results of the analysis for the two energy communities investigated are presented in the
+following paragraphs.
+5.1. New-Built Positive Energy Neighbourhood
+Each configuration presented in Table 3 is assessed against the set technical and financial criteria.
+It is noted that in order for a scenario to be considered as positive-energy, the degree of electrical and
+thermal self-supply should be at least 100%. Results of the analysis are presented in Table 8 below.
+It can be seen that achieving at least 100% of thermal and electrical energy self-supply can be met
+by various combinations of the technologies considered; however, most configurations do not meet
+the financial criteria. Financially viable positive energy performance can be achieved in only three
+scenarios (Configuration 10 of Case A and Configurations 6 and 10 of Case B). Moreover, electrical
+storage providing one day of autonomy is identified as the optimum solution; smaller capacities are
+not adequate for achieving 100% self-supply, and sizing the battery for increased autonomy is not
+considered to be cost-effective, since the relevant scenarios did not meet the financial criteria (NPV > 0,
+IRR > 5%). The three configurations calculate a simple payback between 15.6 and 16.3 years and a dynamic
+payback period (i.e., considering an annual increase in energy prices and discount rate 5%) ranging from
+12.5 to 12.9 years. The achievable emissions reduction is between 1325 and 1370 tonnes of CO2 per year.
+
+Case A
+
+Table 8. Summary of results for the positive energy neighborhood scenarios examined. Results where
+all criteria are met are presented in bold.
+Electricity
+Own-Use
+(kWh)
+
+Electricity
+Imports
+(kWh)
+
+Electricity
+SelfExports
+Supply(kWh)
+Thermal
+
+SelfSupplyElectrical
+
+NPV (€)
+
+IRR (%)
+
+Con.1
+
+440,315
+
+192,598
+
+348,816
+
+100%
+
+79.0%
+
+271,788
+
+6.15%
+
+Con.2
+
+515,012
+
+117,898
+
+274,104
+
+100%
+
+92.1%
+
+26,681
+
+5.10%
+
+Con.3
+
+520,062
+
+112,844
+
+269,050
+
+100%
+
+93.1%
+
+−256,285
+
+4.09%
+
+Con.4
+
+522,146
+
+110,761
+
+266,964
+
+100%
+
+93.6%
+
+−540,869
+
+3.22%
+
+Con.5
+
+445,633
+
+187,273
+
+382,933
+
+100%
+
+83.8%
+
+290,705
+
+6.22%
+
+Con.6
+
+522,521
+
+110,380
+
+306,030
+
+100%
+
+98.3%
+
+46,792
+
+5.18%
+
+Con.7
+
+528,624
+
+104,272
+
+299,923
+
+100%
+
+99.7%
+
+−235,600
+
+4.18%
+
+Con.8
+
+531,021
+
+101,876
+
+297,527
+
+100%
+
+100.3%
+
+−520,011
+
+3.31%
+
+Con.9
+
+450,312
+
+182,595
+
+417,717
+
+100%
+
+88.6%
+
+309,290
+
+6.28%
+
+Con.10
+
+529,121
+
+103,779
+
+338,895
+
+100%
+
+104.6%
+
+66,427
+
+5.25%
+
+Con.11
+
+535,844
+
+97,060
+
+332,175
+
+100%
+
+106.2%
+
+−215,635
+
+4.25%
+
+Con.12
+
+537,692
+
+95,213
+
+330,325
+
+100%
+
+106.7%
+
+−500,348
+
+3.39%
+
+Smart Cities 2020, 3
+
+377
+
+Case C
+
+Case B
+
+Table 8. Cont.
+SelfSupplyElectrical
+
+NPV (€)
+
+IRR (%)
+
+100%
+
+81.2%
+
+230,144
+
+5.95%
+
+277,835
+
+100%
+
+94.8%
+
+−15,599
+
+4.94%
+
+105,707
+
+272,788
+
+100%
+
+95.9%
+
+−298,565
+
+3.96%
+
+518,658
+
+103,459
+
+270,537
+
+100%
+
+96.4%
+
+−583,060
+
+3.12%
+
+Con.5
+
+443,042
+
+179,015
+
+385,515
+
+100%
+
+86.1%
+
+248,999
+
+6.02%
+
+Con.6
+
+518,568
+
+103,467
+
+310,016
+
+100%
+
+101.2%
+
+4415
+
+5.02%
+
+Con.7
+
+524,591
+
+97,445
+
+303,992
+
+100%
+
+102.7%
+
+−278,026
+
+4.04%
+
+Con.8
+
+527,009
+
+95,030
+
+301,581
+
+100%
+
+103.2%
+
+−562,424
+
+3.20%
+
+Con.9
+
+447,557
+
+174,512
+
+420,489
+
+100%
+
+91.0%
+
+267,504
+
+6.08%
+
+Con.10
+
+524,862
+
+97,225
+
+343,225
+
+100%
+
+107.6%
+
+23,839
+
+5.09%
+
+Con.11
+
+531,410
+
+90,678
+
+336,678
+
+100%
+
+109.3%
+
+−258,315
+
+4.12%
+
+Con.12
+
+532,961
+
+89,130
+
+335,131
+
+100%
+
+109.7%
+
+−543,187
+
+3.28%
+
+Con.1
+
+433,183
+
+168,154
+
+355,970
+
+100%
+
+85.7%
+
+−214,599
+
+4.18%
+
+Con.2
+
+503,933
+
+97,387
+
+285,212
+
+100%
+
+100.4%
+
+−463,738
+
+3.37%
+
+Con.3
+
+508,893
+
+92,426
+
+280,256
+
+100%
+
+101.6%
+
+−746,884
+
+2.55%
+
+Con.4
+
+511,035
+
+90,285
+
+278,115
+
+100%
+
+102.1%
+
+−1031,492
+
+1.83%
+
+Con.5
+
+437,936
+
+163,344
+
+390,634
+
+100%
+
+90.9%
+
+−198,043
+
+4.25%
+
+Con.6
+
+510,438
+
+90,833
+
+318,128
+
+100%
+
+107.1%
+
+−446,284
+
+3.44%
+
+Con.7
+
+516,248
+
+85,026
+
+312,323
+
+100%
+
+108.6%
+
+−728,996
+
+2.63%
+
+Con.8
+
+518,036
+
+83,240
+
+310,534
+
+100%
+
+109.1%
+
+−1013,791
+
+1.91%
+
+Con.9
+
+442,127
+
+159,129
+
+425,909
+
+100%
+
+96.1%
+
+−181,779
+
+4.32%
+
+Con.10
+
+515,860
+
+85,408
+
+352,177
+
+100%
+
+113.7%
+
+−429,411
+
+3.52%
+
+Con.11
+
+522,102
+
+79,160
+
+345,931
+
+100%
+
+115.5%
+
+−711,894
+
+2.71%
+
+Con.12
+
+522,984
+
+78,279
+
+345,050
+
+100%
+
+115.7%
+
+−997,154
+
+1.99%
+
+SelfElectricity
+SupplyExports
+Thermal
+(kWh)
+
+Electricity
+Own-Use
+(kWh)
+
+Electricity
+Imports
+(kWh)
+
+Con.1
+
+437,916
+
+184,199
+
+351,242
+
+Con.2
+
+511,354
+
+110,757
+
+Con.3
+
+516,408
+
+Con.4
+
+With regard to the insulation levels, it can be seen that current relevant Greek building regulations
+(Case A) appear to be adequate for attaining a positive energy performance in just one system
+configuration (Configuration 10); maximum PV capacity (550 kWp ) is required to achieve the electrical
+self-supply target. Increasing the levels of insulation results in Case B achieving slightly higher technical
+performance. Due to the reduced energy consumption, the self-supply component imposes a greater
+share in the energy balance, resulting in a slightly higher degree of self-supply for all configurations of
+Case B compared to Case A. This results in an additional configuration, during which the technical
+(DET and DEE > 100%) and financial (NPV > 0, IRR > 5%) set targets are met with a smaller PV
+capacity (Configuration 6 with 525 kWp PV capacity). Increasing the energy efficiency of the building
+fabric therefore provided the flexibility to reduce the size of the PV system and still meet the positive
+energy requirements.
+On the other hand, Case C scenarios present the best technical performance, due to the reduced
+energy consumption of the buildings. However, they are not cost-effective, mainly due to the increased
+cost of triple glazing compared to the standard double glazing used in Cases A and B. Increased
+insulation levels result in reduction of the peak load and, consequently, the size of the heat pump.
+Nevertheless, these savings are not adequate to justify the additional investment cost for replacing
+the glazing and increasing the insulation. The use of a larger PV system that will lead to increased
+
+Smart Cities 2020, 3
+
+378
+
+revenues from the electricity exports can be considered; however, the potential to increase the PV
+capacity is limited due to the roof space restrictions.
+5.2. Near Zero Energy Retrofit District
+The scenarios for the NZE retrofit district presented in Table 6 are evaluated according to the same
+technical and financial criteria. Results of the analysis are presented in Table 9 below.
+Table 9. Summary of results for the near-zero energy neighborhood scenarios examined. Results where
+all criteria are met are presented in bold.
+Electricity
+Own-Use
+(kWh)
+
+Electricity
+Imports
+(kWh)
+
+Electricity
+Exports
+(kWh)
+
+Con. 1
+
+123,767
+
+307,113
+
+428,624
+
+100%
+
+Con. 2
+
+306,314
+
+124,544
+
+246,031
+
+Con. 3
+
+354,475
+
+76,412
+
+Con. 4
+
+356,373
+
+Con. 5
+
+Self-Supply Self-Supply
+(Thermal) (Electrical)
+
+NPV (€)
+
+IRR (%)
+
+54.5%
+
+398,187
+
+8.2%
+
+100%
+
+82.7%
+
+287,913
+
+7.0%
+
+197,890
+
+100%
+
+95.9%
+
+104,553
+
+5.6%
+
+74,511
+
+195,986
+
+100%
+
+96.5%
+
+−103,940
+
+4.4%
+
+357,271
+
+73,611
+
+195,084
+
+100%
+
+96.8%
+
+−312,977
+
+3.4%
+
+Con. 6
+
+119,651
+
+311,226
+
+353,845
+
+100%
+
+46.3%
+
+363,900
+
+8.1%
+
+Con. 7
+
+294,326
+
+136,553
+
+179,107
+
+100%
+
+68.6%
+
+249,292
+
+6.8%
+
+Con. 8
+
+336,447
+
+94,431
+
+136,994
+
+100%
+
+77.6%
+
+62,681
+
+5.4%
+
+Con. 9
+
+337,763
+
+93,115
+
+135,686
+
+100%
+
+77.9%
+
+−146,119
+
+4.1%
+
+Con. 10
+
+338,864
+
+92,016
+
+134,587
+
+100%
+
+78.2%
+
+−355,045
+
+3.1%
+
+Con. 11
+
+114,559
+
+316,294
+
+279,993
+
+100%
+
+38.2%
+
+329,066
+
+8.0%
+
+Con. 12
+
+279,417
+
+151,417
+
+115,083
+
+100%
+
+54.9%
+
+209,163
+
+6.6%
+
+Con. 13
+
+313,617
+
+117,235
+
+80,910
+
+100%
+
+60.4%
+
+18,235
+
+5.1%
+
+Con. 14
+
+314,840
+
+116,010
+
+79,687
+
+100%
+
+60.6%
+
+−190,620
+
+3.8%
+
+Con. 15
+
+315,944
+
+114,907
+
+78,586
+
+100%
+
+60.8%
+
+−399,542
+
+2.8%
+
+In order to evaluate the various configurations examined, a minimum level of self-supply for
+considering ‘near-zero’ performance needs to be determined. A degree of 75% is set as a reasonable
+threshold. The results indicate that a certain degree of autonomy is required as configurations without
+electrical storage do not meet the near-zero target, despite the fact that they are the most attractive
+options in economic terms. Furthermore, it is also apparent that none of the configurations in-between
+11–15 that have a 250 kWp total PV capacity (corresponding to approximately 2.6 kWp available per
+house delivering on average about 4100 kWh annually) are able to meet the 75% self-supply target.
+This suggests that the A+ rating that considers 2.2 kW PVp capacity is not sufficient for achieving
+the near-zero energy neighborhood target, as defined here. This highlights the need to update the
+definition and provide specific guidelines for near zero-energy buildings, as well as to establish a
+definition for near zero energy districts, if a truly near-zero energy performance is to be achieved.
+Oversizing the battery for achieving a degree of autonomy greater than 1 day has limited value
+in terms of technical performance. For example, considering 1.5 days of autonomy instead of 1 day
+delivers only an additional 0.6% at maximum for all PV capacities considered, with a significant
+reduction in economic performance. Considering 2 days’ autonomy was not financially viable in any
+case. Therefore, the optimum battery size is that providing day autonomy between 0.5 and 1. The size
+of the PV system is required to be 300 kWp at minimum. The self-supply requirement is met with both
+0.5 and 1 day of autonomy at the higher capacity of the PV system (350 kWp ), by Configurations 2
+and 3, respectively. When the 300 kWp PV system is considered, the battery size is required to be
+
+Smart Cities 2020, 3
+
+379
+
+1100 kWh, providing 1 day of autonomy, in order for the 75% electrical self-supply threshold to be
+exceeded (Configuration 8).
+Therefore, Configurations 2, 3 and 8 meet the required technical and economic criteria. These
+configurations present a simple payback period ranging from 13.3 to 15.6 years or a dynamic payback
+period (i.e., considering an annual increase in energy prices and discount rate 5%) from 9.7 to 12.2 years.
+The resulting emissions reduction from these solutions varied between approximately 795 tonnes to
+893 tonnes of CO2 .
+5.3. Building Level Analysis
+The analysis of the specific measures is also considered at the building level. Financial performance
+of the retrofit measures to a single dwelling is investigated when (a) these are applied individually
+(which is predominately the case for retrofit projects of privately owned houses), and (b) when they
+are applied to a house as part of a larger community energy upgrade project. The purpose of this
+study is to highlight potential advantages that each household can benefit from, due to economies of
+scale achieved, when the retrofit measures are applied as part of a community scale project rather than
+individually. It is also envisaged that the findings will stimulate the interest of local communities in
+investing in energy upgrade measures.
+The analysis was conducted for the two typical types of houses representing the blocks of the
+neighborhood, i.e., mid-terrace and end-terrace. Configuration 8 (Table 8) that meets the near-zero
+energy criteria at the community level is used as case study: In this configuration, a 300 kWp PV system
+with 1100 kWh battery capacity providing one day’s autonomy to the district is used. This corresponds
+to approximately 3.15 kWp PV and 11.5 kWh battery capacity on average, per house. Three following
+scenarios were then investigated:
+(a) Conducting the energy upgrade of the house as part of a district energy upgrade scheme as
+discussed in the previous paragraphs, i.e., increased insulation of the building envelope (walls, roof
+and windows) and roof-mounted PV with battery storage. Heating and cooling is provided through
+the district heating and cooling network. The cost of the PV system is set to €1000/kWp , and the cost
+of the battery equal to €400/kWh. The capital costs of the GSHP and the DHN for each house are
+approximately €4200 and €6850, respectively.
+(b) Conducting the energy upgrade individually using the same technologies and considering
+the same levels of PV utilisation, i.e., insulation of building envelope, ground-source heat pump for
+heating and cooling and roof mounted PV with battery storage. The same PV and storage capacity
+are considered; 3.15 kWp PV and 11.5 kWh storage capacity. The cost of the PV system is again
+assumed to be €1000/kWp . The cost of the battery and the GSHP for an individual house are €6000 and
+€15000, respectively.
+(c) Business-as-usual retrofit, i.e., insulating the envelope to current building regulations and
+considering conventional equipment for heating (heating oil boilers) and cooling (A/C units). No PV
+system is considered. The cost of boiler and A/C units is set to €1500 each.
+The energy prices considered are the same as previously (Table 7). The capital and operational
+costs for each scenario and house type are presented in Table 10.
+Table 10. Capital and operational costs of the BAU and the NZEB scenarios at the neighborhood and
+building level.
+BaU Scenario
+Mid-terrace
+End-terrace
+
+Capital cost
+€10,676.93
+€12,879.19
+
+Operational cost
+€1310.96
+€1446.04
+
+NZEB–District Level
+Capital cost
+€26,469.03
+€28,671.29
+
+Operational cost
+€111.98
+€145.47
+
+NZEB–Building Level
+Capital cost
+€31,826.93
+€34,029.19
+
+Operational cost
+€97.72
+€129.79
+
+Results of the financial evaluation are presented in Table 11. In both cases, savings are greater
+for the end-terrace house type. The increase in capital cost for the near-zero energy retrofit is almost
+
+Smart Cities 2020, 3
+
+380
+
+2.5 times that of the BaU retrofit when the measures are applied as part of a larger community scale
+scheme; when measures are applied individually the increase in capital cost is almost three times that
+of the BaU retrofit. Results suggest that investing in a NZEB as part of a wider community scheme
+is a more attractive option than doing so individually, since it is financially viable. On the other
+hand, it appears that when these measures are considered only at the individual building level the
+increased capital cost is hardly compensated for by the reduction in operational costs; the investment
+is not considered viable for the mid-terrace house, while it barely meets the financial criteria in the
+end-terrace house.
+Table 11. Economic evaluation of the NZEB measures applied at the at the building level for the typical
+terrace and end-terrace building.
+House
+Type
+
+Simple Payback
+Period
+
+Dynamic Payback
+Period
+
+NPV (25 years)
+
+IRR (25 years)
+
+NZEB
+collective
+
+Mid-terrace
+
+13.2
+
+9.6
+
+€1010.84
+
+7.1%
+
+End-terrace
+
+12.1
+
+8.6
+
+€2370.82
+
+8.0%
+
+NZEB
+individual
+
+Mid-terrace
+
+17.4
+
+14.3
+
+€−3900.95
+
+4.4%
+
+End-terrace
+
+16.1
+
+12.7
+
+€306.59
+
+5.1%
+
+6. Conclusions and Lessons Learnt
+The feasibility of the development of a newly-built positive energy district and the retrofit of
+an existing district to near zero energy performance levels is examined in this paper. The analysis is
+conducted within the framework of the IRIS project that supports European cities to deliver, among
+others, upgraded energy services to their citizens in an effective and sustainable manner. The main
+objective of the work is to identify the technologies and the combinations of these technologies that
+can achieve the stringent requirements of zero or nearly-zero emissions, while also being financially
+viable investments. It is envisaged that the work presented here will act as a roadmap for planning
+and developing additional energy communities in Greece.
+The design approach to the highly efficient energy communities considers high levels of building
+fabric efficiency, renewable energy production and storage (PV, battery and GSHP), as well as the
+energy efficient delivery of thermal energy (district heating and cooling). The measures considered are
+able to meet the technical and financial criteria set. This is the case when:
+•
+
+•
+
+Increased insulation levels are applied. In the case of the near-zero retrofit district, increasing
+insulation to a higher standard than required by building regulations is a pre-requisite for
+complying with the current definition of NZEB. With regard to the new-built district, again,
+technical performance is better when insulation is slightly higher than required. The degree of
+electricity self-supply is 3% higher for the same configurations of technologies when increased
+insulation levels are considered (from 104.6% in Case A—Configuration 10, to 107.6% in Case
+B—Configuration 10). Furthermore, due to the reduced energy consumption, there is an additional
+configuration in Case B meeting the technical and financial criteria with reduced PV capacity
+(Configuration 6). However, care should be taken when considering increasing the levels of fabric
+efficiency. Replacing the double-glazed windows with triple glazed ones is not considered a viable
+option based on the results of the analysis.
+Electrical storage providing approximately one day of autonomy is used. This is the optimum
+configuration in order to deliver the necessary levels of self-supply and be financially viable. In the
+case of the new-built neighborhood, the positive energy criteria are met only when considering
+1500 kWh of electrical storage. In the existing retrofit neighborhood, the respective criteria
+are met mostly when 1100 kWh of electrical storage are used, corresponding to one day of
+autonomy. Requirements are also met in a scenario with smaller battery size, 550 kWh, however
+
+Smart Cities 2020, 3
+
+•
+
+381
+
+technical performance is significantly improved when considering the higher capacity (DEE 95.9%,
+compared to 82.7% for Configurations 3 and 2, respectively).
+Increased PV capacity is considered. In both case studies, results suggest that the district
+performance is optimum when the highest size of PV system considers the limitations imposed
+by the available roof areas. Higher PV capacities result in shifting the energy balance positive in
+primary energy terms and increased revenues.
+
+Additionally, the benefits for the occupants of participating in an energy community scheme,
+rather than performing the energy upgrade on an individual house basis are demonstrated, in an
+attempt to stimulate the interest of stakeholders for investing in energy community schemes. The need
+to update the definition of near zero buildings for the uptake of truly near-zero energy buildings and
+communities is also highlighted. Finally, it should be noted that the technologies considered here
+are selected from a pool of technologies based on their suitability for the Greek context. Additional
+research investigating the feasibility of other renewable energy and energy efficient technologies will
+facilitate the development of energy communities and support the transition towards carbon neutrality.
+Based on the experience gained from this study and the limitations identified, it is suggested that
+similar research studies in the future can benefit greatly from monitoring existing buildings, in order
+to feed robust data in the simulation software and increase the reliability of the results. If this is not
+possible due to limited resources or the degree of intrusiveness to the residents’ homes, other means of
+data collection may be used: interviews with the occupants, questionnaires and analysis of energy
+bills (electricity, fuel) can be used for a better representation of the occupancy profile and the energy
+consumption in the simulation software. Furthermore, dynamic building simulation software and
+software specialized in specific technologies have the potential to increase results accuracy, should the
+resources become available and the project maturity allow for their use. It should be noted, however,
+that the accuracy of the results relies again on the quality of input data. This highlights the value that
+monitoring or data collection can add on the simulation study.
+Author Contributions: Conceptualization, V.S., K.L. and N.N.; methodology, V.S., K.L. and K.A.; software, V.S.;
+validation, K.L.; formal analysis, V.S., N.M., and P.G.; investigation, V.S., K.L. and K.A.; resources, N.N. and N.M.;
+data curation, V.S. and K.L.; writing—original draft preparation, V.S. and N.M.; writing—review and editing,
+V.S., K.L., N.N., N.M., P.G. and K.A.; visualization, V.S. and P.G.; supervision, N.N.; project administration, N.N.;
+funding acquisition, N.N. All authors have read and agreed to the published version of the manuscript.
+Funding: The research was funded by European Commission’s H2020 Program, IRIS, GA-774199 at https:
+//cordis.europa.eu/project/rcn/212411/en.
+Acknowledgments: The authors would like to thank Maria Christidou for her valuable contribution in determining
+the minimum requirements of an A+ rated building.
+Conflicts of Interest: The authors declare no conflicts of interest.
+
+Abbreviations
+A/C
+BaU
+COP
+DEE
+DET
+DHC
+EEC
+EPBD
+EPP
+ERI
+FC
+
+Air-conditioning unit
+Business as Usual
+Coefficient of Performance
+Degree of Energetic Self-Supply (electrical)
+Degree of Energetic Self-Supply (thermal)
+District Heating and Cooling
+Electrical Energy consumption
+Energy Performance of Buildings Directive
+Economic Payback Period
+Energy related investment
+Follower city
+
+Smart Cities 2020, 3
+
+GHG
+GSHP
+IRR
+IS
+KPI
+LH
+LPEE
+LPET
+NPV
+NZE
+NZEB
+NZED
+PE
+PV
+RES
+SEER
+SoC
+TAC
+TEC
+TT
+
+382
+
+Greenhouse Gas emissions
+Ground Source Heat Pump
+Internal Rate of Return
+Integrated Solutions
+Key Performance Indicator
+Lighthouse city
+Locally Produced Energy (electrical)
+Locally Produced Energy (thermal)
+Net Present Value
+Net or Near Zero Energy
+Near Zero Energy Buildings
+Near Zero Energy Districts
+Positive Energy
+Photovoltaic
+Renewable Energy Sources
+Seasonal Energy Efficiency Ratio
+State of Charge
+Total Annual Cost
+Thermal Energy consumption
+Transition Track
+
+References
+1.
+2.
+
+3.
+
+4.
+5.
+
+6.
+7.
+8.
+9.
+10.
+
+11.
+
+12.
+
+European Commission. 2030 Climate & Energy Framework. Available online: https://ec.europa.eu/clima/
+policies/strategies/2030_en (accessed on 23 March 2020).
+European Parliament. Directive (EU). 2018/844 of the European Parliament and of the Council of 30 May
+2018 amending Directive 2010/31/EU on the energy performance of buildings and Directive 2012/27/EU on
+energy efficiency (Text with EEA relevance). Off. J. Eur. Union 2018, 156, 79–91.
+EUROSTAT. Energy, Transport and Environment Statistics 2019 Edition. Available online: https://ec.europa.eu/
+eurostat/documents/3217494/10165279/KS-DK-19-001-EN-N.pdf/76651a29-b817-eed4-f9f2-92bf692e1ed9
+(accessed on 7 May 2020).
+Energy Performance of Buildings Directive. Available online: https://ec.europa.eu/energy/topics/energyefficiency/energy-efficient-buildings/energy-performance-buildings-directive_en (accessed on 28 March 2020).
+European Parliament and Council. Directive 2012/27/EU of the European Parliament and of the Council
+of 25 October 2012 on energy efficiency, amending Directives 2009/125/EC and 2010/30/EU and repealing
+Directives 2004/8/EC and 2006/32/EC (Text with EEA relevance). Off. J. Eur. Union 2012, 315, 1–56.
+EUROSTAT. Urban Europe—Statistics on Cities, Towns and Suburbs. 2016 Edition; Publications Office of the
+European Union: Luxembourg, 2016.
+JPI Urban Europe. Available online: https://jpi-urbaneurope.eu/ped/ (accessed on 24 March 2020).
+Synnefa, A.; Laskari, M.; Gupta, R.; Pisello, A.L.; Santamouris, M. Development of net zero energy settlements
+using advanced energy technologies. Procedia Eng. 2017, 180, 1388–1401. [CrossRef]
+Robinson, D. Computer Modelling for Sustainable Urban Design: Physical Principles, Methods and Applications;
+Routledge: London, UK, 2011.
+Pol, O.A.; Robinson, D. Impact of Urban Morphology on Building Energy Needs: A Review on Knowledge
+Gained from Modeling and Monitoring Activities. In Proceedings of the CISBAT 2011—Clean Tech for
+Sustainable Buildings Energy, Lausanne, Switzerland, 14–16 September 2011; Scartezzini, J.L., Ed.; EPFL:
+Lausanne, Switzerland, 2011; pp. 943–948.
+Haghighat, F.; Tuohy, P.; Fraisse, G.; Del Pero, C. Energy Storage with Energy Efficient Buildings and
+Districts: Optimization and Automation. Annex 31—Energy Storage Energy Efficient Buildings and Districts.
+IEA Energy Technology Network. 2019. Available online: https://iea-eces.org/wp-content/uploads/public/
+ANNEX-31-Final-Report_HAGHIGHAT-1.pdf (accessed on 28 April 2020).
+Jebaraj, S.; Iniyan, S. A review of energy models. Renew. Sustain. Energy Rev. 2006, 10, 281–311. [CrossRef]
+
+Smart Cities 2020, 3
+
+13.
+
+14.
+
+15.
+16.
+
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+
+24.
+25.
+
+26.
+27.
+
+28.
+
+29.
+
+30.
+
+31.
+
+32.
+33.
+
+383
+
+Vreenegoor, R.C.P.; Hensen, J.L.M.; de Vries, B. Review of Existing Energy Performance Calculation Methods
+for District Use. In Proceedings of the Symposium Gebouwsimulatie: Ontmoeten & Ontdekken, IBPSA-NVL,
+Eindhoven, The Netherlands, 9 October 2008; pp. 1–8.
+Allegrini, J.; Orehounig, K.; Mavromatidis, G.; Ruesch, F.; Dorer, V.; Evins, R. A review of modelling
+approaches and tools for the simulation of district-scale energy systems. Renew. Sustain. Energy Rev. 2015,
+52, 1391–1404. [CrossRef]
+Hachem, C. Impact of neighborhood design on energy performance and GHG emissions. Appl. Energy 2016,
+177, 422–434. [CrossRef]
+Hachem-Vermette, C.; Guarino, F.; Rocca, V.; Cellura, M. Towards achieving net-zero energy communities:
+Investigation of design strategies and seasonal solar collection and storage net-zero. Sol. Energy 2018, 192,
+169–185. [CrossRef]
+Isaac, S.; Shubin, S.; Rabinowitz, G. Cost-Optimal Net Zero Energy Communities. Sustainability 2020, 12, 2432.
+[CrossRef]
+Paduos, S.; Corrado, V. Cost-optimal approach to transform the public buildings into nZEBs: An European
+cross-country comparison. Energy Procedia 2017, 140, 314–324. [CrossRef]
+Evins, R. A review of computational optimization methods applied to sustainable building design.
+Renew Sustain Energy Rev. 2013, 22, 230–245. [CrossRef]
+Ala-Juusela, M.; Crosbie, T.; Hukkalainen, M. Defining and operationalising the concept of an energy positive
+neighbourhood. Energy Convers Manag. 2016, 125, 133–140. [CrossRef]
+Rehman, H.; Reda, F.; Paiho, S.; Hasan, A. Towards positive energy communities at high latitudes. Energy
+Convers. Manag. 2019, 196, 175–195. [CrossRef]
+Amaral, A.R.; Rodrigues, E.; Rodrigues Gaspar, A.; Gomes, A. Review on performance aspects of Nearly
+Zero-Energy Districts. Sustain. Cities Soc. 2018, 43, 406–420. [CrossRef]
+Renewable Heating and Cooling-European Technology and Innovation Platform. 2050 Vision for a 100%
+Renewable Heating and Cooling in Europe. RHC-Platform. 2019. Available online: www.rhc-platform.org
+(accessed on 12 March 2020).
+European Environment Agency. Sustainability Transitions: Policy and Practice; Publications Office of the
+European Union: Luxembourg, 2019; pp. 81–82.
+TWG of the European Strategic Energy Technology (SET)-Plan on Action 3.2. SET Plan Action No
+3.2 Implementation Plan—Europe to Become a Global Role Model in Integrated, Innovative Solutions
+for the Planning, Deployment, and Replication of Positive Energy Districts. 2018. Available online:
+https://setis.ec.europa.eu/ (accessed on 30 March 2020).
+IRIS Smart Cities. Available online: https://irissmartcities.eu/ (accessed on 20 March 2020).
+Angelakoglou, K.; Nikolopoulos, N.; Giourka, P.; Svensson, I.L.; Tsarchopoulos, P.; Tryferidis, A.; Tzovaras, D.
+A Methodological Framework for the Selection of Key Performance Indicators to Assess Smart City Solutions.
+Smart Cities 2019, 2, 269–306. [CrossRef]
+Quijano, A.; Vasallo, A.; Gallego, M.; Moral, A.; Egusquiza, A. Deliverable 7.2: KPIs Definition. V1.0,
+WP7, T7.1, SmartEnCity H2020 Project, Grant Agreement No. 691883. July 2016. Available online:
+https://smartencity.eu/media/smartencity_d7_2_kpis_definition_v1.0.pdf (accessed on 24 April 2020).
+Karvonen, A.; Evans, J. Deliverable 2.1: Common Monitoring and Impact Assessment Framework.
+V2.0, WP2, T1, Triangulum H2020 Project, Grant Agreement No. 646578. February 2017. Available
+online: http://www.triangulum-project.eu/wp-content/uploads/2017/12/D2.1_Common_Monitoring_and_
+Impact_Assessment_Framework__V2.0_.pdf (accessed on 24 April 2020).
+Claesson, J.; Nilsson, A.; Palm, B.; Robert, M.; Shahrokni, H.; Solacolu, A.M.; Wallin, J. Evaluation Plan,
+Version 13.3; GrowSmarter H2020 Project; Ref. Ares (2017) 3094775. 9 May 2017. Available online:
+https://cordis.europa.eu/project/id/646456/results (accessed on 24 April 2020).
+Tryferidis, A.; Pramangioulis, D.; Kakaras, E.; Tsarchopoulos, P.; Nikolopoulos, N.; Salanova, J.M.;
+Chrysostomou, K.; Nooij, T.; David, C. IRIS Deliverable 1.1—Report on the list of selected KPIs for
+each Transition Track. Available online: https://irissmartcities.eu/ (accessed on 7 May 2020).
+Swan, G.L.; Ugursal, V.I. Modeling of end-use energy consumption in the residential sector: A review of
+modeling techniques. Renew. Sustain. Energy Rev. 2009, 13, 1819–1835. [CrossRef]
+Foucquier, A.; Robert, S.; Suard, F.; Stephan, L.; Jay, A. State of the art in building modelling and energy
+performances prediction: A review. Renew. Sustain. Energy Rev. 2013, 23, 272–288. [CrossRef]
+
+Smart Cities 2020, 3
+
+34.
+35.
+36.
+37.
+
+38.
+
+39.
+40.
+41.
+
+42.
+
+43.
+
+44.
+
+45.
+46.
+
+47.
+
+48.
+
+384
+
+Natural Resources Canada. Available online: https://www.nrcan.gc.ca/maps-tools-publications/tools/dataanalysis-software-modelling/retscreen/7465 (accessed on 15 March 2020).
+EnergyPLAN. Available online: https://www.energyplan.eu/ (accessed on 18 March 2020).
+Hellenic Statistical Authority. 2011 Population Housing-Census. Available online: https://www.statistics.gr/
+en/2011-census-pop-hous (accessed on 1 April 2020).
+Technical Chamber of Greece. Technical Directive 20701-3/2010—Climatic Data of Greek Regions, 3rd ed.
+(Text in Greek). Available online: http://portal.tee.gr/portal/page/portal/tptee/totee/TOTEE-20701-3-FinalTEE%203nd%20Edition.pdf (accessed on 7 May 2020).
+Municipality of Alexandroupolis. Sustainable Energy Action Plan of Municipality of Alexandroupolis, Greece
+(in Greek). Available online: https://mycovenant.eumayors.eu/docs/seap/3690_1365525155.pdf (accessed on
+7 May 2020).
+Ministry of Finance and Ministry of Environment, Energy and Climate Change. Regulation for the Energy
+Efficiency in Buildings (in Greek). Off. J. Greek Gov. 2017, B 2367, 23905–23924.
+European Parliament. Directive 2010/31/EU of the European Parliament and of the Council of 19 May 2010
+on the energy performance of buildings (recast). Off. J. Eur. Union 2010, 153, 13–35.
+Ministry for the Environment and Energy. National Plan for Increasing the Number of Nearly-Zero Energy
+Buildings. Available online: https://ec.europa.eu/energy/sites/ener/files/documents/greece_en_version_2017.
+pdf (accessed on 7 May 2020).
+Technical Chamber of Greece. Technical Directive 20701-1/2017—Analytical National Specifications of
+Parameters for the Calculation of the Energy Efficiency of Building and the Issuance of Energy Efficiency
+Certificate, 1st ed. (in Greek). Available online: http://portal.tee.gr/portal/page/portal/SCIENTIFIC_WORK/
+GR_ENERGEIAS/kenak/files/TOTEE_20701-1_2017_TEE_1st_Edition.pdf (accessed on 7 May 2020).
+Botsaris, P.; Lymperopoulos, K.; Giourka, P.; Bekakos, P.; Pistofidis, P.; Pechtelidis, A. Integration of Renewable
+Energy Technologies in Student Residences of Xanthi and Results of project REUNI. In Proceedings of the 11th
+National Conference on Renewable Energy Sources, Thessaloniki, Greece, 14–16 March 2018; Tsilingiridis, G.,
+Ed.; Institute of Solar Technology: Thessaloniki, Greece, 2018.
+Municipality of Alexandroupolis. Exploitation of Geothermal District Heating Network of Alexandroupolis in
+Antheia-Aristino (in Greek). Available online: https://www.alexpolis.gr/diagonismoi-prokirykseis/ (accessed
+on 27 November 2019).
+Climate. One Building. Available online: http://climate.onebuilding.org/ (accessed on 25 April 2020).
+Papakostas, K.; Mavromatis, T.; Kyriakis, N. Impact of the ambient temperature rise on the energy
+consumption for heating and cooling in residential buildings of Greece. Renew. Energy 2010, 35, 1376–1379.
+[CrossRef]
+Natural Resources Canada. Clean Energy Project Analysis—RETScreen Engineering and Cases Textbook,
+3rd ed. Available online: http://publications.gc.ca/collections/collection_2007/nrcan-rncan/M154-13-2005E.
+pdf (accessed on 7 May 2020).
+Jordan, D.C.; Kurtz, S.R. Photovoltaic Degradation Rates—An Analytical Review. Prog. Photovolt Res. Appl.
+2013, 21, 12–29. [CrossRef]
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

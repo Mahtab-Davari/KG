@@ -1,0 +1,1164 @@
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022 91–106
+
+Stakeholder management in PED projects: challenges and
+management model
+Juha-Antti Rankinena*, Sara Lakkalaa, Harri Haapasaloa and Sari Hirvonen-Kantolab
+a Industrial Engineering and Management, University of Oulu, P.O. Box 4300, 90014 Oulu, Finland
+b Oulu School of Architecture, University of Oulu, 90014 Oulu, Finland
+ABSTRACT
+
+Keywords
+
+The importance of stakeholder analysis and stakeholder management is magnified as project
+complexity increases. Complex projects can be characterized by uncertainties arising from
+emerging technologies and the involvement of various types of stakeholders and their interests.
+Positive Energy District (PED) projects are an example of such undertaking, coupling novel
+energy solutions with distinct stakeholders and their diverse positions, claims, and requirements
+pertaining to the project. In this study, our objective is to provide a stakeholder management
+framework for future PED projects. The qualitative case study follows the theory elaboration
+methodology and aims to formulate a conceptual stakeholder management framework for PED
+projects. Thus, our contribution focuses on expanding the domain of project stakeholder
+management by characterizing and validating it in a new, time-relevant project context.
+
+Positive Energy District;
+Inter-organizational collaboration;
+Project stakeholder management.
+
+1. Introduction
+A structural shift from an energy system that is based on
+finite energy sources, such as fossil fuels, toward a
+system that uses more renewable energy sources is considered “energy transition.” Historically, energy systems
+have been relatively centralized, that is, energy has been
+centrally produced in large power plants, transmitted
+into cities, and then distributed among the various consumers. Today, along with energy transition, energy
+systems are decentralizing and decarbonizing, which
+have given rise to a strong interest in local communities
+generating and supplying energy [1, 2]. To achieve the
+European energy and climate targets and ensure the
+attainment of the long-term vision for energy transition,
+urban development must move from individual building
+solutions towards Positive Energy Districts (PEDs) or
+other similar concepts [3]. A PED is a platform that consists of “buildings that actively manage the energy flow
+
+http://doi.org/10.54337/ijsepm.6979
+
+between them and the broader energy (electricity, heating, and cooling) and mobility systems by making optimal use of advanced materials, local renewables, storage,
+demand response, electric vehicle smart-charging and
+ICT” [4].
+As such, novel technological solutions and the relationships between the buildings and the entities residing
+in the district are being integrated [5]. Locally, the technological execution of an innovative PED solution
+requires intensive expertise from energy system designers and energy solution providers. Notably, besides
+­technological novelty, a PED project entails challenges
+arising from the complicatedness of the stakeholders
+involved. As a district development undertaking, a PED
+involves multiple municipality agencies concerned with
+the planning, development, and governance of city districts. The other involved parties are energy system
+designers, contractors, housing companies, business
+
+*Corresponding author – e-mail: juha-antti.rankinen@oulu.fi
+
+International Journal of Sustainable Energy Planning and Management Vol. 33 2022
+
+91
+
+Stakeholder management in PED projects: challenges and management model
+
+owners, customers, and local residents in the area that
+hitherto might not have had relations with each other.
+As PEDs are planned and implemented as projects,
+and due to the previously highlighted technological and
+relational complexities, project management serves as a
+critical step toward achieving desirable outcomes. As
+complexity heightens, the significance of project stakeholder management concurrently increases [6].
+Therefore, understanding the stakeholder environment
+and efficiently managing it would boost the chances of
+success [7]. With the intent to replicate to 100 cities by
+2025 [8], the success of early districts is key to catering
+to replications and to avoiding the emergence of opposition. The aforementioned premises serve as the principal
+motivations for this research.
+This study aims to explore stakeholder management
+in the context of PED projects and to develop new
+knowledge on how the project stakeholders of a PED
+project should be catered to. The goal is to contribute to
+the existing body of project stakeholder research and to
+seek practical implications for future PED projects and
+other similar endeavors. To address these research
+objectives, the following research questions were formulated.
+RQ1: How should stakeholders be managed in complex project settings?
+RQ2: What are the main challenges encountered in
+PED projects?
+RQ3: What are the main steps for stakeholder management in PED projects?
+This paper is organized as follows. We begin with a
+literature review that clarifies stakeholder management
+activities, and then we synthesize a generic framework
+for project stakeholder management, thus addressing the
+first research question. Next, we present our methodology for the empirical case research. We then provide
+descriptions for two parallel case projects in the same
+PED setting. Thereafter, key challenges are identified
+and described, thereby answering the second research
+question. Finally, based on both prior literature and the
+identified challenges, we present the main steps for
+stakeholder management in PED projects, and end with
+the discussion and conclusions.
+2. Project stakeholder approach
+Stakeholder management is one of the key areas of project management [9] whose central purpose is to enable
+and enhance management’s capabilities in making
+
+92
+
+informed strategic and operative decisions that cater to
+stakeholders’ interests and expectations [10, 11].
+Notably, the key issue in this domain arises from the
+identification and recognition of different stakeholders.
+Therefore, understanding the convoluted stakeholder
+environments of complex projects is crucial to attain
+success [7].
+The term “stakeholder” has been given several definitions in project management literature. One of the
+pre-eminent definitions is by Freeman [12], who stated
+that stakeholders include all organizations or individuals
+that can affect or be affected by the project. Narrower
+definitions highlight the nature of interest or claim that a
+stakeholder has on a project [13]. However, inclusions
+that are too narrow may result in some stakeholders
+being disregarded and their potential claims being overlooked [14]. Remarkably, in practice, the adoption of a
+wide array of definitions can result in near infinite stakeholders, resulting in additional challenges. In addition to
+stakeholder definitions, project management scholars
+have created various categorizations for stakeholders.
+One of the widely utilized classifications separates internal and external stakeholders. Internal stakeholders are
+formal members of the project group and, thus, are usually aligned with the project objectives [15]. By contrast,
+external stakeholders are not formal participants to the
+project, but they can affect or be affected by the project’s
+achievements and, hence, have vested interest in the
+project [16].
+2.1. Stakeholder prioritization
+Not all stakeholders deserve the same effort or endowment. Limited project resources make managing all
+stakeholders equally a problematic and unfavorable task
+[17]. The project entity and the management should
+focus attention where it is essential and prioritize those
+who have ultimate influence over the project. The stakeholder salience framework [18] enables this prioritization by classifying and ranking various stakeholder
+types according to their power, legitimacy, and urgency.
+Power is a stakeholder’s ability to bring about outcomes
+it desires [19]. Legitimacy is a stakeholder’s capacity to
+make sound claims perceived as desirable and appropriate within the socially constructed system of norms,
+values, and beliefs [18]. Urgency is the dynamism of a
+stakeholder or the ability to call immediate actions for
+its claims [18]. Depending on the possession and combination of these attributes, a typology for stakeholders
+can be formed. Stakeholders possessing all three are
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+Figure 1: Stakeholder assessment matrix [21]
+
+recognized as definitive stakeholders, whilst those with
+no or minimal number of attributes are considered least
+important for management and decision-making.
+Salience can vary during a project’s duration [18],
+implying that the hierarchical structure and prioritization
+can develop as the project moves forward.
+Olander [20] expanded stakeholder characterization
+by considering the impact level, probability to impact,
+and positioning toward the project, together with the
+saliency attributes, thereby fostering a more comprehensive stakeholder analysis. Aapaoja and Haapasalo [21]
+further conceptualized Olander’s approach into a stakeholder assessment matrix that categorizes stakeholders
+into different groups according to their salience and
+probability to impact or ability to contribute. The proposed framework conceptualizes the influence of stakeholders and helps in allocating resources where they are
+most appropriate.
+2.2. Integration and early involvement
+Generally, construction projects suffer from poor performance that manifests as time and cost overruns that are
+partially caused by the inability of project participants to
+work together effectively [22, 23]. Integration aims to
+facilitate inter-organizational collaboration which, in a
+project environment, can be regarded as a process
+whereby different organizations are linked together to
+work collaboratively toward the common objectives of
+
+the project [24]. Integration aids in aligning the objectives
+of various subprojects and supports the pursuit of common
+goals [25] rather than focusing on sub-optimization [26].
+One of the key activities to empower inter-organizational integration is the early involvement of relevant
+actors. This refers to the inclusion of stakeholders in the
+project from the earliest moments to altogether formulate the project objectives and determine the means by
+which these objectives will be reached [27]. The opportunities to influence project success are at their highest
+during the early stages of the project [28]. Late revisions
+are usually more complicated to implement and the
+associated costs are much higher [29]. Furthermore,
+unique or complex projects often require the collaborations of multiple private and public organizations in the
+development of the project and end-product. Therefore,
+the early involvement of reasonable stakeholders enables
+uniting the competencies of the project organization and
+choosing better solutions for the customer to ultimately
+deliver more value [30].
+Instituting integration and initiating early involvement
+may entail a multitude of challenges, including contractual complexity, lack of prior experience in collaborative
+project environments, and challenges to leadership in the
+form of deficient team-building efforts [31]. Project participants are often reluctant to invest in early project
+stages where uncertainties are at the h­ ighest level [32].
+Resistance to cultural change prevails as the biggest
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+93
+
+Stakeholder management in PED projects: challenges and management model
+
+Figure 2: Generic stakeholder management model for complex project settings
+
+b­ arrier to implementing and adopting early involvement,
+and the major cause of this resistance arises from a lack
+of understanding the concept and its benefits [33].
+2.3. Stakeholder engagement
+Stakeholder engagement has become the key concept
+describing how organizations practice the stakeholder
+theory [34]. While many definitions and descriptions
+exist, perhaps the most widely used is the one by
+Greenwood [35], which describes stakeholder engagement as practices that the organization undertakes to
+involve stakeholders with organizational activities in a
+positive manner. Stakeholder engagement helps the stakeholder network achieve a higher-quality collaboration,
+thereby increasing the economic sustainability of the
+project [36]. As the complexity of the project environment
+increases, so does the effort required for the stakeholder
+engagement activity to achieve its intended performance
+targets [7]. Stakeholder engagement is an iterative process
+throughout the project’s life cycle [37], and it should
+­commence during the earliest stages possible [38].
+2.4. Conceptual framework
+Our project stakeholder management framework based
+on literature research consists of six key activities:
+stakeholder identification, analysis, prioritization, early
+involvement, integration, and engagement. Effective
+project stakeholder management aims to unify stakeholders as a project organization working collaboratively toward project objectives to mitigate the silo
+mindset and sub-optimization and to synergize individual competencies to be able to choose the best solutions
+for a project. Notably, it is critical to create a stakeholder
+management model for PED projects, balancing even
+the contradictory requirements of separate stakeholders
+for the benefit of the project. The early involvement of
+
+94
+
+stakeholders engenders collaboration, which, in turn,
+facilitates mutual trust and communication and enables
+better results, performance, and value creation for the
+project [39, 40, 41].
+3. Research methodology
+This research started with an aim to understand stakeholder management for forthcoming PED projects and
+subsequently expand the body of research on managing
+stakeholders in complex inter-organizational projects. A
+forthcoming PED project enabled a case study approach,
+and we collected empirical data from two interconnected
+case projects that were embedded in the same PED. Our
+study followed the theory elaboration methodology. In
+theory elaboration, prior conceptual ideas and models
+are used as a basis for developing new theoretical
+insights [42, 43]. The case study approach was chosen
+for its feasibility for the theory elaboration method [44]
+and its suitability for practical implications within the
+specific context. Furthermore, a case study is an appropriate approach as the nature of the project is new and
+unique, requiring a detailed qualitative analysis. For this
+study, we began by drawing the general conceptual
+framework for managing stakeholders in complex projects, and then elaborated it to the context of PED projects for a more detailed illustration.
+Data for the case study were collected in 2020 using
+various methods to form a comprehensive understanding
+of the project’s background, important events, impacting
+actors, common objectives, and challenges encountered.
+Ten semi-structured interviews were arranged with representatives of relevant project partners. In addition, our
+case PED project meetings were participated in, enabling
+participatory observation. Memorandums of past meetings were also examined. The project’s EU level
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+Figure 3: Research methodology and research process
+Table 1: Main informants in the case project interviews
+Type of Data Collection
+
+Title
+
+Organization
+
+Interview
+
+Geodesist
+
+City
+
+Interview
+
+Urban planner
+
+City
+
+Interview
+
+Project manager
+
+City
+
+Interview
+
+Development manager
+
+City
+
+Interview
+
+Researcher, urban design and planning
+
+University
+
+Interview
+
+Principal scientist
+
+Research center
+
+Interview
+
+Development manager
+
+Energy company
+
+Interview
+
+Development engineer
+
+Energy company
+
+Interview
+
+Construction manager
+
+Housing company
+
+Interview
+
+Project engineer
+
+Grocery company
+
+d­eliverables, technical plans and drawings, related
+websites, newspaper articles and land use contracts
+­
+between project partners were likewise studied.
+The case analysis started with analyzing the case
+materials and forming an understanding of the cases’
+events and main stakeholder positions. Based on the
+collected data, timelines for both cases were formed to
+recognize major occurrences and the actions leading to
+them. Afterward, detailed case descriptions covering the
+key actors and events of the cases were written.
+Stakeholder salience assessment was constructed to
+illustrate stakeholder positioning in the case projects.
+During the empirical analysis of the data, the focus of
+examinations was on deployed stakeholder management
+practices and stakeholder management related issues.
+The aim of the empirical analysis was to identify the
+differences, shortcomings, and additions compared with
+the presented theoretical framework.
+4. Positive energy districts
+By a definition, a PED consists of “buildings that
+actively manage the energy flow between them and the
+
+broader energy (electricity, heating and cooling) and
+mobility systems by making optimal use of advanced
+materials, local renewables, storage, demand response,
+electric vehicle smart-charging and ICT” [4]. It can be
+described as an urban neighborhood working toward a
+surplus production of renewable energy with annual net
+zero energy import and net zero CO2 emissions. PED
+projects seek to implement energy transition, optimize
+the amount of energy produced locally, and boost the use
+of renewable energy, waste recovery technologies, and
+innovative storage solutions to reduce greenhouse gas
+emissions. The impacts of a PED can also be recognized
+at social and economic levels with the creation of new
+business models and jobs, attraction of investors, and
+increase of the citizens’ involvement in energy issues
+through citizen engagement.
+PED projects can be characterized as complex
+inter-organizational projects because they apply new
+technologies with relatively low maturity levels, combine various stakeholders with different backgrounds,
+and require the formation of new collaborative business
+models. PEDs require aligning multiple city departments’ and other stakeholders’ processes and objectives
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+95
+
+Stakeholder management in PED projects: challenges and management model
+
+Figure 4: PED project phases in our case projects
+
+by overcoming the traditional silo mindset in collaborative work. However, managing the interests and
+­constraints of both internal and external stakeholders of
+a PED requires a high degree of coordination.
+In our case projects, an initial plan for the optimal
+path of planning and implementing PEDs aiming to harmonize cities’ spatial planning with energy planning
+(Figure 4) was created. At the beginning of a PED, a
+thorough diagnosis of the city must be made to clarify
+and assess the state of city plans, energy demand, and
+long-term visions. Potential areas should be researched
+and compared to identify the optimal district location
+and set geographical boundaries for the PED. The later
+phases rearrange the focus toward citizen participation
+and the needed technologies and energy solutions.
+Barriers and enablers for the PED project should be­
+recognized and evaluated to identify any political,
+­economic, social, technological, environmental, or legal
+constraints that require specific actions. The planning
+process is completed with a verifying calculation of the
+annual energy balance and the formation of detailed
+plans for the technical solutions.
+4.1. Case descriptions
+The case project is a PED project taking place in Oulu,
+Finland. It is a part of an EU Horizon 2020 Smart Cities
+and Communities Lighthouse innovation project entitled
+MAKING-CITY – Energy efficient pathway for the city
+transformation (2018–2023). Herein, the PED concept is
+
+96
+
+demonstrated, tested, and validated in two lighthouse
+cities. During the project, the aim is also to replicate the
+demonstrated PED solutions in six follower cities by
+utilizing the knowledge gathered in the pilot projects.
+For the Oulu PED, there are seven local partners and an
+EU project level coordinator planning and implementing
+the PED as a collaboration.
+The PED in Oulu will be consisting of at least a grocery store and multiple apartment buildings in its vicinity. These buildings will be sharing an energy network
+infrastructure that works around an existing district
+heating network. The buildings are equipped with
+energy systems utilizing new technologies to generate
+renewable energy and heat to be transferred between the
+PED actors. The PED partners and their roles in the
+project are presented in Table 2. The two cases
+are sub-projects under the PED project of Oulu. The two
+are studied and described separately to gain more
+­comprehensive insights into the PED and its challenges.
+4.1.1. Case 1
+The first case revolves around a collaboration between
+the City-owned Rental Housing Company and the Cityowned Energy Company in the PED project. The
+Housing Company takes part in the PED project by
+building two new apartment buildings and retrofitting an
+existing one to fit the PED energy network. The energy
+solutions for these buildings are planned and implemented as a collaboration with the Energy Company.
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+Table 2: Partner organizations’ roles in our case PED project
+Partner Organization
+
+Role in the PED Project
+
+Fundacíon Cartif, Spanish Nonprofit Research Institution
+(Coordinator)
+
+Coordinating at the EU project level, reporting, managing the entity
+
+City of Oulu (Lighthouse City)
+
+Decision making and enabling, urban and land use planning,
+coordinating at the local level, organizing meetings
+
+University of Oulu (Technical Partner)
+
+Recognizing the idea of a PED in Oulu, gathering the project group,
+conducting research, supporting partners
+
+VTT Technical Research Centre of Finland, a Finnish
+Government-owned Nonprofit Technology Research Center
+(Technical Partner)
+
+Innovative energy systems design, managing the technical planning,
+implementing a monitoring system
+
+City-owned Energy Company (Energy Company)
+
+Owner and operator of district heating network, planning, investing,
+and implementing the related energy systems, as well as measuring and
+maintaining them
+
+Finnish Grocery and Restaurant Cooperative (Grocery
+Company)
+
+Building a grocery store that produces heat for the PED network
+
+City-owned Rental Housing Company (Housing Company)
+
+Building two new apartment buildings and renovating one apartment
+building with innovative energy solutions, enabling monitoring of PED
+solutions
+
+Private Construction Company (Construction Company)
+
+Building (expectedly) two new apartment buildings with innovative
+energy solutions, main constructor of the grocery store
+
+The stakeholder network of Case 1 is presented in the
+stakeholder assessment matrix in Figure 5.
+The EU project application formation was conducted with the whole project consortium and can be
+described as the planning phase of the PED project.
+This phase consisted of meetings with the whole
+
+p­roject group, smaller gatherings with some of the
+actors, and emailing information back and forth. The
+Housing Company planned their own premises in
+the PED network, the energy solutions used in them
+and the required investments together with the Energy
+Company.
+
+Figure 5: Case 1 stakeholder network
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+97
+
+Stakeholder management in PED projects: challenges and management model
+
+When the application was accepted and the project
+officially started, the Energy Company began to rethink
+the centralized energy production system they had originally planned and agreed upon with the project partners. The plans would have required a low temperature
+heat distribution network infrastructure besides the district heating network already existing in the area. For
+various financial and technical reasons, constructing an
+overlapping infrastructure solely for the PED project’s
+purposes no longer seemed like the most feasible
+­decision.
+The Energy Company began changing the plans to
+include the existing district heating network by replacing one centralized heat pump with four smaller ones
+that would operate in different buildings of the PED.
+This fundamental change caused close to a year-long
+delay in the project, as the systems for each PED building had to be rethought and the investment financials
+recalculated. After the new solutions were planned, a
+competent System Supplier was chosen to deliver
+energy solutions.
+As of this writing, the project is at construction and
+implementation phase. As the City of Oulu wanted to
+ensure a diverse housing stock in the area, the land use
+agreements implementing the regeneration plan for the
+wider urban neighborhood included a schedule that
+allowed for the private Construction Company to begin
+non-subsidized construction and selling before the CityOwned Housing Company. This delay posed an inconvenience for the Energy Company, as their preferred
+option would have been a swifter schedule.
+The final collaborative business model concerning
+the energy solutions and heat transfer between the
+Housing Company and the Energy Company is still in
+progress. The basis of the energy system is in the district
+heating network owned by the Energy Company, but the
+new equipment will be operating in the Housing
+Company’s buildings, making them the platform of
+energy production. Both companies have invested in the
+shared systems, and both utilize each other’s energy and
+surplus heat in their own energy processes. This arrangement makes the pricing and compensation policies
+­complicated.
+4.1.2. Case 2
+The second case is an analogical case description with
+the prior one. Its events take place in the same PED
+project in Oulu but are focused on the planning and
+building of a grocery store that works as a central energy
+
+98
+
+producer in the PED network. The participants of this
+case are presented in Figure 6.
+Once the PED project group began the technical planning of the PED entity, the Grocery Company started to
+plan its store’s energy solutions in detail together with
+the Energy Company. The store was planned to have
+versatile energy-efficient solutions, such as a carbon
+dioxide-based refrigeration system, energy-efficient
+LED lighting, condensing heat recovery, and solar
+panels. The produced energy would cover the store’s
+energy demand and the surplus would be transferred to
+other PED buildings through a low-temperature heat
+distribution network that would be constructed during
+the project.
+Although the grocery store was built a lot earlier than
+the rest of the PED buildings, the upcoming energy network had to be taken into consideration during the construction of the store. The store with its energy systems
+was constructed with the Construction Company as the
+main contractor. Multiple subcontractors hired by the
+Grocery Store and the Energy Company worked with
+the store’s HVAC, electricity, refrigeration appliances,
+and energy systems.
+Shortly after the official launch of the EU project, the
+Energy Company realized that the original plan with the
+low-temperature heat distribution network was not executable. The whole project group had to move from the
+agreed plan to a decentralized system that worked along
+the existing district heating network. As the grocery
+store had been constructed according to the original
+plans, the modification ended up being an inconvenience for the Grocery Company. Some of the energy
+systems had to be replaced with different ones, which
+resulted in technical difficulties for the transfer of the
+produced energy from the store into the district heating
+network. The low-temperature heat distribution network
+would have been the preferred choice with more benefits
+and efficiency for the Grocery Company.
+At the time of our research data collection, the
+Grocery Company and the Energy Company do not have
+a contract on their shared business model yet. Instead,
+they rely on mutual trust and a verbal agreement. The
+basis of the business model is that the Grocery Company
+produces energy for the district heating network owned
+by the Energy Company and should receive some compensation. The fundamentals of the pricing politics are
+still under discussion and both actors want to keep track
+of and learn more about the energy amounts and
+­efficiencies before final agreements are drawn up.
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+Figure 6: Case 2 stakeholder network
+
+4.2. Challenges in stakeholder mapping and
+management
+The identification of influential stakeholders in the project is critical for success. While no distinct stakeholder
+management process or a designated manager for stakeholder activities was in place, the project group and
+representatives managed in conjunction to identify and
+integrate all relevant internal stakeholders of the project.
+External stakeholders were identified and approached by
+hosting multiple participatory urban planning events and
+by asking public opinions before the EU and PED project preparation as the city was planning for the regeneration of the district. Nonetheless, the energy-planning
+aspect was not included in the participatory urban planning, and many of the interviewed participants felt that
+the informing and incorporation of external stakeholders
+was not sufficient and should have been given more
+effort. Lacking the official stakeholder management,
+there was no clear perception which stakeholders and
+claims should be prioritized. Often enough, the interviewees felt that those with the loudest voice got their
+will though.
+The ambiguity was further heightened by the fact that
+management was divided into two levels. At the EU
+project level, the project was managed by the Coordinator,
+while at the local level by the Project Manager. At times,
+the participants perceived the EU project level management to be problematic due to the bureaucracy involved.
+
+Due to the separation of management, decisions were
+more difficult to change, inducing inflexibility to the
+project. At the local level, the project utilized a shared
+leadership approach, rather than a traditional strict management one. This arrangement received varied feedback. Some felt that in a project of this type, it was the
+only feasible method, while others noted its engendered
+unclarity and would have welcomed a more coordinated
+and sturdier managerial grip. Nevertheless, due to earlier
+collaborations between a few of the local project participants, common trust was still present within the project
+organization, enabling smooth cooperation and decision
+making. Still, it was noticeable that the shared leadership style with no strict or clear responsibilities facilitated a rather uncontrolled management of various
+project participants’ requirements at some points of the
+project.
+One of the preeminent challenges the project faced
+was when a distinct revision had to be made to change
+the plans from a centralized energy system to a decentralized one. The change was initiated by the Energy
+Company and stated as necessary. This instilled uncertainty and inconvenience among the project partners.
+However, the project group managed the adjustment
+well, and many a partner recognized such unpredictability as inevitability in a long-lasting novel project.
+The uncertainty within the open EU project call was
+also acknowledged. Not all parties were willing to invest
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+99
+
+Stakeholder management in PED projects: challenges and management model
+
+more effort to a project of which funding was not certain
+yet. Simultaneously, others required and demanded a
+higher degree of commitment from the rest. The participants felt that a deeper commitment could have made
+the EU project application phase easier. It was also noted
+that the challenges in the application phase could have
+been reduced with clearer roles and responsibilities
+among the project participants.
+The project lacked a shared working location, which
+could have made the project environment and progress
+clearer for many. Instead, shared virtual workspaces
+were created for the project. As per the interviewees,
+virtual workspaces are not intended to replace a shared
+workspace and unfortunately lacked further utilization
+for collaborative purposes beyond project documentation sharing. The lack of a shared environment conjoined with diverse stakeholder groups may have given
+rise to disparate perceptions about the project. For some,
+the project had the position of being a pioneering
+research project. For others, it was perceived most as a
+daily construction business. The variety of the perceptions and goals, while aligned at the broader level,
+induced a burden for the project stakeholders. Clearer
+roles and more distinctly articulated project objectives
+could have granted remedy.
+The main challenges encountered in our case projects
+can be summarized as lack of definite stakeholder
+
+a­ nalysis and prioritization, a feeble integration toward
+an inter-organizational project entity, sluggish decision
+making, technological redevelopment, unwillingness for
+early commitment, and incoherent coordination of
+responsibilities.
+4.3. PED stakeholder management model
+Integrated energy and spatial planning, optimized
+land use agreements, and detailed plans
+The empirical study identified detailed urban plans and
+land use agreements as key preconditions for the PED
+project. Detailed plans outline the course of urban development in the neighborhood in the form of determining
+buildings’ and constructs’ functions, sizes, locations, and
+other characteristics, such as plans for transportation,
+public and commercial services, and retaining appropriate recreation areas. Land use agreements determine
+how the owners or tenants of the properties will execute
+the detailed plans for the area. Thus, these plans lay the
+foundation and baseline for the PED project. These
+plans also determine the actors of the PED and act as
+initiators and enablers for PED projects.
+In both cases, the detailed plans and land use agreements were prepared before acknowledging the prospects of PED projects in the area. Thus, the
+implementation of the PED in the area was not a succession to a systematic planning. Rather, it was fitted to
+
+Figure 7: Stakeholder management model of a PED
+
+100
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+pre-existing requirements and agreements. The findings
+suggest that such a case can cause multiple challenges
+for the project implementation. In an optimal scenario
+for future cases, integrated energy and spatial planning
+approach should account for future PED prospects and
+incorporate infrastructure readiness for novel renewable
+energy solutions.
+Stakeholder analysis and prioritization
+A PED project involves multiple stakeholders that have
+a central part in accomplishing project tasks and play a
+crucial role in the overall project success. Due to the
+variety of stakeholders coming from different industries
+with various backgrounds and connecting the goals of
+private businesses, plans of public institutions, and
+desires of future residents, the role of stakeholder management is emphasized. It is worth mentioning that
+stakeholder management processes are needed to
+improve the project management’s understanding of the
+involved stakeholders and their needs. Stakeholder analysis should be conducted to unveil information about the
+expectations and requirements that the different stakeholders have about the project to help management
+come up with informed decisions and to support the
+project partners. The key stakeholder analysis activities
+that should be included are identification, classification,
+and prioritization of PED stakeholders. The first objective should be to identify all constituents who enable the
+project, affect the project’s success, or who should be
+further analyzed. Once these stakeholder groups
+are identified, their importance to the project should be
+analyzed and their capability to influence the project
+should be evaluated.
+Early involvement of relevant stakeholders
+Stakeholders should be involved early on in the PED
+discussions and planning. They should also be integrated
+in the detailed energy systems design and investment
+planning conducted in the early stages of a PED project.
+This would ensure a more accurate and efficient planning, decrease costly revisions in later stages and
+enhance the collaboration and integration among the
+project participants. The three key focus areas are 1)
+enabling commitment, trust, and collaboration 2) clarification of common project objectives, and 3) finalization
+of technical solutions, investments, and schedules.
+Management of collaboration and communication
+A PED combines multiple stakeholders working together
+toward a mutual goal, with each simultaneously
+­maintaining its own objectives in the project. Managing
+
+this expansive combination of demands, interests, and
+claims requires a high level of coordination from the
+project management side. A project manager with
+clearly delineated responsibilities is essential to coordinate the collaborations of project partners and to ensure
+progress toward the attainment of the common goals.
+The project manager leads the direction of collaboration
+and collaborative decision making. To foster an efficient
+and collaborative project environment, open communication should be practiced. Regular meetings with clear
+agendas are a practical way to keep all partner organizations informed. Mutual trust is one of the cornerstones
+of collaboration, and it requires sophisticated effort,
+especially if the partnering entities have no prior
+­relationships.
+Clarification of ecosystem structure and business
+models
+An additional complicating element to a PED project is
+devising and agreeing on ecosystem structures and business models regarding energy production. The groups of
+businesses and entities forming the completed district
+form a new cooperated energy ecosystem, linking the
+participants together. This new PED ecosystem can be
+regarded as a new entity established by adjusting
+the pre-existing business models of the partners. If the
+structure and detailed agreements of the ecosystem are
+left open ended or only agreed upon at the moment of
+completion, unnecessary uncertainty may emerge during
+the project. Such include energy flow between the entities, investments for the equipment, compensations paid
+for the energy produced, and the maintenance requirements and responsibilities for the systems. Therefore, it
+is critical to plan the principles in such a way that they
+are beneficial for both the individual organizations and
+the whole ecosystem. Making an unequivocal business
+model and structure for an entity is problematic, as multiple actors exchange energy back and forth. Further
+challenges exist in different legislations, whereby taxation and energy transmission costs may be applied
+repeatedly. In order to implement new, optimized and
+energy-efficient business models that endorse sustainable development, legislations concerning energy production and transmission may require updating.
+Involvement of local residents
+An increasingly important part of stakeholder management is the acknowledgement and engagement of external
+stakeholders. In the PED context, these external stakeholders are mainly local neighboring residents and future
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+101
+
+Stakeholder management in PED projects: challenges and management model
+
+residential customers. In the case of the Oulu PED, being
+based in the district heating network that is developed as
+part of a public infrastructure and joined by housing cooperatives, the citizens are not vital for PED project implementation but they certainly are for reaching an energy
+surplus during the PED use. If these stakeholder groups
+are not properly involved and embedded in the project,
+they may end up opposing it. Their involvement aims to
+convey information and understanding about the project
+and its purpose to these stakeholder groups. A more comprehensive approach should involve participatory planning regarding external stakeholders’ preferences for
+living conditions and energy solutions. When the end-users of the PED project are heard, project outcomes are
+more likely to be satisfactory for them. Explaining and
+informing the purpose of a PED may also increase the
+interest and demand for services and housing for those
+sharing the values of sustainability and decrease any
+potential confusion that the project may cause.
+5. Conclusions
+A PED is characterized by its convoluted stakeholder
+environment. The sheer number of project stakeholders
+in the district development project can become substantial and the variety of involved actors may be considerable. Together with the demand for energy-related
+technical requirements, this calls for a degree of collaboration that goes beyond traditional project delivery.
+Furthermore, employment of new technologies entails
+new types of parties being involved into project environment. With these major characteristics present, we
+emphasize the crucial role of stakeholder analysis and
+management for the success of a PED project.
+The vast array of stakeholders and their interests need
+to be carefully understood and balanced to create a
+viable working environment and to form an integrated
+project team to undertake these nontraditional district
+development projects. Integration and early involvement
+improve the chances of project success through mutual
+trust building and synergetic problem solving, as similarly noted by prior literature assessing complex projects
+[e.g., 25, 27]. Distinct to a PED, a few key actions are
+identified and described. Unique to the PED project
+context are the aspects of integrated energy and spatial
+planning, optimized land use agreements, and detailed
+urban plans. In addition, the initial step of the project
+phases carries significance, as the land use agreements
+and detailed urban plans may work as enablers or
+
+102
+
+l­imiters of the success of a PED. Ecosystem structure
+plays another significant and rather unique part in a PED
+project. Conjoining the new energy ecosystem into
+existing business models requires sophisticated planning
+and agreements. Finally, the involvement of local residents in the upcoming PED area is crucial for PEDs to
+reach their energy targets. Based on these findings, we
+propose a new stakeholder management framework
+(Figure 7) targeted for PED projects.
+5.1. Scientific implications
+The findings of this research are in agreement with
+many principles of stakeholder literature. Our findings
+align with the stakeholder approach [12] for project success. The findings also support the advantage gained by
+early involvement [27] and stakeholder prioritization
+[18, 20, 21] in the context of PED projects. Studying a
+PED project serves the project stakeholder management
+research, as it represents a complex inter-organizational
+project that is characterized by the simultaneous engagement of various stakeholders with vastly different backgrounds, and objectives, and the involvement of new
+technologies, concepts, and business models.
+Furthermore, this paper contributes to the time-relevant and growing body of research addressing the transition toward next generation district energy systems
+(see e.g., [45, 46, 47]). Local energy transitions play a
+significant part in achieving set sustainability and
+carbon neutralism objectives [45], and PEDs are one of
+the meaningful pathways for implementing these transitions. Our approach strongly supports Butu and Strachan
+[45] in wide stakeholder engagement in early project
+planning and is aligned with Krog et al. [47] in highlighting the importance of end-user involvement and
+engagement in enabling successful technological transition for district energy systems.
+5.2. Managerial implications
+To achieve a desirable project performance for PED
+formation and implementation, management needs to
+incorporate a stakeholder mindset. The findings offer
+reasoning and evidence on the importance of stakeholder understanding and management in upcoming
+PED projects. Understanding the distinctive characteristics and stakeholder dynamics of a PED environment
+enables management to focus appropriate resources and
+efforts to the most crucial areas.
+Besides PEDs, the findings offer utilization in other
+forms of inter-organizational energy related projects in
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+urban environments. The emphasized issues remain the
+same regardless of the specific environment: the influence of urban planning and land use agreements, the role
+of management, stakeholder behavior, communication
+across stakeholder groups, and the challenges initiated
+by new shared business models.
+5.3. Limitations and further research areas
+Being an innovation project, the PED concept and project was studied under specific circumstances. The case
+project took place within the MAKING-CITY project.
+Thus, some of the partnering organizations were able to
+obtain EU funding for their investments. As this may not
+be the case in upcoming PEDs, stakeholder saliency
+findings, for example, may not be directly applicable in
+future PED projects. Additionally, most of the project
+actors knew each other well from earlier collaborations.
+This enabled particularly easy decision making and collaboration in the endeavor, which may distort the implications for upcoming projects. In future PEDs, forming
+rather complex ecosystem structures may prove to be a
+more challenging feat if a sufficient degree of mutual
+trust between the participants has not been reached. The
+city’s role in PEDs may also vary from project to project
+depending on the location. Therefore, the results may
+not be directly suitable for all PEDs; rather, they may
+server as guidelines as to what factors affect the stakeholder network of PEDs.
+Being an innovation project and part of a larger development scheme, the presence of research interests may
+distort parts of the findings. Validating studies could be
+initiated in future PED projects to confirm the findings
+in a more independent, market-driven environment.
+Acknowledgements
+This project has received funding from the European
+H2020 Research and Innovation program under the
+Grant Agreement n°824418. The content of this document reflects only the author’s view. The European
+Commission is not responsible for any use that may be
+made of the information it contains.
+
+References
+[1]
+
+Goldthay A. Rethinking the governance of energy infrastructure:
+Scale, decentralization and polycentrism. Energy Research &
+Social Science 1 (2014) p 134-140. http://dx.doi.org/10.1016/j.
+erss.2014.02.009
+[2] Verbong G, Geels F. The ongoing energy transition: Lessons
+from a socio-technical, multi-level analysis of the Dutch
+electricity system (1960-2004). Energy Policy 35(2) (2007) p
+1025-1037. http://dx.doi.org/10.1016/j.enpol.2006.02.010
+[3] Fitzgerald J, Lenhart J. Eco-districts: can they accelerate urban
+climate planning? Environment and Planning C: Government
+and Policy 34(2) (2016) p 364-380. http://dx.doi.
+org/10.1177/0263774X15614666
+[4] European Commission, Directorate-General for Research and
+Innovation, Joint Research Centre. The strategic energy
+technology (SET) plan. Luxembourg: Publications Office of
+the European Union (2019). https://data.europa.eu/
+doi/10.2777/293881
+[5] Clemente, C, Civiero, P, Cellurale, M. Solutions and services
+for smart sustainable district: an innovative approach in KPI to
+support transition. International Journal of Sustainable Energy
+Planning and Management 24 (2019) p 95-106. http://dx.doi.
+org/10.5278/ijsepm.3350
+[6] Aaltonen K, Kujala J, Oijala T. Stakeholder salience in global
+projects. International journal of project management 26(5) (2008)
+p 509-516. http://dx.doi.org/10.1016/j.ijproman.2008.05.004
+[7] Aaltonen K, Kujala J. Towards an improved understanding of
+project stakeholder landscapes. International Journal of Project
+Management 34(8) (2016) p 1537-1552. http://dx.doi.
+org/10.1016/j.ijproman.2016.08.009
+[8] European Commission, Directorate-General for Energy, Joint
+Research Centre. SET plan delivering results: the implementation
+plans: research & innovation enabling the EU’s energy
+transition. Luxembourg: Publications Office of the European
+Union (2018) https://data.europa.eu/doi/10.2833/109890
+[9] Turkulainen V, Aaltonen K, Lohikoski P. Managing Project
+Stakeholder Communication: The Qstock Festival Case. Project
+Management Journal 46(6) (2015) p 74-91. http://dx.doi.
+org/10.1002/pmj.21547
+[10] Aaltonen K. Stakeholder management in international projects.
+Ph.D. Thesis, Espoo: Aalto University; 2010. http://urn.fi/
+URN:ISBN:978-952-60-3344-0
+[11] Aaltonen K, Kujala K. A project lifecycle perspective on
+stakeholder influence strategies in global projects. Scandinavian
+Journal of Management 26(4) (2010) p 381-397. http://dx.doi.
+org/10.1016/j.scaman.2010.09.001
+[12] Freeman RE. Strategic management: A stakeholder approach.
+Boston, MA: Pitman; 1984. ISBN:978-027-30-1913-8
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+103
+
+Stakeholder management in PED projects: challenges and management model
+
+[13] Chinyio EA, Akintoye A. Practical approaches for engaging
+stakeholders: Findings from the UK. Construction Management
+and Economics 26(6) (2008) p 591-599. http://dx.doi.
+org/10.1080/01446190802078310
+[14] Donaldson T, Preston LE. The stakeholder theory of the
+corporation: Concepts, evidence, and implications. Academy of
+management Review 20(1) (1995) p 65-91. http://dx.doi.
+org/10.5465/amr.1995.9503271992
+[15] Beringer C, Jonas D, Gemünden HG. Establishing project portfolio
+management: An exploratory analysis of the influence of internal
+stakeholders’ interactions. Project Management Journal 43(6)
+(2012) p 16-32. http://dx.doi.org/10.1002/pmj.21307
+[16] Eesley C, Lenox MJ. Firm responses to secondary stakeholder
+action. Strategic Management Journal 27(8) (2006) p 765-781.
+http://dx.doi.org/10.1002/smj.536
+[17] Greenley GE, Hooley GJ, Broderik HA, Rudd J. Strategic
+planning differences among different multiple stakeholder
+orientation profiles. Journal of Strategic Marketing 12(3) (2004)
+p 163-182. http://dx.doi.org/10.1080/0965254042000262887
+[18] Mitchell RK, Agle BR, Wood DJ. Toward a theory of
+stakeholder identification and salience: Defining the principle
+of who and what really counts. Academy of Management
+Review 22(4) (1997) p 853-886. http://dx.doi.org/10.5465/
+amr.1997.9711022105
+[19] Salancik GR, Pfeffer J. The bases and use of power in
+organizational decision making: The case of a university.
+Administrative Science Quarterly 19(4) (1974) p 453-473.
+http://dx.doi.org/10.2307/2391803
+[20] Olander S. Stakeholder impact analysis in construction project
+management. Construction Management and Economics 25(3)
+(2007) p 277-287. http://dx.doi.org/10.1080/01446190600879125
+[21] Aapaoja A, Haapasalo H. A framework for stakeholder
+identification and classification in construction projects. Open
+Journal of Business and Management 2(1) (2014) p 43-55.
+http://dx.doi.org/10.4236/ojbm.2014.21007
+[22] Baiden BK, Price ADF, Dainty ARJ. The extent of team
+integration within construction projects. International Journal
+of Project Management 24(1) (2006) p 13-23. http://dx.doi.
+org/10.1016/j.ijproman.2005.05.001
+[23] Evbuomwan NFO, Anumba CJ. An integrated framework for
+concurrent life-cycle design and construction. Advances in
+engineering software 29(7-9) (1998) p 587-597. http://dx.doi.
+org/10.1016/S0965-9978(98)00024-6
+[24] Hietajärvi AM, Aaltonen K, Haapasalo H. Managing integration
+in infrastructure alliance projects. International Journal of
+Managing Projects in Business 10(1) (2017) p 5-31. http://
+dx.doi.org/10.1108/IJMPB-02-2016-0009
+[25] Pekkinen L, Kujala J. Collaborative meeting as an integrative
+mechanism in a multinational investment project. Technology
+
+104
+
+[26]
+
+[27]
+
+[28]
+
+[29]
+
+[30]
+
+[31]
+
+[32]
+
+[33]
+
+[34]
+
+[35]
+
+[36]
+
+and Investment 5(1) (2014) p 45-55. http://dx.doi.org/10.4236/
+ti.2014.51006
+Matthews O, Howell GA. Integrated project delivery an
+example of relational contracting, Lean Constructing Journal
+2(1) (2005) p 46-61. https://leanconstruction.org/uploads/wp/
+media/docs/lcj/V2_N1/LCJ_05_003.pdf
+Aapaoja A, Herrala M, Pekuri A, Haapasalo H, The
+characteristics of and cornerstones for creating integrated
+teams. International Journal of Managing Projects in Business
+6(4) (2013) p 695-710. http://dx.doi.org/10.1108/IJMPB-092012-0056
+Möttönen M, Härkönen J, Belt P, Haapasalo H, Similä S.
+Managerial view on design for manufacturing. Industrial
+Management & Data Systems 109(6) (2009) p 859-872. http://
+dx.doi.org/10.1108/02635570910968081
+Engwall M. The futile dream of the perfect goal. In: SahlinAndersson K, Söderholm A, editors. Beyond Project
+Management. Copenhagen Business School Press; 2002. p 261277. ISBN: 978-87-630-0107-6
+Lahdenperä P. Making sense of the multi-party contractual
+arrangements of project partnering, project alliancing and
+integrated project delivery. Construction Management and
+Economics 30(1) (2012) p 57-79. http://dx.doi.org/10.1080/01
+446193.2011.648947
+Saukko L, Aaltonen K, Haapasalo, H. Inter-organizational
+collaboration challenges and preconditions in industrial
+engineering projects. International Journal of Managing
+Projects in Business 13(5) (2020) p 999-1023. http://dx.doi.
+org/10.1108/IJMPB-10-2019-0250
+O’Connor, JT, Miller SJ. Barriers to constructability
+implementation. Journal of Performance of Constructed
+Facilities 8(2) (1994) p 110-128. https://doi.org/10.1061/
+(ASCE)0887-3828(1994)8:2(110)
+Song L, Mohamed Y, AbouRizk, SM. Early contractor
+involvement in design and its impact on construction schedule
+performance. Journal of Management in Engineering 25(1)
+(2009) p 12-20. http://dx.doi.org/10.1061/(ASCE)0742597X(2009)25:1(12)
+Kujala J, Sachs S. The Practice of Stakeholder Engagement. In:
+Harrison, JS, Barney JB, Freeman RE, Philips RA, editors. The
+Cambridge Handbook of Stakeholder Theory. Cambridge
+University Press; 2019, p. 227-241. http://dx.doi.
+org/10.1017/9781108123495.014
+Greenwood M. Stakeholder engagement: beyond the myth of
+corporate responsibility. Journal of Business Ethics 74(4) (2007)
+p 315-327. http://dx.doi.org/10.1007/s10551-007-9509-y
+Bal M, Bryde D, Fearon D, Ochieng E. Stakeholder engagement:
+achieving sustainability in the construction sector. Sustainability
+5(2) (1013) p 695-710. http://dx.doi.org/10.3390/su5020695
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Juha-Antti Rankinen, Sara Lakkala, Harri Haapasalo and Sari Hirvonen-Kantola
+
+[37] Jeffery N. Stakeholder engagement: a road map to meaningful
+engagement. Doughty Centre for Corporate Responsibility,
+Cranfield School of Management; 2009. https://www.
+fundacionseres.org/lists/informes/attachments/1118/
+stakeholder%20engagement.pdf
+[38] Yang J, Shen GQ, Ho M, Drew DS, Chan APC. Exploring
+critical success factors for stakeholder management in
+construction projects. Journal of Civil Engineering and
+Management 15(4) (2009) p 337-348. http://dx.doi.
+org/10.3846/1392-3730.2009.15.337-348
+[39] Aapaoja A, Malvalehto J, Herrala M, Pekuri A, Haapasalo H.
+The level of stakeholder integration – Sunnyvale case.
+Proceedings for the 20th Annual Conference of the International
+Group for Lean Construction (2012). https://www.researchgate.
+net/publication/265177402_The_level_of_stakeholder_
+integration_-_Sunnyvale_case
+[40] Ghassemi R, Becerik-Gerber B. Transitioning to integrated
+project delivery: potential barriers and lessons learned. Lean
+Construction Journal (2011) p 32-52. https://leanconstruction.
+org/media/docs/lcj/2011/LCJ_11_sp3.pdf
+[41] Ibrahim KI, Costello SB, Wilkinson S. Key practice indicators of
+team integration in construction projects: a review. Team
+
+[42]
+
+[43]
+
+[44]
+
+[45]
+
+[46]
+
+Performance Management: An International Journal 19(3/4)
+(2013) p 132-152. http://dx.doi.org/10.1108/TPM-10-2012-0033
+Fisher G, Aguinis H. Using theory elaboration to make theoretical
+advancements. Organizational Research Methods 20(3) (2017) p
+438-464. http://dx.doi.org/10.1177/1094428116689707
+Lee TW, Mitchell TR, Sablynski CJ. Qualitative research in
+organizational and vocational psychology, 1979-1999. Journal
+of Vocational Behavior 55(2) (1999) p 161-187. http://dx.doi.
+org/10.1006/jvbe.1999.1707
+Ketokivi M, Choi T. Renaissance of the case research as a
+scientific method. Journal of Operations Management 32(5)
+(2014) p 232-240. http://dx.doi.org/10.1016/j.jom.2014.03.004
+Selvakkumaran, S, Ahlgren, EO. Understanding the local
+energy transitions process: a systematic review. International
+Journal of Sustainable Energy Planning and Management, 14
+(2018) p 57-78. http://dx.doi.org/10.5278/ijsepm.2017.14.5
+Butu, AI, Strachan, P. Navigating pathways for community
+renewable electricity in rural areas: exploring stakeholders’
+perspectives on Shape community project. International Journal
+of Sustainable Energy Planning and Management, 33 (2022)
+p 19-34. http://dx.doi.org/10.5278/ijsepm.6813
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+105
+
+[47] Krog, L, Sperling, K, Svangren, MK, Hvelplund, F. Consumer
+involvement in the transition to 4th deneration district heating.
+International Journal of Sustainable Energy Planning and
+Management, 29 (2020) p 141-152. http://dx.doi.org/10.5278/
+ijsepm.4627
+
+

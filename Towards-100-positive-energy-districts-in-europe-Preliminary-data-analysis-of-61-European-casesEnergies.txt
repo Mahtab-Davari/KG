@@ -1,0 +1,998 @@
+energies
+Article
+
+Towards 100 Positive Energy Districts in Europe:
+Preliminary Data Analysis of 61 European Cases
+Silvia Bossi 1, * , Christoph Gollner 2 and Sarah Theierling 2
+1
+2
+
+*
+
+Italian National Agency for Technologies, Energy and Sustainable Economic Development, ENEA,
+CR Casaccia, 00123 Rome, Italy
+Austrian Research Promotion Agency, FFG, 1090 Vienna, Austria; Christoph.Gollner@ffg.at (C.G.);
+sarah.theierling@ffg.at (S.T.)
+Correspondence: silvia.bossi@enea.it
+
+Received: 12 October 2020; Accepted: 16 November 2020; Published: 20 November 2020
+
+
+
+
+Abstract: Positive Energy Districts and Neighborhoods (PEDs) are seen as a promising pathway
+towards sustainable urban areas. Several cities have already taken up such PED-related developments.
+To support such approaches, European countries joined forces to achieve 100 PEDs until 2025 through
+a comprehensive research and innovation program. A solid understanding and consideration of
+cities’ strategies, experiences and project features serve as the basis for developing and designing the
+PED program. JPI Urban Europe has been collecting information on projects towards sustainable
+urbanization and the energy transition across Europe. The collected cases are summarized in a PED
+Booklet whose update was recently published on the JPI Urban Europe website. Results presented in
+this paper provide insights from the analysis of 61 projects in Europe and offer recommendations for
+future PED developments.
+Keywords: Positive Energy District (PED); PED Booklet; SET-Plan
+
+1. Introduction
+Cities have a strong impact on greenhouse gas production and climate change, and several
+programs and initiatives are focused on new strategies to transform cities into climate neutral ones [1,2].
+The Strategic Energy Technology (SET) Plan, adopted by the European Union in 2008 to establish
+an energy technology strategy in that region, is focused on 10 key action fields, of which Action
+3.2 aims to support the planning, deployment and replication of 100 Positive Energy Districts by 2025
+for sustainable urbanization [3].
+The Program on Positive Energy Districts and Neighborhoods (PED Program) is conducted by
+JPI Urban Europe in cooperation with the SET Plan Action 3.2, and it involves stakeholders from
+city administrations, urban planning, industry, research, and civic society organizations [4]. This is
+seen as an important contribution to current policies on achieving the goals of reducing Europe’s
+carbon footprint, managing the energy transition, and cities’ ambitions towards sustainable urban
+development. A solid understanding and consideration of cities’ experiences and strategies serves as
+the base of developing the program. This is why the PED program aims at a strong involvement of all
+stakeholder groups in the program’s implementation.
+A framework for PED has been defined as follows: “Positive Energy Districts are energy-efficient
+and energy-flexible urban areas or groups of connected buildings which produce net zero greenhouse
+gas emissions and actively manage an annual local or regional surplus production of renewable
+energy. They require integration of different systems and infrastructures and interaction between
+buildings, the users and the regional energy, mobility and ICT systems, while securing the energy
+supply and a good life for all in line with social, economic and environmental sustainability” [5].
+Energies 2020, 13, 6083; doi:10.3390/en13226083
+
+www.mdpi.com/journal/energies
+
+Energies 2020, 13, 6083
+
+2 of 13
+
+The primary energy is the performance indicator of the PED definition and the balance includes both
+building operations and user-related energy consumptions. Participating PED program partners
+have agreed that this PED reference framework offers a common baseline across all countries while
+ensuring flexibility regarding local conditions for PEDs at the same time. Consequently, guidelines for
+identifying geographical and virtual boundaries of PEDs are still under discussion in collaboration with
+other programs (i.e., EERA Joint Program Smart Cities) with the ambition of making PEDs achievable
+for wide range of possible approaches. Examples of PED projects are already under development in
+Europe in connection with research activities [6–8].
+A PED Program mapping of urban projects dealing with the energy transition and sustainability
+aims to provide an overview of projects, approaches and strategies towards Positive Energy Districts.
+A compilation of these current cases serves as a basis for knowledge exchange and identification of
+good practice. The collected cases are summarized in a PED Booklet, an update of which was recently
+published on the JPI Urban Europe website [9].
+Of the 61 cases described in the Booklet, 29 declared a PED ambition. This paper analyses data
+collected in the PED Booklet to identify common features, strategies, challenges, and success factors of
+PED projects to guide stakeholders in this field.
+For this analysis it must be considered that not all countries have equally contributed to the
+Booklet yet. The Booklet is based on voluntary contributions from individual PED-related projects and
+will be continuously updated. Therefore, the results do not allow any interpretation about the level of
+PED efforts across Europe in general yet.
+2. Materials and Methods
+For this study, the 61 cases described in the PED Booklet (later referred to as Booklet) were
+considered and analyzed. Project descriptions were collected using a template that was sent out to
+reference persons of each project. The template was organized into 4 sections:
+•
+
+•
+•
+
+•
+
+General information: this section included information about geographical position, contacts,
+size, building structure, land use, and financing. Some of these questions allowed multiple
+choice answers.
+Overview description of the project: this section provided with a text description with the
+possibility to add further project information and illustrations.
+Strategies: this part included multiple choice questions about goals/ambitions, expected impact,
+overall strategy of city municipality, factors included in implementation strategies, stakeholder
+involvement strategies, and typology of energy supply.
+Success factors, challenges, and barriers: text descriptions were collected on key learnings
+regarding supportive and inhibiting factors in the PED implementation process.
+
+The first question in the “Strategies” section of the template was on goals and ambitions. Among the
+multiple choices, there was the option “Positive Energy”. The cases were divided in two categories:
+projects that declared a PED ambition (PED, NP = 29) versus projects that did not declare a PED
+ambition but presented interesting features for the PED Program (Towards (To)-PED, NTP = 32).
+The data were collected in an Excel file table and analyzed separately for PED and To-PED.
+Only features with less than 30% of n/a data were selected as reliable and worthy to be analyzed:
+•
+•
+•
+•
+•
+•
+
+Geographic distribution
+Implementation status
+Building structure
+Land use
+Energy typology
+Success factors, challenges, and barriers
+
+Energies 2020, 13, 6083
+
+3 of 13
+
+3. Results
+3.1. Geographic Distribution of PED and Towards PED Projects
+The Booklet includes 61 cases in 19 different countries in Europe (Table 1). Of the 61 projects,
+29 projects, located in 13 European countries, declared a PED ambition while the rest of the projects
+(To-PED) are located in 14 European countries.
+Table 1. Geographic distribution of projects.
+Country
+
+Norway
+Finland
+Sweden
+The Netherlands
+Italy
+Germany
+Denmark
+Austria
+France
+Spain
+Switzerland
+Romania
+Estonia
+Ireland
+Belgium
+Greece
+Hungary
+Turkey
+Portugal
+TOT
+
+PED
+
+To-PED
+
+TOT
+
+8
+4
+1
+3
+3
+0
+0
+2
+1
+2
+0
+1
+1
+1
+0
+0
+0
+1
+1
+29
+
+1
+3
+5
+3
+5
+4
+2
+2
+1
+2
+1
+0
+0
+0
+1
+1
+1
+0
+0
+32
+
+9
+7
+6
+6
+8
+4
+2
+4
+2
+4
+1
+1
+1
+1
+1
+1
+1
+1
+1
+61
+
+The highest number of projects of the Booklet (PED + To-PED) are located in Norway (9), Italy (8),
+Finland (7), Sweden (6), and The Netherlands (6).
+In terms of PED projects, Norway contributed the most cases (8). On the contrary, only two
+PED/To-PED projects are located in Eastern and Southeastern Europe.
+This geographical imbalance may be explained mainly with either of two factors: (1) policy
+priorities and implementation status of policies towards the energy transition vary between
+European countries; therefore, specific national programs on PEDs or PED-related matters have
+only been implemented in some countries. An example is represented by the ZEN Research Centre
+(https://fmezen.no/about-us/); nine pilot projects were spread over Norway with the aim of developing
+zero emission neighborhoods [10–12]. ZEN has public and industrial partners to guarantee a
+multidisciplinary approach that combines together researchers with building professionals, property
+developers, public authorities, energy companies, building owners, and users. (2) High support of
+national delegates for the PED Program in collecting information on PED projects in their countries.
+3.2. Implementation Status
+The template distributed to projects’ representatives included a question related to the
+implementation status of their projects. Possible choices were: “Planned”, “Implementation Stage”,
+“Realized”, “In Operation”, and “n/a”. Percentages of PED and Towards PED projects in different
+implementation phases are summarized in Figure 1. Most of PED projects (green) are in their
+implementation stage (69%); 24% are in planning stage and only a minority are realized (3%) or already
+in operation (3%). To-PED projects (in blue) are mainly in their implementation stage (44%), but also a
+
+implementation status of their projects. Possible choices were: “Planned”, “Implementation Stage”,
+“Realized”, “In Operation”, and “n/a”. Percentages of PED and Towards PED projects in different
+implementation phases are summarized in Figure 1. Most of PED projects (green) are in their
+implementation stage (69%); 24% are in planning stage and only a minority are realized (3%) or
+Energies 2020,
+13, 6083
+4 of 13
+already
+in operation
+(3%). To-PED projects (in blue) are mainly in their implementation stage (44%),
+but also a considerable amount of them are already in operation (31%); 9% are realized but not yet in
+operation. Only 13% of To-PED projects are in planning stage. As expected, PED projects are less
+considerable amount of them are already in operation (31%); 9% are realized but not yet in operation.
+mature than Towards PED projects; among them only one project is already in operation and only
+Only 13% of To-PED projects are in planning stage. As expected, PED projects are less mature than
+one is realized.
+Towards PED projects; among them only one project is already in operation and only one is realized.
+
+Figure
+Figure 1.
+1. Implementation
+Implementation status
+status of
+of Positive
+Positive Energy
+Energy District
+District and
+and Neighborhood
+Neighborhood (PED)
+(PED) versus
+versus Toward
+Toward
+(To)-PED.
+(To)-PED.
+
+Building Structure
+Structure
+3.3. Building
+them into
+into “Newly
+“Newly Built”,
+Built”,
+Differences of projects’ building structures were analyzed by dividing them
+“Existing
+“Existing Neighborhood”
+Neighborhood” and
+and “Mixed”.
+“Mixed”.
+show
+a mixed
+typology
+(Figure
+2); 66%
+them
+newly
+Projects with
+withPED
+PEDambition
+ambitionmainly
+mainly
+show
+a mixed
+typology
+(Figure
+2); of
+66%
+of combine
+them combine
+built with
+existing
+neighborhoods,
+28% of them
+newlyare
+built
+districts,
+only 7%
+developed
+newly
+built
+with existing
+neighborhoods,
+28% are
+of them
+newly
+built and
+districts,
+andare
+only
+7% are
+from existing
+neighborhoods.
+developed
+from
+existing neighborhoods.
+
+On the contrary, To-PED projects are mainly based on existing neighborhoods (41%). A
+considerable percentage of them is based on a mixed typology (38%) and only 16% of Towards PED
+projects are newly built. A comparison among PED and Towards PED projects is shown in Figure 2.
+PEDs results are in good agreement with the framework, which suggests the combination of
+new
+urban development areas with existing buildings.
+Energies 2020, 13, 6083
+5 of 13
+
+Figure 2. Building structure of PED versus To-PED.
+Figure 2. Building structure of PED versus To-PED.
+
+3.4.the
+Land
+Use To-PED projects are mainly based on existing neighborhoods (41%). A considerable
+On
+contrary,
+percentage
+of Booklet
+them is based
+oninformation
+a mixed typology
+and
+only 16%
+ofMultiple
+Towardschoices
+PED projects
+are
+The
+includes
+on land(38%)
+use of
+projects
+areas.
+were available
+newly
+built.
+A
+comparison
+among
+PED
+and
+Towards
+PED
+projects
+is
+shown
+in
+Figure
+2.
+for this topic: “Residential”, “Office”, “Industry”, “Commercial”, “Social”, “Other”, and “n/a”.
+PEDsTwenty-three
+results are in good
+agreement
+with projects
+the framework,
+which
+suggests
+the
+combination
+of new in
+PED and
+17 To-PED
+specified
+a land
+use and
+results
+are summarized
+urbanFigure
+development
+areas
+with existing
+3a. All the
+projects
+(100% ofbuildings.
+PED and 100% of To-PED) included residential use. In addition
+to residential use, 65% of PED projects included a social land use versus 29% of To-PED projects.
+3.4. Land Use
+Commercial activities were foreseen in 61% of PED and only in 24% of To-PED projects. More
+The
+Booklet includes
+information
+on landfor
+useoffice
+of projects
+choices53%
+were
+comparable
+percentages
+were observed
+spacesareas.
+(61% Multiple
+of PED versus
+ofavailable
+To-PED) and
+for this
+topic: “Residential”,
+“Office”,
+“Commercial”,
+“Social”,
+“Other”,
+and
+industry
+(22% of PED versus
+18%“Industry”,
+of To-PED).
+In addition, 30%
+of PED
+and 47%
+of “n/a”.
+To-PED projects
+Twenty-three
+PEDtypologies
+and 17 To-PED
+projects
+specified
+a land
+and results
+are summarized
+mentioned other
+of land
+use (e.g.,
+logistic
+hubs,use
+natural
+facilities,
+waste water in
+energy
+Figure
+3a. All systems,
+the projects
+(100% of PED and 100% of To-PED) included residential use. In addition
+recovery
+etc.).
+to residential use, 65% of PED projects included a social land use versus 29% of To-PED projects.
+Commercial activities were foreseen in 61% of PED and only in 24% of To-PED projects. More comparable
+percentages were observed for office spaces (61% of PED versus 53% of To-PED) and industry (22% of
+PED versus 18% of To-PED). In addition, 30% of PED and 47% of To-PED projects mentioned other
+typologies of land use (e.g., logistic hubs, natural facilities, waste water energy recovery systems, etc.).
+
+Comparison results for PED and To-PED projects are summarized in Figure 3b. Only small
+percentages of PED and To-PED projects have a single land use. A high percentage of PED and ToPED projects have a moderate mixed land use, namely 57% and 76%, respectively. A significant
+amount of PED projects has a highly mixed use (39%), whereas the same is true in only 18% of
+Towards
+PED projects.
+Energies 2020, 13, 6083
+6 of 13
+
+Figure
+Land
+use
+PED
+versus
+To-PED;(b)
+(b)land
+landuse
+useselection
+selectionofofPEDs
+PEDsversus
+versusTo-PED.
+To-PED.
+Figure
+3. 3.
+(a)(a)
+Land
+use
+ofof
+PED
+versus
+To-PED;
+
+The number of different land use selections were counted for PED and Towards PED projects.
+The results reflect the degree of mixed use in the projects and were divided into three groups:
+“single use”, “moderate mixed” (two to four land uses), and “highly mixed” (more than five land uses).
+Comparison results for PED and To-PED projects are summarized in Figure 3b. Only small percentages
+of PED and To-PED projects have a single land use. A high percentage of PED and To-PED projects
+have a moderate mixed land use, namely 57% and 76%, respectively. A significant amount of PED
+projects has a highly mixed use (39%), whereas the same is true in only 18% of Towards PED projects.
+
+Energies 2020, 13, 6083
+
+7 of 13
+
+3.5. Energy Typology
+The template used so far included a question on “Typology of Energy Supply” where project
+representatives could select one or more of the following options: “Solar thermal energy”, “Geothermal
+energy”, “District heating/local heating”, “Heat pump system”, “Industrial waste heat”, “Photovoltaic”,
+“Other”, and “n/a”.
+Answers to this question where collected for PED and To-PED projects and the results in percentage
+of total projects with energy data available are shown in Figure 4a. Most of the projects included
+“district/local heating” in their energy strategy, with similar percentages for PED (75%) and To-PED
+projects (83%). Several projects included “heat pump system”, with 71% of PED and 60% of To-PED
+projects. Among PED projects, 71% of them exploited photovoltaic energy, while only 30% of To-PED
+projects used PV. The share of PV use represents the main difference between the two project categories,
+followed by the use of geothermal energy—58% for PED versus 31% of To-PED. Half of PED use solar
+thermal energy versus 37% of To-PED; a similar result for PED and To-PED was observed for industrial
+waste heat (25% and 33%, respectively). Other typologies of energy supplies described by the PED
+projects included wind, biomass, waste digestion, and hydrothermal.
+For each project, we evaluated the number of different typologies of energy supply combined together.
+Data obtained were classified in four different groups based on the number of energy sources used:
+•
+•
+•
+•
+
+Single (only one)
+Moderate mixed (two to three)
+Highly mixed (four to five)
+Very highly mixed (less than six)
+
+The quantification of multiple energy sources integration for PED and To-PEDs is summarized in
+Figure 4b. Half of PED projects use “highly mixed” energy sources (4 or 5), 29% are “moderate mixed”,
+13% are “very highly mixed”, and only 8% use just a single source of energy.
+Most of To-PED projects are “moderate mixed”; 60% use two or three sources of energy, 30% are
+“highly mixed”, 7% use only a single source, and only 3% use “very highly mixed” energy typologies.
+Results suggest that PEDs combine more energy sources (four or five) than Towards PED projects
+(two or three) to satisfy the energy surplus required. PED projects have the aim of reaching an energy
+surplus production from renewable energies. Combining a high number of energies is not the aim for
+a PED but it seems to be a frequent approach of PED projects. PED preferred energy typologies are
+district and local heating, heat pump systems, photovoltaic, and geothermal energy.
+3.6. Success Factors and Challenges of Projects Implementation
+An analysis of the statements regarding success factors and challenges/barriers of PED and
+To-PED projects (Figures 5 and 6) shows the perceived importance of stakeholder involvement. In fact,
+involvement processes (urban stakeholders, citizens) can be seen as defining elements for the success
+or failure of a project. Political support (or lack of it), most likely connected with funding, is seen as
+another key aspect, especially for PED. Capacity-building among decision-makers can thus be seen as
+a highly important task. Not only funding, but the elaboration of feasible business models also ranks
+very high among key aspects of PED development.
+
+Energies 2020,
+2020,13,
+13,6083
+x FOR PEER REVIEW
+Energies
+
+of 13
+13
+88 of
+
+Figure 4. (a) Energy typology of PED versus To-PED; (b) energy typology selections of PED versus
+Figure 4. (a) Energy typology of PED versus To-PED; (b) energy typology selections of PED versus To-PED.
+To-PED.
+
+3.6. Success Factors and Challenges of Projects Implementation
+An analysis of the statements regarding success factors and challenges/barriers of PED and ToPED projects (Figures 5 and 6) shows the perceived importance of stakeholder involvement. In fact,
+involvement processes (urban stakeholders, citizens) can be seen as defining elements for the success
+or failure of a project. Political support (or lack of it), most likely connected with funding, is seen as
+another key aspect, especially for PED. Capacity-building among decision-makers can thus be seen
+
+as a highly important task. Not only funding, but the elaboration of feasible business models also
+ranks very high among key aspects of PED development.
+A big challenge for successful implementation processes are legislation and regulations—an indepth analysis of the particular legal barriers (on either local, national, or European levels) therefore
+Energies
+13, highly
+6083
+9 of 13
+seems 2020,
+to be
+relevant in particular for PED. Within the +CityxChange project, possible
+strategies to enable regulatory mechanisms have been studied [13].
+Success Factors
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+Stakeholder involvement
+Integrated technology
+Funding / business models
+Political support
+Citizens involvement and support
+Pilots > feasibility
+Cooperation & support (national-regional-local)
+Integrated urban strategies
+Location / local RES available
+Energy efficiency measures
+Refurbishment strategies
+City administration & cross-sectoral approach
+Public-private-partnership
+Land ownership
+Definition of system boundaries
+Market flexibility
+Risk management
+Capacity building
+Legislation & regulations
+Monitoring concept
+Transparency & visibility
+
+Energies 2020, 13, x FOR PEER REVIEW
+
+11 of 13
+PED
+
+Towards PED
+
+with existing governance structures within city administrations and a lack of cross-sectoral
+Figure
+5.
+of
+implementation
+of
+and
+projects.
+approaches, are often
+mentioned
+as
+main
+for inhibited
+processes (Figure 6).
+Figure
+5. Success
+Success factors
+factors
+ofreasons
+implementation
+of PED
+PEDimplementation
+and To-PED
+To-PED projects.
+4. Discussion and Conclusions
+
+Challenges
+0
+
+2
+
+4
+
+6
+
+8
+
+10
+
+12
+
+14
+
+16
+
+18
+
+20
+
+The analysis presented in this report was performed on data included in the first update of the
+/ business models
+PED Booklet (February Funding
+2020).
+The aim of this study is to evaluate trends, features, successes, or critical
+& regulations
+factors that contribute toLegislation
+development
+of PED projects in Europe.
+There is aCitybroad
+variety
+of projects
+addressing energy transition. While only 29 of 61 projects are
+administration
+& cross-sectoral
+approach
+planning to implementStakeholder
+PEDs,involvement
+all of them provide valuable approaches and strategies regarding
+actions towards the energy transition in the urban context. Most of the projects classified as Towards
+Land ownership
+PEDs seem to include the possibility to develop into PEDs in a further step. However, the actual
+(Lack of) Political support
+feasibility of many project designs is not yet assessable since a large share of the projects listed are in
+Integrated technology
+planning or early implementation
+stages. The PED Reference Framework, with its focus on energy
+Risk management
+functions and overall sustainability
+goals, provides an open framework—the results of the
+comparison between PED
+projects
+and
+Towards
+PEDs projects indicate that differences between the
+Public / citizen opposition
+two groups are not categorical
+and the main issues and challenges of project implementation are
+Pilots > feasibility
+similar. This therefore supports the assumption that projects with no self-declared PED ambition may
+Capacity building
+be further developed to achieve PED status according to the PED Reference Framework. A further
+Location / limited local RES
+operationalization of the
+PED Reference Framework [5], which is currently under development, aims
+Refurbishment
+strategies
+at a common PED definition
+that
+includes local differences and diverse approaches.
+For this analysis it Integrated
+must urban
+be considered
+that not all countries have equally contributed to the Booklet
+strategies
+yet. The Booklet is based
+on
+voluntary
+contributions
+from individual PED-related projects. Therefore,
+Definition of system boundaries
+the results do not allow any interpretation about the level of PED efforts across Europe in general.
+Cooperation & political support (national-regional-local)
+
+PED
+
+Towards PED
+
+Figure
+Figure 6.
+6. Challenges
+Challengesand
+andbarriers
+barriersfor
+forimplementation
+implementationof
+of PED
+PED and
+and To-PED
+To-PED projects.
+projects.
+
+Considering the issues discussed, key areas of action to be further explored can be summarized
+as follows:
+
+
+Allowing for and testing of a diversity of approaches and strategies: exploring room for
+experimenting with and implementing of PED Labs; monitoring existing approaches the and
+elaboration of guides and tools
+
+Energies 2020, 13, 6083
+
+10 of 13
+
+A big challenge for successful implementation processes are legislation and regulations—an
+in-depth analysis of the particular legal barriers (on either local, national, or European levels) therefore
+seems to be highly relevant in particular for PED. Within the +CityxChange project, possible strategies
+to enable regulatory mechanisms have been studied [13].
+4. Discussion and Conclusions
+The analysis presented in this report was performed on data included in the first update of the
+PED Booklet (February 2020). The aim of this study is to evaluate trends, features, successes, or critical
+factors that contribute to development of PED projects in Europe.
+There is a broad variety of projects addressing energy transition. While only 29 of 61 projects are
+planning to implement PEDs, all of them provide valuable approaches and strategies regarding actions
+towards the energy transition in the urban context. Most of the projects classified as Towards PEDs
+seem to include the possibility to develop into PEDs in a further step. However, the actual feasibility
+of many project designs is not yet assessable since a large share of the projects listed are in planning
+or early implementation stages. The PED Reference Framework, with its focus on energy functions
+and overall sustainability goals, provides an open framework—the results of the comparison between
+PED projects and Towards PEDs projects indicate that differences between the two groups are not
+categorical and the main issues and challenges of project implementation are similar. This therefore
+supports the assumption that projects with no self-declared PED ambition may be further developed
+to achieve PED status according to the PED Reference Framework. A further operationalization of
+the PED Reference Framework [5], which is currently under development, aims at a common PED
+definition that includes local differences and diverse approaches.
+For this analysis it must be considered that not all countries have equally contributed to the
+Booklet yet. The Booklet is based on voluntary contributions from individual PED-related projects.
+Therefore, the results do not allow any interpretation about the level of PED efforts across Europe
+in general.
+Nevertheless, these preliminary results highlight the importance of national programs and strong
+R&I involvement in the replication of PED strategies, as for example in Norway where ZEN Research
+Center on Zero Emission and Neighborhoods in Smart Cities is helping the spreading of pilot projects
+in line with the PED framework. Future investigations on the impact of climatic zones on PED
+mainstreaming will be also considered.
+Projects that declared a PED ambition are mainly in their planning or implementation stage
+(93% versus 57% of To-PED). This suggests that most of PED strategies are still to be tested and
+optimized and a regular update of the Booklet cases and data analysis is needed. Efforts will continue
+to extend the data base, improve data quality, and assess these projects to identify good practice as
+well as critical issues at further stages.
+Most projects with PED ambitions (66%) combine newly built neighborhoods with existing
+neighborhoods. This result is in good agreement with the framework that suggests the combination of
+new urban development areas with existing buildings. Only 7% of PED are developed in an existing
+neighborhood. The high complexity of a PED project requires deep interventions to fit with the
+new paradigm and might inhibit ambitions to apply PED ambitions to existing structures. The need
+for dealing with complex ownership structures or technological limitations, for instance regarding
+PV-instalment, in connection with other aspects of revitalization, for example, building protections and
+preservation of cityscape, are just two factors that need to be mentioned. Regarding the implementation
+of a PED ambition, it does not seem to be a common strategy to count only on existing neighborhood.
+However, for most European cities, transformation of the existing building stock is a key aspect for
+achieving the energy transition. Therefore, exploring, integrating and applying PED solutions and
+approaches to the existing urban structure seems to be a crucial challenge in the long run. An 8-step
+process to develop a PED is proposed by the JRC report [14].
+
+Energies 2020, 13, 6083
+
+11 of 13
+
+A significant amount of PED projects involves a highly mixed land use (39%) while only 18% of
+Towards PED projects do. Multifunctional urban structures can be seen as a basic requirement for
+successful PED implementation since they support efficient use of energy and more opportunities
+for energy flexibility. A high percentage of PED mentioned commercial and social use of the land.
+Multifunctionality is also a crucial requirement for embedding PED strategies in integrated urban
+planning strategies aiming at high quality of life and sustainable local development. This is in line
+with the framework definition that requires social and economic sustainability.
+Another feature of PED is their highly mixed combination of energy typologies. Fifty percent
+of PED projects integrate four to five energy sources, whereas 60% of To-PED projects use two or
+three. This is a reasonable result given the fact that PED projects have the ambition to have an
+annual positive energy balance produced from renewable sources. To satisfy this ambitious aim,
+the combination of multiple energy typologies is key to exploit changing energies’ availabilities,
+consumptions with different weather conditions, or with the alternation of day and night and seasons.
+Photovoltaics is used in 71% of PED projects versus 30% of To-PED projects. Photovoltaics is a mature
+and suitable technology for decentralized and renewable energy production. Its profitability is already
+reached in some European countries and increasing diffusion in building rooftop is expected [15].
+This explains why a high percentage of PEDs rely on photovoltaics solar energy as local production of
+renewable energy.
+Stakeholders, citizens involvement strategies, integrated technology, and political support are
+considered main success factors for PED development. A successful PED implementation requires
+collaboration with citizens and final users right from initial planning stages to avoid their opposition
+to the change of paradigm that a PED aims to do in terms of social, economic and energy sustainability.
+Political support is a necessary factor to activate national programs and new funding opportunities.
+Furthermore, the technical complexity of a PED is the reason why integrated technology was mentioned
+as a main feature to its success.
+The main barrier for a PED is the access to adequate funding and business models (Figure 6).
+PEDs are more expensive than traditional projects and they require multiple sources of financing
+and advanced business models. Innovations and changes introduced by PED projects require ad hoc
+regulations and a dedicated legal framework. This explains why legislation and regulations, together
+with existing governance structures within city administrations and a lack of cross-sectoral approaches,
+are often mentioned as main reasons for inhibited implementation processes (Figure 6).
+Considering the issues discussed, key areas of action to be further explored can be summarized as
+follows:
+•
+
+•
+
+•
+
+•
+
+•
+
+Allowing for and testing of a diversity of approaches and strategies: exploring room for
+experimenting with and implementing of PED Labs; monitoring existing approaches the and
+elaboration of guides and tools
+Developing fitting governance structures and the legal framework: consideration of Functional
+Urban Areas (regional perspective); inter-departmental cooperation within city administrations
+and collaboration between city administrations, energy providers, real estate industry, civic society,
+and other stakeholders; re-consideration and adaptation of legislation and regulations
+Integration of PED strategies in holistic urban planning: mainstreaming of energy planning in
+urban planning strategies; connecting energy aspects with climate action; a high quality regard
+for functions and design
+Developing feasible business models and funding opportunities: creating awareness and political
+support for development and implementation of national programs; consideration of different
+settings (especially the availability of renewable energy sources) and technological solutions;
+exploring job creation and boosting local/regional economy
+Exploration of strategies in existing urban structures: combining revitalization and greening
+strategies; involving stakeholders with a special focus on landowner and citizen participation
+
+Energies 2020, 13, 6083
+
+12 of 13
+
+Based on these preliminary observations, the next activities will focus on the following aspects:
+-
+
+Integration of key findings into PED Program activities
+Developing the PED Booklet as strategic tool for the PED Program
+Updating the template to collect project descriptions
+Updating the PED Booklet with more cases across Europe
+
+Author Contributions: Conceptualization: C.G. and S.B.; methodology: S.B. and C.G.; software: S.B., S.T.,
+and C.G.; validation: S.B. and C.G.; formal analysis: S.B. and C.G.; investigation: S.B. and C.G.; resources, S.B. and
+C.G.; data curation, S.B. and S.T.; writing—original draft preparation, S.B.; writing—review and editing, C.G.;
+visualization, S.B.; supervision, C.G.; project administration, C.G.; funding acquisition, C.G. All authors have read
+and agreed to the published version of the manuscript.
+Funding: This research received no external funding.
+Acknowledgments: The authors would like to thank all project representatives who provided data on the projects
+presented in the PED Booklet, which served as basis for this analysis. Furthermore, the authors would also like
+to acknowledge the support of SET Plan Action 3.2 Italian National Delegate Paola Clerici and the work of the
+PED Program Management, specifically Margit Noll, Hans-Günther Schwarz, Robert Hinterberger, and Susanne
+Meyer, and the contributions of the PED Program Stakeholders Group, specifically EERA JPSC, regarding overall
+conceptualization of the PED Program and the elaboration of the PED Framework, which is a fundamental basis
+for the analysis of the data provided.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+4.
+5.
+
+6.
+7.
+8.
+
+9.
+10.
+11.
+12.
+13.
+
+14.
+
+Pichler, P.P.; Zwickel, T.; Chavez, A.; Kretschmer, T.; Seddon, J.; Weisz, H. Reducing Urban Greenhouse Gas
+Footprints. Sci. Rep. 2017, 7, 14659. [CrossRef] [PubMed]
+Sustainable Development Goal 11: Make Cities and Human Settlements Inclusive, Safe, Resilient and
+Sustainable. Available online: https://sustainabledevelopment.un.org/sdg11 (accessed on 5 June 2019).
+SET-Plan Action 3.2 on Smart Cities and Communities. Available online: https://setis.ec.europa.eu/system/
+files/setplan_smartcities_implementationplan.pdf (accessed on 12 October 2020).
+JPI Urban Europe, Positive Energy Districts (PED). Available online: https://jpi-urbaneurope.eu/ped/
+(accessed on 12 October 2020).
+Framework Definition for Positive Energy Districts and Neighbourhoods. March 2020. Available
+online: https://jpi-urbaneurope.eu/app/uploads/2020/04/White-Paper-PED-Framework-Definition-2020323final.pdf (accessed on 12 October 2020).
+Alpagut, B.; Akyürek, Ö.; Mitre, E.M. Positive Energy Districts Methodology and Its Replication Potential.
+Proceedings 2019, 20, 8. [CrossRef]
+Ahlers, D.; Driscoll, P.; Wibe, H.; Wyckmans, A. Co-Creation of Positive Energy Blocks, 1st Nordic conference
+on Zero Emission and Plus Energy Buildings. Earth Environ. Sci. 2019, 352, 012060.
+Magrini, A.; Lentini, G.; Cuman, S.; Bodrato, A.; Marenco, L. From nearly zero energy buildings (NZEB) to
+positive energy buildings (PEB): The next challenge—The most recent European trends with some notes on
+the energy analysis of a forerunner PEB example. Dev. Built Environ. 2020, 3, 100019. [CrossRef]
+Europe towards Positive Energy Districts, First Update. Available online: https://jpi-urbaneurope.eu/app/
+uploads/2020/03/PED-Booklet-Update-Feb2020_.pdf (accessed on 1 October 2020).
+Berker, T.; Woods, R. Identifying and addressing reverse salients in infrastructural change. The case of a
+small zero emission campus in Southern Norway. Int. J. Sustain. High. Educ. 2020, 21. [CrossRef]
+Cachat, E.T.; Grynning, S.; Thomsen, J.; Selkowitz, S. Responsive building envelope concepts in zero emission
+neighborhoods and smart cities—A roadmap to implementation. Build. Environ. 2019, 149, 446–457. [CrossRef]
+Backe, S.; Kvellheim, A.K. Zero Emission Neighborhoods—Drivers and Barriers towards Future Development;
+ZEN Report 22; NTNU/SINTEF: ZEN, Norway, 2020.
+Bertelsen, S.; Livik, K.; Myrstad, M. D2.1 Report on Enabling Regulatory Mechanism to Trial Innovation
+in Cities. +CityxChange, Work Package 2, Task 2.1; +Cityxchange, H2020, Grant Agreement No. 824260.
+Final delivery date: 31 July 2019.
+Shnapp, S.; Paci, D.; Bertoldi, P. Enabling Positive Energy Districts across Europe: Energy Efficiency Couples
+Renewable Energy; JRC Technical Report; Publications Office of the European Union: Luxemburg, 2020.
+
+Energies 2020, 13, 6083
+
+15.
+
+13 of 13
+
+Vimpari, J.; Seppo, J. Estimating the diffusion of rooftop PVs: A real estate economics perspective. Energy
+2019, 172, 1087–1097. [CrossRef]
+
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional
+affiliations.
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

@@ -1,0 +1,1335 @@
+buildings
+Article
+
+Citizens and Positive Energy Districts: Are Espoo and Leipzig
+Ready for PEDs?
+Zarrin Fatima 1, * , Uta Pollmer 2 , Saga-Sofia Santala 3 , Kaisa Kontu 4 and Marion Ticklen 5
+1
+2
+
+3
+4
+
+5
+
+*
+
+
+
+Citation: Fatima, Z.; Pollmer, U.;
+Santala, S.-S.; Kontu, K.; Ticklen, M.
+Citizens and Positive Energy Districts:
+Are Espoo and Leipzig Ready for
+
+VTT Technical Research Centre of Finland, PL 1000, 02044 VTT Espoo, Finland
+Fraunhofer Center for International Management and Knowledge Economy IMW, Neumarkt 9-19,
+04109 Leipzig, Germany; uta.pollmer@imw.fraunhofer.de
+KONE Corporation; Keilasatama 5, 02150 Espoo, Finland; sagasofia.santala@kone.com
+Citycon Corporation & Citycon Finland, Iso Omena, Piispansilta 9 A, 02230 Espoo, Finland;
+Kaisa.Kontu@citycon.com
+City of Espoo, P.O. Box 1, 02070 Espoo, Finland; marion.ticklen@espoo.fi
+Correspondence: Zarrin.fatima@vtt.fi
+
+Abstract: In urban transformation, no solution works without citizen support. With increasing
+numbers of building technologies and large-scale urban development on its way across cities, it has
+become vital to keep citizens informed, engaged, and content with the new changes. This paper looks
+at citizen engagement in Espoo (Finland) and Leipzig (Germany), and it determines whether the cities
+are ready for developing and implementing positive energy districts (PEDs). The authors studied the
+cities’ operations and current citizen engagement methods to understand how the efforts could be
+combined and improved. The analysis indicated that the city of Espoo already has a well-established
+system that continuously promotes citizen engagement at various levels, and combining the available
+infrastructure with company experts on citizen participation will allow Espoo to seamlessly transition
+towards PEDs in the near future. The city of Leipzig has a rich experience due to several national
+projects and participation in an earlier European project, which enabled the city to set clearer goals
+for the future and modify existing citizen methods. As lighthouse cities, findings from Espoo and
+Leipzig are also aimed at cities across Europe and beyond to boost development of PEDs together
+with citizens.
+
+PEDs? Buildings 2021, 11, 102.
+https://doi.org/10.3390/
+
+Keywords: positive energy districts; citizen; cities; participation; citizen engagement
+
+buildings11030102
+Academic Editor: Geun Young Yun
+Received: 18 January 2021
+Accepted: 24 February 2021
+Published: 6 March 2021
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+1.1. What Is Citizen Engagement?
+Citizen engagement is collectively defined as public participation, stakeholder involvement, co-creation, civic engagement, participatory democracy, or activism [1]. It is
+also described as individual or collective behavior that focuses on determining the social
+problems of a community [2–4]. A clear definition of citizen engagement does not exist,
+but its true nature is the interaction between citizens and government [4].
+Citizen engagement has a vital role in service delivery [5]. It is also said to be the
+‘meaningful involvement of individual citizens in policy or program development.’ In
+other words, citizen engagement requires an active intentional dialogue between citizens
+and public decision makers [6].
+Citizen participation may range from individuals participating in steering committees to partnerships with certain community groups. The Canadian Institutes of Health
+Research (CIHR) claims that there is no ‘one size fits all’ approach because each organization, scenario, or audience may require differing engagement practices. Bringing citizen
+voices into planning, decision-making, implementation, or evaluation processes requires
+two-way communication. Hence, input must not be pursued for the sake of input, but communication has to be interactive to generate ‘informed participation’ to reach a common
+goal [7].
+
+Buildings 2021, 11, 102. https://doi.org/10.3390/buildings11030102
+
+https://www.mdpi.com/journal/buildings
+
+Buildings 2021, 11, 102
+
+2 of 19
+
+As cities around the world look for ways to involve their citizens in various discussions,
+citizens themselves are eager to bring their ideas and concerns forward. However, in order
+to have a high level of inclusive engagement, it is essential to involve a broad and an
+unbiased selection of society as much as possible in the decision making processes [6].
+To be able to make a true impact, citizen engagement has to be embedded in every
+stage of the decision making process and be conducted with deep commitment, proper
+allocated time, and co-creation interest. Merely adopting a tick-box approach or having
+citizen participation at the end of the process will not have the desired result or be beneficial
+for stakeholders. Citizen engagement has to be added in the ‘Bold City Vision’ and the
+overall targets of the project instead of making it an add-on activity. However, it is also a
+fact that municipal organizations and public servants do not have training to make citizen
+engagement as effective as desired, and the municipal procedures very often do not cater
+to involving citizens [6].
+Nonetheless, capacity building solutions are now on the rise, e.g., in the Netherlands, a
+new legal framework for spatial planning called ‘Omgevingswet’ (Environmental Law) will
+soon be introduced, and it has participation and co-creation with citizens as one of the main
+pillars. The new framework does not offer a specific method, but it gives municipalities the
+freedom to develop their own approaches fitting to their local context [8]. The EU Joint
+Research Centre leads a community of practice (CoP) on citizen engagement having plans
+for a manual and online resource catalog aimed at organizations and project needs while
+also continuing an annual Festival of Citizen Engagement. Additionally, the Citizen Focus
+Action Cluster at the European Innovation Partnership on Smart Cities and Communities
+(EIP-SCC) congregates several initiatives and actions on citizen engagement and operates
+as a mutual learning and matchmaking platform [9].
+1.2. The Necessity of Citizen Engagement
+The question of the necessity of citizen engagement has been raised many times and
+may be answered with the fact that continuous innovations do indeed impact the everyday
+life of citizens while bridging many fields of urban life. A recent booklet published by
+Smart Cities Information System (SCIS) emphasized that the inclusion of citizens may
+help to address concerns, increases transparency about plans, and invites diversified
+and vulnerable groups who might not actively participate otherwise. In parallel, it also
+strengthens collaborative actions and bottom-up innovations, enhances the sense of trust
+and community ownership, and develops resource efficiency as unforeseen problems may
+be avoided; most importantly, citizen views can help explore more sustainable and viable
+solutions that may function better in the local context [6].
+The emerging trend of positive energy blocks and districts (PEBs/PEDs) is a transition
+towards more energy-conscious behavior that calls for extensive and innovative engagement approaches and co-creation practices, as this will lead to citizens who understand,
+trust, and use and feel ownership of the measures adopted in their district [6]. Citizen
+engagement is essentially part of the quadruple helix innovation model that identifies four
+major actors in the innovation system: science, policy, industry, and society [10], hence
+placing a further emphasis on how participation can deliver new forms of deliberation and
+operationalization of the democratic process within the city, eventually leading to higher
+local impact and building citizen trust [6].
+Citizen engagement has significant importance in relation to the success, development,
+and implementation of PEDs. A recent publication by the European Commission [11]
+described a PED as having defined borders and an area that:
+
+•
+•
+•
+
+is based on open and voluntary participation, is autonomous, and is efficiently controlled by its citizens;
+has the primary purpose to deliver environmental, economic, or social community
+benefits;
+has an overall energy balance of zero or positive over a year;
+
+Buildings 2021, 11, 102
+
+3 of 19
+
+•
+•
+•
+•
+
+consists of buildings having very high energy performance, complying with minimum
+energy performance requirements and local building codes;
+consists of buildings that are either nearly zero or have a very low amount of energy
+demand;
+covers the building demand through renewable energy sources to a large extent; and
+has the possibility to produce renewable energy either onsite or nearby
+
+In parallel to the above characteristics, the concept of ‘renewable energy communities’
+has also emerged, as emphasized by the first and second points. For an energy community
+to be a success, the interaction and collaboration of all stakeholders is the key to find the
+best-fit solution for citizens. Nonetheless, municipalities must continuously to play their
+role in the energy transition and managing the collaboration. This also implies that social
+innovation, including behavioral change, has to be taken into consideration to deliver PEDs.
+There may be many non-technical obstacles along the way, but community engagement is
+vital to ensure the buy-in of community members [11].
+1.3. What Is Happening Worldwide?
+Cities are the melting pot for de-carbonization strategies relating to energy, transport,
+buildings, industry, and agriculture [12]. Cities have access to large capital and abundant
+know-how, and so they therefore have the ability to create economies of scale essential for
+the piloting and scaling up of new ideas [13]. Nonetheless, cities are in need of citizens who
+are not only political actors but also users, producers, consumers, and owners. A combined
+effort from these actors may have a huge impact on local urban areas, associations, and
+homes, thus propelling the climate transition, advancing the economy, and preserving
+the environment. As evidently said by the Mission Board for Climate-Neutral and Smart
+Cities, citizens and civil society have to be given more substantial roles, new platforms for
+action, and better resources [13]. The Mission Board will support 100 European cities in
+their dynamic transformation towards climate neutrality by 2030, eventually supporting
+the European Green Deal and becoming climate-neutral by 2050. Citizens are in the center
+of all action as the mission calls for citizens to be change agents and demands that cities
+focus on citizens’ health and wellbeing, healthier lifestyles, and adopting a ‘by and for the
+citizens’ way of thinking and working [13]. Cities are further pushed to put into practice
+the ‘leave no one behind’ (just transition) component of the Green Deal [14].
+Allen et al. [15] evaluated the relationship between e-participation as a type of coproduction and service performance by utilizing multiple large longitudinal datasets from
+a smart city mobile platform. The study gave evidence that citizen e-participation in coproduction can increase the performance of service delivery, a link that is usually believed
+to be true instead of tested. Feedback and monitoring through the platform led to more
+issues being resolved, and service delivery had a larger influence on complex problems
+such as damaged roads, which generally require multiple actors and may need more time
+to be resolved. Simple issues such as waste management had less participation. However,
+e-participation may still be limited in general. Few researchers have considered why some
+citizens engage actively while others do not. A study by Choi and Song [16] in South
+Korea claimed that people with a stronger social capital—commitment, ownership of
+the community, and trust in government—have a greater likelihood to become part of
+e-participation. Emphasis only on technology-driven factors such as usefulness, ease of
+use, and perceived behavioral control become insignificant when tasks demand greater
+civic engagement. Attention has to be paid to how to nurture individual social capital (e.g.,
+virtue of good civic norms) through proper procedures, as well as institutional and political
+reform [16].
+Citizen engagement has remained a crucial component of smart cities in recent years.
+As these projects last for lengths of four-to-five years, cities have ample time to experiment and implement new tools and approaches. Nonetheless, two elements have to be
+considered for a smart city to be successful. First, citizens must be part of the design so
+that the smart city answers to the real needs of the people. Second, each city has distinct
+
+Buildings 2021, 11, 102
+
+4 of 19
+
+characteristics that have to be included to create a citizen participation strategy truly tailored and adapted to the local context [17]. Simonofski et al. described five context factors
+that impact citizen participation strategies in two smart cities (Namur and Linköping):
+the smart city consideration, the drivers for participation, the degree of centralization, the
+legal requirements, and the citizens’ characteristics. The factors are applicable for any
+city, however, because even though similar stakeholders and participations methods were
+used in these two cases (direct interaction, living lab, open data, and online platform),
+the methods were implemented for varying reasons that led to varying challenges being
+encountered [17].
+With the emerging number of smart cities around the world, there has been strong
+focus on transactions between citizen and government. The presence of smartphone
+and smart city technologies have further stimulated micro-transactions between citizen,
+government, and information broker (for example, tax payment in exchange for services).
+Johnson et al. [18] explored how the modern smart city includes the citizen as a series
+of micro-transactions encoded on the real-time landscape of the city. This transactional
+citizen is monitored by smart city sensors and is integrated into smart city decision-making
+through certain platforms. The concept is based on four broad modes of transaction—
+type (intentional contribution), tweet (intermediated by third party), tap (convened or
+requested transaction), and pass (ambient transaction based on movement)—and enables
+one to understand how citizens interact and find potential avenues for private sector
+influence [18].
+To provide a few examples of smart cities, the European funded IRIS project (Integrated and Replicable Solutions for Co-Creation in Sustainable Cities) created a planning
+framework to steer activities around co-creation and citizen engagement. The project
+created a citizen engagement ladder based on design and system thinking that includes
+phase 1: awareness-raising; phase 2: mapping; phase 3: scoping; phase 4: co-creation and
+design scenarios; phase 5: touchpoints and influencers; and phase 6: feedback loops [19].
+Similarly, the CityxChange project developed the Citizen Participation Playbook to support
+local communities in PEBs and PEDs [20]. This project developed a roadmap of four
+distinctive citizen participatory processes as follows: process 1: the co-design of urban
+interventions; process 2: collaborative legislation; process 3: participatory budgeting; and
+process 4: citizens proposals. In addition, the project suggests best practices for effective
+citizen participation considering other smart city projects, European Commission initiatives
+and other organizations. These have been defined as (1) define the community; (2) clear
+purpose and front loading; (3) continuous engagement: capacity building and feedback; (4)
+open process, open source, and open data; (5) co-design, co-create, and co-produce; and
+(6) privacy by design [20]. The MAtchUp project has focused on several aspects such as
+participation, education and co-creation, and the local strategy of social services and local
+energy offices to mitigate energy poverty at the district scale, as well as citizen feedback
+channel for traffic management [21].
+POCITYF (POsitive Energy CITY Transformation Framework), a similar European
+funded project follows a “rapid prototyping” approach that enables simultaneous and
+almost real-time feedback by citizens. The project focuses on incentives for co-creating,
+co-delivering, and co-capturing value, and it also caters to disadvantaged communities
+while promoting sustainable tourism [22].
+The city of Tampere developed the Tampere. Finland, application as part of the
+innovative partnership of the Enlighten Tampere Hackathon process by Geniem Oy. The
+application uses open data and application programming interfaces (APIs) available in
+the city, and collects user location data for input on the smart street lighting system in the
+Viinikka pilot area. The application now has 45,000 users [23].
+The mySMARTLife project focuses on the energy retrofitting of houses in Helsinki,
+Nantes, and Hamburg. Evidence has shown that single-family house owners in Finland
+are most concerned with energy savings [24], and it is usually very hard for housing
+cooperatives to buy comprehensive energy retrofits despite potential profitability [25]. For
+
+Buildings 2021, 11, 102
+
+5 of 19
+
+this reason, energy advisory workshops held in Helsinki offered information on the most
+profitable energy retrofits, and both industry and city experts were invited to learn about
+the concerns, provide peer support, and initiate common projects [26].
+CIVITAS ELAN “Mobilising Citizens for Vital Cities”, launched by the European
+Commission as part of CIVITAS (City VITAlity and Sustainability), introduced transport
+measures and policies related to sustainable urban mobility and has the approach of
+‘putting the citizen first.’ In Ljubljana, where citizen opinions were considered a burden
+and excluded from decision-making, the project team established a cycling platform to
+improve cycling conditions for residents and include the needs of disabled groups while
+also ensuring citizen participation through the new spatial plan. The city of Gent already
+had an active citizen population that was further enhanced by the use of dialogue cafes
+and social media to engage all age groups. Porto went through a change, as citizens who
+previously believed their suggestions would not be taken into consideration were pushed
+to voice their ideas through user interviews, face-to-face surveys, flyers, and brochures.
+In Brno, citizens were not used to discussions with transport operators, but after encouragement through public debates, public opinion research, and working groups, the traffic
+situation and mobility was greatly improved. In Zagreb, the lack of public participation
+was resolved through mobility dialogues, the training of citizens, the continuous provision
+of information, and the establishment of the Zagreb forum for direct discussions with
+experts [27].
+1.4. Purpose of This Paper
+The authors of this paper focused on the cities of Espoo (Finland) and Leipzig (Germany). They assessed the status quo of citizen engagement in the two cities and determined
+whether the cities are prepared to implement PEDs. This was the first analysis of its kind
+that focused on the cities of Espoo and Leipzig, as well as their citizens. It is envisioned
+that the analysis will also support other European cities in evaluating and enhancing their
+citizen engagement efforts and consequently support the energy transition towards PEDs.
+The paper is structured as follows: Section 1 is the introduction to citizen engagement.
+Section 2 presents the approach and method adopted for the paper. Section 3 presents
+the selected case studies for each city, and Section 4 is the discussion and conclusion of
+the paper.
+2. Approach and Methodology
+The cities of Espoo and Leipzig have very different starting points regarding citizen
+engagement practices. As the next section shows, the existing infrastructure and regulations
+greatly vary between cities, consequently affecting how local activities are performed. This
+led the authors to perform an analysis of the two cities rather than a comparison of the two.
+It should also be highlighted that while the authors aimed to collect as diverse a portfolio
+as possible, part of the study material belongs to a European Horizon Europe (H2020)
+project where Espoo and Leipzig are lighthouse cities. As stated earlier, the topic of citizen
+engagement in the two cities has not been addressed in earlier studies, and this paper
+is a stepping stone for understanding and enhancing citizen engagement in both Espoo
+and Leipzig. A similar methodology was utilized for both cities to analyze and present
+the status quo of citizen engagement. The aim of the analysis was (1) to find the best local
+practice examples to build upon, (2) identify relevant (local) networks to cooperate with,
+and (3) to recognize (local) success factors for engagement activities.
+The first step was to choose diverse case studies per city that showcased citizen
+engagement in urban development and transformation. The authors chose three case
+studies per city (Table 1) with the following criteria to assure relevance and to give a
+diverse view:
+(1)
+(2)
+(3)
+
+Identify case studies with relatable target groups.
+Identify case studies with relatable objectives.
+Identify case studies with relatable themes.
+
+Buildings 2021, 11, 102
+
+6 of 19
+
+Table 1. Description of selected case studies.
+Espoo
+Case 1
+
+Espoo
+Case 2
+
+Espoo
+Case 3
+
+Leipzig
+Case 1
+
+Leipzig
+Case 2
+
+Leipzig
+Case 3
+
+Actors in urban
+politics,
+business, and
+science
+
+All citizens
+
+All citizens
+
+Youngsters
+
+Youngsters
+
+Private
+building
+owners in the
+districts
+
+Objectives
+
+Understand
+mobility needs
+and challenges
+
+Understand
+future mobility
+from young
+people’s
+perspective
+
+Safety of
+youngsters
+when visiting
+shopping
+centers
+
+Convince
+building
+owners to
+invest in energy
+efficient
+retrofitting
+
+Develop a
+future strategy
+for the next
+10–15 years
+
+Development
+and planning of
+green and blue
+infrastructure
+
+Themes
+
+Urban mobility
+and sustainable
+lifestyle
+
+Urban mobility
+
+New
+construction
+and renovation
+projects
+
+Reduce
+emissions and
+climate change
+
+Sustainable
+future
+
+Healthy
+environment
+for better
+wellbeing
+
+Target groups
+
+The selection of the case studies to represent the city of Espoo was based on discussions with the city representatives and those responsible for conducting citizen activities
+within the H2020 project. In addition, the authors conducted a broad literature review to
+understand the city processes and to know what initiatives and resources for the citizens
+already exist. The city of Espoo already has a broad history of engaging residents in
+both small and large-scale activities (Section 3), such as through schools and city libraries.
+However, in order to assure relevance to the paper, the authors selected case studies that
+had been conducted as part of the project as they were more recent and directly connected
+to PEDs. The first and second case studies addressed a variety of citizen types and age
+groups while focusing on mobility, while the third case study addressed a target group of
+youngsters and focused on creating a safe environment. Overall, the selected case studies
+present the recent efforts of Espoo and allow for the assessment of what could be the next
+steps for the city.
+The selection of the Leipzig case studies was based on an in-depth desktop research
+and literature review, discussions within the local the project consortium, and interviews
+with representatives of the city, including relevant project partners of the case studies. The
+first case study focused on the behavioral change of tenants in apartment houses in the
+field of energy-efficiency in daily life. The second case study related to target groups on a
+district level and was connected to the development of PEDs. The third case study focused
+on citizens and civil society actors, which will be of interest for more general engagement
+activities and to raise awareness for the topic of PED to facilitate replication activities across
+Europe.
+The selected case studies presented a wide range of experience with participation formats over a period of several years and variety of citizens. The presentation of the case studies from Espoo and Leipzig in Section 3 is structured according to the following questions:
+General questions:
+
+•
+•
+
+What are the main responsibilities, structures and processes of implementation in
+the cities?
+What methods do Espoo and Leipzig use to include citizens?
+Case specific questions:
+
+•
+•
+•
+•
+
+What was the aim of each city case?
+How was it done? What was the format?
+Who was the audience? How many people were reached? What was the response?
+What could be changed for replication and better results?
+
+Buildings 2021, 11, 102
+
+7 of 19
+
+3. Case Study Analysis
+3.1. Focus on Espoo
+The Espoo Story is the city’s strategy of the future. It has been diligently prepared
+with intensive cooperation together with residents, staff, and elected officials. The Espoo
+Story directs the city’s operations toward common goals. The city council approved the
+strategy in 2017 for the current council term of 2017–2021 [28]. Espoo is to have municipal
+elections in April 2021, and preparations for the new strategy have been ongoing since
+summer 2020. Values in the Espoo Story include the active involvement of residents in the
+development of services and comprehensive co-operation with partners.
+The four administrative development programs until the year 2021 are: (a) Participatory Espoo (Osallistuva Espoo), (b) Inspiring and dynamic Espoo, (c) Sustainable Espoo,
+and (d) Healthy Espoo. The city is aiming for carbon-neutral status by the year 2050,
+and, in parallel, Espoo will attempt to reduce resident-specific emissions by 60% by the
+year 2030 compared to the levels of 1990 [29]. In Espoo, resident participation that has
+extensively utilized new methods and tools has existed and been promoted for a long
+time. In addition, the municipal democracy has also been continuously revised over the
+years. The city believes that Espoo residents are much happier than the residents in other
+parts of Finland [30]. In Finland, the basis for citizen involvement in city development
+is set as laws. The Participatory Espoo program developed a participation model, with
+cornerstones including a handbook. A new position of a development manager for citizen engagement has also been established and work started in August 2020. In order to
+bring Espoo employees located in different parts of city organization together, there is a
+participatory network to share ideas and information.
+The Espoo Voluntary Local Review (VLR) is the framework to evaluate and communicate economic, ecological, social, and cultural sustainability, and it was developed with
+regard to the 17 Sustainable Development Goals (SDGs) of the UN’s 2030 Agenda. The
+review was performed together with hundreds of people (Espoo employees, residents,
+customers etc.). It was based on three themes: (1) leave no one behind, (2) let us do
+it together, and (3) accelerated action [31]. Within the city structure, there are different
+councils that cater to the need of different age groups such as the youth council (nuva),
+which has been active for 20 years and comprises forty 13–18-year-old youths to contribute
+in the decision making and planning. The Espoo youth council is the largest in Finland,
+and it has representatives in the city council and committees with the right to attend and
+speak. In 2020, it was also agreed that the youth council representatives have the right to
+attend and speak at city board meetings. The Espoo Elderly Council serves as an advocate
+for the elderly in the municipal decision making. In parallel, there is also a council for
+the disabled. All councils together influence the planning and preparation of the city’s
+activities, as well as monitoring issues relevant to well-being, health, inclusion, work-life,
+living environment, housing, mobility, day-to-day activities, and services [31].
+Service development in Espoo is based on experimental culture and co-creation. The
+city as a service model has the following key aspects: the engagement of residents, the
+accessibility of services by means such as digitalization, and the creation and deployment
+of new business and operating models. In Espoo, this means that the city invites all
+stakeholders of municipal services from companies to associations, research institutions,
+and residents to refine old services and innovate new ones together. The joint “6Aika”
+strategy of the six largest cities in Finland aims to develop more transparent and intelligent
+services. It directs its focus on promoting transparent operating models that help the entire
+urban community, research and development actors, and authorities [31].
+An overview of the residents in Espoo showed that the number of foreign-speaking
+residents in Espoo is gradually increasing. It is estimated that 18% of the Espoo residents speak a different language, and there are 150 different nationalities currently residing in Espoo [31]. Espoo citizens are able to give feedback to the municipal decision makers in a number of ways, either through an electronic feedback system [32]
+(https://easiointi.espoo.fi/eFeedback/en (accessed on 15 November 2020)) or traditional
+
+Buildings 2021, 11, 102
+
+8 of 19
+
+methods of communication. As per the Local Government Act, the resident of a municipality has the right to propose an initiative, e.g., the improvement of street or traffic. The
+submission of a proposal is an official and regulated procedure that is handled more carefully than unofficial feedback messages. In addition, the city of Espoo arranges residents’
+evenings, where it is possible to influence projects and plans. The residents of Espoo may
+also influence matters that concern them through residents’ forums. Each residents’ forum
+also has a preparation team [33].
+The three successful citizen engagement projects of the city of Espoo are presented as
+follows. These have been conducted as part of the ongoing European H2020 project as mentioned earlier and include several local partners (City of Espoo, VTT, KONE Corporation
+(KONE), and Citycon).
+Case 1—citizen user studies (2020): This case study was led by KONE, which is a
+global leader in the elevator and escalator industry, as well as a solution provider for
+the maintenance and modernization to add value to buildings throughout their life cycle. KONE’s current development efforts focus on urban flow and user experience in
+smart cities. The case study aimed to gain insights into Espoo citizens’ mobility behaviors,
+i.e., understand the ways and reasons for people to transition from one place to another,
+as well as understanding the challenges and opportunities for designing behavioral interventions for more sustainable mobility behaviors. The user study focused on two diverse
+districts of Espoo: Espoonlahti and Leppävaara. The Espoonlahti district is a developing
+area where a new shopping center (Lippulaiva) is currently being built to replace the old
+shopping center and the construction of an underground metro is to be completed by 2023.
+The Leppävaara district is a fairly developed area, characterized by a shopping center
+(Sello) and good public transportation train connections (both local and long-distance
+train, bus, and tram to start operation in 2024). Thus, the mobility infrastructure and the
+opportunities for (behavioral) interventions between these two places greatly vary.
+With a focus on these two districts, citizens’ mobility behaviors were studied through
+mobile probing, interviews, and co-creation workshops. The citizen insights were supported with mobility and citizen engagement expert interviews in order to tie the findings
+from the user studies into a more systemic understanding. Citizen needs were put into the
+core of innovation, while relevant stakeholders such as city representatives and service
+providers in mobility were involved in the research and development process from the
+early stages of the project. The ultimate goal of the applied citizen engagement process was
+to develop and test behavioral interventions and smart ecosystems that support citizens’
+sustainable mobility behaviors and habit formation, as well as more sustainable lifestyles
+in Espoo by the end of 2022.
+The citizens were selected through an application process advertised on local social
+media channels (Facebook). The application was open to all citizens in Espoo, and 41 respondents answered a preliminary survey. The citizens were asked to provide background
+information about their mobility modes (such as walking, biking, private car, public transportation, and micro mobility solutions), attitudes towards sustainability, and life situation.
+The final sample consisted of 10 diverse Espoo citizens, representing varying demographics
+(Table 2). Five of the participants were selected from the Espoonlahti district, and the other
+five were selected from the Leppävaara district to achieve a full understanding of mobility
+needs of Espoo citizens. The participants documented their daily mobility behaviors,
+as well as related experiences and thoughts through a mobile probing method in which
+images, text, videos, and voice messages were sent on WhatsApp for a period of eight
+weeks (Figure 1). The mobile probing method captured and communicated people’s daily
+mobility behaviors on a holistic level, enabling a deeper understanding of citizens’ mobility
+needs. The method enabled an active role for the citizens in the research and design process
+of future mobility [34]. KONE provided the participants phone devices to document their
+daily journeys. The mobile probing activity was supported with weekly questions and
+tasks sent on WhatsApp to prompt reflection on the participants’ current mobility decisions
+and alternative mobility modes. After the eight weeks, participants were interviewed to
+
+Buildings 2021, 11, 102
+
+9 of 19
+
+gain a deeper understanding based on the documented contents. In the final workshop,
+the participants co-ideated mobility concepts related to, for example, autonomous cars
+and material logistics based on the identified challenges and opportunities deriving from
+the user research. Due to COVID-19, all research activities during the study were held
+online and facilitated through digital platforms. Some challenges, such as limited digital
+capabilities and skills, were faced in the final workshop, as the participants did not have a
+prior experience of using digital co-creation platforms.
+Table 2. Demographic information about the final research participants.
+Gender
+
+Age
+
+Life Situation
+
+Male
+
+58
+
+Spouse and two children (one living on their own)
+
+Female
+
+29
+
+Spouse and a newborn baby
+
+Male
+
+41
+
+Spouse and two small children
+
+Female
+
+20
+
+Parents and sister
+
+Male
+
+44
+
+Spouse and three children with active hobbies
+
+Female
+
+67
+
+Spouse (using wheelchair)
+
+Male
+
+39
+
+Single with three children (kindergarten/school)
+
+Female
+
+27
+
+Living alone
+
+Male
+
+37
+
+Living alone
+
+Female
+
+54
+
+Teenage child every second week
+
+Figure 1. Two screenshots from the WhatsApp probing contents sent by the participants—driving
+daughter and her bike to the ice rink (left) and travelling with a wheelchair (right).
+
+At the end of the final workshop, participants were asked for feedback on the quality of
+citizen engagement achieved through the user study. Through the described comprehensive
+citizen engagement process that lasted for four months in total, a holistic understanding
+of various Espoo citizens’ mobility challenges, needs, and desires was gained. It must be
+highlighted that informed consent was signed by the participants to maintain their privacy
+and data protection during the study period.
+Case 2—testing a participatory design research workshop concept with youth (2020):
+This study was also led by KONE and arranged as part of a high school entrepreneurship
+course. A group of nine students (aged 17 years) were invited to a participatory design
+research workshop with the aim to investigate desirable future (sustainable) urban mobility
+from young people’s perspective. Participatory design research workshops (1.5–2 h) were
+conducted on five themes: pedestrian, bicycling, public transportation, shared mobility,
+and mobility inside hybrid buildings. The workshop was formed around a case of an
+imaginary new living area currently developed in Espoo.
+
+Buildings 2021, 11, 102
+
+10 of 19
+
+The workshop was facilitated face-to-face. In the workshop, the youngsters were
+asked two questions: “What kind of challenges do you experience related to the abovementioned themes?” and “What would be your dream user experience (based on the five
+themes)? The ideas were organized through post-its, e.g., blue post-it-notes illustrated the
+challenges and yellow post-it-notes showed the desires (Figure 2).
+
+Figure 2. Youth discussing the workshop results related to their future mobility needs and wishes.
+
+The preliminary findings of the workshop indicated that the youth experience many
+challenges related to their current mobility. These challenges were related to matters such
+as weather and dressing, road safety, bike storing, noise pollution, and crowding. In
+addition, many desires for an improved city infrastructure that supports walking, biking,
+and public transport were communicated in the workshop. According the participants,
+this could be achieved by creating a mobility infrastructure with reduced noise pollution
+and shorter distances to places. All the students received a sticker for voting on the change
+that they would prefer in the close future of urban mobility developments. The workshop
+also helped build empathy for this sometimes-marginalized target group and allowed the
+experts to understand the criteria for future urban development efforts. The next step
+would be to plan and organize collaborative workshops for ideating more tangible ideas
+for tackling the identified challenges and high-level desires.
+Case 3—co-creating shopping centers together with youngsters (2012 and ongoing):
+Shopping centers can be characterized as quasi-public spaces that may be defined as being
+open to all but are under private ownership [35]. Citycon is a leading owner and developer
+of mixed-use centers for urban living located in the Nordic region [36]. In Finland, Citycon
+owns and manages 12 centers, and the largest one called Iso Omena is located in Espoo. It
+attracts approximately 19.9 million visitors yearly and is a great example of urban mixeduse center with retail, public services (such as library, health care, and social insurance
+institution office), office spaces, and housing. This makes Citycon shopping centers even
+closer to public spaces where citizens handle multiple activities.
+The aim of the workshop was to ensure that young citizens feel safe and comfortable
+while visiting shopping centers and that they are aware of the common rules to behave
+in shopping centers. The three main citizen engagement highlights for young citizens
+implemented the shopping centers are: (1) co-creation workshops, (2) making common
+shopping center rules together, and (3) working with shopping centers’ guards (known as
+NOJA-guards) devoted and educated to work with youngsters (Table 3). In Finnish, the
+NOJA Guards is derived from nuorten oma järjestyksenvalvoja® and translates to youth’s
+own security guard. All these activities were developed and held together with Nuorten
+Palvelu ry [37] an organization that works with and for the youth and whose support was
+crucial in order to reach as many young people as possible.
+
+Buildings 2021, 11, 102
+
+11 of 19
+
+Table 3. Targets and timelines of different youth citizen engagement actions developed and held in
+Citycon together with Nuorten Palvelu ry.
+Co-Creation Workshops
+
+Making Common Rules
+
+NOJA-Guards
+
+Target
+
+To involve youngsters
+and to idea together
+
+To make common rules of
+behavior in shopping
+center
+
+To have known and
+safe adults to help
+youngsters in
+shopping centers and
+to decrease the
+amount of disorder
+
+Timeline
+
+During renovation or
+construction project
+
+Before opening or when
+needed
+
+While operation
+
+The co-creation workshops are organized for youngsters when larger renovation or
+construction projects are ongoing. For example, the Iso Omena shopping center in Espoo
+was expanded in 2013–2017, so several co-creation workshops were held during that time.
+Approximately 20–30 youngsters (aged 12–16 years) participated in the workshop and
+worked together with architects, youth workers from Nuorten Palvelu ry, representatives
+from Espoo library, and security guards. The youngsters were invited to directly participate
+in the workshops by the NOJA guards who were present in the shopping center. In addition,
+Nuorten Palvelu also invited youngsters through their own networks. These methods
+ensured diversity amongst the group.
+The workshops were conducted in an interactive manner where the construction
+project was first described to the youth, and later the youngsters were divided into groups
+to work on different topics. A few of the most popular ideas from the workshop were
+developed further (Figure 3). At the end of the workshops, the youngsters were rewarded
+with movie tickets for their valuable contribution.
+
+Figure 3. Ideas from youngsters that were realized in Iso Omena—large aquariums (left) and a large clock in Iso Omena
+(right). These ideas came from youngsters, and they were planned together with Citycon employees.
+
+By making rules for the shopping center together with youngsters, the designers and
+building owners had the opportunity to understand and solve problems that may have
+been overlooked. The youngsters invented possible rules applicable to all the visitors in
+the shopping centers. It was assumed that rules that are made together are usually obeyed
+better compared to rules given from above (managers). NOJA-guards (security guards) are
+still active, and they are educated and devoted to work with young customers. Observation
+showed that shopping centers with NOJA-guards have decreased the amount of disorder.
+Their presence is also a great way for shopping center owners to pay attention to young
+customers, implement social responsibility, and increase the amount of positive publicity.
+
+Buildings 2021, 11, 102
+
+12 of 19
+
+3.2. Focus on Leipzig
+Leipzig is the initiator and namesake of the Leipzig Charter on Sustainable European
+Cities [38], which was signed by 27 EU member states in 2007. The Leipzig Charter was
+the basis for a new urban policy in Europe, in particular for the concept of integrated
+urban development, which emphasizes the involvement of residents and an improved
+dialogue between representatives from politics, residents, and economic actors. The current
+framework for urban development in Leipzig is formed by the strategic goals of municipal
+policy, manifested in the integrated urban development concept “INSEK Leipzig 2030” of
+2018 [39]. The main four target areas for Leipzig are: quality of life, social stability, national
+and international importance, and competition between cities and regions. These target
+areas are concretized by defining specific focus areas and technical concepts. One of the
+main goals of Leipzig is to be climate-neutral by 2050, and the city administration itself
+plans to be climate-neutral by 2030 [40]. Citizen and stakeholder engagement is explicitly
+listed as one of the principles of the INSEK implementation strategy.
+In Germany, the law requires various forms of citizen engagement such as citizen
+petitions, citizen meetings, participation in city district and local councils, and formal
+public engagement in urban land use planning. However, many municipalities have
+established local guidelines that go beyond these legal requirements in order to include
+the perspectives of their citizens, to identify barriers early, and to improve the acceptance
+of their actions. In 2009, Leipzig started to develop a framework for an informal citizen
+participation resolution involving various actors from politics, science, administration,
+and citizenship. In 2012, the guidelines for citizen engagement [41] were manifested as
+the mayor’s instruction to the city administration. They included the involvement of the
+citizens, city council, and administration in municipal processes in all areas of responsibility
+(trialogue principle), and they defined citizen engagement as an integrative part of these
+processes. Key points related to transparency and cooperation in decision-making. The
+basic principle is the “early and continuous involvement of citizens in planning and
+decision-making processes.” In addition to the strategic goals, the guidelines contained
+recommendations for implementation, as well as a set of instruments.
+Depending on the character of the projects, various offices are responsible for planning
+and implementing urban participation processes. Since 2014, they have been supported
+by the “Leipzig Weiterdenken” coordination center (“Thinking Leipzig Ahead”) [42]. Its
+area of responsibility can be divided into three fields: Coaching and consulting within the
+city administration, testing innovative processes, and finally evaluating the implemented
+projects. In 2015, the strengths and weaknesses of the participation culture in Leipzig were
+analyzed. As a result, the coordinating office has since then maintained a central communication platform that provides transparent reports on completed, ongoing, and planned
+participation projects. The central participation structure also includes the city office [43],
+as a platform for citizen participation and commitment, and the youth parliament [44].
+Successful formats of decentralized participation management include regular district
+forums, Leipzig neighborhood management, and district offices. District forums are
+organized by the city in the context of ongoing participation projects to inform the residents
+of a district about urban projects and to stimulate discussion. By making a representative
+selection of participants and embedding smaller discussion groups, the citizens’ opinions
+can be analyzed in a representative way. In some key areas of urban development (the
+districts of Grünau, Leipzig East, Leipzig West, Paunsdorf, and Schönefeld), neighborhood
+or community management acts on behalf of the office of residential construction and
+urban renewal (AWS), implemented by private agencies. Neighborhood management is
+always connected to national or European urban development funding programs (e.g.,
+Soziale Stadt, Stadtumbau Ost, and URBAN (European initiatives)). Its task is to initiate
+communication between administration, politics, and local stakeholders, as well as to
+support local associations, initiatives, and projects, thus strengthening identification and
+the culture of participation in a neighborhood. The specific design of a management
+structure is based on the needs of the respective area. Neighborhood councils have been
+
+Buildings 2021, 11, 102
+
+13 of 19
+
+formed in two of the priority areas (the districts of Grünau and Leipzig West) as points
+of contact within the neighborhood, as well as for city administration and politics. These
+councils consist of citizens or representatives of citizen committees and representatives
+from other thematic areas (child and youth work, culture, education, housing companies,
+local economy, church, social affairs, etc.). In the context of neighborhood management,
+the city operates district offices in some districts as points of contact for residents.
+In addition to the experience gained from local projects, Leipzig also has experience
+with European smart city projects. From 2015 to 2020, Leipzig was one of the follower
+cities in the project Triangulum [45], focusing on cutting-edge concepts for smart district
+development. Within this project, the city developed an implementation strategy for
+smart city solutions in the sectors of energy, mobility, information, and communications
+technology for the Leipzig West area. Moreover, the findings of the Triangulum project
+have been considered in the development of the 2030 Leipzig INSEK Integrated Urban
+Development Concept.
+The three successful citizen engagement projects of the city of Leipzig are presented
+as follows.
+Case 1—Energy-efficient Retrofitting Management (ESM) (2015–2018): The ESM [46]
+established in two districts (Alt-Schönefeld, Lindenau-Plagwitz) in 2015 was part of the
+Leipzig Energy and Climate Protection Program 2014–2020, developed for European
+Energy Award certification. The objective was to convince building owners to invest in
+energy-efficient retrofitting, thereby improving the energy balance of the district. For
+this purpose, the seecon Ingenieure GmbH (Leipzig, Germany) and the Deutsche Stadtund Grundstücksentwicklungsgesellschaft mbH & Co. KG, Regionalbüro Leipzig (DSK,
+Leipzig, Germany) established a desktop support system for measures to reduce emissions
+and to adapt to climate change, especially regarding integrated neighborhood concepts,
+as well as to improve the energy efficiency of buildings and infrastructures. The main
+target group comprised private building owners in the districts. The different formats have
+reached between several dozen (consulting) and several thousand people (campaign) and
+are as follows [46,47]:
+
+•
+•
+•
+•
+•
+
+•
+•
+•
+
+Postal and telephone contact with residential building owners (2015–2016).
+Energy and retrofitting consulting for private owners and tenants (2015–2017).
+Public event on the occasion of the cooperation with the Consumer Advice Center
+combined with exhibition (2016).
+Energy and retrofitting consulting in cooperation with the Consumer Advice Center
+Saxony (2016–2018).
+Joint campaign “Leipzig is Climate Conscious” with the Department for Environmental Protection (AfU) and the Department for Urban Development and Construction
+(ASW)—inserts in the district journals combined with vouchers for free energy consulting (2017).
+Thermography tour: guided thematic walk (2017).
+MobilityChange stakeholder workshop in the neighborhood: common elaboration of
+practical project ideas and suggestions (2015).
+Talks on cooperation for environmental education projects with local education actors
+and schools in the neighborhood, as well as the presentation of coordinated project
+outlines (2015).
+
+During the three years of this project, it became clear that the function of a municipal
+advisor for energy issues with the option to advise key stakeholders and interested private
+owners is an important task for future district management. In the case of private owners,
+a high proportion of owner-occupiers is advantageous, as investment-oriented property
+owners of apartment houses have little interest in energy-efficient, socially-responsible
+renovation measures due to the lack of incentives on the rental market in Leipzig. Cooperation with the municipal or cooperative owners of apartment houses is also promising. In
+these cases, the tenants are to be involved in order to gain their acceptance and support.
+In addition, community or commercial facilities showed clear interest in the energy opti-
+
+Buildings 2021, 11, 102
+
+14 of 19
+
+mization of the building fabric and management. Here, the commercial tenants should be
+involved as well.
+One of the most important conclusions to be drawn from this ESM project is that the
+cooperation with key stakeholders in the district, who take over the function of multipliers,
+is essential for the successful involvement of local residents. If no stakeholder networks
+exist, a network and trust building phase has to be scheduled.
+Case 2—2030 Leipzig INSEK Integrated Urban Development Concept (2015–2017):
+One of the biggest and most successful participation projects in Leipzig was the participative development of the 2030 Leipzig INSEK Integrated Urban Development Concept [48,49]. Based upon the previous integrated urban development concept, SEKo 2020,
+the city planning office initiated a participative process to mutually design the approach for
+realizing the strategic vision for Leipzig 2030. This participative process was managed by
+the “Thinking Leipzig Ahead” coordination center and an external agency. The objective of
+the project was to develop a future strategy for the next 10–15 years to ensure economic
+power, finances, understanding of democracy, and natural resources. The different formats
+have reached between several dozen (workshops, forums) and several hundred people
+(presentations) [50,51]:
+
+•
+•
+
+•
+•
+•
+•
+•
+
+Public kick-off event (2015).
+Four thematic workshops: moderated discussions in small and big groups, partly
+combined with presentations, exhibitions, and speed dating with city administration
+staff (2016–2017).
+Four district forums: moderated discussions in small groups combined with presentations (2016).
+Three working groups: discussion at the LivingLab Leipzig West (2016).
+Public presentation and discussion of the draft (2017).
+Presentation of the draft in five district forums: Grünau, Leipzig North, Schönfeld/Mockau, Leipzig East, and Paunsdorf (2017).
+Exhibition on the concept supported by Leipzig Lego model makers (2017).
+
+The main topics of the participative discussions were defined as follows: challenges
+for living together in a growing city, future growth of the medium-sized economy, further
+spatial development, digital city, sustainable mobility, and active urban society. The
+contents of the discussion were based on sectoral plans, such as urban development
+plans and specific field-related plans. City administration, several city departments, and
+various interdepartmental working groups were involved in the planning and development
+process. The target groups of the participation formats were either the urban society per se
+or specific actors in urban politics, urban society, business, and science. The findings and
+results of the workshop and forum discussions, and thus the opinions and wishes of the
+citizens of Leipzig, were integrated into the concept.
+The city of Leipzig gained a lot of experience in involving different stakeholders
+using various participation formats dependent on the specific objectives, the size of the
+participant group, and the level of involvement. One of the key aspects throughout the
+process was transparency—all steps and results were documented and published on the
+city’s website.
+Case 3—Green Masterplan: Leipzig green–blue 2030 (2018–2020): The Green Masterplan [52] is a development concept for the green–blue infrastructure of Leipzig (green
+space and waters). It is meant to become the politically accepted, socially accepted, and
+application-oriented basis for upcoming decisions on the spatial development of the city.
+Results from the Open Space Strategy 2017 are part of the 2030 Leipzig INSEK Integrated
+Urban Development Concept. The Green Masterplan shall define specific implementation
+concepts for green space and water design. The participation process is managed by the
+Office of Green Space and Waters (ASG).
+The objective of the project was to involve citizens in the development and planning
+process of the green and blue infrastructure for the purpose of healthy environmental
+conditions, individually usable recreation and exercise opportunities in open spaces that
+
+Buildings 2021, 11, 102
+
+15 of 19
+
+are accessible to all, and promoting health, as well as a biotope network for species and
+habitats. The different formats have reached between several dozen (for consulting and
+workshops/green walks) and several thousand people (for campaign and survey) [53]:
+
+•
+•
+•
+•
+•
+
+Online survey on attitudes and expectations (2019).
+Two citizen forums: discussion in groups with different questions combined with
+presentations and exhibition of online survey results (2019–2020).
+Four thematic workshops: discussion at round table combined with presentations
+(2019–2020).
+Green labs: various activities that turn urban green spaces and water bodies into a
+cultural experience and field of experimentation.
+Green walks: regular moderated walks on different topics combined with the presentation of the Green Masterplan; participants wear green vests and there is a record of
+observations/suggestions on cards/posters (2019–2020).
+
+The main topics of the participative discussions were: environmental protection,
+health, climate adaptation, biodiversity, environmentally-friendly mobility, and urban
+gardening. The main target group of the participation process was the urban society—
+citizens and civil society actors. Points of critiques and proposals arising from these forums
+and workshops are to be included in the Green Masterplan. In addition to conventional
+formats, the city uses creative formats such as green labs and green walks to strengthen the
+citizens’ relationship to their city and to raise awareness for their environment.
+4. Discussion and Conclusions
+The united nations intergovernmental panel on climate change’s claims that there are
+11 years left to save the planet before an irreversible climate catastrophe occurs. The climate
+urgency is to be resolved not only on the macro level but also at the local level where
+municipalities are required to engage in the transformation of the use and production of
+energy for the wellbeing of citizens [54]. While PEDs are low-carbon solutions for cities,
+they must provide co-benefits to citizens and local authorities (such as better wellbeing and
+health, job creation, increased gross domestic product (GDP), and tourism) [11]. In addition,
+success with a PED requires that all stakeholders join forces to develop the best-fit solution
+for and by the citizens to tackle the global climate crisis. Furthermore, the new Green Deal
+released by the European Commission demands new and more effective ways of including
+city leaders, authorities, and citizens to establish political dialogue across various levels
+of government [55]. In parallel, the concept of ‘renewable energy communities’ is also
+being discussed and holds great importance when planning the implementation of PEDs.
+Looking at the definition of PEDs provided in the report by the European Commission,
+there is a clear and strong emphasis on ownership by citizens and change being led by
+citizens [11].
+This paper performed an analysis of the status quo of citizen engagement in the two
+emerging cities of Espoo and Leipzig, where the local authorities, together with the local
+partners, have planned several actions to initiate the uptake of PEDs for a carbon-neutral
+sustainable future. It has to be recognized that these cities have had very different starting
+points and varying experiences, so it is not feasible to make a comparison; rather, it was
+feasible to study the current situation and provide support in progressing towards the
+successful implementation of PEDs.
+Through this paper, it can be seen that there is no one definition for citizen engagement
+in cities. Citizens play an active role in defining issues, finding solutions, and identifying
+priorities for action. However, involving citizens is voluntary for cities, and such an
+inclusion process varies between cities and may be even lacking completely in certain cities.
+When discussing how the city of Espoo plans to create a smooth transition to PEDs
+together with citizens, the authors looked at some of the planned actions, such as engaging
+different age groups. In parallel, the city is determined to encourage a sustainable lifestyle
+with a special emphasis on urban mobility behaviors and citizens’ daily journeys by
+following a design thinking process and utilizing methods from co-design. The described
+
+Buildings 2021, 11, 102
+
+16 of 19
+
+case studies provide evidence that the city and its expert partners can effectively engage
+a variety of actors, and the participation formats may be readily adapted to suit current
+requirements. With the existing participation infrastructure within the city, spanning over
+decades, building up and replicating the described citizen engagement activities will be
+easy to do. As citizen engagement is also part of Finnish law, over the years, there has
+been a strong emphasis on co-creation and encouragement of participation through the
+local council meetings, forums and through local networks across Finland. In addition,
+Espoo frequently conducts city-wide online surveys on different topics, such as ‘Mun
+Espoo’ (My Espoo) where residents indicate their satisfaction with the city services and
+provide suggestions.
+The Espoo case studies illustrated how Espoo has worked with different age groups
+on various topics. The recruitment of citizens could be a challenge, but it may be resolved
+through rigorous promotion and reaching out to residents through various channels, such
+as social media, and providing motivation for participation. The youth are considered a
+marginalized group of society, but the experts have reached the youth through various
+methods to gather as diverse a group as possible and to ensure that all opinions are heard.
+Based on the success of the youth workshops, the city of Espoo has now begun work
+with two junior high schools and its students to plan a new shopping center in Espoo.
+Considering the global pandemic, this activity has been adapted to an online format, and
+co-creation with the students continues. It must also be highlighted that because the
+purpose of the Espoo workshops was to hold discussions on a general level and to hear
+citizen concerns regarding city development, the actual development of ideas that might
+include intellectual property was not realized and there were no issues related to ownership
+of ideas.
+For the city of Leipzig, the former participation projects were found to be a good
+basis for further developing its participatory approach in urban development and energy
+transformation. The objective is to involve and to enable residents and local stakeholders
+in the planning and implementation processes of positive energy districts in urban society.
+This includes both convincing stakeholders who are directly involved and raising general
+awareness for the topic itself. Networking and cooperation with existing structures that
+already form a central point of contact in a district have proven to be advantageous. They
+can provide a first assessment of relevant stakeholders and their needs, and they can
+arrange for relevant contacts. Established structures and local key actors are perceived as
+trustworthy and can successfully promote project activities as multipliers. Similarly, the
+establishment of a permanent contact point for stakeholders has also proven useful. One of
+the promising formats with transfer potential for energy topics is ESM energy consulting
+in cooperation with the consumer center in Saxony, which could conceivably accompany
+the introduction of certain products or activities. The consumer centers in Germany are
+non-governmental organizations representing consumers’ interests. They enjoy great trust
+among the population as advisory bodies for energy issues, among other things, and can
+be valuable partners in energy-related projects. As a third point, the participation format
+differs for each target group. One of the lessons learned from the ESM project is that
+there are no adequate incentives for investment-oriented property owners of apartment
+houses in Leipzig to improve the energy performance of their buildings. On the other hand,
+local tenants have little influence on the owners’ decisions because they have no levers
+under the current circumstances. The better target group for energy-retrofitting are the
+owner-occupiers who directly profit from this kind of investment in the end (socially and
+economically). Tenants, in turn, are limited in their action and are the right target group
+for promoting energy-saving activities in everyday life. In the end, the city has to define
+different starting points and goals for different target groups with different frameworks
+of action.
+This paper aimed to answer the question whether the two cities are ready to implement
+PEDs; considering the background of each city and the diverse experiences that each
+one has in engaging actors, it may be said that both Espoo and Leipzig are prepared to
+
+Buildings 2021, 11, 102
+
+17 of 19
+
+effectively move towards the implementation of PEDs in a citizen-inclusive manner. A
+variety of citizens have been invited to participate and provide input on services and
+development projects in both cities. The inclusion of the young generation, children,
+teenagers, and vulnerable young people is crucial in urban development because it leads to
+awareness on energy transition from an early stage, builds up or strengthens the emotional
+bond with their own neighborhood, and creates ownership. Moreover, as early adopters,
+children and young people can exert a motivating influence on their local environment,
+including their family. For this reason, it is important to include special engagement
+formats for this target group, as observed in the Espoo case studies. The cooperation
+with local schools, education centers, and training centers in the district, as well as with
+associations and sponsors of children’s and youth work on site, should be part of projects
+dealing with urban development. Citizens must also feel that their opinions and feedback
+are heard and considered by the experts. Therefore, it becomes essential that interaction
+with citizens is not carried out for the sake of interaction. Instead, experts have to be
+ready to modify and adapt the plans based on citizen needs. In parallel, it must also be
+highlighted that common formats such as presentations, discussions, workshops, and
+working groups, sometimes combined with informational formats such as exhibitions,
+are indispensable parts of the participation strategy according to the project phase, the
+defined target group, and the purpose of the activity. Depending on the circumstances,
+the influence of participants ranges from information to the development of proposed
+solutions and co-creative formats. Additionally, it is advisable to include more event-like
+and creative formats to raise awareness, create emotional impact and get into discussion
+with local residents. The 2017 exhibition on INSEK Leipzig 2030 was supported, e.g., by
+Leipzig Lego model makers. The Green Masterplan, and the ESM project provided guided
+thematic walks or tours illustrating real-life implications of political topics.
+With the global pandemic, the key question is the adaptation of participation plans.
+The crucial points are not only the different levels of digital literacy, access to digital
+infrastructure, and of willingness to use digital technologies but also the mode of interaction
+itself that differs of course from that of face-to-face events. Recent developments have
+forced us to rethink our concepts and to include much more digital activities than intended.
+Certain activities, however, have the capability to be immediately adapted the online space,
+e.g., the user mobility study was conducted entirely remotely through phone devices.
+Workshops held by the city, such as inviting residents to develop new participation ways,
+have already been switched online. In the coming months, the cities of Espoo and Leipzig
+will investigate inclusive digital and hybrid participation formats, and they will adapt them
+further to create innovative use cases for the development of PEDs for replication across
+Europe. Moreover, the cities will look into possible key performance indicators (KPIs) that
+could be deployed to measure success with citizens through different participation formants
+and to assess how these could be adapted to suit the different contexts across Europe.
+Author Contributions: Conceptualization, Z.F.; methodology, Z.F. and U.P.; writing—original draft
+preparation, Z.F., U.P., S.-S.S., K.K. and M.T.; writing—review and editing, Z.F., U.P., S.-S.S., K.K. and
+M.T. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by Sustainable energy Positive & zero cARbon CommunitieS
+(SPARCS). Grant agreement ID: 864242 and the APC was waived.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Informed consent was obtained from all subjects involved in the
+study. This is only applicable to Espoo case studies and not applicable to the Leipzig cases.
+Data Availability Statement: Not applicable.
+Acknowledgments: The authors are grateful to Elina Wanne, Reetta Turtiainen and Merja Ryöppy
+for their valuable contribution regarding the Espoo case studies.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Buildings 2021, 11, 102
+
+18 of 19
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+
+29.
+30.
+
+Carpini, M.X.D.; Cook, F.L.; Jacobs, L.R. Public deliberation, discursive participation, and citizen engagement: A Review of the
+Empirical Literature. Annu. Rev. Politi. Sci. 2004, 7, 315–344. [CrossRef]
+Warren, A.M.; Sulaiman, A.; Jaafar, N.I. Social media effects on fostering online civic engagement and building citizen trust and
+trust in institutions. Gov. Inf. Q. 2014, 31, 291–301. [CrossRef]
+Gil De Zúñiga, H.; Jung, N.; Valenzuela, S. Social Media Use for News and Individuals’ Social Capital, Civic Engagement and
+Political Participation. J. Comput. Commun. 2012, 17, 319–336. [CrossRef]
+Zukin, C.; Keeter, S.; Andolina, M.; Jenkins, K.; Carpini, M.X.D. A New Engagement?: Political Participation, Civic Life, and the
+Changing American Citizen; Oxford University Press: Oxford, UK; New York, NY, USA, 2006; pp. 1–270. [CrossRef]
+Ekman, J.; Amnå, E. Political participation and civic engagement: Towards a new typology. Hum. Aff. 2012, 22, 283–300.
+[CrossRef]
+Bonsón, E.; Perea, D.; Bednárová, M. Twitter as a tool for citizen engagement: An empirical study of the Andalusian municipalities.
+Gov. Inf. Q. 2019, 36, 480–489. [CrossRef]
+Smart Cities Information System. In Citizen Engagement Solution Booklet; European Union: Brussels, Belgium, 2019.
+Canadian Institutes of Health Research (CIHR), CIHR’S Citizen Engagement Handbook. 2012. Available online: http://www.
+cihr-irsc.gc.ca/e/42196.html (accessed on 1 July 2020).
+The Association of Netherlands Municipalities VNG. Participatie. Available online: https://vng.nl/artikelen/participatie
+(accessed on 1 July 2020).
+European Innovation Partnership on Smart Cities and Communities. Citizen Focus Action Cluster. Available online: https:
+//eu-smartcities.eu/clusters/3/description (accessed on 1 July 2020).
+Schütz, F.; Heidingsfelder, M.L.; Schraudner, M. Co-shaping the Future in Quadruple Helix Innovation Systems: Uncovering
+Public Preferences toward Participatory Research and Innovation. She Ji J. Des. Econ. Innov. 2019, 5, 128–146. [CrossRef]
+Paci, S.; Bertoldi, D.; Shnapp, S. Enabling Positive Energy Districts across Europe: Energy efficiency couples renewable energy.
+JRC Tech. Rep. 2020. [CrossRef]
+European Commission. Final Report of the High-Level Panel of the European Decarbonisation Pathways Initiative; European Commission:
+Brussels, Belgium, 2018. [CrossRef]
+European Commission. Cities by 2030—By and for the Citizens. Interim Report of the Mission Board for Climate-Neutral and Smart
+Cities; European Commission: Brussels, Belgium, 2020. [CrossRef]
+European Commission. The European Green Deal. 2019. Available online: https://ec.europa.eu/info/strategy/priorities-2019-2
+024/european-green-deal_en (accessed on 1 July 2020).
+Allen, B.; Tamindael, L.E.; Bickerton, S.H.; Wonhyuk, C. Does citizen coproduction lead to better urban services in smart cities
+projects? An empirical study on e-participation in a mobile big data platform. Gov. Inf. Q. 2020, 37, 101412. [CrossRef]
+Choi, J.-C.; Song, C. Factors explaining why some citizens engage in E-participation, while others do not. Gov. Inf. Q. 2020,
+37, 101524. [CrossRef]
+Simonofski, A.; Vallé, T.; Serral, E.; Wautelet, Y. Investigating context factors in citizen participation strategies: A comparative
+analysis of Swedish and Belgian smart cities. Int. J. Inf. Manag. 2021, 56, 102011. [CrossRef]
+Johnson, P.A.; Robinson, P.J.; Philpot, S. Type, tweet, tap, and pass: How smart city technology is creating a transactional citizen.
+Gov. Inf. Q. 2020, 37, 101414. [CrossRef]
+Integrated and Replicable Solutions for Co-Creation in Sustainable Cities. In H2020 Project, Deliverable 1.6; European Commission:
+Brussels, Belgium, 2018.
+García, J.B.; Sánchez Mora, M.; Webb, R.; Næss, K.S.; Perkins, A.; Fica, C.; Prokýšek, M.; Delgado Ortiz, L.C.; Petkova, E.;
+Hallimäe, T. +CityxChange D3.2: Delivery of the Citizen Participation Playbook; European Commission: Brussels, Belgium, 2020.
+MAtchUp. MAtchUp EU Project—Citizens Solution. 2018. Available online: https://www.matchup-project.eu/solutions/
+citizens-engagement/ (accessed on 1 July 2020).
+POCITYF. H2020 POCITYF. Available online: https://pocityf.eu/solutions/#citizen-driven-co-creation (accessed on 1 July 2020).
+City of Tampere. Stardust. Available online: https://www.tampere.fi/smart-tampere/kestava-tampere-2030-ohjelma/stardust.
+html (accessed on 1 July 2020).
+Hirvonen, J.; Vanhatalo, M. Ympäristöasenteet ja kaupunkikehitys Helsingissä ja Vantaalla; TUTKIMUKSIA: Helsinki, Finland, 2018.
+Murto, P.; Jalas, M.; Juntunen, J.; Hyysalo, S. The difficult process of adopting a comprehensive energy retrofit in housing
+companies: Barriers posed by nascent markets and complicated calculability. Energy Policy 2019, 132, 955–964. [CrossRef]
+Viitanen, M. Mission Board Seminar. Energy Renaissance. MySmartLife Project; European Union: Brussels, Belgium, 2020.
+Marega, M.; van Aken, E.; Braun, M.; Kontić, V.; Delanghe, P.; Pavić-Rogošić, L.; Štěpnička, J.; Martinho, B.S.; Engels, D. Civitas
+Elan Measure Leaders, Citizen Engagement in the Field Of Mobility Work and Lessons Learned; European Commission: Brussels,
+Belgium, 2012.
+City of Espoo. Espoo Story. 2017. Available online: https://www.espoo.fi/en-us/city_of_espoo/Decisionmaking/The_Espoo_
+Story (accessed on 1 July 2020).
+City of Espoo. Goal: A Sustainable Future. 2020. Available online: https://www.espoo.fi/en-US/Housing_and_environment/
+Sustainable_development (accessed on 1 July 2020).
+
+Buildings 2021, 11, 102
+
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+
+40.
+
+41.
+
+42.
+
+43.
+44.
+45.
+46.
+47.
+48.
+49.
+
+50.
+
+51.
+
+52.
+53.
+
+54.
+55.
+
+19 of 19
+
+City of Espoo. Osallistuva Espoo. 2020. Available online: https://www.espoo.fi/fi-fi/espoon_kaupunki/paatoksenteko/
+espootarina/osallistuva_espoo (accessed on 1 July 2020).
+City of Espoo. City of Espoo—Feedback system. 2020. Available online: https://easiointi.espoo.fi/eFeedback/en (accessed on 15
+November 2020).
+City of Espoo. Voluntary Local Review—Implementation of the United Nations’ Sustainable Development Goals 2030 in the City.
+Available online: https://www.local2030.org/pdf/vlr/EspooVLR2020Web.pdf (accessed on 1 July 2020).
+City of Espoo. Influence. Available online: https://www.espoo.fi/en-US/City_of_Espoo/Influence (accessed on 1 July 2020).
+Koch, D.; Maaß, S. Digital Probes Kit. i-com 2018, 17, 169–178. [CrossRef]
+Sahito, N.; Han, H.; Nguyen, T.V.T.; Kim, I.; Hwang, J.; Jameel, A. Examining the Quasi-Public Spaces in Commercial Complexes.
+Sustainability 2020, 12, 1830. [CrossRef]
+Citycon. Available online: https://www.citycon.com/ (accessed on 1 November 2020).
+European Commission. Leipzig Charter on Sustainable European Cities. 2007. Available online: https://ec.europa.eu/regional_
+policy/archive/themes/urban/leipzig_charter.pdf (accessed on 30 November 2020).
+City of Leipzig. Integrated Urban Development Concept “INSEK Leipzig 2030”. 2018. Available online: https://static.leipzig.de/
+fileadmin/mediendatenbank/leipzig-de/Stadt/02.6_Dez6_Stadtentwicklung_Bau/61_Stadtplanungsamt/Stadtentwicklung/
+Stadtentwicklungskonzept/Leipzig-2030_Beschluss_Gesamtfassung.pdf (accessed on 30 November 2020). (in German).
+City of Leipzig. Emergency Climate Action Program 2020. Available online: https://static.leipzig.de/fileadmin/
+mediendatenbank/leipzig-de/Stadt/02.3_Dez3_Umwelt_Ordnung_Sport/36_Amt_fuer_Umweltschutz/Publikationen/
+200910_Sofortma-nahmenprogramm_Klimanotstand_2020_FINAL.pdf (accessed on 30 November 2020). (in German).
+City of Leipzig. Public Submission to the City Council on the Guidelines. 2012. Available online: http://english.leipzig.de/
+fileadmin/mediendatenbank/leipzig-de/Stadt/02.6_Dez6_Stadtentwicklung_Bau/61_Stadtplanungsamt/Stadtentwicklung/
+Leipzig_weiter_denken/OEffentliche_Vorlage_an_den_Stadtrat_zu_den_Leitlinien.pdf (accessed on 30 November 2020).
+(in German).
+City of Leipzig. City of Leipzig, Official Homepage of the Coordination Centre. 2020. Available online: https://english.leipzig.de/
+services-and-administration/opportunities-for-residents-to-get-involved-and-make-a-difference/thinking-leipzig-ahead/
+(accessed on 30 November 2020). (in English).
+City of Leipzig. Official Homepage of the City Office. 2020. Available online: https://www.leipzig.de/buergerservice-undverwaltung/buergerbeteiligung-und-einflussnahme/stadtbuero/ (accessed on 30 November 2020). (in German).
+City of Leipzig. Official Homepage of the Youth Parliament. 2020. Available online: https://jugendparlament.leipzig.de/
+(accessed on 30 November 2020). (in German).
+City of Leipzig. TRIANGULUM Local Project Activities. 2020. Available online: https://www.leipzig.de/bauen-und-wohnen/
+stadterneuerung-in-leipzig/stadterneuerungsprojekte/eu-projekt-triangulum/ (accessed on 30 November 2020). (in German).
+City of Leipzig. Energy-efficient Retrofitting Management (ESM). 2020. Available online: https://www.leipzig.de/bauen-undwohnen/foerdergebiete/klimaquartiere/ (accessed on 30 November 2020). (in German).
+Seecon, DSK. Energy-Efficient Retrofitting Management Lindenau-Plagwitz. Final Report—Energetisches Sanierungsmanagement
+Lindenau-Plagwitz. Endbericht; Seecon: Leipzig, Germany, 2018; non-public. (in German)
+Seecon, DSK. Energy-Efficient Retrofitting Management Alt-Schönefeld. Final Report—Energetisches Sanierungsmanagement AltSchönefeld. Endbericht; Seecon: Leipzig, Germany, 2018; non-public. (in German)
+City of Leipzig. Content and Participative Development of INSEK Leipzig 2030, Summary. 2020. Available online:
+https://english.leipzig.de/construction-and-residence/urban-development/insek-leipzig-2030-integrated-urbandevelopment-concept/content-and-process/ (accessed on 30 November 2020). (in English).
+City of Leipzig. Participative Development of INSEK Leipzig 2030. 2020. Available online: https://www.leipzig.de/bauenund-wohnen/stadtentwicklung/stadtentwicklungskonzept-insek/prozess-und-beteiligung/ (accessed on 30 November 2020).
+(in German).
+City of Leipzig. Detailed Documentation of the INSEK Participation Process. 2020. Available online: https://www.leipzig.de/
+buergerservice-und-verwaltung/buergerbeteiligung-und-einflussnahme/leipzig-weiter-denken/beteiligen/leipzig-2030/ (accessed on 30 November 2020). (in German).
+City of Leipzig. Official Homepage of Masterplan Green. 2020. Available online: https://www.leipzig.de/freizeit-kultur-undtourismus/parks-waelder-und-friedhoefe/masterplan-gruen/ (accessed on 30 November 2020). (in German).
+City of Leipzig. Detailed Documentation of the Masterplan Green Participation Process. Available online: https://www.leipzig.
+de/freizeit-kultur-und-tourismus/parks-waelder-und-friedhoefe/masterplan-gruen/beteiligungsprozess/ (accessed on 30
+November 2020).
+Saheb, Y.; Shnapp, S.; Paci, D. From Nearly-Zero Energy Buildings to Net-Zero Energy Districts—Lessons Learned from Existing EU
+Projects; EUR 29734 EN.; Publications Office of the European Union: Luxembourg, 2019. [CrossRef]
+Eurocities. The European Green Deal: Delivering Results for Citizens with Europe’s Cities. 2020. Available online: https://
+eurocities.eu/latest/the-european-green-deal-delivering-results-for-citizens-with-europes-cities/ (accessed on 1 December 2020).
+
+

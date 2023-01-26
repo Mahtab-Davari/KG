@@ -1,0 +1,876 @@
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019 95–106
+
+RESEARCH and EXPERIMENTATION
+
+Solutions and services for smart sustainable districts: innovative Key
+Performance Indicators to support transition
+Carola Clemente*a, Paolo Civierob and Marilisa Celluralea
+aSapienza University of Rome, PDTA Department – Via Flaminia 72, 00196 Roma (IT)
+b IREC Catalonia Institute for Energy Research, Jardins de les Dones de Negre, 1, 08930 Sant Adrià de Besòs, Barcelona (Spain)
+ABSTRACT
+
+Keywords:
+
+The European Strategic Energy Technology Plan (SET Plan) supports the Energy Union’s
+policies by setting the strategies for the European Union energy sector. In 2018, the
+Implementation Plan traced the pathway in planning, deployment and replication of 100 Positive
+Energy Districts (PED) by 2025. This article presents innovative research on models,
+methodologies planning tools and technology solutions for the short-medium term implementation
+of PEDs.
+
+Positive Energy Districts;
+Transitions and Dilemmas;
+Key Performance Indicators;
+Smart Cities and Communities solutions
+
+The approach and methodology behind the research is based on an operational framework set up
+to identify gaps and sharing for urban services’ implementation and to support life improvements
+for citizens, consumers, and prosumers.
+
+URL: http://doi.org/10.5278/ijsepm.3350
+
+The main output of this research report is a framework to facilitate a synthetic evaluation of the
+positioning and improvement of each smart city solution considered in the study. These are
+referring to engagement phase (planning, design, construction, management) and engagement
+scale (functional unit, building, blocks of building, infrastructures, environment). Furthermore,
+the framework improves the identification of strategies and stakeholders’ commitment to promote
+Smart Urban District or PEDs transition.
+This research contribution stems from the project SCC solutions for Positive Energy Districts
+– Research of Electric System/Annual Implementation Plan 2018/41 between Sapienza University
+of Rome and ENEA Energy Technology Dept. – Sustainable Energy Network. The broader aim
+of that project has been to design a set of strategies to facilitate the transition of the built
+environment towards e.g. Smart Energy Districts.
+
+1. ntroduction
+In in the context of a decade of deep economic suffering,
+the transition from the EU Horizon 2020 to the EU
+Horizon Europe programme marks an important landmark in analysis and evaluation about the climate and
+energy policies. The energy issue, no longer confined to
+the resource-consumption binomial, has been recognized
+by the international scientific community [1–5] as a pervasive issue, linked to the economy of scale, ­information,
+
+interoperability of systems, and the quality of citizens’
+behaviour. Over the last ten years, the European Energy
+Research Alliance (EERA) through the Joint Programme
+Initiatives (JPI) has provided the scientific and operational basis to realise the full potential of energy efficiency in urban areas [6].
+The rapid technological advancement, especially in
+the big data management and IoT field, supported the
+commitment of the JPI Urban Europe in getting ahead
+
+*Corresponding author - e-mail: marilisa.cellurale@uniroma1.it
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+95
+
+Solutions and services for smart sustainable districts: innovative Key Performance Indicators to support transition
+
+Acknowledgement of value
+The added value of the research “SCC solutions for positive Energy District – RdS/PAR2018/041” is the setting up of a framework which support synthetic evaluation and facilitate public officers within a Municipality
+to recognize which alternatives would support the transition to PEDs according to Italian rules and regulation.
+The idea is that this framework could facilitate their deployment and replication to each local context as for
+instance, Taranto.
+I believe that PEDs must be not only efficient from the energetic point of view, but also they must integrate
+functional, technological and social aspects, with an overall improvement of services for citizens to support
+transition towards urban sustainability.
+That is why the main outputs and results of the research project could facilitate Municipal Council
+Representatives in the comprehension and laying out of strategies which can be effective to enable urban
+regeneration. This is the main objective for Taranto City where it is necessary to develop an integrative
+approach which includes technological, spatial, regulatory, financial, environmental, social and economic perspective driven by City in cooperation with industry and investors, research and citizen organization.
+Ubaldo Occhinegro , Council Representative for Urban Planning - Construction, Mobility and Strategic
+Plans, Municipality of Taranto, Italy
+“a purely techno-centric vision that reduced smartness
+to a driver for the economic development of those companies that in various way operate in the ICT” [7].
+In 2018, the Implementation Plan traced the pathway
+in planning, deployment and replication of 100 Positive
+Energy Districts (PEDs) by 2025, defined as follows:
+“PEDs require interaction and integration between
+buildings, the users and the regional energy, mobility
+and ICT systems, as well as an integrative approach
+including technology, spatial, regulatory, financial legal,
+social and economic perspectives. Ideally, PEDs will be
+developed in an open innovation framework, driven by
+cities in cooperation with industry and investors,
+research and citizen organisations” [8].
+The research project “SCC solutions for positive
+Energy District –– Research of Electric System (RdS)/
+Annual Implementation Plan (PAR) 2018/41” - a collaboration between Sapienza University of Rome PDTA
+and ENEA Energy Technology Department Sustainable
+Energy Network - moves from vision and understanding
+highlighted in the SET Plan Implementation Plan Action
+3.2 Smart Cities, which aims to support the planning,
+deployment and replication of 100 Positive Energy
+District by 2025 for a sustainable urbanization.
+The research project aims to create a support to facilitate cities towards a positive energy transition identifying properties of PED, priorities for planning/deployment
+of PED and an innovative Key Performance Indicators
+(KPIs) system to promote transition.
+
+96
+
+The main outcomes could be based on:
+•
+PED conceptual framing as a transition from
+Smart Urban District model highlighting gaps
+and commonalities;
+•
+PED conceptual framing according to “new”
+urban dilemmas able to highlight which Smart
+Cities and Communities (SCC) solutions better
+allow the transition towards PED;
+•
+an innovative framework and KPIs system for
+identifying SCC solutions enabling transition
+towards PED.
+The research project is therefore focused on the systematization (a) of the main implementation domains for
+PED transition, (b) the products and solutions according
+to the different dilemmas in PED, (c) the scales and
+phases, and (d) the relevant stakeholders for planning
+and deployment of PED supporting development of a set
+of SCC solutions.
+The final result is a framework and an innovative KPI
+evaluation system to identify for each SCC solution
+(technologies, sensors, products, apps, ICT, etc.) the
+level of technology readiness level(TRL), the stakeholder type which is necessary to involve to support
+planning and deployment of SCC solutions as well as the
+engagement phase (planning, design, construction and
+management) and the engagement scale (functional unit,
+building, blocks of building, infrastructure, environment). The framework allows to identify gaps and commonalities for implementing urban services which
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Carola Clemente, Paolo Civiero and Marilisa Cellurale
+
+support a high quality of life for the consumers/­
+It is therefore a question of constructing a scalable
+prosumers.
+methodological and operational framework, aimed at
+An added value of the research project is an innovaresponding to two orders of preliminary considerations,
+tive way to create a repertoire of technological solutions,
+referred to the national level (Italian case study):
+which includes a defined quantity of devices, products
+1. the structural characteristics of Italian urban
+and tools within a wide range of solutions available on
+realities [9] qualify the dilemmas with respect to
+the market and/or ready for the test-bed phase as well as
+the consistency of the built heritage and to the
+a KPI metrics to identify engagement scale and engagedimensional and evolutionary parameter of the
+ment phase as well as the potential stakeholders to
+urban application field;
+involve in.
+2. to correspond, where useful, to the objectives of
+SET - Plan on Action 3.2, it is necessary to set
+up the instrumental framework for implementing
+2. Smart Urban District priorities and dilemmas
+and governing the transition to PEDs for
+facilitating PED transition.
+progressive steps of immediate implementation.
+This research project follows the previous one, namely
+According to this, a logical (computer) tool has been
+“RdS/PAR2017/075” which aim was underline the techdesigned for the recognition and systematization of the
+nological solutions already available on the market to
+SCC resources and solutions already operational and
+support the transition towards Smart Urban District and
+implementable within the Smart Urban District.
+highlighted that it is necessary to integrate the regulated
+In the next step, there are two conceptual evolutions
+model of city transformation - for discrete stadiums and
+able to orientate the transition to the PED.
+sectors as prescribed by the regulatory framework†The first concerns the measurement of the effectivewith an holistic approach to stimulate the optimization
+ness of the solutions identified: we intend to measure the
+of resources through the application of SCC solutions,
+smart quality not only with reference to the objective
+thus promoting a high interoperability degree. The reaperformance indicators but based on the field of applicasoning refinement and the tools developed within the
+tion, then interoperability with other solutions, at differSmart Urban District, both on a technical and epistemoent scales; the second concerns degree of gain that the
+logical level, require a continuous evaluation, revision
+combination itself generates, referred to the sum of the
+and implementation of the adopted solutions.
+KPIs of the individual instruments. In other words, measuring quality on applications means evaluating the
+effectiveness of an interoperable system, such as the
+†	
+We are referring to the European and national regulatory framework for
+energy, which has the strength of defining a minimum level of energy
+ratio between the sum of the expected (project) perforperformance of built environment but does not promote an integrated
+mance of a solution and the plus value (positive KPI)
+vision regarding the optimization of energy systems
+
+Table 1: Analysis Model for implementation of the SCC solutions in areas of Urban Dilemmas
+
+Areas
+1. Safety &
+Security,
+2. Health,
+3. Education,
+4. Mobility,
+5. Energy,
+6. Water,
+7. Waste,
+8. Economic
+development,
+Housing and
+Community.
+
+Key Tools/
+Technologies
+answer in areas
+Ref. to all Areas
+(1,2,3, …)
+
+Implementation
+domains
+1. Technologies in
+built environment
+2. Energy supply
+system,
+3. Water disposal
+system,
+4. Waste disposal
+system,
+5. Mobility system,
+6. Public space,
+7. Regulatory
+framework.
+
+Engagement phase
+1. Planning,
+2. Design,
+3. Construction,
+4. Management.
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Engagement scale
+
+Stakeholder
+
+1. Functional unit,
+2. Building,
+3. Block of buildings,
+4. Infrastructures
+(material/
+immaterial),
+5. Environment
+(physical/social).
+
+1. Government,
+2. R&I,
+3. Financial/Funding,
+4. Analyst, IT project
+and Big Data,
+5. BPM,
+6. Urban Services,
+7. Real Estate,
+8. Design/ Construction,
+9. Social/Civil Society,
+10. eCommerce.
+
+97
+
+Solutions and services for smart sustainable districts: innovative Key Performance Indicators to support transition
+
+Table 2: SCC Solutions areas of Urban Dilemmas. Implementation of solutions/services according to [11,12]
+Key tools/technologies answer in areas
+Areas
+
+Class of solutions
+
+Solutions
+
+1
+
+Safety & Security
+
+real time crime mapping
+smart surveillance
+body worn cameras
+disaster early warning systems
+predictive policing
+emergency response optimization
+crowd management
+building security and safety system
+personal alert applications
+gunshot detection
+data driven building inspections
+
+2
+
+Health
+
+telemedicine
+online care search and scheduling
+real time air quality information
+infectious disease surveillance
+lifestyles wearables
+remote monitoring applications and medication adherence tools
+data based population health interventions
+first aid alerts
+integrated patient flow management system
+
+3
+
+Education
+
+e-learning platform
+augmented reality tools
+building automation simulator
+Education&Training platforms
+energy management awareness
+real time behavioral impact
+personalized education applications
+open data/data management platform
+
+4
+
+Mobility
+
+98
+
+sharing/
+e-hailing/
+autonomous driving
+
+private e-hailing
+bike sharing
+car sharing
+autonomous vehicle
+pooled e-hailing
+demand-based micro transit
+traffic management and data services
+real time road navigation
+
+traffic management and
+data sharing
+
+real time road navigation
+integrated multimodal info
+digital payment in public transit
+intelligent traffic signals and vehicle preemption
+real time public transit info
+smart parking
+predictive maintenance of transit infrastructure
+congestion pricing
+
+urban cargo
+
+smart parcel lockers
+parcel load pooling and urban consolidation centers
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Carola Clemente, Paolo Civiero and Marilisa Cellurale
+
+Table 2: SCC Solutions areas of Urban Dilemmas. Implementation of solutions/services according to [11,12]
+Key tools/technologies answer in areas
+Areas
+
+Class of solutions
+
+Solutions
+
+5
+
+Energy
+
+distribution automation system
+dynamic electricity pricing
+building energy consumption tracking
+smart streetlights
+building automation systems
+building energy automation systems
+
+6
+
+Water
+
+leakage detection and control
+water consumption tracking
+water quality monitoring
+smart irrigation
+
+7
+
+Waste
+
+waste collection route optimization
+digital tracking and payment for waste disposal
+
+8
+
+Economic
+Development
+Housing and
+Community
+
+local connection platforms
+peer to peer accommodation platforms
+digital administrative citizen services
+local civic engagement application
+local e-career center
+online retraining programmes
+
+generated by an optimized combination of solutions
+different, in response to urban dilemmas‡, as it will be
+explained later in this article.
+3. Transition towards Positive Energy Districts:
+dilemmas and solutions
+The transition to an energy surplus goes through the
+domains already identified for the Smart Urban District,
+which are specified in urban dilemmas to which SCC
+technologies and solutions respond. The table below
+shows the correspondences between the urban domains
+involved in the transformation, identified by the World
+Economic Forum [10] and the eight transition contexts,
+identified as areas for defining “dilemmas” [11].
+In the operative matrix the dilemmas categorize the
+relative answers in terms of technologies.
+In accordance with the ontology drawn by the SET
+Plan ACTION 3.2, the solutions to the dilemmas are
+implementable and not unambiguous. A first survey
+‡ The contents of the document, therefore, adhere to the purposes of Module
+4 - Replication and Mainstreaming of PED, specifically the “Activity No 4
+- Identify analyze policies mixes and initiatives for PED transition, and
+enable to transfer from research into practice, as well as co-creation with
+industry and city partners” programmed in the implementation of SETPlan ACTION.
+
+c­ onducted by McKinsey & Company [12] was adopted
+as a coherent trace to the previously stated objectives,
+susceptible of subsequent implementations dictated by
+the expression of future urban dilemmas and consequent
+technical responses of research and innovation.
+Key Tools & Technologies become the enabling factors that, conveniently combined with business models
+and system stakeholders, allow the development of SCC
+solutions which facilitate transition towards PED [8].
+4. Implementation domain
+Taking into account the formulation of the SET Plan
+ACTION 3.2 Implementation Plan, the Positive Energy
+District should involve the optimization of three
+­dimensions:
+•
+Energy efficiency in buildings;
+•
+Energy flexibility within the districts;
+•
+Supply, at the regional or local level, of energy
+from renewable sources.
+The actions have an impact on urban physiology, recognized in six classes of physical components and one of a
+disciplinary nature (Table 3).
+Furthermore, the listed classes constitute domains of
+systems and relationships in which the dilemmas originate. The effectiveness of the combined and integrated
+application of SCC solutions is linked to the ability to
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+99
+
+Solutions and services for smart sustainable districts: innovative Key Performance Indicators to support transition
+
+Table 3: Implementation domains of the SCC solutions
+Implementation domains of key tools/technologies answer in areas
+Technologies in Built Environment
+
+Building
+
+Energy
+Supply
+System
+
+Water
+Disposal
+System
+
+Waste
+Disposal
+System
+
+Mobility
+System
+
+Public
+Space
+
+Regulatory
+Framework
+
+Infrastructures
+Material
+Infrastructures
+
+Immaterial
+Infrastructures
+
+ST
+stakeholders
+
+engagement phase
+
+Government Stakeholders (G)
+Research & Innovation Stakeholders (R&I)
+
+management D
+
+Financial/Funding Stakeholders (FF)
+Analyst, IT project and Big Data Stakeholders (IT)
+
+construction C
+
+BPM Stakeholders (PM)
+Urban Services Stakeholders (US)
+
+design B
+
+Real Estate Stakeholders (RE)
+Design/Construction Stakeholders (DC)
+Social/Civil Society Stakeholders (S)
+
+planning A
+
+eCommerce Stakeholders (eC)
+e
+environment
+(social/physical)
+
+d
+infrastructures
+(material/immaterial)
+
+c
+block of buildings
+
+b
+building
+
+functional unit
+
+a
+
+engagement scale
+
+ES
+Eph
+
+Figure 1: On the left side, the dimensions of the transformation and implementation of the SCC solutions: engagement phase/scale with
+stakeholders. On the right, Logical framework applied to the “motion sensor” technology for the evaluation of its effectiveness and potential
+
+recognize the connections between domains, the subjects involved in proposing and discussing dilemmas
+and designing, therefore, the implementation of systems and components. The synoptic framework qualifies as a tool for the positioning of existing ICT
+products, for the identification of gaps, for the possible
+development of unpublished fields of application or for
+the enhancement of existing solutions. In fact, it is
+believed that the first transition to PEDs is knowledge
+and organization of existing resources, a sort of accelerator and generator of plus-valence on what we already
+have in our hands.
+5. Transitions towards PED: step towards and
+engagement
+As already mentioned, we consider the physical dimension of urban reality as an indispensable factor in the
+evaluation of solutions and potential value ­generation.
+
+100
+
+For this reason, a further coordination effort is required
+for positioning different solutions within the matrix.
+The left side of Figure 1 shows the dimensions of the
+transformation in terms of time as phases - that characterize the transformation processes of the built environment - and dimension of the action triggered by the
+solution or the integrated solution system in the relative
+implementation domain, from the functional unit, in
+which the individual prosumer acts, to the environmental dimension, as the sphere of physical and social relations, to which the highest degree of complexity is
+attributed. The third dimension, the system stakeholders,
+links the effectiveness of the tools themselves to the
+ability of the actors of the supply chain to play the role
+of accelerators (RdS / PAR2016 / 033) of the implementation of SCC solutions and to express the potentials of
+use unpublished.
+On the right side, Figure 1 shows, through a three-­
+dimensional representation, the functioning of the
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Carola Clemente, Paolo Civiero and Marilisa Cellurale
+
+l­ogical framework applied to the “motion sensor” technology, described in detail below.
+The impact of the adoption of the motion sensor is not
+assessed in itself but with respect to its ability to affect
+the different scales of the urban environment and to
+involve stakeholders in the interaction with technology.
+Thanks to the given framework, the ability of the
+stakeholders to activate and promote the implementation
+in the two engagement dimensions (phase and scale) is
+able to shape differently the specific weight of the SCC
+solution. It appears clear that overlap and consolidation
+of stakeholder interests accelerate and amplify the effectiveness of the process.
+6. Analysis of SSC solutions and specific
+implementations towards energy services to
+support PED.
+Market demand analysis as well as experimentation of
+innovative products/ solutions in the RD&I areas (i.e.:
+ICT., robotics and industrial automation) could highlight
+possible ingenious scenarios in the perspective of the
+Smart City to come. In this perspective, PEDs are an
+integral part of this process, in line with the SET-Plan
+ACTION n.3.2, in line with the strategies of sustainability and energy efficiency in the environment built at
+different scales (from the building to the district, to
+urban space), according to synergistic actions defined
+among the Member States of the European Union.
+Among the solutions deriving for RD&I actions, integrated solutions are potentially the most useful for the
+diffusion of PEDs, thanks to the interoperability that is
+established between technologies, infrastructural networks and systems as well as the improved ability to
+manage a large amount of data [13-16]: the dialogue
+among systems, technologies and components allows
+the transition from single architectures to an ecosystem
+which enable new services that interact each other in a
+collaborative approach, favoring the automatic interaction between applications and their reuse.
+Thanks to interoperability it is possible to share and
+use information promptly, and thus overcome the traditional subdivision into vertical silos to achieve communication between horizontal silos. The classification of
+solutions according to certain areas of interest is therefore useful for defining the field of action of each individual solution and the level of technological innovation
+achieved, in order to promote an adequate integration
+between energy and urban services through the inclusion
+
+of additional services (not only energy services) useful
+to promote a higher level of quality of life for the citizen,
+consumer and prosumers.
+By processing the data, it is therefore possible to
+implement software applications capable of carrying out
+specific functions and activating potential services aimed
+at certain user categories, according to specific thresholds set by the system. The communication of data and
+information is made possible to the end user and accessible to service providers, through the use of mobile
+devices (SD - Smart Devices – e.g. smartphones, tablets
+and other dedicated systems): this process of transmission of information and communication with end users
+and stakeholders makes it possible to create new management tools for buildings and the city and to define
+new scenarios for the use of the built environment condition.
+According to the given premises it is possible to distinguish: devices and products, communication interfaces, energy management platforms and urban planning,
+web tools and interactive apps, whose purpose - as mentioned - is on the one hand improving the performance
+of the built system and, on the other, to raise the quality
+of life of the person, enabling a range of innovative services to the citizen, according to specific areas of action
+and intervention.
+Thanks to the research it has been possible to create
+an analysis tool for the identification of potential products which need to be implemented for PED transition,
+according to the Italian situation and with respect to
+certain domains of interest, defining priorities and level
+of TRL.
+Through the systematization of information, it is
+therefore possible to identify areas, products, stakeholders and the relative level of TRL maturity achieved by
+each solution, in order to verify the effective implementation and applicability to the national context.
+The research activity was therefore aimed at identifying the specific functions of the products and the type of
+service that they are able to provide, with reference to
+the scope of the main “dilemmas” previously defined
+(Economic development housing and community;
+Health, Mobility, Safety & Security, Waste, Water) as
+determined in SET-Plan ACTION n.3.2 and in the
+framework of the respective “domains” of the implementation, in order to recognize gaps to solve in the
+future, according specific areas and lines of action .
+The following type of solutions has been defined
+(A - Actuator, B - Bus connectivity, G - Gateway,
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+101
+
+Solutions and services for smart sustainable districts: innovative Key Performance Indicators to support transition
+
+SD - Smart Device, SM - Smart Meter, SO - Smart
+Object, SS - Smart Sensor (in the case of technologies
+and devices); IC - Communication Interfaces, IP Interactive Platforms (apps), UP - Urban energy management platforms) as well as functioning and
+performance (i.e.: systems activation, communication
+with the end user and system stakeholders, control, monitoring, collection and transmission of info or services).
+The specific functionalities, the quantity and quality
+of the parameters that the individual solutions are able to
+manage or the type of service they are able to supply in
+an integrated way have also been determined - AAL Assisted Living, COM - Comfort, NRG - Energy, SAE
+- Safety & Security. While Assisted Living’s solutions
+(AAL - Ambient Assisted Living) are mainly aimed at
+fragile user categories - such as disabled or elderly
+people - the other devices refer to generic users, is able
+to offer diversified services, such as control of the environmental conditions to guarantee the wellbeing of the
+occupants (COM - Comfort), or adequate safety conditions (SAE - Safety & Security) to ensure the safety of
+the users with respect to external agents or the occurrence of dangerous situations for the person , the management of energy consumption (NRG - Energy) aimed
+to reduce polluting emissions and the consequent economic savings.
+It is indeed possible that the same device is able to
+enable multiple services and can be effective for different and multiple levels of user satisfaction, embracing
+distinct features or parameters.
+In order to verify solutions interoperability, the communication protocol (e.g. wireless or wired) to which the
+individual solutions refer has been identified as well as
+location in the physical space (i.e. indoor or outdoor)
+according to the radius of action that they are able to
+intercept.
+The table presented in this article are part of a selected
+repertoire of technological solutions, in which a defined
+quantity of devices, products and tools is included
+within a wide range of solutions available on the market
+and/or being tested.
+The repertoire of solutions is a sort of catalogue,
+potentially useful in the project’s elaboration phases
+which could be used as a device for sharing knowledge
+on these systems. These solutions, despite being widely
+used in many international contexts, do not yet enjoy
+regulatory, performance and appropriate use, such as its
+immediate application on a national scale. The radial
+graph allows to determine the level of technological
+progress achieved according to the TRL levels defined.
+
+102
+
+Thanks to the Figures 2 and 3 it possible to identify gaps
+and missing solutions for the provision of specific services and with a view to achieving higher levels of quality of life for the citizen, consumer/prosumers, within
+the framework of the “dilemmas” previously established.
+7. Conclusion
+This paper highlights strengths and weaknesses for the
+transition towards PED through the “dilemmas”
+approach.
+According to the actual state of art in SCC solutions,
+it has been possible to identify the area which the single
+solution/product is able to support, as well as priorities
+and research perspectives.
+The consequent framework which derives is a tool to
+guide, verify and assess the TRL level (achieved / objective / priority) for each single technology or group of
+technologies, devices, products, apps and integrated
+intelligent systems. It is also possible to implement areas
+for R&DI on solutions able to provide urban services to
+support PED transition. The given flexible model is
+effective to recognize functionality and criticism for
+each solution, and to position research and products in
+the market as well as stakeholders related to the specific
+solution.
+The table for product/solution illustrated in the article
+represents a small selection of a wider repertoire, which
+includes a defined quantity of devices, products and
+tools within a wide range of solutions available on the
+market and/or being tested.
+The repertoire of solutions is a sort of catalogue,
+potentially useful in the definition phases of SCC
+solutions. The information and the radial chart that
+accompanies each data sheet make it possible to
+determine the incidence and level of integration for
+each solution having in mind the 4 dilemmas and the
+specific areas for urban dilemmas, as well as the technological progress achieved according to the TRL
+levels.
+This representation also makes it possible to identify
+any gaps and missing solutions for the provision of specific services and with a view to achieving higher levels
+of quality of life for the citizen / user, within the framework of the “dilemmas” previously established.
+Acknowledgement
+This article was invited and accepted for publication in
+the EERA Joint Programme on Smart Cities’ Special
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Carola Clemente, Paolo Civiero and Marilisa Cellurale
+
+Figure 2: Motion Sensor datasheet
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+103
+
+Solutions and services for smart sustainable districts: innovative Key Performance Indicators to support transition
+
+Figure 3: App Your Wellness (Great Northern Haven) datasheet
+
+104
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+Carola Clemente, Paolo Civiero and Marilisa Cellurale
+
+issue on Tools, technologies and systems integration for
+the Smart and Sustainable Cities to come [16].
+References
+[1]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+[6]
+
+[7]
+
+[8]
+
+Good N, Martinez Cesena EA, Mancarella P. Ten questions
+concerning smart districts. Building and Environment (118)
+(2017): 362-376. https://doi.org/10.1016/j.buildenv.2017.03.037
+Yan D, Hong T, Dong B, Mahdavi A, D’Oca S, Gaetani I, Feng
+X. IEA EBC Annex 66: Definition and simulation of occupant
+behavior in buildings. Energy and Buildings 156 (2017): 258270. https://doi.org/10.1016/j.enbuild.2017.09.084
+Frederiks ER, Stenner K, Hobman EV. Household energy use:
+Applying behavioural economics to understand consumer
+decision-making and behaviour. Renewable and Sustainable
+Energy Reviews (41) (2015) pages 1385-1394. https://doi.
+org/10.1016/j.rser.2014.09.026
+Tianshu W, Zhu Q, Yu N. Proactive demand participation of
+smart buildings in smart grid. IEEE Transactions on Computers 65
+(5) (2015): 1392-1406. https://doi.org/10.1109/TC.2015.2495244
+Palensky P, Dietmar D. Demand side management: Demand
+response, intelligent energy systems, and smart loads. IEEE
+transactions on industrial informatics 7 (3) (2011) pages 381388. https://doi.org/10.1109/TII.2011.2158841
+SCIENTIFIC BOARD FOR JPSC SPECIAL ISSUE, Joint
+Programme on Smart Cities. EERA Joint Programme on Smart
+Cities: storyline, facts and figures. TECHNE - Journal of
+Technology for Architecture and Environment, [S.l.] (1) (2018)
+pages 16-25 https://doi.org/10.13128/Techne-23566
+Antonini E, Mussinelli E. Toward the smart city and beyond.
+TECHNE-Journal of Technology for Architecture and
+Environment, [S.l.] (1) (2018), pages. 26-27. https://doi:10.13128/
+Techne-23567.
+SET-Plan ACTION n°3.2 Implementation Plan. Europe to
+become a global role model in integrated, innovative solutions
+for the planning, deployment, and replication of Positive
+Energy Districts. (2018). Available online at:https://setis.ec.
+europa.eu/system/files/setplan_smartcities_implementationplan.pdf [Accessed on 01 Sept 2019].
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+Pinna R, Costanzo E, Romano S. (2018). Pathways to
+ZEED. TECHNE-Journal of Technology for Architecture and
+Environment, (1), pages 40-44. http://dx.doi.org/10.13128/
+Techne-22736
+World Economic Forum (2015). Inspiring Future Cities &
+Urban Services. Shaping the Future of Urban Development &
+Services Initiative, Global Survey on Urban Services. Available
+online at: http://www3.weforum.org/docs/WEF_UrbanServices.pdf [Accessed on 01 Sept 2019].
+JPI Urban Europe. Strategic Research and Innovation Agenda
+2.0. Full Draft. (2018) Available online at https://jpiurbaneurope.eu/about/sria/
+McKinsey Global Institute (2018). Smart Cities: digital
+solutions for a more livable future. Available online at: https://
+www.mckinsey.com/~/media/mckinsey/industries/capital%20
+projects%20and%20infrastructure/our%20insights/smart%20
+cities%20digital%20solutions%20for%20a%20more%20
+livable%20future/mgi-smart-cities-full-report.ashx [Accessed
+on 01 Sept 2019].
+Ahlgren B, Hidell M, Ngai EC. Internet of things for smart
+cities: Interoperability and open data. IEEE Internet Computing
+20 (6) (2016). pages 52-56. http://dx.doi.org/10.1109/MIC.
+2016.124
+Integrated and Replicable Solutions for Co-Creation in
+Sustainable Cities. Available online at https://irissmartcities.eu/
+content/5-iris-transition-tracks [Accessed on 01 Sept 2019].
+Maestosi PC, Civiero P, Romano S, Botticelli M. Smart home
+network for smart social housing: A potential to boost the
+dignity of mankind. InProceedings of the 42th IAHS World
+Congress The Housing for the Dignity of Mankind, Naples,
+Italy 2018 Apr (pp. 10-13). Available online at http://sue.enea.
+i t / w p - c o n t e n t / u p l o a d s / 2 0 1 7 / 1 1 / p a p e r- I A H S 2 0 1 8 _ ID014_20180215-ottimizzato.pdf [Accessed on 01 Sept 2019].
+Østergaard PA, Maestosi PC. Tools, technologies and systems
+integration for the Smart and Sustainable Cities to come. Int
+J Sustain Energy Plan Manag 2019;24 2019. http://dx.doi.
+org/10.5278/ijsepm.3450
+
+International Journal of Sustainable Energy Planning and Management Vol. 24 2019
+
+105
+
+

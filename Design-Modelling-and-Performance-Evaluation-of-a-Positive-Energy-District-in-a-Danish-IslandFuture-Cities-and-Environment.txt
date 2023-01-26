@@ -1,0 +1,1552 @@
+)XWXUH&LWLHV
+DQG(QYLURQPHQW
+
+Design, Modelling and
+Performance Evaluation of a
+Positive Energy District in a
+Danish Island
+
+TECHNICAL ARTICLE
+
+BARBARA KRISTIN HOLMSUND JEPSEN
+TOM WALTHER HAUT
+MUHYIDDINE JRADI
+*Author affiliations can be found in the back matter of this article
+
+ABSTRACT
+Nowadays, cities and districts are becoming more and more interconnected in terms
+of energy supply systems, and the transition towards smart connected thermal and
+electrical grids is inevitable. While single building-level modelling has demonstrated
+numerous technical and economic benefits, it is vital to scale up the approach and
+consider the larger picture of cluster of buildings, districts, and cities. The island of
+Ærø in Denmark has an ambitious goal to become the first CO2 neutral and renewable
+energy self-sufficient Danish Island by 2025, as well as becoming a fossil-fuel free island
+by 2030. With the ambitious energy and environmental aims of Ærø island, this work
+aims to investigate the capability of establishing part of the island as the first Danish
+positive energy district (PED) and assess various design scenarios and possibilities
+of upgrading/modifying the current scheme and composition of energy supply and
+distribution. An open-source urban scale modelling tool is used, City Energy Analyst
+(CEA), where the district is modelled considering all specifications and characteristics
+of buildings and the corresponding energy supply systems. The base case scenario
+is simulated, and the performance is calibrated using actual data. Then, multiple
+energy improvement measures targeting the buildings envelope as well as the energy
+generation and supply systems are developed and simulated to assess the impact
+on the overall energy consumption for heating and electricity. The results show that
+a PED can be established employing an improvement package of envelope-targeting
+measures, energy systems upgrades and renewable energy systems expansion.
+
+CORRESPONDING AUTHOR:
+Muhyiddine Jradi
+Mærsk Mc-Kinney Møller
+Institute, University of
+Southern Denmark, DK
+mjr@mmmi.sdu.dk
+
+KEYWORDS:
+Buildings; Positive Energy
+Districts; Performance
+Evaluation; Energy Planning;
+Energy Analysis
+TO CITE THIS ARTICLE:
+Jepsen, BKH, Haut, TW
+and Jradi, M. 2022. Design,
+Modelling and Performance
+Evaluation of a Positive Energy
+District in a Danish Island.
+Future Cities and Environment,
+8(1): 1, 1–15. DOI: https://doi.
+org/10.5334/fce.146
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+INTRODUCTION
+To reduce the greenhouse gases (GHG) emissions, the
+European Commission (EC) has set a long-term strategy
+to implement sustainable solutions in the pursue for
+a net zero GHG emission in the EU by 2050 (European
+Commission, 2019). One of the key milestones in this
+plan is to improve the energy efficiency in buildings, as
+they are responsible for 40% of energy consumption and
+around 35% of the emissions (EC, A, 2018). Considering
+this contribution to both energy consumption and
+greenhouse gas emissions, it is vital to improve the
+design and setup of newly built buildings in addition to
+enhancing the performance and operation of existing
+buildings through systematic energy efficient and costeffective retrofitting processes. Thus, the EU has pledged
+to attain an overall 55% carbon reduction, compared to
+1990, by 2030 (European Union, 2021).
+A large body of theoretical and experimental work
+was devoted to enhancing the level of buildings control
+and management and optimization of the overall energy
+performance (X. Li, 2014) (M. Jradi, 2018) (A.A.A. Gassar,
+2020). In this context, dynamic energy modelling and
+simulation has served as a key approach towards
+realizing the impacts of improving the building stock
+energy performance and reporting the added value
+on the technical, economic and environmental levels.
+Employing accurate building models and predictions,
+better building designs have been delivered, both for
+newly built buildings and retrofitted buildings, and the
+building response to various dynamic changes within
+the building environment was assessed and analysed
+from different perspectives (M. Jradi, 2018) Generally,
+building energy modelling has been used extensively in
+the literature as a tool for better design, operation and
+optimization of buildings performance. Overall, energy
+modelling and simulation of the performance of single
+buildings and facilities is a very well mature domain
+and readily available commercial tools are widely used
+allowing accurate building modelling and performance
+predictions. In terms of the economic feasibility of
+using building energy modelling, it was reported that
+the development of a detailed building dynamic energy
+model has an overall payback period of around 1–2
+months (HOK, 2016). Such short payback period supports
+the use of such model-driven approaches to aid decisionmaking in the context of designing, operating, controlling,
+and commissioning of new and existing buildings.
+In the recent years, there has been a growing number
+of studies and investigations dealing with energy
+modelling, analysis and performance optimisation of
+urban areas, districts, and cities (Ali, et al., 2021). The
+complexity of building cluster simulations is addressed
+by Eicker in “Urban energy systems for low carbon
+cities’’ and it is assessed that the most accurate cluster
+models need many inputs and often the predictions
+
+2
+
+are not as accurate as single building models, as it is
+hard to schedule human behaviour, urban climate, and
+characterize the complexity of a single building on a
+larger basis. (Zhengwei Li, 2016) (Eicker, 2019).
+The approach of dealing with building clusters is still
+a relatively unmature domain and therefore there are
+no validated standard procedures when modelling large
+building clusters. This affects the prediction accuracy
+and hinders direct comparisons. (Eicker, 2019,). Lately
+many different cluster models and methodologies for
+predicting energy consumption of building districts and
+cities on small/medium scale level have been developed
+i.e., CitySim, UrbanSim “UCB”, Urban Modelling Interface
+“UMI” and City Energy Analyst “CEA’’. All these tools
+estimate the energy demand of an area dependent on
+the surroundings, area and climate (Marcel Bruse, 2015)
+(Alaia Sola, 2020) (Fonseca, 2016).
+Shi et al. (Shi, 2017) has reviewed different methods,
+and developed a workflow for an optimization model
+of an urban design, consisting of three steps; the
+data collection step, the generation step where the
+urban design and constraints are introduced, and the
+optimization step where the energy performance is
+improved and the optimal solution is found. Delmastro et
+al. (Delmastro C., 2015) reported that when considering
+building clusters and areas for analysis, the energy
+consumption of the forming building stock is affected
+by multiple factors. This includes the design of the
+built environment under investigation, the interaction
+between the buildings and open spaces in the district,
+the building envelope and constructions, the socioeconomic characteristics of the population in the specific
+area, the type of shades and obstructions available, and
+most importantly, the weather conditions.
+One of the recent initiatives towards improving the
+energy performance of cities and districts on a large
+scale is the establishment of the so called ‘Positive Energy
+Districts’ (PED) (Lindholm O, 2021). The basic principle of
+PEDs is the establishment of an area within the boundaries
+of a city or large district, which is capable of producing
+more energy than consumed on a yearly net level. In this
+regard, such areas are flexible enough to dynamically
+respond to the stochastic variation of the energy market,
+in addition to supporting the minimization of the impact
+on the connected centralized energy networks. This is
+established using alternative decentralised solutions,
+renewable energy systems, energy storage techniques
+and better control and management patterns. Aiming
+to attain the energy and environmental goals in the EU,
+the EU Commission has proposed generic regulatory
+conditions to support the implementation of Positive
+Energy Districts in real urban concept by 2050. Although
+they bring numerous technical and economic benefits,
+PEDs are still in the early development stage, and the
+goal for achieving a pure PED is still more an aim than
+a reality. Nevertheless, the EU has launched a project
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+3
+
+aiming to plan and develop a hundred PEDs by 2025
+(Monti, 2016) (Planet, 2020). This could be a major driver
+towards establishing such PEDs in Europe as well as in
+the rest of the world regions.
+Nevertheless,
+most
+theoretical
+investigations
+and practical applications developed in the recent
+decades have targeted single buildings or individual
+building facilities. This includes the design of energy
+efficient buildings on the level of building envelope and
+constructions, energy systems and building services.
+While single building-level modelling has demonstrated
+numerous technical and economic benefits, it is vital to
+scale up the approach and consider the larger picture
+of cluster of buildings, districts, and cities. Nowadays,
+cities and districts are becoming more and more
+interconnected in terms of energy supply systems, and
+the transition towards smart connected thermal and
+electrical grids is inevitable but also has multiple benefits
+on both demand-side and supply-side levels (Dakheel
+A., 2020). With such large-scale evolvement of smart
+and flexible grids, there is an urgent need to move
+from analysing the performance of single buildings and
+upscaling the efforts to integrated building clusters and
+interconnected energy efficient and flexible cities and
+neighbourhoods. There is currently a scarcity of validated
+procedures and standards when it comes to modelling
+large scale building clusters, devoted to district or city
+level, which affects the overall results accuracy and
+consistency (Jepsen et al., 2020).
+In the recent decades, legislations, theoretical
+investigations, and practical applications in Denmark
+have been concentrated on improving the design
+and operation of single buildings and facilities. This
+study aims at scaling up the efforts and deals with
+modelling, simulation, and improvement of the
+performance on a district/city level. A case study of
+an island district is considered aiming to establish
+and assess the first Danish positive energy district
+employing dynamic energy modelling. An open-source
+urban scale modelling tool is used, City Energy Analyst
+(CEA), where the district is modelled considering all
+specifications and characteristics of buildings and the
+corresponding energy supply systems. The base case
+scenario is simulated, and the performance is calibrated
+using actual data. Then, multiple energy improvement
+measures targeting the buildings envelope as well
+as the energy generation and supply systems are
+developed and simulated to assess the impact on the
+overall energy consumption for heating and electricity.
+Considering the results of the improvement measures, a
+number of improvement packages are designed, each
+having a collection of energy efficiency measures, and
+then integrated in CEA. The district performance under
+each scenario is simulated where the consumption
+is predicted and compared to the base case scenario.
+
+The case study island considered has ambitious aims
+to expand its renewable energy systems capacity and
+become fossil-fuel free in 2030. The study will provide
+preliminary results, forming a basis to aid energy system
+future retrofitting and upgrading in the district with the
+aim to establish the first PED in Denmark in compliance
+with the EU strategy.
+
+CITY-LEVEL ENERGY MODELLING
+METHODOLOGY
+In this work, the City Energy Analyst (CEA) urban modelling
+tool is employed and used to develop an interconnected
+district-level energy model and investigate various
+energy improvement measures and scenarios aiming
+to enhance the overall energy performance. In this
+section, a short presentation of the CEA tool is provided,
+highlighting the methodology for modelling, simulation
+and prediction.
+
+CITY ENERGY ANALYST FOR URBAN
+MODELLING
+As stated in the introduction, a massive amount
+of research and investigations dealing with single
+buildings and their performance improvement have
+been reported and analysed, but there is a scarcity
+when it comes to tools targeting energy performance
+modelling and assessment on the level of streets,
+districts, or cities. One of the emerging tools for urbanscale modelling and analysis is the City Energy Analyst
+(CEA). CEA is a free open-source tool for analysis &
+optimisation of urban energy systems (The A/S group –
+ETH Zurich). It was developed and released in 2017
+by the ETH Zurich in Switzerland (The A/S Group – ETH
+Zurich). The CEA tool employs a white box modelling
+approach where all area/district details are included as
+inputs providing large flexibility in terms of modelling
+and scenarios design. In terms of interface, CEA has
+seven databases and six calculation modules combined
+within a user-friendly interface for design and operation
+inputs and a comprehensive results presentation
+section. Overall, CEA’s integrated modelling and
+simulation platform with the supporting databases
+and calculation modules has major advantages and
+large capabilities in the field of urban scale modelling.
+This includes mainly the detailed and comprehensive
+modelling approach, possibilities for multiple scenarios
+design and simulations and user-friendly interface and
+detailed results presentation platform.
+With its flexible modelling and design approach, CEA
+covers many applications for demand prediction, energy
+system analysis and optimisation in one combined
+platform. Even though the program is based on Python
+scripting, the developed interface and results dashboard
+
+4
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+ensure an easy usage and understanding. In general, the
+tool is divided into four parts:
+•
+•
+•
+•
+
+Input Data
+Database
+Tools
+Output Data
+
+When a new project is initiated, the database and several
+inputs such as zone, district, terrain or weather must
+be chosen as these are important for the geospatial
+data initiation and calling. The program offers a limited
+selection of weather files for Switzerland and Singapore,
+while user files can be inputted in epw format. Afterwards,
+a map is opened which offers the possibility to select/
+choose the district to be investigated. Using built-in
+identification tools, CEA can automatically identify
+buildings in this area, which then are ready to be edited.
+The following characteristics can thus be changed and
+upgraded:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Zone
+○○ Name, hight, floors
+Typology
+○○ Year, Usage-distribution
+Air-conditioning System
+○○ Type of HVAC, water supply
+Internal Loads
+○○ Occupancy density, loads
+Indoor Comfort
+○○ Temperature setpoint, humidity
+Architecture
+○○ Construction Types of walls, floors, windows, etc.
+Supply Systems
+○○ Type of cooling, hot water, electricity, heat supply
+Surroundings
+○○ Neighbouring buildings
+Schedules
+○○ Occupancy, appliances, lighting, water, heating, etc.
+
+When all data are set, CEA calls several corresponding
+functions, also called tools that are the base of the
+analysis. Using such functions, the results regarding
+demand forecasting, radiation, LCA, energy potentials,
+network layouts or others are calculated. Hereby,
+it should be started with the “Archetypes System”,
+whereafter it is possible to run the other tools. When
+a tool cannot be run, a solution-hint is given to the
+user. In the Output Section, the results can be seen in
+integrated interactive dashboards. There is a wide range
+of outputs and predictions including energy demand
+bars, indoor comfort maps and economic analysis and
+evaluation trends. A more detailed overview of the CEA
+modelling and design methodology can be seen in
+Figure 1.
+
+THE CASE STUDY
+In this work, a case study of a district in a Danish island
+is chosen as a basis for modelling, simulation and energy
+performance improvement investigations using CEA. The
+city of Rise was chosen, which is located in Southern
+Denmark on the island of Ærø, shown in Figure 2.
+Ærø is a small island located in the southern
+archipelago of Denmark, having a total area of 88 km2
+and around 6200 inhabitants. The island of Ærø has
+an ambitious goal to become the first CO2 neutral and
+renewable energy self-sufficient Danish Island by 2025,
+as well as becoming a fossil-fuel free island by 2030
+[28]. Currently, around 55% of the island’s energy supply
+comes from solar, wind and biomass-driven systems.
+The island has six 2 MW wind turbines and PV systems
+are deployed on a large scale in the residential sector
+with a current capacity of around 1.35 MW. To satisfy
+the island heating demands, three major district heating
+plants are employed, fulfilling around 65% of the total
+island heat consumption.
+With the ambitious energy and environmental aims of
+Ærø island, this work aims to investigate the capability of
+establishing part of the island as the first Danish positive
+energy district and assess various design scenarios and
+possibilities of upgrading/modifying the current scheme
+and composition of energy supply and distribution. The
+selected Rise district is supplied by the company “Rise
+Fjernvarme” to satisfy district heating needs for the
+majority of the houses and buildings. The district heating
+system produces around 2,250 MWh per year, where
+the production is divided equally between wood pellets
+and solar thermal heat (Rise Fjernvarme, 2019). The next
+sections will highlight and describe the process of modelling,
+analysis and enhancement of the energy system design in
+Rise using the CEA tool methodology described earlier.
+
+INPUT DATA DESCRIPTION
+To model and assess the Rise district energy performance,
+the corresponding characteristics and inputs needs to be
+established in the CEA tool. As mentioned earlier, the
+tool starts to map the area and determine the buildings
+located in the chosen district. Then, the number of floors
+and shadowing from neighbouring buildings can be
+adjusted and integrated. Figures 3 and 4 show a close-up
+of the map area as modelled in CEA with 3D models of
+the buildings considered.
+Although CEA provides valuable benefits and
+capabilities in terms of the flexible energy modelling
+approach and the user-friendly interface, the tool has also
+some drawbacks which need to be addressed manually
+by the modeller. This includes some limitations in the
+automated reading and modelling of the buildings in the
+selected area. Some issues were encountered including
+the failure in automatically reading the number of floors
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+Figure 1 CEA Modelling and Assessment Methodology.
+
+Figure 2 Rise location on Ærø island.
+
+5
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+6
+
+Figure 3 The modelled area in CEA, the city of Rise.
+
+Figure 4 One street example in Rise, shown in CEA.
+
+for each building and building orientation. In addition,
+other objects such as sheds, bins and empty boxes were
+read as buildings. Regarding garages or canopies, which
+are often located directly next to the house, the problem
+
+is that they are seen as part of the building and therefore
+living areas which increases the conditioned area that
+must be heated. Thus, the Danish Building and Housing
+Register (BBR) data (Bygnings- og Boligregistret, 2018),
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+7
+
+which includes detailed specifications on all Danish
+buildings, was used to manually correct the flaws and
+upgrade the building models in CEA.
+A preliminary analysis was made to show the
+importance of such manually implemented alterations.
+Table 1 compares the real-life consumption of electricity,
+with the baseline scenario with and without the
+alterations. It is shown that the electricity predictions
+gap decreases from 25% to only 6% when the issues of
+geometry are solved including the elimination of faulty
+read building areas.
+The CEA tool needs weather data as an input to
+determine and evaluate the energy performance of the
+buildings in the selected district. As there are not readily
+default weather data available for the island of Ærø, data
+for the island of Tåsinge were used (Climate One Building,
+u.d.). The distance between these two islands is only 20
+kilometres. In the weather file, the temperature data
+were updated to original data from Ærø, while all other
+data remained on Tåsinge data (ÆRØ, 2020). Thus, the
+assumption of weather conditions has a little impact on
+the area energy analysis.
+
+The inputs for these categories are explained in the
+following sections.
+
+MODELLING RISE DISTRICT IN THE CEA-TOOL
+As the geometrical information of the buildings are
+updated and the weather conditions are established in
+CEA, the rest of the information regarding the Rise district
+needs to be introduced in the tool to compete the model.
+Obviously, the more inputs and details introduced, the
+more accurate the model will be. These include:
+•
+•
+•
+•
+•
+
+Typology
+Architecture/envelope
+Internal loads & indoor comfort
+Schedules
+Supply Systems
+
+Envelope
+The envelope measures are categorised by their building
+performance year (BPY), and all the construction
+standards are according to the Danish building regulations
+(Bolig- og Planstyrelsen, u.d.). A BPY is defined based upon
+the last renovation year, so if there is no renovation done
+on the building, then the building construction year is
+the BPY. An overview of the used thermal transmittance
+(U-values) for the different categories is shown in Table
+2, all the units for the thermal transmittance is given in
+[W/m²K]. As shown, the buildings are categorized into
+six main categories, considering the year of construction,
+last renovated. This starts with buildings dated back
+before 1920 to newly built or retrofitted buildings in 2020.
+
+Typology, Internal loads, Schedules & Indoor
+Comfort
+The internal loads, schedules and indoor comfort are
+related to the building typology. In this case study there
+are five different typologies, and these are industry,
+museums, offices, retail, schools, and single residents.
+The specifications for the different typologies can be seen
+in Table 3.
+
+Supply Systems and HVAC
+The heating supply system of Rise is majorly divided upon
+the three largest categories from Figure 5, which will be
+explained in the following section. Table 4 describes the
+simplified distribution.
+The HVAC system in Rise consists of heating, ventilation,
+and hot water subsystems, while the cooling is neglected
+and there are no controllers incorporated. An overview of
+the HVAC system can be seen in Table 5.
+
+WITHOUT GEOMETRY ALTERATIONS
+
+WITH GEOMETRY ALTERATIONS
+
+REAL ELECTRICITY
+CONSUMPTION
+[MWH/YR]
+
+ELECTRICITY
+CONSUMPTION [MWH/
+YR]
+
+DIFFERENCE WITH
+RESPECT TO REAL
+DATA [%]
+
+ELECTRICITY
+CONSUMPTION
+[MWH/YR]
+
+DIFFERENCE WITH
+RESPECT TO REAL DATA
+[%]
+
+3408
+
+4531
+
+25
+
+3624
+
+6
+
+Table 1 Comparison between the real consumption and the baseline scenario both with & without the alterations in building geometry.
+STANDARDS
+
+BPY
+
+WINDOWS
+
+ROOF
+
+WALL_IN
+
+WALL_OUT
+
+BASE
+
+Standard 1
+
+<1920’s
+
+3.5
+
+0.5
+
+0.7
+
+1
+
+0.6
+
+Standard 2
+
+1920 to 1960’s
+
+3
+
+0.47
+
+0.65
+
+1
+
+0.5
+
+Standard 3
+
+1961’s to 1981’s
+
+2.9
+
+0.45
+
+0.6
+
+1
+
+0.45
+
+Standard 4
+
+1982’s to 2005’s
+
+2.9
+
+0.2
+
+0.3
+
+0.4
+
+0.3
+
+Standard 5
+
+2005’s to 2010’s
+
+1.8
+
+0.15
+
+0.2
+
+0.3
+
+0.2
+
+Standard 6
+
+2015’s to 2020’s
+
+1.5
+
+0.15
+
+0.2
+
+0.2
+
+0.2
+
+Table 2 Various buildings categories with their corresponding thermal transmittance in W/m²K.
+
+8
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+BUILDING
+TYPOLOGY
+
+MAX OCCUPANCY
+[M2/PERSON]
+
+LIGHTING LOAD
+[W/M 2]
+
+APPLIANCE LOAD
+[W/M 2]
+
+HEATING SETPOINT
+[°C]
+
+HEATING SETBACK
+[°C]
+
+Industrial
+
+15
+
+15
+
+10
+
+19
+
+15
+
+Museums
+
+3
+
+10.8
+
+7
+
+21
+
+15
+
+Offices
+
+14
+
+10
+
+7
+
+20
+
+17
+
+Retail
+
+8
+
+20
+
+4
+
+20
+
+17
+
+Schools
+
+3
+
+10
+
+4
+
+21
+
+17
+
+Single houses
+
+10
+
+10
+
+8
+
+21
+
+18
+
+Table 3 Specifications for the different typologies.
+
+Figure 5 Different heating installation and sources provided by the BBR register.
+DISTRIBUTION
+
+PERCENTAGE
+
+Covered by district heating
+
+71
+
+Central heating by oil
+
+13
+
+Heated by electrical heaters
+
+16
+
+Table 4 Overview of the simplified energy supply system distribution.
+
+STANDARDS
+
+BPY
+
+HEATING
+
+HOT WATER
+
+VENTILATION
+
+Standard 1
+
+<1920’s
+
+Radiator (90/70)
+
+Medium temperature water (45/10)
+
+Window ventilation
+
+Standard 2
+
+1920 to 1960’s
+
+Radiator (90/70)
+
+Medium temperature water (45/10)
+
+Window ventilation
+
+Standard 3
+
+1961’s to 1981’s
+
+Radiator (90/70)
+
+Medium temperature water (45/10)
+
+Window ventilation
+
+Standard 4
+
+1982’s to 2005’s
+
+Radiator (70/55)
+
+Medium temperature water (45/10)
+
+Window ventilation
+
+Standard 5
+
+2005’s to 2010’s
+
+Floor heating (40/35)
+
+Medium temperature water (45/10)
+
+Mechanical ventilation with demand
+control
+
+Standard 6
+
+2015’s to 2020’s
+
+Floor heating (40/35)
+
+Medium temperature water (45/10)
+
+Mechanical ventilation with demand
+control
+
+Table 5 The HVAC settings for the different building standards.
+
+THE BASELINE SCENARIO
+According to information from the BBR, Rise Fjernvarme,
+and consumption data from Ærø, 238 buildings
+have a heating demand in this area, and out of these
+approximately 123 are supplied by the district heating
+company (Rise Fjernvarme, 2019) (ÆRØ, 2020) (Bygningsog Boligregistret, 2018).
+The approximate heating distribution and the energy
+sources can be seen in Figure 5.
+
+The historic consumption data indicates that the city
+consumes approximately 3,408 [MWh/year] electricity
+(ÆRØ, 2020), and the district heating company supplies
+approximately 3500 [MWh/year], to the 123 buildings
+which are connected to the district heating grid (Bygningsog Boligregistret, 2018). The simulations in CEA consist of
+211 buildings and are divided, as seen in Figure 3, into two
+categories. The grey buildings on the map are supplied by
+central heating sources or electrical heating, and the red
+ones use district heating.
+
+9
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+BASELINE SCENARIO ENERGY RESULTS
+As a first step before moving to energy improvement
+measures implementation, the base case scenarios
+performance of the Rise district needs to be simulated
+and reported. On the holistic level, the baseline
+simulations have shown that the city consumes 8515
+MWh of heat and around 3624 MWh electricity per year.
+In the following sections, these numbers will serve as
+the reference values to evaluate different measures
+and packages regarding energy improvements and
+renovations. Figure 6 provides an overview about the
+utilisation of heat and electricity.
+In addition to the overall energy consumption
+numbers for heating and electricity, CEA also simulates
+the indoor air comfort conditions, mainly temperatures
+and moisture content. Figure 7 shows the comfort charts
+with indoor temperature and moisture levels for one of
+the residential buildings selected in Rise. It is evident
+that the building has an acceptable indoor comfort
+conditions on average, however with notable lower
+indoor temperatures in some periods of the year. This
+may be due to the generally lower indoor temperatures
+
+accepted in Danish buildings compared to other
+countries.
+
+ENERGY IMPROVEMENT MEASURES
+After simulating the base case scenario of the Rise district,
+multiple energy improvement measures and scenarios
+will be investigated in this section aiming to improve the
+overall energy performance of the district and reduce its
+energy consumption. Such measures will deal with both
+the building envelope and the energy systems design. For
+example, the district heating system is currently supplied
+by around 50% solar heating and 50% wood pellets,
+which makes it an interesting case to investigate how a
+decreasing heating consumption could lower the needed
+wood pellet capacity. In the following sections, different
+energy efficient measures and packages will be introduced
+to enhance energy efficiently and lower the consumption.
+
+Envelope Measures
+According to the BBR-data, the average building
+performance year for Rise is 1949, which means that the
+typical building is quite old and generally not very energy
+
+Figure 6 The heat consumption of the district with resources breakdown.
+
+Figure 7 Comfort chart for the residential building B1020 in Rise with temperature and moisture levels.
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+10
+
+efficient. Several measures were introduced regarding
+the envelope, including upgrading windows, walls, floors,
+and roofs. The standard values were changed in a way
+that they comply with the BR18-regulation (Bygnings- og
+Boligregistret, 2018), the latest Danish building regulation.
+Even though, the district heating company would not have
+that big of an influence on the inhabitants of these houses,
+but it is assumed that most of the houses would anyway
+undergo a renovation within the next decade. Table 6 shows
+the upgraded values regarding the thermal transmittance
+in case of envelope enhancement measures.
+
+to the island, the PVT system has the benefit of surplus
+heat production. Figure 8 shows the electricity & heat
+production of the installations.
+
+Supply System Measures
+While the building envelope improvements are vital for
+future energy efficient Rise district, the enhancement
+and upgrade of the current energy systems into energy
+efficient alternative units and renewable energy systems
+is key towards attaining energy and environmental
+goals of the island. Thus, another set of measures
+targeting the improvement of the energy supply systems
+were developed and assessed aiming to evaluate the
+impact on the building energy performance and the
+corresponding energy consumption profile. In terms of
+lighting, the lighting capacity for the baseline scenario
+ranges between 8 and 15 W/m2, depending on the
+building typology. For the improved BR18 standards, this
+is set to be 5 W/m2 which is assumed to be reached by
+installing LED lights. In the measure called “HP”, heat
+pumps (HP) replace all the individual boilers using oil and
+wood in the district. This measure also ensures that the
+energy mix of Rise is primarily renewable where fossil
+fuels are phased out. Another measure called “100% DH”
+connects all the buildings to the local district heating,
+where no individual supply systems are allowed. Two
+other measures include increasing the capacity of PV/
+PVT to approx. 1 MW as part of the thermal and electrical
+grid. While both systems will feed the electricity supply
+
+Thermal transmittance
+BR18 [W/m²K]
+
+Energy Improvement Measure Results
+The energy improvement measures listed above are
+implemented and simulated one by one in CEA and
+results regarding the overall electricity and heating
+savings compared to the baseline scenario are shown
+in Figure 9. As highlighted by the results, the envelope
+measures can save up to 10% of the heating demand,
+with very minimal impact on the electricity levels. The
+lighting improvement measure on the other side saves
+up to 36% of the electricity consumption.
+On the other hand, the energy supply system
+enhancement measures show very different results
+depending on the measure implemented. While
+the 100% district heating system measure allows
+minimal heating savings of only 3%, the PVT systems
+show promising results with reported heat savings
+up to 35% in addition to 46% reduction on electricity
+consumption. In addition, the heat pump measure can
+reduce the heat consumption by 24% but increases the
+electricity consumption by 27%. Hereby, the baseline
+scenario numbers should be taken into consideration,
+as heat consumption is more than twice the electricity
+consumption, providing a larger potential for saving.
+Therefore, measures allowing heating savings are highly
+favourable in this case from a technical perspective.
+Obviously, if an economic approach is implemented
+in comparing different measures, the electricity and
+hearing prices would determine he most optimal
+measures to select.
+
+Energy Improvement Packages
+In actual real case energy retrofit process, it is generally a
+collection or set of measures which are implemented in
+
+WINDOWS
+
+OUTSIDE WALLS
+
+INSIDE WALLS
+
+FLOOR ON GROUND
+
+INTERNAL FLOORS
+
+ROOF
+
+1.8
+
+0.3
+
+0.3
+
+0.2
+
+0.5
+
+0.2
+
+Table 6 Thermal transmittance values for the envelope measures.
+
+Figure 8 Overview of the PVT production, the left column in every month is the electricity [MWh] production and the right is heat
+production [MWh].
+
+11
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+Figure 9 Energy savings in Heat & Electricity consumption compared with the Baseline Scenario.
+PACKAGE 1
+
+PACKAGE 2
+
+PACKAGE 3
+
+PACKAGE 4
+
+PACKAGE 5
+
+PACKAGE 6
+
+Windows
+Walls
+ROOF
+Floor Base
+Lights
+HP
+PV
+PVT
+100 % DH
+Wind Turbine
+
+Table 7 Overview of the different packages and corresponding measures.
+
+a certain district rather than only one measure at a time.
+Due to the dynamic nature of the measures, dynamic
+energy simulation tools as CEA are valuable in this regard
+to estimate and predict the impact of implementing
+a group of measures at once. After simulating the
+impact of each measure alone, the different measures
+are collected in several energy improvement packages
+to determine the impact on the building energy
+performance. The packages were designed in a way that
+all of them include the envelope changes, but the supply
+system changes included were varied. Table 7 gives
+an overview of the packages and their corresponding
+measures.
+To investigate if Rise could become a positive energy
+district (PED), it was decided to investigate which
+
+measures and energy sources have an impact on the
+overall performance of the city.
+Package 1 is chosen to investigate how energy
+renovations could affect the total energy demand of
+the different buildings. It only includes all improvements
+dealing with the envelope. Packages 2, 3 and 4, are all
+related to envelope improvements and then adding an
+alternate heating source, with the following composition:
+•
+•
+•
+
+Package 2: Envelope + Heat Pump
+Package 3: Envelope + Photovoltaics
+Package 4: Envelope, HP + PVThermal
+
+Package 5 connects all the buildings to the existing
+district heating system, while Package 6 aims at adding
+
+12
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+renewable energy systems sufficient to establish a
+Positive Energy District.
+•
+•
+
+Package 5: Envelope + 100% DH
+Package 6: PED (Envelope, HP, PVT’s and Wind
+turbines)
+
+When investigating the possibility for a PED establishment,
+Package 6 is built upon Package 4, which is the package
+closest to the target, as it produces more heat than is
+required by the district. To establish a PED, it was then
+decided to install wind turbines in this scenario, where
+the needed capacity to fulfil the remaining electricity
+demand of about 2200 MWh was calculated as being
+0.71 MW of wind power capacity. As the electricity is
+produced by both PV’s and wind turbines, then it is
+assumed that on a city located on an Island, it would be
+feasible that one of the production units would be able
+to always deliver the necessary power. However, if this is
+not the case, then it would be relevant to investigate the
+possibility to install a battery or have grid connection as
+an option, as the grid of Ærø is primarily driven by carbon
+neutral production units (Kommune, u.d.).
+
+Package 1, where only the envelope improvement
+measures are considered along with lighting system
+upgrade, results in a heating consumption reduction of
+17% and an electricity consumption reduction of around
+35%. When different heating sources are added in the
+packages, the heating consumption is reduced in the case
+of all the packages, while the electricity consumption
+is only reduced for four out of the five other packages
+compared to Package 1. Package 2 with the heat
+pumps obviously increases the electricity consumption
+but was on the other side able to reduce the heating
+consumption by around 85%. As a summary, Package 4
+showed the most promising results with a reduction in
+electricity consumption of 62% and a generation of extra
+heating exceeding the district need by 20%. Thus, this
+Package was used as a basis in establishing a Danish PED
+by including the possibility of integrating a wind turbine
+capacity. This has led to Package 6 saving 100% on the
+electricity consumption and generating excess heating
+as well. It is important to note here that the calculations
+carried out and reported are on yearly net energy level.
+
+DISCUSSION
+
+Energy Packages Results
+The six different energy improvement packages built
+are implemented, one by one, in the CEA tool and the
+performance of the Rise district was simulated and
+reported in terms of heating and electricity consumption.
+The results of each package implementation are
+compared to the base case scenario to assess the savings.
+Figure 10 gives an overview of the heating and electricity
+consumption savings attained in the case of each package.
+
+When reviewing the different packages along with
+their impact on both the island heating and electricity
+grids, Package 4 with the Envelope improvement, the
+installation of individual heat pumps and the combined
+PV and solar thermal units, has the highest influence
+on the heating demand. This package could be a great
+addition to the district heating network in Rise, as it
+could lower the need for district heating both in the
+
+Figure 10 Energy savings in heat & electricity consumption compared to the baseline scenario.
+
+13
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+summer months where the sun is available, and then
+it could also lower the demand in the winter months
+with the usage of the heat pumps. One of the original
+ideas was to investigate the establishment of a positive
+energy district in Rise. Based on the analysis carried
+out, such aim could not be realized without expanding
+the wind turbine capacity supplying the district. As
+an example, when installing the PV and PVT systems,
+it was decided to install these on all the available
+rooftops, allowing the reduction of 35% of the baseline
+heating demand and 46 % of the baseline electricity
+demand. Package 4 which includes PVT and a heat
+pump, gets close with improvements of 85% heating
+and 61 % electricity.
+To establish a PED though, Package 6 was developed
+with the addition of 0,7 MW of wind power capacity.
+Since Ærø has already six 2 MW wind turbines, the
+proposed addition of wind turbine capacity doesn’t
+seem out of reach (Ærø Kommune, 2021). This would
+transform Rise into a positive energy district and will be
+a step forward towards a fossil fuel-free Ærø, as all the
+energy is supplied by renewable sources such as wind,
+sun or biomass. On the other hand, the investigation
+carried out has several points which might be improved
+in future work. One extension to the analysis from a
+technical perspective would be the addition of battery
+storage system. This was not included due to limitations
+in the tool considered. However, a battery storage
+system would aid in balancing the supply and demand
+sides, especially that multiple renewable energy systems
+are employed. Another improvement which could be
+investigated in the future would be integrating more
+wind power capacity and lowering the PV unit’s capacity
+employed. This could be part of a holistic analysis on
+the level of the whole island, rather than a small district
+as Rise. In addition, the investigation and assessment
+in this study didn’t take the economic perspective
+into consideration, even though it has a big impact on
+the decision making when upgrading the systems and
+switching to alternative solutions. Thus, the impact
+of the measures in this study has been reported only
+employing a purely technical approach and considering
+the impact on heating and electricity consumption
+as indicators. On the other hand, while the economic
+feasibility and payback period of upgrading the envelope
+will not highlight this measure as a favourable measure,
+the demands by the Danish building regulations in terms
+of building envelope specifications is a major driver
+towards the envelope upgrade as part of regulations
+and standards compliance. As a summary, an overall
+techno-economic approach needs to be implemented to
+highlight the optimal measures for the energy scheme
+improvement in the district and to aid future decisionmaking. This approach should also consider the latest
+building regulations in Denmark as a key constraint and
+baseline.
+
+CONCLUSION
+The building sector worldwide has a major contribution
+in the overall energy consumption with at least 35%
+share in the total energy and a similar contribution in
+the corresponding greenhouse gas emissions. In light
+of the energy and environmental goals and ambitions
+in the majority of the countries, buildings and building
+blocks are thus considered as a key component in the
+national and international legislations and initiatives
+aiming to reduce the energy consumption and the
+corresponding emissions and achieve the energy
+efficiency and environmental goals. When it comes to
+energy consumption in buildings, Denmark is not an
+exception. In the recent years, efforts in Denmark have
+been devoted mainly towards enhancing the design and
+operation of single buildings and facilities throughout an
+expanding block of theoretical investigations, practical
+applications and strict standards and legislations.
+This work is one of the first initiatives towards scaling
+up such efforts from single buildings performance
+enhancement to design and performance evaluation
+of energy efficient and positive energy districts and
+cities. A case study of an island district is considered for
+investigation with the aim to improve the overall energy
+system design as well as the buildings performance as a
+basis to establish the first Danish positive energy district.
+City Energy Analyst (CEA), an urban scale modelling tool
+is employed, and the considered district is modelled
+including all specifications and characteristics. Then
+the base case scenario of the district is simulated and
+actual data on the heating and electricity consumption
+are used for model calibration.
+The calibrated model is then used as a baseline and
+multiple energy improvement measures targeting
+buildings envelope as well as the energy generation and
+supply systems are developed and implemented in CEA
+to report the impact on the overall energy consumption
+for heating and electricity. Based on the investigated
+measures, six improvement packages with measures
+combinations were formed and simulated. It was shown
+that a PED can be established in the considered district
+through a holistic improvement energy package of
+envelope-targeting measures, energy systems upgrades
+and renewable energy systems expansion. The package
+is made up of envelope insulation, LED lights, heat
+pumps installation, PVT units and wind turbine capacity
+expansion. This will allow satisfying the electricity needs
+on an annual net level, while generating 20% more heat
+in excess. The case study island considered in this work
+has very ambitious energy and environmental goals, with
+a well-established network of renewable energy systems
+in place. The long-term goal in 2030 is to expand the
+renewable energy systems capacity to become fossilfuel free. Thus, the findings of this study along with the
+various scenarios developed and tested will serve as a
+
+14
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+preliminary assessment and form a basis to aid future
+decision-making in retrofitting the energy system and
+upgrading the buildings envelope and services. A future
+follow-up investigation would be combining the technical
+approach employed in this study with an economic
+approach to investigate the economic feasibility of the
+scenarios developed and provide a better holistic picture
+on the added value. In addition, the study forms a basis
+for establishing the first PED in Denmark and is in line with
+the recent EU strategy aiming towards the deployment
+and replication of 100 Positive Energy Neighbourhoods in
+Europe by 2025.
+
+AUTHOR AFFILIATIONS
+Barbara Kristin Holmsund Jepsen
+University of Southern Denmark, DK
+Tom Walther Haut
+University of Southern Denmark, DK
+Muhyiddine Jradi
+orcid.org/0000-0002-3039-1845
+Mærsk Mc-Kinney Møller Institute, University of Southern
+Denmark, DK
+
+REFERENCES
+ÆRØ. 2020. Provided ÆRØ data. s.l.:s.n.
+
+ACKNOWLEDGEMENTS
+
+Ærø Kommune. 2021. Bæredygtig energi. [Online] Available
+at: https://www.aeroekommune.dk/borger/energi-naturmiljoe-klima/baeredygtig-energi.
+
+This work was carried out as part of the Danish
+participation in ‘IEA EBC Annex 83 – Positive Energy
+Districts’, no. 64020–1007, funded by the Danish Energy
+Agency under the Energy Technology Development
+and Demonstration Program (EUDP). The Agency
+had no part in the design of the study and collection,
+analysis, and interpretation of data and in writing the
+manuscript.
+
+Ali, U, et al. 2021. Review of urban building energy modeling
+(UBEM) approaches, methods and tools using qualitative
+and quantitative analysis, s.l.: Energy Build. 246: 111073.
+DOI: https://doi.org/10.1016/j.enbuild.2021.111073
+Bolig- og, P. n. d. Bygningsreglementet. [Online] Available at:
+https://bygningsreglementet.dk [Accessed August 2021].
+Bruse, M, Nouvel, R, Wate, P, Kraut, V and Coors, V.
+2015. CityGML ADE and its application for heating
+demand calculation. International journal of 3-D
+
+FUNDING INFORMATION
+
+information modeling. DOI: https://doi.org/10.4018/
+IJ3DIM.2015070104
+Bygnings- og, B, 2018. BBR-oplysninger. [Online] Available at:
+
+Funded by the Danish Energy Agency under the Energy
+Technology Development and Demonstration Program
+(EUDP) with the project Dansk deltagelse i IEA Annex 83
+– Positive Energy Districts, no. 64020–1007.
+
+https://bbr.dk/se-bbr-oplysninger [Accessed August 2021].
+Climate One Building. n.d. Repository of free climate data for
+building performance – Denmark. [Online] Available at:
+http://climate.onebuilding.org/WMO_Region_6_Europe/
+DNK_Denmark/index.html [Accessed August 2021].
+
+COMPETING INTERESTS
+
+Dakheel, JA, Pero,CD, Aste, N and Leonforte, F. 2020. Smart
+buildings features and key performance indicators: A
+review., s.l.: Sustainable Cities and Society. 61: 102328.
+
+The authors have no competing interests to declare.
+
+DOI: https://doi.org/10.1016/j.scs.2020.102328
+Delmastro, C, Mutani, G, Schranz, L and Vicentini, G. 2015.
+
+AUTHOR CONTRIBUTIONS
+
+The role of urban form and socio-economic variables
+for estimating the building energy savings potential at
+the urban scale, s.l.: International Journal of Heat and
+
+The authors contribution to the work is as follows:
+
+Technology. 33: 91–100. DOI: https://doi.org/10.18280/
+ijht.330412
+
+•
+
+•
+
+•
+
+Barbara Kristin Holmsund Jepsen: Investigation,
+Formal Analysis, Resources, Software, Visualization,
+Writing Original Draft
+Tom Walther Haut: Investigation, Formal Analysis,
+Resources, Software, Visualization, Writing Original
+Draft
+Muhyiddine Jradi: Conceptualization, Methodology,
+Formal Analysis, Investigation, Writing Revised Draft,
+Supervision, Project Administration
+
+EC, A. 2018. Clean Planet for all: a European strategic longterm vision for a prosperous, modern, competitive
+and climate neutral economy. COM (2018)
+773-COMMUNICATION FROM THE COMMISSION TO THE
+EUROPEAN PARLIAMENT, THE EUROPEAN COUNCIL, THE
+COUNCIL, THE EUROPEAN ECONOMIC AND SOCIAL
+COMMITTEE, THE COMMITTEE OF THE REGIONS AND THE
+EUROPEAN INVESTMENT BANK.
+Eicker, U. 2019. Urban Energy Systems for Low-Carbon Cities.
+s.l.:Academic Press.
+
+Barbara Kristin Holmsund Jepsen and Tom Walther
+Haut contributed equally to the work and the paper
+development.
+
+European Commission. 2019. 2050 Long Term Strategy,.
+[Online] Available at: https://ec.europa.eu/clima/eu-action/
+climate-strategies-targets/2050-long-term-strategy_en
+
+15
+
+Jepsen et al. Future Cities and Environment DOI: 10.5334/fce.146
+
+European Union. 2021. Energy efficiency directive. [Online]
+
+Kommune, Æ. n.d. Bæredygtig energi. [Online] Available at:
+
+Available at: https://ec.europa.eu/energy/topics/
+
+https://www.aeroekommune.dk/borger/energi-natur-
+
+energy-efficiency/targets-directive-and-rules/energy-
+
+miljoe-klima/baeredygtig-energi [Accessed 09 27 21].
+
+efficiency-directive_en [Accessed 29 09 21].
+Fonseca, JA, Thomas, D, Willmann, A, Elesawy, A and
+
+Li, X and Wen, J. 2014. Review of building energy modeling
+for control and operation. s.l.: Renewable and Sustainable
+
+Schlueter, A. 2016. The City Energy Analyst Toolbox.
+
+Energy Reviews 37: 517–537. DOI: https://doi.org/10.1016/j.
+
+[Online] Available at: https://doi.org/10.3929/
+
+rser.2014.05.056
+
+ethz-a-010690828 [Accessed 2021].
+Gassar, AAA and Cha, C. 2020. Energy prediction techniques
+
+Li, Z, Quan, SJ and Yang, PP-J. 2016. Energy performance
+simulation for planning a low carbon neighborhood
+
+for large-scale buildings towards a sustainable built
+
+urban district: A case study in the city of Macau. Habitat
+
+environment: a review, s.l.: Energy Build. 224: 110–238.
+
+International, 53: 206–214. DOI: https://doi.org/10.1016/j.
+
+DOI: https://doi.org/10.1016/j.enbuild.2020.110238
+HOK. 2016. Energy Modelling Payback Period. [Online] Available
+
+habitatint.2015.11.010
+Lindholm O, Rehman, H and Reda, F. 2021. Positioning
+
+at: https://www.hok.com/about/news/2016/05/26/hok-
+
+Positive Energy Districts in European Cities. DOI: https://doi.
+
+case-studies-reveal-short-payback-of-energy-modeling.
+
+org/10.3390/buildings11010019
+
+Jepsen, B, Haut, T and Jradi, M. 2020. Towards energy efficient
+
+Monti, A, Pesch, D, Ellis, K and Mancarella, P. 2016. Energy
+
+planning of Danish cities and neighbourhoods, s.l.: 34th
+
+Positive Neighborhoods and Smart Energy Districts: Methods,
+
+International Conference on Efficiency, Cost, Optimization,
+
+Tools, and Experiences from the Field. s.l.:Academic Press.
+
+Simulation and Environmental Impact of Energy Systems
+(ECOS 2021), June 28 – July 2, 2021, Taormina, Sicily,
+Italy. https://portal.findresearcher.sdu.dk/en/publications/
+
+Planet, D-GfRaIC. 2020. Proposed Mission: 100 Climate-neutral
+Cities by 2030 – by and for the Citizens.
+Rise, F. 2019. Værket – Rise Fjernvarme. [Online] Available
+
+towards-energy-efficient-planning-of-danish-cities-and-
+
+at: http://www.risefjernvarme.dk/om-vaerket/fakta-om-
+
+neighbourh.
+
+vaerket [Accessed August 2021].
+
+Jradi, M, Arendt, K, Sangogboye, FC, Mattera, CG Markoska,
+E., Kjærgaard, MB, Veje, CT and Jørgensen, BN. 2018.
+
+Shi, ZF. 2017. A review for simulation-based urban form
+generation and optimization modeling for energy-driven
+
+ObepME: an online building energy performance monitoring
+
+urban design at the district scale. Building and Environment,
+
+and evaluation tool to reduce energy performance
+
+121. DOI: https://doi.org/10.1016/j.buildenv.2017.05.006
+
+gaps. s.l.: Energy Build. 166: 196–209. DOI: https://doi.
+org/10.1016/j.enbuild.2018.02.005
+Jradi, M, Veje, C and Jørgensen, B. 2018. A dynamic energy
+performance-driven approach for assessment of
+building energy renovation – Danish case studies. s.l.:
+
+Sola, A, Corchero, C, Salom, J and Sanmarti, M. 2020. Multidomain urban-scale energy modelling tools: A review,.
+Sustainable Cities and Society, 54. DOI: https://doi.
+org/10.1016/j.scs.2019.101872
+The A/S Group – ETH Zurich. n.d. CEA – About us. [Online]
+
+Energy Build. 158: 62–76. DOI: https://doi.org/10.1016/j.
+
+Available at: https://cityenergyanalyst.com/history
+
+enbuild.2017.09.094
+
+[Accessed August 2021].
+
+TO CITE THIS ARTICLE:
+Jepsen, BKH, Haut, TW, Jradi, M. 2022. Design, Modelling and Performance Evaluation of a Positive Energy District in a Danish Island.
+Future Cities and Environment, 8(1): 1, 1–15. DOI: https://doi.org/10.5334/fce.146
+Submitted: 30 November 2021
+
+Accepted: 24 January 2022
+
+Published: 03 February 2022
+
+COPYRIGHT:
+© 2022 The Author(s). This is an open-access article distributed under the terms of the Creative Commons Attribution 4.0
+International License (CC-BY 4.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original
+author and source are credited. See http://creativecommons.org/licenses/by/4.0/.
+Future Cities and Environment is a peer-reviewed open access journal published by Ubiquity Press.
+
+

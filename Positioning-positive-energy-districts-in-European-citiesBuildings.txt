@@ -1,0 +1,4086 @@
+buildings
+Article
+
+Positioning Positive Energy Districts in European Cities
+Oscar Lindholm * , Hassam ur Rehman
+
+and Francesco Reda
+
+VTT Technical Research Centre of Finland, P.O. Box 1000, FI-02044 VTT, Finland; hassam.rehman@vtt.fi (H.u.R.);
+francesco.reda@vtt.fi (F.R.)
+* Correspondence: oscar.lindholm@vtt.fi
+
+Abstract: There are many concepts for buildings with integrated renewable energy systems that
+have received increased attention during the last few years. However, these concepts only strive
+to streamline building-level renewable energy solutions. In order to improve the flexibility of
+decentralized energy generation, individual buildings and energy systems should be able to interact
+with each other. The positive energy district (PED) concept highlights the importance of active
+interaction between energy generation systems, energy consumers and energy storage within a
+district. This paper strives to inform the public, decision makers and fellow researchers about the
+aspects that should be accounted for when planning and implementing different types of PEDs
+in different regions throughout the European Union. The renewable energy environment varies
+between different EU regions, in terms of the available renewable energy sources, energy storage
+potential, population, energy consumption behaviour, costs and regulations, which affect the design
+and operation of PEDs, and hence, no PED is like the other. This paper provides clear definitions
+for different types of PEDs, a survey of the renewable energy market circumstances in the EU and a
+detailed analysis of factors that play an essential role in the PED planning process.
+Keywords: PED; energy flexibility; socioeconomic analysis; techno-economic analysis; regions;
+regulation; renewable energy; energy storage; urban environment; climatic zones
+
+
+Citation: Lindholm, O.; Rehman,
+H.u.; Reda, F. Positioning Positive
+Energy Districts in European Cities.
+Buildings 2021, 11, 19. https://
+doi.org/buildings11010019
+Received: 27 November 2020
+Accepted: 27 December 2020
+Published: 4 January 2021
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+Various zero energy building (ZEB) concepts have been applied and used in the
+building sector all over the world. The overall ZEB definition states that “the building
+can be considered as ZEB after it shows through actual measurements that the energy
+delivered to the building is less than or equal to the onsite renewable exported energy” [1].
+These concepts are, however, only applicable on individual buildings or groups of buildings
+and consider neither the impact on society at large nor the interaction with other energy
+consumers and producers. Most ZEBs even neglect the fact that the mobility sector is
+gradually connecting to the electricity grid. Nevertheless, ZEBs have recently received
+immense academic and political interest around the world [2–7].
+The USA established the Energy Independence and Security Act of 2007 [8] to support
+the building sector to create zero energy commercial buildings by the year 2030. It also
+mentions converting 50% of American commercial buildings to ZEBs by 2040 and converting all commercial buildings into ZEBs by 2050 [9]. Similar legislation and regulations
+have been adopted by the EU in the form of Directive on Energy Performance of Buildings
+(EPBD), which aims to make all public buildings and new buildings nearly zero energy
+buildings by 2020 [7].
+In Europe, the European Union (EU) has developed a framework that aims to reduce
+the emissions from buildings by improving the energy efficiency at the building level.
+The Directive on Energy Performance of Buildings (EPBD) initiated in May 2010 states that
+a nearly ZEB is a building with a high efficiency in terms of energy utilization and an energy
+demand that is mostly covered by on-site renewable energy generation [7]. The EPBD also
+mentions that the nearly ZEB definition can be flexible and adjusted to national or local
+
+Buildings 2021, 11, 19. https://doi.org/10.3390/buildings11010019
+
+https://www.mdpi.com/journal/buildings
+
+Buildings 2021, 11, 19
+
+2 of 30
+
+requirements and targets. Nearly ZEB impact factors, such as the energy efficiency of the
+buildings and renewable energy sources, are also defined on a national or a regional level.
+Moreover, the primary energy factor is defined by the EU states based on national policies.
+Cost-optimal buildings are also introduced in the EPBD in the Delegated Regulation
+No 244/2012 [10]. The cost-optimality is defined as the optimal ratio between the life cycle
+costs and the energy efficiency of the building [11]. This ratio varies from one EU region
+to another because the climate and the building standards are different in different EU
+regions [12–14].
+According to the US Department of Energy (DOE), a ZEB is an “energy efficient
+building where, on a source energy basis, the actual annual delivered energy is less than
+or equal to the on-site renewable exported energy” [6]. Here, the source energy means
+the total life cycle energy of the building, including the building energy; the energy used
+for the extraction, transportation and processing of primary fuels; energy losses in the
+thermal and electrical plant; and energy losses in transport and energy distribution to the
+building site. Building energy refers to the on-site building energy consumption, including
+heating, cooling, ventilation, domestic hot water, indoor and outdoor use, lights, plug loads,
+process energy, elevators, conveying systems and intra-building transportation.
+In addition to the ZEB concept, the DOE has defined three other concepts, the zero
+energy community (ZECo), zero energy campus (ZEC) and zero energy portfolio (ZEP),
+which consider a cluster of buildings that operates as a unit that shares the same renewable
+energy systems [6]. These concepts are, however, not clearly defined, and the differences
+between the concepts are quite indistinct. The main advantage of the ZEB, ZECo, ZEC and
+ZEP concepts is that they strive to cover the aggregated demand of the buildings, and thus,
+the generated renewable energy is used where it is needed the most.
+The International Energy Agency (IEA) has proposed a concept called autonomous
+ZEB, which is an extension of the ZEB [15]. These buildings are self-sustaining buildings
+with no connection to the grid and are able to produce enough on-site energy to satisfy
+their own energy demand. In order to satisfy the energy demand day and night, summer
+and winter, energy must be stored. This differs from the net ZEB concept, as the net ZEBs
+are able to interact with the external grid as long as the annual energy export is equal
+to the annual energy import. The IEA does also bring up energy plus buildings (+ZEB),
+which export more energy than they import [15].
+Table 1 shows a summary of the zero energy and positive energy definitions found in
+the literature. Here, it can be observed that most of the definitions address building-level
+applications and that only one definition addresses building energy efficiency, renewable
+energy, energy storage and as energy trading.
+
+Buildings 2021, 11, 19
+
+3 of 30
+
+Table 1. Definition comparison in the literature (3 = addressed in the definition, x = not addressed in the definition, ? = not defined/unclear).
+Term
+
+Definition
+
+Building Energy
+Efficiency
+
+Renewable
+Energy
+
+Energy
+Storage
+
+Energy
+Trading
+
+Application
+
+Reference
+
+Nearly zero energy building
+
+A high-energy-efficiency building that covers a large
+amount of its energy demand with on-site or nearby
+renewable energy generation
+
+3
+
+3
+
+x
+
+x
+
+Building
+
+[10]
+
+Net-zero energy building
+
+A building that exports an amount of energy to the grid
+equal to what it imports from the grid
+
+x
+
+3
+
+x
+
+3
+
+Building
+
+[16]
+
+Zero energy building
+
+A building that does not consume any energy
+
+x
+
+x
+
+x
+
+x
+
+Building
+
+[17]
+
+Zero emission building
+
+A building that does not release any emissions
+
+x
+
+x
+
+x
+
+x
+
+Building
+
+[17]
+
+Net-zero source energy building
+
+A building that generates all the energy it consumes,
+based on primary energy consumption
+
+x
+
+3
+
+?
+
+x
+
+Building
+
+[18]
+
+Net-zero site energy building
+
+A building that generates all the energy it consumes,
+based on building energy consumption
+
+x
+
+3
+
+?
+
+x
+
+Building
+
+[18]
+
+Net-zero energy cost building
+
+A building that covers the cost of imported energy by
+exporting on-site-generated renewable energy
+
+x
+
+3
+
+x
+
+3
+
+Building
+
+[18]
+
+Autonomous zero
+energy building
+
+A building that generates all the energy it consumes
+
+x
+
+3
+
+x
+
+3
+
+Building
+
+[15]
+
+Photovoltaicor wind zero
+energy building
+
+A building with a low energy demand and on-site PV
+panes and wind turbines
+
+3
+
+3
+
+x
+
+x
+
+Building
+
+[11]
+
+Photovoltaic + solar thermal +
+heat pump zero energy building
+
+A building that covers its energy demand via PV panels,
+solar thermal collectors, heat pumps and energy storage
+
+x
+
+3
+
+3
+
+x
+
+Building
+
+[11]
+
+Wind + solar thermal + heat
+pump zero energy building
+
+An energy efficient building that covers its energy demand
+via wind turbines, solar thermal collectors and heat pumps
+
+3
+
+3
+
+3
+
+x
+
+Building
+
+[11]
+
+Positive energy building
+
+A building with a negative annual energy consumption
+
+3
+
+3
+
+3
+
+3
+
+Building
+
+[19]
+
+Net-zero energy district
+
+A building that exports an amount of energy to the grid
+equal to what it imports from the grid
+
+x
+
+3
+
+x
+
+3
+
+District
+
+[20]
+
+Energy positive neighbourhood
+
+A neighbourhood in which the energy demand is lower
+than the supply from local renewables
+
+x
+
+3
+
+x
+
+3
+
+District
+
+[21]
+
+Buildings 2021, 11, 19
+
+4 of 30
+
+Most of the definitions found in the literature are different versions of the ZEB concept,
+and only a few definitions treat zero energy and energy positivity on a district or neighbourhood level. Especially, energy positivity on a district scale, so-called positive energy
+districts (PEDs), seems to be in an early conceptual phase. PEDs are gaining interest in the
+EU, as the European Clean Energy package is opening up a new opportunity for so-called
+energy communities, consisting of multiple small-scale energy consumers and providers,
+to share energy in local energy networks [22]. PEDs are hence becoming an increasingly
+interesting and a more competitive alternative to ZEBs, as they are able to exploit more of
+the available energy generation and energy storage potential of the community, i.e., the district. In PEDs, the renewable energy supply and demand can be unevenly distributed
+throughout the district, which allows a more strategical installation of renewable energy
+systems and energy storage.
+As PEDs are starting to gain interest in various research projects, clear standardized
+definitions and frameworks need to be established. The objective of this paper is to provide
+clear definitions for different types of PEDs, a survey of the renewable energy market
+circumstances in the EU and a detailed analysis of factors that play an essential role in the
+PED planning process. The analysis discusses the available alternatives for constructing
+PEDs and networks of PEDs in European cities as well as the regulative aspects that are
+relevant for the implementation of PEDs in the EU. This analysis is also the novelty of the
+paper, as no other study of PEDs in the literature treats the preconditions and available
+options for PEDs on a general level.
+2. Methods
+The study was carried out in three steps. The first step was to produce a description of
+the PED concept and to develop a clear set of criteria that every PED must satisfy. This step
+was conducted by gathering information about the PED definition from the limited amount
+of literature about PEDs that is available.
+The second step was to investigate the renewable energy environment in the EU.
+This step was carried out by collecting data and information about:
+
+•
+•
+•
+•
+
+The renewable energy generation and energy storage potential in different EU regions;
+The techno-economic properties of different renewable energy and energy storage technologies;
+The energy consumption and energy consumption trends in different EU regions;
+The electricity prices in different EU regions and factors affecting the electricity price.
+
+In order to keep the collected data at a manageable size, the authors mainly collected data for four EU countries (Finland, the Netherlands, Germany and Italy) and their
+corresponding capital cities.
+The first two steps of the study served as a base for the PED implementation analysis,
+which was conducted in the third and final step. The aim of the PED implementation
+analysis was to form a conception about the possibilities of implementing PEDs in the EU.
+The authors also used references from the scientific literature to gather ideas of how to
+implement different technologies. Additionally, the authors suggest a new idea of how
+networks of PEDs could be constructed and how PEDs could interact with each other.
+Finally, the analysis assesses how the current EU regulations and guidelines could affect
+the implementation of PEDs in the EU.
+A schematic diagram of the research design is presented in Figure 1.
+
+Buildings2021,
+2021,11,
+11,x19
+Buildings
+FOR PEER REVIEW
+
+30
+5 5ofof31
+
+Figure 1. Schematic diagram of the research design.
+Figure 1. Schematic diagram of the research design.
+
+3. Positive Energy District Definition
+3. Positive Energy District Definition
+A positive energy district generates more renewable energy than it consumes on a
+A positive
+energy
+district
+generates
+more renewable
+energy
+thansystems
+it consumes
+on a
+yearly
+basis [23,24].
+This
+is achieved
+by integrating
+renewable
+energy
+and energy
+yearly
+basis
+[23,24].
+This
+is
+achieved
+by
+integrating
+renewable
+energy
+systems
+and
+energy
+storage as well as improving the energy efficiency of the district by optimizing the energy
+storage
+as well as
+improving
+the energyproducers
+efficiency of
+thestorage.
+district As
+by optimizing
+energy
+flows between
+the
+energy consumers,
+and
+a part of thethe
+European
+flows
+between
+theTechnology
+energy consumers,
+producers
+and storage.
+As a part
+the European
+Strategic
+Energy
+Plan (SET
+Plan), PEDs
+are considered
+as of
+a building
+block
+Strategic
+Energy
+Plan (SET
+Plan),Three
+PEDsframeworks
+are considered
+as adeveloped
+building block
+for
+for reducing
+theTechnology
+carbon emissions
+of cities.
+were
+in a PED
+reducing
+the
+carbon
+emissions
+of
+cities.
+Three
+frameworks
+were
+developed
+in
+a
+PED
+defdefinition workshop organized by the European Energy Research Alliance (EERA) Joint
+inition
+workshop
+organized
+by the European Energy Research Alliance (EERA) Joint ProProgramme
+Smart
+Cities [25]:
+gramme
+Smart
+Cities
+[25]:
+•
+PED autonomous—a district with clear geographical boundaries that is completely
+
+•
+
+PED
+autonomous—a
+with clear
+boundaries
+that isby
+completely
+self-sufficient
+energy district
+wise, meaning
+thatgeographical
+the energy demand
+is covered
+internally
+self-sufficient
+energy wise,
+meaning
+that theisenergy
+demand
+is covered
+byany
+internally
+generated renewable
+energy.
+The district
+thus not
+allowed
+to import
+energy
+generated
+renewable
+energy.grid
+Theordistrict
+thus not allowed
+to The
+import
+anyofenergy
+from the external
+electricity
+districtisheating/gas
+network.
+export
+excess
+from
+the external
+gridallowed.
+or district heating/gas network. The export of excess
+renewable
+energyelectricity
+is, however,
+• renewable
+PED dynamic—a
+district
+withallowed.
+clear geographical boundaries that has an annual
+energy is,
+however,
+on-site
+renewabledistrict
+energywith
+generation
+that is higher
+than its annual
+demand.
+•
+PED
+dynamic—a
+clear geographical
+boundaries
+that hasenergy
+an annual
+onThe
+district
+can
+openly
+interact
+with
+other
+PEDs
+as
+well
+as
+the
+external
+electricity
+grid
+site renewable energy generation that is higher than its annual energy demand. The
+and district
+heating/gas
+network.
+district
+can openly
+interact
+with other PEDs as well as the external electricity grid
+• and
+PEDdistrict
+virtual—a
+district network.
+that allows the implementation of virtual renewable energy
+heating/gas
+systems
+and energy
+outside
+geographical of
+boundaries.
+The combined
+•
+PED
+virtual—a
+districtstorage
+that allows
+the its
+implementation
+virtual renewable
+energy
+annual energy
+generation
+the virtual
+renewable energy
+systems
+the on-site
+systems
+and energy
+storageof
+outside
+its geographical
+boundaries.
+Theand
+combined
+anrenewable
+energy
+systems
+must,
+however,
+be
+greater
+than
+the
+annual
+energy
+demand
+nual energy generation of the virtual renewable energy systems and the on-site reof the district.
+newable
+energy systems must, however, be greater than the annual energy demand
+of
+the district.
+Figures
+2–4 show examples of how the three different PEDs could look. PED autonomous and PED dynamic are both constrained by geographical boundaries. PED auFigures 2–4 show examples of how the three different PEDs could look. PED autontonomous is a completely self-sufficient energy system, which means that the energy
+omous and PED dynamic are both constrained by geographical boundaries. PED autonodemand is covered by internally generated renewable energy. PED dynamic allows the
+mous is a completely self-sufficient energy system, which means that the energy demand
+energy system to import externally generated energy, as long as the annual energy balance
+is covered by internally generated renewable energy. PED dynamic allows the energy sysis positive. This means that PED dynamic must export more energy than it imports, on a
+tem to import externally generated energy, as long as the annual energy balance is posiyearly basis.
+tive. This means that PED dynamic must export more energy than it imports, on a yearly
+basis.
+
+Buildings 2021,
+2021, 11,
+11, 19FOR PEER REVIEW
+Buildings
+Buildings
+2021, 11,
+11, xxx FOR
+FOR PEER
+PEER REVIEW
+REVIEW
+Buildings
+2021,
+
+of 31
+30
+66of
+of
+31
+66 of
+31
+
+Figure 2.
+2. Graphical
+Graphical explanation
+explanation of
+of aa PED
+PED autonomous.
+autonomous. The
+The PED
+PED autonomous
+autonomous is
+is completely
+completely self-sufficient,
+self-sufficient, which
+which means
+means
+Figure
+Figure
+2.
+Graphical
+explanation
+of
+PED
+autonomous.
+The
+PED
+autonomous
+is
+completely
+self-sufficient,
+which
+means
+Figure
+2.
+Graphical
+explanation
+of
+aa PED
+autonomous.
+The
+PED
+autonomous
+is
+completely
+self-sufficient,
+which
+means
+that
+it
+covers
+the
+on-site
+energy
+demand
+with
+on-site
+renewable
+energy
+generation.
+It
+is,
+however,
+possible
+for
+the
+PED
+that
+it
+covers
+the
+on-site
+energy
+demand
+with
+on-site
+renewable
+energy
+generation.
+It
+is,
+however,
+possible
+for
+the
+PED
+that it
+it covers
+covers the
+the on-site
+on-site energy
+energy demand
+demand with
+with on-site
+on-site renewable
+renewable energy
+energy generation.
+generation. It
+It is,
+is, however,
+however, possible
+possible for
+for the
+the PED
+PED
+that
+autonomous
+to
+export
+excess
+energy
+to
+other
+PEDs
+as
+well
+as
+the
+external
+electricity
+grid
+and
+district
+heating
+network.
+autonomous
+to
+export
+excess
+energy
+to
+other
+PEDs
+as
+well
+as
+the
+external
+electricity
+grid
+and
+district
+heating
+network.
+autonomous to
+to export
+export excess
+excess energy
+energy to
+to other
+other PEDs
+PEDs as
+as well
+well as
+as the
+the external
+external electricity
+electricity grid
+grid and
+and district
+district heating
+heating network.
+network.
+autonomous
+VAWT
+stands for
+for vertical
+vertical axis
+axis wind
+wind turbine.
+turbine.
+VAWT stands
+stands
+VAWT
+VAWT
+for vertical
+axis wind
+turbine.
+
+Figure
+3.
+Graphical
+explanation
+of
+PED
+dynamic.
+PED
+dynamic
+bidirectional
+energy
+trading
+with
+other
+PEDs
+as
+well
+as
+Figure3.
+3.Graphical
+Graphicalexplanation
+explanationof
+ofaaaaPED
+PEDdynamic.
+dynamic.PED
+PEDdynamic
+dynamicbidirectional
+bidirectionalenergy
+energytrading
+tradingwith
+withother
+otherPEDs
+PEDsas
+aswell
+wellas
+as
+Figure
+3.
+Graphical
+explanation
+of
+PED
+dynamic.
+PED
+dynamic
+bidirectional
+energy
+trading
+with
+other
+PEDs
+as
+well
+as
+Figure
+the
+external
+electricity
+grid
+and
+district
+heating
+network.
+VAWT
+stands for
+for vertical
+vertical axis
+axis wind
+wind turbine.
+turbine.
+the
+external
+electricity
+grid
+and
+district
+heating
+network.
+VAWT
+stands
+the
+external
+electricity
+grid
+and
+district
+heating
+network.
+VAWT
+the external electricity grid and district heating network. VAWT stands for vertical axis wind turbine.
+
+Figure4.
+4.Graphical
+Graphicalexplanation
+explanation of
+Figure
+4.
+Graphical
+explanation
+of aa PED
+PED virtual.
+virtual. PED
+PED virtual
+virtual allows
+allowsvirtual
+virtualrenewable
+renewableenergy
+energygenerFigure
+virtual.
+PED
+virtual
+allows
+virtual
+renewable
+energy
+Figure
+4. Graphical
+explanation of
+a PED virtual.
+PED
+virtual
+allows
+virtual
+renewable
+energy
+ation
+and
+energy
+storage
+operation
+outside
+the
+geographical
+boundaries
+of
+the
+district.
+VAWT
+generation
+and
+energy
+storage
+operation
+outside
+the
+geographical
+boundaries
+of
+the
+district.
+generation and
+and energy
+energy storage
+storage operation
+operation outside
+outside the
+the geographical
+geographical boundaries
+boundaries of
+of the
+the district.
+district. stands
+generation
+VAWT
+stands
+for
+vertical
+axis
+wind
+turbine.
+for
+vertical
+axis
+wind
+turbine.
+VAWT stands
+stands for
+for vertical
+vertical axis
+axis wind
+wind turbine.
+turbine.
+VAWT
+
+Buildings
+Buildings 2021,
+2021, 11,
+11, x19FOR PEER REVIEW
+
+77 of
+of 31
+30
+
+The third definition, PED virtual, operates within virtual boundaries, which means
+The third definition, PED virtual, operates within virtual boundaries, which means
+that the energy system can operate outside the geographical boundaries of the district and
+that the energy system can operate outside the geographical boundaries of the district
+consequently utilize renewable energy sources or energy storage to greater extents. Howand consequently utilize renewable energy sources or energy storage to greater extents.
+ever, the part of the energy system that operates outside the borders of the district must
+However, the part of the energy system that operates outside the borders of the district
+be
+an asset
+the of
+district
+in order
+to be classified
+as a PED
+must
+be anof
+asset
+the district
+in order
+to be classified
+as avirtual.
+PED virtual.
+In
+European
+cities,
+transportation
+is
+one
+of
+the
+greatest
+polluters.
+Today,
+the
+In European cities, transportation is one of the greatest polluters.
+Today, the
+transport
+transport
+and mobility
+sector contributes
+the emissions
+in Europe
+emisand mobility
+sector contributes
+to 27% to
+of27%
+the of
+emissions
+in Europe
+[26]. [26].
+As As
+emission
+sion
+reduction
+is
+one
+of
+the
+key
+objectives
+of
+PEDs,
+the
+use
+of
+electric
+vehicles
+(EVs)
+and
+reduction is one of the key objectives of PEDs, the use of electric vehicles (EVs) and other
+other
+emission-free
+alternatives
+for
+transport
+and
+mobility
+in
+urban
+areas
+should
+be
+fosemission-free alternatives for transport and mobility in urban areas should be fostered.
+tered.
+At
+the
+moment,
+it
+is
+expected
+that
+by
+the
+year
+2030,
+EV
+usage
+will
+increase
+to
+44
+At the moment, it is expected that by the year 2030, EV usage will increase to 44 million
+million
+cars
+globally
+[27].
+Many
+cities
+are
+thus
+already
+including
+the
+electrification
+of
+mocars globally [27]. Many cities are thus already including the electrification of mobility in
+bility
+in their
+city
+plans
+[28]. all
+Hence,
+of the above-mentioned
+PED definitions
+should
+their city
+plans
+[28].
+Hence,
+of theall
+above-mentioned
+PED definitions
+should account
+account
+for
+an
+increasing
+EV
+charging
+capacity
+and
+support
+for
+other
+emission-free
+for an increasing EV charging capacity and support for other emission-free transport and
+transport
+mobility. and mobility.
+4.
+4. Renewable
+RenewableEnergy
+EnergyMarket
+MarketCircumstances
+Circumstancesin
+in the
+the European
+European Union
+Union
+Europe is
+isdivided
+dividedinto
+intoseveral
+severalcountries
+countriesand
+andregions
+regionswith
+withdifferent
+different preconditions
+preconditions for
+for
+Europe
+PEDs.Renewable
+Renewableenergy
+energygeneration
+generationmethods,
+methods,such
+suchas
+assolar,
+solar, wind
+wind and
+and hydro,
+hydro, are
+are highly
+highly
+PEDs.
+dependent on
+onthe
+thegeographical
+geographicalproperties
+properties of
+of the
+thesite.
+site.Even
+Evensome
+someenergy
+energystorage
+storagemethods,
+methods,
+dependent
+such as
+as compressed
+compressed air and
+forfor
+some
+geographical
+such
+and pumped
+pumpedhydro
+hydrostorage,
+storage,are
+areonly
+onlysuitable
+suitable
+some
+geographlocations.
+TheThe
+same
+applies
+to energy
+demand
+andand
+electricity
+prices,
+although
+these
+are
+ical
+locations.
+same
+applies
+to energy
+demand
+electricity
+prices,
+although
+these
+alsoalso
+highly
+dependent
+on the
+regulations
+andand
+socioeconomic
+factors
+of the
+region.
+are
+highly
+dependent
+on the
+regulations
+socioeconomic
+factors
+of the
+region.
+This chapter addresses
+of of
+different
+renewable
+energy
+and
+This
+addressesthe
+thetechno-economic
+techno-economicaspects
+aspects
+different
+renewable
+energy
+energy
+storage
+technologies
+as
+well
+as
+their
+suitability
+for
+different
+geographical
+locations
+and energy storage technologies as well as their suitability for different geographical lowithin the
+EU.the
+TheEU.
+energy
+consumption
+and electricity
+prices for
+the different
+EU regions
+cations
+within
+The energy
+consumption
+and electricity
+prices
+for the different
+EU
+are
+also
+presented.
+Four
+EU
+countries
+with
+different
+climates
+and
+their
+corresponding
+regions are also presented. Four EU countries with different climates and their correcapital cities
+are examined
+more thoroughly
+in this chapter
+order to
+regional
+sponding
+capital
+cities are examined
+more thoroughly
+in thisin
+chapter
+in highlight
+order to highlight
+differences
+in the renewable
+environment
+within the within
+EU. Thethe
+studied
+cities
+as wellcities
+as their
+regional
+differences
+in the renewable
+environment
+EU. The
+studied
+as
+precipitation
+and
+temperatures
+are
+presented
+in
+Figure
+5.
+well as their precipitation and temperatures are presented in Figure 5.
+
+Figure
+Figure 5.
+5. Monthly
+Monthlyprecipitation
+precipitation and
+and temperatures
+temperatures for
+for Helsinki,
+Helsinki, Amsterdam,
+Amsterdam, Berlin
+Berlin and Rome.
+
+Buildings 2021, 11, 19
+
+8 of 30
+
+4.1. Renewable Energy Sources and Their Availability in the EU
+During the last 15 years, the amount of new investments in renewable energy has
+increased dramatically, especially for solar and wind energy technologies. The compound
+annual growth rate (CAGR) for the 2004–2018 period for solar and wind were 20% and
+15%, respectively [29]. This investment boom in solar and wind energy has contributed
+to technological improvements and larger markets, and consequently cost reductions for
+technology [30]. The evolution of the renewable energy market has engendered better
+preconditions for PEDs and other energy transition projects. Table A1 in the Appendix A
+presents the average costs and capacity factors of different renewable energy technologies
+that can be utilized in PEDs.
+Most renewable energy sources are somehow dependent on the geographical location
+of the site. Solar and wind energy are dependent on the climatic conditions of the site,
+while hydro power is dependent on the climatic as well as topographical and geological
+conditions of the site. Bioenergy, i.e., power generated by biomass, on the other hand, is not
+as dependent on the geographical conditions as the above-mentioned technologies.
+The geographical differences in renewable energy environments are evident when
+the renewable energy mixes for different EU countries is studied. The renewable energy
+mixes of Finland, the Netherlands, Italy and Germany are presented in Table 2. It can be
+observed that there are some considerable differences in the renewable energy generation
+between these countries, which are partly caused by geographical factors. Figure 6 shows
+for
+Buildings 2021, 11, x FOR PEER REVIEWthat the renewable energy share has increased significantly during the last ten years
+9 of
+31 all
+of the above-listed countries. The growth rate of the renewable energy share does, however,
+vary slightly between the countries.
+
+Renewable energy share of total energy
+consumption
+
+40%
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+2009 2010 2011 2012 2013 2014 2015 2016 2017 2018
+
+Year
+Finland
+
+Netherlands
+
+Germany
+
+Italy
+
+Figure 6. Renewable energy (heat and electricity) trends of Finland, the Netherlands, Germany and
+Figure 6. Renewable energy (heat and electricity) trends of Finland, the Netherlands, Germany
+Italy [31].
+and Italy [31].
+
+4.1.1. Solar
+The cost of solar electricity has decreased dramatically during the last decade. Particularly, the cost of solar photovoltaic (PV) installations has decreased significantly during
+the last few years. According to IRENA, the global weighted average total installed cost
+of utility-scale solar PV projects dropped from 4621 USD/kW in 2010 to 1210 USD/kW in
+2018 [32]. The weighted average capacity factor for solar PV increased from 14% to 18%
+during the same time interval [32].
+The installation cost of concentrating solar power (CSP) also fell from around 8829
+USD/kW in 2010 to 5204 USD/kW in 2018, although the year-on-year variability has been
+relatively high due to the small scale of the market [32]. In 2010, the levelized cost of elec-
+
+Buildings 2021, 11, 19
+
+9 of 30
+
+Table 2. Gross renewable energy (heat and electricity) consumption mix of Finland, the Netherlands,
+Germany and Italy in 2018 [31].
+Renewable Energy Source
+
+Finland
+
+Netherlands
+
+Germany
+
+Italy
+
+Hydro
+Wind
+Solar PV
+Solar thermal
+Biofuels and renewable waste
+Geothermal
+Ambient heat (heat pumps)
+
+9.5%
+4.2%
+0.1%
+0.0%
+81.6%
+0.0%
+4.7%
+
+0.1%
+19.6%
+6.9%
+0.6%
+66.2%
+1.9%
+4.7%
+
+3.6%
+22.0%
+9.1%
+1.8%
+60.2%
+0.7%
+2.7%
+
+14.3%
+5.2%
+6.7%
+0.7%
+45.7%
+18.5%
+8.9%
+
+4.1.1. Solar
+The cost of solar electricity has decreased dramatically during the last decade. Particularly, the cost of solar photovoltaic (PV) installations has decreased significantly during
+the last few years. According to IRENA, the global weighted average total installed cost of
+utility-scale solar PV projects dropped from 4621 USD/kW in 2010 to 1210 USD/kW in
+2018 [32]. The weighted average capacity factor for solar PV increased from 14% to 18%
+during the same time interval [32].
+The installation cost of concentrating solar power (CSP) also fell from around 8829
+USD/kW in 2010 to 5204 USD/kW in 2018, although the year-on-year variability has been
+relatively high due to the small scale of the market [32]. In 2010, the levelized cost of
+electricity (LCOE) for CSP was 0.19 USD/kWh, which is nearly twice as high as the LCOE
+for solar PV in the same year [32]. Hence, solar PV is still more profitable than CSP for
+electricity generating purposes. However, according to a cost reduction potential analysis
+by IRENA 2016, the gap between the LCOEs for CSP and solar PV will be reduced to
+0.02 USD/kWh by 2025 [30].
+Apart from electricity generated by PV and CSP, solar radiation can also be used for
+generating heat using so-called solar thermal collectors. These solar thermal collectors
+generate thermal energy in the form of hot water, which is usually used directly as domestic
+hot water [33]. The two most popular solar thermal collector technologies are flat plate
+collectors and evacuated tube collectors. Evacuated tube collectors cost 20% to 50% more
+than flat plate collectors, but they are more efficient and easier to apply in cold climates
+and regions without a substantial amount of sunlight. Due to the excellent performance of
+evacuated tube collectors in cold climates, it is also possible to use them as a heat source
+for building heating systems.
+Despite the great potential of solar thermal collectors, the growth rate of solar heat
+in Europe has, according to Madsen and Hansen (2019), decreased during the last five
+years [34]. Only a few large projects have been executed in EU countries such as Poland
+and Denmark during the last few years [35].
+The electrical power generated by solar PV and CSP as well as the heat produced
+by solar thermal collectors is dependent on solar irradiation [36,37]. Since the EU region
+covers over 30 degrees of latitude, there are considerable differences in solar radiation
+between some EU regions. Figure 7 presents the monthly global irradiation data for the
+four European example cities. The data were collected from the Photovoltaic Geographic
+Information System (PVGIS), which is a geographical information system developed by
+the Joint Research Centre of the European Commission [38,39].
+
+solar thermal collectors is dependent on solar irradiation [36,37]. Since the EU region covers over 30 degrees of latitude, there are considerable differences in solar radiation between some EU regions. Figure 7 presents the monthly global irradiation data for the four
+European example cities. The data were collected from the Photovoltaic Geographic In10 of
+30
+formation System (PVGIS), which is a geographical information system developed by
+the
+Joint Research Centre of the European Commission [38,39].
+
+Buildings 2021, 11, 19
+
+2005–2016 average monthly global irradiation at
+optimal angle (kWh/m2)
+
+250
+
+200
+
+150
+
+100
+
+50
+
+0
+Jan
+
+Feb
+
+Mar
+
+Helsinki
+
+Apr
+
+May
+
+Jun
+
+Amsterdam
+
+Jul
+
+Aug
+
+Berlin
+
+Sep
+
+Oct
+
+Nov
+
+Dec
+
+Rome
+
+Figure 7. Monthly average solar irradiation of Helsinki, Amsterdam, Berlin and Rome [38,39].
+Figure 7. Monthly average solar irradiation of Helsinki, Amsterdam, Berlin and Rome [38,39].
+
+Ambient temperature and wind speed are other geography-dependent factors that
+Ambient
+temperature
+and wind
+speed areofother
+geography-dependent
+factors
+that
+affect
+the photovoltaic
+capacity.
+The efficiency
+photovoltaic
+cells is negatively
+affected
+affect
+the
+photovoltaic
+capacity.
+The
+efficiency
+of
+photovoltaic
+cells
+is
+negatively
+affected
+by increasing cell temperature [40]. A high ambient temperature and still air thus have
+◦C
+by
+cell temperature
+[40]. A generation.
+high ambient
+temperature
+and still
+air(2019),
+thus have
+anincreasing
+unfavourable
+effect on PV power
+According
+to Adeh
+et al.
+a 10 an
+unfavourable
+effect on
+PV powerreduces
+generation.
+According
+Adeh0.5etpercentage
+al. (2019), apoints
+10 °C[40].
+inincrease in ambient
+temperature
+the efficiency
+byto
+about
+A wind
+reduction
+from 1.5
+to 0.5 the
+m/sefficiency
+also entails
+0.5 percentage
+pointpoints
+decrease
+in
+crease
+inspeed
+ambient
+temperature
+reduces
+by aabout
+0.5 percentage
+[40].
+[40].reduction
+Since typical
+is below
+20% [41,42],point
+thesedecrease
+seemingly
+Aefficiency
+wind speed
+fromphotovoltaic
+1.5 to 0.5 m/sefficiency
+also entails
+a 0.5 percentage
+in
+small variations
+in efficiency
+actually have
+a significant
+impact
+on photovoltaic
+power
+efficiency
+[40]. Since
+typical photovoltaic
+efficiency
+is below
+20% [41,42],
+these seemingly
+generation.
+CSP,
+on
+the
+other
+hand,
+benefits
+from
+high
+temperatures
+and
+low
+wind
+speeds,
+small variations in efficiency actually have a significant impact on photovoltaic power
+and is thus suitable
+hottest
+regions
+within
+the EU
+generation.
+CSP, onfor
+thethe
+other
+hand,
+benefits
+from
+high[43].
+temperatures and low wind
+speeds, and is thus suitable for the hottest regions within the EU [43].
+4.1.2. Wind
+
+4.1.2. Despite
+Wind the huge increase in wind power investments, the decrease in wind power
+installation
+has not
+been as
+asinvestments,
+for solar energy.
+For onshore
+windpower
+power
+Despitecosts
+the huge
+increase
+inremarkable
+wind power
+the decrease
+in wind
+installations,
+the
+weighted
+average
+total
+installed
+cost
+dropped
+from
+1915
+to
+1499
+USD/kW
+installation costs has not been as remarkable as for solar energy. For onshore wind power
+in the periodthe
+between
+2010average
+and 2018.
+The
+weighted
+average
+total
+installed
+forUSD/kW
+offshore
+installations,
+weighted
+total
+installed
+cost
+dropped
+from
+1915 tocost
+1499
+wind
+power between
+installations
+experienced
+a modest
+decrease
+during
+the last
+in
+the period
+2010has,
+andhowever,
+2018. Theonly
+weighted
+average
+total installed
+cost
+for offshore
+few years. In 2018, the weighted average total installed cost for offshore wind turbines was
+wind power installations has, however, only experienced a modest decrease during the
+4353 USD/kW [32].
+last few years. In 2018, the weighted average total installed cost for offshore wind turbines
+Nevertheless, there have been significant technological improvements in wind turbine
+was 4353 USD/kW [32].
+technology. These technology improvements, however, mainly benefit wind power installations in regions with low annual wind speeds [44]. In regions with high wind speeds, the
+benefits of the increased power generation are smaller than the cost difference between the
+old and new turbine technology. Hence, the benefits of the technological improvements
+of wind turbines are primarily observed for less windy sites. The improvements in wind
+power resulted in an increase in rotor diameter and turbine size between 2010 and 2017.
+In France, the rotor diameter of newly commissioned projects increased by 25% between
+2010 and 2017 [32].
+The wind power potential of a region is primarily determined by two physical qualities:
+wind speed and air density. These qualities are, however, dependent on the meteorological
+
+Buildings 2021, 11, 19
+
+11 of 30
+
+conditions, topography and surface roughness of the site [45]. Due to the sensitivity to
+different variables, it is challenging to accurately estimate the exploitable wind energy [45].
+Estimating local extreme wind speeds and turbulence is also considered a challenge;
+these have an impact on the wind power potential.
+When the wind speed and air density are known, the exploitable wind power can be
+calculated as follows:
+1
+P = ρAv3 .
+(1)
+2
+where ρ is the air density, A is the cross-sectional area of the wind turbine and v is the wind
+speed [46]. Since the generated power is expressed as a cubic function of the wind speed,
+even a small variation in wind speed entails a significant difference in generated electrical
+power. The average wind speeds of the four European cities are presented in Table 3.
+Table 3. Onshore and offshore wind speeds at 100 m height in Helsinki, Amsterdam, Berlin and Rome [47].
+City
+
+Average Wind Speed for Onshore Wind Turbines
+(m/s)
+
+Average Wind Speed for Offshore Wind Turbines
+(m/s)
+
+Helsinki
+Amsterdam
+Berlin
+Rome
+
+8.4
+8.5
+7.4
+5.7
+
+9.1
+9.4
+6.7
+
+4.1.3. Hydro
+According to the International Renewable Energy Agency, about half of the European
+hydropower potential is already utilized [48]. There are two types of hydro power—
+run-of-river (ROR) hydropower and reservoir hydropower—both of which are highly
+dependent on the geography of the region [49]. ROR hydropower uses the natural flow
+of rivers to generate electricity through a turbine and is thus dependent on seasonal
+variations in precipitation in the upstream catchment area [48,49]. Reservoir hydropower
+can store large volumes of water and is therefore less dependent on a continuous water flow.
+Reservoir hydropower is, however, highly dependent on the topography of the site [49].
+The EU countries with the highest amounts of hydropower generation per capita are listed
+in Table 4.
+Table 4. EU countries with the highest average annual hydropower generation [48].
+Country
+
+Hydropower Generation, 2009–2018 Yearly Average (kWh/Capita)
+
+Sweden
+Austria
+Finland
+Slovenia
+Croatia
+Latvia
+Portugal
+France
+Romania
+Slovakia
+
+6.52
+4.44
+2.57
+2.13
+1.72
+1.55
+1.11
+0.88
+0.84
+0.78
+
+4.1.4. Biomass
+Biomass is a controversial renewable energy source, which is sometimes not considered to be as “green” as the above-mentioned renewable energy technologies. Unlike other
+renewable energy technologies, bioenergy produces emissions that might be problematic
+in densely populated areas. Biomass is, however, by far, the most flexible of these renewable energy sources since it is possible to both transport and store biomass in large
+
+Buildings 2021, 11, 19
+
+12 of 30
+
+volumes. Biomass is therefore a great alternative to fossil fuels in energy system balancing
+applications [50].
+Today, 75% of the energy generated by biomass is used for heating and cooling
+purposes, 13% for electricity generation and 12% for transport [50]. In 2017, biomass represented 60% of the total production of primary renewable energy [51].
+Biomass is often used as a fuel in combined heat and power (CHP) plants. These plants
+often consist of a biomass-fired boiler where heat is transferred to a steam cycle [52].
+The steam runs true turbines to generate electricity and through heat exchangers to acquire
+heat. Biomass contains significantly more moisture than fossil fuel. Hence, there is a
+significant amount of latent heat that can be recovered from the exhaust gases of a biomassbased CHP plant. This means that the exhaust gas heat recovery has a crucial impact on
+the overall efficiency of the plant. For wood-chip-fired CHP plants, the latent heat recovery
+is the highest when the exhaust gas temperature is 30–65 ◦ C [53].
+Biomass is competing with natural gas, which is considered as a relatively clean fossil
+fuel. The investment cost for biomass power plants is, in general, more expensive than
+that for natural gas power plants, although the fuel costs are on the same level. Unrefined
+biomass contains high levels of potassium and other alkalis, which cause deposit formation
+and corrosion in the boilers of combustion power plants [54,55]. This costly problem
+can be minimized by pretreating the biomass and/or by adding sulfur in the combustion
+process [55,56]. These countermeasures are also reflected in the cost of bioenergy technology.
+Another challenge with biomass is the limited availability of reliable, affordable and
+sustainable biomass [50].
+Bioenergy generation is not as dependent on the geographical location of the generation site as the earlier-mentioned renewable energy sources, since biomass can be
+transported and utilized far away from the extraction site. Most of the bio-based energy
+generation within the EU is descended from forestry. Transporting wood-based biomass is
+expensive due to its low energy density compared to fossil fuels (the lower heating value
+(LHV) of wood pellets is 17.5 MJ/kg, which is less than half of the LHV of most fossil
+fuels) [50,57,58]. According to IEA-ETSAP and IRENA 2015, the cost of locally collected
+biomass ranges from USD 4 to 8 per GJ, while the cost of globally traded biomass ranges
+from USD 8 to 12 per GJ [52]. Biomass energy generation is therefore more lucrative in
+countries with domestic forest resources. The biggest bioenergy consumers per capita in
+Europe are the Nordic and Baltic countries as well as Austria [50]. These are all countries
+with great forest resources. Other EU countries with a forest land cover over 40% are
+Bulgaria, Croatia, Slovenia and Slovakia.
+4.1.5. Geothermal
+Geothermal power plants use thermal energy generated and stored in the Earth to
+generate power through steam turbines [59]. These plants usually require deep wells to
+reach sufficient temperatures (often higher than 180 ◦ C). A large share of the installation
+costs are comprised of costs related to the construction of the wells. The weighted average
+total installation cost of geothermal power plants is 3976 USD/kW, which is quite high
+compared to other renewable energy technologies [32]. Although the installation costs
+of geothermal power plants are usually high, the operating costs are relatively low and
+predictable [32,59].
+In theory, geothermal energy can be accessed everywhere as long as there are not any
+restrictions on the deepness of boreholes. In reality, it is not economically and technically
+possible to drill deep enough to harness geothermal energy. The vast majority of geothermal
+energy systems that are suitable for power generation are located in areas with volcanic
+activity, usually close to tectonic plate boundaries [59]. In Europe, these areas are mainly
+found in southern Italy and Iceland.
+
+Buildings 2021, 11, 19
+
+13 of 30
+
+4.2. Energy Storage Systems and Their Application in the EU
+Energy storage can provide sufficient flexibility to the energy system by evening out
+peaks in energy generation and demand. Hence, the importance of energy storage methods
+is growing as the amount of intermittent renewable energy is increasing.
+The potential of some energy storage methods is highly dependent on the geographical
+characteristics of the site. Especially, large-scale energy storage methods such as pumped
+hydro and compressed air energy storage (CAES) are only suitable for some geographical
+regions, partly because of their low energy density and partly because of their dependency on suitable geographical features, such as geology, topography and precipitation.
+Even small-scale energy storage methods, such as different kinds of batteries, are somewhat
+dependent on the environment.
+4.2.1. Pumped Hydro
+Pumped hydro storage (PHS) is the most widely deployed technology for large-scale
+energy storage worldwide [60]. According to the International Hydropower Association,
+PHS accounts for 94% of the global installed energy storage capacity [61]. PHS systems
+store energy by pumping water from a reservoir to another reservoir at a higher altitude.
+The potential power of the water in the higher water storage reservoir is then extracted by
+releasing the water through a turbine to the lower reservoir [60].
+The main advantages of PHS systems are their low installation cost per storage
+capacity and long life spans. The PHS potential and investment cost are heavily dependent
+on the geographical properties of the site. The performance of a PHS system depends on
+the water volume involved as well as the height difference between the higher and lower
+water storage reservoirs [62]. These characteristics are defined by the availability of water
+as well as the topography and geology of the site [62]. Due to the very site-specific nature
+of PHS systems, the installation cost varies between 5 and 100 USD/kWh [60].
+The geographical limitations of PHS systems can definitely be considered as a major
+drawback for the storage method [61]. Another downside with PHS technology is its
+relatively slow reaction time compared to batteries [61]. This prevents PHS systems from
+being used as short-erm storage for balancing frequent variations in energy demand and
+supply.
+A study by Gimeno-Gutiérrez and Lacal-Arántegui (2014) presents estimates of the
+pumped hydro storage potential in different European countries, based on a geographical
+information system (GIS) developed by a team from the Joint Research Centre and University College Cork [63]. The study used the GIS to identify potential pumped hydro storage
+sites where two existing reservoirs at different altitudes can be connected. The report
+presents both an unconstrained theoretical potential and a constrained realizable potential.
+Table 5 presents a part of the results that were obtained from the study.
+Table 5. Pumped hydro storage potential in Finland, the Netherlands, Germany and Italy [63].
+Pumped Hydro Storage Potential
+Theoretical Potential
+
+Country
+
+Finland
+Netherlands
+Germany
+Italy
+
+1
+
+Realizable Potential
+
+20 km
+
+10 km
+
+5 km
+
+2 km
+
+1 km
+
+20 km
+
+10 km
+
+5 km
+
+2 km
+
+1 km
+
+12
+0
+168
+1867
+
+0
+0
+28
+661
+
+0
+0
+0
+218
+
+0
+0
+0
+85
+
+0
+0
+0
+11
+
+12
+0
+0
+3
+
+0
+0
+0
+670
+
+0
+0
+0
+99
+
+0
+0
+0
+5.5
+
+0
+0
+0
+4.6
+
+1
+
+The theoretical potential includes the following constraints: a minimum head of 150 m, a minimum reservoir capacity of 100,000 m3 ,
+a minimum distance of 500 m to inhabited sites, a minimum distance of 200 m to existing transportation infrastructure, a maximum distance
+of 20 km to electricity transmission, and location outside Natura 2000 conservation areas and UNESCO sites.
+
+According to the results of the study by Gimeno-Gutiérrez and Lacal-Arántegui (2014),
+countries with mountain ranges, such as Austria, Switzerland, France, Italy, Spain, the UK
+
+Buildings 2021, 11, 19
+
+14 of 30
+
+and Norway, have the highest potential for pumped hydro storage [63]. Naturally flowing
+water and evaporation are, however, not taken into account in the report by the JRC,
+which will affect the PHS potential.
+4.2.2. Compressed Air Storage
+The operating principle of compressed air is to use electrical power to compress air
+and thereby store potential energy in the form of compressed air in an airtight storage
+cavern or vessel. The potential energy is released by letting the compressed air run through
+a turbine that generates electricity. Compressed air storage is an energy storage method
+that is particularly suitable in areas with already-available storage caverns, such as empty
+salt caverns and depleted oil and gas fields. Storing the compressed air in storage vessels
+is also possible, although it is significantly more expensive and not competitive with other
+energy storage methods [60].
+This method does have a few major drawbacks. One problem is the low energy density
+of the storage method, and another problem is the low roundtrip efficiency. The low
+roundtrip efficiency is mainly caused by the compression process, which generates a
+significant amount of waste heat, and the air expansion process, which needs external
+heating to improve the power quality of the turbine [60].
+Salt caverns and depleted oil and natural gas fields are by far the cheapest storage
+space for compressed air storage, but suitable storage caverns are unevenly distributed
+around Europe [60,64]. In Europe, eligible onshore salt caverns are located in northern
+and central Germany, Poland, parts of the UK, Denmark, eastern and northern parts of the
+Netherlands, northeast Spain, eastern France, western Portugal, central Romania, northeast
+Ukraine, eastern Bosnia and Herzegovina, western Greece and central Albania [64].
+4.2.3. Batteries
+Batteries are excellent for short-term residential energy storage, due to their short
+reaction time and high discharge rate. The residential energy storage systems market has
+also surged as a result of enhancements in residential solar PV regulations, subsidies and
+tax incentives as well as rapid price reductions for battery technologies [65]. Residential
+energy storage system shipments are, hence, expected to grow with a CAGR of 30% during
+the coming years [65].
+Li-ion batteries are expected to lead the residential energy storage market in the
+future, due to their high efficiency and the declining cost of lithium [65,66]. In 2018,
+Li-ion batteries accounted for 49.3% of the residential energy storage market, followed by
+lead-acid batteries, with 40.7%.
+The Li-ion battery market has grown rapidly during recent years as a consequence
+of the increase in electrical vehicle manufacturing [67]. There has also been a significant increase in the market for Li-ion batteries in residential energy storage applications.
+The market of residential Li-ion batteries is expected to continue to grow at a CAGR of
+33.2% [65]. Large-scale production facilities and significant investments in R&D also drove
+the Li-ion battery price down from 1000 USD/kWh in 2010 to 254 USD/kWh in 2017.
+The price is expected to reach 100 USD/kWh by 2025, if not sooner [65].
+Lead-acid batteries are also popular on the residential energy storage market. These batteries are cheaper than Li-ion batteries, but their performance is not as good [65]. The market for lead-acid batteries in residential energy storage applications is also expected to
+grow significantly in the near future [65].
+Both Li-ion and lead-acid batteries degrade over time. The degradation is additionally accelerated by chemical side reactions caused by the environmental and functional
+conditions [68]. The more the battery is charged and discharged, the shorter the lifespan is.
+Today, the average lifespan of Li-ion and lead-acid batteries is 5–20 years [60].
+As mentioned earlier, batteries are electrochemical devices that degrade over time,
+partly because of the functional conditions. High and low temperatures are driving factors
+that accelerate the degradation of Li-ion batteries [68,69]. Li-ion battery operation is
+
+Buildings 2021, 11, 19
+
+15 of 30
+
+also negatively affected by low temperatures. Battery capacity is significantly lower for
+sub-zero operating temperatures [69]. In cold conditions, it is possible to partly heat the
+batteries with internally generated heat, but at temperatures as cold as −20 ◦ C, internally
+generated heat is not enough to maintain the operating temperature at a sufficient level [70].
+Temperature-related problems can, however, be overcome by installing auxiliary cooling
+and heating units.
+4.2.4. Thermal Energy Storage
+Thermal energy can be stored in three forms: latent energy, chemical energy and
+sensible energy [71,72]. Latent thermal energy storage (TES) uses phase change materials to
+store thermal energy, while chemical TES stores thermal energy through chemical reactions.
+Sensible TES stores thermal energy by varying the temperature of the storage medium.
+Of these three TES methods, sensible TES is the most developed and cost-effective method.
+Sensible TES can be used in both short-term and long-term storage applications. Longterm or seasonal sensible TES systems are typically placed underground and use liquids,
+usually water, and solids, e.g., soil or rock, as storage media. The most common seasonal
+sensible TES systems are hot water tank storage, water–gravel pit storage and borehole
+TES.
+Seasonal sensible TES combined with solar heat collectors has become a popular
+method for storing “green” heat. This technology is widely used in Germany, especially on
+a district level, to provide heat for space heating and domestic hot water preparation [73].
+In Germany, central solar heating plants with integrated seasonal sensible TES can reduce
+the district heating fossil fuel demand by more than 50%.
+The main concern with seasonal sensible TES today is heat losses [71]. The heat
+losses are determined by the temperature gradient, storage volume and storage medium.
+Low heat losses are, hence, accomplished by minimizing the temperature difference between the storage medium and the surroundings, maximizing the storage volume and
+using a storage medium with a high specific heat capacity. Short-term TES systems are
+usually not affected by heat losses and can therefore operate at high temperatures and
+with relatively low storage volumes. Seasonal TES systems, on the other hand, are more
+exposed to heat losses and therefore usually operate at low temperatures. These types of
+TES systems need auxiliary heating systems such as preheaters or heat pumps to increase
+the temperature of the stored thermal energy before so that it can be used for space heating
+and domestic hot water [71].
+According to cost data for sensible TES systems in Germany, there is a strong decrease
+in investment costs per storage capacity with increasing storage volume [73]. Despite the
+strong volume dependency, sensible TES installation costs are relatively low compared to
+electricity storage. The cost range for sensible TES storage is 0.1–10 USD/kWh [72].
+Thermal Energy Storage Potential in Different EU Regions
+Sensible TES systems, especially for seasonal storage applications, are negatively
+affected by low ambient temperatures. Low ambient temperatures entail greater heat losses
+from the TES to the surroundings. Particularly, regions with sub-zero-degree temperatures
+might cause problems for sensible TES systems that use water as the storage medium [71].
+Borehole TES systems are extremely sensitive to the underground conditions of the
+site. The thermal conductivity and the heat capacity of the soil as well as the ground water
+level and flow affect the performance of borehole TES systems, and the stress distribution
+within a geologic medium might also affect the drilling [71,74,75]. These soil and ground
+water properties are highly dependent on the geographical location of the storage site.
+4.3. Energy Demand in Different EU Regions
+The energy demand of household consumers in Europe is highly dependent on
+climatic conditions [76]. An analysis by Tzeiranaki et al. (2019) shows a strong positive
+correlation between heating degree days and household energy consumption [76]. It is,
+
+Buildings 2021, 11, 19
+
+16 of 30
+
+however, hard to show the direct impact of climatic conditions on total household energy
+consumption, as the energy consumption is also affected by other regional factors, e.g.,
+building regulations, consumer behaviour, economic conditions and population density.
+The U-value requirement, i.e., the highest allowable coefficient of heat transfer to the
+surroundings, is an essential part of the building regulations that affect the heating demand
+of buildings in a particular region. The U-value requirements define the maximum allowed
+heat loss rate of a building. Table 6 shows the U-value regulations of Helsinki, Amsterdam,
+Rome and Berlin.
+Table 6. U-value requirements for new buildings in Helsinki, Amsterdam, Berlin and Rome [77].
+U-Value Requirements (W/m2 K)
+
+City
+Helsinki
+Amsterdam
+Berlin
+Rome
+
+Walls
+
+Roof
+
+Floor
+
+0.25
+0.37
+0.30–0.38
+0.50
+
+0.16
+0.37
+0.24–0.30
+0.46
+
+0.25
+0.37
+0.30–0.45
+0.46
+
+Energy consumption behaviour is also an essential factor that affects the energy
+demand of a region. Consumption behaviour can be divided into several categories
+or sectors, such as household, transport, industry and commercial and public services.
+The total household energy consumption of Finland, the Netherlands, Germany and Italy
+is depicted in Figure 8. It can be observed that Finland, which is the northernmost of the
+Buildings 2021, 11, x FOR PEER REVIEWselected countries, has the highest annual energy consumption. The latitude of the
+17 region
+of 31
+is, however, not the only factor that affects energy consumption. The fact that energy
+consumption in the Netherlands is lower than in Italy supports this statement.
+1200
+
+kg oil equivalent
+
+1000
+800
+600
+400
+200
+0
+Finland
+
+Netherlands
+
+Germany
+
+Space heating
+
+Space cooling
+
+Water heating
+
+Cooking
+
+Lighting and appliances
+
+Other
+
+Italy
+
+Figure 8. Total household energy consumption per capita, 2017 [78,79].
+Figure 8. Total household energy consumption per capita, 2017 [78,79].
+
+Countries with high GDPs tend to consume more energy than countries with low
+Countries
+with high
+GDPs tend to consume
+more
+energy
+countries
+low
+GDPs.
+According
+to Tsemekidi-Tzeiranaki
+et al.
+(2018),
+the than
+countries
+with with
+the highest
+GDPs.
+According
+to Tsemekidi-Tzeiranaki
+et al. (2018),
+thealso
+countries
+with that
+the highest
+en-the
+energy
+consumption
+per capita in the residential
+sector
+have GDPs
+are above
+ergy
+consumption
+per[76].
+capita
+the residential
+sector
+have GDPs
+that arethe
+above
+the
+European
+average
+Theinsame
+trend can also
+bealso
+observed
+by studying
+European
+European
+average
+[76].
+The
+same
+trend
+can
+also
+be
+observed
+by
+studying
+the
+European
+countries with the lowest energy consumption per capita; these countries have GDPs that
+countries
+with
+theaverage.
+lowest energy consumption per capita; these countries have GDPs that
+are lower
+than
+are lower
+than
+average.
+The transport sector is currently in a transition phase, since petrol and diesel cars
+transport
+is currently
+in ahybrid
+transition
+phase, since
+petrolcars.
+and This
+diesel
+cars are is
+areThe
+slowly
+beingsector
+replaced
+by plug-in
+and battery
+electricity
+transition
+slowly
+being replaced
+by plug-in
+and battery
+electricity
+cars.
+This
+imimportant
+to take into
+accounthybrid
+in the PED
+planning
+phase, so
+that
+thetransition
+electricityissupply
+portant to take into account in the PED planning phase, so that the electricity supply and
+infrastructure are sufficient to satisfy the future power demand of EVs. Figures 9 and 10
+show the EV situation in Finland, the Netherlands, Germany and Italy in 2018. The Netherlands is clearly a few steps ahead in the transition process since its share of EVs is sig-
+
+Share of passenger cars
+
+Buildings 2021, 11, 19
+
+ergy consumption per capita in the residential sector also have GDPs that are above the
+European average [76]. The same trend can also be observed by studying the European
+countries with the lowest energy consumption per capita; these countries have GDPs that
+are lower than average.
+The transport sector is currently in a transition phase, since petrol and diesel cars 17
+areof 30
+slowly being replaced by plug-in hybrid and battery electricity cars. This transition is important to take into account in the PED planning phase, so that the electricity supply and
+infrastructure are sufficient to satisfy the future power demand of EVs. Figures 9 and 10
+and infrastructure are sufficient to satisfy the future power demand of EVs. Figures 9
+show the EV situation in Finland, the Netherlands, Germany and Italy in 2018. The Nethand 10 show the EV situation in Finland, the Netherlands, Germany and Italy in 2018.
+erlands is clearly a few steps ahead in the transition process since its share of EVs is sigThe Netherlands is clearly a few steps ahead in the transition process since its share of EVs
+nificantly
+higher than
+in other
+EUother
+countries.
+is significantly
+higher
+than in
+EU countries.
+1.8 %
+1.6 %
+1.4 %
+1.2 %
+1.0 %
+0.8 %
+0.6 %
+0.4 %
+0.2 %
+0.0 %
+Finland
+
+Buildings 2021, 11, x FOR PEER REVIEW
+
+Netherlands
+Battery electric
+
+Germany
+
+Italy
+
+EU
+18 of 31
+
+Plug-in hybrid
+
+Share of buses
+
+Figure 9. Battery electric and plug-in hybrid personal cars in use, 2018 [80].
+Figure 9. Battery electric and plug-in hybrid personal cars in use, 2018 [80].
+
+4.5 %
+4.0 %
+3.5 %
+3.0 %
+2.5 %
+2.0 %
+1.5 %
+1.0 %
+0.5 %
+0.0 %
+Finland
+
+Netherlands
+
+Germany
+
+Italy
+
+EU
+
+Battery electric and plug in hybrid
+Figure 10. Battery electric and plug-in hybrid buses in use, 2018 [80].
+Figure 10. Battery electric and plug-in hybrid buses in use, 2018 [80].
+
+The population density affects the area-specific energy demand, which is a highly
+The population
+affects the integration
+area-specific
+energy of
+demand,
+which
+is a highly
+relevant
+parameterdensity
+in the renewable
+planning
+the PED.
+Renewable
+energy
+relevant
+parameter
+in the renewable
+integration
+planning
+of thetend
+PED.
+energy
+integration
+and achieving
+a positive
+annual energy
+balance
+toRenewable
+become significantly
+integration
+and achieving
+a positive
+energy balance
+tenddemand.
+to become significantly
+more complicated
+in districts
+withannual
+a high area-specific
+energy
+more complicated in districts with a high area-specific energy demand.
+4.4. Electricity Prices in Different EU Regions
+4.4. Electricity
+Prices in Different
+EUisRegions
+The profitability
+of PEDs
+highly dependent on the electricity prices of the region.
+The
+spotofprices
+mainlydependent
+influencedonby
+two
+types ofprices
+factors:
+demand
+side
+Theelectricity
+profitability
+PEDs are
+is highly
+the
+electricity
+of the
+region.
+factors
+and
+supply
+side
+factors.
+Examples
+of
+demand
+side
+factors
+are
+industrial
+activity
+The electricity spot prices are mainly influenced by two types of factors: demand side
+and and
+cooling
+and side
+heating
+demand
+peaksof[81].
+Industrial
+activityare
+is highly
+dependent
+factors
+supply
+factors.
+Examples
+demand
+side factors
+industrial
+activity on
+the
+industry
+sector
+as
+well
+as
+global
+markets.
+Changes
+in
+the
+global
+market
+can
+have
+and cooling and heating demand peaks [81]. Industrial activity is highly dependent on
+the an
+impact
+on
+the
+electricity
+prices
+in
+the
+whole
+EU,
+but
+they
+can
+also
+only
+affect
+certain
+regions.
+industry sector as well as global markets. Changes in the global market can have an impact
+and cooling
+peaks,EU,
+on but
+the other
+hand,
+usually
+only affect
+theregions.
+electricity
+on Heating
+the electricity
+prices demand
+in the whole
+they can
+also
+only affect
+certain
+prices
+on
+a
+regional
+level.
+Heating and cooling demand peaks, on the other hand, usually only affect the electricity
+Typical
+electricity
+prices on
+a regional
+level. price supply side factors are the prices of fuels used in power
+plants
+and
+carbon
+prices. side
+These
+factors
+arethe
+sensitive
+to fuels
+changes
+in in
+thepower
+political
+Typical electricitydioxide
+price supply
+factors
+are
+prices of
+used
+landscape
+and
+the
+economic
+situation
+in
+the
+world
+[81].
+The
+impact
+of
+different
+supply
+plants and carbon dioxide prices. These factors are sensitive to changes in the politicalside
+factors varies
+within
+the EUsituation
+since different
+haveThe
+different
+energy
+generation
+mixes.
+landscape
+and the
+economic
+in the regions
+world [81].
+impact
+of different
+supply
+Germany
+is,
+for
+instance,
+more
+sensitive
+to
+variations
+in
+natural
+gas
+prices
+than
+Finland,
+side factors varies within the EU since different regions have different energy generation
+as natural gas represents 14% of the German energy mix, while only 6% of the Finnish
+mixes. Germany is, for instance, more sensitive to variations in natural gas prices than
+Finland, as natural gas represents 14% of the German energy mix, while only 6% of the
+Finnish energy generation mix is covered by natural gas [31]. As the share of renewable
+energy grows throughout the EU, the renewable environment becomes an increasingly
+important electricity price supply side factor. Parts of the European energy market have
+
+Buildings 2021, 11, 19
+
+18 of 30
+
+energy generation mix is covered by natural gas [31]. As the share of renewable energy
+grows throughout the EU, the renewable environment becomes an increasingly important
+electricity price supply side factor. Parts of the European energy market have always been
+highly dependent on annual precipitation, which affects the supply of hydropower [82].
+Now, variations in solar radiation and wind speed are also starting to show in the electricity
+spot prices. In the third quarter of 2019, renewable energy reached 33%, which is the highest
+for a third quarter to date [83].
+According to Helistö et al. (2017), an increased share of intermittent energy, such as
+wind power and solar PV, could lead to longer periods of low electricity prices, which would
+entail a lower average electricity cost [83]. The electricity price range would, however,
+not change since periods of low intermittent energy generation would still be covered by
+fuel-powered power plants and hydropower.
+The electricity spot price is not the only electricity cost that the final consumers
+stand for. The grid tax and other levies represent a substantial part of the net electricity
+cost. These taxes and levies vary from country to country, and they are also different for
+household and non-household consumers. In the EU, Germany has the highest total cost of
+electricity (including the spot price, taxes and levies) for household consumers. The average
+total cost of electricity for household consumers in Germany was 0.3088 EUR/kWh in 2019.
+The corresponding cost for Latvia, the EU country with the lowest household electricity
+costs, was 0.1629 EUR/kWh. The average electricity prices, with and without taxes and
+levies, of Finland, the Netherlands, Germany and Italy are presented in Table 7.
+Table 7. Energy prices for household and non-household consumers, 2019 [84,85].
+Electricity Price 2019 (EUR/kWh)
+Country
+
+Finland
+Netherlands
+Germany
+Italy
+
+Household Consumers
+
+Non-Household Consumers
+
+Excluding Taxes
+and Levies
+
+Including Taxes
+and Levies
+
+Excluding Taxes
+and Levies
+
+Including Taxes
+and Levies
+
+0.1173
+0.1357
+0.1473
+0.1432
+
+0.1734
+0.2052
+0.3088
+0.2301
+
+0.0639
+0.0679
+0.0855
+0.0952
+
+0.0880
+0.1138
+0.1958
+0.1913
+
+5. Results and Discussion
+5.1. Renewable Energy Generation Methods for PEDs
+As noted in Section 4, the energy generation potential of renewable energy technologies varies between different regions within the EU. A renewable energy technology that
+excels in one region might be impossible to implement in another region. The geographical
+location and its properties must therefore be taken into account when planning a PED.
+Solar PV is a good example of an energy technology that is highly dependent on the
+geographical location. In northern Europe, where there are only a few hours of daylight
+in the winter season, solar PV generation is significantly lower than in southern Europe.
+Hence, the capital costs per kWh of generated solar power are significantly higher in the
+Nordic countries compared to the Mediterranean region. The situation is similar for wind
+power, which is naturally more remunerative in windy areas, such as the regions close to
+the northern Atlantic Ocean, the Baltic Sea and parts of the Mediterranean Sea.
+Different renewable energy technologies also have different properties when it comes
+to flexibility, cost and service life [32]. Intermittent renewable energy generation technologies, such as solar and wind energy, are considered non-flexible energy sources, as they can
+only generate energy when the wind speed and solar radiation are sufficient. Run-of-river
+hydropower is more flexible than solar and wind energy, but not as flexible as reservoir
+hydropower and bioenergy.
+The installation costs, costs of electricity and service lives of different renewable energy
+technologies are presented in Table A1 in the Appendix A. However, the installation cost is
+
+Buildings 2021, 11, 19
+
+19 of 30
+
+dependent on the size and location of the installation, and the cost of electricity is highly
+dependent on the geographic location [32]. Hence, the costs in the table are given as global
+weighted averages.
+The diversification of intermittent renewable energy technologies is a great way to
+increase the demand coverage and reduce life cycle costs [86,87]. Intermittent renewable
+energy technologies, such as wind and solar energy, are often able to compensate each
+other, as windy and sunny periods are not synchronized. As the energy export price is
+often lower than the energy import price for small-scale energy producers [88], it might
+be beneficial for a PED to minimize the external grid interaction. By diversifying the
+intermittent renewable energy generation, it would be possible to achieve a positive annual
+energy balance with a lower export rate [89].
+According to a study by Heide et al. (2010), wind power is, in general, more beneficial
+in Europe from a load-matching perspective since both the wind power generation and the
+energy demand are higher during the winter than during the summer [86]. Solar energy
+generation, on the other hand, is the highest during the summer months. Thus, from a
+load-matching point of view, a larger share of the PED energy generation mix should be
+covered by wind energy in most of Europe. This is, however, not that simple, as installing
+wind turbines in populated areas is complicated and solar energy is, on a global level,
+a more cost-effective energy generation method [32].
+In most districts, especially in densely populated areas, space is also an issue. Renewable energy systems must thus be integrated in a smart way, so that energy generation does
+not conflict with other functions that are essential for the district. Solar power integration
+in urban districts is convenient since solar PVs, CSPs and solar heat collectors can be
+installed on rooftops and various available surfaces within districts. Solar PV panels can
+also be integrated into building façades. So-called building-integrated photovoltaics (BIPV)
+can be integrated in stable and heavy structural elements as well as in lightweight and
+transparent structural elements [90]. According to a study by Fath et al. (2015), building
+façades provide almost three times the area of roofs in a 2 km2 urban area in Karlsruhe,
+Germany [91]. However, due to their angles and positions, they receive only 41% of the
+total solar irradiation. Hence, solar PV panels on roofs should be prioritized in PEDs,
+while façade solar PV panels can be considered if the solar radiation on a particular façade
+is sufficient. Overall, city-integrated solar PVs have a great potential and can satisfy over
+60% of the electricity demand in some smaller cities in Europe [92,93].
+Wind power integration in urban areas, on the other hand, does have many practicality
+issues and is thus less suitable for on-site energy generation in PEDs. It would be complicated to install large-scale wind turbines due to their size, aesthetics and noise as well as
+low and turbulent urban wind-speed and safety issues [94,95]. Small-scale wind turbines
+could be an option, but their cost per installed kWh is about twice as high as large-scale
+turbines [32,96]. Vertical axis wind turbines (VAWTs) are a popular alternative among
+small-scale wind turbines. These wind turbines are able to handle the higher turbulence
+and varied wind speeds associated with urban environments [94]. Another benefit with
+VAWTs is that the generator can be installed at a lower part of the so-called tower, allowing
+building-mounted turbines to be more easily serviced [94]. The hub height of small-scale
+urban wind turbines is, however, not high enough to access the same wind speeds as
+large-scale wind turbines [97].
+Due to the many shortcomings of wind turbine installations in urban areas, wind power
+is best suited for virtual power plants. The distance between the district and the virtual
+wind power farm could, however, be relatively short and thereby ease the power transmission to the district. Wind farms could, for instance, be installed in nearby rural areas or
+even offshore if the district is in a coastal area.
+Bioenergy and hydropower can be used to provide PEDs with flexible power when the
+intermittent energy generation is lower than the electricity demand [98,99]. These flexible
+power generation methods make the district less dependent on electricity supplied by the
+external grid and thereby foster a positive annual energy balance.
+
+Buildings 2021, 11, 19
+
+20 of 30
+
+Bioenergy plants can be built almost anywhere in Europe, as biomass is relatively
+cheap to transport from biomass-producing regions, such as the Nordic countries, the Baltic
+countries and Austria [50], to other parts of Europe. Bioenergy generation does, however,
+produce emissions, which contradicts the PED’s aim to provide a carbon-free energy
+environment and better life quality in residential areas. Even though bioenergy is carbon
+neutral from a life-cycle perspective (as the carbon dioxide emissions originate from carbon
+dioxide captured from the atmosphere by biomass), this does not change the fact that
+bioenergy plants pollute the air in the district where they operate.
+Hydropower, on the other hand, is extremely dependent on the location of the district
+since hydropower can only be generated in regions that satisfy the requirements described
+in Section 4.1.3. Most of the potential hydropower sites in Europe are already in use or
+unattainable due to regulations and environmental protection [100]. Hence, hydropower is
+best suited for a virtual power plant for virtual PEDs, where the district boundaries are
+virtual instead of geographic. According to Graabak et al. (2019), a 2050 Central-West
+European grid with large shares of intermittent renewable energy could benefit from using
+Norwegian hydropower as flexible energy for grid balancing [98].
+Heat pumps are expected to provide a significant share of future heating [101]. Due to
+the flexibility and high coefficient of performance (COP) of modern heat pumps [101],
+they could be a highly valued source for heating in future PEDs. Due to the relatively large
+operating temperature interval, heat pumps can be used to recover low temperature heat
+from the ground and the ambient air as well as low temperature waste heat from sewage
+systems, ventilation air and other waste heat flows. Heat pumps are thus able to increase
+the total energy efficiency of PEDs and minimize the import of externally generated thermal
+energy. Moreover, heat pumps provide additional flexibility to PEDs, as they can be used
+to transform electrical energy into heat that can be stored in TESs [88]. It is thereby possible
+to reach a higher utilization rate for electricity generated by on-site intermittent renewable
+energy technologies.
+5.2. Energy Storage Methods for PEDs
+Energy storage enables PEDs to store excess energy instead of exporting it. Hence,
+energy storage can be used to increase the on-site utilization of intermittent energy sources,
+such as solar and wind. This is particularly important for self-sufficient PEDs, so-called
+autonomous PEDs, as they are not allowed to import energy from the external grid. For dynamic PEDs, energy storage is not as crucial since they allow bidirectional interaction
+between the district and its surroundings, and can thereby use the external grid to balance
+the energy demand during periods of low on-site energy generation.
+Table A2 in the Appendix A presents the installation costs, energy densities, lifetimes
+and round-trip efficiencies of different energy storage technologies that can be utilized in
+PEDs. Based on this table, the most cost-effective energy storage methods are pumped
+hydro and compressed air energy storage. As explained earlier in the paper, these energy
+storage methods are extremely dependent on the geographical characteristics of the site,
+and hence, they are not possible to implement anywhere [61]. Another issue with these
+storage methods is their low energy density, which makes it difficult to install them in
+densely populated districts [61].
+Pumped hydro and compressed air energy storage do, however, have great potential
+as virtual energy storage. A virtual PED with a periodical intermittent energy surplus and
+shortage could, for example, interact with virtual storage located far from the geographical
+location of the district itself. Similar energy management strategies have, for instance,
+been implemented between Denmark and Norway, where excess Danish wind power is
+stored in pumped hydro storage in Norway [102]. This collaboration between nations is
+possible due to the high level of wind power generation in Denmark (>20% of the annual
+electricity generation) and the enormous pumped hydro storage potential in the mountains
+of Norway.
+
+Buildings 2021, 11, 19
+
+21 of 30
+
+Batteries, on the other hand, are not so reliant on the geographical site of the PED,
+but they are considerably more expensive than pumped hydro storage and compressed air
+storage [60]. It is therefore often more cost-effective for dynamic PEDs to interact with the
+electricity grid than to use batteries [26]. The combination of decreasing battery prices and
+an increasing share of intermittent energy in the electricity grid could, however, open up
+more opportunities for batteries in the future.
+Even if pumped hydro and compressed air energy storage would be an available
+option for autonomous PEDs, it could be beneficial to also install a battery for short-term
+energy storage. Batteries have a significantly shorter reaction time and can thereby add
+more flexibility to the energy system of the district and increase the utilization of on-site
+intermittent renewable energy [103].
+Compared to electricity storage systems, TES systems are relatively cheap to install [72].
+Sensible heat storage in the form of hot/warm water tanks is, by far, the most common
+TES method for heating and domestic hot water applications [104]. Short-term energy
+storage can be implemented at the building level without causing significant heat losses.
+The storage temperatures of these forms of storage are usually kept at 55–60 ◦ C in order to
+avoid bacterial growth [104].
+When heat is stored for longer periods, heat losses become an issue. As heat losses
+can be minimized by increasing the water volume and lowering the storage temperature,
+it might be beneficial to implement centralized low-temperature systems for long-term or
+seasonal TES [71]. The temperature of these TESs can be increased by utilizing heat pumps.
+5.3. Possibility of Implementing Virtual Power Plants in PEDs
+Virtual PEDs allow renewable energy systems to be installed outside the geographical
+boundaries of the district. Renewable energy generation systems that cannot be installed
+within the geographical boundaries of a PED can be implemented as so-called virtual
+power plants (VPPs). According to Next Kraftewerke, the operator of one of Europe’s
+largest VPPs [105], a VPP is “a network of decentralized, medium-scale power-generating
+units such as wind farms, solar parks, and Combined Heat and Power (CHP) units, as well
+as flexible power consumers and storage systems” [106]. The power generated by the
+interconnected units is distributed by a centralized control system to the energy consumers.
+Nevertheless, the power-generating units remain independent in their operation and
+ownership [106].
+The type and size of on-site renewable energy systems and energy storage systems are
+often restricted by regulations as well as limited and unsuitable conditions. By utilizing
+the VPP concept, a PED could own and operate renewable energy systems and energy
+storage outside its geographical boundaries, which would enable the PED to access a
+greater geographical area and more suitable conditions for renewable energy generation
+and energy storage. The utilization of VPPs could also be implemented through agreements
+with other energy market actors instead of the ownership of the renewable energy systems
+and energy storage [107].
+VPPs could benefit PEDs in several ways. They can enable the PED to utilize a larger
+variety of renewable energy systems as well as long-term low-cost energy storage with low
+energy densities, and thereby increase the flexibility of the PED. According to a study by
+Vasirani et al. (2013), a combination of wind and electric vehicle energy storage in a VPP
+could also have a synergetic impact from an economic point of view [108].
+5.4. District Heating/Cooling and Electricity Networks
+Due to the surge in heat pump installations during the last decade, electricity grids and
+district heating and cooling networks are becoming more and more interconnected [101,109].
+Thanks to heat pumps, energy systems can reach a higher degree of flexibility, as energy
+can be converted from electricity to heat with high COPs.
+The reduction of fossil fuel CHP plants in the energy generation mix would require
+a more sophisticated district heating network that is better suited for decentralized heat-
+
+Buildings 2021, 11, 19
+
+22 of 30
+
+ing. This field has recently received increased attention from researchers, and hence, the
+properties of the next generation, i.e., the fourth generation, of district heating and cooling
+networks have been investigated and discussed in several research papers [110–113].
+The fourth generation district heating (4GDH) network will be an integrated part of
+smart energy systems and thus able to interact with other components, such as heat pumps,
+solar heat collectors and TESs [110]. Hence, the 4GDH networks rely on the optimized distribution, consumption and interaction between renewable energy sources [112]. Another key
+objective of the 4GDH network is to enable heat recovery from low-temperature sources
+and to decrease the temperature of both the supply and return district heating water [110].
+The low temperature of the district heating network district also benefits heat pumps,
+as their efficiency is higher for lower output temperatures [101].
+District cooling solutions are also a relatively new technology, and they are not as
+widely used as traditional district heating [101], but they can be implemented with the
+same operating principles as the 4GDH networks [110]. District cooling is usually supplied
+by natural cold resources, absorption chillers, mechanical chillers and cold storage [114].
+During periods when heating and cooling demands are occurring simultaneously, synergies
+between the district cooling and heating networks can be utilized by using heat pumps to
+produce cold and warm water at the same time [114].
+Both 4GDH and district cooling can be implemented as local networks (to which
+all energy consumers and producers are connected) in the PED with connections to the
+external district heating and cooling networks. This way, PEDs can balance their internal
+heating and cooling demands before exporting or importing energy from the external
+network. The same principles can also be applied to the electricity grid in the district.
+In order to streamline the utilization of such local energy networks, centralized control
+systems can be implemented. A centralized control system can optimize the energy flows
+between energy consumers, producers and storage in the PED so that the economic benefit
+of the PED is maximized.
+Connections to the district heating/cooling network and electricity grid are an essential part of the PED concept, as one of the main targets of a PED is to interact with
+other PEDs and provide renewable energy to other parts of the metropolitan area. Hence,
+the energy transfer connections in and out of the district must be carefully planned and
+designed based on the purpose and capacity of the PED energy system.
+5.5. Construction of PED Networks
+Cities can be very different when it comes to size, population, population density,
+economic situation, public transportation, etc., and consequently, there are also significant
+differences in energy consumption. Cities in cold and hot climates consume a large amount
+of energy for heating and cooling, respectively [94]. Industrial cities also also consume
+more energy; however, they usually have a greater potential for district heating [94].
+Even within the same city, there can be considerable variations in energy consumption
+between different districts [94]. According to a study by Jones and Kammen (2011), there is
+a clear correlation between income and household energy consumption [115]. Additionally,
+the energy consumption per household of big American metropolitan areas is usually
+higher in the suburbs than in the urban cores, due to longer driving distances and bigger
+homes [116]. All in all, there are numerous factors that affect the energy usage of cities and
+districts within cities, and therefore, it is impossible to develop specific PED construction
+guidelines that can be applied to every district in every city.
+The high population density of urban cores complicates the installation of renewable
+energy systems. The population density does, however, usually decrease as the distance
+to the city centre grows, and therefore, it is easier to install renewable energy systems
+in the suburbs, where there is more space in relation to the number of residents. Hence,
+we propose an onion model for PED networks, where most of the PEDs are constructed
+in the outer-most layers, i.e., the districts furthest away from the city centre. These outerlayer PEDs produce more renewable energy than they consume and can thereby export
+
+Buildings 2021, 11, 19
+
+23 of 30
+
+excess renewable energy to the inner layers of the city. This way, networks of PEDs can
+of 31
+increase the renewable energy share of the city centre and the self-sufficiency of the 24
+whole
+metropolitan area. A visual explanation of the onion model is depicted in Figure 11.
+
+Buildings 2021, 11, x FOR PEER REVIEW
+
+Figure 11.
+11. Different
+Different PEDs
+PEDs implemented
+implemented in
+in the
+the onion
+onion model.
+model.
+Figure
+
+There is
+is aa strong
+strong correlation
+correlation between
+between the
+the share
+share of
+of aa country’s
+country’s population
+population that
+that lives
+lives in
+in
+There
+urban
+areas
+and
+CO
+emissions
+[117].
+Air
+quality
+might
+thus
+become
+an
+increasing
+problem
+urban areas and CO22 emissions [117]. Air quality might thus become an increasing probas global urbanization continues and metropolitan areas around the world grow [117].
+lem as global urbanization continues and metropolitan areas around the world grow
+By ensuring that the cities are surrounded by PEDs, the amount of polluting fossil fuel
+[117]. By ensuring that the cities are surrounded by PEDs, the amount of polluting fossil
+power plants can be reduced in the region. This way, PEDs can improve the air quality of
+fuel power plants can be reduced in the region. This way, PEDs can improve the air qualdensely populated areas and contribute to decelerating climate change.
+ity of densely populated areas and contribute to decelerating climate change.
+5.6. Regulative Aspects
+5.6. Regulative Aspects
+The EU has, in several ways, highlighted the importance of preventing climate change
+The EU
+has, in This
+several
+ways,
+highlighted
+importance
+preventing
+climate
+and global
+warming.
+is also
+noticeable
+from athe
+legislative
+point of
+of view.
+The European
+change
+and global
+warming.
+is also Commission
+noticeable from
+a legislative2019,
+pointaims
+of view.
+The
+Green Deal,
+initiated
+by the This
+European
+in December
+to tackle
+European
+Green
+Deal,
+initiated
+by
+the
+European
+Commission
+in
+December
+2019,
+aims
+climate- and environment-related challenges [118]. One of the main goals of this deal to
+is
+tackle
+and environment-related
+challenges
+[118]. One
+of the mainby
+goals
+this
+for theclimateEU to become
+climate neutral (no
+net greenhouse
+gas emissions)
+2050of[118].
+deal
+is for the of
+EU
+become climate
+neutral
+(no net
+gasstated
+emissions)
+by 2050
+The President
+thetoEuropean
+Commission
+Ursula
+vongreenhouse
+der Leyen has
+the importance
+[118].
+The
+President
+of
+the
+European
+Commission
+Ursula
+von
+der
+Leyen
+has
+stated
+the
+of this deal, by calling it the EU’s “new growth strategy” [118].
+importance
+of this
+byPED
+calling
+it theisEU’s
+“new
+growth
+strategy”
+[118].Deal, the enorSince the
+goaldeal,
+of the
+concept
+in line
+with
+the aim
+of the Green
+Since
+theongoal
+themight
+PED concept
+is indevelopment
+line with the and
+aim of
+the Green Deal,
+the in
+enormous
+focus
+the of
+deal
+benefit the
+construction
+of PEDs
+the
+mous
+theactions,
+development
+construction wave’
+of PEDs
+in the
+future.focus
+Someon
+ofthe
+the deal
+EU’smight
+Greenbenefit
+Deal key
+such as and
+the “‘Renovation
+initiative
+future.
+of the
+EU’s Green
+Deal key actions,
+such National
+as the “‘Renovation
+initiative
+for the Some
+building
+sector”,
+the “Assessment
+of the final
+Energy andwave’
+Climate
+Plans”
+for
+the
+building
+sector”,
+the
+“Assessment
+of
+the
+final
+National
+Energy
+and
+Climate
+Plans”
+and the “Zero pollution action plan for water, air and soil”, are directly enhancing
+the
+and
+the “Zero for
+pollution
+action plan
+for water,
+preconditions
+the application
+of PEDs
+[119]. air and soil”, are directly enhancing the
+preconditions
+the application
+of PEDs [119].
+The Cleanfor
+Energy
+Package proposed
+by the European Commission in 2016 is also a
+The Clean Energy
+proposed
+by the European
+in 2016
+is also a
+ground-breaking
+act forPackage
+PEDs and
+other small-scale
+energy Commission
+producers since
+it recognizes,
+ground-breaking
+act forEU
+PEDs
+and
+small-scale
+energyand
+producers
+it recognizes,
+for the first time under
+law,
+theother
+rights
+of communities
+citizenssince
+to engage
+directly
+for
+timesector
+under[120].
+EU law,
+rightsof
+of this,
+communities
+andenergy
+citizens
+to engage
+in the first
+energy
+Asthe
+a result
+renewable
+and
+energy directly
+storage
+could
+be shared
+within
+communities,
+using
+electricity
+[120,121].
+The energy
+in
+the energy
+sector
+[120].
+As a result of
+this,internal
+renewable
+energygrids
+and energy
+storage
+could
+be shared within communities, using internal electricity grids [120,121]. The energy community and its shareholders cannot, however, be engaged in large-scale commercial activity in the energy sector.
+The legislative features of energy communities might benefit the PEDs since they reduce the economic friction between renewable energy producers and consumers within
+
+Buildings 2021, 11, 19
+
+24 of 30
+
+community and its shareholders cannot, however, be engaged in large-scale commercial
+activity in the energy sector.
+The legislative features of energy communities might benefit the PEDs since they
+reduce the economic friction between renewable energy producers and consumers within
+the community. Regulations might, however, prohibit PEDs defined as energy communities
+from exporting energy to the external electricity grid and district heating network, as energy
+communities are not allowed to engage in commercial energy trading.
+6. Conclusions
+A general survey of the renewable energy market circumstances in different parts of
+Europe is provided to form a conception of the potential for implementing PEDs in the EU.
+The capitals of four different EU countries, representing four EU regions, were examined
+with extra care to highlight the variation in the renewable energy environment within the
+EU. Based on this survey, it can be concluded that the techno-economic potential of different
+renewable energy and energy storage technologies varies between different EU countries
+and cities. The economic viability of wind power is, for instance, greater in regions close
+to the Northern Atlantic than in the heart of Central Europe. Other factors that affect the
+renewable energy market circumstances of a region are the energy consumption behaviour
+and the electricity prices. High energy prices and suitable energy demand profiles might
+enhance the implementation of renewable energy systems and PEDs.
+Three different PED definitions are presented in the paper: autonomous PED, dynamic
+PED and virtual PED. The difference between the definitions is their ability to interact with
+energy networks, consumers and producers outside the geographical boundaries of the
+PED. These PED definitions serve as the foundation of the PED concept in this paper.
+An analysis was conducted to further investigate the available technologies and
+concepts that can be used for PEDs and networks of PEDs. Here, it was found that not all
+available renewable energy and energy storage technologies are suitable for all types of
+PEDs. Due to the high population density of modern European cities, some technologies
+are only possible to implement as VPPs for virtual PEDs. These VPPs are renewable
+energy generation and energy storage systems that are installed outside the geographical
+boundaries of the district. Examples of technologies that are best suited as VPPs are wind
+power and hydropower as well as large-scale energy storages, such as pumped hydro
+and CAES. Solar PV and batteries, on the other hand, are more suitable for an urban
+environment and are thus possible to install in all types of PEDs.
+As a part of the analysis, the authors also proposed a unique onion model for constructing PED networks. According to this model, the majority of the PEDs are placed in
+the outskirts of the city, and the excess energy generated from these PEDs is exported to
+the more central areas in the city, where the renewable energy installations are not able to
+fulfil the energy demand. This way, it would be possible to increase the renewable energy
+share of the whole city.
+In a regulation analysis, we found that there are several regulations and policies that
+benefit the implementation of PEDs throughout the EU. The European Green Deal and
+the Clean Energy Package are examples of EU initiatives that are in line with the targets
+of the PED. The Clean Energy Package has contributed to one of the most significant
+legislative advancements in favour of the PED concept, as the package recognizes the rights
+of communities and citizens to engage directly in the energy sector.
+The PED definition is still in a conceptualization phase, and further research is therefore needed in order to initiate a discussion on a societal level. More studies on the
+technological and economic viability of the PED are required, as well as comparative studies with other renewable energy solutions. A comparison between centralized large-scale
+renewable energy systems and PED-like distributed renewable energy systems would
+be a particularly interesting research topic. Another topic that would need to be further
+investigated is the resilience of PEDs and how PEDs are able to handle various types of
+failures in the local energy system.
+
+Buildings 2021, 11, 19
+
+25 of 30
+
+Author Contributions: Conceptualization, O.L., F.R. and H.u.R.; formal analysis, O.L.; writing—
+original draft preparation, O.L. and H.u.R.; writing—review and editing, O.L.; visualization, O.L.;
+supervision, F.R. All authors have read and agreed to the published version of the manuscript.
+Funding: The research was funded by the European Union’s Horizon 2020 research and innovation
+program LC-SC3-SCC-1-2018-2019-2020-Smart Cities and Communities under the project name
+SPARCS, grant number 864242. The funding body had no involvement in preparing the manuscript,
+methods and results etc.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Data sharing not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Appendix A
+Table A1. Techno-economic properties of different renewable energy technologies [32].
+
+Technology
+
+Geographical Locations with
+High Capacity in the EU
+
+Weighted Average
+Total Installed
+Cost (USD/kW)
+
+Weighted Average
+Cost of Electricity
+(USD/kWh)
+
+Life of
+Investment
+(Years)
+
+Average
+Capacity
+Factor
+
+Solar
+photovoltaics
+
+Southern Europe, particularly the
+Iberian Peninsula and the
+Mediterranean [122]
+
+1210
+
+0.085
+
+25
+
+18%
+
+Concentrating
+solar power
+
+Southern Europe, particularly the
+Iberian Peninsula and the
+Mediterranean [122]
+
+5204
+
+0.185
+
+25
+
+45%
+
+Onshore wind
+power
+
+Along the coast of the Atlantic Sea
+and the Baltic Sea as well as coastal
+areas in Croatia and inland areas in
+France, Germany and Poland [47]
+
+1497
+
+0.056
+
+25
+
+34%
+
+Offshore wind
+power
+
+The Northern Atlantic (especially the
+North Sea), the Baltic Sea, the Gulf of
+Lyon and the Aegean Sea [47]
+
+4353
+
+0.127
+
+25
+
+43%
+
+Hydropower
+
+EU countries with the most
+hydropower per capita [48]:
+- Sweden (6.6 kWh)
+- Austria (4.7 kWh)
+- Finland (2.6 kWh)
+- Slovenia (2.1 kWh)
+- Croatia (1.7 kWh)
+- Latvia (1.5 kWh)
+- Portugal (1.2 kWh)
+
+1491
+
+0.047
+
+30
+
+47%
+
+Geothermal
+energy
+
+Italy [59]
+
+3976
+
+0.07
+
+25
+
+84%
+
+Finland, Sweden, Norway, Estonia,
+Latvia, Austria, Bulgaria, Croatia,
+Slovenia and Slovakia [50]
+
+2105
+
+0.062
+
+20
+
+78%
+
+Biomass power
+plants
+
+Buildings 2021, 11, 19
+
+26 of 30
+
+Table A2. Techno-economic properties of different energy storage technologies [60].
+Technology
+
+Geographical Locations with
+High Capacity in the EU
+
+Installation Cost
+(USD/kWh)
+
+Energy Density
+(kWh/m3 )
+
+Life of Investment
+(years)
+
+Round-Trip
+Efficiency
+
+Pumped hydro
+storage
+
+Austria, France, Italy and
+Spain [61]
+
+5–100
+(avg.: 20)
+
+0–2
+
+30–100
+(avg.: 60)
+
+80%
+
+Compressed
+air storage
+
+Northern and central
+Germany, Poland, parts of the
+UK, Denmark, eastern and
+northern parts of the
+Netherlands, northeast Spain,
+eastern France, western
+Portugal, central Romania,
+eastern Bosnia and
+Herzegovina and western
+Greece [64]
+
+0–85
+(avg.: 50)
+
+2–6
+
+20–100
+(avg.: 50)
+
+60%
+
+Lithium-ion
+batteries
+
+-
+
+200–800
+(avg.: 350)
+
+200–600
+
+5–20
+(avg.: 12)
+
+95%
+
+Lead-acid
+batteries
+
+-
+
+100–500
+
+50–100
+
+5–20
+
+85%
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+10.
+
+11.
+12.
+13.
+14.
+15.
+
+16.
+17.
+18.
+
+D’Agostino, D.; Mazzarella, L. What is a Nearly zero energy building? Overview, implementation and comparison of definitions.
+J. Build. Eng. 2019, 21, 200–212. [CrossRef]
+Jin, Y.; Wang, L.; Xiong, Y.; Cai, H.; Li, Y.H.; Zhang, W.J. Feasibility studies on net zero energy building for climate considering:
+A case of ‘all Green House’ for Datong, Shanxi, China. Energy Build. 2014, 85, 155–164. [CrossRef]
+Wang, L.; Gwilliam, J.; Jones, P. Case study of zero energy house design in UK. Energy Build. 2009, 41, 1215–1222. [CrossRef]
+Wells, L.; Rismanchi, B.; Aye, L. A review of Net Zero Energy Buildings with reflections on the Australian context. Energy Build.
+2018, 158, 616–628. [CrossRef]
+Al-Saeed, Y.; Ahmed, A. Evaluating Design Strategies for Nearly Zero Energy Buildings in the Middle East and North Africa
+Regions. Designs 2018, 2, 35. [CrossRef]
+A Common Definition for Zero Energy Buildings. Available online: https://www.energy.gov/eere/buildings/downloads/
+common-definition-zero-energy-buildings (accessed on 6 April 2020).
+European Parliament. Directive 2010/31/EU of the European Parliament and of the Council of 19 May 2010 on the energy
+performance of buildings. Off. J. Eur. Union 2010, 53, 13–35.
+Energy Independence and Security Act of 2007. Available online: https://www.epa.gov/greeningepa/energy-independenceand-security-act-2007 (accessed on 8 May 2020).
+Crawley, D.; Pless, S.; Torcellini, P. Getting to net zero. ASHRAE J. 2009, 51, 18–25.
+European Parliament. Commission Delegated Regulation (EU) No 244/2012 of 16 January 2012 supplementing Directive
+2010/31/EU of the European Parliament and of the Council on the energy performance of buildings by establishing a comparative
+methodology framework for calculating. Off. J. Eur. Union 2012, 81, 18–36.
+Zacà, I.; D’Agostino, D.; Congedo, P.M.; Baglivo, C. Assessment of cost-optimality and technical solutions in high performance
+multi-residential buildings in the Mediterranean area. Energy Build. 2015, 102, 250–265. [CrossRef]
+Congedo, P.M.; D’Agostino, D.; Baglivo, C.; Tornese, G.; Zacà, I. Efficient solutions and cost-optimal analysis for existing school
+buildings. Energies 2016, 9, 851. [CrossRef]
+Atanasiu, B.; Kouloumpi, I.; Thomsen, K.E.; Aggerholm, S. Implementing the Cost-Optimal Methodology in EU Countries; Buildings
+Performance Institute Europe: Brussel, Belgium, 2013.
+Annunziata, E.; Frey, M.; Rizzi, F. Towards nearly zero-energy buildings: The state-of-art of national regulations in Europe. Energy
+2013, 57, 125–133. [CrossRef]
+Laustsen, J. Energy Efficiency Requirements in Building Codes, Energy Efficiency Policies for New Buildings. 2008. Available online: https://www.iea.org/reports/energy-efficiency-requirements-in-building-codes-policies-for-new-buildings (accessed on
+22 December 2020).
+Panagiotidou, M.; Fuller, R.J. Progress in ZEBs-A review of definitions, policies and construction activity. Energy Policy 2013,
+62, 196–206. [CrossRef]
+Lund, H.; Marszal, A.; Heiselberg, P. Zero energy buildings and mismatch compensation factors. Energy Build. 2011, 43, 1646–1654.
+[CrossRef]
+Torcellini, P.; Shanti, P.; Deru, M.; Crawley, D. Zero Energy Buildings: A Critical Look at the Definition; ACEEE Summer Study:
+Pacific Grove, CA, USA, 2006.
+
+Buildings 2021, 11, 19
+
+19.
+20.
+21.
+
+22.
+23.
+
+24.
+25.
+
+26.
+27.
+28.
+29.
+
+30.
+
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+43.
+
+44.
+45.
+
+27 of 30
+
+Kolokotsa, D.; Rovas, D.; Kosmatopoulos, E.; Kalaitzakis, K. A roadmap towards intelligent net zero- and positive-energy
+buildings. Sol. Energy 2011, 85, 3067–3084. [CrossRef]
+Saheb, Y.; Shnapp, S.; Paci, D. From Nearly-Zero Energy Buildings to Net-Zero Energy Districts; JRC Technical Reports; Publications
+Office of the European Union: Luxembourg, 2019.
+Ala-Juusela, M.; Crosbie, T.; Hukkalainen, M. Defining and operationalising the concept of an energy positive neighbourhood.
+Energy Convers. Manag. 2016, 125, 133–140. Available online: https://ec.europa.eu/jrc/en/publication/nearly-zero-energybuildings-net-zero-energy-districts (accessed on 22 December 2020). [CrossRef]
+Clean Energy for All Europeans Package. Available online: https://ec.europa.eu/energy/topics/energy-strategy/clean-energyall-europeans_en#documents (accessed on 4 June 2020).
+Laitinen, A.; Lindholm, O. Energiaomavarainen ei pärjää energiapositiiviselle. Tekniikka Talous. 2020. Available online: https://
+www.tekniikkatalous.fi/uutiset/energiaomavarainen-ei-parjaa-energiapositiiviselle/7dc87e68-ba08-4976-ac2a-d4f5f30156d4
+(accessed on 22 December 2020).
+Making City—Energy Efficient Pathway for the City Transformation. Available online: http://makingcity.eu/ (accessed on
+5 January 2020).
+Wyckmans, A.; Karatzoudi, K.; Brigg, D.; Ahlers, D. D9.5: Report on Attendance at Eventsheld by Other SCC-01 Co-Ordinators 2,
++CityxChange Work Package 9 Task 9.2. 2019. Available online: https://cityxchange.eu/wp-content/uploads/2019/11/D9.5
+_Report-on-Attendance-at-events-held-by-other-SCC-01-co-ordinators2.pdf (accessed on 22 December 2020).
+Greenhouse Gas Emissions from Transport in Europe. Available online: https://www.eea.europa.eu/data-and-maps/indicators/
+transport-emissions-of-greenhouse-gases/transport-emissions-of-greenhouse-gases-12 (accessed on 6 April 2020).
+International Energy Agency. Global EV Outlook 2019. 2019. Available online: https://www.iea.org/reports/global-ev-outlook2019 (accessed on 22 December 2020).
+Kaupunkisuunnitteluviraston Esitteet|Helsingin Kaupunki. Available online: https://www.hel.fi/kaupunkiymparisto/fi/
+julkaisut-ja-aineistot/julkaisuarkisto/kaupunkisuunnitteluviraston-esitteet (accessed on 6 April 2020).
+The Frankfurt School—UNEP Collaborating Centre for Climate & Sustainable Energy Finance; BloombergNEF. Global Trends in
+Renewable Energy Investment 2019. 2019. Available online: https://www.unenvironment.org/resources/report/global-trendsrenewable-energy-investment-2019 (accessed on 22 December 2020).
+International Renewable Energy Agency. The Power to Change: Solar and Wind Cost Reduction Potential to 2025. 2016.
+Available online: https://www.irena.org/publications/2016/Jun/The-Power-to-Change-Solar-and-Wind-Cost-ReductionPotential-to-2025 (accessed on 22 December 2020).
+Energy Statistical Datasheets for the EU Countries—Datasets. Available online: https://data.europa.eu/euodp/en/data/dataset/
+information-on-energy-markets-in-eu-countries-with-national-energy-profiles (accessed on 17 January 2020).
+International Renewable Energy Agency. Renewable Power Generation Costs in 2018. 2019. Available online: https://www.irena.
+org/publications/2019/May/Renewable-power-generation-costs-in-2018 (accessed on 22 December 2020).
+Bazoukis, N. Solar Thermal Technologies: Applications and Global Markets; BCC Research: Wellesley, MA, USA, 2016.
+Madsen, D.N.; Hansen, J.P. Outlook of solar energy in Europe based on economic growth characteristics. Renew. Sustain.
+Energy Rev. 2019, 114, 109306. [CrossRef]
+Solar Heat Europe ESTIF. Solar Heat Markets in Europe. 2019. Available online: http://solarheateurope.eu/publications/marketstatistics/solar-heat-markets-in-europe/ (accessed on 22 December 2020).
+Parida, B.; Iniyan, S.; Goic, R. A review of solar photovoltaic technologies. Renew. Sustain. Energy Rev. 2011, 15, 1625–1636.
+[CrossRef]
+Müller-Steinhagen, H.; Trieb, F. Concentrating solar power: A review of the technology. Ingenia 2004, 18, 43–50.
+Šúri, M.; Huld, T.A.; Dunlop, E.D.; Ossenbrink, H.A. Potential of solar electricity generation in the European Union member
+states and candidate countries. Sol. Energy 2007, 81, 1295–1305. [CrossRef]
+JRC Photovoltaic Geographical Information System (PVGIS)—European Commission. Available online: https://re.jrc.ec.europa.
+eu/pvg_tools/en/tools.html#PVP (accessed on 10 January 2020).
+Adeh, E.H.; Good, S.P.; Calaf, M.; Higgins, C.W. Solar PV Power Potential is Greatest over Croplands. Sci. Rep. 2019, 9, 11442.
+[CrossRef]
+Informationen zu den SOLARWATT PV-Modulen zum Download als pdf. Available online: https://www.solarwatt.de/
+downloads/pv-modules (accessed on 29 January 2020).
+Solar Panel Efficiency: What Panels Are Most Efficient?|EnergySage. Available online: https://news.energysage.com/what-arethe-most-efficient-solar-panels-on-the-market/ (accessed on 29 January 2020).
+Cocco, D.; Migliari, L.; Serra, F. Influence of Thermal Energy Losses on the Yearly Performance of Medium Size Csp Plants.
+In Proceedings of the Ecos2015: 28th International Conference on Efficiency, Cost, Optimization, Simulation and Environmental
+Impact of Energy Systems, Pau, France, 29 June–3 July 2015.
+Rinne, E.; Holttinen, H.; Kiviluoma, J.; Rissanen, S. Effects of turbine technology and land use on wind power resource potential.
+Nat. Energy 2018, 3, 494–500. [CrossRef]
+Angelis-Dimakis, A.; Biberacher, M.; Dominguez, J.; Fiorese, G.; Gadocha, S.; Gnansounou, E.; Guarisod, G.; Kartalidis, A.;
+Panichelli, L.; Pinedo, I.; et al. Methods and tools to evaluate the availability of renewable energy sources. Renew. Sustain.
+Energy Rev. 2011, 15, 1182–1200. [CrossRef]
+
+Buildings 2021, 11, 19
+
+46.
+47.
+48.
+49.
+50.
+51.
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+59.
+60.
+
+61.
+
+62.
+63.
+64.
+65.
+
+66.
+67.
+
+68.
+69.
+70.
+71.
+72.
+73.
+
+28 of 30
+
+Ragheb, M.; Adam, M. Wind Turbines Theory—The Betz Equation and Optimal Rotor Tip Speed Ratio. Fundam. Adv. Top.
+Wind Power 2011, 1, 19–38.
+Global Wind Atlas. Available online: https://globalwindatlas.info/ (accessed on 10 January 2020).
+International Renewable Energy Agency. Hydropower—Technology Brief. 2015. Available online: https://www.irena.org/
+publications/2013/Jan/IRENA-IEA-ETSAP-Technology-Briefs (accessed on 22 December 2020).
+International Renewable Energy Agency. Cost Analysis of Hydropower. 2012. Available online: https://www.irena.org/-/media/
+Files/IRENA/Agency/Publication/2012/RE_Technologies_Cost_Analysis-HYDROPOWER.pdf (accessed on 22 December 2020).
+European Commission. Brief on Biomass for Energy in the European Union. 2019. Available online: https://ec.europa.eu/jrc/
+en/publication/brochures-leaflets/brief-biomass-energy-european-union (accessed on 22 December 2020).
+Eurostat. Energy, Transport and Environment Statistics; Eurostat: Luxembourg, 2019; Available online: https://ec.europa.eu/
+eurostat/web/products-statistical-books/-/KS-DK-19-001 (accessed on 22 December 2020).
+IEA-ETSAP and IRENA. Biomass for Heat and Power. 2015. Available online: https://www.irena.org/publications/2015/Jan/
+Biomass-for-Heat-and-Power (accessed on 22 December 2020).
+Vigants, G.; Galindoms, G.; Veidenbergs, I.; Vigants, E.; Blumberga, D. Efficiency Diagram for District Heating System with Gas
+Condensing Unit. Energy Procedia 2015, 72, 119–126. [CrossRef]
+Miles, T.R.; Baxter, L.L.; Bryers, R.W.; Jenkins, B.M.; Oden, L.L. Boiler deposits from firing biomass fuels. Biomass Bioenergy 1996,
+10, 125–138. [CrossRef]
+Broström, M.; Kassman, H.; Helgesson, A.; Berg, M.; Andersson, A.; Backman, R.; Nordin, A. Sulfation of corrosive alkali
+chlorides by ammonium sulfate in a biomass fired CFB boiler. Fuel Process. Technol. 2007, 88, 1171–1177. [CrossRef]
+Davidsson, K.O.; Åmand, L.E.; Steenari, B.M.; Elled, A.L.; Eskilsson, D.; Leckner, B. Countermeasures against alkali-related
+problems during combustion of biomass in a circulating fluidized bed boiler. Chem. Eng. Sci. 2008, 63, 5314–5329. [CrossRef]
+Searcy, E.; Flynn, P.; Ghafoori, E.; Kumar, A. The relative cost of biomass energy transport. Appl. Biochem. Biotechnol. 2007,
+137–140, 639–652.
+Heat Values of Various Fuels—World Nuclear Association. Available online: https://www.world-nuclear.org/informationlibrary/facts-and-figures/heat-values-of-various-fuels.aspx (accessed on 19 February 2020).
+International Renewable Energy Agency. Geothermal Power: Technology Brief. 2017. Available online: https://www.irena.org/
+publications/2017/Aug/Geothermal-power-Technology-brief (accessed on 22 December 2020).
+International Renewable Energy Agency. Electricity Storage and Renewables: Costs and Markets to 2030. 2017. Available online: https://www.irena.org/publications/2017/Oct/Electricity-storage-and-renewables-costs-and-markets (accessed on
+22 December 2020).
+International Hydropower Association. The World’s Water Battery: Pumped Hydropower Storage and the Clean Energy
+Transition. 2018. Available online: https://www.hydropower.org/publications/the-world-e2-80-99s-water-battery-pumpedhydropower-storage-and-the-clean-energy-transition (accessed on 22 December 2020).
+Rehman, S.; Al-Hadhrami, L.M.; Alam, M.M. Pumped hydro energy storage system: A technological review. Renew. Sustain.
+Energy Rev. 2015, 44, 586–598. [CrossRef]
+Gimeno-Gutiérrez, M.; Lacal-Arántegui, R. Assessment of the European potential for pumped Hydropower energy storage based
+on two existing reservoirs. Renew. Energy 2015, 75, 856–868. [CrossRef]
+Caglayan, D.; Weber, N.; Heinrichs, H.U.; Linßen, J.; Robinius, M.; Kukla, P.A.; Stolten, D. Technical Potential of Salt Caverns for
+Hydrogen Storage in Europe. Int. J. Hydrogen Energy 2020, 45, 6793–6805. [CrossRef]
+Maara, C. Residential Energy Storage, Blockchain and Energy Sharing Systems: Technologies and Global Market. 2019.
+Available online:
+https://www.bccresearch.com/market-research/fuel-cell-and-battery-technologies/residential-energystorage-blockchain-energy-sharing-stems-technologies-global-market.html (accessed on 22 December 2020).
+Energy Storage. Available online: https://www.iea.org/reports/energy-storage (accessed on 7 February 2020).
+Chen, J. Graphite, Silicon, Metal, and Other Anode Materials for Motive Lithium Ion Batteries: Global Market and Emerging
+Opportunities. 2020. Available online: https://www.bccresearch.com/market-research/fuel-cell-and-battery-technologies/
+graphite-production-and-applications-market-report.html (accessed on 22 December 2020).
+Molaeimanesh, G.R.; Mousavi-Khoshdel, S.M.; Nemati, A.B. Experimental analysis of commercial LiFePO4 battery life span used
+in electric vehicle under extremely cold and hot thermal conditions. J. Therm. Anal. Calorim. 2020, 1–10. [CrossRef]
+Ghobadpour, A.; Kelouwani, S.; Amamou, A.; Agbossou, K.; Zioui, N. A brief review of plug-in hybrid electric vehicles operation
+in cold climates. In Proceedings of the 2019 IEEE Vehicle Power and Propulsion Conference, Hanoi, Vietnam, 14–17 October 2019.
+Fan, R.; Zhang, C.; Wang, Y.; Ji, C.; Meng, Z.; Xu, L.; Ou, Y.; Chin, C.S. Numerical study on the effects of battery heating in cold
+climate. J. Energy Storage 2019, 26, 100969. [CrossRef]
+Hesaraki, A.; Holmberg, S.; Haghighat, F. Seasonal thermal energy storage with heat pumps and low temperatures in building
+projects—A comparative review. Renew. Sustain. Energy Rev. 2015, 43, 1199–1213. [CrossRef]
+International Renewable Energy Agency. Thermal Energy Storage: Technology Brief. 2013. Available online: https://www.irena.
+org/publications/2013/Jan/Thermal-energy-storage (accessed on 22 December 2020).
+Mangold, D.; Schmidt, T.; Müller-Steinhagen, H. Seasonal thermal energy storage in Germany. Struct. Eng. Int. 2004, 14, 230–232.
+[CrossRef]
+
+Buildings 2021, 11, 19
+
+74.
+75.
+76.
+77.
+78.
+79.
+
+80.
+81.
+82.
+83.
+
+84.
+85.
+86.
+87.
+88.
+89.
+90.
+91.
+
+92.
+93.
+94.
+95.
+96.
+97.
+98.
+99.
+100.
+101.
+102.
+103.
+
+29 of 30
+
+Xu, J.; Wang, R.Z.; Li, Y. A review of available technologies for seasonal thermal energy storage. Sol. Energy 2014, 103, 610–638.
+[CrossRef]
+Gupta, D.; Zaman, M. Stability of boreholes in a geologic medium including the effects of anisotropy. Appl. Math. Mech. 1999,
+20, 837–866. [CrossRef]
+Tsemekidi, S.; Bertoldi, P.; Diluiso, F.; Castellazzi, L.; Economidou, M.; Labanca, N.; Ribeiro Serrenho, T.; Zangheri, P. Analysis of
+the EU Residential Energy Consumption: Trends and Determinants. Energies 2019, 12, 1065. [CrossRef]
+EURIMA—U-Values in Europe. Available online: https://www.eurima.org/u-values-in-europe/ (accessed on 17 June 2020).
+Final Energy Consumption in Households per Capita. Available online: https://ec.europa.eu/eurostat/databrowser/view/sdg_
+07_20/default/table?lang=en (accessed on 17 June 2020).
+Share of Final Energy Consumption in the Residential Sector by Type of End-Use, 2017 (%). Available online: https:
+//ec.europa.eu/eurostat/statistics-explained/index.php?title=File:Share_of_final_energy_consumption_in_the_residential_
+sector_by_type_of_end-use,_2017_(%25).png (accessed on 17 June 2020).
+ACEA—European Automobile Manufacturers’ Association. Vehicles in Use—Europe 2019. 2019. Available online: https:
+//www.acea.be/uploads/publications/ACEA_Report_Vehicles_in_use-Europe_2019.pdf (accessed on 22 December 2020).
+Directorate-General for Energy. Quarterly Report on European Electricity Markets. Mark. Obs. Energy 2019, 13. Available online:
+https://ec.europa.eu/energy/data-analysis/market-analysis_en (accessed on 22 December 2020).
+Torró, H. Forecasting Weekly Electricity Prices at Nord Pool. SSRN Electron. J. 2011. [CrossRef]
+Helisto, N.; Kiviluoma, J.; Holttinen, H. Sensitivity of electricity prices in energy-only markets with large amounts of zero
+marginal cost generation. In Proceedings of the International Conference on the European Energy Market, Dresden, Germany,
+6–9 June 2017.
+Electricity Prices for Household Consumers—Bi-Annual Data (from 2007 Onwards). Available online: https://appsso.eurostat.ec.
+europa.eu/nui/show.do?dataset=nrg_pc_204&lang=en (accessed on 17 June 2020).
+Electricity Prices for Non-Household Consumers—Bi-Annual Data (from 2007 Onwards). Available online: https://appsso.
+eurostat.ec.europa.eu/nui/show.do?dataset=nrg_pc_205&lang=en (accessed on 17 June 2020).
+Heide, D.; von Bremen, L.; Greiner, M.; Hoffmann, C.; Speckmann, M.; Bofinger, S. Seasonal optimal mix of wind and solar power
+in a future, highly renewable Europe. Renew. Energy 2010, 35, 2483–2489. [CrossRef]
+Liu, H.; Andresen, G.B.; Greiner, M. Cost-optimal design of a simplified highly renewable Chinese electricity network. Energy
+2018, 147, 534–546. [CrossRef]
+Lindholm, O. Techno-Economic Analysis of a Reversible Solid Oxide Cell and Hydrogen Gas Storage System. Master’s Thesis,
+Åbo Akademi University, Turku, Finland, October 2019.
+ur Rehman, H.; Reda, F.; Paiho, S.; Hasan, A. Towards positive energy communities at high latitudes. Energy Convers. Manag.
+2019, 196, 175–195. [CrossRef]
+Lai, C.M.; Hokoi, S. Solar façades: A review. Build. Environ. 2015, 91, 152–165. [CrossRef]
+Fath, K.; Stengel, J.; Sprenger, W.; Wilson, H.R.; Schultmann, F.; Kuhn, T.E. A method for predicting the economic potential
+of (building-integrated) photovoltaics in urban areas based on hourly Radiance simulations. Sol. Energy 2015, 116, 357–370.
+[CrossRef]
+Amado, M.; Poggi, F. Solar urban planning: A parametric approach. Energy Procedia 2014, 48, 1539–1548. [CrossRef]
+Hofierka, J.; Kaňuk, J. Assessment of photovoltaic potential in urban areas using open-source solar radiation tools. Renew. Energy
+2009, 34, 2206–2214. [CrossRef]
+Kammen, D.M.; Sunter, D.A. City-integrated renewable energy for urban sustainability. Science 2016, 352, 922–928. [CrossRef]
+Tummala, A.; Velamati, R.K.; Sinha, D.K.; Indraja, V.; Krishna, V.H. A review on small scale wind turbines. Renew. Sustain.
+Energy Rev. 2016, 56, 1351–1371. [CrossRef]
+Small Wind Turbines: Are They Right for You?|EnergySage. Available online: https://news.energysage.com/small-windturbines-overview/ (accessed on 16 April 2020).
+Wagner, R.; Antoniou, I.; Pedersen, S.M.; Courtney, M.S.; Jørgensen, H.E. The influence of the wind speed profile on wind turbine
+performance measurements. Wind Energy 2009, 12, 348–362. [CrossRef]
+Graabak, I.; Korpås, M.; Jaehnert, S.; Belsnes, M. Balancing future variable wind and solar power production in Central-West
+Europe with Norwegian hydropower. Energy 2019, 168, 870–882. [CrossRef]
+Haakana, J.; Tikka, V.; Lassila, J.; Partanen, J.; Rinne, S. Opportunities of bioenergy-based CHP production in balancing renewable
+power production. In Proceedings of the International Conference on the European Energy Market, Porto, Portugal, 6–9 June 2016.
+International Hydropower Association. 2019 Hydropower Status Report. 2019. Available online: https://www.hydropower.org/
+news/iha-releases-2019-hydropower-status-report-charting-growth-in-renewable-hydro (accessed on 22 December 2020).
+David, A.; Mathiesen, B.V.; Averfalk, H.; Werner, S.; Lund, H. Heat Roadmap Europe: Large-Scale Electric Heat Pumps in District
+Heating Systems. Energies 2017, 10, 578. [CrossRef]
+International Renewable Energy Agency. Renewable Energy Cost Analysis—Hydropower. 2012. Available online: https:
+//www.irena.org/publications/2012/Jun/Renewable-Energy-Cost-Analysis---Hydropower (accessed on 22 December 2020).
+Haas, J.; Cebulla, F.; Nowak, W.; Rahmann, C. Palma-Behnke, R. A multi-service approach for planning the optimal mix of energy
+storage technologies in a fully-renewable power supply. Energy Convers. Manag. 2018, 178, 355–368. [CrossRef]
+
+Buildings 2021, 11, 19
+
+30 of 30
+
+104. Parra, D.; Swierczynski, M.; Stroe, D.I.; Norman, S.; Abdon, A.; Worlitschek, J.; O’Doherty, T.; Rodrigues, L.T.; Gillott, M.C.;
+Zhang, X.; et al. An interdisciplinary review of energy storage for communities: Challenges and perspectives. Renew. Sustain.
+Energy Rev. 2017, 79, 730–749. [CrossRef]
+105. Virtual Power Plant (VPP) Operator. Available online: https://www.next-kraftwerke.com/company (accessed on 11 June 2020).
+106. VPP Explained: What Is a Virtual Power Plant? Available online: https://www.next-kraftwerke.com/vpp/virtual-power-plant
+(accessed on 11 June 2020).
+107. Sector Integration Will Help to Manage the Power Balance—Fingrid-Lehti. Available online: https://www.fingridlehti.fi/en/
+sector-integration/ (accessed on 4 June 2020).
+108. Vasirani, M.; Kota, R.; Cavalcante, R.L.G.; Ossowski, S.; Jennings, N.R. An agent-based approach to virtual power plants of wind
+power generators and electric vehicles. IEEE Trans. Smart Grid 2013, 4, 1314–1322. [CrossRef]
+109. Heat Pumps. Available online: https://www.iea.org/reports/tracking-buildings-2020/heat-pumps#abstract (accessed on
+7 September 2020).
+110. Lund, H.; Werner, S.; Wiltshire, R.; Svendsen, S.; Thorsen, J.E.; Hvelplund, F.; Mathiesen, B.V. 4th Generation District Heating
+(4GDH). Integrating smart thermal grids into future sustainable energy systems. Energy 2014, 68, 1–11. [CrossRef]
+111. Lake, A.; Rezaie, B.; Beyerlein, S. Review of district heating and cooling systems for a sustainable future. Renew. Sustain.
+Energy Rev. 2017, 67, 417–425. [CrossRef]
+112. Lund, H.; Østergaard, P.A.; Chang, M.; Werner, S.; Svendsen, S.; Sorknæs, P.; Thorsen, J.E.; Hvelplund, F.; Mortensen, B.O.G.;
+Mathiesen, B.V.; et al. The status of 4th generation district heating: Research and results. Energy 2018, 164, 147–159. [CrossRef]
+113. Lund, H.; Duic, N.; Østergaard, P.A.; Mathiesen, B.V. Future district heating systems and technologies: On the role of smart
+energy systems and 4th generation district heating. Energy 2018, 165, 614–619. [CrossRef]
+114. Werner, S. District heating and cooling in Sweden. Energy 2017, 126, 419–429. [CrossRef]
+115. Jones, C.M.; Kammen, D.M. Quantifying carbon footprint reduction opportunities for U.S. households and communities.
+Environ. Sci. Technol. 2011, 45, 4088–4095. [CrossRef]
+116. Jones, C.; Kammen, D.M. Spatial distribution of U.S. household carbon footprints reveals suburbanization undermines greenhouse
+gas benefits of urban population density. Environ. Sci. Technol. 2014, 48, 895–902. [CrossRef] [PubMed]
+117. Gapminder Tools. Available online: https://www.gapminder.org/tools/#$state$marker$axis_x$which=urban_population_
+percent_of_total&domainMin:null&domainMax:null&zoomedMin:null&zoomedMax:null&scaleType=linear&spaceRef:
+null;&axis_y$which=co2_emissions_tonnes_per_person&domainMin:null&domainMax:null&zoomedMin:null&zoomedMax:
+null&scaleType=genericLog&spaceRef:null;;;&chart-type=bubbles (accessed on 19 May 2020).
+118. A European Green Deal. Available online: https://ec.europa.eu/info/strategy/priorities-2019-2024/european-green-deal_en
+(accessed on 5 August 2020).
+119. European Commission. Annex to the Communication from the Commission to the European Parliament, the European Council, the Council,
+the European Economic and Social Committee and the Committee of the Regions; European Commission: Brussels, Belgium, 2019.
+120. Caramizaru, A.; Uihlein, A. Energy Communities: An Overview of Energy and Social Innovation; Publications Office of the European
+Union: Luxembourg, 2020.
+121. Valtioneuvoston Asetus Sähköntoimitusten Selvityksestä ja Mittauksesta Annetun Asetuksen Muuttamisesta. Available online:
+https://www.finlex.fi/fi/laki/alkup/2016/20160217 (accessed on 2 June 2020).
+122. Global Solar Atlas. Available online: https://globalsolaratlas.info/map (accessed on 7 September 2020).
+
+

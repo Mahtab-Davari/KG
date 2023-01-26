@@ -1,0 +1,2484 @@
+sustainability
+Article
+
+How to Achieve Positive Energy Districts for Sustainable Cities:
+A Proposed Calculation Methodology
+Andrea Gabaldón Moreno 1, * , Fredy Vélez 1 , Beril Alpagut 2 , Patxi Hernández 3
+and Cecilia Sanz Montalvillo 1
+1
+
+2
+3
+
+*
+
+
+
+Citation: Gabaldón Moreno, A.;
+
+Energy Division, CARTIF Technology Centre, 47151 Boecillo, Spain; frevel@cartif.es (F.V.);
+cecsan@cartif.es (C.S.M.)
+Smart Cities Department, Demir Enerji, Kadikoy/Istanbul 34718, Turkey; balpagut@demirenerji.com
+TECNALIA, Basque Research and Technology Alliance (BRTA), 48160 Derio, Spain;
+patxi.hernandez@tecnalia.com
+Correspondence: andgab@cartif.es
+
+Abstract: In this paper, a methodology for calculating the energy balance at the district level and
+energy performance of those districts aspiring to become a Positive Energy District (PED) is proposed.
+PEDs are understood as districts that achieve a positive energy balance on an annual basis by means
+of exporting more energy than is consumed within their limits. The main issue to standardize the
+concept, besides which characteristics should be considered, is that current standards to calculate an
+energy balance are not applied at the district level. This paper reviews the current standards and
+adapts them to propose an energy balance calculation methodology. Calculation of an energy balance
+at the district level is complex since it includes several parameters, such as which loads (or elements)
+should be included, which renewable energy technologies should be considered on-site production,
+and which primary energy factors should be used. The proposed methodology is thought to help
+cities at the design stage of a district and to evaluate its annual energy balance. The methodology is
+performed in eight steps, and all the needed assumptions that affect the calculation of the annual
+energy balance are discussed in each step.
+
+Vélez, F.; Alpagut, B.; Hernández, P.;
+Sanz Montalvillo, C. How to Achieve
+
+Keywords: positive energy districts; smart cities; primary energy assessment
+
+Positive Energy Districts for
+Sustainable Cities: A Proposed
+Calculation Methodology.
+Sustainability 2021, 13, 710.
+https://doi.org/10.3390/su13020710
+Received: 30 November 2020
+Accepted: 28 December 2020
+Published: 13 January 2021
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+
+1. Introduction to Positive Energy Districts
+Buildings account for 40% of total energy consumption in the European Union (EU) [1]
+and 35% of greenhouse gas emissions (GHG) derived from energy uses [2]. Thus, cities
+are essential actors in fighting climate change, and have a high potential of reducing the
+world’s global emissions [3], hence contributing to meeting COP21 targets. Furthermore,
+cities have the commitment to enhancing inclusive, safe, resilient, and sustainable urbanization [4]. Two main actions to achieve the transition towards more sustainable and
+climate neutral cities are building renovations and the installation of distributed renewable
+energy technologies within city limits [5]. In the EU, more than 220 million buildings
+were built before 2001, with generally poor energy performance, and of which only 0.2%
+perform deep renovations every year. This means that there is a huge potential for reducing
+energy consumption in the building stock. Regulations and building codes have evolved
+and continue evolving towards more efficient or nearly zero energy buildings, with EU
+Directives 2010/31/EU and 2018/844/UE as clear examples of strong commitment to the
+improvement of the energy efficiency of the building stock. A review of the main actions
+of the European Union towards the development of the nearly zero energy building was
+presented in [6]. Since 2018, the Positive Energy District concept (PED) has been introduced
+to the discussion about the energy transition of the building stock, acknowledging that
+districts can play a major role in this transition, as they tackle a larger scale of projects,
+
+4.0/).
+
+Sustainability 2021, 13, 710. https://doi.org/10.3390/su13020710
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2021, 13, 710
+Sustainability 2021, 13, x FOR PEER REVIEW
+
+2 of 19
+2 of 19
+
+allowing for local customization and easier engagement of communities in the process [7–
+9].
+9]. PEDs
+PEDs and
+and Positive
+Positive Energy
+Energy Neighborhoods
+Neighborhoods(PENs)
+(PENs)are
+arenow
+nowseen
+seenas
+asstrategic
+strategickeys
+keysfor
+for
+decarbonizing
+decarbonizingthe
+thebuilt
+builtenvironment
+environmentin
+inEurope
+Europe[2],
+[2],according
+accordingto
+to the
+the recently
+recently published
+published
+Renovation
+RenovationWave
+WaveStrategy.
+Strategy.
+Since
+usual
+practice ininurban
+urbanplanning
+planning
+frequently
+considered
+energy
+perforSince usual practice
+hashas
+frequently
+considered
+energy
+performance
+mance
+of
+buildings
+individually,
+irrespective
+of
+the
+surrounding
+buildings,
+PED
+breaks
+of buildings individually, irrespective of the surrounding buildings, PED breaks this
+habit
+this
+habit
+by
+applying
+integrated
+strategies
+for
+building
+renovation,
+energy
+efficiency,
+and
+by applying integrated strategies for building renovation, energy efficiency, and local
+local
+energy
+production
+renewable
+energy
+sources
+(RES)
+a locally
+interconnected
+energy
+production
+fromfrom
+renewable
+energy
+sources
+(RES)
+in a in
+locally
+interconnected
+and
+and
+holistic
+way
+[10].
+holistic way [10].
+The
+Thekey
+keyconcept
+conceptof
+ofPED
+PEDisisthat
+thatof
+ofaadistrict
+districtthat
+thatproduces
+producesmore
+moreenergy
+energyfrom
+fromRES
+RESthan
+than
+what
+is
+needed
+to
+fulfil
+the
+district’s
+demand,
+being
+able
+to
+export
+this
+energy
+surplus
+what is needed to fulfil the district’s demand, being able to export this energy surplusto
+to
+another
+anotherpart
+partof
+ofthe
+thecity.
+city.Existing
+ExistingPED
+PEDdefinitions
+definitionssuch
+suchas
+asthe
+theJoint
+JointProgramming
+ProgrammingInitiative
+Initiative
+(JPI)
+(JPI)Urban
+Urban Europe
+Europe include
+include other
+other characteristics
+characteristicsin
+in the
+the PED
+PED definition,
+definition, addressing
+addressing that
+that
+PED
+PEDshould
+shouldbe
+bean
+an“added
+“addedvalue
+valueto
+tothe
+theuser”
+user”or
+orachieve
+achievean
+an “affordable
+“affordableand
+and high-quality
+high-quality
+living
+summary of
+ofthe
+theconcept
+conceptand
+andthe
+thedifferent
+differentcharactercharaclivingstandard”
+standard” [11].
+[11]. Figure
+Figure 1 shows a summary
+teristics
+foundininthe
+theliterature
+literature(discussions
+(discussionsfrom
+fromJPI
+JPI Urban
+Urban Europe [11], European
+istics found
+EuropeanEnergy
+Energy
+Research
+ResearchAlliance
+Alliance(EERA)
+(EERA)[12],
+[12],and
+andInternational
+InternationalEnergy
+EnergyAgency
+AgencyAnnex
+Annex83
+83on
+onPEDs
+PEDs[13],
+[13],
+among
+amongothers).
+others).
+
+Figure1.1.Characteristics
+CharacteristicsofofPositive
+PositiveEnergy
+EnergyDistricts
+Districtsfound
+foundin
+inthe
+theliterature.
+literature.
+Figure
+
+TheEU
+EUHorizon
+Horizon2020
+2020called
+calledfor
+forinnovation
+innovationactions
+actionsin
+inthe
+thefield
+field of
+of Smart
+Smart Cities
+Cities and
+and
+The
+Communities
+[14].
+The
+aim
+was
+to
+apply
+the
+concept
+of
+PED
+as
+a
+demonstration
+in
+Communities [14]. The aim was to apply the concept of PED as a demonstration in “light“lighthouse”
+cities
+that
+could
+guide
+the
+replication
+to
+other
+fellow
+cities.
+Currently
+there
+are
+house” cities that could guide the replication to other fellow cities. Currently there are six
+six EU-funded
+projects
+aiming
+at demonstrating
+PED
+concept
+least12
+12lighthouse
+lighthouse
+EU-funded
+projects
+aiming
+at demonstrating
+thethe
+PED
+concept
+ininatatleast
+cities,which
+whichwill
+will
+more
+if fellow
+cities
+replicate
+the concept.
+The Strategic
+cities,
+bebe
+more
+if fellow
+cities
+replicate
+the concept.
+The Strategic
+EnergyEnergy
+TechTechnology
+Plan
+(SET
+Plan),
+inside
+Action
+3.2,
+also
+promoted
+the
+challenge
+have
+100
+nology Plan (SET Plan), inside Action 3.2, also promoted the challenge to haveto100
+PEDs
+PEDs
+throughout
+the
+EU
+by
+2025
+[15].
+Besides
+H2020
+projects,
+the
+PED
+concept
+was
+also
+throughout the EU by 2025 [15]. Besides H2020 projects, the PED concept was also impleimplemented
+bycities,
+a fewand
+cities,
+and examples
+in operation
+can beinfound
+places
+mented
+by a few
+examples
+of PEDsofinPEDs
+operation
+can be found
+placesinsuch
+as
+such as the Feluriaye West district in France and Smart Energy Åland in Finland [1].
+the Feluriaye West district in France and Smart Energy Å land in Finland [1].
+The PED concept can also be related to the “Citizen Energy Community” (CEC)
+The PED concept can also be related to the “Citizen Energy Community” (CEC) dedefined by the EU Internal Electricity Market Directive (IEMD), or the “Renewable Energy
+fined by the EU Internal Electricity Market Directive (IEMD), or the “Renewable Energy
+Community” (REC) found in the EU Renewable Energy Directive (REDII). Whereas RECs
+Community” (REC) found in the EU Renewable Energy Directive (REDII). Whereas RECs
+and CECs are more related to organizational structures and managing energy generation,
+and CECs are more related to organizational structures and managing energy generation,
+PEDs do not need to be a legal entity, and can in principle adopt any form of organization
+PEDs do not need to be a legal entity, and can in principle adopt any form of organization
+and management to achieve the objective of a positive energy balance.
+and management to achieve the objective of a positive energy balance.
+This paper proposes a methodology for calculating the energy balance at the district
+This paper proposes a methodology for calculating the energy balance at the district
+level, which can serve as a preliminary energy performance evaluation for districts aspiring
+level, which can serve as a preliminary energy performance evaluation for districts aspirto achieve the goal of becoming a Positive Energy District (PED). The methodology aims
+ing
+to achieve the goal of becoming a Positive Energy District (PED). The methodology
+to support the various processes, projects, and initiatives previously described that are
+aims
+to support
+the various processes,
+projects, and initiatives previously described that
+promoting
+the implementation
+of PEDs.
+are promoting the implementation of PEDs.
+
+Sustainability 2021, 13, x FOR PEER REVIEW
+
+Sustainability 2021, 13, 710
+
+3 of 19
+
+The main issue to standardize the concept, besides which characteristics should be
+3 of 19
+considered, is that the current standards to calculate an energy balance are not
+applied at
+the district level. This paper reviews the current standards and adapts them to propose
+an energy balance calculation methodology. The main novelty aspects provided in the
+Thepaper
+main issue
+to standardize
+the concept,
+besides which
+characteristics
+should
+be a compresent
+are based
+on the scarce
+of information
+and research
+leading
+to show
+considered,
+is
+that
+the
+current
+standards
+to
+calculate
+an
+energy
+balance
+are
+not
+applied
+at energy
+mon framework to design and evaluate a PED. The complexity of calculating the
+the
+district
+level.
+This
+paper
+reviews
+the
+current
+standards
+and
+adapts
+them
+to
+propose
+an
+balance at the district level is because it includes several parameters, or elements (loads,
+energy balance calculation methodology. The main novelty aspects provided in the present
+renewable energy technologies, non-renewable energy technologies, etc.), and assumppaper are based on the scarce of information and research leading to show a common
+tions
+(primary energy factors, efficiencies, etc.) affecting the calculation of the positive enframework to design and evaluate a PED. The complexity of calculating the energy balance
+ergy
+as well
+as the itdesign
+of several
+the PED.
+at thebalance
+district level
+is because
+includes
+parameters, or elements (loads, renewable
+Taking
+current
+standards
+at
+the
+building
+level etc.),
+as a and
+basis
+for the calculation
+energy technologies, non-renewable energy
+technologies,
+assumptions
+(primary framework,
+2 presents etc.)
+the affecting
+proposed
+andpositive
+most relevant
+methodological
+energy Section
+factors, efficiencies,
+themethodology
+calculation of the
+energy balance
+as
+well as the
+of the PED.of the energy balance, which are related to the definition of the
+choices
+fordesign
+the calculation
+Taking current
+at the building
+level as a basis
+for the
+calculation
+boundaries
+of the standards
+district (Section
+2.1), calculation
+of the
+energy
+needsframework,
+(Section 2.2), and
+Section
+2
+presents
+the
+proposed
+methodology
+and
+most
+relevant
+methodological
+choices for of the
+chosen primary energy factors (Section 2.6). Section 3 discusses the shortcomings
+the calculation of the energy balance, which are related to the definition of the boundaries
+presented methodology. Section 4 presents the conclusions derived from the presented
+of the district (Section 2.1), calculation of the energy needs (Section 2.2), and chosen primary
+work,
+highlighting its potential value as a framework for further development of standenergy factors (Section 2.6). Section 3 discusses the shortcomings of the presented methodardized
+methods
+for district
+energy balances.
+ology. Section
+4 presents
+the conclusions
+derived from the presented work, highlighting
+its potential value as a framework for further development of standardized methods for
+
+2.
+The PED
+Calculation
+district
+energy
+balances. Methodology
+
+To have a PED, it is necessary to achieve an annual positive primary energy balance,
+i.e., more energy is produced than what is consumed within the district boundaries. The
+To have a PED, it is necessary to achieve an annual positive primary energy balance,
+methodology presented was developed within the MAKING-CITY project [16], and foli.e., more energy is produced than what is consumed within the district boundaries. The
+lows
+a series of steps (see Figure 2). Following the approach of the CEN/TR 15615 and ISO
+methodology presented was developed within the MAKING-CITY project [16], and follows
+52000
+calculation
+direction
+is the opposite
+of the 15615
+energy
+flow
+the system
+a seriesstandards,
+of steps (seethe
+Figure
+2). Following
+the approach
+of the CEN/TR
+and
+ISO in
+52000
+[17],
+starting
+the calculation
+ofthe
+theopposite
+energy of
+needs
+(step 2)
+within
+PED [17],
+boundaries
+standards,
+thewith
+calculation
+direction is
+the energy
+flow
+in thethe
+system
+(defined
+in step
+to a series
+steps (step
+that finish
+calculating
+equivalent pristarting with
+the 1)
+calculation
+of of
+theiterative
+energy needs
+2) within
+the PED the
+boundaries
+(defined
+in step(step
+1) to 6),
+a series
+of iterative
+steps that
+finish(step
+calculating
+thethe
+equivalent
+primary
+mary
+energy
+the primary
+energy
+balance
+7), and
+associated
+Sankey diaenergy(step
+(step8).
+6),When
+the primary
+energy
+balance
+(step
+7), and the associated
+Sankey
+diagram
+gram
+designing
+a PED,
+it is
+recommended
+to go back
+and forth
+in order to
+(step
+8).
+When
+designing
+a
+PED,
+it
+is
+recommended
+to
+go
+back
+and
+forth
+in
+order
+to
+test
+test different technology options until all the needs are covered and the positive energy
+different technology options until all the needs are covered and the positive energy balance
+balance is achieved. At the operational phase of the district, the evaluation of the energy
+is achieved. At the operational phase of the district, the evaluation of the energy balance
+balance
+can start at step 4, measuring the on-site RES production and the final energy
+can start at step 4, measuring the on-site RES production and the final energy delivered
+delivered
+(i.e.,or
+electricity
+or gas consumption)
+calculate
+the balance.
+In step 6, the as(i.e., electricity
+gas consumption)
+to calculate thetobalance.
+In step
+6, the assumptions
+sumptions
+settingenergy
+the primary
+energybefactors
+made when made
+settingwhen
+the primary
+factors should
+stated.should be stated.
+2. The PED Calculation Methodology
+
+Figure
+2. Steps
+Stepsofofthe
+thecalculation
+calculation
+procedure.
+Figure 2.
+procedure.
+
+The terms and definitions of what is understood as “energy needs” and “energy use,”
+among other terms, are based on ISO52000-1 and listed in Appendix A of this article.
+
+Sustainability 2021, 13, 710
+
+4 of 19
+
+The terms and definitions of what is understood as “energy needs” and “energy use,”
+among other terms, are based on ISO52000-1 and listed in Appendix A of this article.
+2.1. Step 1: Define the PED Boundaries
+The boundaries of a system can be defined as “a borderline that includes several
+systems, installations, facilities and/or buildings that are interconnected with each other,
+or with to some energy infrastructure, grid or virtual/contractual connection.” Thus, the
+boundary is defined by the spatial and administrative relationship between the final energy
+consumption and the energy generation units (inside the buildings or beyond the boundaries, e.g., the grid). Depending on the relationship, the PED can have virtual, geographical,
+or functional boundaries according to the latest discussions of the EU initiatives (the EU
+initiatives of JPI Urban Europe [11] and EERA [12] hold discussions among EU projects
+and stakeholders on this topic.).
+Regarding these discussions, when the boundaries are delimited by spatial–physical
+limits, including delineated buildings, sites, and infrastructures, the PED is defined by
+geographical boundaries. If the buildings are not close to each other, but are interconnected,
+thanks to a gas, electric, or heating network, the PED has functional boundaries. If the
+energy demand is covered by a generation unit, which is shared with other consumption
+points (e.g., a windmill) and located outside the geographical boundaries of the PED, then
+it could be considered a virtual boundary. It is currently debated whether or not a virtual
+boundary could exist when the district cannot afford to own an energy infrastructure
+and it purchases their RES energy by means of a Power Purchase Agreement (PPA) or
+by buying green energy certificates. Although certified green electricity is not seen as a
+part of a PED, it is well recognized by article 15 of directive 2009/28/EC as a measure
+that a city can apply in the emission inventories as a part of their Sustainable Energy
+and Climate Action Plans (SECAPs) [18]. This raises the question: What if the positive
+energy balance is achieved and green energy certificates are also considered? Should it be
+a virtual PED? What if a PED uses Power Purchase Agreements (PPAs) to buy certified
+green electricity? These questions are still under discussion, but it is important to note that
+PEDs need to be seen as a solution to decarbonizing cities, helping to balance the grid, as
+well as improving the quality of life of inhabitants. If PPAs or green energy certificates are
+used, it will only help to force the numbers to achieve a positive energy balance, but it will
+not contribute in a direct way to the city’s GHG emissions. This issue is mainly related to
+the ownership of the power plant (within or beyond the geographical area of the PED),
+which perhaps could be solved by including the energy operators and producers within the
+project, as long as the operation of the PED involves the citizens. In the other definitions,
+such as the REC from the REDII or the CEC from the IEMD proposal, the members are
+natural persons (such as citizens), local authorities, including municipalities, or small
+enterprises. IEMD also mentions microenterprises, and these members should effectively
+control the community [19]. The draft of the EU REDII proposed that REC should include
+at least 51% of the mem-bers of the community should be local members such as citizens
+or municipalities, but this limit was not finally included in the recent approved directive.
+Nevertheless, PEDs could take this limit as a reference, and follow a similar approach
+when applying vir-tual boundaries. In Spain, the Institute for Diversification and Saving
+of Energy (IDAE) specifies that LECs should welcome large companies as long as they
+recognize and contribute to the objectives and roles of the community. How the entity
+should be created and managed in the PED is still under discussion, but it is something
+that can be adapted to each local context.
+Another issue is whether or not these boundaries should have a certain size as a
+requisite to become a PED. In PED projects being developed under EU funding from H2020,
+specific requirements were implemented, such as “include at least 15,000 m2 floor area and
+a minimum of three large buildings (new, retro-fitted or a combination of both)” [20]. The
+minimum number of buildings and total floor area were mentioned, as well as the included
+buildings within the PED being from a different use typology such as residential, work,
+
+Sustainability 2021, 13, 710
+
+5 of 19
+
+Sustainability 2021, 13, x FOR PEER REVIEW
+
+commercial, or recreational. Nevertheless, these were the requirements for this specific
+funding call, not a rule imposed by the concept itself. Although they could be taken as a
+reference, cities may have different contexts that may lead to different PED categories (also
+approach taken in the MAKING-CITY PED calculation guidelines is to a
+knownThe
+as “archetypes”).
+The approach
+taken
+in to
+thebe
+MAKING-CITY
+calculation
+is to allowfrom a c
+calculation
+of the
+PED
+adjusted forPED
+each
+specific guidelines
+case by selecting
+the
+of the PEDand
+to be
+adjusted for
+specific casefor
+by the
+selecting
+from
+a
+thecalculation
+different elements
+boundaries
+toeach
+be considered
+energy
+balance
+(se
+checklist the different elements and boundaries to be considered for the energy balance
+3) so as to ensure transparency, while allowing the PED concept to adapt to the d
+(see Figure 3) so as to ensure transparency, while allowing the PED concept to adapt to
+cities’
+characteristics.
+the
+different
+cities’ characteristics.
+
+Figure 3. Define the PED boundary by selecting the different elements to be considered in the energy
+Figure 3. Define the PED boundary by selecting the different elements to be considered in
+balance (loads), the PED limits of the district (geographical, virtual, or functional), and the objectives
+ergy balance (loads), the PED limits of the district (geographical, virtual, or functional), an
+of the PED (positive energy balance, self-sufficient district, circular economy district, or net GHG
+objectives of the PED (positive energy balance, self-sufficient district, circular economy di
+emissions district).
+
+net GHG emissions district).
+
+2.2. Step 2: Calculate the Energy Needs
+cooling, domestic
+hot water,
+2.2. Heating,
+Step 2: Calculate
+the Energy
+Needsand electric energy needs must be identified.
+
+The needs could be determined by several approaches, including monitoring, calculations
+cooling,standards,
+domesticorhot
+water,
+and electric energy needs must be id
+based Heating,
+on bills, simulation,
+statistical
+data.
+TheThe
+needs
+be determined
+by several
+approaches,
+including
+monitoring,
+calc
+mostcould
+common
+elements included
+in the energy
+performance
+of buildings
+(EPB)
+are
+space
+heating
+and
+cooling
+(SH&C),
+lighting,
+domestic
+hot
+water
+(DHW),
+ventilation,
+based on bills, simulation, standards, or statistical data.
+and humidification [21]. Neither elevators, escalators, home appliances, television, and
+The most common elements included in the energy performance of buildin
+computers, nor are electric vehicles (EV) or their charging stations are covered under the EPB.
+are space
+heating
+lighting,
+domestic
+hot4)water
+(DHW),
+ven
+However,
+these
+energyand
+uses cooling
+are likely (SH&C),
+to be included
+in future
+EPBs (Figure
+according
+to
+and
+humidification
+Neither
+elevators,
+escalators,
+appliances,
+the
+Spanish
+technical code[21].
+[22]. Thus,
+within
+the MAKING-CITY
+PED home
+calculation
+guidelines, televis
+elements
+that are
+included
+in the balance
+need
+to beor
+clearly
+(seestations
+Figure 3)are
+so ascovered
+to
+computers,
+nor
+are electric
+vehicles
+(EV)
+theirdisplayed
+charging
+u
+ensure
+transparency
+as
+well
+as
+to
+make
+the
+results
+comparable.
+EPB. -. However, these energy uses are likely to be included in future EPBs (F
+
+according to the Spanish technical code [22]. Thus, within the MAKING-CITY PE
+lation guidelines, elements that are included in the balance need to be clearly d
+(see Figure 3) so as to ensure transparency as well as to make the results compara
+
+Sustainability 2021, 13, 710
+Sustainability 2021, 13, x FOR PEER REVIEW
+
+6 of 19
+6 of 19
+
+Figure 4. EPB building uses illustration.
+Figure 4. EPB building uses illustration.
+
+2.2.1. Thermal Energy Needs
+2.2.1. Thermal
+Thermalenergy
+Energyneeds
+Needs
+can be defined as the heat to be delivered to cover the energy deThermal
+energy needs
+cantobemaintain
+defined an
+as intended
+the heat to
+be delivered
+cover the energy
+mands
+of the building
+in order
+space
+at a giventotemperature
+(space
+demands
+in order
+to maintain
+an the
+intended
+space of
+at the
+a given
+heating = of
+SHthe
+andbuilding
+space cooling
+= SC),
+and to raise
+temperature
+watertemperature
+distribution
+(space
+heating
+SH andtemperature
+space cooling
+SC), andhot
+to water
+raise the
+temperature
+of the[21].
+water
+network
+to the =desired
+for =
+domestic
+(DHW)
+consumption
+distribution
+network
+to the
+desired
+temperature
+for domestic
+water
+In many
+countries,
+recent
+regulations
+for nearly
+zero orhot
+very
+low(DHW)
+energyconsumpbuildings
+require
+tion
+[21].a decrease in energy consumption from 30 to 50% from what was required in
+previous
+regulations.
+most
+countries,for
+new
+buildings
+under
+are
+In many
+countries,For
+recent
+regulations
+nearly
+zero or
+very the
+lowNZEB
+energyconcept
+buildings
+2 /year in total primary energy terms (although
+expected
+to consume
+less than
+50 kWh/mfrom
+require
+a decrease
+in energy
+consumption
+30 to 50% from what was required in preit depends
+on the country).
+1 triesnew
+to summarize
+the average
+specific
+energyare
+needs
+vious
+regulations.
+For most Table
+countries,
+buildings under
+the NZEB
+concept
+ex2
+in
+EU
+countries
+for
+existing
+residential
+buildings
+and
+NZEB
+buildings.
+The
+former
+value
+pected to consume less than 50 kWh/m /year in total primary energy terms (although it
+2 /year) is too high due to poor insulation of the building stock in the EU [23].
+(144 kWh/m
+depends
+on the
+country). Table 1 tries to summarize the average specific energy needs in
+Forcountries
+PED implementation
+it is recommended
+improve
+the efficiency
+the buildings
+to
+EU
+for existing residential
+buildings to
+and
+NZEB buildings.
+Theof
+former
+value (144
+reduce 2first
+theisenergy
+needs
+thus insulation
+reduce the of
+quantity
+of energy
+production
+to
+kWh/m
+/year)
+too high
+dueand
+to poor
+the building
+stock
+in the EUneeded
+[23]. For
+coverimplementation
+it. In the case ofitNZEBs,
+the variation
+of the energy
+needs (9 to
+kWh/m2 /year)
+PED
+is recommended
+to improve
+the efficiency
+of 34.3
+the buildings
+to redepends
+climate
+zone,
+with
+strict
+for southern
+countries.
+duce
+first on
+thethe
+energy
+needs
+and
+thusmore
+reduce
+therequirements
+quantity of energy
+production
+needed to
+cover it. In the case of NZEBs, the variation of the energy needs (9 to 34.3 kWh/m2/year)
+Table 1. Specific
+needs.more strict requirements for southern countries.
+depends
+on the thermal
+climateenergy
+zone, with
+EU-27 Average Residential Specific
+TableNeeds
+1. Specific thermal energy needs.
+Energy Needs (kWh/m2 /year)
+
+NZEB Specific Energy Needs
+(kWh/m2 /year)
+
+EU-27 Average Residential
+Specific Energy
+NZEB Specific
+Heating
+144 1
+9–34 2Energy Needs
+Needs
+2
+1
+Needs (kWh/m
+/year)
+(kWh/m
+Cooling
+50
+15 3 2/year)
+1
+4 2
+1
+DHW
+Heating
+21144
+109–34
+1
+1 INSPIREFP7
+Cooling D2.1a (2014) [23]. 2 Zebra50Tool nZEB (2020) [24]. 3 Passive House requirements
+15 3
+[25]. 4 Demos
+1
+estimations
+DHW in the MAKING-CITY project.
+21
+10 4
+1 INSPIREFP7 D2.1a (2014) [23]. 2 Zebra Tool nZEB (2020) [24]. 3 Passive House requirements [25]. 4
+DemosAestimations
+in the MAKING-CITY
+project.
+basic calculation
+for energy needs
+for a PED, whenever no more data is available,
+
+would rely on the energy needs from building regulations applied to the different buildings,
+basic
+calculation
+forinenergy
+whenever
+no more
+is available,
+suchAas
+those
+presented
+Table needs
+1, andfor
+thea PED,
+SH and
+SC needs
+can bedata
+defined
+by the
+would
+rely
+on
+the
+energy
+needs
+from
+building
+regulations
+applied
+to
+the
+different
+buildfollowing equation:
+ings, such as those presentedTEN
+in Table
+1, M
+and
+the
+SH and
+∗ Spec
+(1)
+H&C =
+H&C
+SH orSC
+SCneeds can be defined by the
+
+
+following equation:
+th
+where TENH&C is thermal energy needs for heating and cooling kWh
+, MM&C is the space
+yr
+
+
+(1)
+TEN𝐻&𝐶 = MH&C ∗ 𝑆𝑝𝑒𝑐𝑆𝐻 𝑜𝑟 𝑆𝐶
+to cool or heat (m2 ), and SpecSH or sc is the specific energy need of SH or SC needs kWh
+.
+m2 yr
+
+Sustainability 2021, 13, 710
+
+7 of 19
+
+Other simple calculation procedures were followed in the literature, such as the
+heating degree days (HDD) and cooling degree days (CDD) methodology. First, the heat
+loss coefficient (in W/K) of the building is calculated as a result of the heat gains (internal,
+solar heat gains, etc.) and the losses due to heat transfer by transmission (dependent on
+the U value of the buildings) and ventilation. Then, the HDD and CDD are calculated,
+which estimate how many days within a year the temperature of the building is under (for
+heating) or above (for cooling) a certain reference level (i.e., outside temperature at which
+people start to use heating or cooling appliances). By multiplying these two values, the
+energy needs can be estimated [26]:
+BENH&C = BLC∗24∗DD
+
+(2)
+
+where BENH&C is building energy needs (kWh), BLC is the overall building heat loss
+coefficient (kW/K), and DD is the degree days (K·d).
+More detailed methodologies for calculating the energy needs use energy modelling
+tools such as Energy+ [27], or specific national calculation tools developed in most countries
+for compliance with building regulations (e.g., HULC in Spain [28]).
+With regards to the DHW energy needs, EN15316-3-1 presents several ways to estimate
+it. For example, it can be calculated assuming a linear relationship between the volume of
+water to be heated and the square meters of the building, or by estimating it with tabulated
+values for different types of buildings (relating area and DHW energy needs). Thus, the
+DHW needs can be defined by the following equation:
+TENDHW = M∗Spec DHW
+
+(3)
+
+where TENDHW is the domestic hot water needs, M is the floor area of the building (m2 ) or
+the number of people in the building, and SpecDHW is the specific energy demand to cover
+DHW needs.
+The parameters in Equation (3) are the floor area of the building in m2 (or number of
+people in the building, depending on the data provided by the national standards), and
+the specific energy demand in kWh/unit to cover DHW needs. The latter one sometimes
+can be found in some national standards. In Spain, residential DHW needs are estimated
+to be from 420 to 573 kWh/year per tenant, whereas in hospitals it depends on the beds
+(1050 kWh/year/bed) and in sport centers on the users (477 kWh/year/user) [29]. Tools
+such as the CREST demand model [30] or DHWcalc [31] can be used for residential buildings to generate DHW profiles with statistical means per minute. Table 1 summarizes some
+specific energy needs for different uses. Again, specific national calculation tools developed
+for compliance with building regulations also provide calculations of DHW demands.
+2.2.2. Electric Energy Needs
+“Electric energy needs” are understood as the electricity delivered to cover the energy
+demand for the lighting and ventilation of a building. Usually “electric energy needs” and
+“electric energy use” by the building for lighting and ventilation purposes are the same, as
+losses are usually omitted [21]. Electrical energy to drive the heating system (such as heat
+pumps or electrical heaters) and auxiliary elements (pumps, etc.) should be included as
+energy use. On the contrary, the heating or cooling output from the heat pump to cover the
+space heating and space cooling needs are included in the thermal energy needs.
+The energy use of appliances is difficult to quantify and predict, as it depends a lot on
+the occupants’ behavior and preferences [32]. The CREST demand model [30] can be used
+to determine the electric energy use of appliances within a day (and can be extrapolated to a
+year) depending on the number of electrical devices (fridges, cookers, television, computer,
+etc.) and occupancy levels estimated by statistical means. Appliances are not considered as
+part of the services included in the assessment of the energy performance and thus, not
+calculated [21]. But its energy consumption can contribute significantly to the performance
+gap between the predicted and actual energy consumption of the building, and thus to the
+
+Sustainability 2021, 13, 710
+
+8 of 19
+
+performance of the positive energy balance of the district. If appliances are excluded, when
+evaluating a PED, monitoring shall allow the loads to be measured separately to calculate
+the PED performance with and without appliances.
+The electric energy needs can be estimated with the following equation:
+EEN = M ∗ Specel
+(4)
+
+
+e
+where EEN is the electric energy needs kWh
+M is the floor area of the building (m2 ), and
+yr
+
+
+Specel is the specific electric energy need from literature kWh
+.
+m2 yr
+The specific energy needs can be found in Table 2.
+Table 2. EU-27 residential specific electric energy needs.
+Needs
+
+Specific Energy Needs (kWh/m2 ·Year)
+
+Lighting 1
+Ventilation 2
+
+5
+1.3–5.5
+
+1
+
+INSPIREFP7 D2.1a (2014) [23], 2 TABULA common values (1.3 for a high energy efficiency exhaust air system
+and 5.5 for a ventilation system with heat recovery [33]).
+
+Using values from Table 2, the electric energy needs for the district are the sum of the
+electric energy needs for ventilation and for lighting:
+EEN(vent.+light.) = EENvent. + EENligth.
+
+(5)
+
+2.3. Step 3: Calculate the Energy Use
+To cover the energy needs, distribution systems, emitters (such as fan coils, radiators,
+etc.), storage tanks, and heat exchangers are used. To take into account all the losses, from
+the generation system to the energy needs (DHW, SH, SC) of a building, some typical
+efficiencies can be considered. The efficiency transforms “energy needs” into “energy use”:
+EU =
+
+TEN
+ηemitter
+
+(6)
+
+where TEN is calculated according to Section 2.2.1 and transformed to TEU considering the
+efficiency (η) of the emitters. Typically, heat exchangers have a conversion efficiency from
+the primary stream (source) to the secondary stream (sink) of 70%, but it might be higher or
+lower depending on many factors, such as the area of heat transmission. Heat distribution
+losses by pipes and storage can vary a lot, from 5% for systems with high insulation to
+20% if thinner insulation is installed. TABULA estimates losses of 14.7 kWh/m2 /year with
+buffer storage losses, 20.5 kWh/m2 /year for central heating with a pipeline inside of the
+thermal envelope, and 36.4 kWh/m2 /year for central heating with a fraction of the pipeline
+outside of the thermal envelope [33]. The thermal energy use can also be identified as the
+useful energy output from the thermal generation systems (e.g., solar thermal collectors,
+boilers, thermal output from CHP, etc.). Detailed information on how to calculate the
+energy uses is presented in standard EN15316-3:2017.
+Electric energy use can also be identified as the useful energy output from the electric
+generation systems, but there may be a slight difference between the energy use by the
+appliances and lighting and the energy produced, as part of the electric energy will be lost
+in the form of heat. Nevertheless, most of the time this energy loss is very small and can be
+omitted, so for ventilation and lighting it could be said that:
+EEU(vent.+light.) ∼
+= EEN(vent.+light.)
+
+(7)
+
+If a heat pump (HP) or an electric resistance is used to cover the SH/SC needs or
+DHW, its seasonal coefficient of performance (SCOP for SH and DHW) and its seasonal
+
+Sustainability 2021, 13, 710
+
+9 of 19
+
+energy efficiency ratio for cooling (SEERSC ) could be used to estimate the electric energy
+use. Thus, the total electric energy use of the district is the sum of the ventilation, lighting,
+and electricity required for SH/SC and DHW:
+TENSH
+TENSC
+TENDHW
+EEU(vent+light+HP) ∼
++
++
+= EEU(vent+light) +
+SCOPSH
+SEERSC
+SCOPDHW
+
+(8)
+
+The COP of HPs largely depends on the temperature to be delivered, the mode (heating
+or cooling), and the temperature of the source. For example, for a WWHP producing 55 ◦ C
+for DHW with a ground temperature of 15 ◦ C, the COP may be around 3.16, whereas
+if it produces water at 35 ◦ C, the COP increases up to 6.30. For this same heat pump, if
+producing cooling at 7 ◦ C with an outdoor air temperature of 35 ◦ C, the EER is reduced
+to 2.73 [34].
+In the MAKING-CITY calculation methodology electricity used within the district
+boundaries for domestic appliances and mobility (traffic lights, road lights, EV cars, etc.)
+are omitted. In commercial and industrial buildings, the corresponding standards should
+be taken into account, but usually all energy use for processes and for the services provided
+by a commercial or tertiary activity should be considered. Nevertheless, it is left open
+that a PED can elect the elements and prepare a specific calculation, as long as it is clearly
+reported as displayed in Figure 3.
+2.4. Step 4: Calculate the on-Site Generation
+The following step in the PED calculation is to consider different supply side solutions
+to cover energy needs [35]. After selecting which solutions will be considered for a certain
+district, energy systems can be listed, and the connections between each of them (schematics) as well as the energy sources supplying the PED (biogas, natural gas, solar, wind,
+electricity from the grid, etc.) can be identified. Table 3 shows the energy flows depending
+on different supply side solutions. Several systems could be used in combination, so
+different energy flows should be considered. The energy carrier fed into the generation
+systems can come from on-site renewable energy sources (within the boundaries) or from
+the outside (incoming energy) when electricity from the grid or biomass is consumed. RES
+are considered local (or on-site) generation in the MAKING-CITY calculation methodology
+(i.e., within the boundaries of the district). Waste heat is also considered a renewable source
+in most of the literature, as this heat would otherwise be wasted [36]. Heat pumps with a
+SCOP higher than 2.5 are considered a renewable source according to ISO52000, but in this
+methodology what is done is to consider the driving source of the heat pump as energy
+use (in Equation (8)) instead of local on-site production.
+The idea in this phase is to identify which energy uses will be covered by RES (numbers
+1 and 2 in Figure 5) and maximize its capacity to cover as much as possible with it. As
+Figure 5 shows, the higher the thermal energy coming from RES and waste heat, the lower
+the dependency from a non-RES system such as a boiler. If the latter one is used, a fuel
+input is required (number 4 in Figure 5) that can come from a non-RES source (such as
+natural gas). In the case of electricity, the energy uses can be covered by electric RES, a
+CHP, or the electricity from the grid (numbers 2 and 3 in Figure 5, respectively). In the case
+of the heat pump, it can be seen that it is accounted as EEU, which produces heating or
+cooling to cover the needs.
+
+Sustainability 2021, 13, 710
+
+10 of 19
+
+Table 3. Energy flows depending on the systems.
+System
+
+Energy Delivered (Input Energy Carrier)
+
+Energy Output
+
+RES
+
+Boiler
+
+Fossil fuels or biogas, biomass, biofuels, etc.
+
+Heating
+
+Only if fuel comes
+from a RES
+
+Combined heat and power
+(CHP)
+
+Fossil fuels or biogas, biomass, biofuels, etc.
+(only accounted for once)
+
+Heating
+Electricity
+
+Only if fuel comes
+from a RES
+
+Air–water heat pump (AWHP)
+Water–water heat pump
+(WWHP)
+
+Electricity from grid or on-site RES source.
+In this methodology, considered EEU (step 3)
+
+Heating,
+cooling or DHW to
+cover needs
+
+Depending on the
+seasonal performance.
+
+Electric resistance
+
+Electricity from grid or on-site RES source
+
+Heating
+
+Not usually
+
+Thermal-driven heat pumps
+
+Electricity for auxiliaries or fuel used to drive HP
+
+Heating
+Cooling
+
+Depending on the
+seasonal performance.
+
+Photovoltaic
+panels (PV)
+
+None (considered on-site)
+
+Electricity
+
+Yes
+
+Solar thermal panels
+
+None (as it considered on site)
+
+Heating
+
+Yes
+
+Hydro/Wind turbine
+
+None (as it considered on site)
+
+Electricity
+
+Yes 1
+
+Waste heat
+
+None
+
+Heating
+
+Yes
+
+1
+
+Some countries do not consider local micro-wind and local hydro as part of the RES contribution to buildings.
+
+Figure 5. Energy flows in a Sankey diagram illustrating the difference between energy needs, energy
+uses, and energy delivered.
+
+Thus, the useful RES thermal energy produced from hybrid photovoltaic-thermal
+panels (TEPPVTth ), a biomass-fuelled CHP (TEPCHPbio,th ), and a direct exchange with a
+geothermal source (TEPgeo ), among others, can be calculated as follows:
+TEPRES =
+
+∑ TEPPVTth + TEPCHPbio,th + TEPgeo + · · ·
+
+(9)
+
+Sustainability 2021, 13, 710
+
+11 of 19
+
+The biomass used in the CHP should be considered in step 5. The useful RES electricity
+generated on site from PVT panels (EEPPVTel ), from PV panels (EEPPV ), and from a biomassfueled CHP can be calculated as follows:
+EEPRES =
+
+∑ EEPPVTel + EEPPV + TEPCHPbio,el + · · ·
+
+(10)
+
+Biomass used in the CHP should be only accounted for once in Section 2.5. Knowing
+the energy uses that need to be covered by each RES system gives an idea of its needed
+useful output and, using an efficiency, the required installed capacity to cover the needs.
+In [37], the efficiency values at full load for different energy systems were evaluated. The
+efficiency mean values were near 100% for condensing boilers and electric radiators, from
+85% to 90% for solar thermal unglazed collectors, from 75% to 80% for non-condensing
+boilers, around 60% for flat-plate and evacuated tube collectors, and 50% for electric stoves.
+The DH system had a mean heat loss for EU28 of 13.70%. The mean capacity per equipment
+in EU28 was presented in [37], varying from 5 kW to aerothermal heat pumps and stoves,
+20 kW for condensing and non-condensing boilers, and up to 200 kW for combined heatpower units (CHP) [37]. The district heating mean value exceeded the capacities (reaching
+a number of almost 75,000 kW [37]) but the maximum capacities in small houses were
+actually 60 kW for DWW and 20 kW for heating [38]. If SH and DHW are centralized, they
+can reach much more depending on use and demand.
+2.5. Step 5: Calculate the Energy Delivered
+The energy delivered is known as the energy supplied to the PED (per energy carrier)
+that is produced outside the district boundaries. Usually it comes from thermal, gas, or
+electric grids and feeds the energy systems available on site in the district.
+With the useful outputs calculated in step 4, the remaining energy to be covered
+by non-renewable energy sources (e.g., natural gas-driven boilers) or by external grids
+(e.g., electricity or DHN) was identified. To do so, the thermal energy produced from
+RES (TEPRES ) and the thermal energy use (TEU) are compared. If the difference is greater
+than zero, there is remaining energy to be covered by non-RES or by a district heating
+system. For both, the energy delivered (ED) to the PED should be considered. If instead
+the difference is lower than zero, there is an amount of thermal energy exported outside
+the limits of the PED (which can be called a surplus of thermal energy):
+STE = TEU − TEPRES
+
+(11)
+
+The same applies for the surplus of electric energy:
+SEE = EEU − EEPRES
+
+(12)
+
+In the case that the SEE is higher than zero, the electricity needed can come from the
+power electricity grid. Greater energy consumption over renewable energy generation
+within the boundary indicates an import (in) from outside the boundary (i.e., STE > 0 or
+SEE > 0). Greater renewable energy generation within the boundary over energy import
+from outside the boundary indicates an export (out) to outside the boundary (i.e., STE < 0
+or SEE < 0).
+Even if the STE is lower than zero, the incoming energy to boilers or CHP systems that
+use biomass is usually considered a renewable source coming from outside the boundaries
+(thus, it is delivered to the PED). That incoming energy (to be used by biomass boilers or
+CHP boilers) needs to be accounted for as well. For example, the energy delivered (ED) by
+a CHP using biomass is:
+TEPCHPbio,th
+EDCHP =
+(13)
+ηCHPbio,th
+The EDCHP is the biomass energy needed to produce the required heat (TEPCHPbio,th ).
+The ED of the CHP is only accounted for once as the CHP produces both electricity and heat
+
+Sustainability 2021, 13, 710
+
+12 of 19
+
+using the same input. Both the output and input of each system are linked with a source of
+energy inside or outside the boundary for each energy carrier. The total ED is accounted
+for separately per energy carrier, such as natural gas, peat, biomass, electricity from the
+grid, oil, etc. The imported energy (or ED) and exported energy are then transformed to
+primary energy in step 6 per energy carrier.
+2.6. Step 6: Calculate the Primary Energy Equivalent
+Primary energy is the energy that has not undergone any conversion in the transformation process, calculated by the energy carrier using the primary energy factors (PEF). In the
+MAKING-CITY methodology non-renewable primary energy factors (PEFnren ) are used.
+Usually the non-renewable primary energy factor for the electricity exported is considered
+the same as the grid’s non-renewable primary energy factor since a substitution assumption
+is made, meaning that by exporting it, the exports avoid this amount of electricity in the
+national energy mix. The same thing happens with the heat exported to district heating.
+The “delivered energy” per energy carrier is transformed into primary energy as follows:
+
+•
+
+Primary energy imported (PEI) is calculated as the sum of the weighted delivered
+energy over all energy carriers (electric energy drawn from the grid, gas from the grid,
+oil, or pellets—all multiplied by their respective PEFnren ).
+PEI =
+
+∑ Delivered energy per energy carrier ∗ PEFnren per energy carrier
+
+(14)
+
+It accounts for the energy supplied to the district that is produced outside the district limits.
+
+•
+
+Primary energy exported (PEE) is calculated as the sum of the weighted exported
+energy over all energy carriers.
+PEE =
+
+∑ Exported energy per energy carrier ∗ PEFnren per energy carrier
+
+(15)
+
+It is the surplus of energy delivered by the district that is used outside the system boundary.
+PEFs are the ratio of a given type of primary energy (renewable, non-renewable, and
+total as the addition of both) to the actual energy amount. On the one hand, if only nonrenewable primary energy is taken into account in the analysis, non-renewable primary
+energy factors (PEFnren ) are used. This methodology recommends calculating the PED
+balance in non-RES primary energy terms using PEFnren , as if total primary energy factors
+(TPEF) are used it could hamper the use of some RES, such as biomass from forest waste
+that would be an import to the PED. TPEF is the sum of the PEFnren and renewable primary
+energy factor (PEFren ):
+TPEF = PEFnren + PEFren
+(16)
+PEFs, whether TPEF or PEFnren , are usually a constant national value, and do not
+depend on time or geographical location. However, they depend on the specific mix of
+primary energy sources and the efficiency of the processes of transformation, generation,
+storage, and transportation, which are temporally dependent factors [39]. PEFren for RES
+are a bit more intricate. Finland considers PEFren zero in their calculations [40,41], whereas
+Spain [42] and Germany [43] do not. Waste heat can be seen as a renewable source (with a
+PEFren of 1) that is used to reduce the heat input, as this heat would otherwise be wasted [36].
+For biomass, PEFren can depend on its regrowth rate [44], such as peat that is considered
+non-RES since it accumulates on the land with a low carbon sequestration yield [45]. For
+renewable sources such as PV or wind, some countries consider the non-renewable energy
+used during the maintenance process of these plants (hence, its PEFnren is similar to 0.05).
+For the present methodology, as the balance is calculated on annual basis, national primary
+energy factors are recommended. Nevertheless, if some factors cannot be found, the ISO
+52000 standard provides a table with default total non-renewable and renewable primary
+energy factors [46].
+
+the ISO 52000 standard provides a table with default total non-renewable and renewable
+primary energy factors [46].
+Sustainability 2021, 13, 710
+
+13 of 19
+
+2.7. Step 7: Calculate the PED Energy Balance
+The primary energy balance in the MAKING-CITY methodology is calculated as the
+Step 7: Calculate
+the PED Energy
+Balanceenergy delivered to the district (PEI) and
+difference2.7.
+between
+the non-renewable
+primary
+The primary
+energy
+balance
+MAKING-CITY
+methodology
+is calculated
+as the
+the non-renewable
+primary
+energy
+thatin
+is the
+exported
+outside the
+PED’s boundaries
+(PEE):
+difference between the non-renewable primary energy delivered to the district (PEI) and
+(16)
+𝑃𝐸𝐷
+𝐵𝑎𝑙𝑎𝑛𝑐𝑒
+𝑃𝐸𝐼 − 𝑃𝐸𝐸
+the non-renewable primary
+energy
+that is=exported
+outside the PED’s boundaries (PEE):
+
+The PED balance value is negative
+the=PEE
+PEDwhen
+Balance
+PEIis−higher
+PEE than the PEI. This means
+(17)
+that the district is positive. This is due to the fact that the energy flow direction when
+The PED(or
+balance
+value is is
+negative
+when
+PEEitisleaves
+higherthe
+than
+the PEI.
+This means
+entering the building
+the district)
+positive,
+andthe
+when
+district
+boundaries
+that the district is positive. This is due to the fact that the energy flow direction when
+it is negative.
+entering
+the building
+(or thedistrict,
+district) monitored
+is positive, and
+when
+district
+boundaries
+When
+evaluating
+an existing
+data
+can itbeleaves
+usedthe
+and
+the evaluation
+it
+is
+negative.
+can start in step 4, calculating how much energy is used within the district, how much
+When evaluating an existing district, monitored data can be used and the evaluation
+energy comes from outside the boundaries of the district (step 5), and thus, the primary
+can start in step 4, calculating how much energy is used within the district, how much
+energy balance
+and 7).
+energy (step
+comes6from
+outside the boundaries of the district (step 5), and thus, the primary
+energy balance (step 6 and 7).
+
+2.8. Step 8: Perform the Sankey Diagram
+Perform the Sankey Diagram
+Once2.8.
+allStep
+the8:steps
+are finalized, an energy flow diagram can be drawn (known as a
+Once
+all
+the
+are finalized,
+flow diagram
+can be drawn
+(known
+as a
+Sankey diagram) such assteps
+the one
+in Figurean6.energy
+This graphic
+representation
+shows
+the enSankey diagram) such as the one in Figure 6. This graphic representation shows the energy
+ergy flows for the different stages of the balance. For simplicity, energy systems and emitflows for the different stages of the balance. For simplicity, energy systems and emitters
+ters are not drawn. The energy needs that the district demands, the energy used for covare not drawn. The energy needs that the district demands, the energy used for covering
+ering thisthis
+demand,
+deliveredinto
+into
+district,
+andenergy
+this energy
+(repre-in
+demand,the
+thefinal
+final energy
+energy delivered
+thethe
+district,
+and this
+(represented
+sented interms
+termsofofprimary
+primary
+energy)
+stages
+that cover
+electric
+and thermal
+energy)
+areare
+the the
+fourfour
+stages
+that cover
+electric
+and thermal
+energy. enThe
+ergy. Thefifth
+fifthsection
+section
+diagram
+shows
+the result
+the primary
+energy and
+balance
+and
+of of
+thisthis
+diagram
+shows
+the result
+of the of
+primary
+energy balance
+represents
+thethe
+surplus
+of energy
+that that
+the PED
+have. have.
+represents
+surplus
+of energy
+the could
+PED could
+
+DISTRICT
+BOUNDARIES
+
+Figure 6. Sankey diagram of a district the dashed line indicates the boundaries considered in this paper.
+
+Figure 6. Sankey diagram of a district the dashed line indicates the boundaries considered in this
+paper.
+2.9. Other Indicators
+
+The total primary energy can be used as an additional indicator besides non-renewable
+2.9. Other Indicators
+
+primary energy.Total primary energy can be divided into non-renewable primary energy
+
+The (PE
+total
+primary energy can be used as an additional indicator besides non-renewnren ) and renewable primary energy (PEren ) expressed in net terms as follows:
+able primary
+energy.Total
+primary energy can be divided into non-renewable primary
+•
+PE
+nren is the non-renewable primary energy consumed at the energy facility. It is
+energy (PEnrencalculated
+) and renewable
+primary
+energy (PE
+ren) per
+expressed
+in netthat
+terms
+as follows:
+as the sum
+of all delivered
+energy
+energy carrier
+comes
+from a non-
+
+Sustainability 2021, 13, 710
+
+14 of 19
+
+renewable source weighted using non-renewable primary energy factors (PEFnren ).
+In addition, the avoided energy as a result of injecting PV into the grid is considered
+(using PEFnren,GRID ).
+PEnren = ∑ Delivered energy per energy carrier ∗ PEFnren,ENERGY CARRIER − Exported energy PV ∗ PEFnren,GRID
+−Exported energy Biogas ∗ PEFnren,GAS · · · etc.
+
+(18)
+
+This should be equal to the MAKING-CITY PED balance (Equation (17)), as only
+PEFnren are considered.
+
+•
+
+PEren is the renewable primary energy consumed at the energy facility. It is calculated
+per energy carrier. Renewables coming from the grid are also considered:
+
+PEren = ∑ Delivered energy per energy carrier ∗ PEFren,ENERGY CARRIER − Exported energy PV ∗ PEFren,GRID
+−Exported energy Biogas ∗ PEFren,GAS · · · ETC
+
+(19)
+
+The sum of the two terms from above is the total primary energy balance:
+PED BalanceTOTAL terms = PEnren + PEren
+
+(20)
+
+This can give an idea of how efficient a district is.
+Furthermore, if the city wants to assess how much renewable energy has been delivered to the PED, the renewable energy factor is calculated as follows:
+RER =
+
+PEren
+PED BalanceTOTAL terms
+
+(21)
+
+Finally, the net carbon dioxide equivalent emissions can be calculated as the difference between the total equivalent carbon dioxide emissions (CO2eq ) of the imported
+primary energy and the total equivalent emissions that have been avoided by exporting
+the RES produced.
+CO2 eqB =
+
+∑ PEI per energy carrier ∗ CO2eq emission factor − ∑ PEE per energy carrier ∗ CO2eq emission factor
+
+(22)
+
+Care should be taken calculating this, as most of the CO2eq emission factors are in
+terms of delivered energy or final energy (not primary energy). In this case it is calculated
+with the net non-renewable primary energy. Therefore, the emission factor to be used is in
+terms of non-renewable primary energy, too.
+3. Discussion—Shortcomings of the Proposed Methodology
+The methodology proposed a process to calculate a PED energy balance based on
+primary energy. On the one hand, the accuracy that can be required for the energy balance
+calculations of the PED is debatable. Calculation of energy needs and energy use within
+the buildings and public spaces at the design stage needs a lot of estimations, and it can
+lead to over- and underestimations of what will really be demanded. For instance, in a
+MAKING-CITY project the calculation of the energy use of the building is simplified (and
+by extension the district) and appliances are not considered.
+On the other hand, EU member states (MS) have different approaches when accounting
+for the RES requirements for the energy performance of buildings (such as the NZEB).
+Some technologies, such as solar thermal panels for domestic hot water generation and for
+heating, PV for self-use, biomass boilers, and heat pumps coupled with external air, exhaust
+air, ground, or ground water, can in general be accounted for in the energy performance
+calculation in all 24 countries [47]. However, PV for feed-in, RES as part of a district
+cooling network or micro-wind turbines (for both: self-use or feed-in), and local hydro
+power for self-use can be accounted for in the energy performance calculation in about
+half of the EU MS. The RES technologies that can most rarely be accounted for in energy
+performance calculations are RES electricity via the grid (with a specific contract) and
+
+Sustainability 2021, 13, 710
+
+15 of 19
+
+local hydro power for feed-in. In principle, PEDs should use an approach closer to the
+national codes where the PED is applied, but accounting additionally for the energy that
+is exported, as is followed in this article (otherwise, it would be very difficult to achieve
+a PED). However, as MS do not have a harmonized way to calculate energy balances, in
+some countries the implementation of PEDs could be jeopardized and it could be difficult
+to compare them. For example, in Spanish DB-HE2019 regulations non-renewable energy
+flows can be only compensated with energy exports within the same month. This means,
+for example, that the excess PV energy exported during the months of summer cannot
+compensate the non-renewable energy consumption from the months of winter. This is
+a barrier for implementing PEDs in Spain, and relates to the calculation timestep used in
+the PED calculations. Although in this paper an annual energy balance was considered,
+shorter timesteps add complexity to the calculation. Monthly, daily, hourly, or sub-hourly
+simulations can be a further addition to the methodology whenever it is necessary to assess
+the role of PEDs on the flexibility of the energy system.
+Finally, barriers to the technology implementation and refurbishment of buildings are
+high, especially in existing districts. CA EPBD work on national applications of the NZEB
+definition has shown that MS see a specific challenge in “how to include RES contributions
+to the energy supply of multi-family houses in city centres, where roof areas and other
+suitable areas for the installation of RES technologies (e.g., the ground around the buildings)
+are limited in comparison with the buildings’ floor area and are often shaded by other
+buildings” [47]. The EU project POCITYF will demonstrate 10 integrated solutions in
+cultural heritage areas that are usually difficult to refurbish due to the cultural value of
+their façades. Thus, there is still a gap in the different barriers that could be found in
+different urban contexts and how to overcome them.
+4. Conclusions
+This paper establishes an eight-step guideline on how to calculate the annual energy
+balance of a district. The methodology is meant for districts aspiring to become PEDs,
+which need to demonstrate that a positive energy balance is achieved. Although many
+assumptions are required depending on district, region, or country context (such as PEFs),
+the methodology proposed could help the cities at the design stage of establishing a district
+and to evaluate its annual energy balance.
+Currently, there is no standard to calculate an energy balance applied at the district
+level, and the energy flows between the buildings and energy systems are very casespecific and sometimes complex to understand. On the other hand, standards can help
+but are not that user-friendly. Therefore, the developed methodology proposes an energy
+balance calculation as a “first step” to standardize the process and to provide a clear
+calculation procedure. The proposed calculation makes different assumptions on how
+the boundaries are defined and how to calculate the district balance despite most of
+them still being under discussion in most of the relevant scientific forums. Appliances,
+mobility, occupants’ behavior, and building automation systems are not considered in these
+calculation procedures (not known at the design stage), but when considered, it could
+improve the results between the predicted and actual energy uses of the district and lead
+to a more accurate design to achieve a positive energy balance. In the future, integration
+of different sectors and energy vectors (such as industry and hydrogen), should also be
+considered. Furthermore, seasonal and even simultaneous operation of PEDs and the
+impact and stress that the grid can suffer should be studied.
+Because it is possible to achieve a Positive Energy District through an unrealistic
+system (as huge on-site generation, to give an example), a standardized calculation is
+needed similar to the NZEB rating, where lowering the energy needs is a first requisite to
+certifying the building (and by extension a district).
+Finally, the developed methodology will be the basis for energy balance calculations
+for lighthouse cities in the MAKING-CITY project, and the verification of this methodology
+once the real project demo sites are finished and evaluated.
+
+Sustainability 2021, 13, 710
+
+16 of 19
+
+Author Contributions: State of the art, F.V. and C.S.M.; calculation methodology definition, A.G.M.,
+P.H., B.A., and F.V.; visualization, A.G.M. and C.S.M.; supervision and project administration, C.S.M.
+All authors have read and agreed to the published version of the manuscript.
+Funding: This project has received funding from the European Union’s Horizon 2020 research and
+innovation programme under grant agreement No 824418 (MAKING-CITY).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Acknowledgments: We would like to express our deep gratitude to the cities of Groningen and
+Oulu, and to TNO, who participated in the discussions when defining the calculation methodology
+of Positive Energy Districts.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Appendix A
+The following terms are used within the calculation methodology. The terms are based
+on ISO52000-1 [27].
+Name
+
+Acronym
+
+Positive Energy
+District
+
+PED
+
+Renewable Energy
+Sources
+
+RES
+
+Thermal Energy Needs
+(heating and cooling)
+
+TENH&C
+
+Thermal energy Needs
+(domestic hot
+water—DHW)
+
+TENDHW
+
+Electric Energy Needs
+
+EEN
+
+Thermal Energy Use
+
+TEU
+
+Description
+A Positive Energy District is an urban area with clear boundaries, consisting of
+buildings of different typologies that actively manage the energy flow between them
+and the larger energy system to reach an annual positive non-renewable primary energy
+balance. Non-renewable primary energy imported to the district is lower than the
+equivalent avoided non-renewable primary energy (due to RES exports outside the
+district limits).
+Systems using solar energy, wind farms (owned by the district), geothermal,
+hydropower, heat pumps (with COP > 2.5), and systems using local biomass or biogas
+are local on-site renewable energy sources. Waste heat facilities are considered local
+on-site renewable sources. In the case of biogas and biomass, a non-renewable primary
+energy factor is used to transform the biogas/biomass energy delivered into primary
+energy, i.e., accounting for the energy needed to process and obtain these fuels.
+Heat to be delivered to or extracted by emitters (radiators, fan coils, etc.) to cover the
+energy demands of the buildings and thermal conditioned spaces to maintain the
+intended space temperature conditions during a given period of time [21]
+Heat to be delivered to the needed amount of domestic hot water to raise its
+temperature from the cold network temperature (usually known as tap water) to the
+prefixed delivered temperature (different for each country and system) at the delivery
+point, accounting for the losses [21]
+Electric energy to be delivered to cover the energy demand of lighting and ventilation of
+a building. Usually electric energy needs and electric energy use by the building for
+lighting and ventilation purposes are the same (losses can be neglected). Electrical
+energy to drive the heating system (such as heat pumps or electrical heaters) and
+auxiliary elements (pumps, etc.) should be included as energy use [21]
+Energy input into the heating, cooling, or hot water system to satisfy the thermal energy
+needs for heating, cooling, or hot water, respectively. It can also be identified as the
+useful energy output from the thermal generation systems (e.g., solar thermal collectors,
+boilers, thermal output from CHP, etc.). [21]
+
+Sustainability 2021, 13, 710
+
+Name
+
+17 of 19
+
+Acronym
+
+Electric Energy Use
+
+EEU
+
+Thermal Energy
+Produced from RES
+
+TEPRES
+
+Electric Energy
+Produced from RES
+
+EEPRES
+
+Surplus of Thermal
+Energy
+
+STE
+
+Surplus of Electric
+Energy
+
+SEE
+
+Energy Delivered
+
+ED
+
+Primary Energy
+Balance
+
+PEB
+
+Total Primary Energy
+Factor
+
+TPEF
+
+Non-Renewable
+Primary Energy Factor
+
+PEFnren
+
+Renewable Primary
+Energy Factor
+
+PEFren
+
+Primary Energy
+Exported
+
+PEE
+
+Primary Energy
+Imported
+
+PEI
+
+Description
+Electric energy directly consumed by buildings (from grid or local RES as PV, wind, etc.)
+to be delivered to cover the energy needs (for DHW, heating, and cooling when an
+electricity-driven system is used; and ventilation and lighting). Only electric energy
+needs and uses in the EPB standards are considered, therefore the electricity used
+within the district boundaries for domestic appliances and mobility (traffic lights, road
+lights, EV cars, etc.) are neglected [21]. In commercial and industrial buildings, the
+corresponding standards should be taken into account. Note that electric energy use can
+also be identified as the useful energy output from the electric generation systems.
+There might be a slight difference between the energy use by the building and the
+electric energy needs by appliances due to the loss of energy by means of heat, which is
+usually neglected, as it is smaller than the overall consumption. Electric energy to drive
+the heating system (such as heat pumps or electrical heaters) and auxiliary elements
+(pumps, etc.) should be included as electric energy use.
+Thermal energy generated by the systems located on site in the district from RES. The
+energy carrier used in these systems should be considered in order to know the amount
+of energy delivered to the PED (e.g., biomass imported, etc.).
+Electricity generated by any system located on site in the district from RES. All the
+energy carriers used in these systems should be considered in order to know the
+amount of energy delivered to the PED (e.g., biomass imported, etc.).
+The thermal energy produced on site that is not used to cover thermal energy needs and
+therefore is exported outside the district boundaries. It is calculated as the difference
+between thermal energy produced on site and thermal energy used on site.
+The electricity produced on site that is not used to cover electricity needs and therefore
+is exported outside the district boundaries. It is calculated as the difference between the
+electricity produced on site and electric energy used on site.
+Energy supplied to the PED (thermal, fuels, and electricity) that comes from outside the
+district boundaries [21].
+The primary energy balance is calculated as the difference between energy delivered to
+the district (sum of all energy carriers) multiplied by the non-renewable primary energy
+factor (per energy carrier) and the energy that is exported outside the PED’s boundaries
+multiplied by the non-renewable primary energy factor (per energy carrier).
+This factor indicates how much primary energy (renewable and non-renewable) is used
+to generate a unit of electricity or a unit of useable thermal energy (commonly applied
+to fuels). This electricity comes usually from the grid, and in that case, it is a country
+specific indicator and depends on the country’s energy mix [21].
+The non-renewable primary energy factor (PEFnren ) proves or shows how much
+primary energy from non-renewable sources is used to generate a unit of final energy
+through the use of consumption indicators [21].
+The renewable primary energy factor (PEFren ) proves or shows how much primary
+energy from renewable sources is used to generate a unit of final energy through the use
+of consumption indicators.
+Surplus of non-renewable primary energy delivered by the PED that is used outside the
+district boundaries. It is calculated as the sum of the surplus of thermal energy
+multiplied by non-renewable primary energy factors (taking into account the different
+energy carriers) and the surplus of electric energy multiplied by non-renewable primary
+energy factors (taking into account the grid electricity factors). The non-renewable
+primary energy factors of the grids (gas, electricity, fuels, etc.) are used in order to take
+into account the “avoided” energy of the system beyond the boundaries.
+Energy delivered into the PED that is calculated in terms of non-renewable primary
+energy as the sum of the weighted delivered energy over all energy carriers (electric
+energy drawn from the grid, heat from a district heating network, gas from the grid, oil,
+biomass, biogas, or any other fuel) multiplied by the non-renewable primary energy
+factors of each energy carrier.
+
+Sustainability 2021, 13, 710
+
+18 of 19
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+
+18.
+19.
+
+20.
+
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+
+Energy Performance of Buildings Directive (EPBD) Recast. Directive 2010/31/EU of the European Parliament and of the Council
+of 19 May 2010 on the energy performance of buildings (recast). Off. J. Eur. Union 2010, 18, 2010.
+European Commission. Questions and Answers on the Renovation Wave. 14 October 2020. Available online: https://ec.europa.
+eu/commission/presscorner/detail/en/QANDA_20_1836 (accessed on 30 October 2020).
+C40 Cities & Arup. Deadline 2020—How Cities Will Get the Job Done; C40 Cities: London, UK, 2017.
+United Nations. SDG11: Make Cities and Human Settlements Inclusive, Safe, Resilient and Sustainable. 2020. Available online:
+https://sdgs.un.org/goals/goal11 (accessed on 23 October 2020).
+Hogeling, J.; Derjanecz, A. The 2nd recast of the Energy Performance of Buildings Directive (EPBD). EU Policy News Rehva J. 2018,
+55, 71–72.
+Magrini, A.; Lentini, G.; Cuman, S.; Bodrato, A.; Marenco, L. From nearly zero energy buildings (NZEB) to positive energy
+buildings (PEB): The next challenge—The most recent European trends with some notes on the energy analysis of a forerunner
+PEB example. Dev. Built Environ. 2020, 3, 100019. [CrossRef]
+Saheb, Y.; Shnapp, S.; Paci, D. From Nearly-Zero Energy Buildings to Net-Zero Energy Districts–Lessons Learned from Existing EU
+Projects; EUR 29734 EN; Publications Office of the European Union: Luxemburg, 2019; ISBN 978-92-76-02915-1. [CrossRef]
+Antolín, J.; de Torre, C.; García-Fuentes, M.; Pérez, A.; Tomé, I.; Mirantes, M.; Hoyos, E. Development of an Evaluation Framework
+for Smartness and Sustainability in Cities. Sustainability 2020, 12, 5193. [CrossRef]
+Ferrante, A.; Fotopoulou, A.; Mazzoli, C. Sustainable Urban Regeneration through Densification Strategies: The Kallithea District
+in Athens as a Pilot Case Study. Sustainability 2020, 12, 9462. [CrossRef]
+Monti, A.; Pesch, D.; Ellis, K.; Mancarella, P. Energy Positive Neighborhoods and Smart Energy Districts: Methods, Tools, and Experiences
+from the Field; Academic Press: London, UK; San Diego, CA, USA; Cambridge, MA, USA; Oxford, UK, 2016.
+JPI Urban Europe. Positive Energy Districts. 2019. Available online: https://jpi-urbaneurope.eu/ped/ (accessed on 20 November
+2020).
+EERA JP Smart Cities. Smart and Sustainable Cities. Int. J. Sustain. Energy Plan. Manag. 2019, 24. [CrossRef]
+IEA EBC—Annex 83. IEA EBC—Annex 83—Positive Energy Districts. IEA EBC. 2020. Available online: https://annex83.iea-ebc.
+org/ (accessed on 20 November 2020).
+SCIS. Smart Cities and Communities Lighthouse Projects. EU Smart Cities Information System. 2020. Available online:
+https://smartcities-infosystem.eu/scc-lighthouse-projects (accessed on 30 October 2020).
+European Commission. Strategic Energy Technology Plan. 16 July 2014. Available online: https://ec.europa.eu/energy/topics/
+technology-and-innovation/strategic-energy-technology-plan_en (accessed on 30 October 2020).
+MAKING-CITY. Make Cities More Energy Efficient. 2018. Available online: http://makingcity.eu/ (accessed on 17 November
+2020).
+IEE-CENSE. Compilation of Information Papers Introducing the CEN Standards Concerning Heating Systems and Domestic Hot
+Water—Booklet 3: Heating and DHW Systems. European Communities. 2010. Available online: http://www.buildup.eu/sites/
+default/files/content/CENSE_booklet_3_Info_Papers_CEN_Heating_and_DHW_Systems.pdf (accessed on 17 November 2020).
+The Covenant of Mayors. The Covenant of Mayors for Climate and Energy Reporting Guidelines. Available online: https:
+//www.covenantofmayors.eu/IMG/pdf/Covenant_ReportingGuidelines.pdf (accessed on 30 October 2020).
+Tounquet, F.; de vos, L.; Abada, I.; Kielichowska, I.; Klessmann, C. Energy Communities in the European Union. The ASSET Project.
+Available online: https://asset-ec.eu/wp-content/uploads/2019/07/ASSET-Energy-Comminities-Revised-final-report.pdf
+(accessed on 30 October 2020).
+European Commission. FAQ-Work Programme 2018 for Horizon 2020—Smart Cities and Communities—Lighthouse Projects. 16
+December 2019. Available online: https://ec.europa.eu/info/funding-tenders/opportunities/docs/cap/h2020/lc-sc3-scc-1-20
+18-2019-2020/1872640-faq_scc01_(updated)_v10_en.pdf (accessed on 17 November 2020).
+ISO. Energy Performance of Buildings—Overarching EPB Assessment—Part 1: General Framework and Procedures; ISO: Geneva,
+Switzerland, 2017.
+Villar, R.; Sorribes, M.; Jiménez, D.; Sobaler, J. Guía de Aplicación DB HE 2019; Ministerio de Transportes, Movilidad y Agenda
+Urbana: Madrid, Spain, 2019.
+Birchall, S.; Wallis, I.; Churcher, D.; Pezzutto, S.; Fedrizzi, R.; Causse, E. D2.1a—Survey on the Energy Needs and Architectural
+Features of the EU Building Stock; iNSPiRe Project: Bracknell, UK, 2014.
+Zebra2020 Data Tool. Zebra 2020 Data Tool—Energy Efficiency Trends in Buildings. Enerdata. 2016. Available online: https:
+//zebra-monitoring.enerdata.net/ (accessed on 17 November 2020).
+International Passive House Association. Passive House Certification Criteria. International Passive House Association. Available
+online: https://passivehouse-international.org/index.php?page_id=150 (accessed on 17 November 2020).
+Day, T. Degree-days for energy estimation. In Degree-Days: Theory and Application; CIBSE: London, UK, 2006; pp. 6–12.
+Jia, M.; Srinivasan, R. Building Performance Evaluation Using Coupled Simulation of EnergyPlus™ and an Occupant Behavior
+Model. Sustainability 2020, 12, 4086. [CrossRef]
+HULC. HULC. LIDER-CALENER Unified Tool. 2017. Available online: https://www.codigotecnico.org/Programas/
+HerramientaUnificadaLIDERCALENER.html (accessed on 30 October 2020).
+IDAE; ATECYR. Guía Técnica: Agua Caliente Sanitaria Central; IDAE: Madrid, Spain, 2010; p. 72.
+
+Sustainability 2021, 13, 710
+
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+41.
+42.
+
+43.
+44.
+45.
+46.
+
+47.
+
+19 of 19
+
+McKenna, E.; Thomson, M. High-resolution stochastic integrated thermal–electrical domestic demand model. Appl. Energy 2016,
+165, 445–461. [CrossRef]
+Jordan, U.; Vajen, K. DHWcalc: Program to generate domestic hot water profiles with statistical means for user defined condition.
+In Proceedings of the ISES Solar World Congress, Orlando, FL, USA, 6–12 August 2005.
+Lia, Y.; Kubickia, S.; Guerrieroa, A.; Rezguib, Y. Review of building energy performance certification schemes towards future
+improvement. Renew. Sustain. Energy Rev. 2019, 113, 109244. [CrossRef]
+Loga, T.; Müller, K.; Reifschläger, K.; Stein, B. Evaluation of TABULA Database: Comparison of Typical Buildings and Heat Supply
+Systems from 20 European Countries; Episcope Project; Institute for Housing and Environment IWU: Darmstadt, Germany, 2015.
+BDR Thermea. Caractéristiques Techniques HPI 4.5 MR-2; BDR Thermea: Apadorn, The Netherlands, 2020.
+Alpagut, B.; Akyürek, Ö.; Mitre, E.M. Positive Energy Districts Methodology and Its Replication Potential. Proceedings 2019, 20, 8.
+[CrossRef]
+Assefa, G.; Eriksson, O.; Frostell, B. Technology assessment of thermal treatment technologies using ORWARE. Energy Convers.
+Manag. 2004, 46, 797–819. [CrossRef]
+Pezzutto, S.; Croce, S.; Zambotti, S.; Kranzl, L.; Novelli, A.; Zambelli, P. Assessment of the Space Heating and Domestic Hot
+Water Market in Europe -Open Data and Results. Energies 2019, 12, 1760. [CrossRef]
+EUROHEAT & POWER. Guidelines for District Heating Substations; Euroheat & Power Network: Brussels, Belgium, 2008.
+Wilby, M.R.; González, A.B.R.; Díaz, J.J.V. Empirical and dynamic primary energy factors. Energy 2014, 73, 771–779. [CrossRef]
+Saprunov, S. Calculation of the Primary Energy Factor for Finish Distrit Heating and Electricity; South-Eastern Finland University of
+Applied Sciences: Mikkeli, Finland, 2017.
+Haakana, M. Implementation of the EPBD in Finland. EPBD CA. December 2016. Available online: https://epbd-ca.eu/caoutcomes/outcomes-2015-2018/book-2018/countries/finland (accessed on 22 November 2020).
+IDAE. Factores de Emisión de CO2 y Coeficientes de Paso a Energía Primaria de Diferentes Fuentes de Energía Final Consumidas en el Sector de Edificios en España. RITE. 14 January 2016. Available online: https://energia.gob.es/desarrollo/
+EficienciaEnergetica/RITE/Reconocidos/Reconocidos/Otros%20documentos/Factores_emision_CO2.pdf (accessed on 4 November 2020).
+Horst, P.; Schettler, K.; Ahlke, I. EPBD Implementation in Germany: Status in December 2016. 2018. Available online: https:
+//epbd-ca.eu/wp-content/uploads/2018/08/CA-EPBD-IV-Germany-2018.pdf (accessed on 17 November 2020).
+Clarke, A.; Trinnaman, J. World Energy Council Survey of Energy Resources; The World Energy Council: London, UK, 2004.
+Blain, D.; Row, C.; Alm, J.; Byrne, K.; Parish, F. IPCC Guidelines for National Greenhouse Gas Inventories; Institute for Global
+Environmental Strategies: Hayama Town, Japan, 2006; Volume 4, Chapter 7.
+Hitchin, R.; Thomsen, K.E.; Wittchen, K.B. Primary Energy Factors and Members States Energy Regulation. Concerted Action: Energy Performance of Buildings. 2018. Available online: https://epbd-ca.eu/wp-content/uploads/2018/04/05-CCT1-FactsheetPEF.pdf (accessed on 4 November 2020).
+Erhorn, H.; Erhorn-Kluttig, H. New Buildings & NZEBs—2018. 2018. Available online: https://epbd-ca.eu/ca-outcomes/
+outcomes-2015-2018/book-2018/ct/new-buildings-nzebs-update (accessed on 17 November 2020).
+
+

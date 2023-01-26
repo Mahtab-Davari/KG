@@ -1,0 +1,3579 @@
+energies
+Article
+
+Hybrid Vehicles as a Transition for Full E-Mobility
+Achievement in Positive Energy Districts: A Comparative
+Assessment of Real-Driving Emissions †
+Gloria Pignatta 1, *
+
+and Navid Balazadeh 2, *
+1
+
+2
+
+*
+†
+
+
+
+Citation: Pignatta, G.; Balazadeh, N.
+Hybrid Vehicles as a Transition for
+Full E-Mobility Achievement in
+Positive Energy Districts: A
+Comparative Assessment of
+Real-Driving Emissions. Energies
+2022, 15, 2760. https://doi.org/
+10.3390/en15082760
+
+School of Built Environment, Faculty of Arts, Design, and Architecture, University of New South
+Wales (UNSW), Sydney, NSW 2052, Australia
+School of Sustainable Energy Engineering, Simon Fraser University, Surrey, BC V3T 0A3, Canada
+Correspondence: g.pignatta@unsw.edu.au (G.P.); nba55@sfu.ca (N.B.)
+This paper is an extended version of our paper presented at the International Conference on Construction,
+Energy, Environment and Sustainability (CEES 2021), Coimbra, Portugal, 12–15 October 2021.
+
+Abstract: Air pollution is a major concern, particularly in developing countries. Road transport
+and mobile sources are considered the root causes of air pollutants. With the implementation of
+zero-carbon and zero-energy concepts at the district scale, cities can make great strides towards
+sustainable development. Urban planning schemes are moving from mere building solutions to the
+larger positive energy district (PED) scale. Alongside other technology systems in PEDs, increased
+uptake of electro-mobility solutions can play an important role in CO2 mitigation at the district
+level. This paper aims to quantify the exhaust emissions of six conventional and two fully hybrid
+vehicles using a portable emission measurement system (PEMS) in real driving conditions. The fuel
+consumption and exhaust pollutants of the conventional and hybrid vehicles were compared in four
+different urban and highway driving routes during autumn 2019 in Iran. The results showed that
+hybrid vehicles presented lower fuel consumption and produced relatively lower exhaust emissions.
+The conventional group’s fuel consumption (CO2 emissions) was 11%, 41% higher than that of the
+hybrids. In addition, the hybrid vehicles showed much better fuel economy in urban routes, which is
+beneficial for PEDs. Micro-trip analysis showed that although conventional vehicles emitted more
+CO2 at lower speeds, the hybrids showed a lower amount of CO2 . Moreover, in conventional vehicles,
+NOx emissions showed an increasing trend with vehicle speed, while no decisive trend was found
+for NOx emissions versus vehicle speed in hybrid vehicles.
+
+Academic Editors: Nuno Simões,
+Catarina Serra and Zissis Samaras
+
+Keywords: electro-mobility; on-road emissions; PEMS test; road test; passenger cars; air pollution;
+emission standards; positive energy district (PED); energy and mobility; sustainability
+
+Received: 15 February 2022
+Accepted: 7 April 2022
+Published: 9 April 2022
+Publisher’s Note: MDPI stays neutral
+
+1. Introduction
+
+with regard to jurisdictional claims in
+
+Air pollution a major concern, particularly in developing countries, and it is a crucial factor in the outbreak of certain illnesses such as cardiovascular and respiratory
+problems [1,2]. The World Health Organization (WHO) states that air pollution results in
+almost 4 million premature deaths each year globally, which underscores the need to utilize
+novel methods to control and mitigate these emissions. Moreover, the impact of some
+pollutants, for example, CO2 , on climate and ecosystem conditions is enormously severe
+and indisputable. CO2 is dominant among greenhouse gases (GHGs). According to the
+International Energy Agency (IEA), the global amount of CO2 emissions reached its historic
+high of 33.1 Gt with the transport section, especially road transportation, being responsible
+for almost one-quarter of total CO2 emissions, which underlines the importance of mobile
+sources of air pollution [3,4].
+It should be noted that mobile sources are considered the root cause of air pollutants
+alongside generating tire and road wear particles [5]. For instance, in Tehran, the capital
+
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Energies 2022, 15, 2760. https://doi.org/10.3390/en15082760
+
+https://www.mdpi.com/journal/energies
+
+Energies 2022, 15, 2760
+
+2 of 18
+
+of Iran, mobile sources are accounted as the primary source of air pollutant emissions.
+According to a recent study, mobile sources were responsible for 85% of the total aggregated
+pollutants in Tehran, while stationary sources accounted for the remaining 15% [6].
+According to international reports, approximately 80% of the world’s energy is consumed in urban areas and cities, with greenhouse gas emissions of up to 60% [7]. The
+urban area populations are rapidly increasing, and it is estimated that almost 66% of
+the world’s population will reside in urban parts by 2050 [8]. Cities implementing zerocarbon and zero-energy concepts on larger scales (districts) can make great strides towards
+sustainable development.
+Urban planning schemes must move from mere building solutions to the larger urban
+scale, targeting positive energy districts (PEDs). PED is a novel concept that defines an
+urban area where the energy consumed to run the district is lower than the renewable
+energy generated within or outside the district. This contributes to cities’ energy system
+transformations towards carbon neutrality, and this district approach allows considering
+energy interactions between each building and the broader energy system at the local
+level [9]. In fact, PEDs, due to the fact of their scalability potential, harnessing of renewable
+energy (which is sometimes impractical for individual buildings), and achievement of a
+high level of energy efficiency, are advantageous in building decarbonization and promising
+pathway towards sustainable urban development [7,8,10,11].
+The mobility and transportation sector has a share of almost 27% in GHG emissions
+in Europe [12]. The EU requires passenger cars to reduce their CO2 emissions by 15% by
+2025 and 37.5% by 2030 [13]. Sustainable mobility plays an important role in the future
+of sustainable cities requiring greater efficiency in the transport system together with
+behavioral change and urban transport electrification [14]. The inclusion of electric vehicles
+in the fleet can effectively comply with the mentioned emission regulations.
+Gradual penetration of electric vehicles (plug-in hybrids and battery-powered electric
+vehicles) into the European market is being achieved, as their share increased from 0.06% in
+2011 to 3.46% in 2019 in newly registered vehicles. Norway, Iceland, the Netherlands, and
+Sweden showed a 56%, 19%, 16%, and 12% share of electric vehicles in newly registered
+cars in 2019, respectively [15]. The IEA envisages that under the EV30@30 scenario, the
+annual sales of electric vehicles will reach 44 million [16].
+Increasing uptake of electro-mobility solutions can play an important role in CO2
+mitigation at the district level, alongside other technology systems such as energy storage,
+renewable energy sources (e.g., solar, wind, and geothermal), photovoltaic (PV) panels,
+combined heat and power (CHP), and bioenergy. In fact, PEDs can incorporate the benefits
+of electric vehicles, primarily through the implementation of charging infrastructures using
+renewable energy sources. It is important to note that EVs have an impact on the grid due
+to the related load and demands; therefore, their share in the PED grid must be taken into
+account in district and city planning. Increasing EV technology penetration caused the
+utilization of EVs in PEDs throughout the world. Several projects targeting EVs in district
+planning are in the implementation stage including Quartier la fleuriaye, MAKING-CITY,
++CITYXCHANGE, ATELIER, PoCiTYF, SPARCS, SYN.IKIA and READY. These projects
+harness EVs as a practical application alongside the other technology systems [17]. For
+example, the EU-funded smart city project, PoCiTYF, considers e-mobility integration into
+smart cities as one of the solutions towards energy management, decarbonization of the
+mobility sector, and citizen’s mobility cost reductions [7].
+Several solutions are being implemented progressively to decrease exhaust emissions
+such as engine downsizing, alternative fuels, and incorporating novel after-treatment
+systems. By electrifying the power system, hybrid engines can offer efficient fuel economy
+and fewer exhaust emissions. It is accepted that hybrid electric vehicles (HEVs) have
+relatively higher fuel economy and lower exhaust emissions than conventional internal
+combustion engine (ICE) vehicles.
+Moreover, it is envisaged that in 2050, electricity will have a 13% share in supplying
+needed energy in the transport section [18]. The Energy Information Administration (EIA)
+
+Energies 2022, 15, 2760
+
+3 of 18
+
+and an IEA report also show an increasing trend and significant sales number of such
+vehicles over the next few years [19,20]. Full hybrid electric vehicles, which use ICEs and
+electric motors together, act as a bridge between conventional vehicles and electric ones
+and are categorized as series, parallel, and power-split configurations based on power flow
+and the relationship between the combustion engine and electric motor in power supply.
+Hybrid vehicles reached a share of 4% in 2019 for new vehicle registration in Europe [15].
+Measuring exhaust emissions and fuel economy is undoubtedly essential for predicting
+the fleet electrification benefit for a district accurately. Laboratory tests using standard
+driving cycles under controlled conditions are often criticized for not reflecting the vehicle’s
+real emissions and fuel economy. In other words, the smooth pattern of driving cycles
+along with the controlled conditions underestimates the real amount of exhaust emissions.
+Accordingly, portable emission measurement system (PEMS) tests (currently mandatory
+in Euro 6 alongside the standard laboratory tests) can contribute to estimating emission
+factors under real driving conditions. In other words, PEMS tests represent real driving
+emissions (RDEs) that are more realistic and reliable [21], because they can capture the
+effect on emissions and fuel consumption of road traffic, road slope, ambient conditions,
+etc. PEMS tests are required as part of the Euro 6 regulation, particularly for NOx and
+particulate number measurement, and the obtained results from PEMS must not exceed
+the multiplication of conformity factor and the laboratory results. Based on a report by the
+International Council on Clean Transportation (ICCT), plug-in electric vehicles emit three
+to four times more CO2 in real-world driving conditions compared to standard driving
+cycles [22]. However, other novel methods, such as machine learning techniques with input
+data from PEMS tests or the hardware-in-the-loop (HiL) test bench, have been recently
+developed [23,24].
+A few studies inspected the PEMS measurement of HEVs under RDE-based routes and
+compared the exhaust emissions and fuel economy with conventional vehicles. Because this
+study focused on passenger vehicles, only studies dealing with hybrid electric light-duty
+vehicles are mentioned here, although PEMS studies are performed on heavy-duty HEVs
+such as buses [25]. Huang et al. [26] compared the exhaust emissions and fuel economy of
+two pairs of vehicles; each contained one hybrid vehicle (HV) and its conventional vehicle
+(CV) counterpart. They conducted PEMS tests on three separate routes that included urban,
+rural, and highway parts. They concluded that HVs had a higher fuel economy than CVs
+(23–43% for the first pair and 35–49% for the second one). The fuel savings were more
+noticeable in low-speed and urban conditions due to the combustion engine’s reducing
+share. The fuel savings were diminished in highway conditions.
+Furthermore, both HVs showed considerably higher carbon monoxide (CO) emissions
+than CVs, and their exhaust gas temperatures declined strongly in low-speed parts. This
+can be attributed to the hybrid system’s greater start–stop, which led to the temperature
+variation in the three-way catalytic converter (TWC). Consequently, it impacted the TWC,
+which reduced the oxidation process. Nitrogen oxides (NOx ) emissions were lower in HVs.
+Bielaczyc et al. [27] examined one hybrid and one conventional vehicle’s exhaust
+emissions utilizing PEMS. The RDE-based test route consisted of a 6 km urban part. The
+test was performed two times in a similar procedure. The conformity factor (CF) was
+defined in the article as the ratio of emissions in the PEMS test to the applicable limits.
+Hydrocarbon (HC) emissions were low in both vehicles, and the CF for HC was <<1. The
+CO emissions were much higher, and the CF for the conventional vehicle was approximately
+three, while CO emissions for the hybrid vehicle were an order of magnitude lower. In
+addition, NOx emissions were very low; therefore, the emission factors of the conventional
+and hybrid vehicles were 8 and 2.5 mg/km, respectively. There was a substantial difference
+between the CO2 emissions of the conventional and hybrid vehicles. Hybrid vehicles
+mitigated CO2 emissions by approximately 55% (132 vs. 284 g/km).
+Wu et al. [28] explored the exhaust emissions and fuel consumption of two Toyota
+Prius HEVs using PEMS and compared them with those of conventional gasoline and
+diesel vehicles. The test route consisted of urban freeways with a total distance of 36 km.
+
+Energies 2022, 15, 2760
+
+4 of 18
+
+They incorporated vehicle specific power (VSP) and the micro-trip method to inspect and
+analyze the test results. They found that emissions and fuel consumption almost rose with
+increasing VSP. The results demonstrated a 27–40% reduction in fuel consumption of HEVs.
+Moreover, utilizing micro-trip analysis proved that, unlike conventional gasoline vehicles,
+the CO2 emissions of HEVs were almost insensitive to speed change; thus, CO2 emissions
+decreased by 35%.
+In contrast with gasoline vehicles, NOx emissions of HEVs decreased as the average
+speed diminished. A considerable 90% reduction in NOx emissions was observed for HEVs.
+One of the most remarkable outputs of the paper was that the mitigation of emissions,
+particularly CO2 and NOx , occurred in low-speed and congested traffic conditions. As a
+result, the authors concluded that HEVs are desired substitutes for conventional gasoline
+taxi fleets. They also employed economic analysis due to the fact of the reduction in fuel
+consumption. The results showed that the payback period is about 2~3 years for HEVs.
+Holmen and Sentof [29] conducted a PEMS test on two Toyota Camry vehicles (one hybrid
+and one conventional gasoline vehicle). The test route comprised 51.5 km including urban,
+suburban, and highway sections. The authors defined the benefit factor as the ratio between
+the emission factors of a conventional vehicle and a hybrid vehicle. The benefit factor of
+HEV CO2 varied from 0.9 (in higher amounts of VSP) to 6.4 at lower speeds and idle
+conditions, which indicates the lower emission of the HEV at heavy and low-speed traffic
+conditions. Additionally, the fuel consumption benefit factor of HEV vehicles were 10, 5,
+and 2 for city, suburban, and highway conditions, respectively (with the average benefit
+factor of 2.4 through the entire route). This implies that HEV had better fuel saving at lower
+VSP and speeds.
+A large PEMS measurement of 149 diesel, gasoline, and hybrid passenger cars was
+carried out by O’Driscoll et al. [30]. The vehicles comprised 75 gasoline vehicles and two
+hybrid ones. The test route consists of 83 km urban and highway parts. Hybrid vehicles
+played a crucial role in mitigating CO2 emissions, especially in urban areas. The NOx
+emissions of hybrid vehicles were 20 times lower than those of gasoline vehicles. An
+assessment of the emissions of a plug-in hybrid electric vehicle using PEMS was performed
+by Graver et al. [31]. The tests were performed in eight different routes. The results proved
+that the fuel consumption was roughly 30% lower in the charge-depleting (CD) than in
+charge-sustaining (CS) mode. Moreover, the CD mode reduced CO and NOx emissions by
+25% and 60% compared to the CS mode. Skobiej et al. [32] categorized plug-in vehicles into
+three different classes based on their emissions obtained from the RDE test. In addition,
+Wróblewski et al. [33] inspected the economic aspects of PHEVs and driving style impact
+on energy consumption. Bagheri et al. [34] conducted an extensive literature review to
+compare the HEV and conventional vehicles in terms of exhaust emissions. The authors
+reached a contradiction for CO and PN emissions with 13% and 495% higher median values
+in PEMS measurement for HEVs compared to conventional passenger vehicles.
+Pielecha et al. [35] inspected the exhaust emissions and energy consumption of conventional, hybrid, and electric vehicles in RDE conditions and found that electric vehicles had
+the lowest total energy consumption followed by plug-in hybrids, with 10% higher energy
+consumption. In addition, conventional vehicles had the highest energy consumption (30%,
+compared to electric ones). Similarly, Mamala et al. [36] found that the energy consumption
+of a conventional vehicle was seven times higher than the plug-in one in the RDE test.
+Furthermore, aside from tank-to-wheel emissions, Orecchini et al. [37] performed
+well-to-wheel (WTW) analyses for different conventional and hybrid vehicles using the
+RDE data and found a significant reduction in the fuel consumption and exhaust emissions
+of hybrid vehicles compared to conventional ones.
+In this paper, the exhaust emission behavior and fuel economy of several hybrid and
+conventional vehicles with various weights and engine volumes were inspected using
+PEMS measurement in real driving conditions along four different routes with urban
+and highway types and flat and uphill slopes. As seen from the reviewed literature, the
+emission and fuel consumption behaviors of the HEVs can be different, and sometimes
+
+Energies 2022, 15, 2760
+
+Energies 2022, 15, 2760
+
+5 of 19
+
+PEMS measurement in real driving conditions along four different routes with urban
+5 ofand
+18
+highway types and flat and uphill slopes. As seen from the reviewed literature, the emission and fuel consumption behaviors of the HEVs can be different, and sometimes they
+show higher emissions due to the cooling of the three-way catalyst when the ICE is
+they show higher emissions due to the cooling of the three-way catalyst when the ICE is
+switched off and the vehicle is in the electric motor operation phase. The main aim of this
+switched off and the vehicle is in the electric motor operation phase. The main aim of this
+study was to quantify the fuel consumption (CO2) and exhaust pollutants of the hybrid
+study was to quantify the fuel consumption (CO2 ) and exhaust pollutants of the hybrid
+vehiclesto
+toinspect
+inspect their
+their efficacy
+efficacy in
+forfor
+PEDs
+in in
+EV
+vehicles
+in GHG
+GHGreduction,
+reduction,which
+whichcan
+canbebedesirable
+desirable
+PEDs
+technology
+inclusion
+alongside
+other
+measures
+to
+reach
+significant
+decarbonization
+in
+the
+EV technology inclusion alongside other measures to reach significant decarbonization in
+districts.
+It isItimportant
+to note
+that,that,
+to thetobest
+theofauthors’
+knowledge,
+no other
+the
+districts.
+is important
+to note
+the of
+best
+the authors’
+knowledge,
+no studies
+other
+have
+been
+conducted
+on
+real-driving
+emissions
+measurement
+of
+hybrid
+vehicles
+in
+Iran.
+This
+studies have been conducted on real-driving emissions measurement of hybrid vehicles
+is
+the
+first
+research
+work
+addressing
+the
+PEMS
+study
+of
+hybrid
+vehicles’
+GHG
+reduction
+cain Iran. This is the first research work addressing the PEMS study of hybrid vehicles’
+pability.
+The
+paper
+is
+structured
+into
+five
+main
+sections
+including
+this
+Introduction
+(Section
+GHG reduction capability. The paper is structured into five main sections including this
+1). Section 2 (Section
+details the
+providing
+a technical specification
+the perIntroduction
+1).applied
+Sectionmethodology
+2 details the applied
+methodology
+providing a of
+technical
+formed
+test,
+the
+relevant
+standards,
+and
+the
+investigated
+vehicles
+and
+routes.
+Sections
+3 and 4
+specification of the performed test, the relevant standards, and the investigated vehicles
+present
+the results
+of 3the
+comparison
+performed
+between conventional
+and hybrid
+and
+routes.
+Sections
+and
+4 present analysis
+the results
+of the comparison
+analysis performed
+vehicles conventional
+and a discussion
+the study,
+respectively.
+The conclusions
+of the respectively.
+study are reported
+between
+andofhybrid
+vehicles
+and a discussion
+of the study,
+The
+in
+Section
+5
+and
+are
+presented
+together
+with
+future
+investigation
+and
+developments
+in
+the
+conclusions of the study are reported in Section 5 and are presented together with future
+context
+of
+positive
+energy
+districts.
+investigation and developments in the context of positive energy districts.
+
+2.2.Materials
+Materialsand
+andMethods
+Methods
+InInthis
+tests were
+wereconducted
+conductedononthe
+the
+vehicles
+using
+Axion
+OEMthis study,
+study, PEMS tests
+vehicles
+using
+an an
+Axion
+OEM-2100
+2100
+AX
+portable
+gas
+analyzer
+as
+shown
+in
+Figure
+1.
+The
+gas
+analyzer,
+powered
+a
+AX portable gas analyzer as shown in Figure 1. The gas analyzer, powered by a 12 Vbybat12tery,
+V battery,
+was
+located
+in
+the
+vehicle’s
+back
+seat.
+The
+sample
+line
+collected
+exhaust
+was located in the vehicle’s back seat. The sample line collected exhaust gases from
+gases
+from the
+tailpipe
+guided
+them
+thethen
+filterthe
+and
+the gasFinally,
+analyzer.
+the tailpipe
+and
+guidedand
+them
+through
+thethrough
+filter and
+gasthen
+analyzer.
+the
+Finally,
+exhaust
+wereinto
+emitted
+into the atmosphere
+through
+the line.
+exhaust
+line.
+Two
+exhaustthe
+gases
+weregases
+emitted
+the atmosphere
+through the
+exhaust
+Two
+portable
+portable
+gas analyzers
+the second-by-second
+information
+of CO
+O2 ,2,CO,
+HC,x.
+2 , NO
+gas analyzers
+recordedrecorded
+the second-by-second
+information
+of O2, CO,
+HC,CO
+and
+and
+NO
+.
+The
+concentrations
+of
+CO,
+CO
+,
+and
+HC
+were
+measured
+using
+the
+non-dispersive
+x
+2
+The concentrations of CO, CO2, and HC were measured using the non-dispersive infrared
+infrared
+method,
+NOx emissions
+detected
+byelectrochemical
+the electrochemical
+2 and
+(NDIR) (NDIR)
+method,
+and O2and
+andONO
+were were
+detected
+by the
+cells
+x emissions
+cells
+method.
+method.
+
+Figure1.1.Installation
+Installationofofthe
+thePEMS’
+PEMS’main
+maincomponents
+componentson
+onthe
+thetest
+testvehicle.
+vehicle.
+Figure
+
+Figure 2 shows the connection ports of the Axion portable gas analyzer, and Table 1
+reports the PEMS unit specifications.
+
+Energies 2022, 15, 2760
+
+Energies 2022, 15, 2760
+
+6 of 19
+
+6 of 18
+
+Figure 2 shows the connection ports of the Axion portable gas analyzer, and Table 1
+reports the PEMS unit specifications.
+
+Figure2.2.Connection
+Connectionports
+portsofofthe
+theAxion
+Axionportable
+portablegas
+gasanalyzer.
+analyzer.
+Figure
+Table1.1.AXION
+AXIONOEM-2100
+OEM-2100AX
+AXspecifications.
+specifications.
+Table
+
+Compound
+Method Measurement
+Measurement
+Range Measurement
+Measurement
+Accuracy
+Compound Measurement
+Measurement Method
+Range
+Accuracy
+HC
+NDIR
+0
+to
+2000
+ppm
+±4
+ppm
+abs
+HC
+NDIR
+0 to 2000 ppm
+±4 ppm abs or ±3%or
+rel
+±3%
+CO
+NDIR
+0.00% to 10.00%
+±0.02% abs
+or ±rel
+3% rel
+10.01%
+to to
+15.00%
+±5%
+relor ±3% rel
+CO
+NDIR
+0.00%
+10.00%
+±0.02%
+abs
+CO2
+NDIR
+0.00% to 16.00%
+±
+0.30% abs or ±3% rel
+10.01% to 15.00%
+±5% rel
+16.01% to 20.00%
+±5% rel
+CO2
+NDIR cell
+16.00%
+±3%
+NO
+Electrochemical
+00.00%
+to 5000toppm
+±5±0.30%
+ppm absabs
+or or
+±1%
+rel rel
+x
+16.01%
+to 20.00%
+±5%
+O2
+Electrochemical cell
+0.00%
+to 25.00%
+±0.02% abs
+or ±rel
+1% rel
+NOx
+Electrochemical cell
+0 to 5000 ppm
+±5 ppm abs or ±1% rel
+2
+Electrochemical
+cell
+0.00%
+25.00%
+±0.02%
+abs the
+or ±1%
+rel
+AOGPS
+sensor
+was connected
+to the laptop
+to to
+record
+vehicle speed
+along
+driving
+
+route, considered useful information to be linked with the collected data on the emissions.
+A GPS
+sensor
+was connected
+to to
+the
+laptop
+to record vehicle
+speedabsolute
+along the
+driving
+An OBD
+II reader
+device
+was utilized
+log
+the information
+of manifold
+pressure
+route,
+considered
+useful
+information
+to
+be
+linked
+with
+the
+collected
+data
+on
+the
+emissions.
+(MAP) and intake air temperature (IAT) on the same laptop necessary for obtaining massAn OBD
+II reader
+device
+wasor
+utilized
+to log the information
+absolute
+based
+emission
+factors
+(EFs)
+fuel consumption.
+The massof
+ofmanifold
+the emissions
+in gpressure
+can be
+(MAP)
+and
+intake
+air
+temperature
+(IAT)
+on
+the
+same
+laptop
+necessary
+for
+obtaining
+massobtained as the concentration in % of the emissions provided by the gas analyzers plus
+the
+based
+emission
+factors
+(EFs)
+or
+fuel
+consumption.
+The
+mass
+of
+the
+emissions
+in
+g
+can
+be
+pressure and air temperature. The mass of the emissions in g was required to divide grams
+obtained
+as
+the
+concentration
+in
+%
+of
+the
+emissions
+provided
+by
+the
+gas
+analyzers
+plus
+with distance (km = velocity ∗ time) of the route of the vehicle.
+the pressure
+and six
+air spark-ignited,
+temperature. The
+mass of the emissions
+in gvehicles
+was required
+to divide
+In this study,
+gasoline-fueled
+conventional
+(i.e., CV1,
+CV2,
+grams
+with
+distance
+(kmwere
+= velocity
+∗ time)Inofaddition,
+the routetwo
+of the
+vehicle.
+CV3,
+CV4,
+CV5,
+and CV6)
+investigated.
+different
+fully hybrid vehicles
+In this
+study, six
+spark-ignited,
+(i.e., CV1,
+CV2,
+(also with
+gasoline)
+were
+examined gasoline-fueled
+(i.e., HVB1 andconventional
+HVB2). The vehicles
+conventional
+vehicles
+CV3, CV4,
+and
+CV6) were
+In addition,
+two
+different
+fullysources.
+hybrid vehibelonged
+toCV5,
+Iran’s
+market,
+whileinvestigated.
+the hybrid ones
+were not
+from
+domestic
+All
+cles
+(also
+with
+gasoline)
+were
+examined
+(i.e.,
+HVB1
+and
+HVB2).
+The
+conventional
+vehicles
+cars were EURO 4 certified and gasoline fueled. The gasoline fuel had an octane number
+to Iran’s
+whileand
+theahybrid
+werefraction
+not fromofdomestic
+sources.
+Allfact
+cars
+ofbelonged
+92, a density
+of market,
+0.742 kg/L,
+carbonones
+weight
+87.7%. Due
+to the
+EURO 4 certified
+andthe
+gasoline
+fueled.
+gasoline
+an octane
+number
+of 92,
+ofwere
+confidentiality
+reasons,
+brands
+of theThe
+vehicles
+arefuel
+not had
+disclosed.
+Hybrid
+vehicle
+a density
+0.742 kg/L,
+and a carbon
+weight fraction
+87.7%.
+Due tomileages
+the fact ofincluding
+confidenbrand
+oneof
+(HVB1)
+comprised
+four identical
+vehiclesofwith
+different
+tiality reasons,
+the In
+brands
+of the
+vehicles
+arebrand
+not disclosed.
+Hybrid
+vehicle
+one
+HVB1-1
+to HVB1-4.
+addition,
+hybrid
+vehicle
+two (HVB2)
+included
+twobrand
+identical
+vehicles
+had different
+mileages
+(HVB2-1
+anddifferent
+HVB2-2).
+A different
+mileageHVB1-1
+is one ofto
+(HVB1)which
+comprised
+four identical
+vehicles
+with
+mileages
+including
+the
+uncertainties
+and involved
+issues in
+PEMS.
+The
+specifications
+the identical
+six conventional
+HVB1-4.
+In addition,
+hybrid vehicle
+brand
+two
+(HVB2)
+includedoftwo
+vehicles
+vehicles
+and
+two
+hybrid
+brands
+are
+shown
+in
+Table
+2.
+All
+the
+parameters
+in
+the
+table
+which had different mileages (HVB2-1 and HVB2-2). A different mileage is one of the
+unaffected
+the emissions
+and issues
+fuel consumption
+results.
+The vehicles’
+performance
+values vehi(i.e.,
+certainties
+and involved
+in PEMS. The
+specifications
+of the
+six conventional
+power
+andtwo
+torque)
+were
+similar
+within
+the same
+cles and
+hybrid
+brands
+areand
+shown
+in Table
+2. Allrange.
+the parameters in the table affected
+the emissions and fuel consumption results. The vehicles’ performance values (i.e., power
+and torque) were similar and within the same range.
+
+Energies 2022, 15, 2760
+
+7 of 18
+
+Table 2. Specifications of the investigated vehicles.
+Vehicle
+
+CV1
+
+CV2
+
+CV3
+
+CV4
+
+CV5
+
+CV6
+
+HVB1
+
+HVB2
+
+Class
+Weight (kg)
+Mileage (km)
+Engine Volume (L)
+Maximum Power (hp)
+
+Sedan
+1258
+39,970
+1.6
+115 @ 6000 rpm
+
+Sedan
+1755
+62,356
+3.3
+293 @ 6400 rpm
+
+Sedan
+1471
+51,598
+2.5
+178 @ 6000 rpm
+
+Sedan
+1460
+28,445
+2.4
+185 @ 6000 rpm
+
+Sedan
+1332
+14,250
+2.0
+150
+
+SUV
+1760
+30,694
+2.3
+150 @ 5500 rpm
+
+Maximum Torque
+(N.m)
+
+157 @ 4500 rpm
+
+346 @ 5200 rpm
+
+230 @ 4000 rpm
+
+241 @ 4000 rpm
+
+192
+
+214 @ 3500 rpm
+
+Sedan
+1580
+120,000 to 140,000
+2.5
+156 @ 5700 rpm
+Electric Motor: 140 @ 4500 rpm
+211 @ 4500 rpm
+
+Sedan
+1383
+<35,000
+1.8
+121 @ 5200 rpm
+Electric Motor: 72
+157 @ 4500 rpm
+
+Electric Motor: 269 @
+0–1500 rpm
+
+Electric Motor: 163
+
+Energies 2022, 15, 2760
+
+Energies 2022, 15, 2760
+
+8 of 18
+
+Four different RDE routes were chosen for the PEMS tests, including urban and
+highway types with flat and uphill road grades, to incorporate into the test all conditions
+and vehicle operating points. These routes were chosen to reflect the different drive cycles
+and their impact on engine operating points. Highway routes are associated with more
+cruising and engaging efficient parts of the engine operating map, while urban routes
+consist of many start–stops, falling into inefficient zones of the engine map. Choosing these
+routes led to a more accurate comparison between conventional and hybrid vehicles.
+Figure 3 presents the selected routes on Google map, and Table 3 summarizes the
+essential route characteristics. Road grade was obtained by averaging altitude difference
+8 of 19
+per 100 m during the route; it was also reported based on percentage in which 100%
+represented 45◦ .
+
+(a)
+
+(b)
+
+(c)
+
+(d)
+
+Figure
+3. Selected
+routes
+for
+tests(source:
+(source:
+Google
+Maps):
+(a)(b)
+R1;
+R3; (d) R4.
+Figure
+3. Selected
+routes
+forthe
+thePEMS
+PEMS tests
+Google
+Maps):
+(a) R1;
+R2;(b)
+(c)R2;
+R3; (c)
+(d) R4.
+Table 3. Test routes’ characteristics.
+
+Route Name
+R1
+R2
+
+Route Type
+Urban
+Highway
+
+Route Length (km)
+2.2
+6.9
+
+Road Grade (%)
+0.12 (flat)
+4.60 (uphill)
+
+Energies 2022, 15, 2760
+
+9 of 18
+
+Table 3. Test routes’ characteristics.
+Route Name
+
+Route Type
+
+Route Length (km)
+
+Road Grade (%)
+
+R1
+R2
+R3
+R4
+
+Urban
+Highway
+Highway
+Urban
+
+2.2
+6.9
+5.7
+1.9
+
+0.12 (flat)
+4.60 (uphill)
+0.14 (flat)
+6.90 (uphill)
+
+The tests excluded the cold-start part. In other words, before the test began, each
+vehicle idled for five minutes until the coolant temperature reached a specific value (85 ◦ C).
+Moreover, the same driver ran all the tests in order to lower the impact of driving style on
+the results. Each route was repeated three times in each PEMS test, and each vehicle was
+tested two times. The tests were conducted between 9:00 a.m. and 1:00 p.m. on different
+days of the same week in autumn 2019.
+In each PEMS test, the average emission factor (EF) and fuel consumption results were
+calculated using Equation (1), with the weighted average scheme as follows:
+EFoverall =
+
+∑4i=1 (VKTi × EFi )
+∑4i=1 VKTi
+
+(1)
+
+where i is the route index, EFi specifies the emission factor (or fuel consumption) of each
+route, and VKTi indicates the mileage traveled by the ith route. In this study, the routes
+were chosen in Tehran city, and the percentage of mileage traveled for each one (VKTi )
+was obtained from the results in Reference [38], because they studied the same routes
+using PEMS and reported the route usage percent. In fact, the multipliers of Equation (1),
+VKTi , were obtained from the link-based activity data from the travel demand model. The
+mentioned model, using 17,441 individual links in Tehran, has estimated the percentage
+of kilometers traveled by passenger cars in Tehran city [39]. VKTi is equal to 18.3%, 9.9%,
+65.2%, and 6.6% for R1, R2, R3, and R4, respectively.
+The velocity profile for four RDE routes, obtained in one the PEMS tests for CV1,
+are depicted in Figure 4. It was essential to investigate the kinematic characteristics of
+the RDE routes, which are helpful in understanding and analyzing the existing emission
+behaviors of RDE routes. For this reason, some of the related kinematic parameters were
+calculated and can be found in Table 4. Moreover, the standard drive cycle of the NEDC
+(New European Driving Cycle) is included in Table 4. Comparing the kinematic parameters
+of real-world cycles with a standard driving cycle indicated that the RDE routes were more
+aggressive. A standard drive cycle of NEDC was chosen for comparison with the RDE
+routes, since NEDC is the certification cycle for Euro 4 emission standards, and all of the
+examined vehicles were Euro 4 certified.
+From the dynamic viewpoint, the relative positive acceleration (RPA) was used in the
+following form to investigate the acceleration and severity level of the driving cycles:
+RPA =
+
+∑in=1 ( ai × vi )
+s
+
+(2)
+
+where ai indicates the positive acceleration at time step i, vi is the velocity at time step i,
+and s is the total trip distance. The values of RPA were calculated for each RDE route and
+for the NEDC. The RPA values are compared in Figure 5. It can be found that the overall
+values of RPA for the on-road routes were higher than those of the standard driving cycles,
+which means that the on-road routes included severe periods of acceleration. As a result,
+on-road routes are expected to present higher values of exhaust emissions, especially for
+NOx , which is considerably correlated to engine speed and load.
+
+Energies 2022, 15, 2760
+
+can be found in Table 4. Moreover, the standard drive cycle of the NEDC (New European
+Driving Cycle) is included in Table 4. Comparing the kinematic parameters of real-world cycles with a standard driving cycle indicated that the RDE routes were more aggressive. A
+standard drive cycle of NEDC was chosen for comparison with the RDE routes, since NEDC
+is the certification cycle for Euro 4 emission standards, and all of the examined vehicles
+10 of 18 were
+Euro 4 certified.
+90
+80
+
+Velocity [km/h]
+
+70
+60
+50
+40
+30
+20
+10
+0
+0
+
+100
+
+200
+
+300
+
+400
+
+500
+
+Time [sec]
+
+Energies 2022, 15, 2760
+
+R1
+
+R2
+
+10 of 19
+
+R3
+
+R4
+
+Figure 4. Velocity profiles of the four real driving
+from one PEMS test.
+∑ routes
+( × obtained
+)
+Figure 4. Velocity profiles of the four real =
+driving routes obtained from one PEMS test. (2)
+Table 4. Comparison of the kinematic characteristics in the speed profiles.
+
+where4.aiComparison
+indicates theofpositive
+acceleration
+at time step
+i, vi is the
+velocity at time step i,
+Table
+characteristics
+Parameter the kinematic
+NEDC
+R1 in the speed
+R2 profiles.R3
+R4
+and s is the total trip distance. The values of RPA were calculated for each RDE route and
+Average
+speed
+(km/h)
+33.00
+55.20
+50.00 R4
+Parameter
+R1 5. It 56.40
+for the NEDC.
+The
+RPA
+values are NEDC
+compared
+in 16.90
+Figure
+can R2
+be found
+thatR3
+the overall
+Maximum speed (km/h)
+120.00
+49.00
+83.00
+76.00
+16.60
+values
+of RPA
+for the
+on-road routes
+were higher16.90
+than those of56.40
+the standard
+driving cyAverage
+speed
+(km/h)
+33.00
+Standing
+time
+(%)
+23.26
+7.95
+6.14
+2.4655.20 7.84 50.00
+cles,
+which
+means
+that
+the
+on-road
+routes
+included
+severe
+periods
+of
+acceleration.
+As a16.60
+Maximum
+speed
+120.00
+49.00
+83.00 46.8476.00 27.69
+Cruising
+time(km/h)
+(%)
+38.82
+30.75
+52.19
+result, on-road
+routes
+are
+to
+present higher
+of exhaust28.76
+emissions,32.59
+Acceleration
+(%)expected 23.26
+21.62
+29.89
+Standing
+timetime
+(%)
+7.95values20.83
+6.14
+2.46 espe-7.84
+time
+(%)
+16.31
+31.39
+20.83and load.
+21.91
+31.86
+cially forDeceleration
+NOx, which
+is considerably
+correlated to
+engine speed
+
+Cruising time (%)
+Acceleration time (%)
+0.3
+Deceleration time (%)
+0.24
+
+38.82
+21.62
+16.31
+
+30.75
+29.89
+31.39
+
+52.19
+20.83
+20.83
+
+46.84
+28.76
+21.91
+
+27.69
+32.59
+31.86
+
+0.25
+
+RPA [m/s2]
+
+0.18
+0.2 the dynamic viewpoint, the relative positive
+From
+acceleration (RPA) was used in
+0.15
+the following
+form to investigate0.13
+the acceleration and severity level of the driving cycles:
+0.15
+0.12
+
+0.1
+0.05
+0
+NEDC
+
+R1
+
+R2
+
+R3
+
+R4
+
+Figure
+5. The
+comparison
+RPA
+on-road
+test
+routes
+well
+the
+NEDC.
+Figure
+5. The
+comparison
+of of
+RPA
+forfor
+thethe
+on-road
+test
+routes
+asas
+well
+asas
+the
+NEDC.
+
+3. Results
+3. Results
+This section presents the experimental results of this study in terms of fuel economy
+This section presents the experimental results of this study in terms of fuel economy
+and weight, fuel consumption associated with each investigated route, vehicle’s CO2
+and weight, fuel consumption associated with each investigated route, vehicle’s CO2 emisemission factor, vehicles’ total hydrocarbon (THC), nitrogen oxides (NOx ), and carbon
+sion factor, vehicles’ total hydrocarbon (THC), nitrogen oxides (NOx), and carbon monoxmonoxide (CO) emissions.
+ide (CO) emissions.
+3.1. Fuel Economy and Weight
+3.1. Fuel Economy and Weight
+The dimensionless fuel consumption and weight were calculated and illustrated
+The dimensionless
+fuelthe
+consumption
+and weight
+were calculated
+illustrated
+in Figin Figure
+6 to compare
+fuel consumption
+of conventional
+andand
+hybrid
+vehicles.
+The
+uredimensionless
+6 to compare the
+fuel
+consumption
+of
+conventional
+and
+hybrid
+vehicles.
+The
+dimensionfuel economy was obtained by dividing the fuel economy by 10 L/100 km
+less
+fuel economy
+wasdividing
+obtainedthe
+by vehicle
+dividingweight
+the fuelbyeconomy
+10 L/100
+km value. In addivalue.
+In addition,
+2000 kg by
+gave
+the dimensionless
+weight.
+tion,
+dividing
+the vehicle
+weight
+by 2000
+kg gave
+the dimensionless
+weight. The
+fuel
+economythe
+The
+fuel economy
+of each
+route
+(Figure
+7) was
+used with Equation
+(1) to
+calculate
+of each route (Figure 7) was used with Equation (1) to calculate the vehicle’s fuel economy.
+The obtained dimensionless fuel economies are shown in Figure 6, where it can be seen that
+the HVB2 had the best fuel economy compared to the others. Moreover, the hybrid vehicles
+had better fuel economy than the conventional vehicles, which was related to stopping the
+combustion engine at lower velocities and operating points with lower efficiency such as in
+
+Energies 2022, 15, 2760
+
+HVB1
+
+CV1
+
+HVB2
+
+CV2
+
+CV3
+
+CV4
+
+CV5
+CV5
+
+1.05 1.05
+0.94 0.94
+
+0.83 0.83
+0.65
+0.65
+
+0.94 0.94
+CV4
+
+C VEHICLES
+V2
+CV3
+
+CV1
+
+0.72 0.72
+
+0.62 0.62
+
+HVB2
+
+0.79 0.79
+0.8 0.8
+
+0.83 0.83
+
+0.83 0.831.04
+
+1.04
+HVB1
+
+0.49 0.49
+0.7 0.7
+
+0.75 0.75
+0.79 0.79
+
+DIMENSIONLESS
+PARAMETERS
+DIMENSIONLESS
+PARAMETERS
+
+CV6
+CV6
+
+VEHICLES
+FC [L/100km]/ 10L/100km
+Weight/2000kg
+FC [L/100km]/ 10L/100km
+
+Weight/2000kg
+
+HVB1
+
+HVB2
+
+CV1
+
+CV2
+
+CV3
+
+C VEHICLES
+V2
+CV3
+
+CV1
+R1
+
+CV4
+CV4
+
+CV5
+CV5
+
+22.6 22.6
+10.9 10.913.4
+13.4
+7.1
+7.1
+
+17.4 17.4
+9.2 9.210.5
+10.5
+5.3
+5.3
+
+22.3 22.3
+8.3 8.3
+12.6 12.6
+6.5 6.5
+
+17.4 17.4
+8.6 8.6 11.3
+11.3
+4.8
+4.8
+
+6.0 6.0
+
+HVB2
+
+15.9 15.9
+14.1 14.1
+14.1 14.1
+
+16.3 16.3
+
+HVB1
+
+7.8 7.8 10.3
+10.3
+6.3 6.3
+
+3.9 3.9
+8.2 8.2
+3.5 3.5
+10.8 10.8
+
+14.8 14.8
+
+Figure 6. Dimensionless fuel economy (FC) and weight.
+Figure 6. Dimensionless fuel economy (FC) and weight.
+Figure 6. Dimensionless fuel economy (FC) and weight.
+
+5.7 5.7
+9.9 9.9
+6.5 6.5
+
+Energies 2022, 15, 2760
+
+vehicle’s fuel economy. The obtained dimensionless fuel economies are shown in Figure 6,
+11 of
+19
+where it can be seen that the HVB2 had the best fuel economy compared to the
+others.
+Moreover, the hybrid vehicles had better fuel economy than the conventional 11
+vehicles,
+of 19
+which was related to stopping the combustion engine at lower velocities and operating
+points with lower efficiency such as in idle conditions.
+
+FUEL
+CONSUMPTION
+[L/100KM]
+FUEL
+CONSUMPTION
+[L/100KM]
+
+Energies 2022, 15, 2760
+
+11 of 18
+
+CV6
+CV6
+
+VEHICLES
+R2
+R3
+R4
+
+R1
+R2 vehicles
+R3
+R4
+Figure 7. Fuel consumption of the examined
+for each route (i.e., R1, R2, R3, and R4).
+Figure 7. Fuel consumption of the examined vehicles for each route (i.e., R1, R2, R3, and R4).
+
+3.2. Fuel
+Consumption
+Figure
+7. Fuel
+consumption of the examined vehicles for each route (i.e., R1, R2, R3, and R4).
+3.2. FuelFigure
+Consumption
+7 illustrates the fuel consumption of the investigated conventional and hybrid
+Figure
+7 illustrates
+thethe
+fuelfour
+consumption
+theurban
+investigated
+conventional
+3.2.
+Fuel
+Consumption
+vehicles
+associated
+with
+routes (i.e.,ofthe
+routes R1
+and R4 andand
+the hybrid
+highway
+vehicles
+associated
+with
+the
+four
+routes
+(i.e.,
+the
+urban
+routes
+R1
+and
+R4
+and
+the
+highway
+routes
+R2
+and
+R3).
+The
+effect
+of
+the
+driving
+cycle
+can
+be
+seen
+in
+this
+figure.
+In
+fact,
+hybrid
+Figure 7 illustrates the fuel consumption of the investigated conventional and hybrid
+routes
+R2
+and
+R3).
+The
+effect
+of
+the
+driving
+cycle
+can
+be
+seen
+in
+this
+figure.
+In
+fact,
+hybrid
+vehicles’
+benefit
+in
+terms
+of
+fuel
+consumption
+reduction
+was
+much
+more
+significant
+vehicles associated with the four routes (i.e., the urban routes R1 and R4 and the highwayin
+the R1
+and
+driving
+cycles.
+Since
+there
+several
+start–stop
+or
+acceleration–
+vehicles’
+inurban
+terms
+of fuel
+reduction
+more
+significant
+in the
+routes
+R2benefit
+andR4
+R3).
+The effect
+of consumption
+the
+driving
+cycle
+canare
+bewas
+seenmuch
+in this
+figure.
+In fact,
+hybrid
+deceleration
+events
+in cycles.
+urban
+cycles,
+it is beneficial
+foror
+hybrid
+vehicles toin
+utilize
+R1
+and R4benefit
+urban
+driving
+Since
+there
+arereduction
+several
+start–stop
+acceleration–decelervehicles’
+in terms
+of fueldriving
+consumption
+was much
+more
+significant
+the
+regenerative
+braking
+energy.
+This
+result
+can
+also
+be
+achieved
+by
+comparing
+the
+RPA
+results
+ation
+events
+in
+urban
+driving
+cycles,
+it
+is
+beneficial
+for
+hybrid
+vehicles
+to
+utilize
+regenerR1 and R4 urban driving cycles. Since there are several start–stop or acceleration–decelerfor braking
+R1
+or R4in
+with
+other
+routes.
+R1
+and
+hadachieved
+higherfor
+RPAs
+and vehicles
+were more
+aggressive
+routes
+ative
+energy.
+This
+result
+can
+also
+be
+by
+comparing
+thetoRPA
+results
+for
+ation
+events
+urban
+driving
+cycles,
+it R4
+is beneficial
+hybrid
+utilize
+regenercompared
+to
+highway
+ones.
+In
+these
+cycles,
+the
+electric
+motor
+was
+in
+operation
+rather
+R1
+or
+R4
+with
+other
+routes.
+R1
+and
+R4
+had
+higher
+RPAs
+and
+were
+more
+aggressive
+routes
+ative braking energy. This result can also be achieved by comparing the RPA results than
+for
+engine
+forIn
+most
+the
+time.
+The
+characteristics
+ofmore
+hybrid
+electric
+compared
+to highway
+ones.
+these
+cycles,
+the
+electric
+motor
+operation
+rathervehicles
+than
+R1the
+orcombustion
+R4 with
+other
+routes.
+R1
+andofR4
+had
+higher
+RPAs
+and was
+werein
+aggressive
+routes
+incombustion
+urban driving
+cycles
+fuelThe
+consumption
+are beneficial
+for
+PEDs.vehicles
+However,
+the
+engine
+forshowing
+most
+of lower
+thecycles,
+time.
+characteristics
+of hybrid
+electric
+compared
+to highway
+ones.
+In these
+the electric
+motor was
+in operation
+rather than
+in
+urban
+drivingengine
+cycles for
+showing
+lower
+fuel consumption
+are beneficial
+PEDs.vehicles
+Howthe
+combustion
+most of
+the time.
+The characteristics
+of hybridfor
+electric
+ever,
+in
+highway
+cycles
+or
+almost
+cruising
+conditions,
+the
+differences
+in
+fuel
+consumption
+in urban driving cycles showing lower fuel consumption are beneficial for PEDs. Howwith
+other non-hybrid
+were reduced.
+ever,the
+in highway
+cycles orvehicles
+almost cruising
+conditions, the differences in fuel consumption
+with the other non-hybrid vehicles were reduced.
+
+Energies 2022, 15, 2760
+
+12 of 19
+
+in highway cycles or almost cruising conditions, the differences in fuel consumption with
+the other non-hybrid vehicles were reduced.
+
+198.5
+
+198.5
+
+179.4
+
+117.2
+
+CO2 [g/km]
+
+200.0
+
+189.0
+
+250.0
+
+224.8
+
+248.8
+
+300.0
+
+251.2
+
+2 Emission
+3.3.3.3.
+COCO
+Factor
+Factor
+2 Emission
+2 emitted
+Figure
+8 depicts
+thethe
+COCO
+from
+thethe
+vehicles
+over
+thethe
+four
+routes
+in real-world
+Figure
+8 depicts
+from
+vehicles
+over
+four
+routes
+in real-world
+2 emitted
+conditions.
+TheThe
+results
+of each
+route
+forfor
+each
+vehicle
+were
+averaged,
+considering
+thethe
+conditions.
+results
+of each
+route
+each
+vehicle
+were
+averaged,
+considering
+weight
+factors
+using
+Equation
+weight
+factors
+using
+Equation(1).
+(1).ItItwas
+wasfound
+foundthat
+thatHVB1
+HVB1can
+can mitigate
+mitigate CO
+CO22 by
+by almost 5 to
+to 30% compared
+compared to
+to conventional
+conventionalvehicles.
+vehicles.This
+ThisCO
+CO22 mitigation
+mitigationwas
+waseven
+evenmore
+moreconsiderable
+considerable
+HVB2
+(i.e.,
+50%).
+Therefore,
+hybrid
+vehicles
+present
+a higher
+potential
+forfor
+HVB2
+(i.e.,
+40 40
+to to
+50%).
+Therefore,
+hybrid
+vehicles
+present
+a higher
+potential
+forfor
+CO2
+compared
+to to
+conventional
+vehicles.
+2 mitigation
+COmitigation
+compared
+conventional
+vehicles.
+
+150.0
+100.0
+50.0
+0.0
+HVB1
+
+HVB2
+
+CV1
+
+CV2
+
+CV3
+
+CV4
+
+CV5
+
+CV6
+
+Vehicles
+
+Figure 8. CO2 emission factor for the examined vehicles.
+Figure 8. CO2 emission factor for the examined vehicles.
+
+3.4. THC, NOx , and CO Emissions
+3.4. THC,
+NOx, 9and
+CO
+Figures
+and
+10Emissions
+show the total hydrocarbon (THC) and nitrogen oxide (NO) emissions
+
+0.08
+
+0.09
+
+0.01
+
+0.05
+
+0.02
+
+0.05
+
+0.05
+
+0.04
+
+0.04
+
+0
+
+0.01
+
+0.04
+
+0.06
+
+0.06
+
+Hybrid
+0.1vehicles met the Euro 4 emission limits in real-world conditions;
+Hybrid vehicles were able to mitigate fuel consumption (or CO2 ) by 40–50%, especially
+0.1
+in urban driving cycles (such as R4), which can be an excellent advantage for utilization
+in positive energy districts as a bridge to e-mobility and battery electric vehicles;
+0.05
+NOx values for hybrid vehicles were substantially lower than those of conventional
+ones (nine to seventeen times lower NOx values). All hybrid vehicles met the Euro 4
+NO
+0 x limit, while the two conventional vehicles (i.e., CV4 and CV6) exceeded the limit;
+All hybrid vehicles
+complied
+the Euro
+standard,
+HVB1 HVB2
+CV1with
+CV2
+CV3 4 CO
+CV4
+CV5 while
+CV6 CV1, CV2, and CV4
+did not comply with the Euro 4 COVehicles
+level.
+0.01
+
+•
+
+0.15
+
+0.06
+
+•
+•
+
+0.17
+
+and
+the CO9emission
+of thethe
+twototal
+hybrid
+and six conventional
+respectively.
+Figures
+and 10 show
+hydrocarbon
+(THC) andexamined
+nitrogen vehicles,
+oxide (NO)
+emisSimilar
+results,
+the
+emission
+factors
+of
+different
+routes
+were
+averaged
+using
+sions
+and to
+thethe
+COCO
+emission
+of
+the
+two
+hybrid
+and
+six
+conventional
+examined
+vehicles,
+2
+Equation
+(1),
+considering
+the
+road
+usage
+percentages.
+respectively. Similar to the CO2 results, the emission factors of different routes were averIn the
+two figures,
+it can be seen
+hybrid
+vehicles complied with the Euro 4
+aged using
+Equation
+(1), considering
+the that
+roadthe
+usage
+percentages.
+emission standards (0.1 g/km for HC emissions and 0.08 g/km for NOx emissions), while
+CV40.25
+and CV6 exceeded the NOx limit, and CV1, CV2, and CV4 did not comply with the
+Euro 4 CO level (1 g/km for CO emissions). Moreover, the NOx values for hybrid vehicles
+were substantially lower than those of conventional ones (nine to seventeen times lower
+0.2
+NOx values).
+From this study, the experimental conclusions that can be drawn are the following:
+THC and NOx [g/km]
+
+Energies 2022, 15, 2760
+
+12 of 18
+
+•
+
+THC
+
+NOx
+
+HC Euro 4 limit
+
+Figure 9. THC and NOx emissions of the examined vehicles.
+
+NOx Euro 4 limit
+
+3.4. THC, NOx, and CO Emissions
+
+Energies 2022, 15, 2760
+
+Figures 9 and 10 show the total hydrocarbon (THC) and nitrogen oxide (NO) emissions and the CO emission of the two hybrid and six conventional examined vehicles,
+13 of 18
+respectively. Similar to the CO2 results, the emission factors of different routes were averaged using Equation (1), considering the road usage percentages.
+
+0.05
+
+0.09
+
+0.17
+
+0.01
+
+0.02
+
+0.04
+
+0.01
+
+0.04
+
+0.08
+
+0
+
+0.01
+
+0.05
+
+0.06
+
+0.1
+
+0.04
+
+0.1
+
+0.05
+
+0.06
+
+0.15
+
+0.05
+
+0.2
+
+0.06
+
+THC and NOx [g/km]
+
+0.25
+
+0
+HVB1
+
+HVB2
+
+CV1
+
+CV2
+
+CV3
+
+CV4
+
+CV5
+
+CV6
+
+Vehicles
+THC
+
+Energies 2022, 15, 2760
+
+NOx
+
+HC Euro 4 limit
+
+NOx Euro 4 limit
+
+13 of 19
+
+Figure
+THC
+and
+NO
+x emissions of the examined vehicles.
+x emissions of the examined vehicles.
+Figure
+9. 9.
+THC
+and
+NO
+6.00
+
+CO [g/km]
+
+5.00
+
+4.4
+
+4.00
+2.62
+
+3.00
+
+1.99
+
+1
+
+2.00
+0.78
+
+0.64
+
+1.00
+0.03
+
+0.26
+
+0.24
+
+0.00
+HVB1
+
+HVB2
+
+CV1
+
+CV2
+
+CV3
+
+CV4
+
+CV5
+
+CV6
+
+Vehicles
+CO
+
+Euro 4 CO limit
+
+Figure 10. CO emissions of the examined vehicles.
+Figure 10. CO emissions of the examined vehicles.
+
+3.5. Micro-Trip Analysis
+InThe
+the micro-trip
+two figures,
+it can[28]
+be seen
+that the to
+hybrid
+vehicles
+complied
+withconditions
+the Euro 4on
+method
+was utilized
+inspect
+the impact
+of driving
+x emissions), while
+emission
+standards
+(0.1
+g/km
+for
+HC
+emissions
+and
+0.08
+g/km
+for
+NO
+the exhaust emissions in the PEMS test. Micro-trip is a great tool to determine the share of
+CV4
+and CV6
+exceeded
+theroute
+NOx in
+limit,
+and emissions.
+CV1, CV2, and CV4 did not comply with the
+different
+parts
+of the test
+exhaust
+Euro 4 Figure
+CO level
+(1
+g/km
+for
+CO
+emissions).
+Moreover,
+the NO
+x values for hybrid vehicles
+11 indicates the correlation between the CV1
+emission
+factors and the average
+were
+substantially
+lower
+than
+those
+of
+conventional
+ones
+(nine
+seventeen for
+times
+speed of micro-trips at 5 to 60 km/h. As seen, urban sectionstoaccounted
+thelower
+largest
+NO
+x values).
+amounts of CO2 , CO, and HC emissions, which indicates the congested conditions and
+From
+this study,
+the experimental
+conclusions that canevents
+be drawn
+areurban
+the following:
+higher
+number
+of start–stop
+or acceleration–deceleration
+in the
+sections. As
+averagevehicles
+speed increased,
+the emissions
+of limits
+CO2 and
+CO dropped
+sharply. NOx emissions
+ theHybrid
+met the Euro
+4 emission
+in real-world
+conditions;
+a different
+It increased
+when
+theconsumption
+average speed(or
+rose.
+be attributed
+2) by can
+ showed
+Hybrid
+vehiclestrend.
+were able
+to mitigate
+fuel
+COThis
+40–50%,
+espeto the
+higher
+amounts
+of engine
+along
+theexcellent
+highwayadvantage
+sections. for
+cially
+in urban
+driving
+cycles load
+(suchand
+as temperature
+R4), which can
+be an
+utilization in positive energy districts as a bridge to e-mobility and battery electric
+vehicles;
+
+NOx values for hybrid vehicles were substantially lower than those of conventional
+ones (nine to seventeen times lower NOx values). All hybrid vehicles met the Euro 4
+NOx limit, while the two conventional vehicles (i.e., CV4 and CV6) exceeded the limit;
+
+All hybrid vehicles complied with the Euro 4 CO standard, while CV1, CV2, and CV4
+did not comply with the Euro 4 CO level.
+3.5. Micro-Trip Analysis
+The micro-trip method [28] was utilized to inspect the impact of driving conditions
+on the exhaust emissions in the PEMS test. Micro-trip is a great tool to determine the share
+
+Energies2022,
+2022,15,
+15,2760
+2760
+Energies
+
+14
+of 18
+19
+14 of
+
+700
+
+9.00
+= 0.001 4 − 0.085 3 + 4.006
+− 79.735 + 762.385
+² = 0.733
+
+600
+
+7.00
+6.00
+CO [g/km]
+
+CO2 [g/km]
+
+500
+
+= 0.009 2 − 0.355 + 4.533
+² = 0.275
+
+8.00
+
+2
+
+400
+300
+
+5.00
+4.00
+3.00
+
+200
+
+2.00
+100
+
+1.00
+
+0
+
+0.00
+0
+
+20
+
+40
+
+60
+
+0
+
+Average speed [km/h]
+
+20
+
+60
+
+Average speed [km/h]
+
+(a)
+
+(b)
+
+0.18
+
+0.25
+
+= −0.001 + 0.079
+² = 0.050
+
+= 0.002 + 0.006
+² = 0.306
+
+0.16
+
+40
+
+0.20
+
+0.14
+
+HC [g/km]
+
+NOx [g/km]
+
+0.12
+0.10
+0.08
+
+0.15
+
+0.10
+
+0.06
+0.04
+
+0.05
+
+0.02
+0.00
+
+0.00
+0
+
+20
+
+40
+
+Average speed [km/h]
+
+(c)
+
+60
+
+0
+
+20
+
+40
+
+60
+
+Average speed [km/h]
+
+(d)
+
+Figure 11. Correlation between the emission factors (a) CO2, (b) CO, (c) NOx, and (d) HC and the
+Figure 11. Correlation between the emission factors (a) CO2 , (b) CO, (c) NOx , and (d) HC and the
+average speed of micro-trips for CV1. The dashed line indicates the Euro 4 standard limit.
+average speed of micro-trips for CV1. The dashed line indicates the Euro 4 standard limit.
+
+Onthe
+theother
+otherhand,
+hand,HVB1
+HVB1showed
+showedaadifferent
+differentcorrelation.
+correlation.
+On
+Asseen
+seenin
+inFigure
+Figure12,
+12,no
+nodecisive
+decisivecorrelation
+correlationwas
+wasobtained
+obtainedfor
+forHVB1
+HVB1emission
+emissionfactors
+factors
+As
+with
+respect
+to
+the
+vehicle
+speed.
+However,
+despite
+the
+conventional
+vehicle
+CV1,
+the
+hywith respect to the vehicle speed. However, despite the conventional vehicle CV1, the
+2 at lower speeds. This can be related
+brid
+vehicle
+(HVB1)
+did
+not
+show
+high
+values
+of
+CO
+hybrid vehicle (HVB1) did not show high values of CO2 at lower speeds. This can be
+to the usage
+the electric
+motor in
+urban
+insteadinstead
+of the ICE.
+related
+to the of
+usage
+of the electric
+motor
+in conditions
+urban conditions
+of the ICE.
+
+In urban type routes, the higher potentiality of regenerative braking led to increased
+operation in the electric mode.
+Moreover, NOx emissions in the hybrid vehicle did not show a decisive trend with
+vehicle speed.
+
+Energies
+2022, 15,
+15, 2760
+2760
+Energies 2022,
+
+1515of
+of 19
+18
+
+450
+350
+
+y = 0.7878x + 96.604
+
+300
+
+R² = 0.0124
+
+CO [g/km]
+
+CO2 [g/km]
+
+400
+
+250
+200
+150
+100
+50
+0
+0
+
+20
+
+40
+
+60
+
+2
+1.8
+1.6
+1.4
+1.2
+1
+0.8
+0.6
+0.4
+0.2
+0
+
+80
+
+y = 0.0039x + 0.1433
+R² = 0.0229
+
+0
+
+20
+
+Average speed [km/h]
+
+60
+
+80
+
+60
+
+80
+
+Average speed [km/h]
+
+(a)
+
+(b)
+
+0.09
+
+1.2
+
+0.08
+
+1
+
+0.07
+0.06
+
+y = 8 × 10−6x + 0.002
+
+0.05
+
+HC [g/km]
+
+NOx [g/km]
+
+40
+
+R² = 0.0013
+
+0.04
+0.03
+0.02
+
+y = −1 × 10−4x + 0.0844
+R² = 0.0004
+
+0.8
+0.6
+0.4
+0.2
+
+0.01
+0
+
+0
+0
+
+20
+
+40
+Average speed [km/h]
+
+(c)
+
+60
+
+80
+
+0
+
+20
+
+40
+Average speed [km/h]
+
+(d)
+
+8 × 10−6
+−1 × 10−4
+Figure 12. Correlation between the emission factors of (a) CO2 , (b) CO, (c) NOx , and (d) HC and the
+average speed of micro-trips for HVB1. The dashed line indicates the Euro 4 standard limit.
+Figure 12. Correlation between the emission factors of (a) CO2, (b) CO, (c) NOx, and (d) HC and the
+average
+speed of micro-trips for HVB1. The dashed line indicates the Euro 4 standard limit.
+4. Discussion
+
+In this study, the GHG reduction potential of the hybrid electric vehicles was quanIn urban type routes, the higher potentiality of regenerative braking led to increased
+tified, and their decarbonization capability was assessed using a tank-to-wheel (TTW)
+operation in the electric mode.
+approach (not the upstream approach well-to-wheel). This approach refers to the vehicle’s
+Moreover, NOx emissions in the hybrid vehicle did not show a decisive trend with
+use phase, corresponding to a sub-range in the vehicle chain that extends from the point at
+vehicle speed.
+which energy is absorbed (fuel pump or charging point) to discharge (when the vehicle is
+in motion).
+4. Discussion
+The TTW approach was chosen because the overall GHG emissions for hybrid and
+In
+study,
+the vehicles
+GHG reduction
+potential
+ofwell-to-wheel
+the hybrid electric
+vehicles
+was
+quanplug-in this
+hybrid
+electric
+(assessed
+using the
+approach,
+which
+includes
+tified,
+and
+their
+decarbonization
+capability
+was
+assessed
+using
+a
+tank-to-wheel
+(TTW)
+apall phases of a vehicle from the point at which the fuel/energy is extracted to its transproach
+(not
+the
+upstream
+approach
+well-to-wheel).
+This
+approach
+refers
+to
+the
+vehicle’s
+portation/supply/storage in the vehicle to discharge) were lower than the conventional
+use
+phase,
+corresponding
+to a sub-range
+infor
+thethe
+vehicle
+that extends
+from the
+point
+ones,
+and the
+current and future
+emissions
+samechain
+two categories
+of hybrid
+vehicles
+at
+which
+energy
+is absorbed
+pumpin
+or[40].
+charging
+to discharge
+(when
+with
+gasoline
+were
+similar as(fuel
+presented
+Thus,point)
+the results
+from this
+studythe
+onvehicle
+hybrid
+is
+in motion).
+vehicles
+can be extended with a good level of approximation to the plug-in hybrid electric
+Thefor
+TTW
+approach
+wassimilar
+chosenvalues
+because
+the overallBoth
+GHGhybrid
+emissions
+for hybrid
+vehicles
+which
+we expect
+of emissions.
+technologies
+playand
+an
+plug-in
+hybrid
+electric
+vehicles
+(assessed
+using
+the
+well-to-wheel
+approach,
+which
+inimportant role in the electric transition of the transport sector in the context of PEDs.
+cludes
+allSustainable
+phases of aDevelopment
+vehicle from Scenario
+the point(SDS)
+at which
+the fuel/energy
+is extractedEnergy
+to its
+The
+presented
+by the International
+transportation/supply/storage
+in thethe
+vehicle
+to mitigation
+discharge)(decrease)
+were lower
+than the
+Agency (IEA) in 2020 [41] expresses
+gradual
+of GHGs
+perconvenyear in
+tional
+ones, and thesector
+current
+future emissions
+fortothe
+same
+twoprovides
+categories
+hybrid
+the transportation
+thatand
+is expected
+from 2025
+2070.
+It also
+theofshare
+of
+transportation
+in CO2 were
+emissions
+forasthe
+differentintransportation
+forstudy
+most
+vehicles
+with gasoline
+similar
+presented
+[40]. Thus, themodes
+results(where
+from this
+of them,
+in CO2 emissions
+is expected).
+In 2019, transport
+accounted
+on
+hybrida gradual
+vehicles decrease
+can be extended
+with a good
+level of approximation
+to the
+plug-in
+
+Energies 2022, 15, 2760
+
+16 of 18
+
+for nearly 30% of global final energy use (a considerable amount) and 23% of total energy
+sector direct CO2 emissions. Under this representation, transportation has a high share of
+decarbonization, and the SDS aims to reach zero-carbon emissions, in the TTW assessment,
+for passenger cars by 2070. The strategies proposed to reach this goal include biofuels,
+hybridization of vehicles, and electrification of the transportation sector. Therefore, during
+the transition to zero-carbon emissions, an increased trend in hybrid, plug-in hybrid, and
+electric vehicles is expected in the future. Similar trends are presented in the Net Zero
+Emissions (NZE) scenario provided by the International Energy Agency in 2020 [42], where
+the consumption by fuel type was predicted, and a great share of electricity in the transport
+energy supply by 2050 was reported. Moreover, plug-in hybrid and electric-battery vehicles’
+share in transportation is soaring, and it is envisaged that by 2050, electricity and hydrogenbased fuel vehicles will account for more than 70% of the transport energy demand.
+Given the abovementioned expected scenarios, future research directions may include
+the analysis and comparison of the entire life cycle assessment (LCA) of hybrid, plug-in
+hybrid, and electric-battery vehicles to estimate the total CO2 emissions associated with the
+transition from conventional to e-mobility.
+The LCA analysis should be then combined with a cost/benefit analysis of harnessing
+renewable energy sources in positive energy districts for e-vehicle charging stations and
+the related infrastructure to provide key stakeholders with a holistic perspective on the
+potential benefits and impact of e-mobility in the context of PEDs.
+5. Conclusions
+In this study, the preliminary results, which are presented in [43], of two hybrid vehicles and six conventional vehicles were inspected using the portable emission measurement
+system (PEMS) for their fuel consumption and emission factor behaviors in real-world driving conditions over four different routes including urban and highway routes. It was found
+that hybrid vehicles were significantly beneficial in CO2 and fuel consumption mitigation
+by up to 50%, especially in urban driving cycles, which can be a tremendous advantage
+for utilization in positive energy districts as a bridge to e-mobility and battery electric
+vehicles. Moreover, the micro-trip analysis showed that hybrid vehicles emitted lower CO2
+values in urban conditions due to the operation of the electric motors and utilization of
+regenerative braking energy. Future studies can inspect LCA and upstream emissions in
+HEVs as well as plug-in hybrid electric vehicles while considering their load on the grid.
+Furthermore, harnessing renewable energy sources in the district for EV charging stations
+and the related infrastructure is a topic of interest, particularly in view of the transition
+towards the integration of fully electric mobility in positive energy districts.
+Author Contributions: Conceptualization, G.P. and N.B.; data curation, N.B.; formal analysis, N.B.;
+funding acquisition, G.P.; investigation, G.P. and N.B.; methodology: G.P. and N.B.; supervision: G.P.;
+visualization: G.P. and N.B.; writing—original draft: G.P. and N.B.; writing—review and editing: G.P.
+and N.B. All authors have read and agreed to the published version of the manuscript.
+Funding: This research received no external funding. The APC was funded by the UNSW Scientia
+Support Package.
+Acknowledgments: The authors would like to thank the Tehran Air Quality Control Company
+(AQCC) for providing the portable emission measurement system (PEMS) setup used for the tests
+in real driving conditions. This article is related to the work conducted by the first author in the
+IEA—EBC Annex 83 Positive Energy Districts and in the COST Action: CA19126—Positive Energy
+Districts European Network. Those bodies had no involvement in preparing the manuscript, methods
+and results, etc. and this manuscript reflects only the authors’ views.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Energies 2022, 15, 2760
+
+17 of 18
+
+Nomenclature
+PED
+PEMS
+EV
+HEV
+RDE
+CF
+VSP
+FC
+NDIR
+RPA
+MAP
+IAT
+CV
+HVB
+EF
+VKTi
+TTW
+LCA
+CHP
+NEDC
+
+Positive Energy District
+Portable Emission Measurement System
+Electric Vehicle
+Hybrid Electric Vehicle
+Real Driving Emission
+Conformity Factor
+Vehicle Specific Power
+Fuel Consumption
+Non-Dispersive Infrared
+Relative Positive Acceleration
+Manifold Air Pressure
+Intake Air Temperature
+Conventional Vehicle
+Hybrid Vehicle Brand
+Emission Factor
+Mileage Traveled Related to ith Route Type
+Tank-to-Wheel
+Life Cycle Assessment
+Combined Heat and Power
+New European Driving Cycle
+
+References
+1.
+2.
+3.
+4.
+5.
+
+6.
+7.
+8.
+
+9.
+10.
+11.
+12.
+13.
+14.
+15.
+16.
+17.
+
+Mabahwi, N.A.B.; Leh, O.L.H.; Omar, D. Human Health and Wellbeing: Human Health Effect of Air Pollution. Procedia—Soc.
+Behav. Sci. 2014, 153, 221–229. [CrossRef]
+Tam, W.W.S.; Wong, T.W.; Wong, A.H.S. Association between air pollution and daily mortality and hospital admission due to
+ischaemic heart diseases in Hong Kong. Atmos. Environ. 2015, 120, 360–368. [CrossRef]
+International Energy Agency (IEA). Global Energy and CO2 Status Report. 2019. Available online: www.iea.org/geco/emissions/
+(accessed on 10 February 2022).
+International Energy Agency (IEA). CO2 Emissions from Fuel Combustion. 2018. Available online: www.iea.org/statistics/CO2
+emissions/ (accessed on 10 February 2022).
+Baensch-Baltruschat, B.; Kocher, B.; Stock, F.; Reifferscheid, G. Tyre and road wear particles (TRWP)—A review of generation,
+properties, emissions, human health risk, ecotoxicity, and fate in the environment. Sci. Total Environ. 2020, 733, 137823. [CrossRef]
+[PubMed]
+Shahbazi, H.; Taghvaee, S.; Hosseini, V.; Afshin, H. A GIS based emission inventory development for Tehran. Urban Clim. 2016,
+17, 216–229. [CrossRef]
+Pocityf Website. Available online: https://pocityf.eu/ (accessed on 10 February 2022).
+Polly, B.; Kutscher, C.; Macumber, D.; Schott, M.; Pless, S.; Livingood, B.; Van Geet, O. From Zero Energy Buildings to Zero Energy
+Districts. In Proceedings of the 2016 ACEEE Summer Study On Energy Efficiency in Buildings, Pacific Grove, CA, USA, 21–26
+August 2016.
+Saheb, Y.; Shnapp, S.; Paci, D. From Nearly-Zero Energy Buildings to Net-Zero Energy Districts—Lessons Learned from Existing EU
+Projects; Publications Office of the European Union: Luxembourg, 2019.
+Alpagut, B.; Akyürek, Ö.; Mitre, E. Positive Energy Districts Methodology and Its Replication Potential. Proceedings 2019, 20, 8.
+[CrossRef]
+Bossi, S.; Gollner, C.; Theierling, S. Towards 100 Positive Energy Districts in Europe: Preliminary Data Analysis of 61 European
+Cases. Energies 2020, 13, 6083. [CrossRef]
+European Environment Agency. Greenhouse Gas Emissions from Transport in Europe. Available online: www.eea.europa.eu/
+data-and-maps/indicators/transport-emissions-of-greenhouse-gases-7/assessment (accessed on 10 February 2022).
+EU: Cars: Greenhouse Gas Emissions. Available online: https://dieselnet.com/standards/eu/ghg.php (accessed on 10
+February 2022).
+Banister, D. The sustainable mobility paradigm Transp. Policy 2008, 15, 73–80. [CrossRef]
+European Environment Agency. New Registrations of Electric Vehicles in Europe. Available online: www.eea.europa.eu/dataand-maps/indicators/proportion-of-vehicle-fleet-meeting-5/assessment (accessed on 10 February 2022).
+International Energy Agency (IEA). Global EV Outlook 2019. Available online: www.iea.org/reports/global-ev-outlook-2019
+(accessed on 10 February 2022).
+Hedman, Å.; Rehman, H.U.; Gabaldón, A.; Bisello, A.; Albert-Seifried, V.; Zhang, X.; Guarino, F.; Grynning, S.; Eicker, U.;
+Neumann, H.-M.; et al. IEA EBC Annex 83 Positive Energy Districts. Buildings 2021, 11, 130. [CrossRef]
+
+Energies 2022, 15, 2760
+
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+25.
+
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+33.
+34.
+35.
+36.
+37.
+38.
+39.
+40.
+
+41.
+42.
+43.
+
+18 of 18
+
+International Energy Agency (IEA). Technology Roadmaps, Biofuels for Transport. 2011. Available online: www.iea.org/reports/
+technology-roadmap-biofuels-for-transport (accessed on 10 February 2022).
+U.S. Energy Information Administration (EIA). Annual Energy Outlook 2021 (AEO2021). 2021. Available online: www.eia.gov/
+outlooks/aeo/ (accessed on 10 February 2022).
+International Energy Agency (IEA). World Energy Outlook 2018. 2018. Available online: www.iea.org/reports/world-energyoutlook2018/electricity#abstract (accessed on 10 February 2022).
+Franco, V.; Kousoulidou, M.; Muntean, M.; Ntziachristos, L.; Hausberger, S.; Dilara, P. Road vehicle emission factors development:
+A review. Atmos. Environ. 2013, 70, 84–97. [CrossRef]
+Plötz, P.; Moll, C.; Bieker, G.; Mock, P.; Li, Y. Real-World Usage of Plug-In Hybrid Electric Vehicles Fuel Consumption, Electric
+Driving, and CO2 Emissions. 2020. Available online: https://trid.trb.org/view/1742037 (accessed on 10 February 2022).
+Madziel,
+˛
+M.; Jaworski, A.; Kuszewski, H.; Woś, P.; Campisi, T.; Lew, K. The Development of CO2 Instantaneous Emission Model
+of Full Hybrid Vehicle with the Use of Machine Learning Techniques. Energies 2022, 15, 142. [CrossRef]
+Krysmon, S.; Dorscheidt, F.; Claßen, J.; Düzgün, M.; Pischinger, S. Real Driving Emissions—Conception of a Data-Driven
+Calibration Methodology for Hybrid Powertrains Combining Statistical Analysis and Virtual Calibration Platforms. Energies
+2021, 14, 4747. [CrossRef]
+Keramydas, C.; Papadopoulos, G.; Ntziachristos, L.; Lo, T.-S.; Ng, K.-L.; Wong, H.-L.A.; Wong, C.K.-L. Real-World Measurement
+of Hybrid Buses’ Fuel Consumption and Pollutant Emissions in a Metropolitan Urban Road Network. Energies 2018, 11, 2569.
+[CrossRef]
+Huang, Y.; Surawski, N.C.; Organ, B.; Zhou, J.L.; Tang, O.H.H.; Chan, E.F.C. Fuel consumption and emissions performance under
+real driving: Comparison between hybrid and conventional vehicles. Sci. Total Environ. 2019, 659, 275–282. [CrossRef] [PubMed]
+Bielaczyc, P.; Merkisz, J.; Pielecha, J.; Woodburn, J. A Comparison of Gaseous Emissions from a Hybrid Vehicle and a Non-Hybrid Vehicle
+under Real Driving Conditions; SAE Technical Paper 2018-01-1272; SAE International: Warrendale, PA, USA, 2018. [CrossRef]
+Wu, X.; Zhang, S.; Wu, Y.; Li, Z.; Ke, W.; Fu, L.; Hao, J. On–road measurement of gaseous emissions and fuel consumption for two
+hybrid electric vehicles in Macao. Atmos. Pollut. Res. 2015, 6, 858–866. [CrossRef]
+Holmén, B.A.; Sentoff, K.M. Hybrid-Electric Passenger Car Carbon Dioxide and Fuel Consumption Benefits Based on Real-World
+Driving. Environ. Sci. Technol. 2015, 49, 10199–10208. [CrossRef]
+O’Driscoll, R.; Stettler, M.E.J.; Molden, N.; Oxley, T.; ApSimon, H.M. Real world CO2 and NOx emissions from 149 Euro 5 and 6
+diesel, gasoline and hybrid passenger cars. Sci. Total Environ. 2018, 621, 282–290. [CrossRef]
+Graver, B.M.; Frey, H.C.; Choi, H.-W. In-Use Measurement of Activity, Energy Use, and Emissions of a Plug-in Hybrid Electric
+Vehicle. Environ. Sci. Technol. 2011, 45, 9044–9051. [CrossRef]
+Skobiej, K.; Pielecha, J. Plug-in Hybrid Ecological Category in Real Driving Emissions. Energies 2021, 14, 2340. [CrossRef]
+Wróblewski, P.; Kupiec, J.; Drożdż, W.; Lewicki, W.; Jaworski, J. The Economic Aspect of Using Different Plug-In Hybrid Driving
+Techniques in Urban Conditions. Energies 2021, 14, 3543. [CrossRef]
+Bagheri, S.; Huang, Y.; Walker, P.D.; Zhou, J.L.; Surawski, N.C. Strategies for improving the emission performance of hybrid
+electric vehicles. Sci. Total Environ. 2021, 771, 144901. [CrossRef]
+Pielecha, J.; Skobiej, K.; Kurtyka, K. Exhaust Emissions and Energy Consumption Analysis of Conventional, Hybrid, and Electric
+Vehicles in Real Driving Cycles. Energies 2020, 13, 6423. [CrossRef]
+Mamala, J.; Śmieja, M.; Prażnowski, K. Analysis of the Total Unit Energy Consumption of a Car with a Hybrid Drive System in
+Real Operating Conditions. Energies 2021, 14, 3966. [CrossRef]
+Orecchini, F.; Santiangeli, A.; Zuccari, F. Real Drive Well-to-Wheel Energy Analysis of Conventional and Electrified Car Powertrains. Energies 2020, 13, 4788. [CrossRef]
+Banitalebi, E.; Hosseini, V. Development of Hot Exhaust Emission Factors for Iranian-Made Euro-2 Certified Light-Duty Vehicles.
+Environ. Sci. Technol. 2016, 50, 279–284. [CrossRef] [PubMed]
+Oppenheim, N. Urban Travel Demand Modeling: From Individual Choices to General Equilibrium; John Wiley and Sons: New York, NY,
+USA, 1995.
+Nigro, N.; Giang, S. Lifecycle Greenhouse Gas Emissions from Different Light-Duty Vehicle and Fuel Pathways: A Synthesis of Recent Research; Center for Climate and Energy Solutions: Arlington, VA, USA, 2013; Available online: www.c2es.org/document/lifecyclegreenhouse-gas-emissions-from-different-light-duty-vehicle-and-fuel-pathways-a-synthesis-of-recent-research/ (accessed on
+10 February 2022).
+International Energy Agency (IEA). Energy Technology Perspectives 2020. Available online: www.iea.org/reports/energytechnology-perspectives-2020 (accessed on 10 February 2022).
+International Energy Agency (IEA). Net Zero by 2050: A Roadmap for the Global Energy Sector. Available online: www.iea.org/
+events/net-zero-by-2050-a-roadmap-for-the-global-energy-system (accessed on 10 February 2022).
+Pignatta, G.; Balazadeh, N. Assessment of hybrid vehicles using Portable Emission Measurement System (PEMS) as a transition
+for full e-mobility achievement in positive energy districts. In Proceedings of the International Conference on Construction,
+Energy, Environment and Sustainability (CEES 2021), Coimbra, Portugal, 12–15 October 2021; Available online: https://cees2021.
+uc.pt/projectos/cees2020/atas/pdfs/ID37.pdf (accessed on 11 February 2022).
+
+

@@ -1,0 +1,4052 @@
+energies
+Article
+
+PEDRERA. Positive Energy District Renovation Model for
+Large Scale Actions
+Paolo Civiero 1, * , Jordi Pascual 1 , Joaquim Arcas Abella 2 , Ander Bilbao Figuero 2 and Jaume Salom 1
+1
+
+2
+
+*
+
+Thermal Energy and Building Performance Group, IREC—Catalonia Institute for Energy Research,
+Sant Adrià del Besos, 08930 Barcelona, Spain; jpascual@irec.cat (J.P.); jsalom@irec.cat (J.S.)
+CÍCLICA ARQUITECTURA SCCL, Sant Cugat del Vallès, 08173 Barcelona, Spain;
+joaquim.arcas@ciclica.eu (J.A.A.); ander.bilbao@ciclica.eu (A.B.F.)
+Correspondence: pciviero@irec.cat
+
+Abstract: In this paper, we provide a view of the ongoing PEDRERA project, whose main scope
+is to design a district simulation model able to set and analyze a reliable prediction of potential
+business scenarios on large scale retrofitting actions, and to evaluate the overall co-benefits resulting
+from the renovation process of a cluster of buildings. According to this purpose and to a Positive
+Energy Districts (PEDs) approach, the model combines systemized data—at both building and
+district scale—from multiple sources and domains. A sensitive analysis of 200 scenarios provided
+a quick perception on how results will change once inputs are defined, and how attended results
+will answer to stakeholders’ requirements. In order to enable a clever input analysis and to appraise
+wide-ranging ranks of Key Performance Indicators (KPIs) suited to each stakeholder and design
+phase targets, the model is currently under the implementation in the urbanZEB tool’s web platform.
+
+
+
+Keywords: Positive Energy District; smart districts; building performance simulation; sustainable
+large-scale renovation model; Driving Urban Transition; Renovation Wave
+
+Citation: Civiero, P.; Pascual, J.;
+Arcas Abella, J.; Bilbao Figuero, A.;
+Salom, J. PEDRERA. Positive Energy
+District Renovation Model for Large
+
+1. Introduction
+
+Scale Actions. Energies 2021, 14, 2833.
+
+The European Commission has set ambitious targets to make Europe the first carbonneutral continent by 2050. As the building sector is one of the largest energy consumers, the
+European Union (EU) is now stepping up efforts towards citywide transformation to enable
+transitions towards a climate neutral economy. A refurbished and improved building stock
+in the EU will help to pave the way for a decarbonized and clean energy system as well as
+for the development of neutral cities [1]. The improvement of the intervention rate up to
+3% per year, which means the need to promote renovation actions, will raise the overall
+quality of the building stock, especially regarding the energy neutrality, high efficiency and
+health [2,3]. Indeed, large-scale renovation means also to regenerate and revitalize the social
+and economic structures locally, and to build trust in the business opportunities and benefits
+for each actor involved in the process [4]. To pursue these ambitious energy and climate
+benefits and the economic growth, the Positive Energy Districts (PEDs) approach will be a
+driving force, bringing the European Green Deal (GD) closer to citizens in an attractive,
+innovative and human-centered way [3]. The pioneering concept of PEDs, which builds
+on the paradigm of smart cities, will be incrementally introduced in the energy planning
+of many cities and communities in the coming years [5]. The Positive Energy District
+is directly contributing to the Renovation Wave through the strengthening of national
+innovation policies by coordinating, pooling and increasing of Research and Innovation
+funding for developing 100 Positive Energy Districts in Europe by 2025. Furthermore, PEDs
+will help to fulfil the goals set out by international policy frameworks such as the Urban
+Agenda for the EU, the COP21 Paris Agreement, the Habitat III New Urban Agenda, and
+the UN’s Sustainable Development Goals (notably SDG 11), and to boost the large-scale
+regeneration of the built environment.
+
+https://doi.org/10.3390/en14102833
+Academic Editor: Alfonso Capozzoli
+Received: 26 April 2021
+Accepted: 11 May 2021
+Published: 14 May 2021
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+Energies 2021, 14, 2833. https://doi.org/10.3390/en14102833
+
+https://www.mdpi.com/journal/energies
+
+Energies 2021, 14, 2833
+
+2 of 21
+
+Aligned with this perspective, the paper describes the ongoing research project “PEDRERA. Positive Energy District renovation model” whose main goal is to handle several
+key challenges and sectoral priorities of this urban transitions, by unlocking the potential
+of business models geared towards large scale refurbishment plans [6]. A model able to
+provide a reliable prediction of potential scenarios—and their benefits in terms of energy
+efficiency, well-being and economic topics, among others—in order to plan and execute
+investment. Indeed, the purpose of the hereunder described PEDRERA project is to create
+a multidimensional urban building energy modeling (UBEM) [7] tool able to assess and
+promote the large-scale renovation in the urban areas. According to this objective, the
+model supports the simulation of different renovation scenarios moving from a set of
+information that firstly is automatically gathered and/or extracted. The definition of the
+main input and the calculation of Key Performance Indicators (KPIs) for large-scale renovation strategies are proposed according to a PEDs vision including different stakeholders’
+perspectives and with special attention to the most vulnerable groups, as well to make the
+transition perspective, feasible. Once collected, inputs are used to run the PEDRERA model
+algorithms and suited on each stakeholder involved in the renovation process. In this way,
+it will promote an action of urban regeneration focused on clear long-term environmental,
+social and economic objectives [8].
+The present paper, oriented to the problem definition and formulation, ready for
+the implementation, demonstrates how the research addresses several challenges which
+represent some of the main barriers for this transition process, especially:
+
+•
+•
+
+How to achieve and integrate heterogeneous data from different domain in order to
+get a comprehensive understanding of district scale renovation complexity.
+How the information is systematized and addressed to specific KPIs and to stakeholders’ targets along the renovation process phases.
+
+Although the potential of available data, some critical barriers could hinder their
+effectiveness and implementation of the PEDs in the urban environment, and are represented by the ability to aggregate data from different sources and to exploit this information
+according to specific target groups’ “scope”. Indeed, the challenge is not only how to gather
+fair data (reliable, verified and continuous over time), but also how to integrate them in
+order to formulate predictive and feasible business models adherent to the purpose. One
+of the key innovation aspects of the PEDRERA model means the way to solve the gaps and
+the integration from different databases and dispersed information.
+According to these addressed challenges, it is well known that the availability of
+widely monitored and shared data is certainly one of the key aspects of smart and digital
+cities [9]. Aimed to facilitate collecting, sharing and integrating data about the environment,
+several initiatives—like the OECD’s Open Government Data project and the INSPIRE
+directive (currently under revision and that will be implemented by 2021)—are meant to
+create a European Union spatial data infrastructure for the purposes of EU environmental
+policies [10,11]. In compliance with these initiatives, national land registers—such as the
+Spanish cadaster—are already sharing their spatial data, including parcels and building
+characteristics (gross surfaces, number of dwellings and of floors), among others.
+On the other hand, in order to address information to specific KPIs and thus explore
+different scenarios and potentialities allowed, the PEDRERA model adopts the innovative
+methodology of UBEM developed in the urbanZEB tool provided by the CICLICA, partner
+of the research project [12,13]. UBEMs have emerged in recent years as efficient hybrid of
+top-down statistical and bottom-up engineering approaches [14–17] and they are expected
+to become the main planning tool for energy utilities, municipalities, urban planners and
+other professionals [18–21]. Both the UBEMs and the virtual city maps are considered as
+the new generation of tools that based on the digital twins concept, allow the analysis and
+monitoring of large urban areas and built stock [22–25]. The UBEM allows the multilevel
+integration of several sources of information, the energy simulation of building and characterization of buildings, and as a result, the generation of new essential knowledge and new
+scenarios for urban regeneration [26–28].
+
+Energies 2021, 14, 2833
+
+3 of 21
+
+Two main UBEM approaches can be identified from the literature: physical modelling
+and data-driven modelling that provide automated generation of building energy models
+through abstraction of building stock by different “building archetypes”, i.e., sample or virtual buildings that characterize subsets of buildings of the same kind [29,30]. With regards
+to the other existent tools, the joint venture PEDRERA and urbanZEB tool leads to a very
+dynamic, flexible and definitively accurate data-driven UBEM tool for large-scale prediction. Furthermore, PEDRERA is benchmarking innovative and adaptable refurbishment
+packages on buildings and supporting the design of successful and effective business models for their large-scale deployment and replication. Based on a quantitative aggregation of
+data, obtained from different sources (e.g., cadaster, public energy performance certificates,
+statistical socio-economic local conditions, etc.) the adopted software engine algorithms are
+already able to both support the calculation of different packages of intervention and provide the simulation of potential scenarios, while dealing with different energy goals (energy
+efficiency and production), as well costs savings and environmental/welfare co-benefits.
+Together these models also enable the analysis of the energy supply and demand in a
+region; make it possible to develop scenarios; determine a preferred mix of technologies,
+given certain constraints; simulate behavior of energy producers and consumers in response
+to prices and other signals, etc.
+Nevertheless, based on the lesson learned from similar existent models and software,
+PEDRERA project aims to build a user-friendly, easy replicable and updatable model that
+could be useful for energy system transformation and supporting PEDs implementation.
+For this reason, the number of output (KPIs) handled by the model is reduced to the most
+relevant information (Table 1). Furthermore, the KPIs are strictly based on each type of
+actor of the process, thus when specific aspects (e.g., socioeconomic ones) mean the main
+issue to be considered in the process scenario, prioritization ranking will help to select both
+the crucial inputs and the drivers to be adopted.
+The urbanZEB platform, where PEDRERA model will be implemented, is currently in
+use and has been adopted to define and support local and national plans and strategies.
+The results of urbanZEB are accessible through an interactive online platform that allows
+to consult both the single building level and multiple buildings through mapping, based
+on graphical data, which include functionalities for comparing scenarios and spatial geographic filtering. The visualization of urban information is in three possible output formats:
+3d cartography, database and tables and graphs, while the consultation of urban information is according to three spatial units of analysis: building, census section or neighborhood
+and municipality. The most relevant experience of implementing urbanZEB so far was
+the long-term renovation strategy (LTRS) in the Basque Country’s building stock, in 2019.
+The project challenged an innovative action plan which, for the first time on a regional
+scale, was based on the building-by-building diagnosis of 1.1 million dwellings, providing
+a significant advancement in the methodology so far employed for large-scale renovation
+strategies. At metropolitan scale, the urbanZEB tool was implemented in the Barcelona
+Metropolitan Area, in order to prioritize the intervention of energy renovation in an area
+of special vulnerability, formed by more than 200,000 dwellings. The urbanZEB tool’s
+calculation engine was also used in the Spanish LTRS 2020 for the energy simulation of the
+archetypes identified, with the aim of obtaining the energy reduction after the intervention
+in the national stock.
+Once implemented, the PEDRERA tool will facilitate the engagement of multiple
+stakeholders involved in the building renovation programs to make effective and wellinformed decisions from a cluster of georeferenced buildings. Indeed, the urbanZEB
+tool is able to simulate each of the sub-models implemented, and where it is possible
+to choose among many existing simulation engines or tailor-made models, which fit the
+characteristics of an application case. Hence, the integration and systematization of the
+information from multiple domains (e.g., building, energy, economy, financing) is the first
+step to assess and to manage accurately both the complexity of financing renewal processes
+at district scale and the interests of each stakeholder. The bottom-up approach of the
+
+Energies 2021, 14, 2833
+
+cesses at district scale and the interests of each stakeholder. The bottom-up approach of
+the urbanZEB tool, dealing with the numerical representation of interconnections between
+the buildings and the surrounding environment, can assess the needs of several stakeholders—including the final users’ requirement—with a high resolution of outputs. In
+of 21 tested
+that case of the PEDRERA model, the accuracy of the simulation engine has 4been
+and validated to forecast potential scenarios with results that adhere to the market values.
+2. Methods
+urbanZEB tool, dealing with the numerical representation of interconnections between the
+buildings
+and the surrounding
+environment,
+can assessis
+thesummarized
+needs of several
+The methodology
+deployed
+in this analysis
+instakeholders—
+Figure 1. The tool
+including the final users’ requirement—with a high resolution of outputs. In that case of
+framework is drawn according to a step by step interactive approach where a different
+the PEDRERA model, the accuracy of the simulation engine has been tested and validated
+deepening
+input belongs
+towith
+eachresults
+phasethat
+of adhere
+the renovation
+process:
+(1) data aggregation,
+to forecastofpotential
+scenarios
+to the market
+values.
+
+(2) leading phase, (3) demand aggregation, (4–5) concept and technical design, (6) con2. Methods
+struction,
+(7) use. As described above, the PEDRERA data-driven model is based firstly
+methodology
+deployed
+in this system
+analysis that
+is summarized
+1. and
+The tool
+on the The
+aggregation
+of the
+information
+means to:in(1)Figure
+collect
+gather the
+framework
+is
+drawn
+according
+to
+a
+step
+by
+step
+interactive
+approach
+where
+a
+different
+available data from multiple domains; (2) integrate the available data to create data-driven
+deepening
+of input belongs
+to eachto
+phase
+renovation
+process: (1)
+models
+and scenarios
+that enable
+gainofathe
+better
+understanding
+ofdata
+the aggregation,
+complex reality—
+(2) leading phase, (3) demand aggregation, (4–5) concept and technical design, (6) construcextended to no-directly related building stock information.
+tion, (7) use. As described above, the PEDRERA data-driven model is based firstly on the
+According
+interactive
+approach
+scheme
+presented
+in gather
+Figurethe
+1, available
+the data aggreaggregation
+of to
+thethe
+information
+system
+that means
+to: (1)
+collect and
+gation
+from
+multiple
+domains
+and
+sources
+(Step
+1—data
+aggregation)
+is
+in a
+data from multiple domains; (2) integrate the available data to create data-driven arranged
+models
+four
+main
+domains
+framework
+will
+be used to assess
+the renovation
+program: busiand
+scenarios
+that enable
+to gain that
+a better
+understanding
+of the complex
+reality—extended
+to model,
+no-directly
+related building
+stock information.
+ness
+environmental,
+operative
+and social issues (tags).
+
+Figure 1. Synthesis of the renovation process flowchart and the interactive approach with the PEDRERA model.
+
+FigureSource:
+1. Synthesis
+of the renovation process flowchart and the interactive approach with the PEDRERA model. Source:
+PEDRERA.
+PEDRERA.
+According to the interactive approach scheme presented in Figure 1, the data aggregation from multiple domains and sources (Step 1—data aggregation) is arranged in a four
+main domains framework that will be used to assess the renovation program: business
+model, environmental, operative and social issues (tags).
+
+Energies 2021, 14, 2833
+
+5 of 21
+
+Energies 2021, 14, x FOR PEER REVIEW
+
+5 of 21
+
+Indicators to evaluate the status renovation potential of a particular urban area are
+Indicators
+to evaluate
+the status
+a particular
+urban
+area are
+supposed
+to capture
+and process
+fairrenovation
+data frompotential
+multipleofsources:
+energy
+performance,
+supposed
+to capture
+and physical
+process fair
+data from multiple
+sources:
+energyan
+performance,
+census,
+cadaster,
+building
+characteristics,
+etc. Each
+input means
+indicator that
+census,
+cadaster, building
+physical characteristics,
+etc. Each
+means an
+indicator
+that to
+will
+be introduced
+in the algorithms
+for the calculation
+of input
+the different
+KPIs
+according
+will
+be introduced in the algorithms for the calculation of the different KPIs according to
+the
+scopes:
+the scopes:
+•
+Financial appraisal.
+Financial appraisal.
+• • Renovation
+strategy.
+•
+Renovation
+strategy.
+•
+Energy community.
+•
+Energy
+community.
+•
+Welfare and security.
+Welfare and security.
+• • Marketing.
+•
+Marketing.
+Moreover, socio-economic indicators such as low income and aging population are also
+Moreover, socio-economic indicators such as low income and aging population are
+observed
+in order to cluster most intensely certain urban environments as representative of
+also observed in order to cluster most intensely certain urban environments as representasocial cohesion as well as useful to design the business models and to evaluate their impact
+tive of social cohesion as well as useful to design the business models and to evaluate their
+on each scenario. Since they are significantly representative of household vulnerability,
+impact on each scenario. Since they are significantly representative of household vulnerthey are likewise considered as input of the risk poverty for both the sustainability of the
+ability, they are likewise considered as input of the risk poverty for both the sustainability
+business model, and the renovation strategy to adopt. That information brings together
+of the business model, and the renovation strategy to adopt. That information brings tothe first collection of input that will be used as basis of knowledge and for the design of the
+gether the first collection of input that will be used as basis of knowledge and for the
+renovation scenarios. For this scope, the different types of sources are defined and listed.
+design of the renovation scenarios. For this scope, the different types of sources are deOtherwise,
+inputs are imported, calculated and/or simulated from statistical information
+fined and listed. Otherwise, inputs are imported, calculated and/or simulated from statisfor
+single
+customized
+projects.
+tical information for single
+customized projects.
+The
+aggregated
+data
+accordingtotothe
+thesub-categories
+sub-categories
+and
+scopes
+The aggregated data are
+are systemized
+systemized according
+and
+scopes
+of of
+the
+PEDRERA
+framework,
+as
+described
+later.
+All
+the
+information
+is
+georeferenced
+to
+the PEDRERA framework, as described later. All the information is georeferenced to thethe
+single
+the above
+abovementioned
+mentionedfour
+four“tags”
+“tags”(Figure
+(Figure
+that
+make
+quick
+singlebuildings
+buildingsaccording
+according to
+to the
+2) 2)
+that
+make
+quick
+and
+the assessment
+assessmentof
+ofpotential
+potentialbuildings
+buildings
+renovated,
+as well
+andclever
+cleverthe
+theselection
+selection and
+and the
+toto
+bebe
+renovated,
+as well
+asastaking
+of the
+the stakeholders
+stakeholders(agent/user)
+(agent/user)
+involved
+in the
+takinginto
+intoaccount
+account the
+the engagement
+engagement of
+involved
+in the
+process
+3).
+process(Step
+(Step2—leading)
+2—leading) (Figure
+(Figure 3).
+
+Figure 2. Multidimensional model indicators (layers) displayed in the platform and supporting residential building retroFigure 2. Multidimensional model indicators (layers) displayed in the platform and supporting residential building
+fitting programs. Source: authors.
+retrofitting programs. Source: authors.
+
+Energies
+Energies 2021,
+2021, 14,
+14, 2833
+x FOR PEER REVIEW
+
+(a)
+
+6 of2121
+6 of
+
+(b)
+
+Figure 3.
+3. Extract
+Extract of
+of the
+the PEDRERA
+PEDRERA model
+Figure
+model approach
+approach expected
+expected visualization
+visualizationin
+in the
+the urbanZEB
+urbanZEBtool:
+tool:(a)
+(a)Data
+Dataaggregation
+aggregationatat
+urban level; (b) leading phase and stakeholder engagement for the cluster of building selection. Source: authors.
+urban level; (b) leading phase and stakeholder engagement for the cluster of building selection. Source: authors.
+
+Input
+gathered
+from
+a large
+number
+of exterInput data
+dataare
+aresupposed
+supposedtotobebeautomatically
+automatically
+gathered
+from
+a large
+number
+of exnal
+data
+sources
+parameters
+(e.g.,
+technical
+and
+architectural
+aspects,
+weather,
+demoternal data sources parameters (e.g., technical and architectural aspects, weather, demographic/aging
+income/energy
+poverty
+indicators
+or socio-economic
+rating,
+engraphic/agingcondition,
+condition,
+income/energy
+poverty
+indicators
+or socio-economic
+rating,
+ergy
+demand
+and
+consumption
+data,
+etc.).
+Multiple
+sources
+of
+data
+are
+available
+for
+this
+energy demand and consumption data, etc.). Multiple sources of data are available for
+scope
+(open
+data)data)
+and can
+used,used,
+shared
+and built-on
+by anyone,
+anywhere,
+for
+this scope
+(open
+and be
+canfreely
+be freely
+shared
+and built-on
+by anyone,
+anywhere,
+any
+purpose,
+although
+eacheach
+one one
+is managed
+by aby
+different
+organization,
+and and
+collected
+for
+for any
+purpose,
+although
+is managed
+a different
+organization,
+collected
+afor
+specific
+purpose
+(e.g.,(e.g.,
+improving
+building
+energyenergy
+efficiency,
+evaluating
+the status
+the
+a specific
+purpose
+improving
+building
+efficiency,
+evaluating
+the of
+status
+building
+stock, stock,
+etc.). In
+addition
+to gathering
+and integrating
+the aggregated
+data, data,
+the
+of the building
+etc.).
+In addition
+to gathering
+and integrating
+the aggregated
+PEDRERA
+model
+algorithm
+exploits
+the
+potential
+relationships
+between
+data
+to
+design
+the PEDRERA model algorithm exploits the potential relationships between data to deEnergies 2021, 14, x FOR PEER REVIEW
+7 of 21
+each
+measure
+and toand
+evaluate
+their impact
+on all the
+above
+listed scopes
+(Step
+sign renovation
+each renovation
+measure
+to evaluate
+their impact
+on all
+the above
+listed scopes
+3—demand
+aggregation)
+(Figure
+4).
+(Step 3—demand aggregation) (Figure 4).
+Once inputs are collected, systemized and filtered, the model provides the calculation
+of composite performance output (KPIs), as well as the information on compliance with
+the targets established by the stakeholders. Both the value and the prioritization rank of
+each input (attributes and variables to be included in the algorithms) and output KPIs will
+modify the renovation strategy to be adopted and, consequently, the scenarios results
+(Step 4—concept design). The forecasted scenarios displayed do reflect almost a range of
+the potential menus of intervention and, thanks to their friendly visualization, will help
+the exploitation of the results obtained for the next design phases (Steps 5, 6 and 7 of the
+renovation process), integrating the stakeholders’ requirement and expectations (Figure
+5). After the conclusion of the renovation process, the same platform will also enable to
+update data stored in the repository for future analysis and intervention.
+
+(a)
+
+(b)
+
+Figure4.4.Extract
+Extract of
+ofthe
+thePEDRERA
+PEDRERA model
+model approach,
+approach, expected
+expected visualization
+visualization in
+in the
+the urbanZEB
+urbanZEB tool.
+tool. Demand
+Figure
+Demand aggregation
+aggregation
+menuwith:
+with: (a)
+(a) the
+the renovation
+renovation measures
+measures input;
+input; (b)
+(b) the
+the integration
+integration of
+menu
+of aggregated
+aggregated and
+and gathered
+gathered data
+data for
+forthe
+thecost
+costanalysis.
+analysis.
+Source: authors.
+Source: authors.
+
+Once inputs are collected, systemized and filtered, the model provides the calculation
+of composite performance output (KPIs), as well as the information on compliance with
+the targets established by the stakeholders. Both the value and the prioritization rank of
+each input (attributes and variables to be included in the algorithms) and output KPIs
+
+Energies 2021, 14, 2833
+
+7 of 21
+
+will modify the renovation strategy to be adopted and, consequently, the scenarios results
+(Step 4—concept design). The forecasted scenarios displayed do reflect almost a range of
+the potential menus of intervention and, thanks to their friendly visualization, will help
+(a)
+the exploitation of the results obtained for the next design(b)
+phases (Steps 5, 6 and 7 of the
+renovation
+process),
+integrating
+the
+stakeholders’
+requirement
+and
+expectations
+(Figure 5).
+Figure 4. Extract of the PEDRERA model approach, expected visualization in the urbanZEB tool.
+Demand
+aggregation
+menu with: (a) the renovation
+measures
+input;
+(b)
+the
+integration
+of
+aggregated
+and
+gathered
+data
+for
+the
+cost
+analysis.
+After the conclusion of the renovation process, the same platform will also enable to update
+Source: authors.
+data stored in the repository for future analysis and intervention.
+
+(a)
+
+(b)
+
+Figure 5.
+5. Extract of the PEDRERA model approach, expected visualization in the urbanZEB tool:
+Figure
+tool: (a)
+(a) concept
+conceptdesign
+designbased
+based
+on financial
+financial appraisal
+appraisal and
+and KPIs
+KPIs prioritization;
+prioritization; (b)
+(b) scenario
+scenario visualization
+on
+visualization for
+for scenario
+scenario selection
+selection according
+according to
+topriorities
+prioritiesfrom
+from
+stakeholders. Source:
+Source: authors.
+authors.
+stakeholders.
+
+PEDRERA Model Input
+Table 11provides
+of the
+required
+by theby
+PEDRERA
+model tomodel
+properly
+Table
+providesa summary
+a summary
+of inputs
+the inputs
+required
+the PEDRERA
+to
+run
+simulations.
+Most
+of
+the
+input
+data
+for
+the
+algorithms
+are
+already
+collected
+from
+public
+properly run simulations. Most of the input data for the algorithms are already collected
+sources
+and from
+case
+study
+sources
+and integrated
+in the
+urbanZEB
+toolurbanZEB
+(e.g., cadaster,
+from public
+sources
+and
+from
+case study
+sources and
+integrated
+in the
+tool
+energy
+performance
+certificates
+and census,
+among
+by among
+Semantic
+Web processing.
+(e.g., cadaster,
+energy
+performance
+certificates
+andother)
+census,
+other)
+by Semantic
+input is systemized in the model framework in order to predicts the suitable
+Web Each
+processing.
+output
+(KPIs)
+forisgiven
+inputs. in
+The
+are namely:
+of issuethe
+andsuitable
+type of
+Each
+input
+systemized
+theinput’s
+modelfeatures
+framework
+in ordertype
+to predicts
+parameter,
+indicator,
+unit,
+scope
+(the
+goal
+where
+input
+is
+adopted),
+data
+source
+(imported
+output (KPIs) for given inputs. The input’s features are namely: type of issue and type of
+from
+database,
+calculated,
+simulated),
+scale
+(building,
+urban
+unit)
+parameter,
+indicator,
+unit, scope
+(the goal
+where
+input isdistrict,
+adopted),
+data area/census
+source (imported
+and
+source
+dataset.
+from database, calculated, simulated), scale (building, district, urban area/census unit)
+Therefore,
+the PEDRERA model will run data through a special wizard able to filter inand source
+dataset.
+put data which are already displayed and shared on the urbanZEB web platform. Through
+Geographical Information System (GIS), Big Data and Extract, Transform and Load (ETL)
+techniques these sources are integrated in a Data Warehouse that allows the dynamic
+crossing of the different levels of information. The connectors will be implemented with
+API calls, data dump digestion or in web scrapping techniques based on the characteristics
+of the sources. In this way, the processes are configured to cover specific case studies on
+extended urban areas. The repository is implemented as a PostgreSQL/PostGIS database
+in order to facilitate displaying the data in map visualizations. Data sources that are not
+published in a structured format such as CSV, RDF, API REST and XLS, among others, are
+processed using web scrapping techniques. The database file stores all the information
+resulting from the characterization phase of the project (with all the parameters and indicators) and the prioritization indices. In addition, to facilitate the reading and visualization
+of the data, an X-ray file (ArcMap) holds the layers of information established in the project
+and their set of symbols.
+
+Energies 2021, 14, 2833
+
+8 of 21
+
+Table 1. List of main input implemented and managed in the PEDRERA model. Source: authors.
+
+Business model
+
+%
+
+•
+
+Building attributes
+
+Entities/Dwellings
+
+no.
+
+•
+
+Economies of Scale
+
+Reduction on contract
+(tender phase)
+
+%
+
+•
+
+Economies of Scale
+
+Reduction on PEM
+(market prize)
+
+%
+
+Economies of Scale
+
+Increment/Reduction on
+involved entities
+
+Economies of Scale
+
+•
+
+•
+
+Marketing
+
+•
+
+Welfare & Security
+
+•
+
+District
+
+Property ratio
+(Owners/tenants )
+
+•
+
+Source Dataset
+Urban area / Census unit
+
+Building attributes
+
+•
+
+Building
+
+%
+
+Scale
+
+Simulated
+
+Property (public/private
+ownership)
+
+Calculated
+
+Building attributes
+
+Data
+Source
+
+Scope
+
+Imported from Data base
+
+Unit
+
+Energy Community
+
+Indicators
+
+Financial Appraisal
+
+Parameter
+
+Renovation Strategy
+
+Issue
+
+•
+
+National cadaster
+Comdomium/Insurance
+company
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+National cadaster
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model +ITEC
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model +ITEC
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Reduction on project fees
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Economies of Scale
+
+Increment Market value
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Incasol/AMB /PMRH
+
+Cost analysis
+
+VAT (Technical +
+Operational)
+
+%
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Financing amount
+
+€
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Operational Cost
+Breakdown
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+PPP ratio according
+renovation process
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Technical Project fees
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Operational costs
+(Fix. + Var.)
+
+€
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+OverHeads
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Benefits
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Cost analysis
+
+Public Grant (costs covered
+by public)
+
+%
+
+•
+
+Cost analysis
+
+Loans years
+
+no.
+
+Cost analysis
+
+Yearly TAE
+
+Cost analysis
+
+Renovation investment
+(PEM/Ent.)
+
+Cost analysis
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+ERDF/National EE
+Fund/PAREER II/ IDAE
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+€
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+Maintenance cost
+(costr. elements)
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+GBCe + BEDEC/CYPE
+
+Cost analysis
+
+Maintenance cost
+(equipments)
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+GBCe + BEDEC/CYPE
+
+Cost analysis
+
+Life span maintenance
+investment
+
+years
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+User Types
+
+UT A (A1, A2, A3, . . . )
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+User Types
+
+UT B (vulnerable persons)
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+User Types
+
+UT C (Defaulters)
+
+%
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+•
+
+•
+
+Energies 2021, 14, 2833
+
+9 of 21
+
+Table 1. Cont.
+
+no.
+
+•
+
+•
+
+•
+
+•
+
+Architectural
+character.
+
+Roof extension
+
+Sqm
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Architectural
+character.
+
+Envelope extension
+
+Sqm
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Architectural
+character.
+
+Facades ratio
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Architectural
+character.
+
+Windows ratio
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Architectural
+character.
+
+Building cluster type (Age)
+
+-
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Architectural
+character.
+
+Building cluster type (Use)
+
+-
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Building attribute
+
+Residential/tertiary
+
+%
+
+Building attribute
+
+Accessibility
+
+-
+
+Building attribute
+
+Degradation Condition
+
+Range
+
+Energy character.
+
+Energy Demand
+
+-
+
+•
+
+•
+
+Energy character.
+
+Final energy consumption
+
+-
+
+•
+
+•
+
+•
+
+Renovation
+measures
+
+Renovation targets A
+(Env. + Equip. + Struct.)
+
+-
+
+•
+
+•
+
+•
+
+•
+
+Renovation
+measures
+
+Renovation targets B
+(Accessibility)
+
+-
+
+•
+
+•
+
+Renovation
+measures
+
+Renovation targets C
+(RES production)
+
+-
+
+•
+
+•
+
+Renovation
+measures
+
+Renovation process
+(TimeSeries)
+
+Months •
+
+•
+
+Climate &
+Environment
+
+Solar irradiance
+(horizontal surface)
+
+W/Sqm
+
+•
+
+•
+
+•
+
+Climate &
+Environment
+
+Solar irradiance
+(vertical surfaces)
+
+W/Sqm
+
+•
+
+•
+
+•
+
+Energy character.
+
+Electric consumption
+
+kWh/y
+
+•
+
+•
+
+•
+
+Energy character.
+
+Installable PV kWp factor
+
+•
+
+•
+
+•
+
+•
+
+Energy character.
+
+Ratio PV production
+
+Sqm/kW •
+
+•
+
+•
+
+Energy character.
+
+Required kW
+
+kW
+
+•
+
+•
+
+•
+
+Energy character.
+
+Boundary of the EC
+(Radius < 500 m)
+
+m
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+District
+
+Urban area / Census unit
+
+Source Dataset
+
+•
+
+•
+
+•
+•
+
+Building
+
+Simulated
+
+Scale
+
+•
+
+•
+
+•
+
+Calculated
+
+Floors
+
+Imported from Data base
+
+Energy Community
+
+Architectural
+character.
+
+%
+
+Scope
+
+Marketing
+
+Unit
+
+Welfare & Security
+
+Indicators
+
+Financial Appraisal
+
+Data
+Source
+
+Parameter
+
+Renovation Strategy
+
+Environmental
+
+Operative
+
+Issue
+
+•
+
+•
+
+National cadaster
+
+•
+
+•
+
+•
+
+National cadaster +
+AMB/DIBA
+
+National cadaster/
+Comdomium/Insur.
+company
+
+•
+
+AHC/comdomium/
+Insurance company
+
+•
+
+AHC/comdomium/
+Insurance company
+
+•
+
+•
+
+•
+
+AMB/DIBA
+
+•
+
+•
+
+•
+
+AMB/DIBA
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA model
+
+•
+
+•
+
+•
+
+District modelization/
+Solar atlas
+
+•
+
+•
+
+•
+
+District modelization/
+Solar atlas
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+•
+
+PEDRERA
+model/UrbanZEB tool
+
+•
+
+•
+
+•
+
+•
+
+UrbanZEB tool
+
+Energy Traders
+
+Energies 2021, 14, 2833
+
+10 of 21
+
+Table 1. Cont.
+
+Energy Vector
+
+-
+
+•
+
+•
+
+•
+
+Energy character.
+
+EPC
+
+-
+
+•
+
+•
+
+•
+
+•
+
+•
+
+ICAEN
+
+Energy character.
+
+Primary energy
+consumption
+
+-
+
+•
+
+•
+
+•
+
+•
+
+•
+
+AMB/DIBA
+
+User Types
+
+End-user age range
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+INE Census
+
+User Types
+
+Households age
+composition
+
+%
+
+•
+
+•
+
+•
+
+•
+
+•
+
+INE Census
+
+User Types
+
+Gross disposable
+households incomes
+
+%
+
+•
+
+•
+
+•
+
+INE Census
+
+User Types
+
+People at risk of energy
+poverty
+
+%
+
+•
+
+•
+
+•
+
+INE Census + UrbanZEB
+tool
+
+User Types
+
+Unemployment
+
+%
+
+•
+
+•
+
+INE Census
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+District
+
+•
+
+•
+
+Source Dataset
+Urban area / Census unit
+
+Building
+
+Scale
+
+Simulated
+
+Calculated
+
+Energy character.
+
+Imported from Data base
+
+Energy Community
+
+Scope
+
+Marketing
+
+Unit
+
+Welfare & Security
+
+Indicators
+
+Financial Appraisal
+Social
+
+Data
+Source
+
+Parameter
+
+Renovation Strategy
+
+Issue
+
+Energy Traders
+
+The inputs are organized according to both tags and specific parameters, and refer to
+special feature types adopted in the model engine to calculate the KPIs: building attributes,
+cost analysis, user types, architectural characterization, energy characterization, renovation
+measures, economies of scale, climate and environment (Figure 6).
+As described above, one of the main information required for the definition of potential scenarios is represented by the architectural characterization feature type of the
+residential stock. For this purpose and with the aim of simplifying the assessment of
+building performance in large-scale retrofitting programs, different building archetypes
+are used (Figure 7 and Table 2).
+The description of archetypes, which comes from the methodology used in the national
+Grupo de Trabajo sobre Rehabilitación (GTR) 2011 report and the LTRS 2020—set out
+in the EPBD 2010/31/EU—allows the understanding of the residential stock based on
+the segmentation in groups of buildings that present similar conditions and therefore
+require similar intervention actions [31]. This characterization is focused on setting the
+parameters that will have the greatest impact on its energy performance, as well as its
+related weakness, in order to design the best intervention strategy and assess the economic
+investment required. This phase is mainly based on processing extraction of cadastral
+data and is available throughout the urban classifications and by generating more than
+300 cross variables related to: location, use and areas, type of residential property, year of
+construction, number of floors, number of dwellings.
+In addition, the collected data include the performance of each building element and
+envelope—facades, internal wall, roofs, floors and ground floors—as well as the incidence
+form, the windows performance, rate, size and type. In this way it is possible to carry
+out the geometric modelling of each building, and to define the features and surfaces
+of each level on façades and roof, detaching patios and interferences with neighboring
+or surrounding buildings (e.g., shadows cast) that could be adopted for both the energy
+demand and the renewable energy sources (RES) production KPIs.
+
+stores all the information resulting from the characterization phase of the project (with all
+the parameters and indicators) and the prioritization indices. In addition, to facilitate the
+reading and visualization of the data, an X-ray file (ArcMap) holds the layers of information established in the project and their set of symbols.
+The inputs are organized according to both tags and specific parameters, and refer to
+Energies 2021, 14, 2833
+11 of 21
+special feature types adopted in the model engine to calculate the KPIs: building attributes, cost analysis, user types, architectural characterization, energy characterization, renovation measures, economies of scale, climate and environment (Figure 6).
+Energies 2021, 14, x FOR PEER REVIEW
+11 of 21
+
+Table 2. List of main building archetypes implemented and managed in the PEDRERA model.
+Source: urbanZEB web platform.
+
+before 1900
+1901–1940
+1941–1960
+1961–1980
+1981–2007
+2008–2020
+
+Unifamiliar
+A
+B
+C
+D
+E
+F
+
+Plurifamiliar
+G
+H
+I
+J
+K
+L
+
+The description of archetypes, which comes from the methodology used in the national Grupo de Trabajo sobre Rehabilitación (GTR) 2011 report and the LTRS 2020—set
+out in the EPBD 2010/31/EU—allows the understanding of the residential stock based on
+the segmentation in groups of buildings that present similar conditions and therefore require similar intervention actions [31]. This characterization is focused on setting the parameters that will have the greatest impact on its energy performance, as well as its related
+weakness, in order to design the best intervention strategy and assess the economic investment required. This phase is mainly based on processing extraction of cadastral data
+and is available throughout the urban classifications and by generating more than 300
+cross variables related to: location, use and areas, type of residential property, year of construction, number of floors, number of dwellings.
+In addition, the collected data include the performance of each building element and
+envelope—facades, internal wall, roofs, floors and ground floors—as well as the incidence
+form, the windows performance, rate, size and type. In this way it is possible to carry out
+the geometric modelling of each building, and to define the features and surfaces of each
+Figure 6. Main input implemented and managed in the PEDRERA model framework. The inputs are organized in
+Figure 6. Main input implemented
+and
+managed
+the PEDRERA
+model
+framework.
+The inputswith
+are organized
+in comlevel
+on
+façades
+andinadopted
+roof,
+detaching
+patios
+and
+interferences
+neighboring
+or surcompliance
+with
+four
+issues,
+and
+each
+of
+themisisadopted
+inthe
+thealgorithms
+algorithmsfor
+for the
+the evaluation
+evaluation of
+of KPIs
+according
+to the
+pliance with
+thethe
+four
+issues,
+and
+each
+of
+them
+in
+KPIs
+according
+the
+rounding buildings (e.g., shadows cast) that could be adopted for both the energytodemand
+scopes.
+scopes.Source:
+Source:PEDRERA.
+PEDRERA.
+and the renewable energy sources (RES) production KPIs.
+
+As described above, one of the main information required for the definition of potential scenarios is represented by the architectural characterization feature type of the residential stock. For this purpose and with the aim of simplifying the assessment of building
+performance in large-scale retrofitting programs, different building archetypes are used
+(Figure 7 and Table 2).
+
+Figure7.7. Aerial
+filters
+applied
+on residential
+buildings,
+and presenting
+the 12 the
+Figure
+Aerial view
+viewshowing
+showingthe
+the
+filters
+applied
+on residential
+buildings,
+and presenting
+archetypes based on year of construction and typology. Source: urbanZEB web platform.
+12 archetypes based on year of construction and typology. Source: urbanZEB web platform.
+
+An overall overview of the construction systems is also made for each building according to the classification into clusters, thus displaying the current building state and
+enabling the design of post-intervention building scenarios resulting by the application of
+each intervention menu provided by the model (i.e., input from renovation measures A,
+B and C as shown previously) (Figure 4, Table 1) within the feature type renovation
+
+Energies 2021, 14, 2833
+
+12 of 21
+
+Table 2. List of main building archetypes implemented and managed in the PEDRERA model. Source:
+urbanZEB web platform.
+
+before 1900
+1901–1940
+1941–1960
+1961–1980
+1981–2007
+2008–2020
+
+Unifamiliar
+
+Plurifamiliar
+
+A
+B
+C
+D
+E
+F
+
+G
+H
+I
+J
+K
+L
+
+An overall overview of the construction systems is also made for each building
+according to the classification into clusters, thus displaying the current building state and
+enabling the design of post-intervention building scenarios resulting by the application
+of each intervention menu provided by the model (i.e., input from renovation measures
+A, B and C as shown previously) (Figure 4, Table 1) within the feature type renovation
+measures. Simultaneously with the architectural characterization parameters, the energy
+characterization inputs are focused on defining the current energy level and the potential
+from reducing the demand and the energy consumption through the intervention for single
+buildings. As explained above, for the determination of this set of input, the reference
+values of the national GTR Reports are used as defined by the Technical Building Code
+(CTE) and the Institute for Diversification and Energy Saving (IDAE) [2].
+For the calculation of energy costs and CO2 emissions of materials and intervention
+belonging to a typological cluster, the Catalan database of construction elements (BEDEC)
+from the Institut de Tecnologia de la Construcció de Catalunya (ITeC) is available and
+adopted. Furthermore, according to a PEDs perspective, and the positive energy balance
+referred to a cluster of buildings (Building Portfolio) at the neighborhood scale, the calculation of the energy performance (EP) follows the overarching framework of the EN ISO
+52000-1:2017. The new EN ISO 52000 family of standards to assess the EP of buildings offers
+a great flexibility in the calculation according to different choice of assessment methods
+defined [32]. Otherwise, a stochastic model supports a wide volume of simulations from
+the very beginning of the renovation process by using statistical information [33].
+A territorial socio-economic index (IST) from Catalonia region provided by the
+IDESCAT [34] is adopted. This information, based on the Spanish National Institute
+of Statistics (INE) census, means a synthetic index by small areas (census units) that
+aggregates in a single value several socio-economic characteristics of the population.
+That information is very relevant not only for the evaluation of the economic effort allowable by the users or the revolving funds required to be covered by the Public Sector, but
+also to predict the impact of the user’ profile on electric consumes or load while designing
+PEDs. The index concentrates information on the employment situation, educational level,
+immigration and income of all people living in each territorial unit, based on 6 sectoral
+indicators. The IST is a relative index, with no units of measurement. A reference value for
+Catalonia region is established equal to 100, thus each unit is valuable in comparison with
+this average value. Values per decile are also referred: the first decile refers to the areas with
+the lowest socio-economic level and the tenth decile to that ones with the highest level.
+The PEDRERA model provides a list of renovation measures—integrated in the
+renovation strategy menu—that, based on operative, environmental, economic and social
+input gathered from the selection of buildings, will enable users to evaluate the estimative
+metric computation, but also to simulate the energy improvement on the building according
+to established menu of intervention already available within the model, as well as the
+other benefits on welfare and security. The renovation measures included in the PEDRERA
+model are functional in the large-scale refurbishment projects for every cluster of residential
+buildings selected, as previously described (Figure 1). The menu of intervention refers to
+3 main targets of intervention, with a specific type of solution that can be implemented or
+replaced within the residential buildings:
+
+Energies 2021, 14, 2833
+
+13 of 21
+
+•
+•
+•
+
+Renovation target A (Deep renovation): facades, windows, solar protection, roof,
+equipment (boilers, heat pumps, lighting, . . . ), structures reinforcements.
+Renovation target B (Accessibility): ramps, lifts and elevators.
+Renovation target C (RES individual/community): solar and PV panel.
+
+With regards to the cost analysis, the inputs are mainly managed within the model
+instead to be gathered from an external data source. Inputs are finalized to provide specific
+information on potential investment KPIs and several co-benefits to be achieved through
+the renewal process, and that are profitable and/or feasible for the actors involved in
+the process. Hence, the building renovation assessment does address and disclose the
+co-benefits from the renovation measures adopted and the economies of scale, the RES
+production, the appreciation in housing value, the increase of building lifespan, the impact
+on the environment and the improved health benefits for both the households and the
+healthcare system [28]. At the same time, the data and related benefits motivate and
+empower all stakeholders and target groups to do action. In this way, the city planners can
+focus on the most beneficial areas in both energy and quality renovation efforts, while the
+investors can get better access on the information of building stock, which eases making
+the financial decisions related to large-scale renovation projects benefits and risks. Then,
+data increase building owner’s interest on the performance of their buildings when they
+can compare their consumption and renovation need, and they can see the potential
+derived from the renovation and the related businesses of energy improvements (e.g.,
+the estimation if the roof renovation can be combined with PV panel installation and the
+benefits to establish an energy community) as shown in Table 3.
+3. Results
+Preliminary results obtained by the ongoing PEDRERA project refer to the definition
+of the conceptual framework of the model and in regards to: (a) data sources aggregation
+according to the four domains described above; (b) input required for the KPIs calculation
+(Table 1) that can be assumed to assess different “scopes”. Aligned with this vision, the
+model is powered by the integration of the processed input for the calculation of the most
+relevant KPIs (outputs) algorithms according to each process phase and stakeholder’s
+profile (Table 3).
+PEDRERA Model Ouput
+Table 3 summarizes the outputs provided by running a typical simulation with urbanZEB tool powered by the PEDRERA model. It must be noted that the outputs are
+assigned to five main targets related with the scopes: (i) financial appraisal, (ii) renovation
+strategy, (iii) energy community, (iv) welfare and security, (v) marketing.
+In order to complete the panel of KPIs requested from large actions on building
+stock, the project focuses also on the perspectives of selected target groups that can be
+considered as key actors for urban development. The main considered stakeholders that
+would manage scenarios from the data-driven model are mainly:
+
+•
+•
+•
+•
+
+End users: the owners and tenants, intervening as individuals or as members of
+communities.
+Public authorities: the local and/or regional administrations, responsible of the
+planning and building regulations and partners in public–private partnerships.
+Financial institutions: banks, investors and ESCO companies, which provide private
+funds for building renovation programs.
+Property developers: real estate agencies, building administrators, home insurance
+companies or other stakeholders (e.g., one-stop shop) attracted from an investment or
+operational point of view.
+
+Energies 2021, 14, 2833
+
+14 of 21
+
+Table 3. List of output (KPIs) of the PEDRERA model according to the “scopes” and stakeholder engagement for each phase
+of the process. Source: authors.
+
+End-users savings
+
+UserSave
+
+%
+
+•
+
+Revolving fund grants
+
+RevGrant
+
+€
+
+•
+
+•
+
+•
+
+Operational Costs
+
+OpCost
+
+€
+
+•
+
+•
+
+•
+
+Early Before Taxes
+
+EBT
+
+€
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Public Authorities
+
+•
+
+End-users
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Gross. Benefits
+
+GrossBen
+
+%
+
+•
+
+•
+
+•
+
+Financial Costs
+
+FinanCost
+
+€
+
+•
+
+•
+
+•
+
+•
+
+Financial Needs
+
+FinanNeed
+
+€
+
+•
+
+•
+
+•
+
+•
+
+Risk solvency
+
+RiskSolv
+
+%
+
+•
+
+•
+
+•
+
+•
+
+Annualized ROI
+
+AnnROI
+
+%
+
+•
+
+•
+
+Entities involved
+
+#Ent
+
+no.
+
+•
+
+•
+
+•
+
+Cost renovation target A
+
+PECese
+
+€/Entity
+€/Community
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Cost renovation target B
+
+PECacc
+
+€/Entity
+€/Community
+
+•
+
+•
+
+•
+
+•
+
+Cost renovation target C
+
+PECkWpx
+
+€/Entity
+€/Community
+
+•
+
+•
+
+•
+
+•
+
+Manag. & maint. costs (Equip.)
+
+Opee
+
+€/Building
+€/Community
+
+•
+
+•
+
+Manag. & maint. costs
+(RES inst.)
+
+Opex
+
+€/Building
+€/Community
+
+•
+
+•
+
+Primary energy
+demand reduction
+
+Pedx
+
+%
+
+•
+
+•
+
+Energy balance
+(Primary energy)
+
+Bex
+
+ΣkWh montly
+ΣkWh yearly
+
+•
+
+•
+
+GhG emissions reduction
+
+Emx
+
+% TnCO2 yearly
+
+•
+
+•
+
+EPC implementation
+(upgrade)
+
+EPCx
+
+Value in range scale
+
+•
+
+•
+
+Installable peak power
+
+PVpx
+
+kWp
+
+•
+
+•
+
+Energy produced per Entity
+
+PVex
+
+kWh hourly
+ΣkWh yearly
+
+•
+
+•
+
+•
+
+Hourly balances per Ent.
+(Exp.or Surplus)
+
+Rox
+
+kWh hourly
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Marketing
+
+•
+
+•
+
+Welfare & Security
+
+€
+
+•
+
+Energy Community
+
+UserPaym
+
+Renovation Strategy
+
+Monthly/rate payments
+
+•
+
+Financial Appraisal
+
+€
+
+Scope
+
+Property developers
+
+UserCont
+
+Financial institutions
+
+End-users contribution
+
+•
+
+Stakeholder
+Construction & Use
+
+Phase
+Concept & Techn. design
+
+Units
+
+Demand aggregation
+
+Acronym
+
+Leading phase
+
+Outputs (KPIs)
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Energies 2021, 14, 2833
+
+15 of 21
+
+Table 3. Cont.
+
+Electrical storage capacity
+
+EE
+
+Savings on the energy bill
+
+•
+
+EFx
+
+€/Yearly entity
+
+•
+
+•
+
+•
+
+•
+
+Potential RES
+installation subsidies
+
+Subx
+
+€/kWp unit
+€/kWp total
+
+•
+
+•
+
+•
+
+•
+
+Value Tax (IBI) bonus
+
+Imp
+
+€/Yearly entity
+
+•
+
+•
+
+•
+
+•
+
+Value Tax (IBI) bonus for RES
+inst.
+
+∆imp
+
+%
+
+•
+
+•
+
+•
+
+•
+
+Total yearly bonus
+
+Σimp
+
+€/Yearly
+
+•
+
+•
+
+•
+
+Payback period
+
+Pbck
+
+Years
+
+•
+
+•
+
+•
+
+•
+
+Affordability of energy
+
+Afenx
+
+%/Population
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Affordability of housing
+
+Afhox
+
+%/Population
+
+•
+
+•
+
+•
+
+•
+
+•
+
+Personal safety
+
+Safex
+
+Value in range scale
+
+•
+
+•
+
+•
+
+•
+
+Energy consciousness
+
+Encos
+
+Value in range scale
+
+•
+
+•
+
+Healthy community
+
+HeCom
+
+%/Population
+
+•
+
+•
+
+Employment opportunities
+
+Jobx
+
+no./yearly
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+•
+•
+
+•
+•
+
+•
+•
+
+Renovation Strategy
+
+•
+
+Financial Appraisal
+
+•
+
+•
+
+Property developers
+
+•
+
+Financial institutions
+
+kW
+
+Public Authorities
+
+•
+
+End-users
+
+•
+
+Construction & Use
+
+•
+
+Marketing
+
+kWh hourly
+ΣkWh yearly
+
+Scope
+Welfare & Security
+
+Roc
+
+Stakeholder
+
+Energy Community
+
+Hourly balances per Com.
+(Exp.)
+
+Phase
+Concept & Techn. design
+
+Units
+
+Demand aggregation
+
+Acronym
+
+Leading phase
+
+Outputs (KPIs)
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+
+The stakeholders will be different beneficiaries of the simulated KPIs according to
+each phase of the renovation process as reported in Table 3. Due to the analysis of the
+current state and the model’s accuracy, stakeholders are allowed to influence the model’s
+computation phase by selecting and modifying the desired settings for both the calculation
+and data, by providing detailed input. Moreover, according to a wide PEDRERA approach
+beyond a reliable business tool, the model is meant to offer additional services, empowered
+by its next implementation into the urbanZEB tool web platform. For this reason, it is
+necessary to first establish each participant stakeholder and their characteristics clearly in
+order to effectively define the model results.
+With regard to the financial appraisal, the design of the model algorithms has been
+concluded and tested on real large-scale renovation processes (i.e., the “ACR Pirineus”
+intervention on 32 buildings in Santa Coloma-Barcelona) [35]. In addition to its validation,
+the sensitivity analysis of the financial appraisal model was conducted (Figure 8) on
+200 scenarios in order to determine how target variables (KPIs) are affected based on
+changes in other input variables. This simulation analysis refers also to show the outcome
+of a decision given a certain range of variables of the inputs (e.g., the execution budget
+(PEM), the number of entities involved in the process, the percentage of grants and of
+defaulters, the operational cost from the private partner or the financial costs in a shifting
+PPP model) in order to evaluate, for example, the revolving funds impact on the Public
+Administration or the payment rates covered by each user type, among others. Since
+various private and public financial mechanisms for energy renovations in buildings are
+currently available, the financial appraisal can range from well-established and traditional
+
+Energies 2021, 14, 2833
+
+16 of 21
+
+mechanisms such as grants, subsidies and loans to emerging new models and other
+oriented PPP models. The test beds demonstrated that, although public bodies are typically
+involved in large-scale retrofitting projects, the majority of them are only partially engaged,
+often playing a role in the subsidy plan or, occasionally, by allowing the legal framework
+to adapt to local conditions. At the same time, several end-user typologies need to be
+identified in order to better assess different scenarios and apply the most suitable solutions
+suited on their profile. For this scope five types of users have been stated according to
+the number of fees and the duration of the loan (between 5 and 10 years) (Table 4). Due
+the economic vulnerability of some low-income users to cover the cost of the renovation
+effort, for this reason a specific grant program has been identified for eligible homeowners
+(vulnerable persons) who are unable to pay their fees. It consists of the registration of a
+charge in the Property Register equivalent to the overall fee to be paid. This charge must
+be paid to the City Council in that case of the transfer of ownership (sale, inheritance or
+other). Thus, the financial capacity of the Public Sector determines the acceptable limit of
+the revolving funds.
+Table 4. List of user types (UT) adopted in the financial appraisal (Figure 8). Source: authors.
+User Type
+(UT)
+
+Description
+
+Loan Duration
+(Years)
+
+Number of
+Payments
+
+UT 1
+UT 2
+UT 3
+UT 4
+UT 5
+
+Mode 2 scheduled payments
+Mode 60 scheduled payments
+Mode 120 scheduled payments
+Inscription (for vulnerable persons)
+Mode 96 scheduled payments
+
+0
+5
+10
+0
+8
+
+2
+60
+120
+2
+96
+
+Figure 8 presents the analysis considering two main KPIs related to the end-user
+perspective (average monthly payments) and the impact of revolving funds size on the
+Public Sector to cover vulnerable users (UT4). The graphics shows how the revolving funds
+will surpass 250 K€ when 3 different scenarios occur: (a) grant is lower than 15% of the total
+cost; (b) investment is high and the number of entities involved is considerable (more than
+250 dwellings); (c) the proportion of UT4 increases from 10% to 20%. The amount of 250 K€
+represents the suitable value adopted in the testbed and it is adjustable according to the
+effort that each Public Sector can assume to support limited number of parallel operations
+of the renovation process. The baseline scenario shown in Figure 8 represents the end-user
+and the Public Sector perspective when the conditions of Table 5 occur, referring to the
+Santa Coloma test bed.
+The conclusions of the sensitivity analysis for the economic model demonstrate the
+model is robust enough to allow for different breakdowns between user types, variations in
+operational costs, variations in financial costs (i.e., interest rates), investment per dwelling
+and number of entities involved. In those cases, robustness refers to whether final monthly
+end-user payments remain lower than 100€ and savings offer incentive to undergo a largescale retrofitting operation. Moreover, large operations with a high number of entities
+(i.e., 500) or more vulnerable users that may require access to municipality grants do
+increase both financial need and municipal resources in terms of operational cost and
+size of revolving fund. In such cases, the size of the operation can be a limiting factor for
+the Public Sector. Furthermore, the debt financing in the form of loans represents a more
+sustainable means of up-scaling energy efficiency investments as loans can provide liquidity
+and direct access to capital, as well as support the cashflow during the process period.
+Loans can be more relevant for energy efficiency measures attached to high upfront costs,
+especially in deep renovation projects which comprise a package of multiple intervention
+measures. Despite this, the market interest rate (TAE) deviations are included in the model,
+and the result of the financial appraisal reveals how the fluctuance of interests has a strong
+impact on the financial cost during the loan period, and how the business model will be
+consequently affected by the financial cost increase.
+
+Energies
+2833
+Energies
+2021,2021,
+14, x 14,
+FOR
+PEER REVIEW
+
+17 of1821of 21
+
+Figure
+8. Extract
+of ofthe
+sensitiveanalysis
+analysis
+on financial
+the financial
+appraisal
+the perspective
+end-user perspective
+Figure
+8. Extract
+thePEDRERA
+PEDRERA sensitive
+on the
+appraisal
+KPIs: theKPIs:
+end-user
+(UT2 monthly(UT2
+monthly
+rate
+fee)
+and
+the
+Public
+Sector
+perspective
+(City
+revolving
+funds
+size)
+to
+cover
+vulnerable
+type
+users.
+rate fee) and the Public Sector perspective (City revolving funds size) to cover vulnerable type users.
+
+4. Discussions
+Table 5. List of and
+inputConclusions
+from Santa Coloma test bed, adopted as a baseline in the financial appraisal
+(Figure
+8). paper,
+Source: authors.
+In this
+we presented a description of the approach, purpose, methods and first
+
+results
+obtained by the ongoing
+research project PEDRERA
+focused
+on the
+design of a
+Parameter
+Definition
+Acronym
+Unit
+Values
+PEDs oriented renovation model. The input and KPIs considered for the sensitive analysis
+# Entities
+#Ent
+no.
+350
+shown
+in the
+Entry
+datapaper (Tables 1 and 3, and Figure 8) mean the main aspects covered by the
+Premises (% of Locals)
+Prem%_Inc
+%
+PEDRERA model reach each
+“scope”, according to a wider
+PED vision
+where10%
+both energy
+Renovation
+investment
+(PEM/Ent)
+PEM€_Ent
+€
+5800
+efficiency and production strategies are considered together with the operative, social,
+PEM
+Increment Exec. Works
+Work%_Inc
+%
+0
+economic and financial aspects.
+The PEDRERA model
+is currently
+being developed
+with Python,
+proTechnical
+Project fees
+Tech%_Fee
+% a well-known
+13%
+gramming language,
+the
+same
+as
+the
+urbanZEB
+tool.
+Once
+the
+programming
+phase
+will
+Public Grant (covered by Public Sector)
+Grant%
+%
+35%
+be completed then the
+software
+will
+be
+fully
+implemented
+in
+the
+web
+platform,
+thus
+deOperational costs Fix (50 entities)
+Opex€_Fix
+€
+75,000
+Technical
+liveringproject
+the multiple stakeholders’ engagement in large-scale renovation actions, and will supOperational costs Var.
+Opex€_Var
+€
+385
+port the prediction of the sustainability and positive outcomes of distinct renovation scenarios.
+Corner Stone OverHead
+OvH%(Cs)
+%
+40%
+Other areas of development will go in the direction of the Renovation Wave, with
+Corner Stone
+% terms of
+40%
+different solutions and services
+thatBenefit
+can help to faceBen%(Cs)
+challenges in
+supporting
+renovation program and seeking for innovative financial frameworks. With this perspective, the PEDRERA model implementation will provide a very comprehensive service able
+to support and promote renovation actions by multidimensional and dynamic scenarios
+analysis, as well as the prediction of the potential impacts and benefits from feasible
+measures both at building and district level. In our future work, we plan to further develop a web platform tool service from the PEDRERA model, in order to boost and design
+
+Energies 2021, 14, 2833
+
+18 of 21
+
+Table 5. Cont.
+Parameter
+Financial
+Cost
+
+Economies
+of Scale
+
+OPEX
+Breakdown
+
+UTs (User
+Types)
+
+Definition
+
+Acronym
+
+Unit
+
+Values
+
+Yearly TAE
+
+TAE%(i)
+
+%
+
+5%
+
+VAT Technical and Opex (k = 2, 3)
+
+VAT% (k2,3)
+
+%
+
+21%
+
+VAT Construction (k = 1)
+
+VAT% (k1)
+
+%
+
+10%
+
+Incr. Market value after ref.
+
+Market%_Inc
+
+%
+
+20%
+
+Reduction on project fees
+
+Proj%_Red
+
+%
+
+15%
+
+Reduction on contract (tender offer)
+
+Contr%_Red
+
+%
+
+15%
+
+Reduction on PEM (market prize)
+
+PEM%_Red
+
+%
+
+10%
+
+Phases (Fraction Step)
+
+F_Step %
+
+%
+
+10%, 30%, 20%,
+15%, 25%
+
+PS (Public Sector)
+
+PPP_PS%
+
+%
+
+100%, 30%,
+30%, 20%, 30%
+
+CS (Corner Stone)
+
+PPP_CS%
+
+%
+
+0%, 70%, 70%,
+80, 70%
+
+Mode 2 scheduled payments
+
+UTA (1)
+
+%
+
+10%
+
+Mode 60 scheduled payments
+
+UT A (2)
+
+%
+
+70%
+
+Mode 120 scheduled payments
+
+UT A (3)
+
+%
+
+10%
+
+Inscription (for vulnerable persons)
+
+UT B (4)
+
+%
+
+10%
+
+Other
+
+UTA (5)
+
+%
+
+0%
+
+Defaulters
+
+UTC (6)
+
+%
+
+5%
+
+4. Discussions and Conclusions
+In this paper, we presented a description of the approach, purpose, methods and first
+results obtained by the ongoing research project PEDRERA focused on the design of a
+PEDs oriented renovation model. The input and KPIs considered for the sensitive analysis
+shown in the paper (Tables 1 and 3, and Figure 8) mean the main aspects covered by the
+PEDRERA model reach each “scope”, according to a wider PED vision where both energy
+efficiency and production strategies are considered together with the operative, social,
+economic and financial aspects.
+The PEDRERA model is currently being developed with Python, a well-known programming language, the same as the urbanZEB tool. Once the programming phase will be
+completed then the software will be fully implemented in the web platform, thus delivering
+the multiple stakeholders’ engagement in large-scale renovation actions, and will support
+the prediction of the sustainability and positive outcomes of distinct renovation scenarios.
+Other areas of development will go in the direction of the Renovation Wave, with
+different solutions and services that can help to face challenges in terms of supporting
+renovation program and seeking for innovative financial frameworks. With this perspective,
+the PEDRERA model implementation will provide a very comprehensive service able to
+support and promote renovation actions by multidimensional and dynamic scenarios
+analysis, as well as the prediction of the potential impacts and benefits from feasible
+measures both at building and district level. In our future work, we plan to further
+develop a web platform tool service from the PEDRERA model, in order to boost and
+design large-scale renovation actions as well as engage the different stakeholders in the
+renovation process. Further steps will be to adopt the platform prototype in ongoing
+EU-wide efficient retrofitting projects at district level. Specific case studies will be selected
+to ensure the platform performance is tested under different conditions including climate
+aspects, boundary conditions, uses, building typologies, intervention levels, conservation
+conditions and other aspects.
+
+Energies 2021, 14, 2833
+
+19 of 21
+
+Coherently to the deployment of the Clean Energy Transition and the Driving Urban
+Transition (relevant to the Renovation Wave), the PEDRERA model already establishes
+appropriate mechanisms to analyze the interdisciplinary aspects addressed by the energy
+communities (ECs). This can only be done by leveraging a range of very advanced analysis
+including urban modelling and interoperability of data as well as information from a
+spread digitalization of cities. According to this pathway, semantic frameworks will help
+to spatialize, organize and normalize information, as also making possible the graphic
+representation, the insertion of algorithmic-logical models as well as the realization of
+complex questions. Nevertheless, there is still a lack of tools/services oriented to the
+relevant key stakeholders of the building renovation process. Thus, one of the main
+contributions of the project regards leading and delivering innovation of energy saving and
+renewables-related services but also improving the consciousness on renovation projects
+opportunities from the very beginning in order to force and support large-scale actions.
+Given to today’s pressing scenarios of energy transition and climate change, and to
+the economic worldwide circumstances worsened by the COVID-19 pandemic, the energy
+poverty is one of the main issues that will profoundly characterize urban environments in
+the next years. The lack of capital is clearly one of the most pressing issues: although many
+large-scale private funds are eager to find and finance bankable projects, nevertheless the
+fragmented nature of the renovation market and actors (at least until solutions to deliver
+high volumes of renovation are available) hinders their interest and ability to fund building
+renovation at a large scale. In order to take informed decisions in their respective realms,
+these stakeholders need to have access to information which suits their knowledge and
+capacities. Furthermore, the possibilities of using city model maps are inherently unlimited
+and can be addressed to current and future city issues that may arise.
+Author Contributions: Conceptualization, P.C., J.P., J.S.; methodology, P.C., J.P., J.S., J.A.A. and
+A.B.F.; formal analysis, P.C., J.P., J.S., J.A.A. and A.B.F.; investigation, P.C., J.P., J.S., J.A.A. and A.B.F.;
+writing—original draft preparation, P.C., J.P., J.S., J.A.A. and A.B.F.; writing—review and editing,
+P.C.; visualization, P.C. and A.B.F.; supervision, P.C., J.P., J.S. All authors have read and agreed to the
+published version of the manuscript.
+Funding: The research leading to these results has received funding from the European Union’s
+Horizon 2020 research and innovation program under the Marie Skłodowska-Curie grant agreement
+No 712949 (TECNIOspring PLUS) and from the Agency for Business Competitiveness of the Government of Catalonia. TECNIOspring PLUS. Investigator: Paolo Civiero, Project: PEDRERA. Positive
+Energy Districts renovation model. IREC (Barcelona—ES).
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: Not applicable.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+
+2.
+
+3.
+4.
+
+5.
+
+Clerici Maestosi, P.; Andreucci, M.B.; Civiero, P. Sustainable Urban Areas for 2030 in a Post-COVID-19 Scenario: Focus on
+Innovative Research and Funding Frameworks to Boost Transition towards 100 Positive Energy Districts and 100 Climate-Neutral
+Cities. Energies 2021, 14, 216. [CrossRef]
+MITMA. ERESEE 2020. Actualización 2020 de la Estrategia a Largo Plazo para la Rehabilitación Energética en el Sector de la
+Edificación en España. June 2000. Available online: https://www.mitma.gob.es/recursos_mfom/paginabasica/recursos/es_ltrs_
+2020.pdf (accessed on 20 April 2021).
+EC. A Renovation Wave for Europe—Greening Our Buildings, Creating Jobs, Improving Lives, COM (2020) 662. Available online:
+https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1603122220757&uri=CELEX:52020DC0662 (accessed on 20 April 2021).
+Casals, X.G.; Sanmartí, M.; Salom, J. Smart Energy Communities; ICAEN: Madrid, Spain, 2019; pp. 1–189. Available online: http://icaen.
+gencat.cat/web/.content/10_ICAEN/17_publicacions_informes/11_altres_publicacions/arxius/SmartEnergyCommunities.
+pdf (accessed on 20 April 2021).
+JPI UE. PED Programme Management. Europe towards Positive Energy Districts. Booklet. Available online: https://jpiurbaneurope.eu/wp-content/uploads/2020/06/PED-Booklet-Update-Feb-2020_2.pdf (accessed on 20 April 2021).
+
+Energies 2021, 14, 2833
+
+6.
+
+7.
+8.
+
+9.
+10.
+
+11.
+
+12.
+
+13.
+
+14.
+15.
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+
+23.
+
+24.
+
+25.
+26.
+27.
+28.
+
+20 of 21
+
+Civiero, P.; Salom, J.; Pascual, J. Aggregated data management and business model in designing Positive Energy Districts. In
+Proceedings of the EAAE—ARCC International Conference & 2nd Valencia International Biennial of Research in Architecture:
+The Architect and the City: Vol. 1, Valencia, Spain, 11–14 November 2020; pp. 908–917, ISBN 978-84-9048-981-9. Available
+online: https://www.eaae-arcc-ic.upv.es/files/2021/02/EAAE-ARCC-IC-2nd-VIBRArch_The-Architect-and-the-city_Volume1.pdf (accessed on 12 May 2021).
+Ferrando, M.; Causone, F.; Hong, T.; Chenc, Y. Urban building energy modeling (UBEM) tools: A state-of-the-art review of
+bottom-up physics-based approaches. Sustain. Cities Soc. 2020, 62, 102408. [CrossRef]
+Civiero, P.; Sanmartí, M.; García, R.; Gabaldón, A.; Adrés Chicote, M.; Ferrer, J.A.; Ricart, J.E.; Franca, P.; Escobar, G.J. Distritos de
+Energía Positiva (PEDs) en España, Una propuesta de Iniciativa Tecnológica Prioritaria de la PTE-EE. In Proceedings of the VII
+Congreso EECN, Libro de Comunicaciones y Proyectos, Madrid, Spain, 5 November 2020; Grupo Tecma Red, S.L.: Madrid, Spain,
+2020. Available online: https://www.construible.es/biblioteca/libro-comunicaciones-proyectos-7-congreso-edificios-energiacasi-nula (accessed on 20 April 2021).
+Cocchia, A. Smart and digital city: A systematic literature review. Smart City 2014, 13–43. [CrossRef]
+EC. Consolidated text: Directive 2007/2/EC of the European Parliament and of the Council of 14 March 2007 Establishing an
+Infrastructure for Spatial Information in the European Community (INSPIRE). Available online: http://data.europa.eu/eli/dir/
+2007/2/2019-06-26 (accessed on 20 April 2021).
+EU. Commission Implementing Decision 2019/1372 of 19 August 2019 implementing Directive 2007/2/EC of the European
+Parliament and of the Council as Regards Monitoring and Reporting (Notified under Document C(2019) 6026). Available online:
+http://data.europa.eu/eli/dec_impl/2019/1372/oj (accessed on 20 April 2021).
+Arcas Abella, J.; Pages-Ramon, A. UrbanZEB, Estrategias urbanas de transición energética de edificios. In Proceedings of the 14th
+National Congress Conama 2018, Vigo, Spain, 26–29 November 2020; Fundación Conama: Vigo, Spain, 2020. Available online:
+http://www.conama11.vsf.es/conama10/download/files/conama2018/CT%202018/222224182.pdf (accessed on 20 April 2021).
+Arcas Abella, J.; Pagès Ramon, A.; Bilbao, A. urbanZEB: Estrategias urbanas de transición energética de edificios. In Proceedings
+of the IV Congreso ISUF-H: Metrópolis en Recomposición: Prospectivas Proyectuales en el Siglo XXI: Forma urbis y Territorios
+Metropolitanos, Barcelona, Spain, 28–30 September 2020; DUOT, UPC: Spain, 2020; pp. 1–19, ISBN 978-84-9880-841-4. Available
+online: http://hdl.handle.net/2117/328899 (accessed on 20 April 2021).
+Reinhart, C.F.; Davila, C.C. Urban building energy modeling—A review of a nascent field. Build. Environ. 2016, 97, 196–202.
+[CrossRef]
+Cerezo Davila, C.; Reinhart, C.F.; Bemis, J.L. Modeling Boston: A workflow for the efficient generation and maintenance of urban
+building energy models from existing geospatial datasets. Energy 2016, 117, 237–250. [CrossRef]
+Ang, Y.Q.; Berzolla, Z.M.; Reinhart, C.F. From concept to application: A review of use cases in urban building energy modeling.
+Appl. Energy 2020, 279, 115738. [CrossRef]
+Yanwen, L.; Jiang, H.; Yuting, H. A rule-based city modeling method for supporting district protective planning. Sustain. Cities
+Soc. 2017, 28, 277–286. [CrossRef]
+Nouvel, R.; Mastrucci, A.; Leopold, U.; Baume, O.; Coors, V.; Eicker, U. Combining GISbased statistical and engineering urban
+heat consumption models: Towards a new framework for multi-scale policy support. Energy Build 2015, 107, 204–212. [CrossRef]
+Sola, A.; Corchero, C.; Salom, J.; Sanmarti, M. Simulation Tools to Build Urban-Scale Energy Models: A Review. Energies 2018,
+11, 3269. [CrossRef]
+Monteiro, C.S.; Costa, C.; Pina, A.; Santos, M.Y.; Ferrão, P. An urban building database (UBD) supporting a smart city information
+system. Energy Build. 2018, 158, 244–260. [CrossRef]
+Ascione, F.; De Masi, R.F.; de’Rossi, F.; Fistola, R.; Vanoli, G. Energy Assessment in Town Planning: Urban Energy Maps. WIT
+Trans. Ecol. Environ. 2012, 155, 205–216. [CrossRef]
+Cupelli, L.; Schumacher, M.; Monti, A.; Mueller, D.; De Tommasi, L.; Kouramas, K. Simulation Tools and Optimization Algorithms
+for Efficient Energy Management in Neighborhoods. In Energy Positive Neighborhoods and Smart Energy Districts; Academic Press:
+Cambridge, MA, USA, 2017; pp. 57–100.
+García-Fuentes, M.A.; Hernández, G.; Serna, V.; Martín, S.; Álvarez, S.; Lilis, G.N.; De Tommasi, L. OptEEmAL: Decision-Support
+Tool for the Design of Energy Retrofitting Projects at District Level. In CESB19. IOP Conference Series: Earth and Environmental
+Science; IOP Publishing: Bristowl, UK, 2019; Volume 290, p. 012129. [CrossRef]
+OptEEmAL. The Solution for Designing Your Energy Efficient District Retrofitting Project; OptEEmAL Final Booklet; SteinbeisEuropa-Zentrum der: Germany. 2019. Available online: https://www.opteemal-project.eu/files/opteemal_final_booklet_web.
+pdf (accessed on 8 May 2021).
+Madrazo, L. The Social Construction of a Neighbour-Hood Identity; Open House International: Eindhoven, The Netherlands, 2019;
+Volume 44, pp. 71–80. [CrossRef]
+Visscher, H.; Dascalaki, E.; Sartori, I. Towards an energy efficient European housing stock: Monitoring, mapping and modelling
+retrofitting processes. Energy Build. 2016, 132, 1–154. [CrossRef]
+Civiero, P. Tecnologie per la Riqualificazione. Soluzioni e Strategie per la Trasformazione Intelligente del Comparto Abitativo Esistente,
+1st ed.; Maggioli Editore: Santarcangelo di Romangna, Italy, 2017; pp. 1–240. [CrossRef]
+Ortiz, J.; Casquero-Modrego, N.; Salom, J. Health and related economic effects of residential energy retrofitting in Spain. Energy
+Policy 2019, 130, 375–388. [CrossRef]
+
+Energies 2021, 14, 2833
+
+29.
+30.
+31.
+
+32.
+33.
+34.
+
+35.
+
+21 of 21
+
+Pasichnyi, O.; Wallin, J.; Kordas, O. Data-driven building archetypes for urban building energy modelling. Energy 2019, 181,
+360–377. [CrossRef]
+TABULA. Typology Approach for Building Stock Energy Assessment, TABULA Project (2009–2012). Available online: https:
+//episcope.eu/ (accessed on 10 May 2021).
+Cuchí, A.; Sweatman, P. Informe GTR 2011, Una Visión-País para el Sector de la Edificación en España, Hoja de ruta para un Nuevo sector
+de la Vivienda; Fundación Conama: Madrid, Spain, Online Version; 2011; pp. 1–70. Available online: http://www.encuentrolocal.
+vsf.es/download/bancorecursos/libro_GTR_cast_postimprenta.pdf (accessed on 20 April 2021).
+Ortiz, J.; Guarino, F.; Salom, J.; Corchero, C.; Cellura, M. Stochastic model for electrical loads in Mediterranean residential
+buildings: Validation and applications. Energy Build. 2014, 80, 23–36. [CrossRef]
+IDESCAT. Index Socioeconòmic Territorial. Available online: https://www.idescat.cat/dades/ist/mapes/ (accessed on
+8 May 2021).
+Salom, J.; Pascual, J. Residential Retrofits at District Scale. Business Models under Public Private Partnerships; InnoEnergy: Eindhoven,
+The Netherlands, Online; 2018; pp. 1–75. ISBN 978-84-09-07914-8. Available online: https://www.buildup.eu/en/node/57005
+(accessed on 20 April 2021).
+Ayuntamiento de Santa Coloma de Gramenet. Renovem els Barris. Available online: https://www.gramenet.cat/ajuntament/
+arees-municipals/renovem-els-barris/ (accessed on 20 April 2021).
+
+

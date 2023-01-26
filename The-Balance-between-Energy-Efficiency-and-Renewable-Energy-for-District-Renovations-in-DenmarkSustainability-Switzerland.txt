@@ -1,0 +1,2638 @@
+sustainability
+Article
+
+The Balance between Energy Efficiency and Renewable Energy
+for District Renovations in Denmark
+Jørgen Rose 1, * , Kirsten Engelund Thomsen 1 and Ole Balslev-Olesen 2
+1
+
+2
+
+*
+
+Citation: Rose, J.; Thomsen, K.E.;
+Balslev-Olesen, O. The Balance
+between Energy Efficiency and
+Renewable Energy for District
+Renovations in Denmark.
+Sustainability 2022, 14, 13605.
+https://doi.org/10.3390/su
+142013605
+Academic Editor: Miguel Amado
+Received: 16 August 2022
+
+Department of the Built Environment, Aalborg University, A C Meyers Vænge 15,
+DK-2450 Copenhagen, Denmark
+Kuben Management A/S, 2. Sal, Ellebjergvej 52, DK-2450 Copenhagen, Denmark
+Correspondence: jro@build.aau.dk
+
+Abstract: Emissions can be reduced by increasing the energy efficiency of buildings and supply
+systems or increasing the share of renewable energy in the energy system. Denmark has a long
+tradition for district heating and today it supplies more than 65 of dwellings, which indicates that
+a major part of the transition from fossil fuels to renewables can be achieved at the supply system
+level rather than on the individual building level. This paper presents calculations performed on a
+generic Danish district undergoing major renovation. The generic district is based on an existing
+district in Aalborg and consists of 1019 dwellings spread over three different building typologies.
+The purpose of the investigation was to determine which combination of energy saving measures
+would achieve the optimal level of energy efficiency. Calculations were made with average data for
+district heating in Denmark, district heating based on natural gas, and district heating from renewable
+energy sources, such as solar heating, biofuels, and heat pumps, respectively. The calculations include
+costs for investment, maintenance, and operating as a function of the primary energy needs. Global
+warming potential (GWP) was calculated and included CO2 emissions from space heating, domestic
+hot water, and electricity for operation and household. The calculations show that for the generic
+Danish district, which is already connected to a district heating network, the optimal solution is to
+add 200 mm insulation to roofs (in total 300 mm) and 150 mm insulation to walls (in total 200 mm)
+and replacing the existing windows with new three-layer low energy windows. Furthermore, the
+calculations show that in a future scenario with a significantly higher level of renewable energy in the
+energy system, a shift to individual heat pumps can reduce total emissions by up to 1.5 kg CO2 eq/m2
+per year (20 reduction) at an additional cost of EUR 8.0/m2 per year (40 increase). The calculations
+described in this paper are part of a larger investigation carried out in IEA EBC Annex 75.
+Keywords: balancing energy efficiency and renewable energy; district optimization; positive energy
+districts; GWP; energy costs
+
+Accepted: 17 October 2022
+Published: 20 October 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+In 2007, the Intergovernmental Panel on Climate Change synthesis report identified that
+the sector with the main economic mitigation potentials using technologies and practices
+expected to be available in 2030 (estimated from bottom-up studies) was the building sector [1].
+Buildings account for approximately 40 of all energy use in Europe [2] and 30 of greenhouse
+gas (GHG) emissions are related to the building sector [3]; therefore, reducing building energy
+use is key in mitigating climate change. In this context, European Union (EU) adopted the
+so-called “2020 Climate and Energy Package” [4] in 2007 and the roadmap was updated in
+October 2014 with the definition of the “2030 Climate & Energy Framework” [5].
+In 2011, the Danish government published a strategy with an aim for Denmark to be
+fossil-free by 2050 [6]. In 2019, the present government set a new and ambitious intermediate target for national CO2 emissions; by 2030, Denmark needs to reduce emissions by 70 in
+relation to a 1990 baseline [7]. Preliminary calculations for the Danish building stock show
+
+Sustainability 2022, 14, 13605. https://doi.org/10.3390/su142013605
+
+https://www.mdpi.com/journal/sustainability
+
+Sustainability 2022, 14, 13605
+
+2 of 16
+
+that to reach the overarching goal of a fossil-free society in 2050 it is necessary to reduce the
+energy use of the existing building stock by up to 50 on average [8].
+However, achieving significant reductions in energy use and associated emissions in a
+cost-effective way is challenging for the existing building stock, especially due to the many
+architectural and technical hurdles and restrictions. One of the major challenges lies in
+balancing energy efficiency and renewable energy sources.
+Comprehensive research has already been conducted on energy efficiency of existing
+buildings and balancing energy efficiency with renewable energy production. However,
+most research has focused on single buildings as in [9], where generic calculations were
+carried out to investigate the balance, synergies, and trade-offs between renewable energy
+measures on the one hand, and energy efficiency measures on the other hand. Results of
+their investigation show that in many cases, the cost-optimal renovation package for energy
+efficiency measures on the building envelope is the same regardless of the type of energy
+carrier being used.
+Due to the increasing complexity of the energy infrastructure regarding generation,
+distribution, and use, the single building perspective can lead to sub-optimization. This
+is demonstrated in, e.g., [10], where authors argue that buildings need to be considered
+as active participants in a complex and wider district-level energy landscape. To achieve
+this, the authors suggest the need for a new generation of energy control systems capable
+of adapting to near real-time environmental conditions, while maximizing the use of
+renewables and minimizing energy demand within a district environment.
+Another example is [11], where the aim of the research was to investigate technoeconomic effects and environmental impacts of the energy renovation of residential building
+clusters on a district heating system. A stock of 343 multi-story apartment buildings located
+in two Swedish municipalities was included and studied by different cluster combinations
+of slab and tower blocks. Their study reveals the benefit of integrating simulation and
+optimization tools to investigate, with a high level of detail, the effect from building cluster
+energy renovation on the surrounding district heating system.
+A paper from Annex 75 [12] aimed at clarifying the cost-effectiveness of various
+approaches combining energy efficiency and renewable energy sources implementation
+and focusing on the optimal combination, with respect to the starting situation in a specific
+city district. Another publication from the same project [13], presents an analysis and
+comparison of nine district renovation case studies. The study showed that not only energy
+performances and targets are meaningful for driving these interventions, but other factors
+can be significant in the upscaling of interventions targeting energy improvements, such as
+the reduction on CO2 emissions, the improvement of comfort conditions for inhabitants,
+and the increase in the economic value of buildings.
+Positive energy districts (PEDs) have recently become an important concept for urban
+development. A major driver for the research on PEDs is the climate and energy policy of
+the European Union and its member states. With the publication of the Set Plan Action
+3.2, [14] several European initiatives have started working on the topic of PEDs with the
+objective to support the development and implementation of at least 100 PEDs by 2025.
+These include the IEA Annex 83 “Positive Energy Districts”, that brings together researchers
+from European and non-European countries working on positive energy districts [15]. The
+Annex is a research and dissemination network established for 4 years under the umbrella of
+the International Energy Agency (IEA). It is open for research organizations and universities
+and from all IEA member states working on PEDs. The objective of the Annex is to address
+the PED multidisciplinary dimensions, facilitating the development of PEDs in different
+worldwide urban contexts.
+The main purpose of this paper is to achieve a better understanding of how to balance
+energy efficiency and renewable energy under different circumstances in a typical Danish
+district. In Denmark, a long tradition for district heating exists, which indicates that a major
+part of the transition from fossil fuels to renewables can be achieved at the supply system
+level. Therefore, the primary focus is on determining which level of energy efficiency is
+
+Sustainability 2022, 14, 13605
+
+3 of 16
+
+needed on the building level, in order that the district heating system can deliver fossil fuel
+free heat and domestic hot water throughout the year.
+The paper presents calculations performed on a generic Danish district that is undergoing a major renovation. The generic district is based on an existing district in Aalborg
+consisting of 1019 dwellings spread over three different building typologies: Single family
+houses, detached houses, and multi-story apartment buildings. The calculations are part of
+a larger investigation carried out in IEA EBC Annex 75, where eight different European
+countries carry out a similar analysis. The purpose of this joint effort is to determine
+differences, similarities, and generally achieving a better understanding of how to balance
+energy efficiency and renewable energy under different circumstances.
+The rest of the paper is organized as follows: Section 2 presents a description of
+the research methodology and calculation methods, the energy efficiency measures, and
+renewable sources. Section 3 provides a detailed description of the investigated district
+and input data. Section 4 carries out the results and discussion, and the conclusion and
+lessons learned are provided in Section 5.
+2. Methods
+The following sections explain the approach used to perform calculations of the
+total final energy consumption for the district under different circumstances. Overall, the
+calculations follow the methodology developed in IEA EBC Annex 75 documented in [16].
+The main advantage of this method is that it provides a fast and robust way of
+comparing different district solution performances in relation to overall costs, primary
+energy use, and CO2 emissions. With relatively few inputs, the methodology allows the
+user to pinpoint the cost optimal set of renovation measures. In addition, by performing
+simple parametric calculations, a sensitivity analysis can be performed to strengthen the
+results further. The methodology is further described in [12].
+2.1. Calculation Method and Data
+The Danish energy calculations were performed using the ASCOT calculation tool [17],
+i.e., a steady-state monthly calculation tool originally developed for energy and financial
+optimization of the renovation of school buildings following the EN ISO 13790 [18] standard.
+The tool calculates the final energy consumption for heating and domestic hot water and
+electricity for operation and household appliances for the entire district, including system
+losses in both buildings and distribution networks. The primary energy consumption
+and related CO2 emissions are determined by multiplying the projected primary energy
+by the CO2 emission factors, which are developed by the Danish Housing and Planning
+Authority [19], as shown in Table 1. Moreover, the table shows projected energy costs
+(consumer costs including taxes and charges).
+Table 1. Primary energy and emission factors for Denmark for 2025 and 2035 [19].
+Danish
+Supply System
+
+Energy Data 2025
+
+Energy Data 2035
+
+Emissions
+[kg CO2 -Equiv.]
+
+Primary Energy
+[kWh/kWh]
+
+Price
+[€/MWh]
+
+Emissions
+[kg CO2 -Equiv.]
+
+Primary Energy
+[kWh/kWh]
+
+Price
+[€/MWh]
+
+0.088
+0.251
+0.331
+0.038
+0.042
+
+1.156
+1.160
+1.280
+0.108
+0.044
+
+96
+120
+204
+
+0.069
+0.251
+0.331
+0.038
+0.042
+
+1.083
+1.160
+1.280
+0.108
+0.044
+
+119
+149
+255
+
+0.135
+0.007
+0.050
+
+2.153
+0.026
+0.100
+
+326
+
+0.041
+0.007
+0.050
+
+1.695
+0.026
+0.100
+
+407
+
+Heat
+District heating
+Natural gas
+Oil
+Solar thermal
+Wood pellets
+
+74
+
+92
+
+Electricity
+Mix Denmark
+Wind turbine
+PV
+
+Sustainability 2022, 14, 13605
+
+4 of 16
+
+The financial calculations in ASCOT are performed using net present value (NPV), i.e.,
+determining the total gain of the investment when all costs and revenues over the lifetime
+are considered. The method is explained in detail in [20]. The financial data used in the
+calculations are presented in Table 2.
+Table 2. Financial data used in the calculations [17].
+Parameter
+
+Symbol
+
+Value
+
+Discount rate
+Tax of interest income
+
+rn
+s
+
+4.0
+0.0
+
+Inflation of energy prices
+Inflation of maintenance costs
+Expected economic lifetime
+Real discount rate, savings
+Real discount rate, expenses
+Net present value factor, savings
+Net present value factor, expenses
+
+ie
+im
+n
+rrs
+rre
+
+2.5
+1.5
+50 years
+1.5
+2.5
+35.3
+28.6
+
+fnpvs
+fnpve
+
+The discount rate is usually between 4 and 5 and here we have taken a conservative
+choice of 4.0. The tax of interest income was set to 0 according to [20]. The inflation of
+energy prices and maintenance costs were taken from [21] based on average values for the
+period from 2010–2020 and the expected economic lifetime (calculation period) was chosen
+as the standard 50 years, indicating that energy saving measures with a shorter expected
+lifetime will be replaced during the period.
+The real discount rate for savings is calculated by:
+rrs =
+
+4.0 (1 − 0.0) − 2.5
+rn (1 − s) − ie
+=
+= 1.46
+1 + ie
+1 + 2.5
+
+Similarly, the real discount rate for expenses is calculated by:
+rre =
+
+rn (1 − s) − im
+4.0 (1 − 0.0) − 1.5
+= 2.46
+=
+1 + im
+1 + 1.5
+
+The net present value factors for savings and expenses are calculated as:
+fnpvs =
+
+1 − (1 + rrs )−n
+1 − (1 + 1.5)−50
+=
+= 35.3
+rrs
+1.5
+
+fnpve =
+
+1 − (1 + rre )−n
+1 − (1 + 2.5)−50
+=
+= 28.6
+rre
+2.5
+
+2.2. Energy Efficiency Measures and Renewable Energy Sources
+The first step of the methodology is to define a gross list of relevant energy efficiency
+measures for each of the buildings in the district. These measures will typically include
+building envelope components (replacing windows or adding insulation to walls, floors,
+roofs), shading/lighting systems, ventilation systems, heating/cooling systems, and local
+renewable energy systems. Several solutions are evaluated for each component by parametric analysis, e.g., different insulation levels for exterior walls, etc. to determine the best and
+most cost-effective individual solutions. Measures are evaluated individually, i.e., determining the cost and energy saving potential of each measure by itself and determining the
+simple payback time, and this comprises the gross list of measures. Finally, the individual
+measures can be ranked based on the present value, i.e., highest present value should be
+implemented first, etc.
+Depending, of course, on the starting point, the order of measures would typically be
+(1) measures on the building envelopes, (2) measures for HVAC systems, and (3) measures
+
+Sustainability 2022, 14, 13605
+
+5 of 16
+
+related to renewable energy production. It is particularly important to include measures
+on the building envelope before measures for HVAC systems, since increasing the energy
+efficiency of the building can influence the choice of HVAC systems. Measures related to
+renewable energy production are often not influenced by building envelope and HVAC
+systems; therefore, these can usually be regarded as more or less independent measures.
+When the total list has been compiled, measures are combined into so-called renovation packages where individual measures complement each other. The calculations are
+performed step-by-step in a cumulative way by adding the measure with the shortest
+payback time first, then the second, etc. This indicates that a graph of the correlation
+between costs and primary energy or CO2 emissions will have a very specific and easily
+interpretable course.
+It should be noted that in practice there may be other factors which determine the
+order of measures, e.g., national or local building code requirements, or improvements to
+the buildings needed for them to function adequately, or the ability to supply an acceptable
+indoor climate for residents/users. Moreover, it should be noted that future developments
+in the outside energy system may influence decisions, e.g., a district heating or cooling
+network may be updated to reduce system losses, which can then shift the cost-optimum
+energy efficiency levels.
+2.3. Combining the Community Demand, Renewable Solutions, and Outside Energy System
+
+Sustainability 2022, 14, 13605
+
+The district intervention should be planned in a way that it synergizes and integrates
+well with the outside energy system, i.e., avoiding being an isolated energy island. By
+planning it in order that the district can interact smartly with the greater energy system, it
+can be a very useful and valuable part in the grander scheme, i.e., importing and exporting
+energy and utilizing storage facilities optimally. This will help in reducing consumption
+and production peaks of the district and thereby avoid sub-optimization of individual
+system components.
+6 of 20
+The outside supply system is illustrated in Figure 1.
+
+Figure
+Principle
+of theof
+central
+heating and
+electricity
+system supply
+in the area.
+PE: Primary
+Figure1. 1.
+Principle
+the central
+heating
+andsupply
+electricity
+system
+in theen‐area. PE: Primary
+ergy is the total energy need for the supply system; TPES: Total primary energy supply; TFC: Total
+energy
+is the total
+energy
+need for the supply system; TPES: Total primary energy supply; TFC: Total
+final
+consumption
+of the
+district.
+
+final consumption of the district.
+Total final consumption (TFC) is the energy needs in the district calculated with the
+energy calculation tool and includes space heating, domestic hot water, electricity for op‐
+eration and household, and losses from the internal district heating network. A system
+heat loss of 20% of district heating production and 7% of electricity production (TPES) is
+included in the calculations, corresponding to typical Danish values. These values were
+developed by the Danish Energy Agency [22]. The analysis includes heat production from
+
+Sustainability 2022, 14, 13605
+
+6 of 16
+
+Total final consumption (TFC) is the energy needs in the district calculated with the
+energy calculation tool and includes space heating, domestic hot water, electricity for
+operation and household, and losses from the internal district heating network. A system
+heat loss of 20 of district heating production and 7 of electricity production (TPES) is
+included in the calculations, corresponding to typical Danish values. These values were
+developed by the Danish Energy Agency [22]. The analysis includes heat production from
+district heating with average data for district heating in Denmark (DH-DK) and from
+renewable energy, such as solar heating, biofuel (Bio), and heat pump (HP). Electricity
+consumption is covered by the general grid with average data of electricity in Denmark
+(EL-DK) and from local renewable energy, such as photovoltaic panels (PV) and wind
+turbines (wind).
+3. Description of District and Input Data
+3.1. Description of the District
+
+Sustainability 2022, 14, 13605
+
+Kildeparken is a built-up area from the 1970s in Eastern Aalborg that consists of three
+clusters of buildings: Blåkildevej, Fyrkildevej, and Ravnkildevej. Kildeparken has a total
+area of approx. 540,000 m2 and around 2450 people live there. Kildeparken consists of 155
+single-family houses, 18 apartment blocks containing 432 apartments, and 432 detached
+houses, and the total heated area is approx. 100,000 m2 (see Figures 2 and 3).
+
+7 o
+
+Figure2.2.Schematic/aerial
+Schematic/aerial
+view
+of Kildeparken
+(Source:
+www.kildeparken2020.dk,
+on
+Figure
+view
+of Kildeparken
+(Source:
+www.kildeparken2020.dk,
+accessedaccessed
+on
+July
+2022).
+17 July 2022).
+
+Sustainability 2022, 14, 13605
+
+7 of 16
+
+Kildeparken underwent an ambitious renovation which was initiated in 2011 and
+ended in 2020, but the district is used here for performing generic calculations on possible
+alternative solutions to the ones chosen in the original project. The original renovation
+project
+been documented
+Annex 75 as(Source:
+a so-called
+Success Story [23] and
+along with
+Figure 2. has
+Schematic/aerial
+view ofinKildeparken
+www.kildeparken2020.dk,
+accessed
+on 17
+eight
+other
+projects
+it
+was
+evaluated
+by
+Rose
+et
+al.
+[13].
+July 2022).
+
+Figure 3. Apartment block (left) and detached house (right) before renovation.
+Figure 3. Apartment block (left) and detached house (right) before renovation.
+
+Kildeparken
+an ambitiousper
+renovation
+was initiated
+in cooling,
+2011 and
+The averageunderwent
+electricity consumption
+year andwhich
+m2 excluding
+heating,
+2
+ended
+in
+2020,
+but
+the
+district
+is
+used
+here
+for
+performing
+generic
+calculations
+on
+and ventilation is assumed to be approx. 30 kWh/m /year, corresponding to thepossible
+mean
+alternative
+to the
+chosen in
+in Denmark.
+the originalThe
+project.
+Theindoor
+original
+renovation
+electricity solutions
+consumption
+forones
+households
+average
+temperature
+project
+has been
+documented
+Annex 75 rate
+as a so‐called
+Success
+Story [23]isand
+with
+is assumed
+to be
+20 ◦ C. Thein
+ventilation
+in all building
+typologies
+0.34along
+L/s per
+2
+eight
+other projects to
+it was
+evaluatedrequirement
+by Rose et al.
+m , corresponding
+the minimum
+in [13].
+Danish Building Regulations [24] and
+2 per year,
+the The
+domestic
+hotelectricity
+water consumption
+is 250
+L/m
+corresponding
+to the
+average
+average
+consumption
+per
+year
+and m2 excluding
+heating,
+cooling,
+and
+2
+consumption
+in
+Danish
+households.
+ventilation is assumed to be approx. 30 kWh/m /year, corresponding to the mean electric‐
+Table 3 summarizes
+the characteristic
+input The
+for the
+three different
+building typologies.
+On
+ity consumption
+for households
+in Denmark.
+average
+indoor temperature
+is assumed
+it is
+assumed
+that windows
+are
+distributed
+evenly between
+north
+facades.
+toaverage,
+be 20 °C.
+The
+ventilation
+rate in all
+building
+typologies
+is 0.34 L/s
+perand
+m2,south
+corresponding
+to the minimum requirement in Danish Building Regulations [24] and the domestic hot
+Table consumption
+3. Input parameters
+used
+in the
+calculations.
+2 per
+water
+is 250
+L/m
+year, corresponding to the average consumption in
+Danish households.
+Single-Family
+Apartment Blocks
+Detached Houses
+Number of buildings [-]
+Number of dwellings [-]
+Gross floor heated area per
+unit, mean [m2 ]
+Façade area incl. window
+area [m2 ]
+Area of windows to North
+per units [m2 ]
+Area of windows to East
+per units [m2 ]
+Area of windows to South
+per units [m2 ]
+Area of windows to West
+per units [m2 ]
+Number of floors [-]
+
+155
+155
+
+18
+432
+
+27
+432
+
+120
+
+90
+
+100
+
+164.3
+
+57.3
+
+67.5
+
+13.2
+
+9.9
+
+11.0
+
+0
+
+0
+
+0
+
+13.2
+
+9.9
+
+11.0
+
+0
+
+0
+
+0
+
+1
+
+3
+
+2
+
+3.2. Building Envelopes
+The building envelopes are generally worn down and there are quite significant
+thermal bridges. Apartment blocks have concrete walls with approx. 50 mm insulation and
+single-family houses and detached houses have brick walls with approx. 50 mm insulation.
+Roofs have approx. 100 mm insulation and windows have a two-layer glazing and wooden
+frame. Table 4 lists the approximate mean U-values before renovation. The U-values reflect
+
+Sustainability 2022, 14, 13605
+
+8 of 16
+
+the typical constructions of the time; however, compared to Danish standards of today
+U-values are quite high.
+Table 4. U-values before renovation.
+U-Value [W/m2 K]
+Slab on ground (wood/tiles)
+Slab above basement (wood/tiles)
+Wall
+Roof
+Windows
+
+0.40
+0.60
+0.70
+0.40
+2.90
+
+3.3. Building Systems
+The buildings all have combinations of mechanical exhaust ventilation and natural
+ventilation. Air is extracted from kitchens (through the cooker hood) and bathrooms and
+supplied by natural ventilation/infiltration through open windows/doors and leaks in the
+building envelope.
+The district is supplied with heat from the outside through an existing district heating
+network. Electricity is supplied via the common electricity grid in Denmark.
+3.4. Renovation Measures and Local Renewable Energy Sources
+The renovation measures that can be implemented to increase the overall energy efficiency of the district cover replacing the existing windows, adding insulation to the roof,
+adding insulation to the exterior walls, installing individual heat pumps, installing solar
+thermal panels, installing photovoltaic panels, and installing balanced mechanical ventilation
+with heat recovery. Table 5 shows the list and data for individual measures (M1–M7) and
+Table 6 shows the list of renovation packages (M8–M11 and A0–A5). Scenarios M8–M11 are
+all based on the existing district heating system, and in scenarios A0–A5, district heating is
+replaced by individual heat pumps and complemented by a solar thermal installation for
+domestic hot water production. Scenario A0 corresponds to the reference case where the only
+change is that heating is now based on individual heat pumps. In the tables, BR61 represents
+the building regulations from 1961 [25] which were in effect when Kildeparken was built and
+corresponds to the reference scenario. “HP” is heat pump, “SH” is solar thermal, “PV” is
+photovoltaics, and “MVHR” is mechanical ventilation with heat recovery.
+3.5. Global Renewable Energy Sources
+In the initial scenario, corresponding to the year 2025, the data from Table 1 are used
+in the calculations. However, to further investigate the effect of increasing the overall
+coverage of renewable energy sources in the outside energy system, two further scenarios
+are evaluated.
+In the first scenario, it is assumed that approx. 50 of the Danish energy supply is based
+on renewable energy sources. For heat, 10 is covered by solar thermal installations and 40
+is covered by heat pumps and these renewable energy sources are connected to the district
+heating network. For electricity, 10 is supplied by PV installations and 40 is supplied by
+wind turbines. The relevant financial data for this scenario are given in Table 7.
+To investigate the possibilities and economic circumstances related to introducing even
+higher levels of renewable energy in the global energy system, a scenario is investigated where
+the data for solar heating and photovoltaics are the same as shown in Table 7, but the heat
+pump supply is increased to supply 90 of heat and wind turbines are increased to supply 90
+of electricity, i.e., corresponding to a situation with 100 renewable energy production.
+
+Sustainability 2022, 14, 13605
+
+9 of 16
+
+Investment costs
+
+MVHR
+
+250 mm Roof
+
+M7
+
+0.19
+150
+0.040
+0
+80
+0.7
+0.53
+1
+60
+0.13
+200
+0.040
+0
+80
+
+0.20
+100
+0.040
+0
+80
+
+0.16
+150
+0.040
+0
+80
+
+0.11
+250
+0.040
+0
+80
+3.5
+70
+50
+5
+20
+Mono
+150
+85
+7.5/20
+1
+25
+
+W
+m2
+of inv.
+Years
+m2
+of inv.
+Years
+l/s per m2
+
+M6
+
+PV
+
+150 mm Roof
+
+2.9
+0.75
+2
+20
+0.40
+
+M5
+
+Solar
+
+100 mm Roof
+
+W/m2 K
+of inv.
+Years
+W/m2 K
+Mm
+W/mK
+of inv.
+Years
+◦C
+◦C
+of inv.
+years
+
+M4
+
+HP
+
+200 mm Roof
+
+U-value
+g-value
+Maintenance
+Lifetime
+U-value
+Extra insulation
+λ-value
+Maintenance
+Lifetime
+COP
+Flow temp
+Return temp
+Maintenance
+Lifetime
+PV Type
+Peak power
+Efficiency
+PV-area per dwelling
+Maintenance
+Lifetime
+SH-area per dwelling
+Maintenance
+Lifetime
+Air change
+Heat recovery
+Air tightness
+SFP
+Maintenance
+Lifetime
+
+M3
+
+150 mm Wall
+
+M2c
+
+BR61
+
+M2b
+
+Unit
+
+M2a
+
+0.7
+
+Wall
+
+2
+2
+20
+0.34
+
+50 Pa
+kJ/m3
+of inv.
+years
+
+4.0
+
+€/m2
+
+0
+
+0.34
+90
+1.5
+1.2
+5
+20
+132
+
+19
+
+9
+
+14
+
+23
+
+106
+
+87
+
+15
+
+32
+
+73
+
+A1
+
+A2
+
+A3
+
+M1
+
+M1 + M6
+
+M1 + M6 + M2
+
+A4
+
+A5
+M1 + M2 + M6 + M7 + M3
+
+A0
+
+M1 + M2 + M3 + M6
+
+M11
+
+A0 Ref
+
+M1 + M2 + M6 + M3
+
+M10
+
+0.19
+
+0.19
+
+M1 + M2 + M6 + M7 + M3
+
+M9
+
+M1 + M2 + M6
+
+M8
+
+BR61
+
+U-value
+Extra
+insulation
+λ-value
+Maintenance
+Lifetime
+U-value
+g-value
+Maintenance
+Lifetime
+
+Reference
+
+M1 + M6
+
+Table 6. Renovation packages analyzed in the calculations. Packages M8–M11 (district heating) and
+A0–A5 (individual heat pumps).
+
+Unit
+
+Windows
+Roof
+HP
+PV
+
+M2
+
+W/m2 K
+mm
+W/mK
+of inv.
+years
+
+Wall
+
+SH
+
+M1
+
+U-value
+Extra insulation
+λ-value
+Maintenance
+Lifetime
+
+Windows
+
+Ventilation
+
+Reference
+
+3-Layer Low Energy
+
+Table 5. Renovation measures analyzed in the calculations. Measures M1–M7.
+
+W/m2 K
+
+0.7
+
+0.19
+
+0.19
+
+mm
+
+150
+
+150
+
+150
+
+150
+
+W/mK
+of inv.
+years
+W/m2 K
+of inv.
+Years
+
+2.9
+0.75
+2
+20
+
+0.040
+0
+80
+0.7
+0.53
+1
+60
+
+0.040
+0
+80
+0.7
+0.53
+1
+60
+
+0.040
+0
+80
+0.7
+0.53
+1
+60
+
+0.040
+0
+80
+0.7
+0.53
+1
+60
+
+0.7
+0.53
+1
+60
+
+0.7
+0.53
+1
+60
+
+0.7
+0.53
+1
+60
+
+0.7
+0.53
+1
+60
+
+0.7
+0.53
+1
+60
+
+Sustainability 2022, 14, 13605
+
+10 of 16
+
+Ventilation
+
+SH
+
+PV
+
+HP
+
+Roof
+
+Table 6. Cont.
+
+U-value
+Extra
+insulation
+λ-value
+Maintenance
+Lifetime
+COP
+Flow temp
+Return temp
+Maintenance
+Lifetime
+PV Type
+Peak power
+Efficiency
+PV-area per
+dwelling
+Maintenance
+Lifetime
+SH-area per
+dwelling
+Maintenance
+Lifetime
+Air change
+Heat
+recovery
+Air tightness
+SFP
+Maintenance
+Lifetime
+Investment
+costs
+
+Reference
+0.40
+
+W/m2 K
+
+M8
+
+M9
+0.13
+
+M10
+0.13
+
+M11
+0.13
+
+A0
+
+A1
+
+A2
+
+A3
+0.13
+
+A4
+0.13
+
+A5
+0.13
+
+mm
+
+200
+
+200
+
+200
+
+200
+
+200
+
+200
+
+W/mK
+of inv.
+Years
+◦C
+◦C
+of inv.
+years
+
+0.040
+0
+80
+
+0.040
+0
+80
+
+0.040
+0
+80
+
+0.040
+0
+80
+3.5
+70
+50
+5
+20
+Mono
+150
+85
+
+0.040
+0
+80
+3.5
+70
+50
+5
+20
+Mono
+150
+85
+
+0.040
+0
+80
+3.5
+70
+50
+5
+20
+Mono
+150
+85
+
+3.5
+70
+50
+5
+20
+
+3.5
+70
+50
+5
+20
+
+W
+
+Mono
+150
+85
+
+Mono
+150
+85
+
+Mono
+150
+85
+
+Mono
+150
+85
+
+3.5
+70
+50
+5
+20
+Mono
+150
+85
+
+m2
+
+7.5
+
+7.5
+
+7.5
+
+7.5
+
+7.5
+
+7.5
+
+7.5
+
+7.5
+
+of inv.
+Years
+
+1
+25
+
+1
+25
+
+1
+25
+
+1
+25
+
+1
+25
+
+1
+25
+
+1
+25
+
+1
+25
+
+m2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+2
+
+of inv.
+Years
+l/s per m2
+
+2
+20
+
+2
+20
+
+2
+20
+
+2
+20
+
+2
+20
+
+2
+20
+0.34
+
+0.34
+
+0.34
+90
+
+90
+
+50 Pa
+kJ/m3
+of inv.
+years
+
+4.0
+
+1.5
+1.2
+5
+20
+
+1.5
+1.2
+5
+20
+
+€/m2
+
+0
+
+132
+
+19
+
+9
+
+14
+
+23
+
+106
+
+87
+
+15
+
+32
+
+73
+
+Table 7. Financial and operational data for a scenario where energy is covered by 50 renewable sources.
+Heat—Solar Heating
+Solar fraction
+Solar performance
+Investment cost
+Maintenance cost
+Lifetime
+Solar heat contribution
+
+10.0
+600
+80
+2.0
+20
+1,657,671
+
+kWh/m2
+€/m2
+
+Total
+589,394
+11,788
+
+€
+€/year
+
+years
+kWh/year
+
+Heat–Heat pumps (Air)
+HP fraction
+Size–heat
+COP
+Operation time
+Investment cost
+Maintenance cost
+Lifetime
+HP contribution
+
+40.0
+0.84
+3.58
+4800
+826,667
+2
+20
+6,630,686
+
+MW
+Hours per year
+Total
+€/MW
+1,359,466
+€/MWh
+13,261
+years
+kWh/year
+
+€
+€/year
+
+Electricity–Photovoltaics
+PV fraction
+Investment cost
+Maintenance cost
+Lifetime
+
+10.0
+827
+1.0
+25
+
+€/kWp
+
+Total
+298,865
+2989
+
+€
+€/year
+
+Total
+611,284
+30,564
+
+€
+€/year
+
+years
+
+Electricity—Wind turbines
+Wind fraction
+Size
+Investment cost
+Maintenance cost
+Lifetime
+Contribution
+
+40.0
+2.0
+1,985,333
+5.0
+15
+1,446,119
+
+MW
+€/MW
+Years
+kWh/year
+
+Sustainability 2022, 14, 13605
+
+11 of 16
+
+4. Results and Discussion
+The result for each calculation covers the total final consumption, the primary energy
+use, the operational costs, the emissions (GWP), and the life cycle costs (NPV). As an
+example, Table 8 shows the calculation results for the reference case and the M1 scenario,
+i.e., replacing the windows with three-layer low energy windows.
+Table 8. Example showing the calculation results for the reference case and the M1 scenario.
+Reference Case
+
+M1
+
+kWh/m2 per year
+kWh/m2 per year
+
+164.9
+36.0
+
+126.5
+35.3
+
+kWh/m2 per year
+kWh/m2 per year
+
+190.6
+77.4
+
+146.2
+75.9
+
+€/m2 per year
+€/m2 per year
+€/m2 per year
+
+14.3
+10.6
+24.9
+
+11.0
+10.4
+21.4
+
+€/m2 per year
+NPV, €/m2
+NPV, €/m2
+NPV, €/m2
+€/m2 per year
+
+0.0
+878.6
+96.6
+58.1
+20.7
+
+132.4
+754.0
+58.8
+0.0
+18.9
+
+kg CO2 -Equiv.
+kg CO2 -Equiv.
+kg CO2 -Equiv.
+
+14.5
+4.9
+19.3
+
+11.1
+4.8
+15.9
+
+Total final consumption
+Heat
+Electricity
+Primary energy use
+Heat
+Electricity
+Operational costs
+Heat
+Electricity
+Total
+Life cycle costs
+Investment, I
+Operational costs, O
+Maintenance, M
+Replacement costs, R
+NPV (I + O + M + R)
+Emissions (GWP)
+Heat
+Electricity
+Total
+
+In the following sections the results of four different analysis are presented.
+4.1. Increasing Renewable Energy in the Energy Mix
+The purpose of the first analyses is to determine how an increased share of renewable
+energy in the energy mix will influence the cost-optimality of renovation measures, i.e.,
+how will the decarbonization of energy systems influence the balance between energy
+efficiency and renewable energy. The calculation compares the situation corresponding
+to the existing energy mix of today and the expected future energy mix as described in
+Table 7. Results are plotted in Figure 4 where M0 and A0 are the reference scenarios,
+M1 and A1 correspond to replacing the windows, M8 and A2 correspond to adding PV,
+M10, and A3 to insulating roofs, M9 and A4 to insulating walls, and finally M11 and A5 to
+installing mechanical ventilation with heat recovery. The order of the measures corresponds
+to starting with the lowest simple payback time and gives the curves their distinct look
+with an easily interpretable minimum that signifies the cost-optimal solution. DH (DK) is
+the present energy mix in Denmark and DH (RE) is an energy mix corresponding to the
+scenario described in Table 7, i.e., where 50 of energy is based on renewable sources. The
+results are shown in Figure 4 as the primary energy use as a function of the total costs per
+year (left) and the emissions as a function of the total costs per year (right).
+Comparing the two scenarios both primary energy use and emissions will decrease
+significantly when the share of renewable energy in the energy mix is increased, and this
+affects the cost-optimality. With the present energy mix the final renovation stage (installing
+mechanical ventilation with heat recovery) has lower total costs per year than the reference
+
+Sustainability 2022, 14, 13605
+
+Sustainability 2022, 14, 13605
+
+12 of 16
+
+case, whereas this is clearly not the case for the future scenario where wall insulation
+14 of 20(A4)
+has the same total costs per year as the reference.
+
+Figure 4. Comparing emission factors of today with a future scenario with an increased share of
+
+Figure 4. Comparing emission factors of today with a future scenario with an increased share of
+renewable energy in the energy mix.
+renewable energy in the energy mix.
+
+Comparing the two scenarios both primary energy use and emissions will decrease
+significantly when the share of renewable energy in the energy mix is increased, and this
+As mentioned,
+Kildeparken
+erectedenergy
+duringmix
+the the
+early
+70ies;
+therefore,
+it fulfilled
+affects
+the cost‐optimality.
+With was
+the present
+final
+renovation
+stage
+(in‐
+the
+building
+regulations
+from
+1961.
+In
+1977,
+a
+new
+set
+of
+regulations
+were
+introduced
+stalling mechanical ventilation with heat recovery) has lower total costs per year than the[26]
+with
+stricter
+requirements
+building
+insulation,
+The where
+purpose
+ofinsu‐
+the secreference
+case,
+whereas thisfor
+is clearly
+notenvelope
+the case for
+the future etc.
+scenario
+wall
+ond
+analyses
+is the
+to determine
+how per
+cost-optimality
+is influenced if the energy efficiency
+lation
+(A4) has
+same total costs
+year as the reference.
+
+4.2. Building Energy Efficiency Level before Renovation
+
+starting point for the district is higher, i.e., how will this influence the balance between
+energy
+efficiency
+and
+renewable
+The results are shown in Figure 5, where DH
+4.2. Building
+Energy
+Efficiency
+Levelenergy.
+before Renovation
+(DK) corresponds
+to
+the
+actual
+state
+of
+the
+(building
+regulations
+and DH
+; therefore,1961)
+it fulfilled
+As mentioned, Kildeparken was erected district
+during the
+early 70ies
+(DK)77
+corresponds
+to
+a
+situation
+where
+the
+building
+envelopes
+have
+an
+energy
+efficiency
+the building regulations from 1961. In 1977, a new set of regulations were introduced [26]
+corresponding
+to the building
+regulations
+from insulation,
+1977.
+with stricter requirements
+for building
+envelope
+etc. The purpose of the second
+Comparing
+the
+two
+scenarios
+in
+Figure
+5,
+it
+is clearly
+stillenergy
+cost-effective
+tostarting
+introduce
+analyses is to determine how cost‐optimality is influenced
+if the
+efficiency
+energy-saving
+in a district
+that will
+doesthis
+notinfluence
+meet modern
+energy-efficiency
+requirei.e., how
+the balance
+between energy
+point for the measures
+district is higher,
+ments.
+However,
+it should
+be noted
+if the
+startinginpoint
+reference
+building)
+efficiency
+and renewable
+energy.
+The that
+results
+are shown
+Figure(the
+5, where
+DH (DK)
+cor‐ is
+shifted
+even
+toward
+today’s
+standards,
+theregulations
+system losses
+loss(DK)77
+in the district
+responds
+to further
+the actual
+state of
+the district
+(building
+1961)(heat
+and DH
+cor‐
+efficiency
+corre‐less
+responds
+to a situation
+where the
+building
+envelopes
+have an energy
+heating
+network
+and electricity
+network)
+will
+make investments
+in energy
+efficiency
+sponding
+to the building regulations from 1977.
+and
+less cost-effective.
+4.3. District Heating vs. Individual Heat Pumps
+The purpose of the third analyses is to determine whether it makes sense to consider
+switching the existing district heating system for individual heat pumps. The rationale
+behind this thought is that a shift to individual heating will remove the system losses in the
+district heating network (corresponding to approx. 20 in Denmark). For this purpose, two
+scenarios are developed: DH (RE) and IH (RE) correspond to future scenarios where the
+energy system has an increased level of renewable sources (as described in Table 7). DH
+corresponds to maintaining the existing district heating network and IH corresponds to a
+switch to individual heat pumps. The results are shown in Figure 6.
+
+Sustainability 2022, 14, 13605
+
+13 of 16
+
+Sustainability 2022, 14, 13605
+
+Sustainability 2022, 14, 13605
+
+15 of 20
+
+Figure 5. Difference in the starting point for the energy efficiency of the district.
+
+Figure 5. Difference in the starting point for the energy efficiency of the district.
+
+16 of 20
+
+Comparing the two scenarios in Figure 5, it is clearly still cost‐effective to introduce
+energy‐saving measures in a district that does not meet modern energy‐efficiency require‐
+ments. However, it should be noted that if the starting point (the reference building) is
+shifted even further toward today’s standards, the system losses (heat loss in the district
+heating network and electricity network) will make investments in energy efficiency less
+and less cost‐effective.
+4.3. District Heating vs. Individual Heat Pumps
+The purpose of the third analyses is to determine whether it makes sense to consider
+switching the existing district heating system for individual heat pumps. The rationale
+behind this thought is that a shift to individual heating will remove the system losses in
+the district heating network (corresponding to approx. 20% in Denmark). For this pur‐
+pose, two scenarios are developed: DH (RE) and IH (RE) correspond to future scenarios
+where the energy system has an increased level of renewable sources (as described in Ta‐
+ble 7). DH corresponds to maintaining the existing district heating network and IH corre‐
+sponds to a switch to individual heat pumps. The results are shown in Figure 6.
+
+Figure 6. Results for a future scenario with an increased share of renewables in the mix. Comparing
+
+Figure 6. Results for a future scenario with an increased share of renewables in the mix. Comparing
+district heating to individual heat pumps.
+district heating to individual heat pumps.
+In Figure 6, the primary energy use is similar in the two scenarios. Individual heat
+In Figure 6, the primary energy use is similar in the two scenarios. Individual heat pumps
+pumps can achieve somewhat lower emission levels; however, at a significantly higher
+cancost.
+achieve
+somewhatislower
+emission
+however,
+a significantly
+higher heat‐
+cost. CostCost‐optimality
+similar
+but morelevels;
+pronounced
+in theatsituation
+with individual
+optimality
+is
+similar
+but
+more
+pronounced
+in
+the
+situation
+with
+individual
+heating.
+If
+perdistrict
+ing. If the district did not have a district heating network to start with, the total coststhe
+didyear
+not for
+have
+a
+district
+heating
+network
+to
+start
+with,
+the
+total
+costs
+per
+year
+for
+the
+the district solution would have been similar to the individual heat pumps solu‐district
+solution
+have been similar to the individual heat pumps solution or even higher.
+tion orwould
+even higher.
+UncertaintiesRelated
+Relatedto
+to Prices
+Prices for
+4.4.4.4.
+Uncertainties
+forEnergy
+EnergyMeasures
+Measures
+prices
+renovation measures
+measures are
+and
+willwill
+varyvary
+depending
+on, e.g.,
+TheThe
+prices
+ofofrenovation
+arenot
+notstatic
+static
+and
+depending
+on,the
+e.g., the
+geographical
+location
+of the
+renovation
+project,
+seasonofof
+theyear,
+year,
+andthe
+theactivity
+activitylevel in
+geographical
+location
+of the
+renovation
+project,
+thethe
+season
+the
+and
+in theindustry
+building in
+industry
+in Therefore,
+general. Therefore,
+extra analysis
+was carried
+to
+the level
+building
+general.
+an extraananalysis
+was carried
+out toout
+determine
+determine how much it would influence the overall results if the price of energy saving
+how much it would influence the overall results if the price of energy saving measures were
+measures were 25% higher. Results are shown in Figure 7, where DH (DK) signifies the
+25 higher. Results are shown in Figure 7, where DH (DK) signifies the prices of renovation
+prices of renovation measures when the calculations were performed (2022) and DH (DK)
+measures
+when the calculations were performed (2022) and DH (DK) + signifies a 25 increase
++ signifies a 25% increase in prices.
+in prices.
+
+Sustainability 2022, 14, 13605
+
+Sustainability 2022, 14, 13605
+
+17 of 20
+
+14 of 16
+
+Figure 7. Sensitivity analysis on prices of energy renovation measures. The DH(DK) + scenario sig‐
+
+Figure 7. Sensitivity analysis on prices of energy renovation measures. The DH(DK) + scenario
+nifies a 25% price increase.
+signifies a 25 price increase.
+Comparing the two sets of graphs in Figure 7 shows that a 25% increase in renovation
+Comparing
+of graphs
+in slightly.
+Figure 7However,
+shows that
+25 increase
+in renovation
+measure
+pricesthe
+willtwo
+onlysets
+influence
+results
+for ascenario
+A5 (installing
+measure
+pricesventilation
+will onlywith
+influence
+results slightly.
+However,
+scenario
+mechanical
+heat recovery),
+it is evident
+that thefor
+overall
+costs A5
+per (installing
+year
+mechanical
+heat
+it is
+evident
+that
+the overall
+costs per
+case
+(A0), i.e.,
+including
+this measure
+in year
+exceed theventilation
+overall costswith
+per year
+forrecovery),
+the reference
+exceed
+the overall
+per year
+for
+the reference
+case
+(A0),
+i.e., including this measure in
+the total
+packagecosts
+of measures
+will
+result
+in increased
+costs
+overall.
+
+the total package of measures will result in increased costs overall.
+5. Conclusions
+
+5. Conclusions
+The calculations performed in this paper show that for the generic Danish district,
+which
+is already connected
+to in
+a district
+heating
+optimal Danish
+solutiondistrict,
+is to add
+The calculations
+performed
+this paper
+shownetwork,
+that for the
+the generic
+which is
+200
+mm
+insulation
+to
+roofs
+(in
+total
+300
+mm)
+and
+150
+mm
+insulation
+to
+walls
+(in
+200
+already connected to a district heating network, the optimal solution is to add 200 total
+mm insulation
+mm) and replace the existing windows with new three‐layer low energy windows. Total
+to roofs
+(in total 300 mm) and 150 mm insulation to walls (in total 200 mm) and replace the
+costs before the intervention are EUR 20.2/m2 per year and the optimal level costs are EUR
+existing windows
+with new three-layer low energy windows. Total costs before the intervention
+16.4/m2 per year.
+2 per year.
+are EURMoreover,
+20.2/m2 per
+and theshow
+optimal
+costsmechanical
+are EUR 16.4/m
+the year
+calculations
+thatlevel
+balanced
+ventilation
+with heat re‐
+Moreover,
+the calculations
+show
+that balanced
+mechanical
+ventilation
+with heat recovery
+is not profitable;
+however,
+in typical
+Danish multi‐family
+buildings
+this measure
+covery
+is
+not
+profitable;
+however,
+in
+typical
+Danish
+multi-family
+buildings
+this
+would always be carried out anyway, since this will have a significant impact on the measure
+in‐
+2 per year,
+would
+carried
+out anyway,
+since thisthis
+willmeasure
+have a is
+significant
+impact
+on the
+dooralways
+climate.beThe
+total costs
+per year including
+EUR 20.0/m
+i.e.,indoor
+climate.
+The than
+totalthe
+costs
+per
+yearthe
+including
+this measure is EUR 20.0/m2 per year, i.e., still
+still lower
+costs
+before
+intervention.
+Furthermore,
+calculations
+show that in a future scenario with a significantly
+lower than
+the costs the
+before
+the intervention.
+higher
+level of renewable
+energy in
+the energy
+shift to individual
+heat pumpshigher
+Furthermore,
+the calculations
+show
+that in system,
+a futurea scenario
+with a significantly
+2 eq/m2 per year (20% reduction) at an addi‐
+can
+reduce
+total
+emissions
+by
+up
+to
+1.5
+kg
+CO
+level of renewable energy in the energy system, a shift to individual heat pumps can reduce
+2
+increase).
+tional
+cost of EUR
+8.0/m
+2
+total
+emissions
+by up
+to 1.5per
+kgyear
+CO(40%
+2 eq/m per year (20 reduction) at an additional cost of
+Based
+on the calculations, the future development related to renewable energy inte‐
+2
+EUR 8.0/m per year (40 increase).
+gration in the energy mix will influence cost‐optimality for renovation cases. If we only
+Based on the calculations, the future development related to renewable energy integralook at emissions, over a relatively short period of time, these will be reduced significantly
+tionthrough
+in the energy
+mix will influence
+cost-optimality
+forenergy
+renovation
+cases.
+If we
+only look at
+the decarbonization
+of the energy
+systems and
+efficiency
+at the
+building
+emissions,
+a relatively
+short
+period
+of time,
+these
+significantly
+through
+level willover
+make
+less and less
+sense.
+However,
+if we
+alsowill
+lookbe
+at reduced
+the energy
+prices, invest‐
+the ment
+decarbonization
+of the measures
+energy systems
+andrelevant,
+energyespecially
+efficiencywhen
+at the
+building that
+level will
+in energy efficiency
+is still very
+considering
+make
+lessprices
+and less
+sense. However,
+lookinat2022
+thealone.
+energy prices, investment in
+energy
+are expected
+to increase if
+bywe
+50%also
+or more
+In addition,measures
+the investigations
+in thisrelevant,
+paper show
+that for awhen
+country
+such as Denmark,
+energy efficiency
+is still very
+especially
+considering
+that energy
+where
+heating
+is well established
+and covers
+a large
+prices
+aredistrict
+expected
+to increase
+by 50 or more
+in 2022
+alone.proportion of buildings, it is
+better
+to utilize the
+andinvestigations
+expand these networks
+rather than
+individual
+solutions.
+In addition,
+in this paper
+showconverting
+that for atocountry
+such
+as Denmark,
+where district heating is well established and covers a large proportion of buildings, it is
+better to utilize and expand these networks rather than converting to individual solutions.
+In other countries, which may not have existing district heating networks, it may be more
+advisable to look at individual solutions. However, it is important to note that using central
+solutions (e.g., district heating) rather than decentral solutions (e.g., individual heat pumps)
+
+Sustainability 2022, 14, 13605
+
+15 of 16
+
+has the added benefit of enabling incorporation of, e.g., waste heat in the network, common
+storage facilities, and similar synergies, all of which are very important factors to consider
+when designing future energy systems.
+Finally, the calculations show that the balance between energy efficiency measures and
+renewable energy sources is very dependent on the starting situation. If the district has a
+relatively high level of energy efficiency (buildings erected in the last three decades) to start
+with, further investments should probably focus on renewable energy rather than energy
+efficiency. However, this should always be based on an individual case-by-case assessment.
+Generally, investigations in this paper were performed prior to the war in Ukraine,
+which indicates that prices of energy saving measures and energy are even more volatile
+today than what they were when the calculations were performed. This, of course, adds
+further to the uncertainty of the results, but as shown in Section 4.4, even relatively large
+variations in prices do not necessarily significantly alter the conclusions.
+Finally, it should be noted that renovation not only improves energy efficiency of buildings,
+but has a large amount of co-benefits as well, e.g., improvement of indoor climate, lower
+influence of price increases and thereby risks of increased energy-poverty, etc. These co-benefits
+are difficult to weigh against emissions and costs, but can sometimes be more important.
+The calculations described in this paper relate to a very homogenous district that
+comprises only single- and multi-family dwellings and has single sources for heat and
+electricity. Therefore, future research should focus on determining relevant solutions in
+more heterogenous districts involving, e.g., industry and commercial buildings, etc. and
+districts where the existing energy infrastructure is less developed or incoherent.
+Author Contributions: Conceptualization, J.R. and K.E.T.; methodology, O.B.-O.; software, O.B.-O.;
+validation, J.R.; formal analysis, O.B.-O.; investigation, J.R. and K.E.T.; resources, O.B.-O.; data curation, O.B.-O.; writing—original draft preparation, J.R. and K.E.T.; writing—review and editing, J.R.
+and K.E.T.; visualization, J.R., K.E.T. and O.B.-O.; project administration, K.E.T.; funding acquisition,
+J.R. and K.E.T. All authors have read and agreed to the published version of the manuscript.
+Funding: This research was funded by the Danish Energy Agency grant number 64017-0586.
+Acknowledgments: This work was financed by the Danish Energy Agency through the EUDP program.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Nomenclature
+Symbol
+
+Description
+
+rn
+s
+ie
+im
+n
+rrs
+rre
+fnpvs
+fnpve
+U
+l
+g
+SFP
+COP
+I
+O
+M
+R
+
+Discount rate
+Tax of interest income
+Inflation of energy prices
+Inflation of maintenance costs
+Expected economic lifetime
+Real discount rate, savings
+Real discount rate, expenses
+Net present value factor, savings
+Net present value factor, expenses
+Thermal transmittance
+Thermal conductivity
+Thermal resistance
+Specific fan power
+Coefficient of performance
+Investment
+Operational costs
+Maintenance
+Replacement costs
+
+Unit
+
+Years
+
+W/m2 K
+W/mK
+m2 K/W
+kJ/m3
+€/m2
+€/m2
+€/m2
+€/m2
+
+Sustainability 2022, 14, 13605
+
+16 of 16
+
+References
+1.
+2.
+3.
+4.
+5.
+6.
+7.
+8.
+9.
+
+10.
+11.
+12.
+
+13.
+
+14.
+
+15.
+16.
+
+17.
+
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+
+Intergovernmental Panel on Climate Change (IPCC). Contribution of working groups I, II and III to the fourth assessment report
+of the intergovernmental panel on climate change. In Climate Change 2007: Synthesis Report; IPCC: Geneva, Switzerland, 2007.
+Economidou, M. Europe’s Buildings Under the Microscope; Buildings Performance Institute Europe (BPIE): Brussels, Belgium, 2011.
+European Commission. Energy, Transport and Environment Indicators; Eurostat: Luxembourg, 2012.
+European Commission. Climate and Energy Package. 2017. Available online: http://ec.europa.eu/clima/policies/strategies/20
+20/index_en.htm (accessed on 22 July 2022).
+European Commission. 2030 Climate & Energy Framework. 2018. Available online: https://ec.europa.eu/clima/policies/
+strategies/2030_en (accessed on 15 August 2022).
+Danish Ministry of Climate and Energy. Energistrategi 2050—Fra Kul, Olie og Gas til Grøn Energi; Danish Ministry of Climate and
+Energy: Copenhagen, Denmark, 2011. (In Danish)
+Danish Ministry of Climate, Energy and Utilities. Klimaaftale for Energi og Industri mv; Danish Ministry of Climate and Energy:
+Copenhagen, Denmark, 2020. (In Danish)
+Mortensen, L.H.; Nørregård, N.; Aggerholm, S. Roadmap 2030—Bygningers Rolle i den Grønne Omstilling; InnoBYG: Taastrup,
+Denmark, 2017. (In Danish)
+Bolliger, R.; Ott, W.; Von Grünigen, S. Finding the balance between energy efficiency measures and renewable energy measures in
+building renovation: An assessment based on generic calculations in 8 European countries. Energy Procedia 2015, 78, 2372–2377.
+[CrossRef]
+Reynolds, J.; Rezgui, Y.; Hippolyte, J.-L. Upscaling energy control from building to districts: Current limitations and future
+perspectives. Sustain. Cities Soc. 2017, 35, 816–829. [CrossRef]
+Weinberger, G.; Amiri, S.; Moshfegh, B. Investigating techno-economic effects and environmental impacts of energy renovation of
+residential building clusters on a district heating system. Energy Build. 2021, 251, 111327. [CrossRef]
+Terés-Zubiaga, J.; Bolliger, R.G.; Almeida, M.; Barbosa, R.; Rose, J.; Engelund Thomsen, K.; Montero, E.; Briones-Llorente, R.
+Cost-effective building renovation at district level combining energy efficiency & renewables—Methodology assessment proposed
+in IEA EBC Annex 75 and a demonstration case study. Energy Build. 2020, 224, 110280. [CrossRef]
+Rose, J.; Engelund Thomsen, K.; Domingo-Irigoyen, S.; Bolliger, R.; Venus, D.; Konstantinou, T.; Mlecnik, E.; Almeida, M.; Barbosa,
+R.; Terés-Zubiaga, J.; et al. Building renovation at district level—Lessons learned from international case studies. Sustain. Cities
+Soc. 2021, 72, 103037. [CrossRef]
+SET-Plan Temporary Working Group 3.2. (June). SET-Plan ACTION n 3.2 Implementation Plan: Europe to Become a Global
+Role Model in Integrated, Innovative Solutions for the Planning, Deployment, and Replication of Positive Energy Districts. 2018.
+Available online: https://jpi-urbaneurope.eu/wp-content/uploads/2021/10/setplan_smartcities_implementationplan-2.pdf
+(accessed on 15 August 2022).
+Annex 83—Positive Energy Districts. Ongoing (2020–2024). Available online: https://annex83.iea-ebc.org/ (accessed on
+12 August 2022).
+Almeida, M. Methodology for Investigating Cost-Effective Building Renovation Strategies at District Level Combining Energy
+Efficiency & Renewables (EBC Annex 75), Awaiting Publication. Will be available at the Annex 75 website when published. 2022.
+Available online: https://annex75.iea-ebc.org/ (accessed on 12 August 2022).
+Balslev-Olesen, O.; Vejsig, P.; Ellehauge, K.; Frederiksen, K.H.B.; Windeleff, J.; Esbensen, T.; Frendrup, J.; Klint, J.; Nielsen, J.E.;
+Sørensen, P.A.; et al. BYG-SOL. Solenergi i Byggeriet—Vejledning til Anvendelse af Solenergi i Energirammen; Solar City Copenhagen:
+Copenhagen, Denmark, 2008. (In Danish)
+ISO. ISO 13790:2008 Energy Performance of Buildings—Calculation of Energy Use for Space Heating and Cooling. 2008. Available
+online: http://www.iso.org/iso/catalogue_detail.htm3Fcsnumber=41974 (accessed on 15 August 2022).
+Danish Housing and Planning Authority. Nye Emissionsfaktorer for el og Fjernvarme; Danish Housing and Planning Authority:
+Copenhagen, Denmark, 2016. (In Danish)
+Praxis. Varmeståbi 8. Udgave; Praxis: Copenhagen, Denmark, 2021. (In Danish)
+Statistics Denmark. Available online: https://www.statistikbanken.dk/ (accessed on 15 August 2022).
+Danish Energy Agency. Denmark’s Energy and Climate Projection 2015, Background Report E: Electricity and District Heating; Danish
+Energy Agency: Copenhagen, Denmark, 2015. (In Danish)
+Rose, J.; Engelund Thomsen, K. Kildeparken, Aalborg (Denmark). 2019. Available online: https://annex75.iea-ebc.org/Data/
+publications/Annex75_STC_WPC1_Kildeparken_Denmark.pdf (accessed on 15 August 2022).
+Ministry of Interior and Housing. Building Code 2018 (BR18); Ministry of Interior and Housing: Copenhagen, Denmark, 2019.
+Ministry of Housing. Building Code for the Townships and the Country 1961 (BR61); Ministry of Interior and Housing: Copenhagen,
+Denmark, 1960.
+Ministry of Housing. Building Code 1977 (BR77); Ministry of Interior and Housing: Copenhagen, Denmark, 1977.
+
+

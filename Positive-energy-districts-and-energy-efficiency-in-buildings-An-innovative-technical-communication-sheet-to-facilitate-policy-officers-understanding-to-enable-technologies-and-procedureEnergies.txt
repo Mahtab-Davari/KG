@@ -1,0 +1,1159 @@
+energies
+Article
+
+Positive Energy Districts and Energy Efficiency in Buildings:
+An Innovative Technical Communication Sheet to Facilitate
+Policy Officers’ Understanding to Enable Technologies
+and Procedure
+Tiziana Ferrante and Teresa Villani *
+Department of Planning, Design, and Technology of Architecture, Sapienza University of Rome, 00196 Roma,
+Italy; tiziana.ferrante@uniroma1.it
+* Correspondence: teresa.villani@uniroma1.it
+
+
+
+Citation: Ferrante, T.; Villani, T.
+Positive Energy Districts and Energy
+Efficiency in Buildings: An
+Innovative Technical Communication
+Sheet to Facilitate Policy Officers’
+Understanding to Enable
+Technologies and Procedure. Energies
+
+Abstract: The Horizon 2020 framework programme is defining funding strategies for research and
+innovation projects in European cities and promoting policies and solutions for the transition to a
+competitive energy system at an urban scale. Given that Horizon Europe, thanks to the Driving
+Urban Transition Partnership, will fund RD&I projects regarding transitions to urban sustainability;
+how municipalities will implement different strategies is a relevant key to developing replicable
+models. We conducted this study on Italian cities through a mapping exercise on selected case
+studies. The aim was to provide a knowledge framework to municipalities undertaking sustainable
+urban development actions. We selected case studies based on energy efficiency in buildings, both in
+retrofits and new constructions. This highlighted how the adoption of multifaceted technological
+solutions blended well with each other, and led, not only, to satisfy the initial requirements, in
+terms of expected impacts from the single actions, but also provided relevant and replicable samples.
+For this, the analysis of solutions tested by different municipalities in the selected projects led to
+spreadsheets and indicators related to energy efficiency in buildings, which enabled a transition
+to a PED, which could facilitate an understanding of elements that must be clearly indicated in a
+preliminary design document (Directive 2014/24/UE).
+
+2021, 14, 8551. https://doi.org/
+10.3390/en14248551
+Academic Editors: Paola Clerici
+
+Keywords: positive energy district (PED); enabling solution for PED transition; energy efficiency in
+buildings and real estate
+
+Maestosi and Álvaro Gutiérrez
+Received: 10 November 2021
+Accepted: 10 December 2021
+Published: 18 December 2021
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+
+1. Introduction
+1.1. Smart Cities and Positive Energy Districts: A European Commission Point of View
+With the framework programme H2020, the European Commission, based on the Marseille and Toledo Declaration, council conclusions, opinions and the EU urban agenda [1–14],
+is defining funding strategies for cities addressing actions and programmes for sustainable
+urban development. Indeed, rapid population growth, deterioration of suburban areas
+and social inequalities, together with the increase in citizens’ expectations of the quality
+of life and supplied services, make sustainable development policies a relevant key for
+energy saving and for the social participation of citizens. These topics have become the
+main focus in urban areas through promoting the transition to a competitive energy system
+based on several specific actions: reducing energy consumption and carbon footprints,
+supplying low-cost and low-carbon power, employing alternative fuels and mobile energy
+sources, employing a single and smart power network, researching new knowledge and
+technologies, sound decision-making, public commitment and an energy and ICT innovation market with capacity absorption [15,16]. Therefore, the attention on sustainable
+development drove, on one hand, to smart cities, and on the other, to PEDs (positive energy
+districts) [17,18].
+
+4.0/).
+
+Energies 2021, 14, 8551. https://doi.org/10.3390/en14248551
+
+https://www.mdpi.com/journal/energies
+
+Energies 2021, 14, 8551
+
+2 of 18
+
+Urban areas are indeed the main causes of climate change, and each action municipalities undertake for the future development of the city should contribute to characterize a
+positive global change. For this, municipalities play a key role in planning and decisionmaking for sustainable urban development [16].
+It is clear that it was thanks to the cited documents that the European Commission
+developed an appropriate funding strategy to support sustainable development and sustainable urban areas. It is thanks to the contribution of a various set of stakeholders, such
+as the EERA Strategic Energy and Technology Plan (SET Plan) [19], JRC [20], IEA [21],
+JPI UE [22], the European Commission individuates, in the Horizon Europe framework
+programme that funding for urban sustainable development, with the Driving Urban
+Transition Partnership, has been directed towards positive energy districts, which represent
+one of the three pathways to facilitate urban transition [23].
+The SET Plan, adopted by the European Union in 2008, was a first step to establish an
+energy technology policy for Europe; it was Europe’s technology response to the challenges
+of meeting its targets on greenhouse gas emissions, renewable energy and energy efficiency.
+The integrated SET Plan identified 10 actions for research and innovation. The actions
+address the whole innovation chain, from research to market uptake, and tackled both
+financing and regulatory frameworks. Among the actions was Action 3.2, which stated,
+“Europe to become a global role model in integrated, innovative solutions for the planning,
+deployment, and replication of positive energy districts” [17]. The implementation plan,
+which was edited by smart cities and communities, focused on PEDs’ requirements, such as
+an open innovation model for their planning, deployment and replication. In the TWG 3.2
+implementation plan, cities were identified as the stakeholders who need to take a leading
+role in the integrated and holistic planning of PEDs, aligning it with their long-term urban
+strategies. Industries and organisations such as real estate development, construction
+companies, network operators, utility companies and many others, will play a vital role as
+solution providers.
+Moreover, the Joint Programming Initiative Urban Europe—created in 2010 to address global urban challenges—thanks to the Strategic Research and Innovation Agenda
+2.0 [24] and the White Paper “A Reference Framework for Positive Energy Districts and
+Neighbourhoods” [22], contributed to the definition of a positive energy district.
+Additionally, a working group in the framework of the Joint Programming Initiative
+Urban Europe, analysed then collected the following in a booklet regarding PEDs [25]:
+PED projects in 61 urban areas, which were described according to key indicators in
+relation to PED projects (10 key indicators in the area of building/real estate) and to energy
+sustainability PED projects (5 key indicators and related sub-key indicators in the area of
+building/real estate). Subsequently, the above set of key indicators were extended in the
+ENEA research project [26] (Figure 1).
+
+Energies 2021, 14, 8551
+
+3 of 18
+
+Energies 2021, 14, x FOR PEER REVIEW
+
+4 of 18
+
+Figure 1. Comparison of indicators and key indicators in the Booklet on PEDs and the ENEA
+research project.
+
+Energies 2021, 14, 8551
+
+4 of 18
+
+1.2. A National Perspective on PED
+At a national level the concept of PEDs are almost unknown among municipality
+public officers as there are no structured national events that discuss this topic, except
+the ones promoted by the national Italian delegate in the JPI Urban Europe to support
+alignment with the European dimension. Given that this was a national research activity
+coordinated by ENEA [26], which analysed in depth what types of data were needed to
+better explain the consistency of PED projects, based on these results we elaborated the
+innovative technical communication sheets.
+Our manuscript presents the innovative technical communication sheets (selected
+examples from Milan, Florence and Trento), which were elaborated for 15 Italian case
+studies located in the seven selected municipalities, and presents them in a booklet of
+PEDs, they are also analysed by Bossi et al. [27]. While both cited documents refer to
+the European dimension with a set of a few data types, our manuscript presents the innovative technical communication sheets, which include more detailed data concerning
+technological solutions (project goals, expectations in terms of energy savings, energy class,
+initial/final energy rating, etc., which are individuated in Figure 2) and implementation
+processes (entity role in different phases, activities, instruments, etc., which are individuated in Figure 3), which refer to national experiences and facilitate national public officers’
+understanding of positive energy districts.
+
+Energies 2021, 14, 8551
+Energies 2021, 14, x FOR PEER REVIEW
+
+5 of 18
+7 of 18
+
+Figure 2. An example of a case-study project intervention sheet, the technological solutions.
+Figure 2. An example of a case-study project intervention sheet, the technological solutions.
+
+The contents of the technical communication sheet describing the public procurement process included the following:
+
+
+
+
+General information such as the city’s name and the project’s name and details;
+Building phases (programming, designing, execution);
+Financial information.
+
+For each phase we identified entities and roles (which were specific for each entity
+and role during each phase), activities (in terms of procedures, rules, requirements, financing, etc., contents and technical specifications, instruments (the name/type of documents, plans, calls, etc., and the name/type of design documents), contracts and assignments) (Figure 3).
+
+Energies 2021, 14, 8551
+Energies 2021, 14, x FOR PEER REVIEW
+
+6 of 18
+8 of 18
+
+Figure 3. An example of a case-study project intervention sheet and the implementation processes.
+Figure 3. An example of a case-study project intervention sheet and the implementation processes.
+
+1.3. Positive Energy District Functions
+The
+proposed
+communication
+The
+guidance
+on technical
+PEDs includes
+3 targets. sheet was undoubtedly an effective way to
+present results and to compare building solutions and public procurement procedures.
+1.
+Efficiency: optimization of energy performance can reduce consumption in buildings
+The frames were designed with the aim of facilitating the use of the content inforand mobility infrastructures, including the existing building stock.
+mation by the principles of information visualization. This improved the cognitive pro2.
+Flexibility: resilience of the regional energy system to carbon neutrality and 100%
+cess for an understanding of the spreadsheet’s content through a balanced use of visual
+renewable energy.
+and textual codes, which were also used to achieve a different type of communication
+3.
+Production: empowerment of relevant gas-emissions reductions.
+effectiveness, depending on the nature of the information (qualitative and quantitative)
+and on the recipients.
+Specifically, for frames of the implementation process of operations, a lot of the collected data in the spreadsheets concerned descriptive topics. These needed a textual
+
+Energies 2021, 14, 8551
+
+7 of 18
+
+1.4. Paper Content
+Given this, and based on results of ENEA national research [26], the researchers
+verified that indicators used to describe PED experiences, at least at Italian level, were not
+developed enough, especially those related to energy efficiency in buildings. The results
+of the cited research highlights that we need more key indicators as well as new areas of
+investigations (6 areas of investigations and more than 100 key indicators) to individuate
+the innovative and integrated solutions in the planning/implementation phases, which
+contribute to successfully activate the transition towards PEDs. Our research focused on
+the area of energy efficiency in buildings/real estate, where the cited research individuated
+35 new key indicators and 11 subindicators (Figure 1).
+The novelty of our research activity relied on the creation of an innovative technical
+communication sheet to facilitate policy officers’ understanding of enabling technologies
+and procedures that improve building energy efficiency in positive-energy-district projects.
+The manuscript presents the innovative technical communication sheets.
+2. Materials and Methods
+2.1. Materials
+In our research we assumed, as a starting point, the following: (1) the contents of
+the Booklet on PEDs was collected and edited by the PED Programme Management of
+JPI Urban Europe and analysed 61 urban areas, 7 of them in Italy, namely Parma, Roma,
+Milano, Bolzano, Firenze, Lecce and Trento, proposing a characterization through a set of
+given elements; (2) results in the ENEA research implemented the original set in the Booklet
+on PEDs according to a more comprehensive approach, which considered each building as
+the result of a process characterized by phases, requirements and performance [28].
+The starting point was to aggregate data that referred to a specific building, in order to
+obtain authorization to build, in a single technical communication sheet, then to implement
+the sheet with those characteristics to enable the building itself to be a physical node that
+enabled a positive energy district.
+Our activity focused on the elaboration of an innovative technical communication
+sheet, which described, in an effective and easy way, key indicators related to buildings.
+2.2. Methods
+Research objectives: The research objectives aimed to individuate how to communicate
+the key indicators related to energy efficiency in PED building projects to policy officers in
+a municipality. These were based on the list of key indicators in the ENEA project, which
+were used to perform a deeper analysis on the selected case studies (Figure 1).
+Research methodology: The research methodology was based on a theoretical perspective that highlighted technology-enabling factors for energy efficiency in buildings as
+nodes in a positive energy district, as well as rules, regulations and public procurement
+procedures for rehabilitation, recovery or new buildings.
+The methodology was based on three phases.
+1.
+2.
+3.
+
+Collection of objectives, aims and strategies in the PED building projects assumed as
+case studies;
+Analysis of case studies according to the new key indicators related to energy efficiency in buildings/real estate;
+Creation of technical communication sheets for easier understanding.
+
+The paper presents the results of the research activities. This work focussed on identifying a technical communication sheet to facilitate the comprehension of key indicators that
+concern energy efficiency in buildings/real estate and the public procurement procedure.
+This work also aimed to facilitate the comprehension and understanding by civil servants
+in municipalities, which aimed to activate the transition to positive energy districts.
+According to each case study, and to the above-mentioned key indicators, it was
+necessary to present analysis results on energy-efficiency solutions in buildings as well
+
+Energies 2021, 14, 8551
+
+8 of 18
+
+as on public procurement procedures in each case study. This helped facilitate the comparison and identification of enabling factors for the transition to a PED, as related to the
+specific topic.
+Thus, two types of technical communication sheets were created.
+To define the spreadsheet structure, the study considered the data collected in the
+7 Italian municipalities, which were already selected as “in transition to a PED” in the
+Booklet on PEDs [25], and 15 energy-efficiency interventions on buildings (7 already
+indicated in the Booklet of PEDs and 8 new ones), which were identified as case studies
+specifically referring to energy efficiency in buildings/real estate projects.
+Then according to the type of indicators, we developed one technical communication
+sheet describing energy-efficiency solutions in building/real estate case studies and a
+second one describing the public procurement process.
+The contents of the technical communication sheet describing energy-efficiency solutions in the buildings and real estate case studies included the following:
+
+•
+•
+•
+•
+•
+
+General information such as the city’s name and the project’s name and details;
+Quantitative and qualitative data, such as type of financing, financing amount, EU
+co-funding (% indicators);
+Data on energy class upgrades, such as initial energy rating and final energy rating
+(energy class from A to G);
+Information on expected impacts, such as expectations in terms of energy efficiency,
+savings, consumption reduction, etc. (% indicators);
+Data on adopted technology solutions in response to project objectives (project goals in
+terms of energy efficiency, optimization and consumption reduction and their impact
+when achieved) (Figure 2).
+
+The contents of the technical communication sheet describing the public procurement
+process included the following:
+
+•
+•
+•
+
+General information such as the city’s name and the project’s name and details;
+Building phases (programming, designing, execution);
+Financial information.
+
+For each phase we identified entities and roles (which were specific for each entity and
+role during each phase), activities (in terms of procedures, rules, requirements, financing,
+etc., contents and technical specifications, instruments (the name/type of documents, plans,
+calls, etc., and the name/type of design documents), contracts and assignments) (Figure 3).
+The proposed technical communication sheet was undoubtedly an effective way to
+present results and to compare building solutions and public procurement procedures.
+The frames were designed with the aim of facilitating the use of the content information by the principles of information visualization. This improved the cognitive process
+for an understanding of the spreadsheet’s content through a balanced use of visual and
+textual codes, which were also used to achieve a different type of communication effectiveness, depending on the nature of the information (qualitative and quantitative) and on
+the recipients.
+Specifically, for frames of the implementation process of operations, a lot of the
+collected data in the spreadsheets concerned descriptive topics. These needed a textual
+language for communication, but, at the same time, must communicate an organized
+sequence of phases concerning operators and proper tools for their specific activities.
+In this case, to represent the complexity of the building process and the public procurement (with its relevant dataset) of the analysed case studies, we chose a representation
+that integrated text-based information organized within flow diagrams that facilitated a
+logical sequence with links among areas.
+The aim of the proposed graphic organisation was to disseminate this information to
+municipal officials/civil servants (competent departments and offices) who wanted to start
+an urban development plan for driving ecological transitions and PEDs. By learning from
+this information, which also displayed a more immediate visual representation, officials
+
+Energies 2021, 14, 8551
+
+9 of 18
+
+could take out useful instruments for the selection of policy and decision making on
+funding strategies, appropriate procurement processes and key documents to ensure the
+quality of the operations, in terms of energy efficiency and sustainability, and to identify
+any issues (diagram bugs) and anticipate solutions.
+In this way the exploratory analysis of the data benefitted from the visual representation through fast information communication that otherwise hid within the spreadsheets.
+This positively affected the target in replicating the case studies’ procedures. Visual attributes, such as colour, size, proximity and visual representation of quantitative data, as
+well as textual content, were used for the frames on technological solutions, to convey
+complex data that would otherwise require huge cognitive processing. We collected the set
+of data through the desk activity on innovative solutions for the energy efficiency of the
+case studies and on expected impacts. We then reorganized them into a consistent form
+that was able to communicate the target context, taking well into account the key recipients
+as municipal technical office chiefs, architects, etc.
+3. Results
+The method for the frame implementation was to report a first phase of all information
+taken from a critical reading of the analysed projects and to gradually remove redundant
+information, or information liable to further technical insight. This way allowed us to bring
+out only first-level data, which were useful to identify, with an immediate representation,
+the impact of the positive solution within the PEDs. (Figure 4). In addition, this helped
+technicians consider the content’s consistence for their replicability.
+We carried out work on the spreadsheet affordance, i.e., those real or perceived
+properties which were self explanatory, thus simply showing them to informed recipients
+supported its multiple uses in terms of data interaction.
+The use of visual representation for quantitative context data made it easier to use the
+preconditions for starting energy-efficiency operations based on the need for funding. In
+particular it showed the impacts of EU grants.
+The different levels of colour saturation and intensity facilitated the process of visual
+recognition for most relevant data.
+The choice of the use of icons made effective mental representations, facilitated fast
+communication and, in any case, kept a close link between visual and textual terminology.
+This information, together with the experience of recipients, should be able to produce knowledge on the project objectives, on the specificities of adopted solutions and
+on the key components of the building system for energy efficiency. Knowledge was
+therefore the main objective of the communication process. This empowered technicians to
+express a meaningful consideration on data and to develop the technical knowledge for
+the replication of the solutions.
+In order to assess the on-field effectiveness of the frames we were holding, we had
+many online meetings with specific stakeholders of the involved municipalities, from
+which we received useful feedback on how to improve the communicativeness of the
+frames; by implementing content and graphics, for example.
+Indeed, these frames were also prototypes on which to test the accessibility of information content and its actual use by checking compliance with replicable solutions. The
+obtained feedback, and the application of information visualization principles, were also
+crucial for the ongoing design of the digital database.
+Moreover, the communication outline of the frames was particularly effective for a
+comparative assessment between the procedures of the operations in more cities and the
+technological solutions for energy-efficiency operations in the case studies.
+Indeed, the objective comparison between homogeneous datasets was visually facilitated by reducing the error during data comparison, which were carried out on spreadsheets.
+
+Energies 2021,
+2021, 14,
+14, 8551
+x FOR PEER REVIEW
+Energies
+
+10
+18
+10 of
+of 18
+
+Figure 4. Comparison of a technical data sheet and a technical communication sheet.
+Figure 4. Comparison of a technical data sheet and a technical communication sheet.
+
+Energies 2021, 14, 8551
+
+Moreover, the communication outline of the frames was particularly effective for a
+comparative assessment between the procedures of the operations in more cities and the
+technological solutions for energy-efficiency operations in the case studies.
+Indeed, the objective comparison between homogeneous datasets was visually facilitated by reducing the error during data comparison, which were carried
+11 ofout
+18 on
+spreadsheets.
+For the frame of technological solutions, the selected communication outline could
+the‘‘weight’’
+frame of technological
+solutions,
+the selected
+outline compared
+could
+highlightForthe
+of the results
+achieved
+by thecommunication
+different solutions,
+highlight the “weight” of the results achieved by the different solutions, compared within
+within
+each indicator, related to the expected impacts. Such impacts needed a close link,
+each indicator, related to the expected impacts. Such impacts needed a close link, not only
+not only to adopt solutions, but also for the building system components that were into adopt solutions, but also for the building system components that were involved in the
+volved
+in theenergy-efficiency
+surveyed energy-efficiency
+operations
+(Figure 5).
+surveyed
+operations (Figure
+5).
+
+Figure 5. Milan and Florence case study: comparative analysis of technological solutions.
+
+For the frame of the execution process through to the comparison of flow diagrams, we
+could focus on the critical phases of the building process and on the potential for different
+instruments the municipalities chose for each activity, as well as the extensive impact on
+the quality and achievement of the PED target (Figure 6).
+
+Figure 5. Milan and Florence case study: comparative analysis of technological solutions.
+
+Energies 2021, 14, 8551
+
+For the frame of the execution process through to the comparison of flow diagrams,
+we could focus on the critical phases of the building process and on the potential for
+12 extensive
+of 18
+different instruments the municipalities chose for each activity, as well as the
+impact on the quality and achievement of the PED target (Figure 6).
+
+Figure 6. Milan and Florence case study: comparative analysis of the implementation processes.
+
+Figure 6. Milan and Florence case study: comparative analysis of the implementation processes.
+3.1. Technical Communication Sheets on Technological Solution
+
+Systematization
+of the information
+collected in the
+spreadsheets allowed a univocal
+3.1. Technical
+Communication
+Sheets on Technological
+Solution
+
+interpretation of the different analysed projects, in terms of the innovative technological
+Systematization
+of the information
+collected
+in thedevelopment,
+spreadsheetsimplementation
+allowed a univocal
+solutions
+and the processes
+that empowered
+planning,
+interpretation
+of theofdifferent
+projects,
+in terms
+of analysis
+the innovative
+technological
+and management
+different analysed
+actions. The
+importance
+of the
+of technological
+solutions
+the processes
+that
+empowered
+planning,
+implementation
+solutionsand
+concerned
+the topic of
+energy
+efficiency: the
+design ofdevelopment,
+such actions was
+the result
+of management
+strategic policiesofand
+the use of
+specificThe
+solutions
+to achieve
+objectives.
+Such
+and
+different
+actions.
+importance
+ofestablished
+the analysis
+of technological
+solutionsconcerned
+took place the
+to achieve
+a sustainable
+architecture
+on aoflow
+environmental
+solutions
+topic of
+energy efficiency:
+thebased
+design
+such
+actions was the
+impact
+of
+the
+building
+through
+resource
+saving
+and
+pollution
+reduction
+in
+all
+lifecycleobjecresult of strategic policies and the use of specific solutions to achieve established
+phases. There was also a positive approach to “on-site” energy production using specific
+tives. Such solutions took place to achieve a sustainable architecture based on a low ensystems that used renewable sources. Within the study carried out in this first phase,
+vironmental
+impact of the building through resource saving and pollution reduction in
+we found that projects stood out for the adoption of different solutions that were able to
+allimprove
+lifecycleenergy
+phases.
+There wasfor
+also
+a we
+positive
+approach
+to ‘‘on-site’’
+production
+performance;
+this,
+identified
+an in-depth
+study onenergy
+how adopted
+using
+specific systems
+that usedwith
+renewable
+sources.
+Within
+theWe
+study
+carried
+out in this
+technological
+choices interacted
+the whole
+building
+system.
+reported
+the sheet
+first
+phase,
+we
+found
+that
+projects
+stood
+out
+for
+the
+adoption
+of
+different
+solutions
+that
+sample of the case study of the city of Trento (Figure 7).
+
+were able to improve energy performance; for this, we identified an in-depth study on
+how adopted technological choices interacted with the whole building system. We reported the sheet sample of the case study of the city of Trento (Figure 7).
+
+Energies 2021, 14, 8551
+Energies 2021, 14, x FOR PEER REVIEW
+
+13 of 18
+13 of 18
+
+Figure7.7. Trento
+Trentocase
+casestudy
+studyproject
+projectintervention:
+intervention:the
+thetechnological
+technologicalsolutions.
+solutions.
+Figure
+
+We conducted
+conducted the
+the project’s
+project’s survey
+survey and
+and linked
+linked itit closely
+closely with
+with the
+the analysis
+analysis of
+of each
+each
+We
+buildingprocess.
+process.
+building
+
+3.2.
+3.2. Technical
+TechnicalCommunication
+CommunicationSheets
+Sheetson
+onImplementation
+ImplementationProcesses
+Processes
+In
+In this
+this section
+sectionwe
+wediscuss
+discussthe
+thespreadsheet
+spreadsheeton
+onimplementation
+implementationprocesses
+processesconcerning
+concerning
+building
+buildingrehabilitation.
+rehabilitation. In
+In reference
+referenceto
+tothe
+theprocedures
+procedureswe
+weoutlined,
+outlined,with
+withthe
+theinvolvement
+involvement
+of
+wewe
+identified
+specific
+actions
+that that
+citiescities
+developed.
+The
+ofmunicipalities
+municipalitiesand
+andstakeholders,
+stakeholders,
+identified
+specific
+actions
+developed.
+project
+variety
+depended
+on
+factors
+including
+the
+programming
+methods
+of
+actions,
+the
+The project variety depended on factors including the programming methods of actions,
+financing
+policies
+and
+the
+stakeholders’
+involvement
+through
+participatory
+processes.
+the financing policies and the stakeholders’ involvement through participatory processes.
+
+Energies 2021, 14, 8551
+Energies 2021, 14, x FOR PEER REVIEW
+
+14 of 18
+14 of 18
+
+We reported an example of the described sheet in the case study of the city of Trento
+We reported an example of the described sheet in the case study of the city of Trento
+(Figure 8).
+(Figure 8).
+
+Figure 8. Trento case study project intervention: the implementation processes.
+Figure 8. Trento case study project intervention: the implementation processes.
+
+3.3.
+3.3.New
+NewSet
+SetofofIndicators
+IndicatorsComparing
+Comparingthe
+theRequirement
+Requirementininthe
+thePreliminary
+PreliminaryDesign
+DesignDocument
+Documentwith
+with
+the
+theTechnological
+TechnologicalSolutions
+SolutionsAdopted
+Adopted
+The
+Theresult
+resultobtained
+obtainedfor
+foreach
+eachproject,
+project,from
+fromthese
+thesetwo
+twosheets,
+sheets,was
+wasnot
+notonly
+onlyuseful
+usefulfor
+for
+specific
+content
+but
+especially
+for
+the
+link
+we
+could
+detect
+between
+the
+two
+observation
+specific content but especially for the link we could detect between the two observation
+areas.
+areas.Taking
+TakingTrento,
+Trento,again,
+again,asasan
+anexample
+examplecase
+casestudy,
+study,the
+theanalysis
+analysisofofthe
+theimplementation
+implementation
+processes
+led
+us
+to
+highlight
+the
+relevance
+of
+the
+documents
+used
+since
+processes led us to highlight the relevance of the documents used sincethe
+theprogramming
+programming
+phase.
+phase. Indeed,
+Indeed, the
+thequality
+qualityof
+ofthe
+thepre-design
+pre-designdocument,
+document,which
+whichwe
+wefound
+foundcomplete
+completeand
+and
+
+Energies 2021,
+2021, 14,
+14, x8551
+Energies
+FOR PEER REVIEW
+
+18
+1515ofof 18
+
+clear
+compliance to
+to specific
+specificrequirements
+requirementsofofenergy
+energysustainability,
+sustainability,
+highlights
+sevclear in
+in the
+the compliance
+highlights
+several
+eral
+indicators,
+which
+proved
+valuable
+duringthe
+thepreparatory
+preparatoryphase
+phase prior
+prior to
+to design
+indicators,
+which
+proved
+to to
+bebe
+valuable
+during
+design
+(Figure
+limit
+thethe
+building
+scale,
+butbut
+detected
+all factors
+of the
+(Figure 9);
+9);these
+theseindicators
+indicatorsdid
+didnot
+not
+limit
+building
+scale,
+detected
+all factors
+of
+action.
+the action.
+
+Figure9.
+9.Indicators
+Indicatorsdescribed
+describedin
+inthe
+thepreliminary
+preliminary design
+design document
+document for
+for the
+the Trento
+Trento case
+case study.
+study.
+Figure
+
+The design
+design phase,
+phase, which
+procedure,
+was
+tendered
+for
+The
+whichfollowed
+followedthe
+thepublic
+publicprocurement
+procurement
+procedure,
+was
+tendered
+by
+the
+design
+contract,
+in
+accordance
+with
+the
+DPP
+requirements.
+This
+produced
+an
+easier
+for by the design contract, in accordance with the DPP requirements. This produced an
+selection
+criteriacriteria
+procedure
+for the bid
+and bid
+for the
+of especially
+energy-efficient
+easier
+selection
+procedure
+for the
+andselection
+for the selection
+of especially
+enertechnological
+solutions.
+Strategic
+policies
+were
+also
+a
+driver
+to
+meet
+the
+requirements
+as
+gy-efficient technological solutions. Strategic policies were also a driver to meet the re-
+
+Energies 2021, 14, 8551
+
+16 of 18
+
+reported among expected impacts in terms of energy. Thus, the overall process quality that
+included sustainability topics from the early stages of promotion and programming to all
+implementation tools, should clearly result in success of the action with a sensible design
+of the technological solutions in compliance with the PED criteria.
+4. Discussion
+Although our research activity will support further in-depth investigation, the proposed frame that describes PED projects, appears promising for the organization of information and has a clear focus on strategies and solutions, which will facilitate public officers
+in understanding the main characteristics of PED projects.
+Several discussions are ongoing among most prominent European networks (EERA
+JPSC PED modules, SET Plan Action 3.2 PED Programme/DUT PED pillar, COST Action PED-EU-NET, IEA EBC Annex 83, UERA PED WG, PED-related SCC01 projects,
+H2020 SCC01 TG Replication, SCALE, Smart Cities Marketplace) to define a common and
+shared definition of a PED, as well as to individuate key indicators that capture the true
+PED essence.
+No matter what the key indicators will be, our research activity highlighted the
+importance of effective communication.
+With increasing numbers of city authorities embracing the PED concept, and an
+increasing number of PED-related projects, there is a lack in communication characteristics,
+results, aims and goals in PED projects, in knowing that clear and effective communication
+facilitates comparison, evaluation and replication.
+Our research activity was aligned with these contents and our aim was to fulfil the
+existing gap by contributing, with our results, methods of organizing information to
+facilitate understanding of PED projects.
+5. Conclusions
+Although our research will further develop an in-depth analysis of other aspects
+of cities from our case studies (e.g., identification and qualification of urban ecosystem
+stakeholders and sectors of competence with their involvements at national, regional,
+provincial and local levels), the results presented in this paper seem interesting and in line
+with ongoing European debate.
+There is a need for effective communication on PED case studies that highlight information related to strategies and solutions implemented by the municipalities to facilitate
+the transition to PEDs, in the specific field of energy efficiency in the building/real estate sectors.
+Effective communication on findings related to PED pathways will encourage and
+facilitate synergies among urban ecosystem stakeholders by activating virtuous communication processes and improving the understanding of actions to support PED transition.
+Indeed, the new set of indicators identified by the ENEA optimizes the understanding
+of the technicalities of PED projects, thanks to a national research project we carried out to
+identify an effective way to communicate results and findings in an appropriate way to
+public officers.
+Among technicalities, the most prominent was within the building process (planning
+of sustainable actions, design development, implementation and management), which
+represented the fundamental activity public officers take to move from ideas to reality.
+That is why our main aim was to communicate the effectiveness of solutions and
+procedures that could be assumed as a set of replicable good practices among public officers
+involved in technical offices or sectors within municipalities: from several tender, technical and administrative documents, as well as financing budgets required for activating
+public tenders.
+Finally, a particular attention was paid to the planning phase of the building process
+and to the contents of the preliminary design document where public officers within
+municipalities expressed requirements and addressed the choices in a meaningful way.
+
+Energies 2021, 14, 8551
+
+17 of 18
+
+Indeed, a clear and effective qualification of the demand arose from the necessary conditions
+for the implementation of technological and financial solutions. In fact, the key role of
+public officers of municipalities was clear from the coherence and specificity of the technical
+planning documents.
+Without their involvement and support there was no chance in the area of positive
+energy districts, due to the complexity of the involved areas of expertise in road mapping
+urban transition strategies.
+Author Contributions: Conceptualization, T.F. and T.V.; methodology, T.F.; validation, T.F. and T.V.;
+formal analysis, T.V.; investigation, T.F. and T.V.; resources, T.F. and T.V.; data curation, T.V.; writing—
+original draft preparation, T.F. and T.V.; supervision, T.F.; project administration, T.F. All authors
+have read and agreed to the published version of the manuscript.
+Funding: Project funded by Ricerca di Sistema, Report RdS/PTR (2020)/040.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The data presented in this study are available on request from the
+corresponding author.
+Acknowledgments: We would like to thank the public officials of the municipalities included in the
+Booklet on PEDs and the Architect Eleonora Di Manno, who participated in data collection, analysis
+and report.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+
+2.
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+8.
+
+9.
+
+10.
+
+‘Marseille Declaration’ Adopted at the Informal Ministerial Meeting of Ministers Responsible for Urban Development on
+25 November 2008. Available online: http://www.eib.org/attachments/jessica_marseille_statement_en.pdf (accessed on 9
+December 2021).
+Toledo Declaration, Adopted at the Informal Ministerial Meeting of Ministers on Urban Development of 22 June Adopted 2010 in
+Toledo. Available online: http://www.ccre.org/docs/2010_06_04_toledo_declaration_final.pdf (accessed on 9 December 2021).
+Territorial Agenda of the EU 2020, Agreed at the Informal Ministerial Meeting of Ministers responsible for Spatial Planning and
+Territorial Development of 19 May 2011 in Gödöllő. Available online: http://ec.europa.eu/regional_policy/en/information/
+publications/communications/2011/territorial-agenda-of-the-european-union-2020 (accessed on 9 December 2021).
+Urban Agenda for the EU—‘Pact of Amsterdam’, Agreed at the Informal Meeting of EU Ministers Responsible for Urban
+Matters on 30 May 2016 in Amsterdam. Available online: http://ec.europa.eu/regional_policy/sources/policy/themes/urbandevelopment/agenda/pact-of-amsterdam.pdf (accessed on 9 December 2021).
+The General Affair Council of the European Union—Council Conclusions on the Urban Agenda for the EU, 24 June 2016, the
+Council of the European Union. Available online: http://www.consilium.europa.eu/en/press/press-releases/2016/06/24
+/conclusions-eu-urban-agenda/ (accessed on 9 December 2021).
+Council Conclusions on the Objectives and Priorities of the EU and Its Member States, Adopted for the Third United Nations
+Conference on Housing and Sustainable Urban Development (Habitat III), 2016. Available online: http://www.consilium.europa.
+eu/en/press/press-releases/2016/05/12/conclusions-on-habitat-iii/ (accessed on 9 December 2021).
+Report from the Commission to the Council on the Urban Agenda for the EU, COM (2017) 657 final. 2017. Available online: https://ec.europa.eu/regional_policy/sources/policy/themes/urban/report_urban_agenda2017_en.pdf (accessed on 9
+December 2021).
+Opinion of the Committee of the Regions ‘Towards an Integrated Urban Agenda for the EU’, Adopted on 25 and 26 June 2014.
+Available online: http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52013IR6902&from=PL (accessed on 9
+December 2021).
+Opinion of the Committee of the Regions ‘Concrete Steps for Implementing the EU Urban Agenda’, Adopted on 7 April
+2016. Available online: http://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A52015IR5511 (accessed on 9 December 2021).
+Committee of the Regions—Commission for Territorial Cohesion Policy and the EU Budget ‘The Follow-Up Strategy on the
+Implementation of the Urban Agenda for the EU’. 2016. Available online: http://memportal.cor.europa.eu/Handlers/ViewDoc.
+ashx?doc=COR-2016-04284-00-01-TCD-TRA-EN.docx (accessed on 9 December 2021).
+
+Energies 2021, 14, 8551
+
+11.
+
+12.
+
+13.
+
+14.
+
+15.
+16.
+
+17.
+18.
+19.
+20.
+21.
+22.
+
+23.
+
+24.
+25.
+26.
+
+27.
+28.
+
+18 of 18
+
+European Economic and Social Committee Opinion: The 2030 Agenda—A European Union Committed to Sustainable
+Development Globally, Adopted on 20 October 2016. Available online: http://www.eesc.europa.eu/en/our-work/opinionsinformation-reports/opinions/2030-agenda-european-union-committed-support-sustainable-development-goals-globallyown-initiative-opinion (accessed on 9 December 2021).
+Resolution of the European Parliament of 3 July 2018 on the Role of Cities in the Institutional Framework of the Union
+(2017/2037(INI)). Available online: http://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?uri=CELEX:52018IP0273&rid=2
+(accessed on 9 December 2021).
+Report of the Parliamentary Committee on Regional Development on the Urban Dimension of EU policies (2014/2213(INI)),
+Adopted on 17 June 2015. Available online: https://www.europarl.europa.eu/doceo/document/A-8-2015-0218_EN.html
+(accessed on 9 December 2021).
+Opinion of the European Committee of the Regions—‘Implementation Assessment of the Urban Agenda for the EU’, Adopted on
+5 July 2018. Available online: http://memportal.cor.europa.eu/Handlers/ViewDoc.ashx?pdf=true&doc=COR-2017-06120-00-00
+-AC-TRA-EN.docx (accessed on 9 December 2021).
+Østergaard, P.A.; Maestosi, P.C. Tools, technologies and systems integration for the Smart and Sustainable Cities to come. Int. J.
+Sustain. Energy Plan. Manag. 2019, 24, 1–6. [CrossRef]
+European Union. Regional Policy. City of Tomorrow. Challenges, Visions, Ways Forward. 2011. Available online: https:
+//ec.europa.eu/regional_policy/sources/docgener/studies/pdf/citiesoftomorrow/citiesoftomorrow_final.pdf (accessed on 2
+November 2021).
+SET-Plan Action 3.2 on Smart Cities and Communities. Available online: https://jpi-urbaneurope.eu/wp-content/uploads/2018
+/09/setplan_smartcities_implementationplan.pdf (accessed on 2 November 2021).
+Joss, S.; de Jong, M.; Schraven, D.; Zhan, P. Sustainable–Smart–Resilient–Low Carbon–Eco–Knowledge cities; making sense of a
+multitude of concepts promoting sustainable urbanization. J. Clean. Prod. 2015, 109, 25–38. [CrossRef]
+The EU SET-Plan. EERA. Available online: https://www.eera-set.eu/eera-in-the-eu/set-plan.html (accessed on 2 November 2021).
+Shnapp, S.; Paci, D.; Bertoldi, P. Enabling Positive Energy Districts Across Europe: Energy Efficiency Couples Renewable Energy, EUR
+30325 EN; Publications Office of the European Union: Luxembourg, 2020. [CrossRef]
+IEA EBC—Annex 81—Data-Driven Smart Buildings. Available online: https://annex81.iea-ebc.org/ (accessed on 2 November 2021).
+Hinterberger, R.; Gollner, C.; Noll, M.; Meyer, S.; Schwarz, H.-G. White Paper on PED Reference Framework for Positive Energy
+Districts and Neighbourhoods, JPI Urban Europe and SET-Plan 3.2 Programme on Positive Energy Districts. 2020. Available
+online: https://jpi-urbaneurope.eu/wp-content/uploads/2020/04/White-Paper-PED-Framework-Definition-2020323-final.pdf
+(accessed on 2 November 2021).
+Proposal for the European Partnership Driving Urban Transitions. 2020. Available online: https://ec.europa.eu/info/sites/
+default/files/research_and_innovation/funding/documents/ec_rtd_he-partnerships-driving-urban-transitions.pdf (accessed
+on 2 November 2021).
+Joint Programming Initiative Urban Europe. Strategic Research and Innovation Agenda 2.0. 2019. Available online: https:
+//jpi-urbaneurope.eu/wp-content/uploads/2019/02/SRIA2.0.pdf (accessed on 2 November 2021).
+Joint Programming Initiative Urban Europe. Europe Towards Positive Energy Districts. 2020. Available online: https://jpiurbaneurope.eu/wp-content/uploads/2020/06/PED-Booklet-Update-Feb-2020_2.pdf (accessed on 2 November 2021).
+Ferrante, T.; Villani, T. Il Ruolo delle Municipalità nei Progetti di Ricerca, Sviluppo e Innovazione: Transizione Verso
+Aree Urbane Sostenibili, ENEA, Ricerca di Sistema Elettrico, Report RdS/PTR (2020)/040. 2020. Available online:
+https://www.enea.it/it/Ricerca_sviluppo/lenergia/ricerca-di-sistema-elettrico/accordo-di-programma-MiSE-ENEA-20
+19-2021/tecnologie/tecnologie-per-la-penetrazione-efficiente-del-vettore-elettrico-negli-usi-finali/local-energy-district
+(accessed on 2 November 2021).
+Bossi, S.; Gollner, C.; Theierling, S. Towards 100 Positive Energy Districts in Europe: Preliminary Data Analysis of 61 European
+Cases. Energies 2020, 13, 6083. [CrossRef]
+Koskela, L.; Huovila, P.; Leinonen, J. Design management in building construction: From theory to practice. J. Constr. Res. 2020, 3,
+1–16. [CrossRef]
+
+

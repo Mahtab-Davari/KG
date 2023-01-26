@@ -1,0 +1,4038 @@
+energies
+Article
+
+Possibilities of Upgrading Warsaw Existing Residential Area to
+Status of Positive Energy Districts
+Hanna J˛edrzejuk *
+
+and Dorota Chwieduk
+Institute of Heat Engineering, Faculty of Power and Aeronautical Engineering, Warsaw University of Technology,
+00-665 Warsaw, Poland; Dorota.Chwieduk@itc.pw.edu.pl
+* Correspondence: Hanna.Jedrzejuk@pw.edu.pl
+
+
+
+Citation: J˛edrzejuk, H.; Chwieduk,
+
+Abstract: This paper analyses possibilities of refurbishment of Warsaw’s residential buildings towards standards of the Positive Energy District. The annual final energy consumption in the city
+in 2019 for the district heating was 8668 GWh, gas (pipelines) was 5300 GWh, electricity from the
+grid was 7500 GWh, while the emission of the carbon dioxide was 5.62 × 109 kg. The city consists
+of 18 districts, which are heterogeneous in terms of typology and structure of buildings. The great
+variety of buildings can be seen, for example, by the annual final energy demand for space heating
+and hot water preparation per unit of room area. This annual index ranges from over 400 kWh/m2
+in historic buildings to 60 kWh/m2 in modern buildings. A reduction in the consumption of nonrenewable energy sources and carbon dioxide emissions can be achieved by improving the energy
+standard of residential buildings and by using renewable energy sources: solar energy, geothermal
+energy and biogas. The potential barriers for achieving the status of a positive energy district, for
+example, problems connected with ownership, financing new investments and refurbishment and
+legal boundaries, have been identified. Moreover, changing the existing electrical grid and district
+heating systems in urban areas in Warsaw requires comprehensive modernization of practically the
+entire city’s infrastructure.
+
+D. Possibilities of Upgrading Warsaw
+Existing Residential Area to Status of
+Positive Energy Districts. Energies
+
+Keywords: positive energy districts; residential buildings; district heating; renewable energy resources
+
+2021, 14, 5984. https://doi.org/
+10.3390/en14185984
+
+1. Introduction
+Academic Editor: Paola
+Clerici Maestosi
+Received: 14 July 2021
+Accepted: 15 September 2021
+Published: 21 September 2021
+
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+
+The first intensive measures aimed at improving energy security appeared in response
+to the fuel crisis of 1973 [1]. Indirectly, this global shock also contributed to increasing the
+importance of environmental protection to preserve the environment for future generations.
+There are several standard actions aimed at reducing the burden of harmful substances in
+the environment: rationalization of needs, improvement of broadly understood efficiency,
+and increased use of “clean” technologies to meet the needs.
+In the residential buildings sector, these activities are mentioned:
+- rationalizing the behaviour of building users (residents),
+- rationalizing the internal systems operation,
+- reduction of heat losses in buildings by improving the thermal insulation of the
+envelope,
+- recovery of heat discharged to the environment, e.g., from ventilation air, domestic
+sewage,
+- improving the energy efficiency of all technical devices and systems.
+Nevertheless, it is not enough just to try to reduce the energy demand to meet the
+needs. Hence the idea of using “clean” technologies that do not burden the environment,
+especially renewable energy ones, have consequently led to the creation of “nearly zeroenergy”, “zero-energy” and “energy-positive” buildings in terms of final energy and/or
+primary energy. The assessment also concerns the balance of emissions of harmful solid
+and gaseous substances, e.g., carbon dioxide (CO2 ).
+
+4.0/).
+
+Energies 2021, 14, 5984. https://doi.org/10.3390/en14185984
+
+https://www.mdpi.com/journal/energies
+
+Energies 2021, 14, 5984
+
+2 of 17
+
+In the European Union, these activities are directed, and at the same time supported, by
+the Directives. For example, Directive 2002/91/EC of the European Parliament and of the
+Council of 16 December 2002 on the energy performance of buildings [2] has brought lasting
+change in the Polish construction law and regulations relevant to the technical requirements
+of newly constructed buildings and buildings under refurbishment [3]. Nowadays, a
+comprehensive approach to energy conservation and environmental protection issues,
+linked to climate change problems, is extremely valuable and is evident in Polish national
+energy policy [4]. The energy and climate policies have been linked very strongly and
+utilisation of renewable energy technologies has become one of the basic elements of both.
+New or renovated buildings are evaluated on the basis of energy consumption of
+non-renewable primary energy for space heating, ventilation, cooling, domestic hot water
+and lighting. It is also necessary to determine CO2 emissions and the share of renewable
+energy sources in meeting the energy demand [3,5].
+The City of Warsaw is actively engaged in activities aimed at rationalizing and reducing energy use. An example of completed actions include action plans for sustainable
+energy consumption for Warsaw by 2020 [6] and investigations on the development of the
+Warsaw housing standard [7]. Warsaw, in cooperation with the local authorities of Austria,
+Germany and Italy, took part in the “Cities on Power” project (2011–2014), with the aim
+to increase the use of renewable energy in urban areas. One of the results was estimation
+of the possibilities of using renewable energy sources in Warsaw [8]. Future planning has
+been performed for the 2050 perspective and is constantly updated [9]. In 2016, the City of
+Warsaw began participating in the Cities Council of the EERA (European Energy Research
+Associations) Smart Cities Joint Program.
+In 2019, at the capital city of Warsaw, the Office of Air Protection and Climate Policy
+was established by integration of four different former Offices. The new Office’s tasks
+include preparing and updating action plans in the field of air protection and climate change
+and elaborating reports on their implementation, including cooperation with competent
+authorities in the preparation of higher-level programs (regional, national) [10]. Other
+examples can be mentioned, e.g., the Municipal Climate Adaptation Plan [11], and the
+Low-Emission Economy Plan for the Capital City of Warsaw [12]. Among the numerous
+recommended actions, the introduction of solutions increasing the energy independence of
+the city, including increasing the share of energy from renewable sources, was mentioned.
+What is really important is that plan was the result of joint work of residents, entrepreneurs,
+representatives of various types of organizations and the City of Warsaw.
+In Section 2, administrative characteristics of Warsaw are presented, and some historical facts are also mentioned. Because of the topic of the paper, the housing stock and
+energy sector are analysed with more attention. Considerations presented in Section 2 give
+the background for more detailed analysis of a very specific situation in terms of supplying
+heat to end users in Warsaw using a central district heating system. This analysis is carried
+out in Section 3. It can be noticed that with having such a well-developed district heating
+system, it is difficult to implement new investments in energy systems that use solutions
+other than connecting new buildings to the existing network. However, if new housing
+estates are built in an area that does not have access to the central energy systems, then the
+extension of the existing energy network may be technically too complicated and, consequently, too expensive. As a result, it is more reasonable to build new local energy systems
+in accordance with the current requirements of energy conservation and environmental
+protection. Consequently, this provides the basis for the use of energy from renewable
+sources available in the area of the city. Section 4 is therefore devoted to the presentation
+of the theoretical potential of using renewable energy sources in the city and its outskirts.
+Section 5 includes subchapters devoted to a different renewable energy, the theoretical
+potential of which in Warsaw or on its outskirts indicates the possibility of its use for utility
+purposes. However, possible and effective use can be limited due to specific location,
+environmental or legal aspects, which are also mentioned in Sections 5 and 6. Section 6
+briefly presents what should be done in order to achieve the goals set for the Positive
+
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+
+Energies 2021, 14, 5984
+
+ergy sources in the city and its outskirts. Section 5 includes subchapters devoted to a
+different renewable energy, the theoretical potential of which in Warsaw or on its outskirts indicates the possibility of its use for utility purposes. However, possible and ef3 of 17
+fective use can be limited due to specific location, environmental or legal aspects, which
+are also mentioned in Section 5 and 6. Section 6 briefly presents what should be done in
+order to achieve the goals set for the Positive Energy Districts (PED) in a city such as
+Warsaw. Moreover, it shows the potential risks that hinder the achievement of the goals.
+Energy Districts (PED) in a city such as Warsaw. Moreover, it shows the potential risks that
+Finally, conclusions are formulated in Section 6.
+hinder the achievement of the goals. Finally, conclusions are formulated in Section 6.
+2. Administrative
+Administrative Characteristics
+Characteristics of
+of Warsaw:
+Warsaw: Housing
+Housing Stock
+Stock and
+andEnergy
+EnergySector
+Sector De2.
+scription
+Description
+The settlement
+settlement in today’s
+today’s Warsaw
+Warsaw dates
+dates back
+back to
+to the
+the 9th
+9th or
+or 10th
+10th century.
+century. However,
+However,
+The
+the city
+city was
+was most
+most likely
+likely founded
+founded at
+at the
+the turn
+turn of
+of the
+the 13th
+13th and
+and 14th
+14th centuries,
+centuries, gaining
+gaining its
+its
+the
+locationaround
+aroundthe
+theyear
+year
+1300.
+Warsaw
+became
+capital
+of Poland
+the1596,
+yearwhen
+1596,
+location
+1300.
+Warsaw
+became
+the the
+capital
+of Poland
+in thein
+year
+the
+King
+III Vasa
+to move
+the capital
+from from
+Cracow
+to Warsaw
+[13].
+when
+theSigismund
+King Sigismund
+IIIdecided
+Vasa decided
+to move
+the capital
+Cracow
+to Warsaw
+6 inhabitants
+Currently,
+there are
+approximately
+1.8 × 10
+in Warsaw
+and theand
+citythe
+covers
+an
+[13]. Currently,
+there
+are approximately
+1.8
+× 106 inhabitants
+in Warsaw
+city co8 m2 . The
+2. The average
+area
+5.20 × 105.20
+population
+densitydensity
+is approximately
+vers of
+anapproximately
+area of approximately
+× 108 maverage
+population
+is approxi3.46
+people
+square
+[14].
+Administratively,
+Warsaw Warsaw
+is divided
+18 districts
+mately
+3.46 per
+people
+permeter
+square
+meter
+[14]. Administratively,
+is into
+divided
+into 18
+(Figure
+and Śródmieście
+is the historical
+and present
+centrecity
+[15].
+districts1)(Figure
+1) and Śródmieście
+is the historical
+andcity
+present
+centre [15].
+
+Białołęka
+
+Bielany
+
+Targówek
+Żoliborz
+
+Bemowo
+Wola
+
+Ursus
+
+Włochy
+
+Rembertów
+
+Praga
+Południe
+
+Wawer
+
+Mokotów
+
+Wilanów
+Ursynów
+
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+
+Figure 1.
+1. Administrative
+Administrative districts
+districts in
+in Warsaw
+Warsaw[15].
+[15].
+Figure
+2 ),7
+The
+thethe
+following
+administrative
+districts:
+Wawer
+(7.97 ×
+107 ×m10
+Thelargest
+largestarea
+areaincludes
+includes
+following
+administrative
+districts:
+Wawer
+(7.97
+2 )7 and
+2 ),7 while
+Białoł˛
+eka (7.00 (7.00
+× 107×m10
+(4.38 (4.38
+× 107×m10
+the smallest
+one isone
+Żolim2), Białołęka
+m2) Ursynów
+and Ursynów
+m2), while
+the smallest
+is
+6
+2
+7
+2
+borz
+(8.50(8.50
+× 10× 10
+m6 )m(Table
+1). 1).
+The
+largest
+residential
+area
+is is
+inin
+Białoł˛
+eka (1.00
+2) (Table
+Żoliborz
+The
+largest
+residential
+area
+Białołęka
+(1.00××10
+107m
+m2))
+7 km2 ) and
+(Table
+[16]). The The
+“greenest”
+are (1.43
+Wawer
+× 10
+(Table1,1, [16]).
+“greenest”
+districtsdistricts
+are Wawer
+× 107 (1.43
+km2) and
+Białołęka
+(1.17 ×
+7
+2
+Białoł˛
+e
+ka
+(1.17
+×
+10
+m
+).
+Additionally,
+taking
+into
+account
+the
+percentage
+of
+parks,
+7
+2
+10 m ). Additionally, taking into account the percentage of parks, lawns and greenlawns
+areas
+and
+green areas
+in housing
+estates inarea,
+the district’s
+area, Wawer
+(18%),(17%)
+Rembertów
+(17%)
+in housing
+estates
+in the district’s
+Wawer (18%),
+Rembertów
+and Włochy
+and
+Włochy
+can be distinguished
+in The
+this districts
+regard. The
+withshare
+the largest
+share
+(15%)
+can be(15%)
+distinguished
+in this regard.
+withdistricts
+the largest
+of transport
+7 m2 , 17%) and
+of
+transport
+routes
+are
+located
+in
+the
+outskirts
+of
+Warsaw,
+Wawer
+(1.35
+×
+10
+routes are located in the outskirts of Warsaw, Wawer (1.35×107 m2, 17%) and Białołęka
+Białoł˛
+107 [17].
+m2 , 15%)
+This is
+mainly
+to the of
+location
+of the
+main transport
+7 m2, ×
+(1.17 e×ka
+10(1.17
+15%)
+This [17].
+is mainly
+due
+to thedue
+location
+the main
+transport
+connecconnections:
+internally
+within
+in
+the
+city
+and
+externally
+outside
+of
+the
+city.
+tions: internally within in the city and externally outside of the city.
+The structure of the land by use is as follows: 28% residential areas, 28% green
+areas,
+12%
+agricultural
+areas,
+10%
+and
+communication
+areas, 7%
+Table 1.
+Area
+and population,
+total
+anddevelopment
+by districts in the
+year
+2020 as of 31 December
+[16].service
+areas, 3% surface water areas, 1% technical infrastructure areas and 6% other [18]. It
+Districts
+Area
+]
+can therefore
+be concluded that Warsaw
+has[m
+a 2relatively
+large Population
+biologically[people]
+active area,
+Bemowo
+25,000,000
+125,270
+which constitutes
+42%.
+The final
+energy consumption structure
+in the year 2014 [9], averaged132,281
+for the long-term
+Białołęka
+73,000,000
+weather conditions, is shown in the Figure 2. Most important is the heat from the district
+heating network (41.87%) and electricity from the national grid (32.52%). The category
+“Others”, which includes renewable energy systems, was still marginal (5.82%) that year.
+
+Energies 2021, 14, 5984
+
+Mokotów
+35,400,000
+217,424
+Ochota
+9,700,000
+82,018
+Praga-Południe
+22,400,000
+180,066
+Praga-Północ
+11,400,000
+63,442
+4 of 17
+Rembertów
+19,300,000
+24,679
+Śródmieście
+15,600,000
+111,338
+Targówek
+24,200,000
+124,742
+Table 1.Ursus
+Area and population, total and9,400,000
+by districts in the year 2020 as of 62,399
+31 December [16].
+Ursynów
+43,800,000 2
+151,288
+Districts
+Population [People]
+Area [m ]
+Wawer
+79,700,000
+79,078
+Bemowo
+25,000,000
+Wesoła
+22,900,000
+25,926125,270
+Białoł˛eka
+73,000,000
+132,281
+Wilanów
+36,700,000
+43,423130,848
+Bielany
+32,300,000
+Włochy
+28,600,000
+44,343217,424
+Mokotów
+35,400,000
+9,700,000
+82,018
+WolaOchota
+19,300,000
+142,694
+Praga-Południe
+22,400,000
+Żoliborz
+8,500,00
+52,907180,066
+Praga-Północ
+11,400,000
+63,442
+Warsaw: TOTAL
+517,200,000
+1,794,166
+
+Rembertów
+19,300,000
+24,679
+15,600,000
+111,338
+Śródmieście
+The structure
+of the land by use is as follows:
+28% residential areas, 28%124,742
+green areas,
+Targówek
+24,200,000
+12% agricultural areas,
+communication areas, 7% service
+areas, 3%
+Ursus 10% development and 9,400,000
+62,399
+Ursynów
+43,800,000
+151,288
+surface water areas, 1% technical infrastructure areas and 6% other [18]. It can therefore
+Wawer
+79,700,000
+79,078constibe concluded that
+Warsaw has a relatively large
+biologically active area, which
+Wesoła
+22,900,000
+25,926
+tutes 42%.
+Wilanów
+36,700,000
+43,423
+The final energy
+in the year 2014 [9], averaged
+Włochyconsumption structure
+28,600,000
+44,343for the
+long-term weatherWola
+conditions, is shown in the
+Figure
+2.
+Most
+important
+is
+the
+heat from
+19,300,000
+142,694
+the district heating
+network (41.87%) and electricity
+8,500,00from the national grid (32.52%).
+52,907 The
+Żoliborz
+Warsaw:
+TOTAL
+1,794,166
+category “Others”,
+which
+includes renewable517,200,000
+energy systems, was still marginal
+(5.82%)
+
+that year.
+
+Figure 2. Final energy consumption structure in the year 2014 [9].
+Figure 2. Final energy consumption structure in the year 2014 [9].
+
+According to the data [9], buildings constructed in the period of 1945–1970 have the
+largest share of the total number of buildings in Warsaw (26.39%). The share of relatively
+new buildings constructed after 2002 accounts only for 4.60%.
+The final as well as primary energy consumption indices depending on the construction period show how different buildings in terms of the energy efficiency are in
+Warsaw (Table 2) [9,19,20].
+
+Energies 2021, 14, 5984
+
+5 of 17
+
+Table 2. Age structure of housing stock in Warsaw and energy consumption indices [9,19,20].
+Construction Period
+Before 1918
+1918–1944
+1945–1970
+1971–1978
+1979–1988
+1989–2002
+2003–2007
+2008–2011
+TOTAL
+
+Buildings
+
+Primary Energy Index
+[kWh/(m2 a)]
+
+Final Energy Index
+[kWh/(m2 a)]
+>300
+260–300
+220–260
+190–220
+140–190
+125–160
+90–120
+90–120
+
+12,200
+19,826
+5691
+7040
+15,974
+6464
+4043
+71,238
+
+>350
+300–350
+250–300
+210–250
+160–210
+140–180
+100–150
+100–150
+
+Low thermal energy buildings can be improved through the typical retrofit methods:
+reduction of thermal transmission of the building external partitions (e.g., windows, walls,
+roofs), elimination of the existence of thermal bridges, improvement of efficiency of heating
+systems as well as hot water preparation (e.g., exchange of heat source, introduction and
+optimization of energy control strategy), improvement of ventilation system and heat
+recovery from the exhausted air. The possible effects of the thermo-modernization in two
+variants, depending on the construction period and type of a building, of two variants are
+presented in the Table 3 [20].
+Table 3. Reduction potential of the energy demand in houses [20].
+Construction Period
+up to 1945
+1945–1966
+1967–1985
+1986–1992
+1993–2002
+2003–2008
+after 2008
+
+Single Family Houses
+
+Terraced Houses
+
+Multifamily Houses
+
+Standard
+
+Deep
+
+Standard
+
+Deep
+
+Standard
+
+Deep
+
+63.2%
+61.8%
+53.4%
+41.9%
+34.4%
+25.7%
+29.1%
+
+72.7%
+72.2%
+62.8%
+50.0%
+43.8%
+35.7%
+38.3%
+
+55.7%
+30.8%
+18.2%
+21.1%
+21.9%
+21.4%
+22.2%
+
+71.4%
+53.8%
+47.7%
+42.1%
+39.4%
+35.7%
+34.8%
+
+57.8%
+52.7%
+51.6%
+36.5%
+26.3%
+21.4%
+21.4%
+
+71.9%
+64.9%
+64.4%
+53.8%
+46.9%
+39.3%
+39.3%
+
+The first variant “standard” means reaching the level of the reduction when current
+requirements are fulfilled [3], while “deep” means the application of more intensive technical upgrading actions, up to reaching the maximal possible effects assuming use of new
+but conventional technologies. It is interesting that the application of the current technical
+possibilities, even in buildings that have recently been put into use, allows for reducing the
+demand for final energy in residential buildings by approximately 35% to almost 40%. It
+is possible mainly due to the reduction of the heat demand for heating the ventilation air,
+e.g., replacing gravity ventilation with a mechanical ventilation system with heat recovery.
+It is characteristic for old buildings that no changes in their external appearance
+are possible if they are under conservator’s protection. Therefore, in such buildings, the
+thermal insulation of the external partitions can be added only from the inside of the
+building. The effectiveness of such treatments is low, and reduction of energy consumption
+does not exceed 20%. In many cases there is no possibility to install solar collector systems
+or PV systems due to heritage protection, so the old quarters of Warsaw are not so attractive
+in terms of generating energy on-site (locally). The most interesting in terms of retrofit are
+groups of buildings built in the 1970s and later, with the annual final energy consumption
+index for space heating and hot water preparing at a level of 220 kWh/m2 . In such cases
+the possible reduction of energy demand reaches 40%, but it is still too low for reaching
+positive energy building status.
+Figure 3 presents maximum annual primary non-renewable energy indices for heating,
+ventilation and hot water preparation [3]. The strongest requirements are foreseen for
+
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+
+Energies 2021, 14, 5984
+
+systems or PV systems due to heritage protection, so the old quarters of Warsaw are not
+so attractive in terms of generating energy on-site (locally). The most interesting in terms
+of retrofit are groups of buildings built in the 1970s and later, with the annual final energy consumption index for space heating and hot water preparing at a level of 220
+kWh/m2. In such cases the possible reduction of energy demand reaches 40%, but it is still
+6 of 17
+too low for reaching positive energy building status.
+Figure 3 presents maximum annual primary non-renewable energy indices for
+heating, ventilation and hot water preparation [3]. The strongest requirements are foreseen
+for educational
+buildings,
+for residential
+the requirements
+are less
+educational
+buildings,
+while forwhile
+residential
+buildings buildings
+the requirements
+are less restrictive.
+restrictive.
+Nevertheless,
+in all
+cases
+the limit
+values arelowered,
+constantly
+lowered,
+which
+helps
+Nevertheless,
+in all cases the
+limit
+values
+are constantly
+which
+helps to
+reduce
+the
+to
+reduce the consumption
+of non-renewable
+primary
+energy
+hence
+CO
+2 emissions.
+consumption
+of non-renewable
+primary energy
+and hence
+COand
+emissions.
+2
+
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+
+Figure 3. Maximum annual primary non-renewable energy indices for heating, ventilation and hot water preparation [3].
+Figure 3. Maximum annual primary non-renewable energy indices for heating, ventilation and hot water preparation [3].
+
+The annual final energy consumption in the year 2019 [9] for district heating was
+annual
+final energy
+in the year
+2019
+forwas
+district
+was
+8668 The
+GWh,
+gas (pipelines)
+wasconsumption
+5300 GWh, electricity
+from
+the[9]
+grid
+7500 heating
+GWh, while
+8668
+GWh,
+gas
+(pipelines)
+was
+5300
+GWh,
+electricity
+from
+the
+grid
+was
+7500
+GWh,
+while
+the emission of the carbon dioxide was 5.62 × 109 kg [9].
+the emission
+of the
+carbon
+dioxide was 5.62
+109 kg
+[9]. plants had a thermal capacity of
+In the year
+2019,
+the co-generation
+heat×and
+power
+In
+the
+year
+2019,
+the
+co-generation
+heat
+and
+power
+plants had a thermal
+capacity
+of
+2245 MW [9]. Old coal-fired plants are expected to be decommissioned
+in the near
+future.
+2245
+MW
+[9].
+Old
+coal-fired
+plants
+are
+expected
+to
+be
+decommissioned
+in
+the
+near
+future.
+They will be replaced by modern gas-steam units [21]. During peak demand, the system
+They
+will
+be replaced
+gas-steam
+peak demand, the system
+can use
+thermal
+energybyofmodern
+1 GWh stored
+in a units
+water[21].
+tankDuring
+[9].
+can use
+thermal
+energy
+of
+1
+GWh
+stored
+in
+a
+water
+tank
+[9].
+The capacity of all electricity generation sources in the year 2019 was 8.529 GW, while
+The capacity
+of all was
+electricity
+generation
+sources
+in theconsumed
+year 20192141
+wasGWh
+8.529while
+GW,
+electricity
+consumption
+7500 GWh,
+of which
+households
+while
+electricity
+consumption
+was 7500grid
+GWh,
+consumed 2141 GWh
+the electricity
+storage
+in the electricity
+wasof2which
+MWh households
+[9].
+whileInthe
+in the
+electricity
+was of
+2 MWh
+[9].source (system and fuel),
+theelectricity
+year 2014storage
+[9], taking
+into
+account grid
+the type
+heating
+In
+the
+year
+2014
+[9],
+taking
+into
+account
+the
+type
+of
+heating
+source (system
+and fuel),
+the situation was as follows: district heating supplying heat to buildings
+of 80,789,204
+m2
+2
+the
+situation
+was
+as
+follows:
+district
+heating
+supplying
+heat
+to
+buildings
+of
+80,789,204
+m2
+of heated area (71.0%) and gaseous fuel for 23,395,279 m (20.6%). There were other energy
+2
+2
+of
+heated
+areain(71.0
+and gaseous
+fuel for
+23,395,279
+There
+were other
+encarriers
+used
+small%)
+amounts:
+electrically
+driven
+heatersmfor(20.6%).
+2,599,475
+m (2.3%),
+propaneergy
+carriers
+used
+small amounts:
+electrically
+driven
+heaters for
+m2 (2.3
+butane
+mixture
+for in
+1,316,459
+m2 (1.2%),
+light fuel oil
+for 3,432,031
+m22,599,475
+(3.0%), hard
+coal %),
+for
+propane-butane
+mixture
+for 1,316,459
+m2 (1.2
+%), for
+light
+fuel oil
+3,432,031 m2 (3.0 %),
+1,843,420 m2 (1.6%)
+and renewable
+energy
+sources
+411,743
+m2for
+(0.4%).
+2 (1.6 %) and renewable energy sources for 411,743 m2 (0.4 %).
+hard Possibilities
+coal for 1,843,420
+of themreduction
+of final energy consumption in residential buildings
+Possibilities
+of
+the
+reduction
+of
+finalefficiency
+energy consumption
+residential
+has been estimated by assuming average
+of the heatingin
+systems
+for allbuildings
+types of
+has
+been estimated
+average
+of the heating
+all types
+of
+residential
+buildingsby
+inassuming
+the specific
+period efficiency
+of their construction
+duesystems
+to lack offor
+detailed
+data.
+Additionally,
+it was assumed
+that historical
+buildings
+would notdue
+be refurbished.
+As the
+residential
+buildings
+in the specific
+period of
+their construction
+to lack of detailed
+final energy reduction was decreased by almost 30% in the standard and 40% in the deep
+retrofit, relevant emissions in the residential sector are possible.
+A characteristic feature of the demand for electric power is the lower demand in
+summer, but due to the increase in cooling demand, these relations will change (Figure 4).
+Although the available capacity of renewable energy sources is constantly increasing, it is
+still lower than 16% of the actual needs.
+
+206
+205
+207
+206
+208
+207
+209
+208
+210
+209
+210
+
+Energies 2021, 14, 5984
+
+deep retrofit, relevant emissions in the residential sector are possible.
+the final
+energy reduction
+was
+by almost
+30% power
+in the standard
+and demand
+40% in the
+A characteristic
+feature
+ofdecreased
+the demand
+for electric
+is the lower
+in
+deep
+retrofit,
+emissions
+residential
+sector
+are relations
+possible. will change (Figure
+summer,
+but relevant
+due to the
+increaseininthe
+cooling
+demand,
+these
+A characteristic
+feature
+of the of
+demand
+for electric
+power is
+lower demand
+in
+4). Although
+the available
+capacity
+renewable
+energy sources
+is the
+constantly
+increasing,
+summer,
+but due
+to16%
+the of
+increase
+in cooling
+it is still lower
+than
+the actual
+needs. demand, these relations will change (Figure
+7 of 17
+4). Although the available capacity of renewable energy sources is constantly increasing,
+it is still lower than 16% of the actual needs.
+
+211
+212
+211
+212
+213
+214
+213
+215
+214
+216
+215
+217
+216
+218
+217
+219
+218
+219
+
+Figure 4. Electric power in Warsaw, [MW] [9].
+Figure 4. Electric power in Warsaw, [MW] [9].
+Figure
+4. Electric consumption
+power in Warsaw,
+[MW]
+Electricity
+in the
+last[9].
+three years has remained stable despite the con-
+
+tinuousElectricity
+development
+of the city
+(Figure
+5). Energy
+consumption
+in households
+the
+consumption
+in the
+last three
+years has
+remained stable
+despite the in
+continuElectricity
+consumption
+in
+the
+last
+three
+years
+has
+remained
+stable
+despite
+the
+confollowing
+years hasofbeen
+similar
+and
+for less thanin29%
+of totalinenergy
+ous development
+the city
+(Figure
+5).accounts
+Energy consumption
+households
+the following
+tinuous
+development
+of
+the
+city
+(Figure
+5).
+Energy
+consumption
+in
+in in
+thethe
+sumption
+in
+the
+city.
+Unfortunately,
+the
+coverage
+of
+energy
+demand
+from renewable
+years has been similar and accounts for less than 29% of total energyhouseholds
+consumption
+following
+years
+has
+been
+similar
+and
+accounts
+for
+less
+than
+29%
+of
+total
+energy
+conenergy
+systems
+is
+less
+than
+2%.
+However,
+the
+real
+share
+of
+renewable
+energy
+sources
+city. Unfortunately, the coverage of energy demand from renewable energy systems is is
+less
+sumption
+inHowever,
+the the
+city.official
+Unfortunately,
+the
+energy
+demand
+from
+renewable
+higher
+because
+data do
+not coverage
+take energy
+intoofaccount
+energy
+produced
+by
+than 2%.
+the
+real share
+of renewable
+sources the
+is higher
+because
+the official
+energy
+systems
+is less
+than
+2%.[9].
+However,
+the real share
+of renewable
+energy
+sources
+prosumers
+fortake
+their
+own
+needs
+data do
+not
+into
+account
+the
+energy produced
+by prosumers
+for their
+own
+needs is
+[9].
+higher because the official data do not take into account the energy produced by
+prosumers for their own needs [9].
+
+220
+221
+220
+221
+
+Figure 5. Electricity generation in Warsaw, [GWh] [9].
+Figure 5. Electricity generation in Warsaw, [GWh] [9].
+
+The basic rate of thermal energy necessary to cover the needs in Warsaw is generated
+in heat and power plants and heating plants (Figure 6). The available thermal installed
+capacity of renewable energy systems accounts for about 6% of the total demand.
+
+Figure 5. Electricity generation in Warsaw, [GWh] [9].
+
+Energies 2021, 14, x FOR PEER REVIEW
+
+222
+
+223
+222
+224
+223
+
+224
+
+Energies 2021, 14, 5984
+
+8 of 17
+
+The basic rate of thermal energy necessary to cover the needs in Warsaw is generated The
+in heat
+plantsenergy
+and heating
+plants
+(Figure
+The available
+thermal
+inbasicand
+ratepower
+of thermal
+necessary
+to cover
+the6).needs
+in Warsaw
+is gener8
+of 17
+stalled
+renewable
+energy
+systemsplants
+accounts
+for about
+6%available
+of the total
+demand.
+ated
+in capacity
+heat andofpower
+plants
+and heating
+(Figure
+6). The
+thermal
+installed capacity of renewable energy systems accounts for about 6% of the total demand.
+
+225
+
+225
+226
+
+226
+227
+
+228
+227
+229
+228
+
+230
+229
+
+230
+
+Figure 6. Thermal installed capacity of energy plants in Warsaw, [MW] [9].
+Figure 6. Thermal installed capacity of energy plants in Warsaw, [MW] [9].
+Figure 6. Thermal installed capacity of energy plants in Warsaw, [MW] [9].
+
+The heat generated in renewable energy systems (Figure 7) accounts for less than 5%
+The heat generated in renewable energy systems (Figure 7) accounts for less than 5%
+of the
+heat
+supplied
+to endrenewable
+users by the
+district
+heating
+network.
+However,
+it should
+be
+The
+heat
+generated
+systems
+(Figure
+7) accounts
+for less
+5%
+of the heat
+supplied toinend
+users byenergy
+the district
+heating
+network.
+However,
+itthan
+should
+be
+noted
+that the
+heat generated
+by individual
+users
+for their
+own needs
+is notitincluded
+in
+of
+the
+heat
+supplied
+to
+end
+users
+by
+the
+district
+heating
+network.
+However,
+should
+be
+noted that the heat generated by individual users for their own needs is not included in
+the balance.
+noted
+the heat generated by individual users for their own needs is not included in
+the that
+balance.
+the balance.
+
+231
+
+231
+232
+233
+232
+
+233
+234
+
+234
+235
+
+236
+235
+237
+236
+
+238
+237
+239
+238
+
+240
+239
+
+240
+
+Figure 7. Heat supplied to the end users from the district heating network and renewable energy
+Figure 7. Heat supplied to the end users from the district heating network and renewable energy
+systems in Warsaw, [GWh] [9].
+systems7.inHeat
+Warsaw,
+[GWh]
+[9]. end users from the district heating network and renewable energy
+Figure
+supplied
+to the
+
+systems
+in Warsaw,
+[GWh]
+[9].
+3. District
+Heating
+Network
+
+3. District Heating Network
+The city of Warsaw is characterized by a very specific situation in terms of supplying
+3. District
+Heating
+Network
+The
+of
+Warsaw
+is characterized
+by a sector,
+very specific
+in terms
+ofissupplyheat
+tocity
+end
+users:
+the residential
+and public
+servicessituation
+and industry.
+Heat
+supplied
+ingcentrally,
+heat
+to
+end
+users:
+the
+residential
+and
+public
+sector,
+services
+and
+industry.
+Heat
+is of
+The cityensuring
+of Warsaw
+is characterized
+by a veryofspecific
+situation
+terms in
+of all
+supplycheap
+and reliable collection
+this heat
+by usersinlocated
+parts
+supplied
+centrally,
+ensuring
+cheap
+and
+reliable
+oflargest
+this heat
+byindustry.
+userswith
+located
+in
+ing
+heat
+to
+end users:
+the residential
+and
+public
+sector,
+and
+Heat
+is
+the
+city.
+Warsaw’s
+district
+heating
+network
+iscollection
+one
+of theservices
+in
+Europe,
+a length
+allof
+parts
+of
+the
+Warsaw’s
+district
+network
+isofone
+thecity.
+largest
+supplied
+centrally,
+ensuring
+cheap
+andtoheating
+reliable
+collection
+this
+by
+users
+located
+in
+almost
+1800city.
+km.
+It supplies
+heat
+over 80%
+of buildings
+inofheat
+the
+Heatin
+isEurope,
+produced
+with
+a length
+ofcity.
+almost
+1800
+It main
+supplies
+heatnetwork
+to over
+of buildings
+in theincity.
+Heatare
+all
+parts
+of the
+Warsaw’s
+district
+heating
+is
+one
+of
+the largest
+Europe,
+in
+co-generation,
+and
+coal km.
+is the
+energy
+fuel
+[22].80%
+Polish
+district
+heating
+systems
+◦
+is
+produced
+in
+co-generation,
+and
+coal
+is
+the
+main
+energy
+fuel
+[22].
+Polish
+district
+heating
+with
+a length
+of almost
+1800 km.
+It supplies
+to over
+80%
+of buildings
+in the
+high
+temperature
+systems
+since
+they can heat
+supply
+steam
+with
+temperatures
+ofcity.
+120 Heat
+C. The
+present state
+and planned development
+of Warsaw’s
+district
+system
+is presented
+is produced
+in co-generation,
+and coal is the
+main energy
+fuel heating
+[22]. Polish
+district
+heating in
+Figure 8 and it is mainly for residential purposes.
+
+Energies 2021, 14, x FOR PEER REVIEW
+
+241
+Energies 2021, 14, 5984
+242
+243
+
+9 of 17
+
+systems are high temperature systems since they can supply steam with temperatures
+of
+9 of 17
+120 °C. The present state and planned development of Warsaw’s district heating system
+is presented in Figure 8 and it is mainly for residential purposes.
+
+244
+Coverage area of the district heating
+Coverage area of the central network
+Coverage area of the Międzylesie
+heating plant
+Coverage area of the Ursus heat and
+power plant
+Coverage area of the gas boiler room
+in Ursus
+Potential areas in the distribution
+network coverage
+Areas to connect in the distribution
+network coverage
+Main distribution network
+
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+
+Figure 8. Coverage area of the district heating [8].
+
+However,Figure
+when8.analysing
+Figure
+8, district
+a question
+can[8].
+be asked: why should the new
+Coverage area
+of the
+heating
+residential districts (in yellow) be connected to the central district heating network? Extending theHowever,
+old network
+of poor
+quality
+(poor8,thermal
+insulation,
+of pipelines,
+when
+analysing
+Figure
+a question
+can be corrosion
+asked: why
+should the new
+leaks of
+heating medium
+or steam))
+to new urban
+concerns
+only Exresidential
+districts (water
+(in yellow)
+be connected
+to the areas
+centralraises
+district
+heatingnot
+network?
+in terms
+of energy
+efficiency,
+also of
+the economic
+efficiency
+of such
+projects.ofThe
+tending
+the old
+networkbut
+of poor
+quality
+(poor thermal
+insulation,
+corrosion
+pipelines,
+construction
+new distributed
+energyorsystems
+on theareas
+use of
+ownconcerns
+local energy
+leaks ofofheating
+medium (water
+steam)) focused
+to new urban
+raises
+not only in
+resources,
+in of
+particular
+renewablebut
+energies,
+to be a much
+more of
+rational
+solution The
+of conterms
+energy efficiency,
+also ofseems
+the economic
+efficiency
+such projects.
+energystruction
+and economic
+efficiency.
+Moreover,
+the
+construction
+of
+new
+buildings
+in
+newly
+of new distributed energy systems focused on the use of own local energy reemerging
+districts
+with the use
+of modern
+building
+materials
+technologies
+enables
+a
+sources,
+in particular
+renewable
+energies,
+seems
+to be and
+a much
+more rational
+solution
+of
+significant
+reduction
+in
+energy
+requirements
+for
+heating
+buildings.
+Newly
+created
+housing
+energy and economic efficiency. Moreover, the construction of new buildings in newly
+estatesemerging
+are usually
+characterized
+indices of
+energymaterials
+needs. If,and
+moreover,
+modern
+districts
+with the by
+uselow
+of modern
+building
+technologies
+enables a
+installation
+technologies
+are
+used,
+then,
+as
+a
+consequence,
+the
+final
+energy
+consumption
+significant reduction in energy requirements for heating buildings. Newly created
+can be housing
+significantly
+reduced
+and can
+easily meet by
+modern
+building
+estates
+are usually
+characterized
+low indices
+of energy
+energycodes.
+needs.Thanks
+If, moreover,
+to the use
+of
+renewable
+energy,
+the
+consumption
+of
+primary
+energy
+from
+fossil
+fuels
+can conmodern installation technologies are used, then, as a consequence, the final
+energy
+decrease
+significantly
+or
+even
+not
+be
+used
+at
+all.
+When
+using
+their
+own
+local
+and
+renewable
+sumption can be significantly reduced and can easily meet modern building energy
+energycodes.
+resources,
+newtoestates
+can
+only cope
+with their
+own small energy
+load but
+can from
+Thanks
+the use
+ofnot
+renewable
+energy,
+the consumption
+of primary
+energy
+also share
+energy
+with
+districts
+in
+the
+neighbourhood,
+becoming
+Positive
+Energy
+Districts.
+fossil fuels can decrease significantly or even not be used at all. When using their own
+The next
+section
+andenergy
+analyses
+the potential
+usingcan
+renewable
+energy
+Warsaw.
+local
+and presents
+renewable
+resources,
+newfor
+estates
+not only
+copeinwith
+their own
+The different subchapters refer to the different renewable energies that can be used.
+small energy load but can also share energy with districts in the neighbourhood, becoming
+Energy
+Districts.
+The next
+section presents and analyses the potential for
+4. Potential
+of Positive
+Renewable
+Energy
+Utilization
+in Warsaw
+using renewable energy in Warsaw. The different subchapters refer to the different re4.1. Geothermal Energy
+newable energies that can be used.
+In Poland, geothermal energy potential is rather low. There are resources of low
+enthalpy
+geothermal
+whichEnergy
+can be applied
+for heating
+and balneology needs. There
+4. Potential
+of water
+Renewable
+Utilization
+in Warsaw
+are thermal plants where geothermal waters are effectively applied for heating, however
+4.1. Geothermal
+Energy with heat pumps and gas boilers.
+their utilization
+is combined
+Geothermal water resources in Warsaw have been assessed as average [23], i.e., at a
+depth of 1000 m the temperature reaches 30–35 ◦ C, at a depth of 2000 m it exceeds 55 ◦ C,
+and at a depth of 3000 m it reaches even 85 ◦ C [23,24]. Economic profitability, understood
+
+269
+270
+271
+272
+Energies 2021, 14, 5984
+273
+274
+275
+276
+277
+278
+279
+280
+281
+
+In Poland, geothermal energy potential is rather low. There are resources of low
+enthalpy geothermal water which can be applied for heating and balneology needs.
+There are thermal plants where geothermal waters are effectively applied for heating,
+however their utilization is combined with heat pumps and gas boilers.
+of 17
+Geothermal water resources in Warsaw have been assessed as average10[23],
+i.e., at a
+depth of 1000 m the temperature reaches 30–35 °C, at a depth of 2000 m it exceeds 55° C,
+and at a depth of 3000 m it reaches even 85° C [23,24]. Economic profitability, understood
+as competition
+the currently
+used technologies,
+temperatures
+of a resource
+as competition
+with thewith
+currently
+used technologies,
+requiresrequires
+temperatures
+of a resource
+◦
+(geothermal
+water)
+to
+be
+at
+least
+65
+°C
+at
+a
+depth
+of
+2000
+m.
+As
+the
+prices
+of “conven(geothermal water) to be at least 65 C at a depth of 2000 m. As the prices of “conventional”
+tional”
+energy
+and
+heat
+increase,
+the
+competitiveness
+of
+this
+technology
+increases.
+energy and heat increase, the competitiveness of this technology increases.
+The districts
+of Wawer,
+Białołęka
+and Ursynów
+best opportunities
+The districts
+of Wawer,
+Białoł˛eka
+and Ursynów
+have thehave
+best the
+opportunities
+to use to use
+geothermal
+for heating
+buildings
+far geothermal
+energy
+geothermal
+energy energy
+for heating
+buildings
+(Figure(Figure
+9), but9),sobut
+farsogeothermal
+energy
+is is not
+used.
+not used.
+
+282
+Average Earth heat value from one meter
+with the hole depth of 80 m
+to 35 W/m
+35 ÷ 40 W/m
+40 ÷ 50 W/m
+50 ÷ 60 W/m
+60 ÷ 65 W/m
+from 65 W/m
+
+283
+284
+285
+286
+287
+288
+289
+290
+291
+292
+293
+294
+295
+296
+
+Figure 9. Low-temperature geothermal resources in Warsaw [8].
+
+4.2. SolarFigure
+Energy9. Low-temperature geothermal resources in Warsaw [8].
+
+Warsaw is located at 51 ◦ N latitude in a moderate climate zone with influences of
+Energy climate, as is true of the whole country. Such a location causes
+Atlantic4.2.
+andSolar
+Continental
+is be
+located
+at 51
+latitude
+in a moderate
+climate
+zonein
+with
+influences of
+the city (and Warsaw
+Poland) to
+affected
+by°N
+different
+atmospheric
+fronts
+that result
+frequent
+Atlantic
+and Continental
+climate,
+as isyearly
+true oftemperature
+the whole country.
+heavy cloud
+formation.
+The averaged
+mean
+is equalSuch
+to 7.9a ◦location
+C and causes
+city (and
+Poland)
+to be affected
+by different
+atmospheric
+that hours
+result are
+in frequent
+averagethe
+annual
+global
+solar irradiation
+accounts
+for 1100
+kWh/m2 fronts
+and solar
+on average
+equal
+to 1600
+[25]. The
+winters
+are relatively
+severe.
+The coldest
+months
+heavy
+cloud
+formation.
+The
+averaged
+mean yearly
+temperature
+is equal
+to are
+7.9 °C and
+2
+January,average
+February
+and
+December
+and
+solar
+irradiation
+is
+lowest
+in
+those
+months,
+which
+annual global solar irradiation accounts for 1100 kWh/m and solar hours are on
+◦C
+can be seen
+in Figure
+winter
+ambient
+airare
+temperature
+evenThe
+dropcoldest
+to −20months
+average
+equal10.
+to In
+1600
+[25].the
+The
+winters
+relatively can
+severe.
+are
+on extremely
+coldFebruary
+days. Theand
+average
+hourly
+ambient
+air temperature
+for averaged
+of which
+January,
+December
+and
+solar irradiation
+is lowest
+in those days
+months,
+January can
+and be
+February
+coldest
+months
+inthe
+a year)
+variesairduring
+the daytime
+from drop
+−6 ◦ Cto −20° C
+seen in(the
+Figure
+10. In
+winter
+ambient
+temperature
+can even
+◦
+◦
+to −2 Con
+(January)
+or cold
+to 0 days.
+C (February).
+extremely
+The average hourly ambient air temperature for averaged days
+of January and February (the coldest months in a year) varies during the daytime from −6
+°C to −2° C (January) or to 0 °C (February).
+
+297
+
+298
+299
+
+300
+
+301
+
+302
+
+303
+
+304
+
+305
+
+306
+
+307
+
+308
+
+309
+
+310
+
+311
+
+312
+
+313
+
+314
+
+315
+
+316
+
+317
+
+318
+
+319
+
+320
+
+321
+
+322
+
+323
+
+324
+
+325
+
+326
+
+327
+
+328
+
+329
+
+330
+
+331
+
+332
+
+333
+
+334
+
+Energies
+2021,
+14, 14,
+x FOR
+Energies
+2021,
+5984PEER REVIEW
+
+11 of
+1117
+of 17
+
+Figure 10. Distribution of averaged total monthly solar irradiation [kWh/m2 ] on horizontal surface
+Figure 10. Distribution of averaged total monthly solar irradiation [kWh/m2] on horizontal surface
+in Warsaw [25].
+in Warsaw [25].
+
+The highest solar irradiation occurs in June and in Warsaw the average monthly
+The highest solar irradiation occurs
+in June and in Warsaw the average monthly ir2 . The
+irradiation is nearly 150 kWh/m
+lowest solar irradiation occurs in December and
+radiation is nearly 150 kWh/m2. The lowest solar irradiation occurs
+December and the
+2 . in
+the average monthly irradiation is equal to about 11 kWh/m
+From October to April
+average monthly irradiation is equal to about 11 kWh/m2. From October to April only
+only about 20% of annual total radiation is available. The structure of solar radiation is
+about
+20% of annual
+is available.
+structure
+solar radiation
+is charcharacterized
+by atotal
+veryradiation
+high share
+of diffuse The
+radiation.
+Anof
+average
+annual percentage
+acterized
+by radiation
+a very high
+share oftodiffuse
+radiation.
+An average
+annualofpercentage
+of di- is
+of direct
+amounts
+only 46%.
+In summer,
+the share
+direct radiation
+recthigher
+radiation
+amounts
+to
+only
+46%.
+In
+summer,
+the
+share
+of
+direct
+radiation
+is
+higher
+and of
+and accounts for approximately 56%. However, from November to the end
+accounts
+for
+approximately
+56%.
+However,
+from
+November
+to
+the
+end
+of
+February
+the
+February the percentage of diffuse radiation varies from 65% to 80%. This situation
+percentage
+of
+diffuse
+radiation
+varies
+from
+65%
+to
+80%.
+This
+situation
+recommends
+solar
+recommends solar systems for applying both direct and diffuse solar radiation; systems
+systems
+for applying both
+direct
+and diffuse With
+solar such
+radiation;
+with concentrators
+are not
+recommended.
+a low systems
+share of with
+directconcentrators
+solar radiation,
+arethe
+noteffect
+recommended.
+With such
+low share
+of direct
+theonly
+effectinofsummer.
+conof concentrating
+solara beams
+is very
+smallsolar
+andradiation,
+can be seen
+centrating
+solar
+beams
+is
+very
+small
+and
+can
+be
+seen
+only
+in
+summer.
+The
+small
+increase
+The small increase in efficiency is too expensive and the solar concentration technology
+in (solar
+efficiency
+is too
+expensive
+the solar
+technology
+thermal
+thermal
+power
+plants, and
+including
+solarconcentration
+power tower plants)
+is not(solar
+an economically
+power
+plants,
+including
+solar
+power
+tower
+plants)
+is
+not
+an
+economically
+efficient
+efficient solution in Polish climate. The solar thermal heating systems consistsoluof flat
+tion
+in Polish
+climate.
+Thesolar
+solarcollectors
+thermal heating
+systems
+consist
+of flat
+plate or vacuum
+plate
+or vacuum
+tube
+and water
+storage
+tanks.
+Anti-freezing
+mixture
+tube
+solar collectors
+water loop.
+storage
+Anti-freezing
+circulates
+insupplying
+a solar
+circulates
+in a solarand
+collector
+Thetanks.
+annual
+share of the mixture
+solar heating
+system
+collector
+annual hot
+share
+of the
+solar can
+heating
+heatinto
+heat toloop.
+DHWThe
+(domestic
+water)
+system
+be atsystem
+a levelsupplying
+of 50%–65%;
+theDHW
+case of
+(domestic
+hot water)
+system
+can is
+belower
+at a level
+50%–65%;
+in the case(even
+of space
+heating
+the
+space heating
+the solar
+share
+and of
+accounts
+for 20%–30%
+when
+the surface
+solar
+share
+is
+lower
+and
+accounts
+for
+20%–30%
+(even
+when
+the
+surface
+area
+of
+solar
+colarea of solar collectors is at least two times bigger than in the case of a system only for
+lectors
+is heating)
+at least two
+DHW
+[25].times bigger than in the case of a system only for DHW heating)
+[25]. It should be underlined that to determine the effective use of solar energy it is necessary
+shouldthe
+be underlined
+to determine
+the effective
+of solar energy
+it radiation
+is nectoItanalyse
+availability that
+of solar
+energy. Estimation
+ofuse
+distribution
+of solar
+essary
+to analyse
+availability
+of energy
+solar energy.
+Estimation
+of distribution
+of solar of
+radiincident
+on anythe
+surface
+of solar
+receiver
+is very important.
+The surfaces
+solar
+energy
+receivers,
+activeenergy
+solar systems,
+solar
+collectorsThe
+andsurfaces
+PV modules,
+ation
+incident
+on anyelements
+surface of solar
+receiver i.e.,
+is very
+important.
+of
+areenergy
+tilted toreceivers,
+the horizontal
+surface
+and can
+have
+different
+orientations
+(azimuth
+solar
+elements
+of active
+solar
+systems,
+i.e.,
+solar collectors
+and angle).
+PV
+To analyse
+solartoenergy
+availability,
+the and
+appropriate
+radiation
+data are
+required.
+modules,
+are tilted
+the horizontal
+surface
+can have solar
+different
+orientations
+(azimuth
+However,
+whensolar
+we consider
+utilization of
+energy in
+cities,
+not only
+is are
+access
+angle).
+To analyse
+energy availability,
+thesolar
+appropriate
+solar
+radiation
+data
+re- to
+reliable
+data important.
+architecture
+of the
+buildings
+and
+the urban
+planning
+of the
+quired.
+However,
+when we The
+consider
+utilization
+of solar
+energy
+in cities,
+not only
+is access
+entire city
+also very The
+important.
+The of
+arrangement
+of and
+individual
+buildings
+other
+to reliable
+dataisimportant.
+architecture
+the buildings
+the urban
+planningand
+of the
+construction
+structures
+in close The
+neighbourhoods
+also very important.
+Theother
+urban
+entire
+city is also
+very important.
+arrangement are
+of individual
+buildings and
+environment
+may limit
+the availability
+of solarare
+radiation,
+which
+is related
+tourban
+the shading
+construction
+structures
+in close
+neighbourhoods
+also very
+important.
+The
+enof
+the
+surface
+of
+solar
+receivers.
+In
+some
+locations,
+building
+walls
+and
+roofs
+can have
+vironment may limit the availability of solar radiation, which is related to the shading
+of
+good
+to incident
+solarlocations,
+radiation,building
+which makes
+radiation
+thevery
+surface
+ofexposure
+solar receivers.
+In some
+wallsutilization
+and roofs of
+cansolar
+have
+very
+very
+effective
+theradiation,
+year. Figure
+11 makes
+shows utilization
+a solar map
+the radiation
+main campus
+good
+exposure
+tothroughout
+incident solar
+which
+ofof
+solar
+very of
+the Warsaw
+University
+of Technology.
+The figure
+shows
+annual
+irradiation
+effective
+throughout
+the year.
+Figure 11 shows
+a solar
+mapthe
+of the
+mainsolar
+campus
+of the of
+the individual
+campus
+buildings,The
+which
+enables
+efficient
+planning
+dimensioning
+Warsaw
+University
+of Technology.
+figure
+shows
+the annual
+solarand
+irradiation
+of the of
+
+Energies 2021, 14, x FOR PEER REVIEW
+Energies 2021, 14, 5984
+
+335
+336
+337
+338
+
+12 of 17
+
+individual campus buildings, which enables efficient planning and dimensioning
+the solar energy
+receiver
+Consequently,
+it is possible
+estimatetothe
+technical
+solar
+energylocations.
+receiver locations.
+Consequently,
+it istopossible
+estimate
+the technic
+potential of using
+solar
+energy
+to
+generate
+heating
+and
+cooling
+energy
+and
+electricity
+in aelectricit
+tential of using solar energy to generate heating and cooling energy and
+given area or district
+of the
+given area
+or city.
+district of the city.
+
+339
+Values of the solar irradiance
+960 kWh/m2
+940 kWh/m2
+910 kWh/m2
+880 kWh/m2
+840 kWh/m2
+800 kWh/m2
+760 kWh/m2
+730 kWh/m2
+700 kWh/m2
+600 kWh/m2
+340
+341
+342
+343
+344
+345
+346
+347
+348
+349
+350
+351
+352
+353
+354
+355
+356
+357
+358
+359
+360
+361
+362
+363
+364
+365
+366
+367
+368
+369
+370
+
+Figure 11. Solar map (Warsaw University of Technology, Main Campus as an example) [8].
+
+It seems
+quitemap
+interesting
+use solarofradiation
+energy
+generate
+electricity
+some
+Figure
+11. Solar
+(Warsaw to
+University
+Technology,
+Mainto
+Campus
+as an
+example)in
+[8].
+of the unshaded areas of facilities and transport facilities, which account for about 10% of
+the city’s area. It should
+be quite
+notedinteresting
+that in thetocurrent
+legal
+and ownership
+this
+It seems
+use solar
+radiation
+energy tosituation,
+generate electricity
+in
+energy can be of
+mainly
+used by the
+landowner.
+the unshaded
+areas
+of facilities and transport facilities, which account for about 1
+the city’s area. It should be noted that in the current legal and ownership situation
+4.3. Biomass and Biogas
+energy can be mainly used by the landowner.
+In the year 2019, a total of approximately 668,600 tons of municipal waste were
+produced, including
+610,700
+tons from households [26]. This means that a statistical
+4.3. Biomass
+and Biogas
+resident of Warsaw generated 342.4 kg of municipal waste, including 271.1 kg of mixed
+In the year 2019, a total of approximately 668,600 tons of municipal waste
+waste. The share of mixed waste in the total mass of municipal waste collected was as high
+produced, including 610,700 tons from households [26]. This means that a statistica
+as 71.9%. Collection of biodegradable waste amounted to 27,098 tons and 15,020 tons of
+ident of Warsaw generated 342.4 kg of municipal waste, including 271.1 kg of m
+paper and cardboard. The calorific value of municipal waste ranges from 7–16 MJ/kg [27].
+waste. The share of mixed waste in the total mass of municipal waste collected w
+The production of electricity and heat from biogas from sewage is carried out in the
+high as 71.9%. Collection of biodegradable waste amounted to 27,098 tons and 1
+“Czajka” and “Południe” sewage treatment plants [28]. Czajka’s annual heat production is
+tons of paper and cardboard. The calorific value of municipal waste ranges from
+about 40 GWh with similar amounts of electricity. Annual heat production of the second
+MJ/kg [27].
+plant is about 5 GWh. Both plants use the heat and energy for their own purposes.
+The production of electricity and heat from biogas from sewage is carried out
+Interestingly, the owner—Municipal Water and Sewerage Company in the capital city
+“Czajka” and “Południe” sewage treatment plants [28]. Czajka’s annual heat produ
+of Warsaw S.A.—plans to invest in photovoltaic installations in the near future, for a total
+is about 40 GWh with similar amounts of electricity. Annual heat production of th
+production of 6.7 GWh per year [28].
+about
+GWh. Both
+plants
+use thewaste
+heat and
+energy
+for their
+own purpo
+Electricityond
+andplant
+heat is
+are
+also 5generated
+from
+municipal
+in the
+Municipal
+Waste
+Interestingly,
+the
+owner—Municipal
+Water
+and
+Sewerage
+Company
+Disposal Plant (owner: Municipal Cleaning Enterprise in the Capital City of Warsaw, loca- in the c
+of Warsaw
+S.A.—plans toofinvest
+in photovoltaic
+installations
+in the[10].
+near future
+tion: Targówekcity
+district).
+The reconstruction
+this plant
+is planned in
+the near future
+total
+production
+of
+6.7
+GWh
+per
+year
+[28].
+PGNiG Termika’s plans also include a modern municipal waste incineration plant at
+Electricity
+and heat
+the Siekierki heat and
+power plant
+[29].are also generated from municipal waste in the Municipal
+Disposal
+Plant
+(owner:
+Cleaning will
+Enterprise
+in the
+Capital
+What is important is that only theMunicipal
+latest technologies
+be applied
+in the
+newCity
+or of Wa
+location:
+Targówek
+district).
+The
+reconstruction
+of
+this
+plant
+is
+planned
+in
+the near f
+reconstructed plants [10].
+[10].
+Every city generates a lot of waste. This waste should be recycled, both for the
+PGNiGand
+Termika’s
+plans
+also include
+modern
+municipal
+waste incineration
+pl
+recovery of raw materials
+for energy
+recovery.
+Each acity
+may, or
+rather, should,
+strive
+Siekierki
+heat andwhich
+powerisplant
+to implement the
+a circular
+economy,
+one [29].
+of the most important and even basic
+Whatdevelopment
+is important and
+is that
+only
+latest
+technologies
+elements of sustainable
+gives
+thethe
+base
+for PEDs
+creation.will be applied in the n
+reconstructed plants [10].
+4.4. Wind Energy
+Every city generates a lot of waste. This waste should be recycled, both for the recov
+raw materials
+forenergy
+energytorecovery.
+Each city in
+may,
+or areas
+rather,are
+should,
+The possibilities
+of usingand
+wind
+generate electricity
+urban
+quite strive t
+limited due to the legal requirements in force, i.e., the location of the wind farm requires
+
+371
+372
+Energies 2021, 14, 5984
+373
+374
+375
+376
+377
+378
+379
+380
+381
+382
+383
+384
+385
+
+386
+387
+388
+389
+390
+391
+392
+393
+394
+395
+396
+397
+398
+399
+400
+
+plement a circular economy, which is one of the most important and even basic elem
+of sustainable development and gives the base for PEDs creation.
+13 of 17
+
+4.4. Wind Energy
+
+The possibilities of using wind energy to generate electricity in urban areas are
+limited
+due
+legal
+requirements
+in force,
+of city
+the wind
+appropriate provisions
+in to
+thethe
+local
+spatial
+development
+plans.i.e.,
+In the
+the location
+part of the
+underfarm req
+appropriate
+provisions
+in
+the
+local
+spatial
+development
+plans.
+In
+the
+part of the city
+conservation protection, the installation of even micro wind farms is practically impossible.
+der
+conservation
+protection,
+the
+installation
+of
+even
+micro
+wind
+farms
+is practically
+Availability of wind energy in the area of the Capital City of Warsaw’s electricity production
+possible. Availability of wind energy in the area of the Capital City of Warsaw’s ele
+is relatively low.
+ityimportant
+production
+is relatively
+One of the
+parameters
+to low.
+urban meteorological investigations is an aerodyOne
+of
+the
+important
+parameters
+to urban
+meteorological
+investigations
+namic roughness length (RL, Figure 12 [30]). In the centre
+of the
+town, that value
+is equal is an
+dynamic
+roughness
+length
+(RL,
+Figure
+12
+[30]).
+In
+the
+centre
+of
+the
+to 1 m or in some urbanized areas is even equal to 1.5 m, while is most attractive in town,
+terms that val
+equal
+to
+1
+m
+or
+in
+some
+urbanized
+areas
+is
+even
+equal
+to
+1.5
+m,
+while
+is
+most attracti
+of wind energy utilization in parts where the value is much lower, e.g., in agricultural areas
+wind
+energy
+utilization
+inisparts
+is much lower,
+e.g., in agr
+or wastelandsterms
+alongofthe
+Vistula
+River
+the factor
+equalwhere
+to 0.1the
+m. value
+The minimum
+value of
+areas
+wastelands
+Vistula
+Riveris the
+factor
+this indicatortural
+is above
+theorriver
+surface. along
+In thisthe
+area,
+the value
+0.0002
+m. is equal to 0.1 m. The m
+mum value of this indicator is above the river surface. In this area, the value is 0.000
+
+Figure 12. Aerodynamic roughness length of the Warsaw’s area [30].
+
+In Warsaw,
+for12.
+the
+10% of the roughness
+windiest surface
+a height
+of 10
+m[30].
+above the ground,
+Figure
+Aerodynamic
+length ofatthe
+Warsaw’s
+area
+the average density of the available power is 87 W/m2 with an average air flow velocity of
+2 and 5.63 m/s.
+4.00 m/s [30]. At aInheight
+of 50for
+m,the
+these
+respectively,
+Warsaw,
+10%values
+of theare,
+windiest
+surface204
+at aW/m
+height
+of 10 m above the gro
+2
+2 with
+At a height ofthe
+100
+m, these
+values
+respectively,
+299isW/m
+6.60
+Theair
+best
+average
+density
+of are,
+the available
+power
+87 W/mand
+anm/s.
+average
+flow veloc
+2 and 5.63
+conditions are4.00
+on the
+the city,
+south,
+along the Vistula,
+i.e.,
+m/soutskirts
+[30]. At of
+a height
+ofin50the
+m,north
+theseand
+values
+are,and
+respectively,
+204 W/m
+2
+where the roughness
+length
+(RL)
+is
+not
+greater
+than
+0.1
+m,
+as
+can
+be
+seen
+on
+Figure
+12.
+At a height of 100 m, these values are, respectively, 299 W/m and 6.60 m/s. The
+The northern
+regionare
+(at on
+thethe
+topoutskirts
+of Figureof
+12)the
+does
+not
+to be and
+attractive
+thealong
+use the Vis
+conditions
+city,
+inseem
+the north
+south,for
+and
+of wind energy
+to the
+housing
+development.
+i.e.,due
+where
+theplanned
+roughness
+length
+(RL) is not greater than 0.1 m, as can be seen on F
+2
+The most
+12.favourable and sparsely inhabited area of about 17.0 km (south, where
+the roughness length
+not greater
+than
+bottom
+Figure
+12) attoa be
+height
+The is
+northern
+region
+(at 0.1
+the m,
+topatofthe
+Figure
+12) of
+does
+not seem
+attractive fo
+of 10 m is characterized
+by
+an
+average
+wind
+speed
+of
+4.4
+m/s,
+and
+an
+average
+power
+use of wind energy due to the planned housing development.
+2 When at a height of 50 m the average wind speed is estimated
+density of 117 W/m
+The. most
+favourable and sparsely inhabited area of about 17.0 km2 (south, wher
+2 For the height of 100 m these
+as 5.7 m/s, and
+the
+average
+power
+2130.1
+W/m
+roughness length
+is notdensity
+greateras
+than
+m, at. the
+bottom of Figure 12) at a height of
+2 , respectively. Based on the average power
+values are theisfollowing:
+6.7 m/s
+300 W/m
+characterized
+by and
+an average
+wind
+speed of 4.4 m/s, and an average power densi
+density and the
+area of
+electricity
+can
+be estimated:
+at a height
+117assumed
+W/m2. When
+at land,
+a height
+of 50 mproduction
+the average
+wind
+speed is estimated
+as 5.7 m/s
+of 10 m—63 GWh, at a height of 50 m—105 GWh, and at a height of 100 m—160 GWh.
+4.5. Hydropower
+Warsaw is located on the Central Masovian Lowland on the Vistula River, with no
+access to the sea. Although within the city limits the Vistula is 28 km long, the use of
+
+Energies 2021, 14, 5984
+
+14 of 17
+
+hydropower in Warsaw is not taken into account due to inadequate conditions, i.e., low
+slope of the land and high density of buildings [31]. The use of smaller rivers, streams or
+existing water channels with low and variable water flow is currently not considered.
+It is worth adding that about 40 km to the north of Warsaw there is the D˛ebe Hydro
+Power Plant, which was established in the 1960s [32]. The installed capacity of this power
+plant is 20 MW, and the average annual energy production is about 91 GWh. This power
+plant directly supplies the Polish power system with energy.
+5. Towards Positive Energy Districts in Warsaw and Risks to Achieving This Goal
+As shown in the previous section, in Warsaw there is a theoretical potential for the use
+of renewable energies. It should be noted, however, that the use of renewable energies is
+a rational solution only if there is a reduction in energy demand for traditional methods,
+which in this case means reducing the energy demand of existing buildings or erecting
+new ones in accordance with the latest energy and environmental standards.
+In Warsaw, buildings in terms of energy performance are very diverse. In many cases,
+it is possible to significantly improve their energy balance and reduce energy demand
+through refurbishment and thermo-modernization. Nevertheless, in the historic part of the
+city, as well as in densely built-up areas with too much energy demand for heating and
+ventilation, achieving the “positive energy” standard can be difficult even with the current
+state of technology.
+In Polish climatic conditions, it is difficult to achieve energy self-sufficiency in urbanized areas based on only one type of renewable source because energy needs are too large
+in relation to the possibility of coverage from monovalent-source renewable systems.
+The solar energy is easiest to acquire on non-shaded surfaces, e.g., roofs. South
+or south-west and south-east facades of buildings can also be used as long as they are
+not shaded.
+Low-temperature geothermal energy cannot directly supply a high-temperature heating network. It may be necessary to create local or neighbourhood networks to distribute
+heat in a smaller area. Heat pumps will be required to raise the temperature. Later such
+local systems equipped with heat pumps can be connected, thus competing with the
+traditional district heating network.
+The city of Warsaw “produces” large amounts of municipal waste. Some of them
+are not recyclable or biodegradable. However, they can be used in modern plants for the
+combined production of electricity and heat. Therefore, special attention can be put to
+developing modern landfill gas energy plants. Up until now none of these landfill plants
+operate in Warsaw or its surroundings.
+Large areas of green spaces can also be a source of biomass. However, a traditional
+combustion procedure should not be applied. It is necessary to use highly effective gasification processes as a preliminary energy treatment of biomass residues.
+Potential barriers for implementation of renewable energy technologies and achieving
+the status of a smart city with some positive energy districts should be identified and
+mentioned. These are mainly problems with ownership, financing new investments and
+refurbishment, and legal boundaries. Buildings may be private property, there may be
+business ownership issues, and buildings may belong to a cooperative, housing community
+or the city of Warsaw, or even a combination of the previously mentioned. This ownership
+structure determines the ways and possibilities of financing the retrofitting measures. It
+should be mentioned that land around buildings usually has a similar ownership structure.
+This, in turn, can result in problems with the placement of energy systems outside the
+building, and even applying extra thermal insulation to the building walls (the external
+size of the building increases). The use of renewable energy, rationalization of the energy efficiency of existing systems, proper energy, water and waste management are an important
+part of efforts to transform Warsaw into a smart city.
+
+Energies 2021, 14, 5984
+
+15 of 17
+
+6. Conclusions
+Sustainable development, carried out by taking into account the protection of the
+climate and the natural environment, is de facto a political, economic, technical and social
+problem even on the scale of the city.
+Without the general awareness of the importance of these issues and, on the other
+hand, social pressure, activities in this area may not be accepted due to the high costs of
+implementing investments.
+Moreover, the development of technology is still important in order to maximize the
+widely understood effectiveness of technical solutions. It is also important to prepare
+specialists who carry out comprehensive projects using renewable energy sources and take
+care of the proper operation and maintenance of existing systems.
+Increased outlays for the implementation of the change of the heat and energy supply
+system require financial support, perhaps on preferential terms or from funds focused on
+renewable energy.
+
+•
+
+•
+
+•
+
+•
+
+•
+
+•
+•
+
+The Capital City of Warsaw supports all activities aimed at reducing the consumption
+of conventional energy, increasing the use of renewable energy sources and reducing
+carbon dioxide emissions.
+Increasingly stringent requirements in the field of thermal and energy protection of
+buildings reduce both the demand for heating and ventilation and the required design
+power of heat sources.
+Lowering the required design heating load per area below 60 W/m2 (indicative value)
+allows the use of low-temperature surface (e.g., floor) heating, which means that the
+heat source can be a heat pump using, for example, low-temperature geothermal heat
+available in Warsaw.
+Achieving a positive energy standard by parts of the city with buildings with unsatisfactory energy performance may be economically unprofitable with the current
+technical possibilities.
+Due to the diversified ownership structure of land, buildings and accompanying
+infrastructure, as well as in view of further city expansion plans, the easiest way
+to implement the idea of energy-positive districts is to modernize the relatively recently established housing estates and design new ones with the “obligatory” use of
+renewable energy sources.
+The use of renewable energy sources instead of conventional fuels means a significant
+reduction in carbon dioxide emissions and environmental protection.
+Changing the existing electricity and heat supply system for urbanized urban areas in
+Polish conditions requires comprehensive modernization of practically the entire city
+infrastructure.
+
+Summarizing, it is very difficult to modernize large energy systems, which for many
+years have been the only ones supplying energy to various types of energy users in the
+city. However, it does not mean that nothing can be done. Warsaw, like many world
+cities, is expanding to new areas and this causes opportunity for development of new local
+energy systems based on renewables. Such systems can assure self-energy generation and
+consumption, giving energy security for new districts.
+Moreover, new districts can share their energy with other neighbourhoods. As a
+consequence, the new districts can become Positive Energy Districts which will increasingly
+interfere with the central energy systems of the city centre. New PEDs will absorb central
+areas step by step, replacing ineffective central energy systems with new ones based on
+renewable energy, giving energy independence to the whole city.
+It should be underlined that the way to achieve complete energy independence for
+the city is very complicated and rather long, which is what the authors have tried to
+present in this paper. If thermal energy (a central district heating system) and electricity
+(a central power grid) are available everywhere in the city, why does the energy sector,
+developers, communities and inhabitants have to look for new “fuels” and innovative
+energy conversion technologies, mainly those based on renewables? This is a question
+
+Energies 2021, 14, 5984
+
+16 of 17
+
+and idea which should be answered by the municipalities as often as possible. Of course,
+academic people and scientists and local “green” NGOs should help and support the
+urgent need of the development of local efficient energy generation systems based on
+locally available energy sources, such as renewables. They should foster the idea of sharing
+energy in a modern way, which gives the basis for creating more Positive Energy Districts
+in the city.
+Author Contributions: Conceptualization, D.C. and H.J.; methodology, D.C. and H.J.; validation,
+D.C. and H.J.; formal analysis, D.C. and H.J.; investigation, D.C. and H.J.; resources, D.C. and H.J.;
+data curation, D.C. and H.J.; writing—original draft preparation, D.C. and H.J.; writing—review and
+editing, D.C. and H.J.; visualization, H.J.; supervision, D.C.; project administration, H.J.; funding
+acquisition, D.C. All authors have read and agreed to the published version of the manuscript.
+Funding: The publishing procedure is funding by the EERA Smart Cities JP.
+Institutional Review Board Statement: Not applicable.
+Informed Consent Statement: Not applicable.
+Data Availability Statement: The study did not report any data.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+
+3.
+
+4.
+
+5.
+
+6.
+7.
+8.
+
+9.
+
+10.
+11.
+
+12.
+
+13.
+
+Scott, R. The History of the International Energy Agency—The first Twenty Years; OECD Publishing: Paris, France, 1994.
+Directive 2002/91/EC of the European Parliament and of the Council of 16 December 2002 on the energy performance of
+buildings. Off. J. Eur. Commun. Available online: http://data.europa.eu/eli/dir/2002/91/oj (accessed on 10 September 2021).
+2003, L 001, 04/01/2003 65–71.
+Regulation of the Minister of Infrastructure of 12 April 2002 on Technical Conditions to be Met by Buildings and Their Location.
+J. Laws. Available online: https://www.global-regulation.com/translation/poland/3353940/regulation-of-the-minister-ofinfrastructure-of-12-april-2002-on-technical-conditions%252c-which-should-correspond-to-the-buildings-and-their-location.
+html (accessed on 10 September 2021). 2002 No.75, item. 690 (In Polish).
+Ministry of Climate and Environment. Poland’s Energy Policy until 2040. Available online: https://www.dziennikustaw.gov.pl/
+MP/2021/264 (accessed on 10 September 2021). Official Journal of the Republic of Poland Monitor Polski 2021, item 264. (In
+Polish)
+Regulation of the Minister of Infrastructure and Development of 27 February 2015 on the methodology for determining the energy
+performance of a building or part of a building and energy performance certificates. J. Laws. Available online: https://www.iea.
+org/policies/12240-regulation-of-the-minister-of-infrastructure-and-development-of-february-27-2015-on-the-methodologyfor-determining-the-energy-performance-of-a-building-or-part-of-a-building-and-energy-performance-certificates (accessed
+on 10 September 2021). 2015, No. 2019, item 1065, consolidated text as amended. (In Polish)
+The City of Warsaw. Infrastructure Office: Action Plan for Sustainable Energy Consumption for Warsaw by 2020; Infrastructure
+Department of The City of Warsaw: Warszawa, Poland, 2013.
+Council of the Capital City of Warsaw. Resolution No. LIX/1534/2017of the Warsaw City Council of 14 December 2017; Housing
+Policy—Housing2030; Warsaw City Council: Warsaw, Poland, 2017.
+City of Warsaw. A Map of Renewable Energy Sources (RES)—A Map of the Sun Exposure, Low Temperature Geothermal Energy
+(Heat Pumps) and Range of the Heat within the Network. Available online: http://mapa.um.warszawa.pl/mapaApp1/mapa?
+service=mapa_oze&L=en (accessed on 19 June 2021).
+Council of the Capital City of Warsaw. Resolutions of the Council of the Capital City of Warsaw No. XXXV/1074/2020. In
+Assumptions for the Heat, Electricity and Gas Fuel Supply Plan for the Capital City of Warsaw; Warsaw City Council: Warsaw, Poland,
+2020. (In Polish)
+Public Information Bulletin of the Capital City of Warsaw. Available online: https://bip.warszawa.pl/English/default.htm
+(accessed on 30 June 2021).
+Council of the Capital City of Warsaw. Strategy for Adaptation to Climate Change for the City of Warsaw up to 2030 with a
+Perspective to 2050. In City Adaptation Plan; Project LIFE_ADAPTCITY_PL, Institute for Sustainable Development: Warsaw,
+Poland, 2019; Available online: http://adaptcity.pl/wp-content/uploads/2019/11/strategia_2030-ENG.pdf (accessed on 10
+September 2021).
+Low-Emission Economy Plan for the Capital City of WARSAW. Available online: http://infrastruktura.um.warszawa.pl/sites/
+infrastruktura.um.warszawa.pl/files/dokumenty/plan_gospodarki_niskoemisyjnej_dla_m.st_._warszawy.pdf (accessed on 30
+June 2021).
+History of Warsaw. Available online: https://en.wikipedia.org/wiki/History_of_Warsaw (accessed on 20 June 2021).
+
+Energies 2021, 14, 5984
+
+14.
+15.
+16.
+
+17.
+
+18.
+
+19.
+20.
+21.
+22.
+23.
+24.
+25.
+26.
+27.
+28.
+29.
+30.
+31.
+32.
+
+17 of 17
+
+Statistics Poland, Area and Population in the Territorial Profile in 2020. Available online: https://stat.gov.pl/en/topics/
+population/population/area-and-population-in-the-territorial-profile-in-2020,4,14.html (accessed on 19 June 2021).
+Administrative Division of Warsaw into Districts. Available online: https://warszawa.wikia.org/wiki/Dzielnice?file=Warzawa_
+podzial_2002.png (accessed on 20 June 2021).
+Statistical Office in Warszawa, Statistical Review of Warsaw—1st Quarter 2021. Available online: https://warszawa.stat.gov.pl/
+en/communiqus-and-announcements/communiqus-and-announcements/other/statistical-review-of-warsaw-1st-quarter-20
+21,1,30.html (accessed on 21 June 2021).
+Mazovian Regional Research Center. Statistical Office in Warsaw. Ranking of Warsaw Districts in Terms of the Attractiveness of
+Living Conditions. Available online: https://warszawa.stat.gov.pl/files/gfx/warszawa/en/defaultaktualnosci/810/2/1/1/
+ranking_dzielnic_warszawy_pod_wzgledem_atrakcyjnosci_warunkow_zycia_ang.pdf (accessed on 12 July 2021).
+Council of the Capital City of Warsaw. Study of the conditions and directions of spatial development in the capital city of Warsaw.
+In Annex to Resolution No. LXII/1667/2018 of the Council of the Capital City of Warsaw from 1 March 2018; Council of the Capital City
+of Warsaw: Warsaw, Poland, 2018. (In Polish)
+Ministry of Infrastructure and Development: National Plan to Increase the Number of Buildings with Low Energy Consumption.
+Monitor Polski 2015, item 614; Official Journal of the Republic of Poland: Warsaw, Poland, 2015. (In Polish)
+National Energy Conservation Agency S.A. (NAPE). Polish Building Typology—TABULA; Scientific Report; Narodowa Agencja
+Poszanowania Energii SA: Warsaw, Poland, 2012.
+Żerań CHP Plant. Available online: https://termika.pgnig.pl/elektrocieplownia-zeran (accessed on 12 July 2021).
+Chwieduk, D.; Bujalski, W.; Chwieduk, B. Possibilities of Transition from Centralized Energy Systems to Distributed Energy
+Sources in Large Polish Cities. Energies 2020, 13, 6007. [CrossRef]
+Socha, M.; Sadurski, A.; Skrzypczyk, L. Possibilities of geothermal energy utilisation in the Warsaw urban area on the background
+of cost analysis. Prz. Geol. 2016, 64, 7.
+Szewczyk, J. Geophysical and hydrogeological aspects of utilization of thermal energy in Poland. Prz. Geol. 2010, 58, 7. (In Polish)
+Chwieduk, D. Solar Energy Use for Thermal Application in Poland. Polish J. Environ. Stud. 2010, 19, 473–478.
+Statistics Poland. Local Data Bank. Available online: https://bdl.stat.gov.pl/BDL/start (accessed on 10 August 2021). (In Polish)
+Wielgosiński, G. Thermal Waste Treatment; Nowa Energia Publishing House: Racibórz, Poland, 2020. (In Polish)
+Zero Waste—How to Minimize Waste Production. Available online: http://www.um.warszawa.pl/aktualnosci/zero-waste-jakmaksymalne-zmniejszy-produkcj-odpad-w?page=0,1 (accessed on 30 June 2021).
+PGNiG Termika’s Strategy for 2015–2022. Available online: https://termika.pgnig.pl/sites/default/files/2016-07/Strategia%20
+PGNiG%20TERMIKA%20na%20lata%202015%20-%202022.PDF (accessed on 30 June 2021).
+Global Wind Atlas. Available online: https://globalwindatlas.info/ (accessed on 10 August 2021).
+Warsaw. Available online: https://en.wikipedia.org/wiki/Warsaw (accessed on 10 August 2021).
+D˛ebe Hydroelectric Power Plant. Available online: https://pgeeo.pl/Nasze-obiekty/Elektrownie-wodne/Debe (accessed on 10
+August 2021).
+
+

@@ -1,0 +1,2732 @@
+buildings
+Article
+
+Energy Citizenship in Positive Energy Districts—Towards a
+Transdisciplinary Approach to Impact Assessment
+Mark van Wees 1, *, Beatriz Pineda Revilla 1 , Helena Fitzgerald 2 , Dirk Ahlers 3 , Natalia Romero 4 ,
+Beril Alpagut 5 , Joke Kort 6 , Cyril Tjahja 7 , Gabi Kaiser 8 , Viktoria Blessing 8 , Lia Patricio 9 and Sander Smit 10
+1
+
+2
+3
+
+4
+
+5
+6
+7
+
+8
+
+9
+
+
+
+
+10
+
+*
+
+Faculty of Applied Social Sciences and Law, Amsterdam University of Applied Sciences,
+1012 AM Amsterdam, The Netherlands; b.pineda.revilla@hva.nl
+Department of Economics, University of Limerick, V94 T9PX Limerick, Ireland; helena.fitzgerald@ul.ie
+Department of Architecture and Planning, NTNU—Norwegian University of Science and Technology,
+7491 Trondheim, Norway; dirk.ahlers@ntnu.no
+Industrial Design Engineering, Delft University of Technology, 2628 CE Delft, The Netherlands;
+n.a.romero@tudelft.nl
+Demir Energy, Smart Cities Department, 34728 Istanbul, Turkey; balpagut@demirenerji.com
+TNO Energy Transition, 1043 NT Amsterdam, The Netherlands; joke.kort@tno.nl
+Department of Environment & Civil Engineering, Hanze University of Applied Sciences,
+9747 AS Groningen, The Netherlands; c.tjahja@pl.hanze.nl
+Steinbeis Europa-Zentrum, 70176 Stuttgart, Germany; gabi.kaiser@steinbeis-europa.de (G.K.);
+victoria.blessing@steinbeis-europa.de (V.B.)
+INESC TEC, 4200-465 Porto, Portugal; lpatric@fe.up.pt
+R2M Solution, London W11 3SL, UK; sander.smit@r2msolution.com
+Correspondence: m.t.van.wees@hva.nl
+
+Citation: van Wees, M.; Revilla, B.P.;
+Fitzgerald, H.; Ahlers, D.; Romero,
+N.; Alpagut, B.; Kort, J.; Tjahja, C.;
+Kaiser, G.; Blessing, V.; et al. Energy
+Citizenship in Positive Energy
+Districts—Towards a
+Transdisciplinary Approach to
+Impact Assessment. Buildings 2022,
+12, 186. https://doi.org/10.3390/
+buildings12020186
+Academic Editors: Tao Wang,
+Jian Zuo, Hanliang Fu and
+Zezhou Wu
+Received: 31 December 2021
+
+Abstract: It is commonly assumed by the projects demonstrating concepts for positive energy districts
+in cities across Europe that citizens want and need to be involved in the development of these concepts
+as an essential condition for positive energy districts to be deployed successfully and to achieve
+the expected societal goals. Six different research and innovation projects are investigating the
+different forms of energy citizenship in positive energy districts and their impacts. They aim to
+apply a transdisciplinary approach to collaborative research and to impact assessment. The interim
+results are described, and preliminary conclusions on impact are drawn. The projects each used
+different approaches to engaging citizens, while differentiating between different groups. Progress
+is monitored but only fragmentary evidence on the impact has been gathered. Transdisciplinary
+approaches are being developed but are still immature.
+Keywords: energy citizenship; citizen engagement; energy transition; positive energy districts; PED;
+impact assessment; transdisciplinary; multidisciplinary
+
+Accepted: 1 February 2022
+Published: 6 February 2022
+Publisher’s Note: MDPI stays neutral
+with regard to jurisdictional claims in
+published maps and institutional affiliations.
+
+Copyright: © 2022 by the authors.
+Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and
+conditions of the Creative Commons
+Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+The involvement of citizens and energy communities is seen as a key pillar of the
+energy transition process [1–9]. Citizens interact with the technical energy systems, since
+they are both the subject and object of social innovation in the energy society, and they are
+emerging economic actors in the energy markets. To design and optimise fair, inclusive,
+and just energy transition pathways, it is a requirement to have suitable policy making,
+good collaborations between stakeholders, realistic business models, and citizens who play
+an active role in shaping and accelerating the socio-technological energy transition [10,11].
+The role of citizens and citizen organisations in both driving and facilitating the energy
+transition towards climate neutrality and inclusivity has gained much attention among
+scientists, local policy makers, and the private sector. It is in this context where the notion
+of “energy citizenship” arises, as a placeholder for new social roles and responsibilities
+for citizens in an energy system in constant transformation [2–6,12]. The term energy
+
+Buildings 2022, 12, 186. https://doi.org/10.3390/buildings12020186
+
+https://www.mdpi.com/journal/buildings
+
+Buildings 2022, 12, 186
+
+2 of 22
+
+citizenship represents the active participation of citizens in the energy system—such as
+adopting renewable technologies, joining energy communities, supporting local initiatives,
+and participating in policy decision-making [13] and in the energy economy in their multiple roles as users, protesters, supporters or prosumers, and involving energy consciousness
+and literacy as well as sustainable energy practices [8,14]. It concerns both the actions of
+individual citizens and collective citizens’ initiatives and organisations.
+In the energy transition, decentralisation towards local technological (energy system)
+and local economic systems is being explored increasingly, which could potentially offer
+important synergies with local social innovation initiatives in the city. More concretely,
+the model of energy-positive districts (PED), which enhances decentralisation, aims to
+capture the benefit of local energy system, economic and social innovations [15]. Through
+engaging and facilitating citizen participation, the role of the citizen transforms from a
+passive consumer to an active participant in the transition as, for example, the initiator of
+new, local, energy initiatives, by becoming a member of such an initiative or by changing
+role from consumer to prosumer or by contributing to scientific research and monitoring
+processes [16].
+This paper presents and discusses the methods, strategies, and expected impacts for
+citizen engagement applied in six different European research and innovation projects in
+Positive Energy Districts, focusing on their research approaches and the observed impacts.
+Through this multiple project view, this paper (1) assesses the progress towards a transdisciplinary research approach and methodology focused on impact assessment, (2) reflects
+this approach towards ongoing research and innovation (R&I) projects on positive energy
+districts, where energy citizenship aims to co-drive the technological, economic and social
+innovations, and (3) explores conclusions on the potential and limitations of energy citizenship in the energy transition and developing policy recommendations in strengthening
+energy citizenship.
+The following three research and innovation questions are addressed:
+1.
+2.
+3.
+
+How can citizens potentially engage in positive energy districts and thus contribute
+to the societal objectives of PEDs?
+What is the interest in, acceptance and uptake of citizens of these options to engage in
+the energy systems of positive energy districts?
+What impact from citizen engagement is observed and validated already in the
+ongoing demonstration projects of positive energy districts?
+
+In addition, we address the added value of transdisciplinary research in answering
+these questions and explore how much progress has been made in the projects so far in
+applying transdisciplinary research methodologies and approaches. This paper presents
+considerations towards a methodological framework for transdisciplinarity in impact
+assessment on energy communities in PEDs. The current practice is illustrated for ongoing
+PED R&I projects. Finally, recommendations are given to speed up the progress towards
+transdisciplinarity in PED-related R&I projects.
+2. Positive Energy Districts as an Instrument in Urban Energy Transition
+PEDs are a new concept for energy planning at neighbourhood and city scale. They
+consist of delimited areas of buildings, public spaces, and infrastructure that together create
+a total positive annual energy balance, meaning that the area will deliver, on average, an
+energy surplus to be shared with its surrounding urban or peri-urban areas.
+PEDs are energy-efficient and energy-flexible urban areas or groups of connected
+buildings which produce net zero greenhouse gas emissions and actively manage an
+annual local or regional surplus production of renewable energy. They require integration
+of different systems and infrastructures and interaction between buildings, the users and
+the regional energy, mobility, and ICT systems, while securing the energy supply and
+a good life for all in line with social, economic and environmental sustainability [15,17]
+(Figure 1).
+
+Buildings 2022, 12, x FOR PEER REVIEW
+
+Buildings 2022, 12, 186
+
+3 of 23
+
+3 of 22 (Figgood life for all in line with social, economic and environmental sustainability [15,17]
+ure 1).
+
+Figure
+of the
+energy
+system
+of a Positive
+EnergyEnergy
+District.District.
+Reproduced
+with permission
+Figure1.1.Components
+Components
+of the
+energy
+system
+of a Positive
+Reproduced
+with permisunder
+open access
+from [15].
+sion under
+open access
+from [15].
+
+PEDs
+PEDscan
+canbe
+be understood
+understoodas
+asaa localised
+localisedresponse
+responsetotothe
+theoverall
+overallEuropean
+Europeanenergy
+energy trantransition. They are a way to accelerate the green transition and refurbishment wave. They
+sition. They are a way to accelerate the green transition and refurbishment wave. They
+combine within a second approach local renewable energy generation, energy demand
+combine within a second approach local renewable energy generation, energy demand
+reduction, building efficiency measures, local energy storage, local balancing and exchange
+reduction,
+building
+efficiency
+measures, of
+local
+energy
+local balancing and exof
+energy, and
+the activation
+and engagement
+citizens
+and storage,
+other stakeholders.
+change
+of
+energy,
+and
+the
+activation
+and
+engagement
+of
+citizens
+and
+other astakeholders.
+PEDs are an inherently scalable concept that can grow locally and include
+mix of
+PEDs
+an inherently
+concept
+that
+can grow
+locallythe
+andcombination
+include a mix of
+new and
+oldare
+buildings.
+PEDs arescalable
+not merely
+energy
+projects;
+they require
+new
+andrelevant
+old buildings.
+PEDs are
+not as
+merely
+energy
+projects;
+they mobility
+require the
+combination
+of
+many
+city functions,
+such
+energy
+planning,
+(electric)
+planning,
+urban
+planning,
+(open)
+informationsuch
+and as
+communication
+technology
+(ICT),
+sustainability
+of many
+relevant
+city functions,
+energy planning,
+(electric)
+mobility
+planning, urplans,
+etc. This is(open)
+part ofinformation
+the complexity
+discourse
+in cities and
+the city being
+a primarily
+ban planning,
+and
+communication
+technology
+(ICT),
+sustainability
+social
+should discourse
+include all in
+of cities
+these aspects
+witha the
+plans,complex
+etc. Thissystem
+is part[18–21].
+of the They
+complexity
+and thetogether
+city being
+primarily
+ambition
+to
+create
+a
+liveable
+citizen-oriented
+city
+that
+can
+ensure
+social
+and
+societal
+value.
+social complex system [18–21]. They should include all of these aspects together with the
+The hypothesis is that for developing as well as scaling-up locally—and for replication
+ambition to create a liveable citizen-oriented city that can ensure social and societal value.
+within EU cities—more is needed than external investment or government initiatives
+The hypothesis is that for developing as well as scaling-up locally—and for replicaalone. Citizens and local stakeholders and their needs must be integrated into local
+tion
+within
+EU
+cities—more
+is needed
+investment
+or responsibility
+government initiatives
+processes and
+must
+be provided
+with thethan
+toolsexternal
+and incentives
+to take
+for
+alone.
+Citizens
+and local
+stakeholders
+and their
+must and
+be integrated
+into local
+their
+own
+communities,
+invest
+in local solutions
+forneeds
+local needs
+have the ability
+to processes and
+be provided
+with
+tools (or
+andshape
+incentives
+to take responsibility
+for their
+exploit
+thesemust
+investments
+for their
+ownthe
+benefits
+local strategies,
+regulations, and
+own communities,
+other
+incentives) [21].invest in local solutions for local needs and have the ability to exploit
+definition of
+expected
+impact of(or
+energy
+in PEDsregulations,
+is based on the
+theseThe
+investments
+forthe
+their
+own benefits
+shapecitizenship
+local strategies,
+and other
+societal
+objectives
+that
+PEDs
+are
+supposed
+to
+be
+able
+to
+achieve,
+shown
+in
+Table
+1.
+Given
+incentives) [21].
+the holistic
+perspective
+PEDs,
+this comprises
+a long
+list citizenship
+of societal objectives.
+initial on the
+The definition
+ofon
+the
+expected
+impact of
+energy
+in PEDs An
+is based
+challenge to interdisciplinarity is that the perceived scope of expected impacts differs
+societal objectives that PEDs are supposed to be able to achieve, shown in Table 1. Given
+between the research disciplines. The energy system analyst tends to prioritise the energy
+the holistic perspective on PEDs, this comprises a long list of societal objectives. An initial
+performance of PEDs, while the sociologist focuses on the social impact.
+
+challenge to interdisciplinarity is that the perceived scope of expected impacts differs between the research disciplines. The energy system analyst tends to prioritise the energy
+performance of PEDs, while the sociologist focuses on the social impact.
+
+Buildings 2022, 12, 186
+
+4 of 22
+
+Table 1. Societal objectives associated with PEDs.
+Energy
+
+Environmental
+
+Social
+
+Economic
+
+•
+
+•
+
+•
+•
+•
+•
+•
+•
+
+•
+•
+
+•
+•
+•
+
+Increased renewable
+energy sources (RES)
+Energy savings
+Flexibility/reduce
+congestion
+E-mobility
+
+•
+•
+
+Climate change
+mitigation
+Other emissions
+Circularity
+
+Democracy
+Wellbeing
+Quality of life
+Inclusivity
+Energy justice
+Reducing energy poverty
+
+•
+•
+
+Lower energy cost
+Better business cases for
+local RES
+New energy services
+and products
+Mobilising private
+capital for investments
+
+From a research and innovation perspective, the holistic approach to PEDs poses a
+particular challenge:
+
+•
+
+•
+•
+
+The innovations and measures that collectively establish and comprise a PED cover
+different domains, ranging from the installation of batteries for energy storage to
+motivating residents to establish an energy community.
+The societal objectives also cover different policy domains, as shown in the table.
+Finally, the impact pathways that link innovations and measures to the societal impacts
+they aim to achieve is complex: technical innovations have an impact on economic
+and social impacts; social measures have an impact on greenhouse gas emissions and
+energy efficiency.
+
+As a result, the challenge of research and innovation projects is to identify, pilot and
+evaluate the impact of citizen engagement through energy citizenship, in its different forms,
+working towards societal impact across the societal goals, considering the synergies and
+trade-offs with the other non-social PED components and innovations.
+3. The different Modes of Energy Citizenship in PEDs
+The projects demonstrating the PED concept in cities across Europe assume that
+citizens should want and need to be involved in these new energy concepts, so they are
+successfully deployed in the long term. However, further research is needed to understand
+in what ways and in what roles can citizens be engaged in PEDs [22]. This section explores
+the different modes of energy citizenship.
+3.1. Individual Citizenship
+Energy citizenship can be expressed through the engagement of individuals or households. This includes purchasing green energy, supporting/engaging in energy retrofits,
+engaging in sustainable lifestyles, and actively participating in PED design and operation.
+A hypothesis is that living in a PED district will motivate residents towards behavioural
+changes, e.g., in the ATELIER project [23]. Behavioural change is both a strategy for citizen
+engagement and an expected outcome of citizen engagement.
+3.2. Local Energy Initiatives
+Citizens can also engage with the energy system through collective initiatives. This
+can range from taking part in non-formalised groups that motivate neighbours towards
+energy savings, to becoming active market entities as part of local energy initiatives (LEIs).
+These are communities of households who self-organise to meet their energy demand with
+locally produced green energy, as a well as promoting energy savings [24].
+3.3. Energy Citizenship through Local Energy Communities
+Through the Clean Energy for all Europeans package, the EU has introduced the
+concept of energy communities in its legislation, notably as citizen energy communities
+and renewable energy communities [25]. The Directive on common rules for the internal
+electricity market includes new rules that enable active consumer participation, individually
+or through citizen energy communities, in all markets, either by generating, consuming,
+
+Buildings 2022, 12, 186
+Buildings 2022, 12, x FOR PEER REVIEW
+
+5 of 22
+
+5 of 23
+
+sharing, or selling electricity, or by providing flexibility services through demand–response
+and
+storagethe
+[26].role
+In addition,
+the revised
+Renewableand
+Energy
+Directive
+aimscommunities
+to strengthen[27].
+strengthen
+of renewables
+self-consumers
+renewable
+energy
+the
+role
+of
+renewables
+self-consumers
+and
+renewable
+energy
+communities
+[27].
+From role
+From the business model point of view, citizens are empowered to occupy
+a central
+the
+business
+model
+point
+of
+view,
+citizens
+are
+empowered
+to
+occupy
+a
+central
+role
+in
+in Local Energy Communities (LECs), Renewable Energy Communities (REC), or similar
+Local Energy Communities (LECs), Renewable Energy Communities (REC), or similar
+concepts that could potentially support PEDs as a new energy market model [15]. Most
+concepts that could potentially support PEDs as a new energy market model [15]. Most
+R&I projects on PEDs are investigating local energy communities as the potential driver
+R&I projects on PEDs are investigating local energy communities as the potential driver of
+of PED development and operation.
+PED development and operation.
+
+Energy communities as aggregators
+
+Distributed
+energy resources
+(DERs) are small and medium-sized power resources con3.4.
+Energy Communities
+as Aggregators
+nected
+to the distribution
+network.
+Aggregators
+DERs to engage
+a single enDistributed
+energy resources
+(DERs)
+are small bundle
+and medium-sized
+powerasresources
+tity—a virtual
+plant—in
+powerAggregators
+or service markets.
+The services
+they
+connected
+to thepower
+distribution
+network.
+bundle DERs
+to engage
+as acould
+singleoffer
+are load shifting,
+balancing
+and local
+flexibility
+[28].
+Concepts
+in how
+they distribute
+entity—a
+virtual power
+plant—in
+power
+or service
+markets.
+The differ
+services
+they could
+offer
+generation
+and
+grid
+operation.
+In
++CityxChange,
+one
+concept
+is
+that
+of
+a
+Community
+are load shifting, balancing and local flexibility [28]. Concepts differ in how they distribute Sysgeneration
+and(CSO),
+grid operation.
++CityxChange,
+is by
+thata of
+a Community
+tem Operator
+which canIneither
+be owned one
+andconcept
+operated
+community,
+a set of
+System
+Operator
+which can
+bein
+owned
+and operated
+by a This
+community,
+a set
+of is
+buildings,
+or the(CSO),
+grid operator
+aseither
+a shift
+business
+models [29].
+business
+model
+buildings,
+or
+the
+grid
+operator
+as
+a
+shift
+in
+business
+models
+[29].
+This
+business
+model
+is
+being piloted extensively across the EU. In practice, this means that members of a citizen
+being
+piloted
+extensively
+across
+the
+EU.
+In
+practice,
+this
+means
+that
+members
+of
+a
+citizen
+energy community mandate a coordinator (system operator) to trade with the energy marenergy
+kets on community
+their behalf.mandate a coordinator (system operator) to trade with the energy
+markets
+on peer2peer
+their behalf.energy trading (P2P) and flexibility trading within an energy comLocal
+munity
+3.5.
+Local Peer2Peer Energy Trading (P2P) and Flexibility Trading within an Energy Community
+The P2P model creates an online marketplace where prosumers and consumers can
+The P2P model creates an online marketplace where prosumers and consumers can
+trade electricity, without an intermediary, at their agreed price. Trading based on P2P
+trade electricity, without an intermediary, at their agreed price. Trading based on P2P
+models could
+couldmake
+makerenewable
+renewableenergy
+energy
+more
+accessible,
+empower
+consumers
+allow
+models
+more
+accessible,
+empower
+consumers
+and and
+allow
+them
+to
+make
+better
+use
+of
+their
+energy
+resources
+[30].
+In
+addition,
+participants
+in
+them to make better use of their energy resources [30]. In addition, participants in locallocal
+flexibility markets
+marketscould
+couldtrade
+tradewith
+with
+each
+other
+[31–34].
+example,
+implies
+flexibility
+each
+other
+[31–34].
+ForFor
+example,
+thisthis
+implies
+that that
+a a
+resident
+allows
+the
+central
+system
+operator
+to
+(partly)
+control
+its
+electric
+appliances,
+resident allows the central system operator to (partly) control its electric appliances, heat heat
+pumpand
+andelectric
+electricvehicle
+vehiclecharging
+charging
+collective
+reduce
+peak
+loads,
+for which
+the resident
+pump
+toto
+collective
+reduce
+peak
+loads,
+for which
+the resident
+receives
+is is
+limited
+experience
+in demonstrating
+thisthis
+model.
+receivesaafinancial
+financialfee
+fee(Figure
+(Figure2).2).There
+There
+limited
+experience
+in demonstrating
+model.
+
+Figure 2.2. Peer
+Peerto
+topeer
+peertrading
+trading(P2P).
+(P2P).
+Reproduced
+with
+permission
+under
+access
+Figure
+Reproduced
+with
+permission
+under
+openopen
+access
+fromfrom
+[30]. [30].
+
+3.6. The
+Citizen
+as Energy
+Market
+Player
+TheEnergy
+energy
+citizen
+as energy
+market
+player
+In most
+projects
+on PEDs,
+the collective
+energy
+flexibility
+trading
+models
+In most
+R&I R&I
+projects
+on PEDs,
+the collective
+energy
+andand
+flexibility
+trading
+models
+(aggre(aggregators)
+are regarded
+a key
+innovation
+achievingthe
+theimpact
+impact on
+on energy
+gators) are regarded
+as aas
+key
+innovation
+in in
+achieving
+energytransition,
+transition, in
+in
+particularthe
+theincreased
+increasedshare
+share of
+systems.
+In most
+cases,
+individual
+particular
+of RES
+RESin
+inlocal
+localenergy
+energy
+systems.
+In most
+cases,
+individual
+P2P
+energy
+and
+flexibility
+trading
+is
+also
+investigated.
+These
+can
+be
+seen
+as
+new
+P2P energy and flexibility trading is also investigated. These can be seen asmodalities
+new modaliof energy citizenship that go beyond the more traditional individual roles described above.
+ties of energy citizenship that go beyond the more traditional individual roles described
+These models rely on citizens being able and willing to (1) become members of energy
+above.
+communities; (2) commit to external trading through a central operator, and (3) even take
+These models rely on citizens being able and willing to (1) become members of energy communities; (2) commit to external trading through a central operator, and (3) even
+take an individual role as a market player in P2P trading. Ability and willingness as well
+as the related drivers and barriers are therefore main topics for research in this area.
+
+Buildings 2022, 12, 186
+
+6 of 22
+
+Buildings 2022, 12, x FOR PEER REVIEW
+
+6 of 23
+
+an individual role as a market player in P2P trading. Ability and willingness as well as the
+this respect,
+a distinction
+can be
+made
+between
+activeinversus
+passive engagement,
+relatedIndrivers
+and barriers
+are therefore
+main
+topics
+for research
+this area.
+andInwhether
+it
+makes
+a
+difference
+when
+considering
+energy
+citizenship.
+If a citizen signs
+this respect, a distinction can be made between active versus passive engagement,
+a contract
+the aoperator
+the PED
+energyenergy
+system,
+which allows
+the operator
+and
+whetherwith
+it makes
+differenceofwhen
+considering
+citizenship.
+If a citizen
+signs a to accontract
+with thethe
+operator
+of the
+PEDautomatically
+energy system,towhich
+allows
+operator
+to actively
+tively control
+personal
+assets
+optimise
+thethe
+local
+system
+with economic
+control
+thefor
+personal
+assets(for
+automatically
+optimise the
+system
+economic
+benefits
+the citizens
+example, ifto
+appliances
+are local
+turned
+off towith
+reduce
+peak load aubenefits
+for the
+citizensintervention
+(for example,
+appliances
+areisturned
+offato
+reduce
+peak load From
+tomatically
+without
+ofifthe
+residents)
+this still
+form
+of citizenship?
+automatically
+without
+intervention
+the residents)
+is this still compared
+a form of citizenship?
+From
+an impact point
+of view,
+it doesofnot
+make a difference
+to active management
+an impact point of view, it does not make a difference compared to active management
+by the resident. From a sociological perspective, it may do. The lack of consensus among
+by the resident. From a sociological perspective, it may do. The lack of consensus among
+researchers is a barrier towards interdisciplinary research; there is no common object of
+researchers is a barrier towards interdisciplinary research; there is no common object of
+research.
+this
+paper,
+consider
+passive
+citizenship
+research.
+InIn
+this
+paper,
+we we
+consider
+passive
+citizenship
+also. also.
+
+Impact pathways on energy citizenship
+
+3.7.
+Impact
+Pathways
+on Energy
+In the
+previous
+section,
+we Citizenship
+identified, first, a long list of societal impacts that PEDs could
+
+achieve
+engagement
+of citizens,
+of different
+that energy
+In thethrough
+previousthe
+section,
+we identified,
+first, a and
+long (2)
+list aoflist
+societal
+impactsways
+that PEDs
+could
+achievecould
+through
+the engagement
+citizens,
+and
+(2) a list (Figure
+of different
+ways
+that
+citizenship
+be included
+in PEDofdesign
+and
+operation
+3). For
+assessing
+the
+energy
+citizenship
+could
+be included
+in PED
+design and
+operation
+(Figure 3).
+For
+assessing
+impact
+of energy
+citizenship,
+impact
+pathways
+need
+to be drawn
+that
+depict
+the project
+the
+impact
+energy
+citizenship,
+impactFor
+pathways
+need
+be drawn
+that depict
+the project
+logic
+andofthe
+causal
+relationships.
+example,
+antoimpact
+pathway
+described
+the causal
+logic
+and
+the
+causal
+relationships.
+For
+example,
+an
+impact
+pathway
+described
+causal RES in
+relationship on how establishing a PED energy community can lead to the
+increased
+relationship on how establishing a PED energy community can lead to increased RES in the
+the PED. The pathway addresses the intermediate steps related to the willingness to join
+PED. The pathway addresses the intermediate steps related to the willingness to join energy
+energy communities, the willingness to pay more for local RES and, as a result, the imcommunities, the willingness to pay more for local RES and, as a result, the improved
+proved cases.
+business
+cases.these
+Defining
+these cross-domain
+and cross-disciplinary
+pathways
+rebusiness
+Defining
+cross-domain
+and cross-disciplinary
+pathways requires
+a
+quires
+a
+transdisciplinary
+approach.
+transdisciplinary approach.
+
+Figure 3. Impact pathways from energy citizenship towards societal impact.
+
+Figure 3. Impact pathways from energy citizenship towards societal impact.
+4. Transdisciplinary Research on Energy Citizenship in PEDs
+
+4. Transdisciplinary
+Research
+on Energy
+Citizenship
+ininterPEDsand transdisciplinary
+In this section, we discuss
+different
+perspectives
+on multi-,
+
+research,
+and adopt
+a definition
+for different
+the purpose
+of this paper.
+research
+In this
+section,
+we discuss
+perspectives
+onMultidisciplinary
+multi-, inter- and
+transdiscipliarises
+multiple
+disciplines
+investigate
+single
+problem
+but paper.
+do so as
+if each were
+nary when
+research,
+and adopt
+a definition
+for athe
+purpose
+of this
+Multidisciplinary
+reworking
+within
+their
+own
+disciplinary
+setting
+[35].
+Multidisciplinary
+research
+is
+thus
+charsearch arises when multiple disciplines investigate a single problem but do so as if each
+acterised by gathering knowledge from various disciplines and enriching the knowledge
+were working within their own disciplinary setting [35]. Multidisciplinary research is thus
+about that problem by adding multiple views, but without crossing disciplinary boundcharacterised by gathering knowledge from various disciplines and enriching the
+aries [35,36]. In other words: people from different disciplines working together, each
+knowledge
+about
+problemknowledge.
+by adding multiple views, but without crossing disciplidrawing
+on their
+ownthat
+disciplinary
+
+nary boundaries [35,36]. In other words: people from different disciplines working together, each drawing on their own disciplinary knowledge.
+Research on energy participation has shown the importance of multidisciplinary approaches [37–39]. For example, Romero et al. [40] demonstrated the contribution of applying Mixed Method research [41] in generating rich data on buildings’ occupants’ subjec-
+
+Buildings 2022, 12, 186
+
+7 of 22
+
+Research on energy participation has shown the importance of multidisciplinary
+approaches [37–39]. For example, Romero et al. [40] demonstrated the contribution of
+applying Mixed Method research [41] in generating rich data on buildings’ occupants’
+subjective value when managing their energy consumption. By combining motivational
+(e.g., Self-Determination Theory in work environments [42], in situ occupancy monitoring [43–45] and interaction design methods, holistic knowledge has been generated. This
+knowledge aims to describe and explain occupants’ behaviour towards energy management. It provides a holistic understanding of what drives occupants to manage their energy
+and how the practice of managing can be optimised to reach a higher and more active
+involvement.
+Interdisciplinary research integrates knowledge and methods from different disciplines, using a real synthesis of approaches. Interdisciplinarity is a process of answering
+a question, solving a problem, or addressing a topic that is too broad or complex to be
+dealt with adequately by a single discipline or profession. Interdisciplinarity studies draw
+on disciplinary perspectives and integrate their insights through construction of a more
+comprehensive perspective. One of the biggest challenges in interdisciplinary research is
+achieving effective communication between experts from different disciplines in order to
+create a level playing field amongst (project) participants and be able to let them confront,
+debate, and negotiate ideas and perspectives in order to facilitate sufficient integration
+of knowledge [29,30]. Transdisciplinarity is a reflexive research approach that addresses
+societal problems by means of interdisciplinary collaboration as well as the collaboration
+between researchers and extra-scientific actors. Its aim is to enable mutual learning processes between science and society where integration is the main cognitive challenge of the
+research process [46].
+For the purpose of this paper, we adopt the definitions from the SHAPE-ID project on
+shaping inter- and transdisciplinary research practices in Europe, as this project is based
+on a recent mapping and scanning of both literature and practices, consolidated with
+consultations of a broad range of practitioners (Table 2) [47,48].
+Table 2. Definition of multi-, inter-, and transdisciplinary research. Reproduced with permission
+under open access from [47,48].
+Multidisciplinary
+
+•
+
+•
+
+•
+
+Interdisciplinary
+
+Juxtaposes separate disciplinary
+approaches around a
+common interest
+Where researchers from each
+discipline work in a
+self-contained manner
+Little cross fertilisation
+(“integration”) among disciplines or
+synergy in the research outcomes
+
+Transdisciplinary
+
+•
+•
+
+•
+•
+
+Involves bodies of knowledge
+derived from more than
+one discipline.
+Strives for collaboration
+between disciplines.
+Aims to integrate knowledge, at
+least to some extent.
+
+•
+
+•
+•
+
+Intends to transgress boundaries
+between disciplinary knowledge
+Intends to integrate different bodies
+of knowledge and create
+new knowledge
+Develops new interdisciplinary
+research methods
+Tends to imply active co-creation of
+knowledge between academic and
+societal partners
+
+4.1. The Need for Transdisciplinary Research in PEDs
+In research and innovation (R&I) projects in climate neutral, smart, and inclusive cities,
+the perspective and role of citizens is being increasingly recognised and addressed. For the
+Smart Cities and Communities Programme under Horizon 2020, which funded several of
+the project presented as case studies in this paper, the objective of R&I projects is described
+as bringing together research, cities, industry and citizens to demonstrate solutions and
+business models that can be scaled up and replicated, and that lead to measurable benefits
+in energy and resource efficiency, new markets and new jobs. R&I projects are always
+structured around demonstration projects. The question that arises is how applied research
+can support the design and implementation of effective policies and actions of public and
+
+Buildings 2022, 12, 186
+
+8 of 22
+
+non-public stakeholders for energy citizenship to have the maximum contribution to the
+range of public/societal goals.
+Speeding up the energy transition requires an encompassing approach that needs
+to bring together social, economic, and technical aspects. Therefore, most current R&I
+projects are emphasising the need to move from multidisciplinarity (people from different disciplines working together, each drawing on their disciplinary knowledge) to
+interdisciplinarity (integrating knowledge and methods from different disciplines, using
+a real synthesis of approaches). In the area of energy citizenship, the involvement of
+non-academics in research is important, thus requiring transdisciplinary approaches.
+Energy-positive districts (PED) can be achieved through the integration of technical,
+economic and community-level social innovation. One of these innovations, collective
+energy citizenship through local energy communities, could potentially contribute to
+environmental, economic, and social objectives, of which climate change mitigation has
+the highest priority. These communities could facilitate local energy system optimisation,
+raise private capital for renewable energy, and promote sustainable behaviour. The exante and ex-post assessment of these impacts is crucial to the selection and design of
+communities’ models and for deciding on the role of this innovation in urban energy and
+climate mitigation policies [34–36].
+This impact research requires a transdisciplinary approach, which intends to transgress
+boundaries between disciplinary knowledge; integrate different bodies of knowledge and
+create new knowledge; develop new interdisciplinary research methods; and imply active
+co-creation of knowledge between academic and societal partners:
+1.
+2.
+
+3.
+
+The promotion of energy citizenship in PEDs could have an impact on the social,
+economic, energy and environmental societal goals.
+The promotion of energy citizenship comprises a range of measures from social
+interventions, such as providing information and motivation; technical measures,
+such as providing the ICT platform for trading, and the interfaces between residents
+and the energy systems; and economic incentives (pricing).
+The impact of intervention along the impact pathways should imply many interlinkages and dependencies between the domains and disciplines.
+
+4.2. How to Assess the Progress towards Transdisciplinarity?
+In current practice in R&I in the area of energy transition, research is still multidisciplinary, involving separate disciplinary approaches around a common interest, working in
+a self-contained manner and with little cross fertilisation (“integration”) among disciplines
+or synergy in the research outcomes.
+The next question is how to assess and evaluate ongoing R&I projects on the progress
+towards an inter- and transdisciplinary research. The starting point is to “promote problemdriven interdisciplinary research, prioritising the scientific problems behind the energy
+transition instead of disciplinary preoccupations” [48]. The following is a tentative list of
+areas for evaluation on the progress towards transdisciplinarity. This framework is the
+basis of the evaluation framework of the case studies presented in the following section.
+1.
+2.
+3.
+4.
+5.
+
+Level of common vision across disciplines on PEDs and energy citizens as object of
+research, impact targets and pathways between research outcomes and impact.
+Progress in development and application of shared research methodology and impact
+assessment framework, complementing disciplinary approaches.
+Progress on qualitative and quantitative (interim) results on impact indicators towards
+societal goals
+Levels of citizen’s involvement in the design and implementation of research (beyond
+being the object of research).
+Initial structure of the project proposal that might enable or constrain, already from
+the beginning, inter and transdisciplinary approaches.
+
+Buildings 2022, 12, 186
+
+9 of 22
+
+6.
+
+7.
+
+Evaluation of the project activities envisioned at proposal stage/first year of the project
+to gain potential missing knowledge/experience to reach desirable levels of inter- or
+transdisciplinarity (depending on what is desirable according to the project goals).
+Level of common vocabulary/terminology among different disciplines (and nonacademic actors) and efforts made to reach a common “glossary” as a starting point
+for the project.
+
+5. Case Studies of Six European Smart City Projects
+This section presents six case studies of R&I projects, which together illustrate a set
+of multiple different approaches to researching the models of energy citizenship in PEDs
+and the evaluation of impact, and varying approaches to interdisciplinary research. Four
+projects are focused on PEDs (ATELIER, +CityxChange, MAKING-CITY, and POCITYF).
+The project MySMARTlife, though not focused on PEDs, addresses the same set of innovations. They are all part of the EU’s Smart Cities and Community Programme. Finally,
+ENERGE addresses education as a key intervention for energy citizenship.
+5.1. Amsterdam Bilbao Citizen-Driven Smart Cities (ATELIER)
+ATELIER is an EU-funded Smart City project aiming to create and replicate Positive
+Energy Districts within two lighthouse cities, Amsterdam and Bilbao, and six fellow
+cities [23]. Co-creation, citizens’ energy communities, and behavioural change are the main
+strategies for citizen engagement. The project, with a duration of 5 years, is currently in its
+third year. In this phase, the project’s approach and detailed activities are being designed
+and tested. Ongoing activities include collaboration with existing energy communities in
+the district that serve as testing grounds and to establish so-called Innovation Ateliers that
+serve as a multi-stakeholder platform, addressing upscaling of specific PED innovations.
+ATELIER as a research and innovation project is similar to +CityxChange, POCITYF
+and MAKING-CITY in the high-level objectives for the role of citizens in the project. Cocreation, citizens’ energy communities, and behavioural change are the main strategies.
+The concept of energy citizenship is not yet introduced explicitly in ATELIER. The PED
+demonstration in Amsterdam has commenced construction. This is supported by increased
+exchange and cooperation with other ongoing projects, and an internal interim evaluation
+process. Ongoing activities include [23,49]:
+
+•
+
+•
+
+•
+
+Collaborating with previously established energy communities in the district that
+serve as testing grounds and as inspiration for the new larger scale communities that
+will be established in the Amsterdam demonstration.
+Establishing so-called Innovation Ateliers that serve as a multi-stakeholder platform
+addressing issues coming up amongst the stakeholders during the innovation project,
+as well as upscaling of specific PED innovations, such as energy communities.
+Organising artistic interventions and low-threshold activities with residents in the
+area related to energy transition, in cooperation with local organisations. The activities
+are expected to offer the possibility to learn about (more) community initiatives in the
+energy transition and learn about preferred participation roles of various actors. Some
+activities had to be cancelled due to the pandemic.
+The preliminary findings are:
+
+•
+
+•
+
+The main components of the Amsterdam PED demo are two new developments
+(blocks of buildings) as well as an established smaller community. This implies for
+the new developments that the future inhabitants were not directly involved in the
+design of the buildings. The scope for co-creation and citizens’ energy communities is
+therefore limited to specific components of the PEDs only.
+The work package structure, with a separate WP for citizen engagement and a separate
+one for the demonstration projects, is common for this kind of R&I project. However,
+this structure hampers breaking the silos towards multidisciplinary work methods, as
+cross-cutting activities are not core business. A common research methodology across
+disciplines is still under development, allowing an interdisciplinary way of working.
+
+Buildings 2022, 12, 186
+
+10 of 22
+
+•
+
+•
+
+•
+
+•
+
+There is a need for a common vision across project partners and involved stakeholders,
+who are predicted to be impacted by energy citizenship as a hypothesis. For example,
+will energy citizenship contribute to a reduction in greenhouse gas emissions as well
+as to social objectives?
+Related to this is the need to map the impact pathways starting from the project’s
+interventions to the desired impact. This will help to identify synergies and trade-offs
+between different targets. To this purpose, the Innovation Ateliers will address energy
+communities, and a Theory of Change is being developed.
+The citizens and future inhabitants of the Amsterdam PED are primarily higher
+income. Upscaling and replication of PEDs in Amsterdam requires the transition to
+other demographics in the city. The methodology for assessing the different impacts
+and the interventions is still under development.
+The resident’s willingness to participate in community level and peer2peer trading
+may be low, due to lack of clarity on conditions and risks, among other reasons.
+
+In the area of energy citizenship, the impact research is still primarily multidisciplinary.
+The concept as well as the focus of the expected societal goals are very dependent on the
+framing by the disciplines and individual researchers. Additionally, a transdisciplinary
+approach, involving citizens in the research activity itself, still needs to be established.
+5.2. +CityxChange: Positive City Exchange
+Within +CityxChange, the lighthouse cities Trondheim (Norway) and Limerick (Ireland) are developing demonstration projects in climate-friendly and sustainable urban
+environments towards Positive Energy Blocks and Districts [29]. They are understood as a
+way to increase and integrate local renewables in an approach driven by cities, citizens, and
+stakeholders as part of the local energy transition. +CityxChange places particular emphasis on the role of citizens as co-innovators—explorers, ideators, designers and diffusers—in
+the co-creation and replication of Positive Energy Blocks and Districts [29,50]. Main demos
+towards this are six interconnected CommunityxChange solutions which can operate as an
+integrated toolkit, focusing on citizen empowerment through measures including citizen
+observatories in the form of innovation labs and activation of the local innovation ecosystems through innovation playgrounds [51], together forming an urban living lab approach
+(Figure 4); implementation of open calls for citizen solutions; a Positive Energy Champion
+Network; and investment and engagement activities to enable citizens to invest in their
+own buildings for efficiency measures and local energy generation.
+The work is informed by Arnstein’s ladder of participation [52], the transtheoretical
+model of behaviour change [53], and is placed within an overarching framework of Open
+Innovation 2.0 [54] and Quadruple Helix collaboration [55]. A specific focus lies on process
+innovation and social innovation aspects.
+The project aims at multilevel impacts, ranging from individual engagement measures,
+events, or labs, up to strategic alignment of cities and overhauling city transition processes.
+Preliminary insights gained so far, which will be further validated, include [56–58]:
+
+•
+•
+
+•
+•
+•
+•
+
+Cities use different governance process partnership models, and physical solutions to
+implement PEDs, dependent on local context.
+Non-technical factors such as streamlining, organisational relationships, funding
+approaches and stakeholder engagement are crucial for complex projects such as
+this one.
+Understanding and working with regulatory barriers on energy trading is vital [59,60].
+Designing, implementing, and managing PEDs needs ongoing monitoring, evaluation,
+mitigation, and adaptation, based on what is learnt during the activities.
+Initial stakeholder mapping for project development should be revisited and refined
+as the PED matures.
+Reanalysis of technical feasibility in areas and buildings for specific measures
+is necessary.
+
+Buildings 2022, 12, 186
+
+11 of 22
+
+•
+
+With the right stakeholders involved and suitable local and political anchoring, adaptations and pivoting are possible (for example regarding COVID-19 impacts), and
+may ultimately strengthen stress-tested solutions. While initially defined (technical)
+impacts may have to be reduced, resilience and replicability may be increased.
+•
+Financial costs are still one of the significant barriers to scaling.
+•
+Complex projects in cities can benefit from a portfolio approach addressing a range of
+contexts and linked with the EU Cities Missions.
+•
+The citizen role of co-innovator has been adopted by the project in activities such
+as citizen labs, innovation playgrounds, and hackathons. In the Positive Energy
+Champion Campaign, citizens were observed to migrate across various co-innovator
+roles and themes when developing and implementing their individual step-by-step
+plans for change [61].
+•
+Citizens engaged to date demonstrate a strong commitment to the clean energy transition but can feel disempowered by the need for systemic change.
+•
+We cannot make this only the responsibility of citizens. A fair distribution of risks and
+Buildings 2022, 12, x FOR PEER REVIEW benefits between citizens and professional stakeholders is important.
+11 of 23
+•
+Societal benefits as a societal mission should be linked with climate action.
+
+Figure
+Lab
+concept.
+Reproduced
+withwith
+permission
+under
+openopen
+Figure 4.
+4. Illustration
+Illustrationofofthe
+theDPEB
+DPEBInnovation
+Innovation
+Lab
+concept.
+Reproduced
+permission
+under
+access
+from
+[51].
+access from [51].
+
+5.3. ENERGE: Energising Education to Reduce Greenhouse Gas Emissions
+
+The project aims at multilevel impacts, ranging from individual engagement
+
+The ENERGE project will improve recognition among the whole secondary school
+measures, events, or labs, up to strategic alignment of cities and overhauling city transipopulation of the issues (climate, societal, economic, environmental) associated with excestion greenhouse
+processes. Preliminary
+insights gained
+so far, which
+willthis
+be further
+include
+sive
+gas (GHG) emissions
+[62]. ENERGE
+addresses
+need to validated,
+engage school
+[56–58]:
+actors in low-cost energy efficient solutions, as well as to target behavioural, communal, and
+organisational
+By meansprocess
+of monitoring
+building
+sensorsand
+(e.g.,
+electrical,
+in•
+Cities useinterventions.
+different governance
+partnership
+models,
+physical
+solutions
+door to
+climate,
+etc.), sociological
+studies, on
+andlocal
+newcontext.
+educational approaches, ENERGE creates
+implement
+PEDs, dependent
+a• systemic
+and holistic
+understanding
+of how schools
+engage in energy
+and GHGfunding
+mitiga- apNon-technical
+factors
+such as streamlining,
+organisational
+relationships,
+tion. proaches
+ENERGE and
+will stakeholder
+be demonstrated
+in
+thirteen
+secondary
+schools
+in
+France,
+Germany,
+engagement are crucial for complex projects such as this
+Luxembourg,
+Ireland, the Netherlands, and the UK. An integrated ENERGE platform puts
+one.
+together
+novel data interactions
+and teaching
+strategies for
+engaging
+teachers
+•
+Understanding
+and working
+with regulatory
+barriers
+on students
+energy and
+trading
+is vital
+in new energy and comfort practices. Students are involved in the design of the ENERGE
+
+•
+•
+
+[59,60].
+Designing, implementing, and managing PEDs needs ongoing monitoring, evaluation, mitigation, and adaptation, based on what is learnt during the activities.
+Initial stakeholder mapping for project development should be revisited and refined
+as the PED matures.
+
+Buildings 2022, 12, 186
+
+12 of 22
+
+solution and at a later stage in the design and execution of energy efficiency interventions,
+using their schools as living labs.
+The project has analysed the education governance structures in Europe in general and
+in the six pilot countries specifically, to investigate the decision-making power of secondary
+schools in Europe. Whilst around a third of European countries grant a high degree of
+autonomy to schools for managing financial and human resources, in a small group of
+countries—Germany, Greece, France (primary education), Cyprus, Luxembourg (primary
+education), Malta and Turkey—schools have very limited or no freedom in this area [63]. In
+general, schools have more autonomy on operational expenses than on capital expenditures.
+Empowering students to increase the energy efficiency of their schools and experiment
+Buildings 2022, 12, x FOR PEER REVIEW
+13 of 23
+with new energy concepts is therefore limited by the level of autonomy a school has, as is
+the possibility for school headmasters and teachers to introduce living lab-style education.
+By means of two rounds of co-design sessions, the project has generated contextual
+The School
+Educator
+the teacher
+who
+is fullyand
+dedicated
+in thesurrounding
+educational
+knowledge
+on the
+presentrepresents
+understanding,
+values,
+practices
+preferences
+obligations
+and
+has
+little
+time
+for
+tasks
+beyond.
+Practicability
+and
+efficiency
+are
+the key.
+energy and comfort in European secondary schools. The co-design sessions were
+conThe
+highly engaged
+in coordinating
+promoting
+ducted
+in Life
+the Educator
+first yearisofthe
+theteacher
+project,who
+andiscombined
+techniques
+from contextand
+mapping
+and
+the green actives
+at the
+school.
+They
+are passionate
+about passing
+on the
+of
+stakeholder
+analysis.
+Small
+groups
+of students
+and teachers
+were invited
+to knowledge
+participate in
+sensitising
+activities
+prior
+the sessions
+and the sessions
+themselves,
+representing
+each
+sustainability
+to their
+students
+and colleagues.
+New tools
+and platforms
+related
+to the
+the
+thirteen
+schools.
+climate are
+favoured by this group.
+Archetypes
+have been
+preliminary
+defined
+provide
+an overview
+of the
+diverse
+In general, students
+show
+little initiative
+in to
+terms
+of actively
+engaging
+in changes,
+level
+of
+awareness
+and
+active
+commitment
+to
+engage
+in
+meaningful
+discussions
+as
+wellunas
+due to reasons such as accepting the status quo and keeping a “cool image” of being
+actionable
+forthere
+change.
+The students
+archetypes
+were framed
+the four
+of
+interested.practices
+However,
+are also
+showing
+interestunder
+for change
+yetquadrants
+not actively
+conformism
+the following
+two
+dimensions
+(1) The user’s
+mindset
+engaging inconsidering
+it, and a smaller
+group of
+students
+who [64]:
+are actively
+involved
+whiletowards
+feeling
+managing
+indoor
+climate
+at to
+school,
+(2) his/her
+activeness
+taking sustainable
+actions
+the need to
+involve
+others
+makeand
+impactful
+changes.
+Fromof
+teachers,
+the work pressure
+(e.g.,
+speaking
+up
+his/her
+mind,
+initiating
+a
+school
+event).
+Each
+archetype
+illustrates
+the
+indicated the presence of two archetypes: one that focuses their teaching efforts on covercharacteristics,
+needs
+and
+wishes
+of
+potential
+users.
+Figure
+5
+illustrates
+the
+archetypes
+in
+ing all aspects in the educational curriculum, and one that explores ways to apply the
+the
+four
+quadrants
+of
+conformism.
+Below
+is
+a
+brief
+description
+of
+each:
+knowledge into societal issues, such as sustainability.
+
+Figure
+ENERGE school
+schoolarchetypes
+archetypesdescribing
+describingattitudes
+attitudestowards
+towards
+energy
+management
+two
+Figure 5.
+5. ENERGE
+energy
+management
+onon
+two
+didimensions
+the
+level
+of
+awareness
+and
+active
+commitment.
+Reproduced
+with
+permission
+under
+open
+mensions the level of awareness and active commitment. Reproduced
+permission under open
+accessfrom
+from[62].
+[62].
+access
+
+The
+Changer
+most activeboth
+potential
+userand
+whostudents
+cares and
+fights the
+for creating
+a greener
+With
+regardistothe
+preferences,
+teachers
+express
+need to (a)
+generschool
+environment.
+This
+group
+dares
+to
+break
+the
+conformism
+and
+challenge
+the
+tradition.
+ate awareness and an evidence-based understanding of the implications of their
+school
+Although
+are just
+minority
+among
+the astudents,
+theyofwant
+their
+voices
+to
+needs andthey
+activities
+on aenergy
+use,group
+and (b)
+generate
+critical mass
+actors
+in the
+school
+be
+to heard.
+be effective in acting and making changes.
+The presented knowledge has been used as input for the first intervention to be deployed at all schools. The intervention aims to explore and define the role of energy and
+comfort data visualisations and interactions, to increase awareness and activate students
+and teachers. By means of interactive challenges, the intervention aims to help students
+and teachers to identify relevant comfort and energy issues and understand their impact.
+The first iteration of the intervention will focus on students’ and teachers’ engagement by
+
+Buildings 2022, 12, 186
+
+13 of 22
+
+The Liker, is aware of the impact of the climate change, but prefers to stay modest
+with his/her options. This group want to be cool and be liked by their peers. Being an
+anonymous/low-key contributor is acceptable but speaking up is way too nerdy.
+The Lurker represents the majority of the students, who do not want to share or do not
+know sharing his or her opinion can make a difference. This group is a bigger fan of social
+media than our planet.
+The School Educator represents the teacher who is fully dedicated in the educational
+obligations and has little time for tasks beyond. Practicability and efficiency are the key.
+The Life Educator is the teacher who is highly engaged in coordinating and promoting
+the green actives at the school. They are passionate about passing on the knowledge of
+sustainability to their students and colleagues. New tools and platforms related to the
+climate are favoured by this group.
+In general, students show little initiative in terms of actively engaging in changes,
+due to reasons such as accepting the status quo and keeping a “cool image” of being
+uninterested. However, there are also students showing interest for change yet not actively
+engaging in it, and a smaller group of students who are actively involved while feeling the
+need to involve others to make impactful changes. From teachers, the work pressure indicated the presence of two archetypes: one that focuses their teaching efforts on covering all
+aspects in the educational curriculum, and one that explores ways to apply the knowledge
+into societal issues, such as sustainability.
+With regard to preferences, both teachers and students express the need to (a) generate
+awareness and an evidence-based understanding of the implications of their school needs
+and activities on energy use, and (b) generate a critical mass of actors in the school to be
+effective in acting and making changes.
+The presented knowledge has been used as input for the first intervention to be
+deployed at all schools. The intervention aims to explore and define the role of energy and
+comfort data visualisations and interactions, to increase awareness and activate students
+and teachers. By means of interactive challenges, the intervention aims to help students
+and teachers to identify relevant comfort and energy issues and understand their impact.
+The first iteration of the intervention will focus on students’ and teachers’ engagement by
+involving desired qualities such as, “fun”, “challenging” and “social”. In later iterations,
+the focus will lie on (a) integrating knowledge generated by other partners in the project
+in relation to teaching modules, energy strategies and social practices for change; and
+(b) scaling up issues, actions and impact across ENERGE schools and ultimately to schools
+outside ENERGE.
+5.4. MAKING-CITY
+MAKING-CITY aims to demonstrate the possibilities of the PED concept by implementing and/or replicating the findings of two lighthouse cities, Groningen and Oulu, in
+six follower cities in Europe [65]. One of the main challenges for developing PED districts
+is raising awareness among residents on the energy transition and relating this to the local
+issues, such as climate adaptation, (e-)mobility and public green. In Oulu, an operational
+model was adopted based on community “bridges” and forums that are publicly accessible,
+whereas in Groningen, Unified Citizen Engagement Approach (UCEA) was developed,
+which involves individuals, local initiatives, and the municipality.
+Currently, the UCEA is being tested and evaluated in several neighbourhoods in
+Groningen in collaboration with several local energy initiatives. The UCEA is an integrated
+approach which combines the perspectives of the individual, the cooperative and the
+municipality, suggesting pathways and interactions for each of the three actors in the
+process. In accordance with the flexible nature of the citizen engagement process, it is
+a dynamic and iterative model, suggesting tools and methods that could be utilised to
+achieve certain milestones in energy transition. The key challenges are:
+
+•
+
+Building a solid foundation of community trust is essential for any type of intervention
+to be supported by the neighbourhood. In Groningen, the erosion of trust in (local)
+
+Buildings 2022, 12, 186
+
+14 of 22
+
+•
+
+•
+•
+•
+
+•
+
+government due to the earthquakes in the region makes the community weary of
+government interventions in their neighbourhoods.
+Tenants stated that they are often not involved in meetings organised by local energy initiatives, because they are not applicable to their situation and/or it lacked a
+personal approach.
+Students are often afraid of possible reprisals by their landlords by bringing up issues
+surrounding sustainability.
+Shortage of (professional) manpower is a frequently occurring issue in local
+energy initiatives.
+Several stakeholder groups, such as (social housing) tenants, (international) students
+and private landlords are seldom approached or addressed in energy-related activities
+and campaigns.
+Communication surrounding energy-related activities is often perceived to be insufficient, inefficient or (inadvertently) excludes certain groups of residents.
+
+Furthermore, the lighthouse cities have developed a series of questionnaires and tools
+with the aim of facilitating the co-creation of PED-designs in six follower cities (Leon, Spain;
+Kadikoy, Turkey; Bassano del Grappa, Italy; Lublin, Poland; Trencin, Slovakia; Vidin,
+Bulgaria). These modular questionnaires include a variety of topics relating to energy,
+such as consumption, generation, efficiency and flexibility as well as questions pertaining
+to mobility and social cohesion (development of local communities). The data from the
+questionnaires will be utilised to construct potential indicators that will help the FWCs to
+realise their own PEDs and encourage them to further develop City Visions 2050.
+The objectives of the cities vary from one to another, depending on local community
+development readiness in their respective contexts. Four of six FWCs would like to know
+their citizens’ needs/vision for the city district, directly or indirectly related to energy. The
+desired insights range from creating awareness about energy transition/needed measures,
+to gathering opinions about measures/concepts, to insights into the needs/visions on
+how to improve the living standards of citizens. Most of the FWCs have an overall
+plan (e.g., SEAP, SECAP) and two of them have taken action to consult citizens on their
+preferences in specific solutions. They have already utilised a few tools, such as hackathons,
+workshops, webinars, ateliers, online surveys, online platforms, meetings, door-to-door
+surveys, thematic games, debates, public consultations.
+In addition, they would like to develop festivals, conferences and workshops in the city
+as well as webinar platforms, mobile applications, educational materials and e-participation
+and consultations. Most of the cities face barriers to realising citizen engagement activities.
+These barriers need to be considered, as COVID-19 measures prohibit certain activities and
+events. Furthermore, low awareness and low interest among citizens relating to the topic,
+limited time, high costs, limited authorisation to act and difficulty to reach target groups
+(e.g., elderly) can complicate matters further.
+The barriers could be overcome by financial and technical support as well as subsidies
+from public bodies and energy markets, by raising awareness and performing measures by
+involving the local community, selecting the right platforms at the right time, conducting
+training programs for certain stakeholders (on sharing information and to promote better
+collaborations) and sharing information on renewable energy through open data platforms.
+The initial recommendations for the citizens of FWCs are therefore as follows:
+
+•
+
+•
+•
+
+The Unified Citizen Engagement Approach incorporates different stakeholders and
+provides insights into what to share and communicate and how to collaborate in each
+phase of the transition of a neighbourhood.
+This strategy also provides a good framework to recommend usage of specific measures, methods and tools in the different phases of the energy transition.
+There are two main activities at the start of the energy transition: a social(-economic)
+analysis with citizens and a technical analysis of the target neighbourhood. Citizen
+engagement starts in this first phase.
+
+Buildings 2022, 12, 186
+
+15 of 22
+
+A detailed analysis will be conducted soon to encourage FWCs in developing energy
+communities to sustain the energy transition and PED implementations in the already
+designed areas under the MAKING-CITY project.
+5.5. mySMARTLife
+The mySMARTLife project aims to make the three lighthouse cities of Nantes, Hamburg, and Helsinki more environmentally friendly by reducing the CO2 emissions of these
+cities and increasing the use of renewable energy sources [66]. As part of an open innovation strategy to engage citizens to demonstrate the possibility of efficiently addressing
+the energy transition issue whilst keeping high-quality living standards, mySMARTLife
+explored the topic of raising social awareness and acceptance of change by developing key
+factors that can help raise awareness for social acceptance and engage citizens directly in
+the development of the transformation. The project involves citizens in the urban transformation, either as consumers/users or as city “planners”. The three lighthouse cities
+have implemented interventions in the field of energy, mobility, and ICT, exploring the key
+barriers these cities have encountered during the implementation phase and how they tried
+to overcome them.
+As part of this analysis, mySMARTLife explores the individual acceptance journey
+for each intervention based on the process of design, delivery, and implementation of
+each action and on who has influence in the acceptance journey (individual/household,
+local community/town stakeholders and national/regional policies or stakeholders) at
+which point of the implementation process. These influence levels were characterised
+as miso (individual/household), meso (local community/town stakeholders) and macro
+(national/regional policies and/or stakeholders) [67].
+Based on these two categories, three types of acceptance journeys were developed: the
+binary (inflexible), the semi-flexible and the flexible acceptance journey. By looking at each
+of the individual case studies under the lens of the acceptance journey concept, it is advised
+when actions should be taken towards whom so social acceptance can be leveraged in the
+best possible way (intervention points or engagement points).
+It is useful for all the actors in a smart city project to better understand the underlying
+structure of their interventions and, through their understanding, adapt the process of
+community engagement. This will allow for an increase in social acceptance.
+One of the first lessons learnt is that by analysing the individual acceptance journey
+for each intervention based on the phases of design, delivery, and implementation of each
+action and on who has influence during the acceptance journey (individual/household,
+local community/town stakeholders and national/regional policies or stakeholders), intervention points can clearly be defined.
+If the increase in the level of influence that the user has will lead to an increase in
+acceptance, as such it is important to include the user as early as possible in the design and
+delivery phase of the interventions. It can also be demonstrated that this can be difficult
+when it comes to large-scale infrastructure measures. There is a need across all smart city
+projects to increase the influence of users at the town/community level and to allow users’
+views and perceptions to exert an influence at national and regional levels. Users must be
+heard and be able to influence interventions, in order to increase social acceptance [68].
+5.6. POCITYF
+POCITYF helps historical cities to become greener, smarter, and more liveable, while
+respecting their cultural heritage, by implementing and testing Positive Energy Districts
+in two lighthouse cities, Alkmaar and Evora, and six follower cities [69]. POCITYF brings
+together technology providers, grid operators, policy makers, and local communities to
+collectively work on integrated innovative solutions across the built environment, energy
+infrastructure, and e-mobility. Building upon the Arnestein ladder [52] and an initial
+qualitative study with stakeholders in the two lighthouse cities, a citizen engagement
+strategy framework was developed. This framework supports the exploration of strategies
+
+Buildings 2022, 12, 186
+
+16 of 22
+
+and initiatives to support citizens in evolving along their journey toward higher levels
+of engagement with sustainable energy solutions, from the initial awareness and usage,
+to more proactive activities such as sharing, co-designing and becoming ambassadors.
+This framework has been iteratively used in iterative co-creation workshops with citizens,
+lighthouse cities and fellow cities to gain feedback and develop tailored strategies to foster
+citizen engagement. One of POCITYF’s key solutions is to have citizens become key
+stakeholders in the decision-making process to incorporate a peer-to-peer (P2P) energy
+trading platform. P2P energy trading empowers citizens to feel in control of their own
+energy flexibility and to create economic value in a direct way. P2P energy trading could
+also be leveraged to enhance a community’s social cohesion by stacking non-energy-related
+services that have been identified as bringing added value to members and nudging people
+to adjust their behaviour.
+5.7. Synthesis of Case Studies
+Synthesis topic 1. Scope of modalities for energy citizens addressed in the projects—
+In what ways can citizens potentially engage in positive energy districts and thus contribute to the societal objectives of PEDs?
+The six projects have different strategies for involving different citizens’ populations
+in the design and implementation of PEDs, ranging from early stage involvement in the
+role of “urban planners” in the mySMARTLife project, to citizens becoming active energy
+traders in the POCITYF project, to citizens as co-innovators in +CityxChange. Promoting
+citizen engagement is very much in the foreground of all the projects. Most projects regard
+energy literacy as a key condition, as an understanding of the nature and role of energy
+in the world and daily lives, accompanied by the ability to apply this understanding to
+answer questions, solve problems, contribute to, or start initiatives, and make decisions.
+Within the projects, the models of citizens’ involvement are often spread across work
+packages, with engagement activities in a separate work package to the development of
+local energy trading platforms. As a result, there could be a lack of consistent shared
+vision across the different models for energy citizens. In particular, the model for energy
+citizenship that is most often related to the development of PEDs—energy communities
+operating the local energy systems and as energy market party—is not addressed by the
+same research group as the group working on addressing engagement.
+Synthesis topic 2. What is the interest in, acceptance and uptake of citizens of these
+options to engage in the energy systems of positive energy districts?
+Increasingly, across the projects, more insights are gained on the issue, which is
+crucial to assuring any impact from citizenship in PEDs. Still, few examples are available
+where citizens have been able to have a substantial impact on the design of PEDs, beyond
+the legally required consultation procedures. This was the case in exceptional advanced
+communities, which are not representative of other much larger citizen demographics that
+need to be engaged in replication of PEDs to achieve a wide-reaching impact. In many
+cases, property ownership is needed to participate in the energetic PED work with retrofits
+or installations of renewables on buildings. Tenants or citizens from other areas have
+limited options. Therefore, in many projects, for example +CityxChange, additional roles
+are identified, for example citizens as co-innovators, engagement of those people working,
+but not living in a PED area, as well as regulatory initiatives that would need to make it
+easier for citizens to participate instead of only larger commercial or municipal actors.
+It is necessary to differentiate between different (groups of) citizens, and their varying capacities for participation, which align to the “system world” of development and
+planning in a variety of ways. It seems that some frontrunner groups of citizens with
+higher social or financial capital are more interested in, and capable of, engaging in ways
+that actually drive decisions in PED-development, whilst other residents mainly have
+the option to engage in activities stimulating “energy-conscious” individual behaviour.
+The mutual relationship between being a PED inhabitant and making lifestyle changes
+
+Buildings 2022, 12, 186
+
+17 of 22
+
+towards sustainable behaviour is also still very much a subject of research and no results
+are available yet.
+The number of energy communities, particularly those developing local renewable
+sources, is growing, as are the impacts of these communities. In the Netherlands,
+100,000 people already participate in local renewable energy projects [70]. Whether PEDs
+could become a new driver for building energy communities is not clear yet.
+The development of local communities engaged in local peer2peer energy trading (P2P)
+and flexibility trading and acting as an energy market party is, so far, mainly technologydriven (development of ICT platforms and interfaces). Its rationale is based on societal costs
+and benefits (avoiding investment while improving resilience in the power infrastructure).
+There is still little evidence that citizens are willing to engage in sufficient numbers, especially those citizens beyond the initial frontrunner communities. In this case, “sufficient”
+means enough to ensure impact and viable business cases. In some cases, there appears
+to be a reluctance, even amongst frontrunner groups, as benefits are not recognised as
+outweighing the complexity and risks. Additionally, automatised approaches seem to be
+preferred [34].
+Finally, we observe that in all projects, much time for research and development is
+needed in order to build the systems through which citizens can engage. This also applies
+to the development of the simple interfaces allowing interaction without the need for expert
+knowledge. It is difficult, therefore, to engage a representative group of citizens in these
+R&D activities.
+Synthesis topic 3. What real impact from citizen engagement is already observed
+in the ongoing demonstration projects of positive energy districts?
+In all projects, KPIs have been adopted on social impact and citizen engagement,
+but there is much variety in how they are defined, ranging from KPIs related to the mere
+number of events and participants, to KPIs on the progress made towards energy citizenship
+in terms of the share of local energy trading in the ATELIER project [71], or the impact on
+organisations that changed their energy behaviour in +CityxChange [72]. In most cases,
+the focus of the reported results and lessons learned has been on the barriers and drivers
+of citizen engagement, and not on the impacts that have been achieved so far, nor on the
+validation of the impact pathways. At this stage, only fragmentary results are available,
+for instance from the ATELIER project, where energy communities have been reluctant to
+adopt local energy trading, which provides valuable insight into evaluating the potential
+impact of this innovation [44]. The positive energy champion campaign of +CityxChange
+(see Section 5) has seen some behaviour change, mainly on the non-energy aspects, though
+also with initial changes around eMobility. It is noted that the projects referred to in this
+paper are on average about halfway through the project duration, with the initial phase
+focused on setting up the activities for citizen engagement. Results are expected to be seen
+in the later phases of the project only.
+Synthesis topic 4. Progress towards transdisciplinarity impact assessment
+We evaluate the progress based on the seven criteria as proposed by the SHAPE-ID
+project [30–32].
+1.
+
+2.
+
+Level of common vocabulary/terminology among different disciplines (and nonacademic actors) and efforts made to reach a common “glossary” as a starting point
+for the project. This remains, in many projects, a work in progress. For example,
+in +CityxChange, a glossary was initially built separately in the energy and citizen
+tasks, which then needed to be aligned through a longer process and has also since
+been added to its website. In ATELIER, there is a difference in perspective on energy
+citizenship from the technical, legal and sociological perspectives, which hampers a
+common evaluation of impact.
+Level of common vision across disciplines on PEDs and energy citizens as an object of
+research, impact targets and pathways between research outcomes and impact. This
+is still very much a work in progress in all projects.
+
+Buildings 2022, 12, 186
+
+18 of 22
+
+3.
+
+4.
+
+5.
+
+6.
+
+7.
+
+Progress in development and application of shared research methodology and impact
+assessment framework (impact pathways), complementing disciplinary approaches.
+In most projects, assessment methods are still multidisciplinary and derived from
+the separate disciplines. A challenge can be an actual deep evaluation of project
+interventions and their impact dependencies to project goals.
+Progress on qualitative and quantitative (interim) results on impact indicators towards
+societal goals. The projects have adopted varied ways to measure the impact of their
+citizen engagement interventions, in most cases on the basis of Key Performance
+Indicators (KPI)-based tracking and performance evaluation. Significant differences
+in the approaches to KPIs can be observed, which make cross-project comparison
+very difficult.
+Levels of citizens’ involvement in the design and implementation of research (beyond being the object of research). Many projects organise citizenship consultations,
+but there are few examples that citizens have had an impact on the design of the
+PED and the design of specific innovations. In the case of new construction, it is
+impossible to involve the actual residents at the initial stages of the projects, as they
+have not moved in yet. Similar effects apply in mainly industrial or commercial
+areas, where engagement aims at users of the area, not residents, for example in a
++CityxChange demo.
+Initial structure of the project proposal that might enable or constrain, even from
+the beginning, inter and transdisciplinary approaches. The positioning of citizen
+engagement activities in the design of the projects varies. Some projects have separate
+work packages for citizen engagement, making it a mere isolated activity restricting
+multidisciplinary approaches, where other projects integrate citizen engagement with
+other, often more technical, activities during the project lifetime.
+Evaluation of the project activities envisioned at proposal stage/first year of the
+project to gain potential missing knowledge/experience in order to reach desirable
+levels of inter- or transdisciplinarity (depending on what is desirable according to the
+project goals).
+
+All in all, the R&I projects on PEDs are still in the early phases of developing a
+transdisciplinary approach to the impact assessment of energy citizenship towards the
+societal goals. While the projects are working to develop and apply this approach within
+each project’s lifetime, the results in terms of full transdisciplinary impact assessment may
+be realised in the next generation of R&I projects’ PEDs.
+6. Discussion and Recommendations
+In this paper, we have explored the hypothesis that citizens’ engagement through
+energy citizenship is a key driver towards the societal impact of the energy transition in
+general, and in positive energy districts. Although there is a common understanding that
+the active support and involvement of citizens in the design and implementation of new
+collaborative energy concepts, such as PEDs, is necessary for the success of such concepts,
+there is no hard evidence yet that supports this claim. Some promising approaches were
+discussed in the case studies. Measuring the contribution or impact of citizen engagement
+on the success of new energy concepts has proven to be difficult. We see that research
+and innovation projects in this area are still at an early stage in developing approaches to
+rigorous impact assessment.
+One of the main difficulties is the transdisciplinary nature of the projects and the
+combination of social, political, and technological interventions that are simultaneously
+conducted which obscure the impact of a single intervention. Another difficulty is the
+context-dependent nature of these solutions, which challenges the generalisation of rich yet
+contextualised knowledge. The lack of a common methodology for assessing the impact of
+energy citizenship hinders the direct comparison of the efficiency of strategies for citizen
+engagement across projects or cities.
+
+Buildings 2022, 12, 186
+
+19 of 22
+
+A systemic perspective that is sensitive to the contextual determinants of each project
+should contribute to harmonising the measurement of citizen engagement activities and the
+related KPIs across the six projects. This is considered a first step towards an understanding
+of the role and importance of energy citizenship in the energy transition.
+The following project approaches could be explored:
+1.
+
+2.
+3.
+
+4.
+5.
+
+Avoid project designs that are only based on disciplines, such as those with a separate
+work package for social impact and citizen engagement, which hampers working
+in cross-disciplinary teams. Work packages are better structured around specific
+innovations or have strong integrations between the respective tasks and regular
+feedback between topics.
+Develop a shared theory of change and shared impact pathways on energy citizenship
+across all project partners and disciplines.
+Appoint so-called boundary spanners with the research team; individuals with multidisciplinary knowledge, who can speak more than one disciplinary language. They
+can make the required links across the project.
+Share and discuss the theory of change with the citizens. Do they share the
+same vision?
+Invite citizens to the table when designing the research agenda for impact assessment
+and give citizens (or their representative) an active role in the research activities.
+
+Finally, the authors recognise that the exchange and cooperation between R&I projects
+that address energy citizenship and PEDs is essential to assembling the necessary evidence
+on impact across the many modalities of citizen engagement, the broad spectrum of PED
+designs and the different city contexts in which PEDs are located. In particular, this
+exchange should collect and synthesise the emerging insights on impacts around specific
+modalities for energy citizenships, such as individual behavioural change and collective
+energy, building, mobility and societal engagement. Only collectively can we determine
+how far energy citizenship could contribute to the energy transition.
+Author Contributions: Conceptualization, M.v.W., B.P.R., H.F., D.A., N.R., B.A., J.K., C.T., G.K., V.B.,
+L.P. and S.S.; methodology, M.v.W., B.P.R., H.F., D.A., N.R., B.A., J.K., C.T., G.K., V.B., L.P. and S.S.;
+validation, M.v.W., B.P.R., H.F., D.A., N.R., B.A., J.K., C.T., G.K., V.B., L.P. and S.S.; formal analysis,
+M.v.W., B.P.R., H.F., D.A., N.R., B.A., J.K., C.T., G.K., V.B., L.P. and S.S.; investigation, M.v.W., B.P.R.,
+H.F., D.A., N.R., B.A., J.K., C.T., G.K., V.B., L.P. and S.S.; resources, M.v.W., B.P.R., H.F., D.A., N.R.,
+B.A., J.K., C.T., G.K., V.B., L.P. and S.S.; original draft preparation, M.v.W., B.P.R., H.F., D.A., N.R., B.A.,
+J.K., C.T., G.K., V.B., L.P. and S.S.; writing—review and editing, M.v.W., B.P.R., H.F., D.A., N.R., B.A.,
+J.K., C.T., G.K., V.B., L.P. and S.S.; visualization, M.v.W., D.A. and N.R.; supervision, M.v.W.; project
+administration, M.v.W. All authors have read and agreed to the published version of the manuscript.
+Funding: The SCC-1 projects have received funding from the European Union’s Horizon 2020
+research and innovation programme under respective grant agreements: ATELIER (No 864374),
++CityxChange (No 824260), MAKING-CITY (No 824418), mySMARTLife (No 731297) and POCITYF
+(No 864400). ENERGE is an Interreg North-West Europe (NWE) project, co-funded by the European
+Regional Development Fund under grant agreement NWE827.
+Acknowledgments: The represented authors thank their projects and project partners for the work
+and discussions described here.
+Conflicts of Interest: The authors are working in leading and contributing positions in the projects
+of the case studies, and otherwise declare no conflict of interest.
+
+References
+1.
+2.
+3.
+
+Seyfang, G.; Park, J.J.; Smith, A. A thousand flowers blooming? An examination of community energy in the UK. Energy Policy
+2013, 61, 977–989. [CrossRef]
+Arentsen, M.; Bellekom, S. Power to the people: Local energy initiatives as seedbeds of innovation? Energy Sustain. Soc. 2014, 4, 2.
+[CrossRef]
+Devine-Wright, P. Energy citizenship: Psychological aspects of evolution in sustainable energy technologies. In Governing
+Technology for Sustainability; Murphy, J., Ed.; Earthscan: London, UK, 2007; pp. 63–88.
+
+Buildings 2022, 12, 186
+
+4.
+
+5.
+6.
+7.
+8.
+9.
+
+10.
+
+11.
+12.
+13.
+14.
+
+15.
+
+16.
+17.
+18.
+19.
+20.
+21.
+22.
+23.
+24.
+
+25.
+26.
+27.
+28.
+
+29.
+30.
+
+31.
+
+20 of 22
+
+Olivadese, R.; Alpagut, B.; Revilla, B.P.; Brouwer, J.; Georgiadou, V.; Woestenburg, A.; Van Wees, M. Towards Energy Citizenship
+for a Just and Inclusive Transition: Lessons Learned on Collaborative Approach of Positive Energy Districts from the EU Horizon
+2020 Smart Cities and Communities Projects. In Proceedings, Proceedings of the 8th Annual International Sustainable Places Conference
+(SP2020); Online, 27–30 October 2020; MDPI: Basel, Switzerland, 2021; Volume 65, p. 20.
+Van Wees, M.; Revilla, B.P.; Fitzgerald, H.; Ahlers, D.; Romero, N.; Alpagut, B.; Kort, J.; Tjahja, C.; Kaiser, G.; Blessing, V.; et al.
+Energy Citizenship in New Energy Concepts. Environ. Sci. Proc. 2021, 11, 27. [CrossRef]
+Aune, M. Energy comes home. Energy Policy 2007, 35, 5457–5465. [CrossRef]
+Miller, C.A.; Iles, A.; Jones, C.F. The Social Dimensions of Energy Transitions. Sci. Cult. 2013, 22, 135–148. [CrossRef]
+Ryghaug, M.; Skjølsvold, T.M.; Heidenreich, S. Creating energy citizenship through material participation. Soc. Stud. Sci.
+2018, 48, 283–303. [CrossRef] [PubMed]
+Nambisan, S.; Nambisan, P. Engaging citizens in co-creation in public services. IBM Cent. Bus. Dev. Collab. Across Boundaries
+Ser. 2013. Available online: https://www.businessofgovernment.org/sites/default/files/Engaging%20Citizens%20in%20CoCreation%20in%20Public%20Service.pdf (accessed on 30 December 2021).
+Lupi, C.C.; Almuni Calull, M.; Delvaux, S.; Valkering, P.; Hubert, W.; Sciullo, A.; Ivask, N.; Van der Waal, E.; Jimenez Iturriza, I.;
+Paci, D. A Characterization of European Collective Action Initiatives and their Role as Enablers of Citizens’ Participation in the
+Energy Transition. Energies 2021, 14, 8452. [CrossRef]
+Hamman, P. Local governance of energy transition: Sustainability, transactions and social ties. A case study in Northeast France.
+Int. J. Sustain. Dev. World Ecol. 2019, 26, 1–10. [CrossRef]
+Lennon, B.; Dunphy, N.; Gaffney, C.; Revez, A.; Mullally, G.; O’Connor, P. Citizen or consumer? Reconsidering energy citizenship.
+J. Environ. Policy Plan. 2020, 22, 184–197. [CrossRef]
+Soleri, D.; Long, J.W.; Ramirez-Andreotta, M.D.; Eitemiller, R.; Pandya, R. Finding pathways to more equitable and meaningful
+public-scientist partnerships. Citiz. Sci. Theory Pract. 2016, 1, 9. [CrossRef]
+Jaubin, J.; Ahlers, D.; Crombie, D.; Gohari Krangsås, S.; Massink, R.; Ozdek, E.; Peeters, L.; Renger, W.-J.; Sangiuliano, M.; Smok,
+A.; et al. SCIS EU Smart Cities Information System. EU Smart Cities Information System. Citizen Engagement Solution Booklet.
+2020. Available online: https://smart-cities-marketplace.ec.europa.eu/insights/solutions/solution-booklet-citizen-engagement
+(accessed on 1 October 2021).
+Vandevyvere, H.; Ahlers, D.; Alpagut, B.; Cerna, V.; Cimini, V.; Haxhija, S.; Hukkalainen, M.; Kuzmic, M.; Livik, K.; Padilla, M.;
+et al. SCIS EU Smart Cities Information System. Positive Energy Districts Solution Booklet. 2020. Available online: https://smartcities-marketplace.ec.europa.eu/insights/solutions/solution-booklet-positive-energy-districts (accessed on 1 October 2021).
+Wahlund, M.; Palm, J. The role of energy democracy and energy citizenship for participatory energy transitions: A comprehensive
+review. Energy Res. Soc. Sci. 2022, 87, 102482. [CrossRef]
+JPI Urban Europe. White Paper on Reference Framework for Positive Energy Districts and Neighbourhoods Key Lessons from National
+Consultations; JPI Urban Europe: Vienna, Austria, 2020.
+Mumford, L. Technics and Human Development: The Myth of the Machine; Harcourt Brace Jovanovich: New York, NY, USA, 1967.
+May, C. The Information Society as Mega-Machine: The continuing relevance of Lewis Mumford. Inf. Commun. Soc.
+2000, 3, 241–265. [CrossRef]
+Samet, R.H. Complexity, the science of cities and long-range futures. Futures 2013, 47, 49–58. [CrossRef]
+Ahlers, D.; Driscoll, P.; Löfström, E.; Krogstie, J.; Wyckmans, A. Understanding smart cities as social machines. In Workshop on the
+Theory and Practice of Social Machines. WWW’16 Companion; ACM: New York, NY, USA, 2016; pp. 759–764.
+Peeters, L. SCIS EU Smart Cities Information System. Energy Communities Solution Booklet. 2020. Available online: https://
+smart-cities-marketplace.ec.europa.eu/insights/solutions/solution-booklet-energy-communities. (accessed on 1 October 2021).
+ATELIER Project. Available online: https://smartcity-atelier.eu/ (accessed on 1 October 2021).
+Ghorbani, A.; Nascimento, L.; Filatova, T. Growing community energy initiatives from the bottom up: Simulating the role
+of behavioural attitudes and leadership in the Netherlands. Energy Res. Soc. Sci. 2020, 70, 101782. Available online: https:
+//www.sciencedirect.com/science/article/pii/S2214629620303571 (accessed on 1 October 2021). [CrossRef]
+Clean Energy for all Europeans Package. Available online: https://ec.europa.eu/energy/topics/energy-strategy/clean-energyall-europeans_en (accessed on 1 October 2021).
+The Directive on Common Rules for the Internal Electricity Market (EU) 2019/944; The Publications Office of the European Union:
+Luxembourg, 2019.
+Revised Renewable Energy Directive (2018/2001/EU); The Publications Office of the European Union: Luxembourg, 2019.
+IRENA. Innovation Landscape Brief: Aggregators, International Renewable Energy Agency, Abu Dhabi. 2019. Available
+online: https://irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jul/IRENA_Aggregators_2020.pdf (accessed on
+1 October 2021).
++CityxChange Project. Available online: https://cityxchange.eu/ (accessed on 1 October 2021).
+IRENA. Innovation Landscape Brief: Peer-to-Peer Electricity Trading, International Renewable Energy Agency, Abu Dhabi. 2020.
+Available online: https://irena.org/-/media/Files/IRENA/Agency/Publication/2020/Jul/IRENA_Peer-to-peer_electricity_
+trading_2020.pdf (accessed on 1 October 2021).
+Liu, Y.; Wu, L.; Li, J. Peer-to-peer (P2P) electricity trading in distribution systems of the future. Electron. J. 2019, 32, 2–6. [CrossRef]
+
+Buildings 2022, 12, 186
+
+32.
+33.
+
+34.
+
+35.
+36.
+37.
+38.
+
+39.
+40.
+
+41.
+42.
+43.
+44.
+45.
+
+46.
+47.
+
+48.
+
+49.
+
+50.
+51.
+
+52.
+53.
+54.
+55.
+56.
+57.
+58.
+
+21 of 22
+
+Hackett, S.B. D2.3: Report on the Flexibility Market. +CityxChange Project Deliverable D2.3. 2019. Available online: https:
+//cityxchange.eu/knowledge-base/report-on-the-flexibility-market/ (accessed on 1 October 2021).
+De Almeida, L.; Cappelli, V.; Klausmann, N.; Van Soest, H. Peer-to-Peer Trading and Energy Community in the Electricity Market:
+Analyzing the Literature on Law and Regulation and Looking Ahead to Future Challenges: EUI RSCAS2021/35. Available online:
+https://hdl.handle.net/1814/70457 (accessed on 1 October 2021).
+Ableitner, L.; Tiefenbeck, L.; Meeuw, A.; Wörner, A.; Fleisch, E.; Wortmann, F. User behavior in a real-world peer-to-peer electricity
+market. Appl. Energy 2020, 270, 115061. Available online: https://quartier-strom.ch/index.php/en/2020/08/17/final-report-onproject-quartierstrom/ (accessed on 1 October 2021). [CrossRef]
+Klein, J.T. Interdisciplinarity: History, Theory, and Practice; Wayne State University Press: Detroit, MI, USA, 1990.
+Stock, P.; Burton, R.J.F. Defining Terms for Integrated (Multi-Inter-Trans-Disciplinary) Sustainability Research. Sustainability
+2011, 3, 1090–1113. Available online: https://www.mdpi.com/2071-1050/3/8/1090 (accessed on 1 October 2021). [CrossRef]
+Sumpf, P.; Büscher, C.; Claudot, P.; Jeuken, Y.; Mnich, C.; Ruth, M.; Ortar, N.; Robison, R. SHAPE ENERGY Reflexive Review of
+Interdisciplinary Working; SHAPE ENERGY: Cambridge, UK, 2018.
+Sumpf, P.; Klemm, M.; Throndsen, W.; Büscher, C.; Robison, R.; Schippl, J.; Foulds, C.; Buchmann, K.; Nikolaev, A.; Kern-Gillard,
+T. Energy System Optimisation and Smart Technologies—A Social Sciences and Humanities Annotated Bibliography; SHAPE ENERGY:
+Cambridge, UK, 2017.
+Jahn, T.; Bergmann, M.; Keil, F. Transdisciplinarity: Between mainstreaming and marginalization. Ecol. Econ. 2012, 79, 4.
+[CrossRef]
+Romero Herrera, N.; Doolaard, J.; Guerra-Santin, O.; Jaskiewicz, T.; Keyson, D. Office occupants as active actors in assessing and
+informing comfort: A context-embedded comfort assessment in indoor environmental quality investigations. Adv. Build. Energy
+Res. 2020, 14, 41–65. [CrossRef]
+Creswell, J.W. Mixed-method research: Introduction and application. In Handbook of Educational Policy; Academic Press: Cambridge, MA, USA, 1999; pp. 455–472.
+Gagné, M.; Deci, E.L. Self-determination theory and work motivation. J. Organ. Behav. 2005, 26, 331–362. [CrossRef]
+Romero Herrera, N. In situ and Mixed-Design Interventions. In Living Labs: Design and Assessment of Sustainable Living; Keyson,
+D., Lockton, D., Guerra-Santin, O., Eds.; Springer International Publishing: Berlin/Heidelberg, Germany, 2017; pp. 157–167.
+Romero Herrera, N. The Emergence of Living Lab Methods. Living Labs: Design and Assessment of Sustainable Living; Keyson, D.,
+Lockton, D., Guerra-Santin, O., Eds.; Springer International Publishing: Berlin/Heidelberg, Germany, 2017; pp. 9–22.
+Romero Herrera, N.; Doolaard, J.; Guerra-Santin, O.; Jaskiewicz, T.; Keyson, D.V. Sustainable practices in office buildings:
+Applying social practice theory and reflective design interventions. In Proceedings of the European Conference on Behaviour
+and Energy Efficiency—BEHAVE, Coimbra, Portugal, 8–9 September 2016.
+ShapeID. Available online: https://www.shapeidtoolkit.eu/ (accessed on 1 October 2021).
+SHAPE-ID. Annotated Bibliography of Academic Literature on Inter-and Transdisciplinary Research and AHSS Integration.
+Available online: https://www.shapeidtoolkit.eu/wp-content/uploads/2021/03/Guide-Annotated-Bibliography-Academic.pdf
+(accessed on 1 October 2021).
+SHAPE-ID. What Can the Arts, Humanities and Social Sciences Bring to Inter-and Transdisciplinary Research? Available
+online: https://www.shapeidtoolkit.eu/wp-content/uploads/2021/05/Guide-AHSS-Contributions-to-IDR.pdf (accessed on
+1 October 2021).
+ATELIER. Deliverable 7.1: Citizen and Stakeholder Engagement Plans; Project Report WP7, Task 7.1.; ATELIER: Amsterdam,
+The Netherlands, 30 June 2021. Available online: https://smartcity-atelier.eu/outcomes/deliverables/d7-1/ (accessed on
+1 October 2021).
+Ahlers, D.; Driscoll, P.; Wibe, H.; Wyckmans, A. Co-Creation of Positive Energy Blocks. IOP Conference Series: Earth and Environmental
+Science; IOP Publishing: Bristol, UK, 2019; Volume 352, p. 012060. [CrossRef]
+Fitzgerald, H.; Burón García, J.; Sánchez Mora, M. D3.6: Framework for DPEB Innovation Labs. +CityxChange Project Deliverable.
+2020. Available online: https://cityxchange.eu/knowledge-base/d3-6-framework-for-dpeb-innovation-labs/ (accessed on
+1 October 2021).
+Arnstein, S.R.A. Ladder of citizen participation. J. Am. Inst. Plan. 1969, 35, 216–224. [CrossRef]
+Prochaska, J.O.; DiClemente, C.C. The transtheoretical approach. In Handbook of Psychotherapy Integration; Oxford University
+Press: Oxford, UK, 2005.
+Curley, M.; Salmelin, B. Open Innovation 2.0: The New Mode of Digital Innovation for Prosperity and Sustainability; Springer:
+Berlin/Heidelberg, Germany, 2018.
+Carayannis, E.G.; Campell, D.F.J. Mode 30 and ‘quadruple Helix’: Toward a 21st century fractal innovation ecosystem. Int. J.
+Technol. Manag. 2009, 46, 201–234. [CrossRef]
+Baer, D.; Loewen, B.; Cheng, C.; Thomsen, J.; Wyckmans, A.; Temeljotov-Salaj, A.; Ahlers, D. Approaches to Social Innovation in
+Positive Energy Districts (PEDs)—A Comparison of Norwegian Projects. Sustainability 2021, 13, 7362. [CrossRef]
+Gohari, S.; Ahlers, D.; Nielsen, B.F.; Junker, E. The Governance Approach of Smart City Initiatives. Evidence from Trondheim,
+Bergen, and Bodø. Infrastructures 2020, 5, 31. [CrossRef]
+Gall, T.; Carbonari, G.; Wyckmans, A.; Ahlers, D. Co-Creating Local Energy Transitions Through Smart Cities: Piloting a
+Prosumer-Oriented Approach. In ISOCARP Review 16: Post-Oil Cities; ISOCARP Institute: Den Haag, The Netherlands, 2020.
+
+Buildings 2022, 12, 186
+
+59.
+
+60.
+
+61.
+
+62.
+63.
+64.
+65.
+66.
+67.
+
+68.
+
+69.
+70.
+71.
+
+72.
+
+22 of 22
+
+Bertelsen, S.; Livik, K.; Myrstad, M. D2.1 Report on Enabling Regulatory Mechanism to Trial Innovation in Cities. +CityxChange
+Project Deliverable. 2020. Available online: https://cityxchange.eu/knowledge-base/report-on-enabling-regulatory-mechanismto-trial-innovation-in-cities/ (accessed on 1 October 2021).
+Myrstad, M.T.; Livik, K.; Haugslett, A. D5.9 Playbook of Regulatory Recommendations for Enabling New Energy Systems. +CityxChange Project Deliverable. 2021. Available online: https://cityxchange.eu/knowledge-base/d5-9-playbook-of-regulatoryrecommendations-for-enabling-new-energy-systems (accessed on 1 October 2021).
+Fitzgerald, H.; Mee, A. D3.5: Framework for a Positive Energy Champion Network. +CityxChange Project Deliverable. 2020.
+Available online: https://cityxchange.eu/knowledge-base/d3-5-framework-for-a-positive-energy-champion-network/ (accessed on 1 October 2021).
+ENERGE Project. Available online: https://www.nweurope.eu/projects/project-search/energe/ (accessed on 1 October 2021).
+OECD. Education at a Glance 2018: OECD Indicators; OECD Publishing: Paris, France, 2018. [CrossRef]
+Gramham, P. Recommendation: Graham’s the Four Quadrants of Conformism. 2020. Available online: https://www.
+organizingcreativity.com/2020/08/recommendation-grahams-the-four-quadrants-of-conformism/ (accessed on 1 October 2021).
+MAKING-CITY Project. Available online: https://makingcity.eu/ (accessed on 1 October 2021).
+mySMARTLife Project. Available online: https://www.mysmartlife.eu/ (accessed on 1 October 2021).
+Project Report. D1.2: Key Issues for Social Awareness and Acceptance WP1; Task 1.1 Transition of EU Cities towards a New
+Concept of Smart Life and Economy. Available online: https://www.mysmartlife.eu/fileadmin/user_upload/Deliverables/D1.2
+_Key_issues_for_social_awareness_and_acceptance_01.pdf (accessed on 1 October 2021).
+Devine-Wright, P. Reconsidering public acceptance of renewable energy technologies: A critical review. In Delivering a Low
+Carbon Electricity System: Technologies, Economics and Policy; Jamasb, T., Grubb, M., Pollitt, M., Eds.; Cambridge University Press:
+Cambridge, UK, 2008.
+POCITYF Project. Available online: https://pocityf.eu/ (accessed on 1 October 2021).
+HIER/RVO. Lokale Energie Monitor 2020. Available online: https://www.hieropgewekt.nl/nieuws/lokale-energie-monitor-20
+20-impact-energiecooperaties-neemt-komende-jaren-flink-toe (accessed on 1 October 2021).
+ATELIER Monitoring and Evaluation Framework. Deliverable 9.1: Repository of Definitions of Terms, Key Characteristics
+Archetypes, and a Set of KPIs. WP9, Task 9.1. 31 October 2020. Available online: https://smartcity-atelier.eu/outcomes/
+deliverables/ (accessed on 1 October 2021).
+Tanum, Ø.; Mjøen, K.; Berthelsen, B.O.; Reeves, K.; Solhaug Næss, K. D3.1 Framework for Bold City Vision, Guidelines, and Incentive Schemes (SDG City Transition Framework). +CityxChange Project Deliverable. 2020. Available online: https://cityxchange.
+eu/knowledge-base/framework-for-bold-city-vision-guidelines-and-incentive-schemes/ (accessed on 1 October 2021).
+
+

@@ -1,0 +1,869 @@
+energies
+Perspective
+
+Sustainable Urban Areas for 2030 in a Post-COVID-19 Scenario:
+Focus on Innovative Research and Funding Frameworks to
+Boost Transition towards 100 Positive Energy Districts and
+100 Climate-Neutral Cities
+Paola Clerici Maestosi 1, *, Maria Beatrice Andreucci 2
+1
+
+2
+
+3
+
+*
+
+
+
+Citation: Clerici Maestosi, P.;
+
+and Paolo Civiero 3
+
+Department of Energy Technologies and Renewables TERIN-SEN Smart Energy Networks, ENEA—Italian
+National Agency for New Technologies, Energy and Sustainable Economic Development, Lungotevere Thaon
+de Revel, 00196 Rome, Italy
+Department of Planning, Design, Technology of Architecture, Sapienza University of Rome,
+Piazzale Aldo Moro, 00185 Rome, Italy; mbeatrice.andreucci@uniroma1.it
+Thermal Energy and Building Performance Group, IREC—Catalonia Institute for Energy Research,
+Sant Adrià del Besos, 08930 Barcelona, Spain; pciviero@irec.cat
+Correspondence: paola.clerici@enea.it
+
+Abstract: Cities generate about 85% of the EU’s GDP. As such, they are key players in shaping
+and providing technological and social innovations but also environmental impact. Thus, they
+must urgently engage in unprecedented systemic transformational and bold transitions towards
+sustainability and climate neutrality. The contribution—taking into account that the concepts of
+community resilience and urban transition have changed as a consequence of COVID-19—critically
+discusses innovative frameworks and funding opportunities that Horizon Europe will put in place to
+boost sustainable urban areas in Europe, driving a transition to 100 Positive Energy Districts and 100
+climate-neutral cities by 2030.
+
+Andreucci, M.B.; Civiero, P.
+Sustainable Urban Areas for 2030 in a
+Post-COVID-19 Scenario: Focus on
+
+Keywords: positive energy district; climate-neutral cities; 15-minute city; downsizing district; doughnuts; post-COVID-19 scenario for RD&I funding
+
+Innovative Research and Funding
+Frameworks to Boost Transition
+towards 100 Positive Energy Districts
+and 100 Climate-Neutral Cities.
+Energies 2021, 14, 216. https://
+doi.org/10.3390/en14010216
+Received: 9 December 2020
+Accepted: 29 December 2020
+Published: 4 January 2021
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+
+Copyright: © 2021 by the authors. Licensee MDPI, Basel, Switzerland.
+This article is an open access article
+distributed under the terms and conditions of the Creative Commons Attribution (CC BY) license (https://
+creativecommons.org/licenses/by/
+4.0/).
+
+1. Introduction
+The discussion about sustainable development of urban areas started worldwide
+more than 30 years ago when the European Commission began to foster sustainable urban
+development through the Framework Programs FP5–FP6–FP7 (Appendix A), supporting
+urban areas to become Actors of Open Innovation, thus accelerating the transition to
+sustainable, low-carbon societies.
+The H2020 Framework Program addressed Major Urban Challenges, stimulating cities
+to be Actors of Open Innovation and calling municipal authorities to be active participants
+in Research and Innovation (R&I) projects, thus designing a new role for city authorities
+compared with previous framework programs where cities were only the place and the
+object where research took place.
+Sustainable development of urban areas has become the prime challenge in the area of
+“Secure, clean and efficient energy”, promoting transition to a competitive energy system
+around specific objectives such as energy consumption and carbon footprint reduction;
+low-cost and low-carbon electricity supply; a smart European electricity grid; alternative
+fuels and mobile energy sources; innovative knowledge and technologies; market uptake
+of energy and ICT innovation; robust decision making and public engagement.
+Several funding schemes in the H2020 Framework Programme such as Smart Cities
+and Communities, European Structural and Investment Funds, European Fund for Strategic
+Investments, Urban Innovative Actions, Urbact, Life, and Jaspers have supported critical
+and ambitious urban dimensions.
+
+Energies 2021, 14, 216. https://doi.org/10.3390/en14010216
+
+https://www.mdpi.com/journal/energies
+
+Energies 2021, 14, 216
+
+2 of 14
+
+As a consequence, the European Commission has been paying, for 30 years, significant attention to both urban dimensions and sustainable development, which are also
+cornerstones in its funding strategies; this trend seems to continue through the forthcoming
+Horizon Europe Framework Programme with a set of instruments and actions such as:
+
+•
+•
+•
+
+Horizon Europe Cluster 5 [1]: Climate, Energy, and Mobility—Destination 2, Crosssectorial solutions for the climate transition;
+European Partnership Driving Urban Transition to a sustainable future (DUT)
+partnerships [2];
+European research and innovation missions (European Green Deal) delivering solutions to some of the greatest challenges facing our world, among which is 100
+climate-neutral cities by 2030—by and for the citizens [3].
+
+In this broad picture, the SET Plan, which is the technology pillar of the EU’s energy
+and climate policy adopted by the European Union, boosts the transition towards a climateneutral energy system, promoting the development of low-carbon technologies in fast
+and cost-competitive ways. Thanks to new technology improvements and reducing costs
+with coordinated national research efforts, the SET Plan facilitates cooperation among EU
+countries, companies, and research institutions, delivering on the main challenges of the
+Energy Union.
+The implementation of the SET Plan started with the establishment of the European
+Industrial Initiatives (EIIs) and of the European Energy Research Alliance (EERA), both
+promoting alignment of the Research and Development activities of individual research
+organizations to SET Plan challenges and creation of a joint programming framework at
+the EU level involving national delegates in Implementation Working Groups. Among
+the Implementation Working Groups, a specific one for Action 3.2 “Smart Cities and
+Communities” has been created, boosting planning, deployment, and replication of 100
+Positive Energy Districts (PEDs) by 2025 for sustainable urbanization, thus anticipating the
+concept of PEDs highlighted in the European Partnership DUT.
+On the same line, the EERA Joint Programme on Smart Cities (a network of universities
+and research institutes from across Europe that cooperate with industry, cities, and citizens
+to support innovation and demonstration projects) contributed to the development and
+mainstreaming of the Positive Energy Districts concept. The EERA Joint Programme
+on Smart Cities re-orientated its structure in 2018 to better investigate and progress the
+underlying PED concepts and to stimulate discussion around them.
+With the aim to support capacity building for new generations of PED professionals,
+early career investigators, experienced practitioners, and policy makers, the EERA Joint
+Programme on Smart Cities has been leading the submission of a Cooperation in Science
+and Technology (COST) Action proposal to establish a European PED network. As a
+result, the Cooperation in Science and Technology (COST) Action CA19126 “PED-EU-NET
+Positive Energy Districts European Network” (Appendix B), supporting open collaboration
+among researchers, innovators, and other relevant stakeholders across different domains
+and sectors and giving impetus to research advancements and innovation on Positive
+Energy Districts in Europe—formally started its activities on 10 September 2020, under
+EU funding.
+Cities with their surroundings areas have become the epicenter of the pandemic
+with ninety percent of all reported COVID-19 cases [4], exacerbating risks and taking
+extraordinary measures to support the local economy and protect the population, in
+some way losing the priority of persisting climate and ecological crisis [5]. Therefore,
+the COVID-19 pandemic clearly demonstrates interrelations between natural and societal
+systems; indeed, societal resilience strictly depends on a resilient and robust environmental
+support system [6].
+As a consequence, with the outbreak of the COVID-19 crisis, emerging issues and
+related questions with respect to mainstreaming urban transition, sustainability, and climate
+neutrality arise spontaneously: How did societal challenges and related priorities change
+in the post-COVID scenario? Should the Urban Transition framework change as well? How
+
+Energies 2021, 14, 216
+
+3 of 14
+
+much do innovative research and funding frameworks to boost transition already take
+those changes into account? How can addressing the challenges of climate neutrality help
+with respect to post-COVID 19 urban transition?
+According to authors’ point of view, tentative answers are provided in section “Discussion and Conclusions”.
+The COVID-19 crisis has had a deep economic impact on several sectors; indeed, the
+activity in construction decreased by 15.7% in 2019, as well as investment in the energy
+efficiency sector which decreased by 12% in 2020. Even if the European recovery plan is
+coming, a new impact on the building sector is expected which could be limited, somehow,
+by 2030, creating 160,000 green jobs for the EU construction sector thanks to the renovation
+wave. This would be a key opportunity to overcome the COVID-19 crisis, not forgetting
+about climate neutrality issues; restructuration and renovation offer a key opportunity to
+rethink, redesign, and modernize buildings to adapt them for a greener and digital society
+while sustaining economic recovery [7].
+The following sections describe the most recent innovative research and funding
+frameworks—such as 100 Positive Energy Districts, 100 climate-neutral cities, Horizon Europe, and the Green Deal—aiming at offering critical perspectives taking into consideration
+the above dilemmas.
+2. Materials and Method: A Review of the Most Recent Innovative Research and
+Funding Frameworks on 100 Positive Energy Districts and 100 Climate-Neutral Cities
+More than half of the world’s population nowadays is located in urban areas; people
+living in cities and their surrounding areas are expected to be 80% of population by
+2050. Cities and urban areas are centers of economic activities, knowledge generation,
+innovation and new technologies, and places where the quality of life is immediately
+tangible. That is why Horizon Europe will promote the mission of “100 Climate-Neutral
+Cities by 2030—by and for the citizens” and will support sustainable urban transition with
+the DUT Partnership.
+At the time of this article’s writing, the definition of the contents relating to the 100
+Climate-Neutral Cities Mission seems to have been fully outlined and defined, while
+the process of the DUT Partnership is still ongoing and it is assumed that it will not be
+completed before the second half of 2021. The process for understanding the aim, objectives,
+and priorities of the DUT Partnership is a co-creation process that has involved, and still
+involves, main urban stakeholders. Management of the DUT Partnership is entrusted to
+JPI Urban Europe, which, due to its role and skills, is also the management delegate for the
+Implementation Working Group of SET Plan 3.2.
+In addition to many other urban stakeholders, two research networks participate
+in the co-creation process for DUT Partnership, mainly related to PEDs: the EERA Joint
+Program on Smart Cities and the COST Action CA19126 “PED-EU-NET”.
+Thanks to Horizon Europe and the co-design process, European cities will have a
+unique chance to promote the sustainability dimension at an urban scale, according to their
+own needs—this will help to fulfil the goals set out by international policy frameworks
+such as the Urban Agenda for the EU, the COP21 Paris Agreement, the Habitat III New
+Urban Agenda, and, last but not least, the UN’s Sustainable Development Goals (notably
+SDG 11) of the DUT Partnership.
+2.1. 100 Positive Energy Districts: Driving Urban Transition (DUT) Partnership
+The aim of the European Partnerships in Horizon Europe is to address global challenges and modernize industry. The European Partnerships will contribute to multiple
+Sustainable Development Goals (SDGs) and are an integral part of Horizon Europe’s
+strategic planning process that identifies three types of partnership: (a) Co-programmed
+European Partnerships, which are partnerships between the Commission and private
+and/or public partners; (b) co-funded European Partnerships using a program to co-fund
+action—this is the case for Driving Urban Transition (DUT) Partnership to a sustainable fu-
+
+Energies 2021, 14, 216
+
+4 of 14
+
+ture; and (c) institutionalized European Partnerships with research and innovation funding
+programs that are undertaken by EU countries (e.g., the EIT KICs).
+The Driving Urban Transition to a Sustainable Future (DUT) Partnership is the proposal for an urban partnership under Horizon Europe, led by JPI Urban Europe [8], and
+focuses specifically on fostering actions in Cluster 5 “Climate, Energy and Mobility”, whose
+scope is to create impact in three urban dimensions: (a) urban areas, (b) urban policy, and
+(c) urban innovation, and the European Research Area (ERA).
+The DUT Partnership addresses a complex set of urban challenges [9] and aims to
+support decision making in municipalities, companies, and society by acting and enabling:
+1.
+
+2.
+
+3.
+
+Actions for capacity and community building for urban transformations to drive and
+to shape a quadruple-helix innovation eco-system on urban transitions. Targets: (a)
+City authorities and urban municipalities mobilized in projects, urban living labs,
+and other partnership activities; (b) Urban living labs and similar formats; (c) Multistakeholder engagement.
+Efforts towards integrated approaches to tackle complex urban issues and to increase effectiveness of urban solutions, approaches, and processes. Targets: (a) R&I
+calls opened for participation of all stakeholder groups (challenge-driven); (b) Urban research and innovation considering urban dilemmas and engaging relevant
+stakeholders in the process.
+Join forces—at local and international scales—to tap the full potential of urban Research and Innovation, bringing knowledge to action across Europe to create benefits
+for neighborhoods and urban areas across Europe. Targets: (a) Policy briefs and
+recommendations, with and made available for urban governance and city networks;
+(b) Widened participation and international relationships; (c) Results and solutions
+from R&I projects and/or urban living labs available for local urban policy and public
+administrations.
+
+According to this approach, the Partnership will create a portfolio of measures to enhance its impact, build capacities in all stakeholder groups, and contribute to the European
+mission on climate-neutral and smart cities. On the other hand, the Partnership will engage
+and enable the whole spectrum of urban stakeholders (local authorities, municipalities,
+businesses, and citizens) to co-create innovative, systemic, and people-centric approaches,
+tools, methods, and services in support of urban transformative transitions. This will boost
+a more efficient and decarbonized use of energy, sustainable and people-friendly mobility
+systems, and circular and environmental-friendly use of resources for the well-being of
+citizens and preservation of biodiversity.
+With this vision, the DUT Partnership is likely to contribute to global and European
+policies, in particular the Agenda 2030 and UN Habitat’s New Urban Agenda, the strategic
+priorities of the European Commission’s Strategic Plan for Horizon Europe, with a special
+focus on the European Green Deal, the Paris Agreement, the Leipzig Charter, and the
+Urban Agenda for the EU (UAEU). To achieve these objectives and to assess the sub-targets
+of the Sustainable Development Goal (SDG) no. 11 (Make cities inclusive, safe, resilient
+and sustainable), the DUT Partnership builds upon the Strategic Research and Innovation
+Agenda (SRIA) 2.0, developed by JPI Urban Europe, where three innovation pillars (and
+their inter-relationships) are considered as prioritized sectors along the Green Deal for
+sustainable urbanization:
+1.
+2.
+3.
+
+The 15-Minute City as a concept for rethinking the urban mobility system and space;
+Downsizing District Doughnuts as an integrated approach for urban greening and
+circularity transitions;
+Positive Energy Districts and Neighborhoods, aiming at transforming the urban
+energy system.
+
+2.1.1. The 15-Minute City: Rethinking the Urban Mobility System and Space
+The concept of the 15-Minute City (Table 1) provides a framework for the mobility
+of people and goods that directly and indirectly affects urban livability, health, the spatial
+
+Energies 2021, 14, 216
+
+5 of 14
+
+configuration of cities, air quality, and other aspects of the living environment and sustainable urbanization. The transformation of urban mobility systems will not be achievable by
+relying on technologies or providing more sustainable mobility offerings alone but calls for
+fundamental rethinking of space and the re-organization of all daily activities.
+Table 1. The 15-Minute City concept.
+15-Minute City
+Rethinking urban mobility system and space:
+-
+
+Fundamental rethinking of space and the re-organization of our daily activities
+Different mobility options at various scales (from neighborhoods up to regional scale)
+Different urban settings (city size, available mobility infrastructure, mobility supply/service patterns, etc.)
+Different mobility options at various scales (from neighborhoods up to regional scale)
+More flexible transport options along a broad set of innovations
+
+The 15-Minute City approach addresses different urban settings (city size, available
+mobility infrastructure, mobility supply/service patterns, etc.) and mobility options at
+various scales (from neighborhood up to regional scale), taking into account how people
+move and how goods and services are delivered, hence creating more flexible transportation options along a broad set of innovations—social, organizational, technological, and
+institutional. For these reasons, this concept offers a clear focus for the mobility pillar and
+a holistic, people-oriented, and challenge-driven perspective for distinct aspects of the
+doughnut economy and the overarching ambition of regenerative cities according a wider
+PED/PEN concept.
+2.1.2. The Downsizing District Doughnuts
+Cities and urban areas are attractive starting points for making the global transition
+to livable societies and circular economies. The Downsizing Districts Doughnut (DDD)
+Pillar (Table 2) aims at operationalizing a dilemma-based approach to urban greening and
+circularity objectives of the Green Deal by supporting urban robustness through doughnut
+strategies in urban districts. The DDD approach holds a dual circles system concept of
+city doughnuts based on the exchanges/balance between an external ring—representing
+the nine “planetary boundaries”—and an inner ring including the city doughnuts’ nine
+sectors. Between these two sets of boundaries, there is the ecologically safe and socially
+just space [10].
+Table 2. The Downsizing District Doughnuts concept.
+Downsizing District Doughnuts (DDD)
+Doughnut strategies in urban districts:
+-
+
+Dual circles system concept of city doughnuts
+External ring representing the nine “planetary boundaries”
+Inner ring including the city doughnuts’ nine sectors
+
+According to this approach, the transitions driven by the Downsizing District Doughnuts paradigm can contribute to and promote a systemic change at all of the following four
+levels of urban transformation:
+
+•
+•
+•
+
+Governance and mobilizing people for change, by supporting existing networks,
+groups, initiatives, and “urban doers” engaged in urban transformation activities.
+Circularity, by supporting transitions of metropolitan industries and new urban
+economies with circular growth.
+Sustainable spatial planning, by translating land-use and spatial/territorial planning
+into integrated urban development, by developing and improving Green-Blue Infrastructures (GBIs) and Nature-Based Solutions’ (NBS) overall urban livability, public
+
+Energies 2021, 14, 216
+
+6 of 14
+
+•
+
+health, and urban robustness together with cutting-edge approaches to clean-tech and
+entrepreneurial creativity.
+Urban design, by supporting the (re-)development of attractive built environments
+concerning livability and well-being as well as the urban design aspects of “high
+quality” public spaces.
+
+2.1.3. Positive Energy Districts
+The PED concept, as said, implies an integrated approach for designing urban areas, districts, or groups of connected buildings producing net zero greenhouse gas emissions, managing an annual local/regional overflow production of renewable energy. The
+PED/PEN approach (Table 3) emphasizes the flexibility dimension of urban districts in
+the regional energy system based on renewable energy and addresses the ecological and
+energetic footprints of goods and services. Otherwise, PEDs include a proper consideration
+of user behavior and people’s lifestyles without contradicting the guiding principles of
+cost efficiency, affordability of housing, and energy poverty.
+Table 3. The PED concept.
+PED
+This approach emphasizes the flexibility dimension of urban districts in the (renewable) regional energy system and addresses the
+energetic and ecological footprint of goods and services:
+-
+
+Energy efficiency
+Energy flexibility
+Energy production
+Quality of life, inclusiveness, sustainability, resilience and security of energy supply
+
+The PED Reference Framework [11] identifies three key functions for urban areas,
+related to context of their urban and regional energy system, that cities need to consider in
+their long-term urban strategies: energy efficiency, energy flexibility, and local/regional
+energy production. Therefore, the neighborhood scale will foster economic sustainability
+(e.g., economies of scale), aggregation synergies (e.g., efficiency deployment, flexibility, and
+integration), and governance in distributed resources through a considerable involvement
+of all stakeholders and communities. It means that each PED will design its own balance
+between the above-mentioned functions, figuring their own way towards climate neutrality
+and energy surplus. To make PEDs attractive for cities and citizens, their development
+should follow four guiding principles, namely: (a) quality of life, (b) inclusiveness (with
+special focus on the affordability and prevention of energy poverty), (c) sustainability, and
+(d) resilience and security of energy supply.
+These three key priority areas—The 15-Minute City, The Downsizing District Doughnuts, and Positive Energy Districts—in turn, imply three integrated approaches that impact
+each other as well as most the other urban grand challenges, while revealing multiple
+interlinkages with the sectorial priorities [12]. The three DUT pillars can be considered
+complementary driven strategies (Tables 4–6) aiming at supporting climate neutrality
+and energy autonomy achievement in cities considering urban physical, functional, and
+socio-economic vulnerability. They create strong interfaces and cross-cutting potential
+towards each DUT pillar and suggest transversality, therefore overcoming a strictly silos
+vision (“breaking silos”)—neighborhoods cannot produce more energy than they consume
+without new mobility solutions and more circular use of resources. New mobility solutions necessitate innovative energy technology and design thinking. Sustainable energy
+systems and smart mobility solutions are mandatory, should cities obtain circularity and
+secure well-being while respecting planetary boundaries. Otherwise, some commonalities
+across the three pillars suggest the renewal of the existing city by providing a new urban
+governance based on considering the expertise of residents/inhabitants. A change in the
+
+Energies 2021, 14, 216
+
+7 of 14
+
+governance structures is required and can be improved by co-designing inclusive public
+spaces as different ways for people to interact with technology and nature.
+Table 4. Interface of the 15-Minute City with the other two Driving Urban Transition (DUT) pillars.
+PED
+
+Downsizing District Doughnuts (DDDs)
+
+Developments on neighborhood scale.
+-
+
+Energy demands for mobility
+Infrastructure requirements
+Functional design and planning of neighborhoods
+
+Contribution to greening of urban areas and economies.
+-
+
+Impact on material flows and circularity
+Mixed use of neighborhoods and link to green-blue
+infrastructure
+Shared economy
+
+Table 5. Interface of the Downsizing District Doughnuts with the other two DUT pillars.
+Positive Energy Districts
+The role of energy in doughnut districts:
+-
+
+Refurbishment and upgrade of built environment
+Energy and resource efficiency and circularity of PEDs
+Integration of GBIs and NBS in PEDs
+Energy solutions for new urban manufacturing
+
+15-Minute City
+Interplay of the 15-minute city and doughnut district:
+-
+
+Contribution of new mobility systems and services to
+circular urban economies
+Mobility solutions for metropolitan industries
+Consideration of the urban-rural continuum
+Multi-functional public spaces
+
+Table 6. Interface of Positive Energy Districts with the other two DUT pillars.
+Downsizing District Doughnuts
+PED contribution to DDD:
+-
+
+15-Minute City
+Mobility in PEDs:
+
+Integration of green-blue infrastructure in PED
+concepts
+Impact of PED on circularity, material flows, and
+resource efficiency
+Economic dimension of PEDs
+
+-
+
+Integrated energy and mobility planning
+Developing attractive, inclusive, and accessible
+neighborhoods or districts
+Strengthen the role of mobility in neighborhood
+concepts
+
+The PED concept itself represents the result of several working groups and ongoing
+initiatives at the European level that involve members from the EERA, JPSC, and JPI UE
+network. Even if an accurate concept of PEDs is still under discussion, an extensive range
+of different approaches and actions at the European and international levels are currently
+focusing on the definition and the implementation of the PED strategy for energy transition
+and climate mitigation in the urban context, among which are:
+
+•
+
+•
+
+•
+
+The International Energy Agency EBC Annex 83 “PEDs”, launched in February 2020
+and focused on developing an in-depth definition of PEDs and the technologies, the
+planning tools, and the decision-making processes related to Positive Energy Districts;
+The already mentioned COST Action CA19126 “PED-EU-NET” (Positive Energy
+Districts European Network) supporting open collaboration among researchers, innovators, and other relevant stakeholders across different domains and sectors to drive
+the deployment of Positive Energy Districts in Europe;
+The Positive Energy District Booklet which contains more than 60 examples of PEDs existing, ongoing, or in transition, showcasing different aims and challenges, approaches,
+and factors of success.
+
+2.2. 100 Climate-Neutral Cities by 2030: Innovation Mission European Green Deal
+The European Commission has recently introduced its own strategic long-term vision
+for a prosperous, competitive, and climate-neutral economy by 2050. The “European
+Green Deal” makes the case for a mission-oriented R&I component in the Horizon Europe
+
+Energies 2021, 14, 216
+
+8 of 14
+
+program to give answer to the question of how Europe can help cities become climateneutral as fast as possible; supporting, promoting, and showcasing hundreds of European
+cities in their structural change towards climate neutrality by 2030, transforming urban
+areas and districts into hubs of experimentation and innovation and being able to lead on
+the European Green Deal and on Europe’s efforts to be climate neutral by 2050.
+To achieve in ten years within European cities what Europe plans to achieve in
+30 years is a huge challenge that requires a systemic transformation for acting on the global
+climate emergency and for delivering co-benefits that will improve the health, well-being,
+and prosperity of citizens. This transformation will be feasible because technologies and
+innovative solutions for sustainable energy, transport, food, water, and material systems
+already exist thanks to R&I programs of last decade and in the years to come due to Horizon
+Europe and national R&I programs.
+Moreover, green technology prices and market conditions are fast moving towards
+climate-friendly investments and will continue to strengthen incentives to transition. The
+European Green Deal, including a revision of EU directives for 2030, and the new role of
+the European Investment Bank will, thus, further strengthen this trend.
+The mission (Table 7) is based on two main pillars:
+
+•
+
+•
+
+The Multiannual Financial Framework MFF 2021–2027 and Next Generation EU
+proposals which will impact the European and national frameworks for the funding of
+climate action, including the Horizon Europe program where the mission is anchored
+in terms of objectives, R&I agenda, and societal challenges and priorities;
+The European Green Deal which sets an unprecedented level of ambition and reach
+for climate and environmental action and for the financing and inclusiveness of
+the transition.
+Table 7. The Climate-Neutral Cities concept.
+Climate Neutral Cities
+
+To set new standards for climate and urban agendas and for their implementation, addressing the challenge of climate neutrality:
+-
+
+Cities will act as innovation hubs and national, European, and global forerunners
+Climate City Contract
+Climate neutrality should explain the starting point in its societal, economic, ecological, and political dimensions
+Connection with the local/regional or national strategy for carbon neutrality by 2050
+The “cross-border” issue: the participating city should ensure that measures taken will not be physically unconnected or
+stop working at the borders of the selected site
+
+The innovation Mission Green Deal is designed as a flagship initiative that complements and blends the two mentioned pillars, aiming to set new standards for climate and
+urban agendas and for their implementation. While connected to a wide range of European
+policies and strategies (e.g., the Climate Law and the Climate Pact, the EU plan for circular
+economy, the European long-term strategy for 2050 and the National Energy and Climate
+Plans, the Urban Agenda for the EU, the European Digital Strategy, the Smart Specialization
+Strategies and platform, and the Smart and Sustainable Mobility Strategy), the mission
+will also connect these policies and strategies at the local level. The participating cities will
+act as innovation hubs and national, European, and global forerunners. They will inspire
+additional urban areas, and eventually, the whole of Europe, to accelerate their policies for
+climate action and transition.
+To address the challenge of climate neutrality, the mission proposes a multi-level
+co-creation process through the introduction of a Climate City Contract. The purpose is to
+(a) express the ambition and commitment of all involved parties to the mission objectives;
+(b) identify the policy and implementation gaps as a basis for a strategy for transition;
+(c) coordinate stakeholders and empower citizens in the city around a common climate
+goal; (d) coordinate national/regional and EU authorities to deliver the necessary legal,
+
+Energies 2021, 14, 216
+
+9 of 14
+
+governance, and financial framework conditions to support each city; (e) create a one-stop
+shop for multi-level negotiations to facilitate city action for transition.
+Adapted to the specific circumstances of each city, a Climate City Contract will include
+the goal and targets, specify the strategy and the action plan for transition, and identify
+stakeholders and responsibilities.
+The Contract is not meant as a closed document that only binds a city legally to a
+course of action up to 2030. Instead, it emphasizes the high ambition, the participatory
+approaches, and the multi-level governance collaboration that will trigger innovation and
+change towards climate neutrality.
+Participating cities will be encouraged to design and implement a multi-sector governance model where local stakeholders such as business, universities and the civil society
+are part of the Climate City Contract and contribute to its design and implementation in
+and for the city (Table 8). Similarly, regional or national stakeholders that can ensure the
+success of the Contract (e.g., regional transport companies, national energy producers,
+national research institutions etc.) should be encouraged to join by the relevant regional or
+national signatory.
+Table 8. Interface of Climate-Neutral Cities with two DUT pillars.
+PED
+CNC contributions to PED:
+-
+
+15-Minute City
+CNC contribution to 15-Minute City:
+
+Connection with local/regional dimensions
+Impact not only on areas physically connected
+Multi-sector governance model
+
+-
+
+Identify the policy and implementation gaps
+Coordinate stakeholders and empower citizens
+
+Thanks to the Innovation Mission Green Deal, the current system for funding and
+financing climate innovation and investment at city level—now too fragmented—will be
+innovated; the commitment by the European Commission to a Sustainable Europe Investment Plan offers a new ambitious framework with a strengthened role for the European
+Investment Bank (EIB). Furthermore, the new EU Multiannual Financial Framework (MFF),
+reinforced by the recovery plan, will be an enabler and accelerator of the needed shift,
+combining financing from different European, national, and local resources and the whole
+value chain from Research and Innovation to planning, investment, and implementation.
+When ready for investment, cities will be able to apply for a variety of instruments/funds/facilities, mainly involving EIB funds. In fact, the estimated urban lending
+by EIB for 2012–2018 is EUR 152 billion, out of which nearly EUR 26 billion were invested in
+climate mitigation actions which include Natural Capital Financing Facility and Municipal
+Loans. Other instruments, i.e., Connecting Europe Facility, can provide guarantees and
+bonds, whereas the European Energy Efficiency Fund (a PPP with international banks) can
+provide cities with market-based junior debt, guarantees, equity, mezzanine instruments,
+leasing structures, and forfeiting loans.
+3. Discussion and Conclusions
+A strong global European leadership in renewable energy technologies coupled with
+circularity, resilience, and sustainability will pave the way to increase energy security
+and reliability in times of crisis, as can be seen today during the COVID-19 crisis, and
+beyond [13]. It will also lead to achieving the objectives of the European Green Deal
+as well as to sustain economic recovery and growth in the long term while ensuring a
+sustainable future for European citizens. Both the EU long-term climate strategy and the
+European Green Deal highlight the importance of renewable energies for a future clean
+European Energy System with achievement of the zero-emission target. Although a broad
+range of technologies for climate neutrality are already expected, European Commission
+programming for Research and Innovation should also leave space for those emerging
+and break-through technologies with a high potential to achieve climate neutrality. These
+
+Energies 2021, 14, 216
+
+10 of 14
+
+technologies will have a significant role in reaching the EU’s goal to become climate-neutral
+by 2050.
+Nevertheless, the challenge is not just technical—it calls for wide-ranging societal
+transformations and the adaptation of lifestyles and behaviors, even more so after the
+experienced COVID-19 pandemic, also to cope with the expected economic emergency
+during the next few years [14].
+The COVID-19 crisis has highlighted the significance of homes and buildings for
+our lives as well as their congenital fragilities. In the pandemic period, the home has
+been the core of daily life for Europeans, an office for those teleworking, a nursery or
+classroom for children, and a hub for online shopping or downloading entertainment.
+During the pandemic, buildings with a proper destination were empty as schools had to
+start experimenting with distance learning, private business companies had to rearrange
+to social distance, and public offices had one side implementing smart working and the
+other side managing social distancing to provide public service. Last but not least, hospital
+infrastructures have been under hard pressure. Some effects of the pandemic will continue
+in the longer term, stimulating growth for new demands on existing buildings and their
+energy and resource profiles, adding the need to deeply renovate European building stocks.
+Emphasis must be given to place-based approaches and experimentation capitalizing
+on citizens’ engagement, social innovation, and user-led and citizen science for shared
+ownership of solutions that are tailored to local specificities and thus ensure that envisaged
+transition pathways are human-centered and just. Important gaps in knowledge, evidence,
+innovation, technology, data, capacity, and skills, lack of integrated approaches, and
+deficit in applying research and innovation results to actions exist and prevent successful
+implementation of such transitions. Furthermore, institutional fragmentation and noninclusive and non-participatory governance structures lead to a lack of shared vision,
+goals, and direction regarding the transition process, incoherence in policies and strategies,
+uncoordinated planning and decision-making, ineffective measures, and inefficient use
+of resources.
+Climate neutrality and good environmental conditions, accessibility to qualitative
+urban open space, and a more inclusive urban economy appear even more necessary in a
+post-COVID-19 scenario [15]. Recent research has highlighted that “the specificity of an
+increase in the number of cases of contagion that affected some areas of Northern Italy in
+particular could be linked to the conditions of pollution by atmospheric particulate matter
+which carried out a carrier and boost action” [16].
+The COVID-19 crisis drove attention to the importance of improving cities’ resilience
+attitude; the pandemic highlighted not only the connection between air quality and wellbeing to health crises but also between food/medicine freight transport and survival,
+between health services and citizens, and between employment and living in cities; the
+COVID-19 crisis also emphasized the importance of buildings and the urban shell which
+support our lives and defend our fragilities.
+What emerged after the past nine months and is new to come is that it seems that
+citizens, while continuing to assess as very important the actions necessary to protect the
+environment, ask more for an economic and employment recovery, which appears to be
+vital for everyone.
+It seems equally necessary to clearly focus on sustainability in the urban dimension as
+a factor of economic growth, as the need to renovate cities and their dynamics can offer a
+unique opportunity to redesign our cities and their social services, urban planning, public
+transport, health services, and urban food logistics, integrating sustainability strategies
+from the early beginning.
+Our reaction to the COVID-19 crisis, which somehow brings our mind back to the
+2008–2009 recession, can now benefit from ten years of technological development, which
+could facilitate a joint goal of economic recovery and environmental and health protection,
+responding to the now impellent choice for sustainability.
+
+Energies 2021, 14, 216
+
+11 of 14
+
+The choice for sustainable development, only a few months ago, was seen by scientists,
+politicians, the world of finance, and business leaders as the only possible one. Now, due
+to the COVID-19 crisis, the transition towards a sustainable and more affordable urban
+model is not a possibility but a compulsory target, as the EU already included resilience as
+a priority in all urban long-term strategies.
+The Horizon Europe Framework Programme—thanks to Destination 2 Cross-sectoral
+solutions for the climate transition, Communities and Cities; Positive Energy Districts
+paradigm; DUT Partnership, and Innovation Mission 100 Climate-Neutral Cities—will
+boost the transition towards a climate-neutral energy system in cities promoting the
+quadruple-helix innovation eco-system for urban transitions [16,17]. This goal appears, in
+principle, to be possible thanks to the innovative system for funding climate innovation
+and investment at the city level.
+Now that technologies and innovative solutions for sustainable energy, transport, food,
+water, and material systems already exist, thanks to Research and Innovation programs developed over the last decade, what is left to tackle the climate-neutrality challenge is to have
+relevant stakeholders from academia, industry, cities, and communities to actively participate in the open innovation process transcending disciplinary, administrative, hierarchical
+borders and, mostly, municipalities able to address these “wicked dilemmas” [18].
+Among the key concepts highlighted in the previous sections such as the re-organization
+of our daily activities and mobility supply/service patterns (15-minute cities), the resilience
+and security of energy supply (PEDs), and, last but not least, climate neutrality (ClimateNeutral Cities) will certainly be at the core of the forthcoming Horizon Europe Programme,
+as well as among the top priorities for cities and communities alike.
+Author Contributions: Conceptualization, P.C.M., M.B.A. and P.C.; methodology, P.C.M., M.B.A.
+and P.C.; formal analysis, P.C.M., M.B.A. and P.C.; investigation, P.C.M., M.B.A. and P.C.; writing—
+original draft preparation, P.C.M., M.B.A. and P.C.; writing—review and editing, P.C.M., M.B.A. and
+P.C.; visualization, P.C.; supervision, P.C.M. and M.B.A.; All authors have read and agreed to the
+published version of the manuscript.
+Funding: Paolo Civiero who is one of the co-author of present paper has received funding from the
+European Union’s Horizon 2020 research and innovation programme under the Marie SkłodowskaCurie grant agreement No. 712949 (TECNIOspring PLUS) and from the Agency for Business Competitiveness of the Government of Catalonia. TECNIOspring PLUS investigator: Paolo Civiero,
+Project: PEDRERA. Positive Energy Districts renovation model. IREC—Catalonia Institute for Energy
+Research (Barcelona—ES).
+Conflicts of Interest: The authors declare no conflict of interest.
+
+Appendix A. Framework Programs 5, 6, and 7
+The Fifth Framework Programme (FP5) focused on a problem-solving approach
+thanks to “key actions”, among which was one on “The City of Tomorrow and Cultural
+Heritage” as a first integrated and systemic R&I approach to urban challenges. The City
+of Tomorrow and Cultural Heritage Key Action aimed to improve urban sustainability
+through delivering benefits to citizens by concentrating resources on specific areas of city
+planning and management, cultural heritage, built environment, and urban transport. The
+Key Action was specifically designed to ensure rapid, EU-wide take-up of practical new
+approaches to urban governance, planning, and management. Total FP5 EC Contribution
+to Urban Research projects 1998–2002: circa EUR 479.0 million.
+The Sixth Framework Programme (FP6) introduced funding for smart cities and
+supported the European Research Area and the ERA-NETs with EU top-up funding to joint
+calls and other coordination activities among national programs. The Joint Programming
+Initiative Urban Europe (JPI UE) is the output of such an ERA-NET on urban issues. Total
+FP6 EC Contribution to Urban Research projects 2002–2006: circa EUR 400.3 million.
+The Seventh Framework Programme (FP7) deepened comprehension on urban challenges and has been fundamental for the development of technology as well as the de-
+
+Energies 2021, 14, 216
+
+12 of 14
+
+velopment of strategies for sustainable urban development in different areas, notably
+energy efficiency and climate action. Total FP7 EC Contribution to Urban Research projects
+2007–2013: circa EUR 1.9 billion.
+Appendix B. COST Action CA19126 “Positive Energy Districts European
+Network—PED-EU-NET”
+In the last decade, building in Europe has significantly supported the level of innovation as seen in the development of Nearly Zero-Energy Buildings (NZEBs). It is now time
+to step up efforts towards city-wide transformation with the pioneering concept of Positive
+Energy Districts (PEDs), which builds on the paradigm of smart cities.
+A Positive Energy District has been defined as “energy-efficient and energy-flexible
+urban areas or groups of connected buildings which produce net zero greenhouse gas
+emissions and actively manage an annual local or regional surplus production of renewable
+energy. They require integration of different systems and infrastructures and interaction
+between buildings, the users and the regional energy, mobility and ICT systems, while
+securing the energy supply and a good life for all in line with social, economic and
+environmental sustainability” [9].
+This represents a major challenge that crosses sectors and domains whose solutions
+would only be found through collective innovation. “Innovation” implies opening up
+the relevant processes to all active players so that knowledge can flow across the entire
+economic and social environment [19]. The deployment of 100 Positive Energy Districts and
+Neighborhoods and 100 Climate-Neutral Cities requires innovation in multiple domains,
+encompassing interconnected technological, social, cultural, political, spatial, economic,
+and regulatory aspects. Each domain has its own set of embedded challenges that need to
+be addressed in order to foster the innovation process. In terms of technological challenges,
+innovative concepts, products, and services are needed to produce optimal PED/ClimateNeutral City solutions customized to local circumstances. Moreover, companies in the
+building, energy, mobility, and ICT sectors need to develop new business models for the
+emerging PED/Climate-Neutral Cities market. They need to draw on flows of knowledge
+outside their boundaries to boost the internal innovative processes [20]. In the social aspect,
+the processes of societal innovation, social entrepreneurship, and citizen participation
+must be integrated synergistically in the transformation [21]. In the financial aspect,
+robust investments and creative funding models are needed to support innovative energy
+solutions and establish new energy markets. With respect to legal aspects, regulatory
+sandboxes are needed to test novel solutions on PED/Climate-Neutral Cities. Requirements
+for the certification and standardization of PED/Climate-Neutral Cities need to be defined
+to ensure quality and facilitate replication.
+The concept of PEDs is evolving and it still needs to be refined, advanced, demonstrated, implemented, and replicated [22]. Europe is poised to enable transitions towards
+a climate-neutral economy and the concept of PEDs will be incrementally introduced
+in the energy planning of many cities and communities in the coming years [23]. According to the SET Plan Action 3.2, 100 PEDs are expected, as said, “to be in concrete
+planning, construction or operation, synergistically connected to the energy system in
+Europe by 2025” [24].
+Within this framework, the main aims and objectives of the COST Action CA19126
+“PED-EU-NET” have been set to “drive the deployment of PEDs in Europe by harmonizing, sharing and disseminating knowledge and breakthroughs on PEDs across different
+stakeholders (academia, industry, cities and communities), domains (technological, social,
+economic, financial, legal and regulatory) and sectors (buildings, energy, mobility and
+ICT) at the national and European level. [The PED-EU-Network aims at supporting] cities
+and empower communities to achieve city-wide positive energy transformation with pioneering ideas, methods and solutions. It will mobilize the relevant actors from and across
+Europe to collectively contribute to the long-term climate neutral goal” [25].
+
+Energies 2021, 14, 216
+
+13 of 14
+
+This COST Action is structured into four interlinked Working Groups: three are
+scientific Working Groups focusing on a variety of topics related to PEDs (WG 1, 2, and 3)
+and a dissemination Working Group (WG 4) that oversees the communication, education,
+outreach, and exploitation of this Action’s outcomes.
+The COST Action CA19126 PED-EU-NET builds on a holistic approach, bringing
+together stakeholders from different backgrounds. This initiative represents a strong
+commitment to pooling resources, experimenting with new methods, co-creating original
+solutions, and advancing science and building solutions so as to enable neighborhoods
+and cities to integrate different functions and guiding principles and find the balance that
+represents the best renewable energy resources usable in their respective climate zones,
+according to their communities’ specific ambitions and needs [26].
+References
+1.
+2.
+3.
+4.
+
+5.
+6.
+7.
+
+8.
+9.
+
+10.
+11.
+
+12.
+13.
+14.
+15.
+
+16.
+17.
+18.
+19.
+20.
+21.
+
+Verso Horizon Europe. Available online: https://www.versohorizoneurope.it/ (accessed on 3 November 2020).
+Presentation of the Driving Urban Transitions to a Sustainable Future (DUT) Partnership. Available online: jpi-urbaneurope.eu
+(accessed on 3 November 2020).
+DG RTD (EC). 100 Climate-Neutral Cities by 2030—By and for the Citizens; Publications Office of the European Union: Luxembourg,
+2020; ISBN 978-92-76-19919-9. [CrossRef]
+United Nations Human Settlements Programme (UN-Habitat). Opinion: COVID-19 Demonstrates Urgent Need for Cities to
+Prepare for Pandemics. 15 June 2020. Available online: https://unhabitat.org/opinion-covid-19-demonstrates-urgent-need-forcities-to-prepare-for-pandemics (accessed on 30 November 2020).
+Saadat, S.; Rawtani, D.; Hussain, C.M. Environmental perspective of COVID-19. Sci. Total Environ. 2020, 728, 138870. [CrossRef]
+[PubMed]
+Sharifi, A.; Khavarian-Garmsir, A.R. The COVID-19 pandemic: Impacts on cities and major lessons for urban planning, design,
+and management. Sci. Total Environ. 2020, 749, 142391. [CrossRef] [PubMed]
+European Commission. A Renovation Wave for Europe—Greening Our Buildings, Creating Jobs, Improving Lives, COM
+(2020) 662. Available online: https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1603122220757&uri=CELEX:52020DC0662
+(accessed on 30 November 2020).
+JPI Urban Europe. Available online: https://jpi-urbaneurope.eu/governance/governing-board/ (accessed on 3 November 2020).
+JPI Urban Europe. Driving Urban Transitions to a Sustainable Future. Proposal for an European Partnerships under Horizon
+Europe. Report (version July 2020). Available online: https://ec.europa.eu/info/files/european-partnership-driving-urbantransitions-sustainable-future-dut_en (accessed on 3 November 2020).
+Raworth, K. A Doughnut for the Anthropocene: Humanity’s compass in the 21st century. Lancet Planet. Health 2017, 1, e48–e49.
+[CrossRef]
+JPI Urban Europe. PED Programme Management. Europe towards Positive Energy Districts. A compilation of Projects towards
+Sustainable Urbanization and the Energy Transition. Booklet (Version February 2020). Available online: https://jpi-urbaneurope.
+eu/app/uploads/2020/02/PED-Booklet-Update-Feb2020.pdf (accessed on 3 November 2020).
+JPI Urban Europe. Strategic Research and Innovation Agenda 2.0. Available online: https://jpi-urbaneurope.eu/app/uploads/
+2019/02/SRIA2.0.pdf (accessed on 3 November 2020).
+IEA. The Impact of the Covid-19 Crisis on Clean Energy Progress, IEA, Paris. 2020. Available online: https://www.iea.org/
+articles/the-impact-of-the-covid-19-crisis-on-clean-energy-progress (accessed on 3 November 2020).
+Kunzmann, K.R. Smart Cities After Covid-19: Ten Narratives. Disp-Plan. Rev. 2020, 56, 20–31. [CrossRef]
+Italian Society of Environmental Medicine (SIMA). Position Paper Particulate Matter and COVID-19. 16 March 2020. Available
+online: http://www.simaonlus.it/wpsima/wp-content/uploads/2020/03/COVID_19_position-paper_ENG.pdf (accessed on 30
+November 2020).
+Campbell, D.F.J.; Carayannis, E.G.; Rehman, S.S. Quadruple helix structures of quality of democracy in innovation systems: The
+USA, OECD countries, and EU member countries in global comparison. J. Knowl. Econ. 2015, 6, 467–493. [CrossRef]
+Carayannis, E.G.; Barth, T.D.; Campbell, D.F.J. The quintuple helix innovation model: Global warming as a challenge and driver
+for innovation. J. Innov. Entrep. 2012, 1, 1–12. [CrossRef]
+Wrangsten, C.; Bylund, J. A Dilemma-Driven Approach to Urban Innovation. JPI UE. 2018 (Online Version). Available online:
+https://jpi-urbaneurope.eu/news/a-dilemma-driven-approach-to-urban-innovation/ (accessed on 30 November 2020).
+EC. Open Innovation, Open Science, Open to the World—A Vision for Europe; Publications Office of the European Union: Luxembourg, 2015.
+Errichiello, L.; Marasco, A. Open service innovation in smart cities: A framework for exploring innovation networks in the
+development of new city services. Adv. Eng. Forum 2014, 11, 115–124. [CrossRef]
+Haarstad, H.; Wathne, M. Are smart city projects catalyzing urban energy sustainability? Energy Policy 2019, 129, 918–925.
+[CrossRef]
+
+Energies 2021, 14, 216
+
+22.
+23.
+24.
+25.
+26.
+
+14 of 14
+
+Aghamolaei, R.; Shamsi, M.H.; Tahsildoost, M.; O’Donnell, M. Review of district-scale energy performance analysis: Outlooks
+towards holistic urban frameworks. Sustain. Cities Soc. 2018, 41, 252–264. [CrossRef]
+Koutra, S.; Becue, V.; Gallas, M.A. Towards the development of a net-zero energy district evaluation approach: A review of
+sustainable approaches and assessment tools. Sustain. Cities Soc. 2018, 39, 784–800. [CrossRef]
+SET-Plan ACTION No. 3.2. Implementation Plan. (Version June 2018). Available online: https://setis.ec.europa.eu/system/files/
+setplan_smartcities_implementationplan.pdf (accessed on 3 November 2020).
+COST Action CA19126. Memorandum of Understanding. 2020. Available online: https://www.cost.eu/actions/CA19126/#
+tabs\T1\textbar{}Name:overview (accessed on 3 November 2020).
+JPI Urban Europe. Positive Energy Districts (PED). 2020. Available online: https://jpi-urbaneurope.eu/ped/ (accessed on 3
+November 2020).
+
+

@@ -1,0 +1,1194 @@
+energies
+Article
+
+Implementation Framework for Energy Flexibility
+Technologies in Alkmaar and Évora
+Nienke Maas 1, * , Vasiliki Georgiadou 1 , Stephanie Roelofs 1 , Rui Amaral Lopes 2 ,
+Anabela Pronto 2 and João Martins 2
+1
+2
+
+*
+
+TNO—Netherlands Organization of Applied Scientific Research, NL-2595 DA,
+96800 The Hague, The Netherlands; vasiliki.geogiadou@tno.nl (V.G.); stephanie.roelofs@tno.nl (S.R.)
+UNINOVA—Instituto Desenvolvimento de Novas Tecnologias, Faculdade De Ciências E Tecnologia,
+2829-517 Caparica, Portugal; rm.lopes@fct.unl.pt (R.A.L.); amg1@fct.unl.pt (A.P.); jf.martins@fct.unl.pt (J.M.)
+Correspondence: Nienke.maas@tno.nl; Tel.: +31-646847246
+
+Received: 30 September 2020; Accepted: 4 November 2020; Published: 6 November 2020
+
+
+
+
+Abstract: As energy generation based on renewable resources does not always match energy
+consumption profiles, Positive Energy Districts (PEDs) should embody energy flexibility technologies
+to decrease possible negative impacts on existing grids due to, e.g., reverse power flows. As part of
+the EU H2020 Smart Cities and Communities project POCITYF, the cities Alkmaar (NL) and Évora
+(PT) aim to support the deployment and market uptake of such districts and in doing so demonstrate
+innovative and integrated technologies to enable flexibility in the energy system. This paper addresses
+implementation conditions for energy flexibility technologies that help cities to engender the expected
+impact and ensure replication of these technologies to other sites. It aims to guide both urban planners
+and technology solution providers through pitfalls and opportunities that can appear during the
+design and implementation of PEDs. Taking this into consideration, the RUGGEDISED innovation
+and implementation framework for smart city technology was taken as a starting point to describe
+and analyze the experiences in Alkmaar and Évora.
+Keywords: governance; energy flexibility; positive energy districts; sustainable energy;
+smart city deployment
+
+1. Introduction
+The need for cities to become more sustainable is high and several definitions of smart cities refer
+to this need. A definition of a smart city is “a sustainable and efficient City with high Quality of life
+that aims to address Urban challenges (improve mobility, optimize use of resources, improve Health
+and safety, improve social development, support economic growth and participatory governance)
+by application of ICT in its infrastructure and services, collaboration between its key stakeholders
+(Citizens, Universities, Government, Industry), integration of its main domains (environment, mobility,
+governance, community, industry, and services), and investment in Social capital” [1]. However,
+retrofitting existing environments remains challenging [2]. Positive Energy Districts (PEDs) play an
+important role in more liveable and sustainable future cities. PEDs are districts producing energy
+from local and distributed renewable energy sources, presenting generation surplus over a specific
+balance period (typically one year) that may be transferred to areas outside a PED’s boundaries [3].
+One definition of PEDs by JPI Urban Europe (2019) refers explicitly to the active management of energy
+flows: “PEDs are energy-efficient and energy-flexible urban areas or groups of connected buildings
+which produce net zero greenhouse gas emissions and actively manage an annual local or regional
+surplus production of renewable energy” [4].
+
+Energies 2020, 13, 5811; doi:10.3390/en13215811
+
+www.mdpi.com/journal/energies
+
+Energies 2020, 13, 5811
+
+2 of 16
+
+The large deployment of distributed generation based on renewable energy (RE) can increase the
+complexity of grid management and operation due to several factors (see, for instance, the impact of
+reverse power flows on distribution transformer aging [5]. Increased energy flexibility in the existing
+energy systems is therefore a crucial mechanism to delay costly and overdesigned adaptation of the grid
+infrastructure itself [6]. In this context, technology can be of great help in linking resource efficiency
+and flexibility in energy supply and demand with innovative, inclusive and more cost-effective services
+for citizens and businesses. Such technologies can integrate infrastructures like smart grids that have
+been piloted in several cities in FP7 and H2020 projects [7].
+In Alkmaar (Netherlands) and Évora (Portugal), innovative and integrated technical solutions are
+being implemented in order to support the deployment and market uptake of PEDs. This research
+and the pilots in Alkmaar and Évora are being conducted within the EU H2020 Smart Cities and
+Communities project POCITYF [8]. The project started in October 2019 and includes the demonstration
+of solutions of a high technology readiness level (TRL ≥ 6) [9] for achieving flexible and efficient
+use of electricity in contexts with different climatic conditions and regional characteristics (technical,
+financial, social and legal). Alkmaar and Évora are proving grounds for innovative and integrated
+technical solutions for buildings and districts in which energy management systems are implemented
+to increase flexibility. Starting points are lessons learnt from pre-pilots at other sites, i.e., locations and
+buildings where individual technologies have been implemented before. The second step, which is
+dedicated to demonstration activities, combines technologies toward integrated systems at the building,
+block and district levels in the areas of Alkmaar and Évora. The third step refers to replication of
+these integrated systems in other selected areas of Alkmaar and Évora and in the six fellow cities:
+Granada (Spain), Bari (Italy), Celje (Slovenia), Újpest in Budapest (Hungary), Ioannina (Greece) and
+Hvidovre (Denmark).
+Starting from the RUGGEDISED innovation and implementation framework developed in the
+EU H2020 RUGGEDISED project [10], this paper addresses implementation conditions for energy
+flexibility technologies in Alkmaar and Évora in order to support the achievement of expected impacts
+and ensure replication of these technologies within and beyond POCITYF. The technologies under
+consideration are ReFlex [11] for Alkmaar and flexibility control algorithms for Évora. Both aim
+at exploiting the energy flexibility provided by the available controllable devices (e.g., batteries or
+electric water heaters) at the building, block and district levels in order to achieve specific objectives
+(e.g., improve matching between renewable generation and energy demand or decrease peak loads).
+The RUGGEDISED innovation and implementation framework is an analytical tool that helps city
+planners to assess important success factors in the implementation process of smart technologies well in
+advance. This framework focusses on smart city technologies in a broader sense without concentrating
+necessarily on energy flexibility technologies alone. Therefore, this paper aims to guide both urban
+planners and technology solution providers through pitfalls and opportunities that can appear during
+the design and implementation of a PED. It describes practical examples of implementation conditions
+seen or experienced in Alkmaar and Évora (or that were missing). This can be used to describe valuable
+lessons for the implementation of energy flexibility in future PEDs. This framework identifies both
+the implementation conditions that were of relevance and influence in either case of the two cities,
+and those conditions that did not play a role. In doing so, it provides insights in improving and
+adjusting projects and shifts the focus on conditions that matter. This paper discusses the application
+of the framework by presenting how it is being used in practice for the analysis of the implementation
+of PEDs in Alkmaar and Évora.
+2. Materials and Methods
+The RUGGEDISED framework [10] can be used to assess the implementation process of smart city
+projects and therefore “advises” what should be in place for successful implementation. In POCITYF,
+records of progress on pre-pilots and foreseen demonstration activities in Alkmaar and Évora have
+been taken, using questionnaires. These questionnaires focused on key technical components
+
+Energies 2020, 13, 5811
+
+3 of 16
+
+and specifications of the innovative solutions, on the demonstration sites (considering specific
+challenges related to the context), on problems and restrictions experienced and on lessons learnt
+(e.g., technical improvements, energy savings or socioeconomic benefits). The project partners involved
+with each innovative solution took care of the respective questionnaires. These project partners work
+for different organizations, e.g., research institutes, governments, utilities and technology providers.
+Despite common challenges, the cities of Alkmaar and Évora face city- and district-specific
+challenges due to divergent geography, geology, demography, climate and socio-economic and cultural
+characteristics. These characteristics mean that urban energy transition challenges are embarked
+upon from different starting points and perspectives, thus enhancing the complementarity of the
+POCITYF solutions. Évora represents South European cities, which generally show lower investments
+on reducing the footprint of their households and business sector but can enjoy an abundant solar
+potential. Alkmaar represents West European cities that are strongly dependent on gas for electricity
+and heating.
+In more detail, the RUGGEDISED framework provides a useful base for analyzing success factors
+and hindering factors for the implementation of smart technologies. In POCITYF, innovative smart city
+solutions are implemented in order to achieve PEDs. This framework (see Table 1) was consolidated in
+the EU H2020 RUGGEDISED project and allows the analysis of suppressing and enhancing factors in
+implementation processes of smart solutions. Such an analysis is beneficial in designing successful
+implementation processes, in assessing the potential project impact and in selecting aspects that need
+further consideration for successful implementation.
+Table 1. RUGGEDISED innovation and implementation framework: enhancing and suppressing
+factors [10].
+Hardware
+Pre-deployment assessment
+Technology assessment
+Impact on energy grid
+
+Communicating infrastructure
+Robustness of the system
+
+Software
+
+Orgware
+
+Level of impact 1: Realization and output of smart solutions
+Software
+Business models
+Privacy
+Data and data ownership
+Security
+Smart Grid ICT
+User Interfaces
+Level of impact 2: Embedded outcomes of multiple smart solutions
+Interoperability Dashboards
+Integrated vision on the smart city
+Smart governance
+Windows of opportunity
+Stakeholder management
+Ownership
+Business models and split incentives
+Level of impact 3: Upscaling and replication
+Integrated planning
+Innovation platforms
+Conditions for upscaling: finance, regulation (including
+standardization), access to information and social aspects
+
+The framework distinguishes three levels of impact that are needed in order to think beyond
+implementation of single solutions and consider the real impact of implementation, namely:
+•
+
+•
+
+•
+
+Impact Level 1 (Realization and output of smart solutions): the first level of impact considers a
+single smart solution that is successfully implemented and delivers its output (it is an isolated
+realization of a smart solution).
+Impact Level 2 (Embedded outcomes of multiple smart solutions): A smart solution produces real
+output if it is well-embedded in the existing context. At the second level of impact, multiple smart
+solutions interact and produce outcomes because they are well-connected and efficiently work together.
+Impact Level 3 (Upscaling and replication): The third impact level is city-level outcomes.
+This occurs when smart solutions are taken beyond single projects and are successfully scaled-up
+to create smart urban structures. Real impact is made when smart solutions are replicated to other
+areas and projects with different contexts.
+
+Energies 2020, 13, 5811
+
+4 of 16
+
+The implementation factors influencing the development of smart solutions are described
+per impact level. A division is made between hardware, software and orgware implementation
+factors. Hardware focuses on physical infrastructure topics such as energy storage, conversion and
+savings. Software refers to ICT, data-related factors and applications. Hardware and software must
+be supplemented with orgware, which refers to organizational and governance aspects such as
+stakeholder management, institutional and organizational arrangements and innovation platforms.
+Dividing impact levels and implementation factors in three categories allows for structuring the
+different factors that influence projects in different stages. Some factors help or hinder the realization
+and output of smart solutions, whilst others specifically impact the working together of multiple
+solutions to realize embedded outcomes. The framework shows that the importance of orgware
+implementation factors increases as the impact level rises. These orgware implementation factors,
+in turn, affect the upscaling and replication of smart solutions.
+3. Results
+One of the objectives of the POCITYF project is to deploy and validate smart energy management
+and storage solutions to optimize energy flows with the goal of maximizing self-consumption,
+reducing grid stress and valorizing flexibility services. To that end, innovative solutions to be
+demonstrated and replicated include several individual elements: e.g., low-temperature waste heat,
+innovative short- and long-term storage solutions, such as hydrogen fuel cells or electrical vehicles (EVs)
+coupled with stationary batteries, smart ICT solutions to interconnect the energy management system
+at the household, building and district levels, the virtual power plant (VPP) concept, thermal grid
+controllers or market-oriented building flexibility services.
+Figure 1 illustrates how the individual elements corresponding to the various layers, from concrete,
+device-specific to abstract, domain-specific, are stacked on top of each other and interact to bring about
+the full implementation and impact of an integrated innovative solution. On the left side, the data and
+control flow is bidirectional for the full stacked solution to perform as per design, while on the right
+side, there is only sharing of information to gain insight into the system, evaluate different options and
+decide for further optimization and improvement steps. The loop is closed by feeding these insights
+back to2020,
+the 13,
+operational
+Energies
+x FOR PEERsystem
+REVIEWin place.
+5 of 15
+
+Figure
+one.
+Figure 1.
+1. From
+From the
+the concrete,
+concrete, device-specific
+device-specific layer
+layer to
+to the
+the abstract,
+abstract, domain-specific
+domain-specific one.
+
+Taking this into consideration, Tables 2 and 3 map the information associated with the
+technologies under analysis (i.e., ReFlex for Alkmaar and flexibility control algorithms for Évora)
+based on the impact levels and implementation factors that comprise the RUGGEDISED framework
+described in Section 2.
+Table 2. Mapping Alkmaar.
+
+Energies 2020, 13, 5811
+
+5 of 16
+
+Taking this into consideration, Tables 2 and 3 map the information associated with the technologies
+under analysis (i.e., ReFlex for Alkmaar and flexibility control algorithms for Évora) based on the
+impact levels and implementation factors that comprise the RUGGEDISED framework described in
+Section 2.
+Table 2. Mapping Alkmaar.
+Implementation Factor
+
+Explanation
+
+Level 1 realization and output
+Hardware
+Pre-deployment assessment
+
+•
+•
+•
+
+Technology assessment
+
+•
+
+•
+
+Impact on energy grid
+
+•
+
+•
+•
+
+•
+
+•
+
+•
+
+Availability of multiple assets that may be a source of flexibility.
+Consideration of the objective to apply solutions that expose and valorize
+flexibility and potential alternatives.
+Feasibility study of physical implementation (all components) as modeled
+in silico.
+The battery systems placed in residences are by default connected to a different
+phase of the 3-phase grid than both the solar panels and household energy
+usage. This originates from standards used in the installation sector. This means
+that the battery system cannot be used effectively to balance energy within
+the residence.
+Technical readiness level of components must be improved in order to use
+small-scale storage solutions (through VPP or vehicle-to-grid (V2G)) in a reliable
+way to control vital infrastructure, especially in brown field situations.
+Improvements in the European and international standards can ensure
+compatibility of the components in all situations.
+Potential network constraints due to excessive flexibility operation within the
+system have been identified. Analysis of the implemented scenarios was carried
+out in which each flexibility source was individually considered; it became clear
+that they can be used for network congestion management up to a certain
+limitation. It was concluded that operation of flexibility and the different
+forecasting systems can also cause a congestion in the network which changes
+the network operation. Next to this, aggregator strategies further impact the
+network operation.
+Considering each flexibility source in relation to network limitations, especially
+taking into account balancing concerns and guarantee of supply.
+Good understanding of the layout of the low-voltage (LV) grid is a prerequisite
+for implementing smartification efficiently. Without these accurate data,
+one cannot determine where to place the measurement equipment in the grid.
+State estimation is needed in order to be able to draw conclusions about the
+current situation of the grid.
+VPP in trade mode at times might have a negative effect on grid balance given
+the current pricing mechanism. There are instances where energy is sold,
+and thus delivered to the grid, during moments of local energy generation.
+This can increase the peak load on the low-voltage grid in the districts.
+By using the VPP for energy trading, based on forecasts of energy consumption,
+PV generation, the energy prices on the trading market and the availability of
+the battery, overall energy costs can be decreased. A low density of VPP
+contributors in the LV grid (less than 5% of residences were equipped with
+battery systems) showed little impact on the grid. The density of the VPP
+contributors should be increased to notice the effect on the grid and to have
+accurate predictability of average household behavior.
+The distribution system operator (DSO) can alleviate peak loads on the grid by
+using small storage (battery) systems. These batteries need to be operated in an
+inherently grid-supporting mode, and peak load shaving requires fast and
+reliable control mechanisms. From a business perspective, adequate financial
+stimuli are needed. The DSO should have a mandate to overrule the settings of
+the VPP to ensure grid stability and prevent a power outage.
+
+Energies 2020, 13, 5811
+
+6 of 16
+
+Table 2. Cont.
+Implementation Factor
+
+Explanation
+
+Level 1 realization and output
+Software
+Privacy
+
+Security
+
+Smart grid ICT
+
+User interfaces
+
+•
+
+Including privacy by design in order to meet both national and European
+standards and adhere to GDPR guidelines. In doing so, privacy concerns will
+not pose obstacles to implementation.
+
+•
+
+Taking cyber security issues into account as they may arise. Including privacy
+and security by design so that they will not become an obstacle for
+implementation and the implementation will meet the required national and
+European regulations and standards. It can be helpful to follow the eight
+principles of privacy by design [12].
+
+•
+
+Internet of things software from ICT.eu links all electricity consumers per
+platform. The data are made accessible via the cloud, giving the energy supplier
+remote control. Via this platform, everything can be connected per household
+that uses or generates energy.
+
+•
+
+Using future-proof standards (even with low maturity) to implement new use
+cases and future business models.
+
+•
+
+•
+
+Cost reduction of grid operations as a result of unlocking and
+exploiting flexibility.
+New revenue streams potential from valorizing flexibility.
+Analysis of pricing mechanisms and market liquidity has been carried out as
+well as a usability analysis.
+Bundling multiple smaller devices to increase accessibility to the trade market.
+
+•
+
+Handled according to the principle “as open as possible, as closed as necessary”.
+
+Orgware
+Business models
+
+•
+•
+
+Data and data ownership
+
+Level 2 embedded outcomes of multiple smart solutions
+Hardware
+Communicating infrastructure
+
+Robustness of the system
+
+•
+
+Continuous internet connection in order to communicate in real time between
+assets, the network and the energy market.
+
+•
+•
+•
+
+Fast response to disconnection.
+Backup facility.
+Risk management: what goes wrong if the system is down or unavailable?
+Taking measures appropriate to the risks (system overload or just some missing
+data).
+The placement of bidirectional charging stations is currently not a standard job.
+They are still far more expensive than standard charging stations, they need a
+reliable internet connection to function and during the City-zen project,
+problems with the hardware were encountered frequently.
+The reliability of OT/IT connections through 4G and Wi-Fi communication
+networks used for VPP and V2G applications is lower than that of the grid itself.
+The reliability needs to increase to match the reliability of the grid before a VPP
+or V2G can be used as part of the vital infrastructure balancing loads on the
+LV grid.
+
+•
+
+•
+
+Energies 2020, 13, 5811
+
+7 of 16
+
+Table 2. Cont.
+Implementation Factor
+
+Explanation
+
+Software
+Interoperability
+
+•
+
+•
+•
+
+Dashboards
+
+ReFlex is compatible with several open smart grid standards such as EFI/S2,
+USEF and OCPI and is easy to implement in an aggregator’s existing
+architecture. Still, bidirectional translation of asset protocols to EFI is a
+necessary configuration step to enable reliable communication.
+Reliance on standards instead of proprietary protocols to allow interoperability
+is paramount.
+The maturity of standards for interoperability is low; as such, in every single
+project, protocols and interfaces need to be (re)determined between different
+suppliers of technology.
+
+•
+
+Management and administration dashboards are included in ReFlex.
+
+•
+
+A local needs assessment showed that good accessibility with a balanced
+mobility system and a healthy, clean, safe, economic future-resilient, green and
+climate-adaptive city where everyone can happily live, work and recreate
+were important.
+Flexibility solutions can help the DSO in operating the network and prevent
+investments in grid infrastructure.
+
+Orgware
+Integrated vision on the smart
+city
+
+•
+
+Smart governance
+
+Windows of opportunity
+
+•
+
+Insights gained regarding both the flexibility potential and its value within the
+selected pilot areas can further support decision making and planning.
+
+•
+
+Implementation of ReFlex instead of investments in grid reinforcement:
+awareness of DSO that avoiding grid reinforcements is in their own interests
+and that ReFlex is valuable for network operation so that different problems and
+interests of stakeholders are aligned.
+The higher the number of flexible assets, including EVs, the more value can be
+extracted through ReFlex deployment.
+Local communities can become sustainable by being as self-proficient as possible
+while monitoring energy use at the individual and district levels and using this
+information for behavior change. The business district of Boekelemeer could
+initiate a Citizen Energy Community (CEC) or a Renewable Energy Community
+(REC). According to the EU directive [13], this could improve their position in
+the local energy market. They can use this institutional framework to represent
+interest of the local community in the park management.
+
+•
+•
+
+Stakeholder management
+
+•
+•
+
+•
+
+Ownership
+
+•
+•
+
+Business models and split
+incentives
+
+•
+
+A guiding role for the municipality in building the relationship
+between stakeholders.
+Involvement of and willingness to engage from residents is crucial in relation to
+user acceptance. Support of homeowners is needed but they lack information
+and knowledge on energy flexibility as well as on practical consequences and
+potential benefits.
+Different reward mechanisms for VPP participants should be tested to
+determine the financial and general economic value of these systems.
+Multiple aggregators in order to guarantee freedom of choice for citizens
+(selling energy flexibility) and the DSO (congestion management).
+Citizen (local) communities, municipality and housing corporations can have
+ownership of the applications and should be determined per case.
+Analysis of market liquidity and pricing mechanisms.
+
+Energies 2020, 13, 5811
+
+8 of 16
+
+Table 2. Cont.
+Implementation Factor
+
+Explanation
+
+Level 3 upscaling and replication
+Orgware
+Integrated planning
+
+•
+•
+
+It is important that processes continue to be managed and it is essential that the
+involved key figures remain available at crucial positions.
+There was no technical supplier as a consortium partner or as official project
+partner. It is recommended to seek active collaboration with a supplier of
+technical components.
+
+Innovation platforms
+
+Important element to create a successful local innovation ecosystem is a
+problem-solving environment providing structure and practices of innovation
+management, training and tools as well as financial resources for innovation.
+In Alkmaar, this has been initiated but from an external perspective not well
+anchored in the city organization.
+
+Conditions for upscaling:
+finance, regulation (including
+standardization), access to
+information and social aspects
+
+Market development:
+•
+
+•
+
+Aggregator strategies can potentially greatly impact upon the energy system
+since their objective of pursuing economic maximization of their assets may not
+always align with optimization of operations for said assets; for example,
+stationery batteries or EV operation may be masked by the aggregator whose
+portfolio includes such assets by revealing only the worst case of the day instead
+of their real-time state. Nonetheless, it also opens the door for other aggregators
+to dive in with their flexibilities. This might result in a game theory problem
+where in reality the aggregators would self-regulate themselves. Since there is
+no flexibility market, the single aggregator in one network can act as
+a monopolist.
+Certain capabilities of both the VPP and V2G system cannot be utilized due to
+regulatory barriers, sector standards or both. See also below.
+
+Regulation and standardization:
+•
+
+•
+
+Similarly, regulation must be adapted to enable better use of the current and
+future electricity system possibilities such as use of flexibility and congestion
+management. Due to current regulations and sector standards, certain
+capabilities of both the VPP and V2G system cannot be utilized. Examples are
+the use of the V2G system for emergency power and the self-consumption of
+energy using the VPP by connecting the battery and solar panels of a household
+to the same phase.
+Implementation of a variable tariff system in the NL in which energy taxes are
+coupled to the energy price and network tariff. Changing the Dutch taxation
+tariff system can pave the way for using (local) flexibility and prevent more grid
+reinvestments than necessary. This can be accomplished with, e.g., variable
+network tariffs. Coupling the energy tax not to the energy amount but the price
+of energy and network tariffs can have positive effects. Further research is
+needed in order to determine which tariff system is best applicable.
+
+Social aspects:
+•
+
+Finding and retaining participants for VPP and V2G projects is a
+time-consuming task. Active participation and a substantial time investment are
+required which is not always possible or desired. In addition, participants
+sometimes move or retract from the project due to life events. The promoted
+definitions of CEC and REC from the EU Green Energy Package can provide a
+much-needed boost on this area.
+
+Energies 2020, 13, 5811
+
+9 of 16
+
+Table 3. Mapping Évora.
+Implementation Factor
+
+Explanation
+
+Level 1 realization and output
+Hardware
+Pre-deployment assessment
+
+Technology assessment
+
+•
+•
+•
+
+Definition of objectives for the flexibility control algorithms.
+Characterization of controllable devices providing energy flexibility.
+Preliminary tests using software tools.
+
+•
+
+Flexibility control algorithms were developed based on knowledge collected
+during the participation on the working group “Annex 67” of the Energy in
+Buildings and Communities (EBC) program from the International Energy
+Agency (IEA).
+The deployment of flexibility control algorithms has been considered to (i)
+improve PV self-consumption and buildings’ self- sufficiency; (ii) explore the
+existing energy flexibility available in water heaters to decrease electricity costs;
+or (iii) characterize and use of the energy flexibility provided by water pumping
+and storage systems to reduce electricity costs and support power systems.
+
+•
+
+Impact on energy grid
+
+•
+•
+
+•
+
+The impact related to the deployment of flexibility control algorithms on existing
+grids should be considered before the respective real-world implementations.
+This impact assessment should consider different scenarios (e.g., seasons of the
+year) and can be conducted using simulation tools and specific information
+about the grids under consideration.
+The acquisition of information about the grids under consideration can be
+challenging if the operator is not included in the process.
+
+Software
+Privacy
+
+Security
+
+Smart grid ICT
+
+User interfaces
+
+•
+
+Data privacy issues in relation to the framework for data exchange and related
+roles and responsibilities were not considered in the pre-pilots of flexibility
+control algorithms, however technical issues supporting the exchange of data in
+a secure and interoperable manner are easy to integrate, respecting
+Portuguese law.
+
+•
+
+Data security in relation to the framework for data exchange and related roles
+and responsibilities were not considered in the pre-pilots, however technical
+issues supporting the exchange of data in a secure and interoperable manner are
+easy to integrate.
+
+•
+
+All flexibility-related data are available on the cloud and can be shared with
+authorized third parties.
+
+•
+
+User interfaces were developed for the pre-pilot installations and they can be
+easily integrated with high-level SCADA (or similar) solutions.
+
+•
+
+Depending on the objectives of the considered DSM measures, the flexibility
+control algorithms have resulted in PV self-consumption improvements up to
+30% or in peak load reduction up to 10%.
+Flexibility control algorithms have also been used to take advantage of
+time-of-use tariffs in order to shift energy consumption to less expensive
+periods, resulting in savings up to 40%.
+New revenue schemes based on flexibility usage provide grid operation
+cost reduction.
+
+Orgware
+Business models
+
+•
+
+•
+
+Data and data ownership
+
+•
+
+In the pre-pilot, data are private but available for authorized third parties
+during the assessment phase.
+
+Energies 2020, 13, 5811
+
+10 of 16
+
+Table 3. Cont.
+Implementation Factor
+
+Explanation
+
+Level 2 embedded outcomes of multiple smart solutions
+Hardware
+Communicating infrastructure
+
+Robustness of the system
+
+•
+
+As a software solution, flexibility control algorithms will not have a physical
+presence in the Positive Energy Blocks (PEBs). This solution will run in servers
+located at partners’ facilities, communicating with the devices installed at the
+demonstration sites.
+
+•
+•
+
+Servers will have a backup, in case of hardware failure.
+On-site devices will have a distributed software solution in order to increase the
+robustness of the overall solution.
+Backup procedures will be considered.
+
+•
+Software
+Interoperability
+
+•
+
+•
+
+•
+Dashboards
+
+Besides the building level control of the available energy flexibility, flexibility
+control algorithms can be used at district level to support the coordinated
+operation of other technologies providing energy flexibility to achieve
+building-level objectives while targeting improvements at the district level (e.g.,
+peak load reduction).
+The deployment of the flexibility control algorithms requires the interaction
+with existing controllable devices to perform the required monitoring and
+control activities. In POCITYF, this interaction will be supported by APIs made
+available by the controllable device itself (e.g., direct interaction with energy
+routers [14] or by other intermediate systems (e.g., indirect interaction with 2nd
+life batteries through energy management systems).
+Usage of standard protocols.
+
+•
+
+Dashboards will be provided by outside solutions that offer a graphical interface
+for the users. Foreseen devices include: energy routers, 2nd life batteries,
+electrical water heaters or freezing storage systems.
+
+•
+
+An assessment at district level should be carried out to define higher-level
+objectives to be considered by the flexibility control algorithms in order to
+support the achievement of a specific smart city vision.
+
+•
+
+Smart governance would increase the usage of flexibility control algorithms at
+the municipality scale (and citizen engagement would be enlarged) in order to
+increase sustainability and climate change mitigation.
+
+•
+
+Deployment of flexibility control algorithms (considering the energy flexibility
+provided by, e.g., existing residential batteries and other controllable devices
+such as electric water heaters) instead of investments in grid reinforcement.
+
+•
+
+Local communities’ engagement will be a key element in the deployment and
+proper operation of flexibility control algorithms.
+
+•
+
+Residents and municipality will have access to the systems on their premises.
+
+•
+
+Specific business models and incentives should be developed to accommodate
+potential conflicts between building- and district-level objectives.
+
+Orgware
+Integrated vision on the smart
+city
+
+Smart governance
+
+Windows of opportunity
+
+Stakeholder management
+
+Ownership
+Business models and split
+incentives
+
+Energies 2020, 13, 5811
+
+11 of 16
+
+Table 3. Cont.
+Implementation Factor
+
+Explanation
+
+Level 3 upscaling and replication
+Orgware
+Integrated planning
+
+Innovation platforms
+
+Conditions for upscaling:
+finance, regulation (including
+standardization), access to
+information and social aspects
+
+•
+
+High-level analysis will be needed in order to choose the best locations for
+upscaling the installation of controllable devices, combined with global
+flexibility control algorithms.
+
+•
+
+Demonstration partners will have preferential access to all
+developments/features of the innovative elements and the opportunity to shape
+them according to their needs.
+
+•
+
+Mobilization of (and networking with) key stakeholders to create strong links
+and foster engagement of the different target groups at the local, national and
+international levels, which also represent the enablers for further upscaling and
+replication of the POCITYF solutions.
+Adapt regulations and market conditions in order to fully use the potential of
+flexibility, providing market-oriented building flexibility services.
+Find attractive ways of engaging citizens.
+
+•
+•
+
+4. Analysis
+The RUGGEDISED framework allows for conducting an analysis of important implementation
+conditions in the cities of Alkmaar and Évora. This section presents the respective main observations.
+•
+
+•
+
+•
+
+•
+
+Energy flexibility management relies on both energy flexibility characterization and its respective
+use. This means that the energy flexibility system is based on two main steps. First, it is necessary
+to get insights (mainly related to flexibility characterization) on the flexibility usage potential and
+application. Secondly, this flexibility potential will be applied while managing and controlling the
+energy system.
+Complex energy services like peer-to-peer (P2P) energy trading and VPP, management aggregation
+services and an energy flexibility marketplace are built upon different individual components.
+These lower layer(s) components must be functioning and deliver their output in order to provide,
+possibly stacked, smart (energy) services. As such, Level 1 functioning of such individual
+components is a prerequisite for smart energy services to exist and be deployed.
+P2P platforms are deemed important from the abstract scenario perspective. However, development
+mostly starts from a technical solution perspective, while end-user and other stakeholder
+requirements are paramount in development. Citizen perspectives are often overlooked. Citizens
+mostly experienced P2P as a burden or a complex, technical solution. According to Alkmaar’s
+experience, relevant stakeholders were not interested, and they lacked knowledge and information,
+while developers assumed citizens were eager for these technologies. Therefore, engaging all
+stakeholders and especially end-users already from the conceptualization phase of energy flexibility
+systems will benefit end-user satisfaction. To achieve this, it is important to bring developers
+and end-users together so that requirements and needs of the local community are considered
+and in the long term to ensure widespread and sustainable uptake. Most devices cannot provide
+flexibility without the involvement of users. Therefore, they are crucial in generating flexibility in
+energy systems. It is undeniable that the perspective of end-users is important in every phase from
+conceptualization to development, deployment and operations.
+Transition from Level 1 to Level 2 is normally funded by subsidies. However, subsidized projects
+in which energy flexibility technologies are piloted have different timeframes that do not always
+match with the daily business of industrial and business partners. Next to this, the research or
+development objectives of subsidized energy projects do not per se align with business goals
+
+Energies 2020, 13, 5811
+
+•
+
+•
+
+•
+
+•
+
+12 of 16
+
+(in time, budget and purpose). This results in the delivery of flexibility technologies that function
+(Level 1) but will not necessarily graduate to achieve Level 2 and Level 3 impact; as such,
+upscaling and replication are not induced. Single flexibility technologies are delivered but this
+does not result in energy flexibility as a whole or flexibility in smart city systems. At the community
+or neighbourhood level, subsidies are effective in reaching goals, but in order to achieve large-scale
+impact (Level 2 and Level 3), combined strategies and widespread collaboration are needed.
+Energy flexibility usage at higher levels should take into consideration the control objectives of
+previous levels. This is the case when the energy flexibility of a specific device is being used at
+Level 1 to, e.g., reduce electricity costs and then it is used to, e.g., reduce electricity consumption
+CO2 -related emissions at Level 2. Therefore, the considered business models should properly
+address the transition to upper limits in terms of objectives of energy flexibility use. Following the
+previous comment, one can infer that each level may have different objectives which may not
+only be disconnected from each other but also in some cases directly conflicting. Business models
+need to be designed in order to address the different strategies that can be applied to the same
+individual devices at different levels.
+User engagement is key in exploiting the energy flexibility provided by several types of controllable
+devices as the comfort needs should always be respected. Additionally, the characterization of
+the energy flexibility provided by some devices (e.g., white appliances) might require the direct
+user interaction to define the respective operation boundaries. This constitutes a constraint to be
+considered at all levels.
+It is of upmost importance to regard investments in flexibility usage as win–win situations.
+For effective upscaling to take place, all involved stakeholders (e.g., DSO, municipalities, end-users)
+must have a clear idea about the advantages of investing in flexibility.
+There is no possibility to have accurate modeling without data, and data cannot be used if privacy
+and security issues are not considered. Agile data management should be considered in order to
+take the best profit from the considered technologies. A good example is the smart metering data,
+where often end-users do not take advantage of their full potential.
+
+5. Conclusions
+In this paper, the RUGGEDISED framework was applied as the starting point to evaluate
+the implementation conditions of energy flexibility solutions within the POCITYF project. Indeed,
+the selected framework can be leveraged to provide a first analysis of both the success and hindering
+factors for the implementation of smart technologies while taking a holistic approach that includes not
+only technological perspectives but also organizational and systemic ones.
+The main recommendations and findings for implementing energy flexibility-related technologies
+at the PED level are summarized below.
+•
+
+•
+
+•
+
+Advanced innovative services and new business models, such as P2P trading and VPP, are quite
+complex technologies and procedures. They can only be implemented at Level 1 if the individual
+necessary components such as storage devices (for example, batteries) have passed Level 1.
+Services like P2P can only be introduced when user needs have been considered and user
+requirements are met. Therefore, involving end-users in the development of the services is key to
+reach goals and ensure continuous uptake from a bigger group of clients. It is the developer’s
+responsibility to consult end-users and the entire stakeholder value chain.
+The two main functions of the energy flexibility system must be connected. Data insights will
+have to feed back into the management and control process. The results of the control process will
+have to be monitored and provide insight on the impact of the introduced control mechanism.
+Without this feedback loop, the installed energy flexibility system will not be able to deliver the
+potential optimal flexibility. Ergo, if there is impact, it is by coincidence and therefore it cannot be
+sustained in the long term. Feedback can change the characterization and the use. A feedback
+
+Energies 2020, 13, 5811
+
+•
+
+•
+
+•
+
+13 of 16
+
+loop enables deeper understanding of the sources of error, that can either be found in the control
+(use) or in the characterization function. For acceptance of energy flexibility, it is important to close
+this loop. Insights delivered via tracking key performance indicators (KPIs) are needed both on
+rational arguments (economic and energy metrics) and on perception arguments (e.g., satisfaction
+of citizens).
+A legal framework will have to be updated to realize the full-scale potential of flexibility, because the
+current legal framework does not allow for using and implementing flexibility. We may apply it
+as a local, pilot-based tool. However, if one wishes to exploit its potential in full, a consistent and
+encompassing legal framework is necessary.
+In order to implement energy flexibility systems in the built environment and to eventually scale
+up at district and city levels, gaps between daily practice and subsidized projects should be closed.
+Goals of all partners must coincide with the aims of pilot projects. This is crucial for realizing
+Level 3 outcomes but also for Level 2.
+The absence of an adequate legal framework is a very important issue and not only for specific
+energy flexibility technologies. Systemic hiccups introduced by a lack of appropriate or mature
+legal instruments should be overcome beyond pilot project boundaries which in any case are
+funded by subsidies whose power to influence directly relevant legislation is limited (both in
+scope and time).
+
+The experiences of Alkmaar and Évora result in an easy-to-use methodology for cities to deal
+with energy flexibility technologies and create optimal conditions for their successful implementation
+and integration. In the coming period, demonstration of the related energy flexibility technologies is
+being carried out in both cities at the block and district levels. Starting from the analysis, progress is
+to be tracked especially focused on achieving Level 1 and moving forward to higher impact levels.
+This effort will also support the replication process not only in other areas within Alkmaar and Évora
+but also the so-called “fellow” cities participating in the POCITYF project.
+6. Practitioners Review by Roel Massink MSc
+The authors of this paper asked me to provide my view on the methods and results of this
+research paper in my capacity as Project Coordinator for the H2020 Smart City Lighthouse project
+IRIS and innovation manager for the Municipality of Utrecht. I am happy to fulfil this task and
+I thank the authors for the carefully presented research results based on actual demonstration.
+This review is based on the experiences collected in the IRIS Smart Cities project, a similar project
+to RUGGEDISED and POCITYF. In IRIS, an integrated project approach is demonstrated: in the
+Kanaleneiland district (Utrecht, The Netherlands), near zero-energy-efficient building retrofitting is
+connected to the development of a smart energy and mobility system integrating PV panels with
+stationary and V2G storage. The smart solutions in IRIS Smart Cities Utrecht mostly all fall within
+Level 2 of the RUGGEDISED implementation framework. Below, some general reflections based on
+these experiences toward the RUGGEDISED implementation framework and the conclusions of the
+paper can be found.
+The structure of the RUGGEDISED framework is very much in line with what is happening
+in practice in the IRIS Smart Cities project and further development of the framework in practice is
+appreciated. Within the IRIS Smart Cities project, the smart solutions are implemented along transition
+tracks and structured through a maturity assessment in the following categories: (1) pre-pilots:
+solutions that have been tested on a small scale in a pilot project; (2) integrated solutions: multiple smart
+solutions that are demonstrated as integrated solutions at a larger scale at the demonstration site of the
+project; and (3) replicated solutions: through either the copying of a successful integrated solution to
+other sites or by upscaling of the integrated solution in the same city or region. This categorization
+provides the IRIS partners and stakeholders a framework and a roadmap for all smart solutions to
+be developed, demonstrated and scaled-up. The RUGGEDISED framework is valuable and will
+
+Energies 2020, 13, 5811
+
+14 of 16
+
+offer practitioners at public authorities, grid operators, solution providers and knowledge institutes a
+coherent overview of what is important for implementation. However, below I have some suggestions in
+view of the practical applicability of the RUGGEDISED framework. First, smart solutions are integrated
+solutions by nature. To ensure that the smart solutions (that are realized in isolation; Impact Level
+1) meet the requirements of an embedded outcome of multiple smart solutions (Impact Level 2),
+it is suggested that an integrated approach with all implementation factors is taken into account.
+To ensure such an integrated (and systemic) assessment throughout the development of smart solutions,
+an iterative execution of the implementation framework could be proposed. This means that at Level 1,
+the implementation factors of Level 2 and Level 3 are also considered. Assessment of implementation
+factors in Level 2 and Level 3 includes more detailed and specific information once the development of
+smart solutions progresses.
+The following three reflections are supportive of including higher-level implementation factors at
+the start of the pilot projects.
+The paper highlights the importance of aligning partner goals with pilot project aims. This should
+be seen as a conditional factor for achieving progress at the different impact levels. An example
+from IRIS Smart Cities Utrecht is the development of a bidirectional charging ecosystem for grid
+flexibility and mobility services. Currently, this integrated solution consists of multiple smart solutions
+(bidirectional charging infrastructure, bidirectional enabled electric vehicles, stationary battery storage,
+energy management system) that are being connected to provide embedded outcomes (Level 2).
+The current state of development is a result of careful stakeholder management from the start of
+the pilot projects (already pre-IRIS). Companies, knowledge institutes, grid operators and public
+authorities aligned their roadmaps and activities in pilot projects under the lead of an ambitious SME
+(Level 1) and now this is leading to embedded outcomes in the IRIS demonstration project (Level 2).
+Furthermore, scaled adoption in public procurement documents of electric charging infrastructure
+now paves the way for city-wide flexibility services of electric vehicles (Level 3). An important success
+factor was/is stakeholder alignment from the start of the pilot projects. Based on this experience, it is
+argued that stakeholder management (or rather stakeholder alignment) should take position already
+at Level 1 to ensure that partner roadmaps are aligned to move the smart solution to Level 2 and 3.
+The paper also points towards the requirement of end-user involvement (or co-creation) in the
+development of smart solutions and could argue for the inclusion of a new implementation factor
+in the RUGGEDISED framework. This could be “end-user satisfaction” or similar. This is a valid
+point; often smart solutions are hampered because end-user needs were not considered well enough in
+the original approach. A design-thinking (or another systemic) approach could offer smart solution
+developers tools to better involve end-users. A practical notion that requires attention here is the use
+of grant subsidies in this innovation framework (as the authors also refer to in moving from Level
+1 to Level 2). It is recommended that subsidy programs, grant applicants and consortia put more
+attention into making end-user involvement more explicit in call texts and subsequently also allow
+more flexibility in the implementation of the grant project based on changes offered by end-users.
+Next to this, the paper explains the requirement of a legal framework that supports the
+transition from pilot projects to scaled solutions. This is true as well for the IRIS Smart Cities
+project. Especially within the field of smart energy projects or services like peer-to-peer, a supportive
+legal framework is needed for scaled adoption. The exploitation of grid flexibility services is hampered
+by legal constraints. Research from the IRIS project shows that bidirectional charging services are
+discouraged because of double energy taxation (for each charging and discharging cycle, energy tax
+needs to be paid on either the stored or consumed kWh). This significantly hampers the realization
+of profitable business models and commercial scaling of these integrated smart solutions. Therefore,
+it could be argued that regulation/the legal framework is already introduced as an implementation
+factor in Level 2 of the framework to ensure that, in time, legal constraints are targeted in a concerted
+action by smart cities.
+
+Energies 2020, 13, 5811
+
+15 of 16
+
+Finally, what the paper does not explain but what is highly valuable for practitioners is guidance on
+how the implementation framework leads into an implementation process. The presented implementation
+framework provides an assessment of implementation factors related to smart solutions but does not
+directly translate the assessment into implementation guidelines. Further guidance on the implementation
+pathway resulting from the assessment could support practitioners in applying this framework more easily.
+Author Contributions: Conceptualization, N.M., V.G. and S.R.; methodology, N.M. and S.R.; validation, N.M.,
+R.A.L. and J.M.; formal analysis, N.M., V.G., S.R., R.A.L. and J.M.; investigation, N.M., V.G., S.R., R.A.L., A.P.
+and J.M.; resources, S.R. and R.A.L.; writing—original draft preparation, N.M., V.G., S.R., R.A.L., A.P. and J.M.;
+writing—review and editing, N.M., V.G., S.R., R.A.L. and J.M.; visualization, V.G.; supervision, N.M. All authors
+have read and agreed to the published version of the manuscript.
+Funding: This research was funded by POCITYF, (FP7 grant agreement N◦ 864400). And The APC was funded by
+EERA Joint Program Smart Cities.
+Acknowledgments: This paper is based on information collected during the initial phase of EU H2020 Smart
+Cities and Communities project POCITYF (grant agreement N◦ 864400). The authors would like to express their
+gratitude to Roel Massink MSc, coordinator of the H2020 Smart City Lighthouse project IRIS, for reviewing the
+methods and results of this research and for all the suggestions provided.
+Conflicts of Interest: The authors declare no conflict of interest.
+
+References
+1.
+2.
+3.
+
+4.
+5.
+6.
+7.
+8.
+9.
+
+10.
+11.
+12.
+
+13.
+14.
+
+Mosannenzadeh, F.; Vettorato, D. Defining smart city. A conceptual framework based on keyword analysis.
+TeMA-J. Land Use Mobil. Environ. 2014. [CrossRef]
+Dixon, T.; Eames, M. Scaling up: The challenges of urban retrofit. Build. Res. Inf. 2013, 41, 499–503. [CrossRef]
+Shnapp, S.; Paci, D.; Bertoldi, P. Enabling Positive Energy Districts across Europe: Energy Efficiency Couples Renewable
+Energy; EUR 30325 EN; Publications Office of the European Union: Luxembourg, 2020; ISBN 978-92-76-21043-6.
+[CrossRef]
+Positive Energy Districts (PED). JPI Urban Europe. Available online: https://jpi-urbaneurope.eu/ped/
+(accessed on 25 October 2020).
+Lopes, R.A.; Magalhães, P.; Gouveia, J.P.; Aelenei, D.; Lima, C.; Martins, J. A case study on the impact of
+nearly Zero-Energy Buildings on distribution transformer aging. Energy 2018, 157, 669–678. [CrossRef]
+IEA. World Energy Outlook 2019. IEA, Paris. Available online: https://www.iea.org/reports/world-energyoutlook-2019 (accessed on 25 October 2020).
+Available online: https://www.h2020-bridge.eu/participant-projects/ (accessed on 25 October 2020).
+H2020 POCITYF Project. Available online: https://pocityf.eu (accessed on 2 September 2020).
+Technology Readiness Levels (TRL). HORIZON 2020—WORK PROGRAMME 2014–2015 General Annexes.
+Available online: https://ec.europa.eu/research/participants/data/ref/h2020/wp/2014_2015/annexes/h2020wp1415-annex-g-trl_en.pdf (accessed on 2 September 2020).
+Slob, A.; Woestenburg, A. (Eds.) Overarching Innovation and Implementation Framework; D1.2 Ruggedised
+Smart City Lighthouse Project; TNO: The Hague, The Netherlands, 2017; pp. 10–13.
+ReFlex Technology for Smart Energy Services. TNO. Retr. Available online: https://www.tno.nl/en/focusareas/techtransfer/licenses/reflex-technology-for-smart-energy-services/ (accessed on 28 October 2020).
+OECD Guidelines on the Protection of Privacy and Transborder Flows of Personal Data. Available online: https:
+//www.oecd.org/internet/ieconomy/oecdguidelinesontheprotectionofprivacyandtransborderflowsofpersonaldata.
+htm (accessed on 2 September 2020).
+2020 Climate & Energy Package. Climate Action—European Commission. Available online: https://ec.europa.
+eu/clima/policies/strategies/2020 (accessed on 2 September 2020).
+Roncero-Clemente, C.; Vilhena, N.; Delgado-Gomes, V.; Romero-Cadaval, E.; Martins, J.F. Control and
+operation of a three-phase local energy router for prosumers in a smart community. IET Renewa. Power Gener.
+2020, 14, 560–570. [CrossRef]
+
+Publisher’s Note: MDPI stays neutral with regard to jurisdictional claims in published maps and institutional
+affiliations.
+
+Energies 2020, 13, 5811
+
+16 of 16
+
+© 2020 by the authors. Licensee MDPI, Basel, Switzerland. This article is an open access
+article distributed under the terms and conditions of the Creative Commons Attribution
+(CC BY) license (http://creativecommons.org/licenses/by/4.0/).
+
+

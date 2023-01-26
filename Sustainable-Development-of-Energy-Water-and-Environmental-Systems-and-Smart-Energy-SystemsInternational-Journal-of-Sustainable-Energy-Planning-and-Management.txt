@@ -1,0 +1,330 @@
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022 1–4
+
+Sustainable Development of Energy, Water and Environmental Systems
+and Smart Energy Systems
+Poul Alberg Østergaarda*, Rasmus Magni Johannsena, Neven Duicb and Henrik Lunda
+a Department
+
+of Planning, Aalborg University, Rendsburggade 14, 9000 Aalborg, Denmark
+of Energy, Power Engineering and Environment, Faculty of Mechanical Engineering and Naval Architecture, University of
+Zagreb, Lučićeva 5, 10000 Zagreb, Croatia
+
+b Department
+
+ABSTRACT
+
+Keywords
+
+This 34th volume of the International Journal of Sustainable Energy Planning and Management
+includes papers from the 2021 conference on Sustainable Development of Energy, Water and
+Environmental Systems (SDEWES) held October 10-15, 2021, in Dubrovnik, Croatia as well as
+the 7th International Conference on Smart Energy Systems held September 21-22 in Copenhagen,
+Denmark and two normal papers. A focus area of this issue is district heating and district cooling
+systems, with articles addressing resources for district heating and cooling systems, impacts of
+having individual district heating metres for consumers and approaches to analysing district
+heating systems. Another focus area is stakeholder involvement where two groups of researchers
+focus on stakeholders from an energy island perspective as well as from a positive energy district
+perspective. Both groups note the importance of factoring in stakeholders when devising
+transition plans. Plans for increasing the penetration of renewable energy sources for the
+Estonian, Latvia and Lithuanian systems are analysed using the Backbone model, finding modest
+increases in system costs. Lastly, an article sets up an indicator system for assessing environmental
+performance of European Union member states ranking, e.g., Estonian, Latvia and Lithuanian as
+moderate (Estonia and Latvia) to weak (Lithuania) in terms of sustainable energy performance
+score, based on 2019 data.
+
+District heating;
+District cooling;
+Stakeholders;
+Sustainability indicators;
+Energy system transition;
+
+1. SDEWES Special Issue
+In the first article of the SDEWES special issue, DelBusto & Mainar-Toledo [1] focus on European Union
+islands tackling climate change targets within a complex
+stakeholder arena. Based on experience from Málaga
+and Cádiz (both Spain) and Sète (France) the authors
+forward a suggested Participatory Process Protocol.
+They apply their methodology to four clusters of islands
+and use the experience for improving their approach.
+Rygg et al. previously assessed social acceptance of
+small hydropower station finding that local ownership is
+important for local acceptance and participation. This is
+also in line with extensive previous work by Hvelplund
+
+http://doi.org/10.54337/ijsepm.7269
+
+[2–4] showing the merits of local ownership when dealing with implementation and acceptance of energy technologies. Marczinkowski also previously emphasized
+the importance of island studies in the energy transition[5].
+District heating is seen as a key-component of decarbonised energy systems in Balen & Maljković [6]. Using
+Croatia as an example, the authors investigate the
+impact of having individual meters for measuring district heating usage as opposed to shared metres. The
+authors assess that individual meters can affect a reduction in heat usage of about 40% compared to apartment
+buildings with shared or common metres.
+
+*Corresponding author e-mail: poul@plan.aau.dk
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+1
+
+Sustainable Development of Energy, Water and Environmental Systems and Smart Energy Systems
+
+District heating is also the focal point for Pieper et al.
+[7], who look into the identification of heat sources of
+large heat pumps using geographical information system
+(GHIS) software. They investigate both natural sources
+such as lakes and rivers and man-made sources like
+industries considering quantities, temperature levels and
+location with respect to demand areas. Applying their
+approach to Estonia, Latvia and Lithuania, the authors
+found TWh-scale industrial excess heat potentials in
+each country – large proportions even within existing
+district heating areas.
+The energy systems of Estonia, Latvia and Lithuania
+are also in focus by Putkonen et al. [8] who address the
+phase-out of fossil-based electricity generation for
+renewable energy sources as well as a desynchronisation
+from the Russian electricity grid. Already planned measures would increase renewable energy exploitation
+from 45% to 92% with only a moderate impact on costs.
+The analyses by Putkonen and co-authors are based on
+the Backbone energy systems analysis model developed
+by Helistö and colleagues [9].
+2. Smart Energy Systems Special issue
+Volkova et al. [10] set up an approach to assess district
+cooling and applied it to Tallinn as a case. Through an
+assessment of cooling demands, distribution grid
+requirements and heat cooling supply options, the
+authors devised a district cooling system. The provision
+of cooling came from a mixture of natural cooling,
+waste heat-driven absorption heat pumps and electrical
+chillers. This is what a new article describes as a
+fourth-generation district cooling system [11]. Volkova
+has previously assessed district heating regions in
+Estonia [12] and presented an app for the promotion of
+4th generation district heating [13] in this journal.
+Fallahnejad et al. [14] investigate the differences in
+applying two distinct district heating system assessment
+approaches - the effective width approach versus a more
+detailed optimisation-based approach with the aim of
+identifying challenges from using the two approaches.
+Results from the two are to some extent similar, so a
+main determinant for the decision on approach is the
+data availability, where the former requires less data.
+District heating assessment methods in general is a
+recurring theme[15–20] in this journal, emphasizing the
+importance of the technology in the transition towards
+renewable energy-based energy systems.
+
+2
+
+3. Ordinary articles
+Rankinen et al. [21] focus on stakeholders involved in
+the transition toward renewable energy-based energy
+systems. Focusing on positive energy districts, the
+authors address the diversity of stakeholders engaged in
+the process of implementing such systems, concluding
+amongst others that “management needs to incorporate
+a stakeholder mindset” – i.e. keep a focus on the stakeholders affected by the process. Previous work in this
+journal includes Butu’s [22] with a focus on stakeholders’ engagement in rural community energy projects as
+well as the work on small hydro plants mentioned in
+Section 1. Proimakis also addressed stakeholders – here
+from a marine energy perspective[23] and Krogh et al.
+looked into the stakeholders of 4th generation district
+heating[24] and Bishoge[25], Tricarico [26] and Tomc
+[27–29] explored various constellations of community
+energy schemes with a focus on stakeholders.
+Szép [30] takes a starting point in COVID 19, the
+energy crisis and decarbonisation effort and developed a
+set of indicators to assess the performance of nations.
+Applying it to the European Union member states, they
+rate Denmark, Sweden, Austria and France as robust –
+whereas at the other end of their scale, Bulgaria,
+Hungary, Poland and Lithuania are rated as weak.
+Indicators have previously been explored in this journal
+by Hernandez-Hurtado and Martin-del-Campo[31].
+References
+[1]
+
+[2]
+
+[3]
+
+[4]
+
+[5]
+
+Del-Busto F, Mainar-Toledo MD, Ballestín-Trenado V.
+Participatory Process Protocol to Reinforce Energy Planning on
+Islands: A Knowledge Transfer in Spain. Int J Sustain Energy
+Plan Manag 2022. http://doi.org/10.54337/ijsepm.7090.
+Hvelplund F, Djørup S. Consumer ownership, natural
+monopolies and transition to 100% renewable energy systems.
+Energy
+2019;181:440–9.
+http://doi.org/10.1016/j.
+energy.2019.05.058.
+Hvelplund F, Möller B, Sperling K. Local ownership, smart
+energy systems and better wind power economy. Energy
+Strateg Rev 2013;1:164–70. http://doi.org/10.1016/j.
+esr.2013.02.001.
+Hvelplund F, Østergaard PA, Meyer NI. Incentives and barriers
+for wind power expansion and system integration in Denmark.
+Energy
+Policy
+2017;107.
+http://doi.org/10.1016/j.
+enpol.2017.05.009.
+Marczinkowski HM. Rethinking islands and their models in
+sustainable energy planning: How inclusive local perspectives
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+Poul Alberg Østergaard, Rasmus Magni Johannsen, Neven Duic and Henrik Lund
+
+[6]
+
+[7]
+
+[8]
+
+[9]
+
+[10]
+
+[11]
+
+[12]
+
+[13]
+
+[14]
+
+[15]
+
+[16]
+
+improve energy planning globally. Int J Sustain Energy Plan
+Manag 2022;33. http://doi.org/10.5278/ijsepm.6970.
+Balen I, Maljković D. A step towards decarbonised district
+heating systems: Assessment of the importance of individual
+metering on the system level. Int J Sustain Energy Plan Manag
+2022;34. http://doi.org/10.54337/ijsepm.7088.
+Pieper H, Lepiksaar K, Volkova A. GIS-based approach to
+identifying potential heat sources for heat pumps and chillers
+providing district heating and cooling. Int J Sustain Energy
+Plan Manag 2022;34. http://doi.org/10.54337/ijsepm.7021.
+Putkonen N, Lindroos TJ, Neniškis E, Žalostība D, Norvaiša E,
+Galinis A, et al. Modeling the Baltic countries’ Green Transition
+and Desynchronization from the Russian Electricity Grid. Int J
+Sustain Energy Plan Manag 2022;34. http://doi.org/10.54337/
+ijsepm.7059.
+Helistö N, Kiviluoma J, Ikäheimo J, Rasku T, Rinne E,
+O’Dwyer C, et al. Backbone—An Adaptable Energy Systems
+Modelling Framework. Energies 2019;12. http://doi.
+org/10.3390/en12173388.
+Volkova A, Hlebnikov A, Ledvanov A, Kirs L, Et al. District
+Cooling Network Planning. A Case Study of Tallinn. Int J
+Sustain Energy Plan Manag 2022;34. http://doi.org/10.54337/
+ijsepm.7011.
+Østergaard PA, Werner S, Dyrelund A, Lund H, Arabkoohsar A,
+Sorknæs P, et al. The four generations of district cooling - a
+categorization of the development in district cooling from
+origin to future prospect. Energy 2022. http://doi.org/10.1016/j.
+energy.2022.124098.
+Volkova A, Latõšov E, Lepiksaar K, Siirde A. Planning of
+district heating regions in Estonia. Int J Sustain Energy Plan
+Manag 2020;27. http://doi.org/10.5278/ijsepm.3490.
+Volkova A, Latõšov E, Mašatin V, Siirde A. Development of a
+user-friendly mobile app for the national level promotion of the
+4th generation district heating. Int J Sustain Energy Plan Manag
+2019;20. http://doi.org/10.5278/ijsepm.2019.20.3.
+Fallahnejad M, Kranzl L, Hummel M. District heating
+distribution grid costs: a comparison of two approaches. Int J
+Sustain Energy Plan Manag 2022;34. http://doi.org/10.54337/
+ijsepm.7013.
+Röder J, Meyer B, Krien U, Zimmermann J, Stürhmann T,
+Zondervan E. Optimal Design of District Heating Networks
+with Distributed Thermal Energy Storages – Method and Case
+Study. Int J Sustain Energy Plan Manag 2021;31. http://doi.
+org/10.5278/ijsepm.6348.
+Mathias K, Bachmann M, Kriegel M. Methodology to design
+district heating systems with respect to local energy potentials,
+CO2-emission restrictions, and federal subsidies using oemof.
+Int J Sustain Energy Plan Manag 2021;31. http://doi.
+org/10.5278/ijsepm.6323.
+
+[17] Bai Y, Gong M, Wang J, Li B, Zhang L. A temperature control
+strategy to achieve low-temperature district heating in North
+China. Int J Sustain Energy Plan Manag 2020;25. http://doi.
+org/10.5278/ijsepm.3392.
+[18] Dénarié A, Macchi S, Fattori F, Spirito G, Motta M, Persson U.
+A validated method to assess the network length and the heat
+distribution costs of potential district heating systems in Italy.
+Int J Sustain Energy Plan Manag 2021;31. http://doi.
+org/10.5278/ijsepm.6322.
+[19] Brange L, Sernhed K, Thern M. Decision-making process for
+addressing bottleneck problems in district heating networks. Int
+J Sustain Energy Plan Manag 2019;20. http://doi.org/10.5278/
+ijsepm.2019.20.4.
+[20] Pellegrini M. Classification through analytic hierarchy process
+of the barriers in the revamping of traditional district heating
+networks into low temperature district heating: an Italian case
+study. Int J Sustain Energy Plan Manag 2019;20. http://doi.
+org/10.5278/ijsepm.2019.20.5.
+[21] Rankinen J-A, Lakkala S, Haapasalo H, Hirvonen-Kantola S.
+Stakeholder management in PED projects: challenges and
+management model. Int J Sustain Energy Plan Manag 2022;34.
+http://doi.org/10.54337/ijsepm.6979.
+[22] Butu AI, Strachan P. Navigating Pathways for Community
+Renewable Electricity in Rural Areas: Exploring Stakeholders’
+Perspectives on Shape Community Project. Int J Sustain
+Energy Plan Manag 2022. http://doi.org/10.5278/ijsepm.6813.
+[23] Proimakis N, Hooper T, Østergaard PA. The role of small-scale
+and community-based projects in future development of the
+marine energy sector. Int J Sustain Energy Plan Manag 2021.
+http://doi.org/10.5278/ijsepm.6657.
+[24] Krog L, Sperling K, Svangren MK, Hvelplund F. Consumer
+involvement in the transition to 4th generation district heating.
+Int J Sustain Energy Plan Manag 2020;29. http://doi.
+org/10.5278/ijsepm.4627.
+[25] Bishoge OK, Kombe GG, Mvile BN. Community participation
+in the renewable energy sector in Tanzania. Int J Sustain Energy
+Plan Manag 2020;28. http://doi.org/10.5278/ijsepm.4477.
+[26] Tricarico L. Community Energy Enterprises in the Distributed
+Energy Geography. Int J Sustain Energy Plan Manag 2018;18.
+http://doi.org/10.5278/ijsepm.2018.18.6.
+[27] Tomc E, Vassallo AM. The effect of individual and communal
+electricity generation, consumption and storage on urban
+Community Renewable Energy Networks (CREN): an
+Australian case. Int J Sustain Energy Plan Manag 2016;11.
+http://doi.org/dx.doi.org/10.5278/ijsepm.2016.11.3.
+[28] Tomc E, Vassallo AM. Community Renewable Energy
+Networks in urban contexts: the need for a holistic approach.
+Int J Sustain Energy Plan Manag 2015;8:31–42. http://doi.
+org/10.5278/ijsepm.2015.8.4.
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+3
+
+Sustainable Development of Energy, Water and Environmental Systems and Smart Energy Systems
+
+[29] Tomc E, Vassallo AM. Community electricity and storage
+central management for multi-dwelling developments: an
+analysis of operating options. Int J Sustain Energy Plan Manag
+2018;17. http://doi.org/10.5278/ijsepm.2018.17.3.
+[30] Szép TS, Pálvölgyi T, Kármán-Tamus É. Indicator-based
+assessment of sustainable energy performance in the European
+
+4
+
+Union. Int J Sustain Energy Plan Manag 2022;34. http://doi.
+org/10.54337/ijsepm.7055.
+[31] Hernandez-Hurtado U, Martin-del-Campo C. A development of
+indicators for the sustainability assessment of the Mexican
+power system planning. Int J Sustain Energy Plan Manag
+2021;32. http://doi.org/10.5278/ijsepm.6572.
+
+International Journal of Sustainable Energy Planning and Management Vol. 34 2022
+
+
