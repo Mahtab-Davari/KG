@@ -1,5 +1,5 @@
 
-Abstract: In recent years, the world’s population living in cities has been rapidly increasing. Cities are
+In recent years, the world’s population living in cities has been rapidly increasing. Cities are
 transforming their infrastructure in a smarter and more efficient way so that sustainable development
 forms part of their long-term strategy. However, this transformation does not always result in
 expected benefits due to a variety of factors such as an absence of social acceptance, a lack of holistic
@@ -19,8 +19,8 @@ Indicators (KPIs) are defined.
 Keywords: smart city impact assessment; sustainable urban development; smart city pilot; urban
 transformation; positive energy districts; carbon-neutral cities
 
-1. Introduction
-1.1. The Necessity of Impact Assessment
+
+ The Necessity of Impact Assessment
 According to the United Nations [1] 68% of the world’s population is projected to live
 in urban areas by the year 2050; cities, therefore, are anticipated to face new challenges in
 sustainably integrating further populace, such as a lack of appropriate infrastructure for
@@ -34,22 +34,22 @@ among scholars, environmental policy makers and government agencies [5]. However
 smart city is not just about creating technically viable urban areas and stimulating economic
 growth; it requires a multifaceted and multidimensional approach that promotes a structural transformation in the urban ecosystem, directing the development of cities towards
 their “smartness” in areas such as economy, governance, social, environment, mobility and
-ICT [6]. According to the International Energy Agency (IEA), “the advantages of cities in
+ICT. According to the International Energy Agency (IEA), “the advantages of cities in
 net-zero transitions vary greatly from one city to another, but they all have considerable
 
 
 
-potential to turn national ambition into practice” [7]. Additionally, the EU’s green agenda
-for urban areas [8] promotes horizontal initiatives that develop common methods for the
+potential to turn national ambition into practice” . Additionally, the EU’s green agenda
+for urban areas  promotes horizontal initiatives that develop common methods for the
 evaluation and monitoring of smart city communities. To this end, our aim is to address
 the smart city aspects related to sustainability and to define a methodology that any city
 can adopt to contribute to its smart transformation, in line with the vision of the European
-Commission [9].
-1.2. International Literature Review in Relation to Evaluation of Impact of Smart City
+Commission.
+ International Literature Review in Relation to Evaluation of Impact of Smart City
 Interventions
-The concept of the smart city has gained popularity in recent years. According to [10],
+The concept of the smart city has gained popularity in recent years. According to,
 “smart city” and “digital city” are the most used terminologies in literature to indicate
-the transformation of urban areas. The European Commission [11] defines a smart city as
+the transformation of urban areas. The European Commission  defines a smart city as
 “a place where traditional networks and services are made more efficient with the use of
 digital and telecommunication technologies for the benefit of its inhabitants and business”.
 There is a variety of domains that smart cities may comprise and interlink with; however,
@@ -60,47 +60,47 @@ governance, smart living, smart environment, smart mobility and smart people. Th
 framework examines the building sector integration and its potential increased effectiveness via the utilization of smart city technologies, specifically smart energy, smart mobility,
 smart living and smart environment. The authors of [16] highlight that the domain of
 energy comprises an additional domain by itself, which has indeed gained increased significance in recent months in a European, but also a global, context. A different view is
-approached by the authors of [17], where it is argued that the common architecture for
+approached by the authors of , where it is argued that the common architecture for
 smart cities needs to be multi-tier, consisting of five main layers (natural environment, hard
 non-ICT-infrastructure, hard-ICT-infrastructure, services and soft-infrastructure). A similar
-approach is adopted by the authors of [18], where they divide the smart city into three
+approach is adopted by the authors of, where they divide the smart city into three
 dimensions: technology (hardware and software infrastructures), population (creativity,
 diversity and education) and institutions (governance and policy). The technological aspects of smart cities have been identified as the bridging, but nevertheless core, ingredients
 of urban transformation, contributing to the clarity of synergies and dependencies among
-various domains [19] and enhancing the digital city concept towards smart cities [10]; a
+various domains and enhancing the digital city concept towards smart cities [10]; a
 more specific analysis on the pervasive use of ICT within the context of smart cities is
-provided in [20]. The Smart City Index (SCI) [21] attempts to further generalize the smart
+provided in . The Smart City Index (SCI)  attempts to further generalize the smart
 city domains, categorizing them into smart city assessment, economy, human capital management, mobility, environment and quality of life. It is evident that the energy domain as
 a whole, and its core role within sustainability, sits centrally in the smart city development
-sphere, embracing, in addition, the digital advancements of the energy sector [22].
+sphere, embracing, in addition, the digital advancements of the energy sector.
 Impact assessment methodologies for evaluating smart city transformation programs
 have been developed in recent years, aimed at creating generalized patterns, context and
 processes to assist relevant stakeholders towards implementing efficiently transformative
-actions and utilizing control mechanisms [23]. An analysis performed by URENIO Research
+actions and utilizing control mechanisms . An analysis performed by URENIO Research
 and ITI-CERTH on 20 cities showed that the most significant factors on the realization
 of smart city actions relate to institutional barriers; thus, they suggest that development
 and impact assessment methodologies should embrace key stakeholders and carefully
-consider the interactions and parameters of localization [24]. Knowledge representation
+consider the interactions and parameters of localization . Knowledge representation
 utilizing ontologies is proposed in [25] to map linkages and dependencies, with the aim
 of also addressing the prioritization of significance. A theoretical framework utilizing
-the Genova smart city association is described in [26] to approach the direct and indirect
-benefit identification of smart city partner companies, while in [27], a dashboard approach
+the Genova smart city association is described in  to approach the direct and indirect
+benefit identification of smart city partner companies, while in, a dashboard approach
 is analyzed with the aim of quantifying, using a five-step process, the performance of
 related investments. KPIs serve in such quantification with the additional scope to track
 
 
-overall performance in wider smart city domains relating to sustainability [28], but also to
-compare performance among different cities [29]. In [30], the authors proposed 16 KPIs
+overall performance in wider smart city domains relating to sustainability , but also to
+compare performance among different cities [29]. In , the authors proposed 16 KPIs
 for measuring the performance of smart city actions, which require both qualitative and
-quantitative analysis to be calculated, while ISO 37101 [31] provides a comprehensive highlevel process for implementing sustainable transformations, proposing sectorial indicators
+quantitative analysis to be calculated, while ISO 37101 provides a comprehensive highlevel process for implementing sustainable transformations, proposing sectorial indicators
 that need to be considered via a combined strategic and operational implementation. ISO
 37122 establishes an example list of indicators, categorizing them into 19 domains relating
-to sustainability [32].
-A bottom-up approach is used in [33] to define a taxonomy of 413 detailed indicators
+to sustainability .
+A bottom-up approach is used in  to define a taxonomy of 413 detailed indicators
 to evaluate, in 10 domains and with 5 types of indicators, the performance of actions in
 the context of smart sustainable cities. On the other hand, the standardized normalization
-of indicators is proposed in [34,35] to link specific domain performance with wider city
-objectives and assist with ranking and comparison exercises. The authors of [36] propose
+of indicators is proposed in  to link specific domain performance with wider city
+objectives and assist with ranking and comparison exercises. The authors of  propose
 the use of weighting systems to link city objectives with domain performance, such as
 in [37], where the link with mobility is studied. Such top-down approaches offer a wider
 performance evaluation and policy-related context, although they might be lacking the
@@ -116,13 +116,13 @@ their methodological approaches.
 1.3. Relevant Work from Large Scale Projects
 The transition of the passive, reactively changing processes and infrastructure of
 existing European cities towards more citizen-centric, environmentally-friendly smart
-cities, comprises a high priority in the European’s Commission agenda [38]. In this work,
+cities, comprises a high priority in the European’s Commission agenda . In this work,
 we gather lessons from previous prominent smart city-related projects, and we formulate an informed, robust and novel methodology for assessing and abetting the smart
 city transformation; we focus, as such, on the thorough analysis and critical review of
 relevant European projects and initiatives. A detailed understanding of four prominent
 methodologies from relevant projects under the Europeans Commission’s (EC) Horizon
-2020 umbrella (CITYkeys [39]; Smart Cities Information System-SCIS [40]; City VITAlity
-Sustainability-CIVITAS [41]; Triangulum [42]) was achieved and resulted in the evaluation
+2020 umbrella (CITYkeys ; Smart Cities Information System-SCIS; City VITAlity
+Sustainability-CIVITAS ; Triangulum ) was achieved and resulted in the evaluation
 of the appropriateness and soundness of the Key Performance Indicators (KPIs) these
 projects propose.
 CITYkeys, defined as a holistic indicator framework, is aimed at facilitating and enabling stakeholders in projects or cities to learn from each other, create trust in solutions, and
@@ -133,7 +133,7 @@ on the creation of smart cities [43]. Focusing on energy, mobility and transport
 SCIS showcases solutions in the fields of energy efficiency in buildings, energy system
 integration, sustainable energy solutions on a district level, smart cities and communities
 and strategic sustainable urban planning.
-CIVITAS is a H2020 city transport initiative aimed at analyzing transport metrics [44].
+CIVITAS is a H2020 city transport initiative aimed at analyzing transport metrics .
 The CIVITAS initiative is a network for cities that aims to achieve a significant change in the
 modal split towards sustainable, efficient and cleaner transport modes, by introducing ambitious measures and policies. It proposes KPIs concerning mostly the transportation sector.
 TRIANGULUM, is a recently completed Smart Cities lighthouse project, which presented a process of evaluation and monitoring that adopted a seven-stage impact assessment methodology, supporting replication by ensuring compatibility with other generic
@@ -553,9 +553,9 @@ of the KPIs list, as well as their data-normalization approach, to allow for an 
 and effective comparison. In step 7, an evaluation process is presented to highlight new
 findings about success factors and strategies to overcome possible barriers during the
 
-Smart Cities 2022, 5
 
-95
+
+
 
 implementation and the operation phases. This step is essentially a sensitivity analysis
 of the process. The three phases of project development (design, implementation and
@@ -568,7 +568,7 @@ are possible obstacles that could prevent the full implementation of the methodo
 The following table (Table 2) presents all parties involved in the proposed methodology,
 as well as the stages of participation.
 
-2.2. Understanding a City’s Objectives
+
 In Europe, cities have been typically developing strategic plans through initiatives
 such as the Covenant of Mayors [46], which brings together many municipalities that
 voluntarily commit to implementing EU climate and energy targets. At a national level
@@ -813,7 +813,7 @@ in several.
 
 
 
-2.5. Collaboration of Energy Experts and City Representatives
+
 As mentioned in previous sections, there are three separate approaches to fully understanding a city’s needs for smart transformation. Throughout this process, many KPIs
 are proposed, but further evaluation and in-depth analysis is required to determine a
 final list of KPI interventions. Figure 3 presents the collaboration process among energy
@@ -906,14 +906,14 @@ among
 expertsexperts
 and city and
 representatives.
-Figure3. 3.
+
 Collaboration
 among
 city representatives.
 
-2.6. Final KPIs List and Data Collection Methodology
 
-2.6. An
+
+An
 Final
 KPIs List
 and Data
@@ -1045,7 +1045,7 @@ of KPI definitions, calculation types, data needs and constraints should be avai
 
 
 
-2.7. Normalization Methodology
+
 As mentioned before, KPIs are an important tool for assessing the results of smart city
 projects, as well as providing valuable information to project managers and city stakeholders. Their use is important for future urban planning, as well as for the development of
 sustainable strategies, as long as they provide the right information in the right way. In
@@ -1103,13 +1103,13 @@ on energy data takes place based on the Heating and Cooling Degree Days of the c
 99
 characteristics of the study area (e.g., apartment, building, district etc.) that leads to the
 
-4. Energy
+
 Energy related
 related KPI-normalization
 KPI-normalization process.
 process.
 
-2.7.2. Non-Energy Related KPIs
+
 There are various aspects that affect KPIs, so the data need to be analyzed ad-hoc and
 as as
 sunny
@@ -1319,7 +1319,7 @@ phase
 is linked to
 information, communication and participation activities.
 
-2.8.1.The
+The
 Planning
 Phase
 planning
@@ -1348,7 +1348,7 @@ interventions. The involvement of stakeholders, as well as the appropriate infor
 communication activities throughout the implementation phase of the intervention, are of
 great importance for the successful execution and prevention of conflicts, as defined during
 the planning phase.
-2.8.3. Operational Phase
+ Operational Phase
 The implementation phase is the period during which the intervention is made available to the public. Target groups, which are directly affected by the implementation actions,
 can use the intervention or are influenced by the results of the intervention. During this
 period, the implementation of the monitoring and evaluation framework, as set out in this
@@ -1412,7 +1412,7 @@ Impacts
 
 General impacts
 
-Impact 1
+
 
 Impact Description
 
