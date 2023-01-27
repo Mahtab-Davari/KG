@@ -19,18 +19,16 @@ Indicators (KPIs) are defined.
 Keywords: smart city impact assessment; sustainable urban development; smart city pilot; urban
 transformation; positive energy districts; carbon-neutral cities
 
-
- The Necessity of Impact Assessment
-According to the United Nations [1] 68% of the world’s population is projected to live
+According to the United Nations 68% of the world’s population is projected to live
 in urban areas by the year 2050; cities, therefore, are anticipated to face new challenges in
 sustainably integrating further populace, such as a lack of appropriate infrastructure for
 sustainable energy and automated systems, applications and commercial arrangements,
-digital security, network connectivity and data capacity [2]. Cities will be required to
+digital security, network connectivity and data capacity . Cities will be required to
 transform their infrastructures in a smarter, more efficient and resilient way so that sustainable development forms part of their long-term strategy and a better quality of life
-is assured to their citizens. The concept of the smart city is multidimensional [3], with
+is assured to their citizens. The concept of the smart city is multidimensional , with
 the aim of increasing urban sustainability and quality of life while pursuing economic
-development among its citizens [4]. Additionally, sustainability has gained popularity
-among scholars, environmental policy makers and government agencies [5]. However, a
+development among its citizens. Additionally, sustainability has gained popularity
+among scholars, environmental policy makers and government agencies . However, a
 smart city is not just about creating technically viable urban areas and stimulating economic
 growth; it requires a multifaceted and multidimensional approach that promotes a structural transformation in the urban ecosystem, directing the development of cities towards
 their “smartness” in areas such as economy, governance, social, environment, mobility and
@@ -67,7 +65,7 @@ approach is adopted by the authors of, where they divide the smart city into thr
 dimensions: technology (hardware and software infrastructures), population (creativity,
 diversity and education) and institutions (governance and policy). The technological aspects of smart cities have been identified as the bridging, but nevertheless core, ingredients
 of urban transformation, contributing to the clarity of synergies and dependencies among
-various domains and enhancing the digital city concept towards smart cities [10]; a
+various domains and enhancing the digital city concept towards smart cities ; a
 more specific analysis on the pervasive use of ICT within the context of smart cities is
 provided in . The Smart City Index (SCI)  attempts to further generalize the smart
 city domains, categorizing them into smart city assessment, economy, human capital management, mobility, environment and quality of life. It is evident that the energy domain as
@@ -81,7 +79,7 @@ and ITI-CERTH on 20 cities showed that the most significant factors on the reali
 of smart city actions relate to institutional barriers; thus, they suggest that development
 and impact assessment methodologies should embrace key stakeholders and carefully
 consider the interactions and parameters of localization . Knowledge representation
-utilizing ontologies is proposed in [25] to map linkages and dependencies, with the aim
+utilizing ontologies is proposed in  to map linkages and dependencies, with the aim
 of also addressing the prioritization of significance. A theoretical framework utilizing
 the Genova smart city association is described in  to approach the direct and indirect
 benefit identification of smart city partner companies, while in, a dashboard approach
@@ -90,7 +88,7 @@ related investments. KPIs serve in such quantification with the additional scope
 
 
 overall performance in wider smart city domains relating to sustainability , but also to
-compare performance among different cities [29]. In , the authors proposed 16 KPIs
+compare performance among different cities . In , the authors proposed 16 KPIs
 for measuring the performance of smart city actions, which require both qualitative and
 quantitative analysis to be calculated, while ISO 37101 provides a comprehensive highlevel process for implementing sustainable transformations, proposing sectorial indicators
 that need to be considered via a combined strategic and operational implementation. ISO
@@ -102,7 +100,7 @@ the context of smart sustainable cities. On the other hand, the standardized nor
 of indicators is proposed in  to link specific domain performance with wider city
 objectives and assist with ranking and comparison exercises. The authors of  propose
 the use of weighting systems to link city objectives with domain performance, such as
-in [37], where the link with mobility is studied. Such top-down approaches offer a wider
+in , where the link with mobility is studied. Such top-down approaches offer a wider
 performance evaluation and policy-related context, although they might be lacking the
 detail and operational effectiveness that detailed bottom-up KPI development might offer.
 Our literature review revealed the lack of a holistic methodology for assessing the
@@ -129,7 +127,7 @@ CITYkeys, defined as a holistic indicator framework, is aimed at facilitating an
 monitor progress, by means of a common integrated performance measurement framework.
 SCIS is defined as a common platform for data collection and monitoring. SCIS is
 a knowledge platform to exchange data, experience and know-how and to collaborate
-on the creation of smart cities [43]. Focusing on energy, mobility and transport and ICT,
+on the creation of smart cities . Focusing on energy, mobility and transport and ICT,
 SCIS showcases solutions in the fields of energy efficiency in buildings, energy system
 integration, sustainable energy solutions on a district level, smart cities and communities
 and strategic sustainable urban planning.
@@ -149,11 +147,8 @@ indicators for each framework, the type of indicator, the assessment scale they 
 to and the related impact categories.
 
 
-Number of indicators
-
-1.4. Purpose and Approach
 Our literature review and detailed analysis of large scale projects reveals that, while
-previous studies have analyzed relevant KPIs for large-scale smart city projects [45], there
+previous studies have analyzed relevant KPIs for large-scale smart city projects, there
 is a need to better understand the evaluation process, integrating both bottom-up and topdown approaches, including city goals and other stakeholder needs. The research question
 that our work is aiming to address is how to accurately measure the impact of actions taken
 by cities on their way to smart transformation. The objectives of this research work are to
@@ -194,148 +189,17 @@ methodology for the city of Espoo. Section 4 presents the discussion on the resu
 Section 5 presents the conclusion of the paper.
 methodology for the city of Espoo. Section 4 presents the discussion on the results and
 Section 5 presents the conclusion of the paper.
-2. Materials and Methods
-There were
-no explicit materials used for the development of this research. However,
-2. Materials
-and Methods
-a number
-of methods
-werematerials
-carefullyused
-chosen
-anddevelopment
-used to complement
-the extensive
-literaThere were
-no explicit
-for the
-of this research.
-However,
-a
-ture review
-presented
-the previous
-methods included
-workshops
-on
-number
-of methods
-werein
-carefully
-chosen chapter.
-and usedOur
-to complement
-the extensive
-literature
-breaking-down,
-usingOur
-the methods
-KPIs, the included
-coordination
-of focuson
-groups
-with
-review
-presented understanding
-in the previousand
-chapter.
-workshops
-breakingspecific
-domains
-for
-analysis,
-as
-well
-as
-unstructured
-and
-structured
-interviews
-with
-didown, understanding and using the KPIs, the coordination of focus groups with specific
-rect
-and
-indirect
-city
-stakeholders.
-domains for analysis, as well as unstructured and structured interviews with direct and
-The
-term
-smart urban transformation has been broadly used and includes a variety
-indirect
-city
-stakeholders.
-of areas
-in which
-interventions
-can be made,
-smart used
-buildings
-and neighborhoods,
-The term
-smart
-urban transformation
-has such
-been as
-broadly
-and includes
-a variety of
-the use
-of biginterventions
-data, smart water
-waste
-management,
-the development
-of ICT infraareas
-in which
-can beand
-made,
-such
-as smart buildings
-and neighborhoods,
-the
-structure,
-smart
-transportation,
-etc. From
-these areas,
-corresponding
-categories
-of KPIs
-use
-of big data,
-smart
-water and waste
-management,
-the development
-of ICT
-infrastructure,
-can emerge
-with different
-characteristics
-and
-ways of measuring
-withoftools
-as dashsmart
-transportation,
-etc. From
-these areas,
-corresponding
-categories
-KPIssuch
-can emerge
-boards,
-smartcharacteristics
-city and national
-reporting
-tools, etc.with
-Our tools
-worksuch
-mainly
-focuses on the
-enwith
-different
+
+There were no explicit materials used for the development of this research. However,Materials and Methodsa number of methods werematerials carefullyused chosen
+and development used to complement the extensive literaThere were no explicit for the of this research.However,a ture review presented the previous methods included
+workshops on number of methods werein carefully chosen and used Our to complement the extensive literature breaking-down, using Our the methods KPIs, the included coordination of focuson groups with review presented understanding in the previousand chapter. workshops breakingspecific domains for analysis, as well as unstructured
+and structured interviews with didown, understanding and using the KPIs, the coordination of focus groups with specific rect and indirect city stakeholders.
+domains for analysis, as well as unstructured and structured interviews with direct and The term
+smart urban transformation has been broadly used and includes a variety indirect city stakeholders. of areas in which interventions can be made,smart used buildings
+and neighborhoods, The term smart urban transformation has such been as broadly and includesa variety of the use
+of biginterventions data, smart water waste management, the development of ICT infraareas in which can beand made, such as smart buildings and neighborhoods, the
+structure, smart transportation, etc. From these areas, corresponding categories of KPIs use of big data, smart water and waste management, the development of ICT
+infrastructure, can emerge with different characteristics and ways of measuring withoftools as dashsmart transportation, etc. From these areas, corresponding categories KPIssuch can emerge boards, smartcharacteristics city and national reporting tools, etc.with Our tools work such mainly focuses on the enwithdifferent
 and ways
 of measuring
 as dashboards,
@@ -570,7 +434,7 @@ as well as the stages of participation.
 
 
 In Europe, cities have been typically developing strategic plans through initiatives
-such as the Covenant of Mayors [46], which brings together many municipalities that
+such as the Covenant of Mayors , which brings together many municipalities that
 voluntarily commit to implementing EU climate and energy targets. At a national level
 (e.g., in Greece), local policies and laws require municipalities to prepare strategic plans,
 such as sustainable urban mobility plans and electric vehicle charging plans, and deliver
@@ -580,7 +444,7 @@ On the other hand, the involvement of relevant stakeholders who are in key posit
 is deemed necessary to ensure local engagement and to unlock efficient communication
 which may otherwise hindered by bureaucracy. In our approach for the study case of Espoo,
 a network of key stakeholders was put together within the framework of the European
-Commission-funded H2020 SPARCS project [47]. However, the most important part of
+Commission-funded H2020 SPARCS project . However, the most important part of
 this process is not simply the establishment of the anticipated solutions derived from a
 strategic plan, but the awareness of the needs of each city, as well as the understanding and
 clarification of the key-objectives, such as those presented below:
@@ -1386,7 +1250,7 @@ and transport node.
 
 For the city of Espoo, the first step of the methodology for understanding the objectives
 of the city has been made by analyzing the key-goals that meet its needs and requirements.
-The five key goals for the city of Espoo are listed below [48]:
+The five key goals for the city of Espoo are listed below:
 (i)
 
 AThe increased integration of renewable energy in the generation mix;
@@ -1403,7 +1267,7 @@ electrical network operation; and
 well-being.
 These key targets are captured via general impacts and 11 supplementary impacts,
 planned to be evaluated in the city of Espoo. In the following Table 3, and by following the
-SMART criteria—Specific, Measurable, Attainable, Relevant and Timely—[44], KPIs are
+SMART criteria—Specific, Measurable, Attainable, Relevant and Timely, KPIs are
 listed for the city of Espoo, based on the top-down analysis performed. It should be noted
 here that the KPIs referring to the increase/decrease of a measurement are a comparison
 with the situation before the implementation of the planned interventions.
@@ -1448,7 +1312,7 @@ Utilization of charging stations
 
 
 
-Table 4 presents the results of the bottom-up approach concept followed for the
+it presents the results of the bottom-up approach concept followed for the
 activities planned in the city of Espoo. To simplify the presentation of the results, the action
 level KPIs are already consolidated in the intervention level and, in the first column, the
 intervention identification and title are listed. In the second column, the number of actions
@@ -1517,7 +1381,7 @@ embed real-time functionalities and contain appropriate and transparent metrics 
 linked and evaluated at the municipal and national level could be designed to facilitate the
 appropriate monitoring of national targets and policy evaluation. In addition, the analysis
 of further domains that are deemed critical parts of urban living (for example, the domains
-included in the Smart City Index [21]) could contribute towards the multi-dimensional
+included in the Smart City Index ) could contribute towards the multi-dimensional
 expansion of our proposed methodology to include further priority areas.
 5. Conclusions
 Smart cities are the result of a transformation process that many cities around the
